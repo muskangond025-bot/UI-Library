@@ -1,9 +1,11 @@
 "use client";
 import React from 'react';
 import { ArrowLeft, Monitor, Smartphone, Tablet } from 'lucide-react';
-import { SectionJsonPanel } from './SectionJsonPanel';
-import { mockHeroBanner, mockHeroBanner2 } from '../../data/mock-sections/hero-banner';
-import { HeroBanner } from '../sections/HeroBanner';
+import { mockHeroBanner2, mockHeroBanner3 } from '../../data/mock-sections/hero-banner';
+import banner1Data from '../Banner/banner-1/banner-1.json';
+import { Banner1 } from '../Banner/banner-1/Banner1';
+import { Banner2 } from '../Banner/banner-2/Banner2';
+import { Banner3 } from '../Banner/banner-3/Banner3';
 
 interface PreviewProps {
   sectionId: string;
@@ -12,10 +14,13 @@ interface PreviewProps {
 
 export function SectionPreviewLayout({ sectionId, onBack }: PreviewProps) {
   const [viewport, setViewport] = React.useState<'desktop' | 'tablet' | 'mobile'>('desktop');
-  const [showJson, setShowJson] = React.useState(true);
 
-  // Derive mock data
-  const sectionData = sectionId === 'hero-banner-2' ? mockHeroBanner2 : mockHeroBanner; 
+  // Derive mock data based on the new ID structure (banner-1, banner-2...)
+  const sectionData = 
+    sectionId === 'banner-3' ? mockHeroBanner3 : 
+    sectionId === 'banner-2' ? mockHeroBanner2 : 
+    sectionId === 'banner-1' ? banner1Data : 
+    { id: sectionId, type: 'hero-banner', settings: { title: `Coming Soon: ${sectionId}` }, styles: {} }; 
 
   return (
     <div className="flex-1 flex flex-col h-screen overflow-hidden bg-gray-100">
@@ -44,18 +49,11 @@ export function SectionPreviewLayout({ sectionId, onBack }: PreviewProps) {
           </button>
         </div>
 
-        <div>
-          <button 
-            onClick={() => setShowJson(!showJson)}
-            className={`text-sm font-medium px-3 py-1.5 rounded-md border transition-colors ${showJson ? 'bg-gray-100 border-gray-200 text-gray-900' : 'bg-white border-gray-200 text-gray-600 hover:bg-gray-50'}`}
-          >
-            {showJson ? 'Hide JSON' : 'Show JSON'}
-          </button>
-        </div>
+        <div className="w-[100px]"></div>
       </header>
 
       <div className="flex-1 flex overflow-hidden relative">
-        <div className={`flex-1 overflow-auto flex justify-center items-start p-8 transition-all duration-300 ${showJson ? 'mr-96' : ''}`}>
+        <div className={`flex-1 overflow-auto flex justify-center items-start p-8 transition-all duration-300`}>
           <div 
             className="bg-white shadow-xl border border-gray-200 transition-all duration-300 overflow-y-auto flex flex-col text-gray-900 rounded-lg"
             style={{
@@ -65,17 +63,19 @@ export function SectionPreviewLayout({ sectionId, onBack }: PreviewProps) {
             }}
           >
             {/* Render actual component */}
-            {sectionId === 'hero-banner-1' || sectionId === 'hero-banner-2' ? (
-              <HeroBanner section={sectionData as any} />
+            {sectionId === 'banner-3' ? (
+              <Banner3 section={sectionData as any} />
+            ) : sectionId === 'banner-2' ? (
+              <Banner2 section={sectionData as any} />
+            ) : sectionId === 'banner-1' ? (
+              <Banner1 section={sectionData as any} />
             ) : (
               <div className="flex items-center justify-center flex-1 h-full min-h-[400px]">
-                <p className="text-sm font-medium text-gray-500">Preview not available for this variant yet.</p>
+                <p className="text-sm font-medium text-gray-500">Preview not built out for {sectionId} yet.</p>
               </div>
             )}
           </div>
         </div>
-
-        {showJson && <SectionJsonPanel data={sectionData} onClose={() => setShowJson(false)} />}
       </div>
     </div>
   );

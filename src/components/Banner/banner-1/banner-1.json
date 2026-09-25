@@ -1,0 +1,25 @@
+{
+  "id": "banner-1",
+  "type": "banner",
+  "variant": "cinematic-editorial",
+  "settings": {
+    "eyebrow": "Spring / Summer 26",
+    "titleLine1": "SILENT",
+    "titleLine2": "ELEGANCE",
+    "description": "Discover the new standard of modern luxury. Crafted with uncompromising precision and radical minimalism.",
+    "imagePortrait": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=2670&auto=format&fit=crop",
+    "primaryAction": {
+      "label": "Explore Collection",
+      "url": "#"
+    },
+    "secondaryAction": {
+      "label": "Watch Film",
+      "url": "#"
+    },
+    "footerText": "Paris / Milan / Tokyo"
+  },
+  "styles": {
+    "backgroundColor": "#F7F5F0",
+    "textColor": "#1A1A1A"
+  }
+}

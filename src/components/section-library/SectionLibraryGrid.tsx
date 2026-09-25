@@ -1,7 +1,10 @@
 import React from 'react';
 import { SectionLibraryCard } from './SectionLibraryCard';
-import { HeroBanner } from '../sections/HeroBanner';
-import { mockHeroBanner, mockHeroBanner2 } from '../../data/mock-sections/hero-banner';
+import { Banner1 } from '../Banner/banner-1/Banner1';
+import { Banner2 } from '../Banner/banner-2/Banner2';
+import { Banner3 } from '../Banner/banner-3/Banner3';
+import { mockHeroBanner2, mockHeroBanner3 } from '../../data/mock-sections/hero-banner';
+import banner1Data from '../Banner/banner-1/banner-1.json';
 
 interface GridProps {
   category: string;
@@ -9,21 +12,48 @@ interface GridProps {
 }
 
 export function SectionLibraryGrid({ category, onSelectSection }: GridProps) {
-  const sections = [
+  // Configured the first 3 actual components
+  const baseHeroSections = [
     { 
-      id: 'hero-banner-1', 
-      title: 'Standard Hero', 
-      description: 'Centered text with background image',
-      previewComponent: <HeroBanner section={mockHeroBanner as any} />
+      id: 'banner-1', 
+      title: 'Cinematic Editorial', 
+      description: 'Premium fashion editorial with massive typography and parallax',
+      previewComponent: <Banner1 section={banner1Data as any} />
     },
     { 
-      id: 'hero-banner-2', 
+      id: 'banner-2', 
       title: 'Left-Aligned Hero', 
       description: 'Left-aligned text with light theme and overlay',
-      previewComponent: <HeroBanner section={mockHeroBanner2 as any} />
+      previewComponent: <Banner2 section={mockHeroBanner2 as any} />
     },
-    { id: 'hero-banner-3', title: 'Video Hero', description: 'Background video with overlay text' },
+    { 
+      id: 'banner-3', 
+      title: 'Awwwards / Motion Hero', 
+      description: 'Ultra-premium tech layout with giant typography',
+      previewComponent: <Banner3 section={mockHeroBanner3 as any} />
+    },
   ];
+
+  // Generate placeholders for banner-4 through banner-20
+  const placeholderHeroSections = Array.from({ length: 17 }).map((_, i) => ({
+    id: `banner-${i + 4}`,
+    title: `Banner ${i + 4}`,
+    description: `Design placeholder for Banner ${i + 4}`,
+    previewComponent: undefined
+  }));
+
+  const sections = category === 'hero' 
+    ? [...baseHeroSections, ...placeholderHeroSections] 
+    : [];
+
+  if (category === 'hero-carousel') {
+    return (
+      <div className="p-8">
+        <h2 className="text-2xl font-bold text-gray-900 mb-2">Hero Carousel</h2>
+        <p className="text-gray-500 mb-8">This category will be populated later as requested.</p>
+      </div>
+    );
+  }
 
   return (
     <div className="p-8 lg:p-12 max-w-7xl mx-auto w-full">

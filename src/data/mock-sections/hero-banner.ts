@@ -43,3 +43,25 @@ export const mockHeroBanner2 = {
     overlay: true
   }
 };
+
+export const mockHeroBanner3 = {
+  id: "hero-3",
+  type: "awards-hero",
+  variant: "awwwards",
+  settings: {
+    title: "Future Motion",
+    description: "Award-winning digital experiences pushing the boundaries of web animation, 3D interaction, and ultra-premium design.",
+    backgroundImage: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2564&auto=format&fit=crop",
+    primaryAction: {
+      label: "View Showcase",
+      url: "#"
+    },
+    secondaryAction: {
+      label: "Our Process",
+      url: "#"
+    }
+  },
+  styles: {
+    theme: "dark"
+  }
+};
