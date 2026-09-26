@@ -1,0 +1,46 @@
+{
+  "id": "hero-carousel-2",
+  "type": "hero-carousel",
+  "variant": "cinematic-stacked-deck",
+  "settings": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "title": "URBAN",
+        "titleHighlight": "ECHOES",
+        "subtitle": "Collection 01",
+        "description": "Bold street styles intersecting with high-fashion tailoring. A new narrative in metropolitan wear.",
+        "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-2",
+        "title": "DESERT",
+        "titleHighlight": "MIRAGE",
+        "subtitle": "Collection 02",
+        "description": "Earth tones and flowing fabrics designed for the heat. Where utility meets ethereal beauty.",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-3",
+        "title": "NEON",
+        "titleHighlight": "SYNTH",
+        "subtitle": "Collection 03",
+        "description": "Vibrant colors piercing through the dark. Inspired by nocturnal cityscapes and synthwave aesthetics.",
+        "image": "https://images.unsplash.com/photo-1509631179647-0c500ab14c50?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-4",
+        "title": "PURE",
+        "titleHighlight": "BLANC",
+        "subtitle": "Collection 04",
+        "description": "Minimalist white and ivory garments. The ultimate expression of clean, unstructured luxury.",
+        "image": "https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?w=1500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#EBE9E4",
+    "textColor": "#121212",
+    "accentColor": "#FF4400"
+  }
+}

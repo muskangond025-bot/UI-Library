@@ -15,6 +15,17 @@ import banner11Data from '../Banner/banner-11/banner-11.json';
 import banner12Data from '../Banner/banner-12/banner-12.json';
 import banner13Data from '../Banner/banner-13/banner-13.json';
 import banner14Data from '../Banner/banner-14/banner-14.json';
+import banner15Data from '../Banner/banner-15/banner-15.json';
+import banner16Data from '../Banner/banner-16/banner-16.json';
+import banner17Data from '../Banner/banner-17/banner-17.json';
+import banner18Data from '../Banner/banner-18/banner-18.json';
+import banner19Data from '../Banner/banner-19/banner-19.json';
+import banner20Data from '../Banner/banner-20/banner-20.json';
+import heroCarousel1Data from '../HeroCarousel/hero-carousel-1/hero-carousel-1.json';
+import heroCarousel2Data from '../HeroCarousel/hero-carousel-2/hero-carousel-2.json';
+import heroCarousel3Data from '../HeroCarousel/hero-carousel-3/hero-carousel-3.json';
+import heroCarousel4Data from '../HeroCarousel/hero-carousel-4/hero-carousel-4.json';
+import heroCarousel5Data from '../HeroCarousel/hero-carousel-5/hero-carousel-5.json';
 import { Banner1 } from '../Banner/banner-1/Banner1';
 import { Banner2 } from '../Banner/banner-2/Banner2';
 import { Banner3 } from '../Banner/banner-3/Banner3';
@@ -29,6 +40,17 @@ import { Banner11 } from '../Banner/banner-11/Banner11';
 import { Banner12 } from '../Banner/banner-12/Banner12';
 import { Banner13 } from '../Banner/banner-13/Banner13';
 import { Banner14 } from '../Banner/banner-14/Banner14';
+import { Banner15 } from '../Banner/banner-15/Banner15';
+import { Banner16 } from '../Banner/banner-16/Banner16';
+import { Banner17 } from '../Banner/banner-17/Banner17';
+import { Banner18 } from '../Banner/banner-18/Banner18';
+import { Banner19 } from '../Banner/banner-19/Banner19';
+import { Banner20 } from '../Banner/banner-20/Banner20';
+import { HeroCarousel1 } from '../HeroCarousel/hero-carousel-1/HeroCarousel1';
+import { HeroCarousel2 } from '../HeroCarousel/hero-carousel-2/HeroCarousel2';
+import { HeroCarousel3 } from '../HeroCarousel/hero-carousel-3/HeroCarousel3';
+import { HeroCarousel4 } from '../HeroCarousel/hero-carousel-4/HeroCarousel4';
+import { HeroCarousel5 } from '../HeroCarousel/hero-carousel-5/HeroCarousel5';
 
 interface PreviewProps {
   sectionId: string;
@@ -40,6 +62,17 @@ export function SectionPreviewLayout({ sectionId, onBack }: PreviewProps) {
 
   // Derive mock data based on the new ID structure (banner-1, banner-2...)
   const sectionData = 
+    sectionId === 'hero-carousel-5' ? heroCarousel5Data :
+    sectionId === 'hero-carousel-4' ? heroCarousel4Data :
+    sectionId === 'hero-carousel-3' ? heroCarousel3Data :
+    sectionId === 'hero-carousel-2' ? heroCarousel2Data :
+    sectionId === 'hero-carousel-1' ? heroCarousel1Data :
+    sectionId === 'banner-20' ? banner20Data : 
+    sectionId === 'banner-19' ? banner19Data : 
+    sectionId === 'banner-18' ? banner18Data : 
+    sectionId === 'banner-17' ? banner17Data : 
+    sectionId === 'banner-16' ? banner16Data : 
+    sectionId === 'banner-15' ? banner15Data : 
     sectionId === 'banner-14' ? banner14Data : 
     sectionId === 'banner-13' ? banner13Data : 
     sectionId === 'banner-12' ? banner12Data : 
@@ -97,7 +130,29 @@ export function SectionPreviewLayout({ sectionId, onBack }: PreviewProps) {
             }}
           >
             {/* Render actual component */}
-            {sectionId === 'banner-14' ? (
+            {sectionId === 'hero-carousel-5' ? (
+              <HeroCarousel5 section={sectionData as any} />
+            ) : sectionId === 'hero-carousel-4' ? (
+              <HeroCarousel4 section={sectionData as any} />
+            ) : sectionId === 'hero-carousel-3' ? (
+              <HeroCarousel3 section={sectionData as any} />
+            ) : sectionId === 'hero-carousel-2' ? (
+              <HeroCarousel2 section={sectionData as any} />
+            ) : sectionId === 'hero-carousel-1' ? (
+              <HeroCarousel1 section={sectionData as any} />
+            ) : sectionId === 'banner-20' ? (
+              <Banner20 section={sectionData as any} />
+            ) : sectionId === 'banner-19' ? (
+              <Banner19 section={sectionData as any} />
+            ) : sectionId === 'banner-18' ? (
+              <Banner18 section={sectionData as any} />
+            ) : sectionId === 'banner-17' ? (
+              <Banner17 section={sectionData as any} />
+            ) : sectionId === 'banner-16' ? (
+              <Banner16 section={sectionData as any} />
+            ) : sectionId === 'banner-15' ? (
+              <Banner15 section={sectionData as any} />
+            ) : sectionId === 'banner-14' ? (
               <Banner14 section={sectionData as any} />
             ) : sectionId === 'banner-13' ? (
               <Banner13 section={sectionData as any} />

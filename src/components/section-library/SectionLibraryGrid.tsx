@@ -14,6 +14,12 @@ import { Banner11 } from '../Banner/banner-11/Banner11';
 import { Banner12 } from '../Banner/banner-12/Banner12';
 import { Banner13 } from '../Banner/banner-13/Banner13';
 import { Banner14 } from '../Banner/banner-14/Banner14';
+import { Banner15 } from '../Banner/banner-15/Banner15';
+import { Banner16 } from '../Banner/banner-16/Banner16';
+import { Banner17 } from '../Banner/banner-17/Banner17';
+import { Banner18 } from '../Banner/banner-18/Banner18';
+import { Banner19 } from '../Banner/banner-19/Banner19';
+import { Banner20 } from '../Banner/banner-20/Banner20';
 import banner1Data from '../Banner/banner-1/banner-1.json';
 import banner2Data from '../Banner/banner-2/banner-2.json';
 import banner3Data from '../Banner/banner-3/banner-3.json';
@@ -28,6 +34,22 @@ import banner11Data from '../Banner/banner-11/banner-11.json';
 import banner12Data from '../Banner/banner-12/banner-12.json';
 import banner13Data from '../Banner/banner-13/banner-13.json';
 import banner14Data from '../Banner/banner-14/banner-14.json';
+import banner15Data from '../Banner/banner-15/banner-15.json';
+import banner16Data from '../Banner/banner-16/banner-16.json';
+import banner17Data from '../Banner/banner-17/banner-17.json';
+import banner18Data from '../Banner/banner-18/banner-18.json';
+import banner19Data from '../Banner/banner-19/banner-19.json';
+import banner20Data from '../Banner/banner-20/banner-20.json';
+import { HeroCarousel1 } from '../HeroCarousel/hero-carousel-1/HeroCarousel1';
+import heroCarousel1Data from '../HeroCarousel/hero-carousel-1/hero-carousel-1.json';
+import { HeroCarousel2 } from '../HeroCarousel/hero-carousel-2/HeroCarousel2';
+import heroCarousel2Data from '../HeroCarousel/hero-carousel-2/hero-carousel-2.json';
+import { HeroCarousel3 } from '../HeroCarousel/hero-carousel-3/HeroCarousel3';
+import heroCarousel3Data from '../HeroCarousel/hero-carousel-3/hero-carousel-3.json';
+import { HeroCarousel4 } from '../HeroCarousel/hero-carousel-4/HeroCarousel4';
+import heroCarousel4Data from '../HeroCarousel/hero-carousel-4/hero-carousel-4.json';
+import { HeroCarousel5 } from '../HeroCarousel/hero-carousel-5/HeroCarousel5';
+import heroCarousel5Data from '../HeroCarousel/hero-carousel-5/hero-carousel-5.json';
 
 interface GridProps {
   category: string;
@@ -121,28 +143,92 @@ export function SectionLibraryGrid({ category, onSelectSection }: GridProps) {
       description: 'Awwwards/Behance style with custom cursor, mix-blend modes, and overlapping parallax.',
       previewComponent: <Banner14 section={banner14Data as any} />
     },
+    { 
+      id: 'banner-15', 
+      title: 'Immersive 3D Motion', 
+      description: 'Based on PDF specs: 3D interactive tilt, SVG noise grain, magnetic cursor, and staggered kinetic text.',
+      previewComponent: <Banner15 section={banner15Data as any} />
+    },
+    { 
+      id: 'banner-16', 
+      title: 'Experimental Sliced Image', 
+      description: 'Image mask slicing, interactive cursor trails, SVG path drawing, and high-end digital glitch aesthetic.',
+      previewComponent: <Banner16 section={banner16Data as any} />
+    },
+    { 
+      id: 'banner-17', 
+      title: 'Multi-Layer Parallax Float', 
+      description: 'Interactive cursor-driven floating images, slanted infinite kinetic typography, and central glassmorphism block.',
+      previewComponent: <Banner17 section={banner17Data as any} />
+    },
+    { 
+      id: 'banner-18', 
+      title: 'Interactive Spotlight Reveal', 
+      description: 'Advanced Awwwards mask-reveal technique where the cursor acts as an X-Ray flashlight to reveal vibrant layers beneath.',
+      previewComponent: <Banner18 section={banner18Data as any} />
+    },
+    { 
+      id: 'banner-19', 
+      title: 'Horizontal Accordion Gallery', 
+      description: 'Untraditional interactive layout with 4 dynamic flexing columns. Features container expansion, layout animations, and text rotation on hover.',
+      previewComponent: <Banner19 section={banner19Data as any} />
+    },
+    { 
+      id: 'banner-20', 
+      title: 'Orbital Image Gallery', 
+      description: 'Futuristic rotating ring of 6 images with a brutalist text-scramble entrance animation in the center glassmorphism lockup.',
+      previewComponent: <Banner20 section={banner20Data as any} />
+    },
   ];
 
-  // Generate placeholders for banner-15 through banner-20
-  const placeholderHeroSections = Array.from({ length: 6 }).map((_, i) => ({
-    id: `banner-${i + 15}`,
-    title: `Banner ${i + 15}`,
-    description: `Design placeholder for Banner ${i + 15}`,
+  // Generate placeholders for banner-21 through banner-20 (Empty)
+  const placeholderHeroSections: any[] = [];
+
+  const baseCarouselSections = [
+    {
+      id: 'hero-carousel-1',
+      title: 'Cinematic Coverflow Carousel',
+      description: 'Awwwards-style premium 3D coverflow with blur filters, keyboard navigation, and dynamic typography.',
+      previewComponent: <HeroCarousel1 section={heroCarousel1Data as any} />
+    },
+    {
+      id: 'hero-carousel-2',
+      title: 'Stacked Deck Swipe Slider',
+      description: 'Modern split-layout carousel where images animate like a deck of cards falling away. Supports drag gestures.',
+      previewComponent: <HeroCarousel2 section={heroCarousel2Data as any} />
+    },
+    {
+      id: 'hero-carousel-3',
+      title: 'Cinematic Thumbnail Reveal',
+      description: 'Based on PDF specifications: Word-by-word text reveal, scale/press-in interactions, and visual progress bar animations.',
+      previewComponent: <HeroCarousel3 section={heroCarousel3Data as any} />
+    },
+    {
+      id: 'hero-carousel-4',
+      title: 'Magnetic Parallax Slider',
+      description: 'Based on PDF specifications: Magnetic cursor scaling, Circular progress indicator, Text swap/slide, and Swipe interactions.',
+      previewComponent: <HeroCarousel4 section={heroCarousel4Data as any} />
+    },
+    {
+      id: 'hero-carousel-5',
+      title: 'Cinematic Percentage Loader',
+      description: 'Based on PDF specifications: Massive Percentage Counter, Line-by-line text reveal, 3D Y-axis flip rotation, and ambient motion layers.',
+      previewComponent: <HeroCarousel5 section={heroCarousel5Data as any} />
+    }
+  ];
+
+  const placeholderCarouselSections = Array.from({ length: 15 }).map((_, i) => ({
+    id: `hero-carousel-${i + 6}`,
+    title: `Hero Carousel ${i + 6}`,
+    description: `Design placeholder for Hero Carousel ${i + 6}`,
     previewComponent: undefined
   }));
 
   const sections = category === 'hero' 
     ? [...baseHeroSections, ...placeholderHeroSections] 
+    : category === 'hero-carousel'
+    ? [...baseCarouselSections, ...placeholderCarouselSections]
     : [];
-
-  if (category === 'hero-carousel') {
-    return (
-      <div className="p-8">
-        <h2 className="text-2xl font-bold text-gray-900 mb-2">Hero Carousel</h2>
-        <p className="text-gray-500 mb-8">This category will be populated later as requested.</p>
-      </div>
-    );
-  }
 
   return (
     <div className="p-8 lg:p-12 max-w-7xl mx-auto w-full">

@@ -1,0 +1,42 @@
+{
+  "id": "hero-carousel-4",
+  "type": "hero-carousel",
+  "variant": "magnetic-parallax-slider",
+  "settings": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "title": "AVANT-GARDE",
+        "subtitle": "Collection 01",
+        "description": "Redefining the boundaries of modern fashion with unconventional structures.",
+        "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-2",
+        "title": "MONOCHROME",
+        "subtitle": "Collection 02",
+        "description": "The power of stark contrasts and timeless black and white palettes.",
+        "image": "https://images.unsplash.com/photo-1493655161922-ef9892f5a870?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-3",
+        "title": "VIBRANCE",
+        "subtitle": "Collection 03",
+        "description": "A celebration of color, texture, and uninhibited expression.",
+        "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-4",
+        "title": "FUTURE",
+        "subtitle": "Collection 04",
+        "description": "Glimpses into the tomorrow of wearable technology and aesthetics.",
+        "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=1500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#0A0A0A",
+    "textColor": "#FFFFFF",
+    "accentColor": "#FF0055"
+  }
+}

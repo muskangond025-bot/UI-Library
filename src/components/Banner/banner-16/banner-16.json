@@ -1,0 +1,26 @@
+{
+  "id": "banner-16",
+  "type": "banner",
+  "variant": "experimental-sliced",
+  "settings": {
+    "title": "FRACTURED",
+    "subtitle": "ELEGANCE",
+    "description": "Deconstructing traditional aesthetics. A visual exploration of fragmented forms and algorithmic beauty. The new digital brutalism.",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2564&auto=format&fit=crop",
+        "alt": "Abstract fashion glitch art"
+      }
+    ],
+    "cta": "INITIATE SEQUENCE",
+    "stats": [
+      {"label": "V", "value": "16.0"},
+      {"label": "FRAG", "value": "2048"}
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#050505",
+    "textColor": "#EAEAEA",
+    "accentColor": "#FF3366"
+  }
+}

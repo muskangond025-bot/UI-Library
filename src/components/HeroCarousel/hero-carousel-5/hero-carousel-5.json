@@ -1,0 +1,42 @@
+{
+  "id": "hero-carousel-5",
+  "type": "hero-carousel",
+  "variant": "cinematic-percentage-loader",
+  "settings": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "title": "TRANSCENDENCE",
+        "subtitle": "Phase 01",
+        "description": "Elevating structural design beyond the physical realm into the digital expanse.",
+        "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-2",
+        "title": "OBSCURA",
+        "subtitle": "Phase 02",
+        "description": "Mastering the interplay of deep shadows and stark, unforgiving light.",
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-3",
+        "title": "ZENITH",
+        "subtitle": "Phase 03",
+        "description": "The absolute peak of modern tailoring and avant-garde conceptualization.",
+        "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-4",
+        "title": "ECLIPSE",
+        "subtitle": "Phase 04",
+        "description": "A total masking of traditional norms. Embracing the void of new aesthetics.",
+        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=1500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#E8E8E8",
+    "textColor": "#1A1A1A",
+    "accentColor": "#FF3300"
+  }
+}

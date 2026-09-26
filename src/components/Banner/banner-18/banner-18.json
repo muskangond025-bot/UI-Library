@@ -1,0 +1,22 @@
+{
+  "id": "banner-18",
+  "type": "banner",
+  "variant": "interactive-spotlight",
+  "settings": {
+    "titleLine1": "SPRING",
+    "titleLine2": "SUMMER",
+    "titleLine3": "ARCHIVE",
+    "description": "Move your cursor to reveal the unseen. Exploring the duality of modern fashion through an interactive exploratory lens.",
+    "cta": "DISCOVER",
+    "image": {
+      "src": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=2840&auto=format&fit=crop",
+      "alt": "High fashion vibrant editorial"
+    },
+    "metadata": ["NO. 18", "PARIS", "2026"]
+  },
+  "styles": {
+    "backgroundColor": "#F4F3EF",
+    "textColor": "#1A1A1A",
+    "accentColor": "#FFFFFF"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "banner-17",
+  "type": "banner",
+  "variant": "multi-layer-parallax",
+  "settings": {
+    "titleLine1": "AVANT",
+    "titleLine2": "GARDE",
+    "marquee": "FUTURE OF FASHION • HAUTE COUTURE • DIGITAL REVOLUTION • ",
+    "description": "Exploring the intersection of physical garments and digital manifestation through multi-layered dimensional parallax.",
+    "cta": "VIEW COLLECTION",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1500&auto=format&fit=crop",
+        "alt": "Fashion portrait float 1"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1512413914594-523e11504958?q=80&w=1500&auto=format&fit=crop",
+        "alt": "Fashion portrait float 2"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1545291730-faff8ca1d4b0?q=80&w=1500&auto=format&fit=crop",
+        "alt": "Fashion portrait float 3"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#E5E5E5",
+    "textColor": "#121212",
+    "accentColor": "#FFFFFF"
+  }
+}

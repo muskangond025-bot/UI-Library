@@ -1,0 +1,42 @@
+{
+  "id": "hero-carousel-1",
+  "type": "hero-carousel",
+  "variant": "awwwards-coverflow",
+  "settings": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "title": "VANGUARD",
+        "subtitle": "Chapter 01",
+        "description": "Pushing the boundaries of modern digital brutalism and high fashion editorial layouts.",
+        "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-2",
+        "title": "CLASSIC",
+        "subtitle": "Chapter 02",
+        "description": "A return to form. Exploring minimal aesthetics with maximum visual impact.",
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-3",
+        "title": "FUTURE",
+        "subtitle": "Chapter 03",
+        "description": "Unveiling what's next. A cinematic look into the unwritten tomorrow of digital design.",
+        "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-4",
+        "title": "ARCHIVE",
+        "subtitle": "Chapter 04",
+        "description": "Preserving the essential. Curated moments frozen in perfect typographic harmony.",
+        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=1500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#050505",
+    "textColor": "#FFFFFF",
+    "accentColor": "#FF3366"
+  }
+}
