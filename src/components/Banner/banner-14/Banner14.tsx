@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef, useState, useEffect } from 'react';
 import { motion, useScroll, useTransform, useSpring, useMotionValue } from 'framer-motion';
+import { Navbar } from '../../shared/Navbar';
 
 export interface SectionProps {
   section: {
@@ -74,6 +75,7 @@ export function Banner14({ section }: SectionProps) {
       className="relative w-full min-h-screen overflow-hidden cursor-none selection:bg-black selection:text-white"
       style={{ backgroundColor: bg, color: textCol }}
     >
+      <Navbar variant="glass" />
       {/* 1. Custom Interactive Cursor */}
       <motion.div 
         className="fixed top-0 left-0 w-8 h-8 rounded-full border border-current pointer-events-none z-[100] flex items-center justify-center mix-blend-difference text-white"

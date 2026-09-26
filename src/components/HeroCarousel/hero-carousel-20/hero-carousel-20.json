@@ -1,0 +1,42 @@
+{
+  "id": "hero-carousel-20",
+  "type": "hero-carousel",
+  "variant": "parallax-magnetic",
+  "settings": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "title": "KINETIC",
+        "subtitle": "Motion 01",
+        "description": "Continuous movement defining the flow of time and space.",
+        "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-2",
+        "title": "STATIC",
+        "subtitle": "Motion 02",
+        "description": "Finding absolute peace in a stationary moment.",
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-3",
+        "title": "FLUID",
+        "subtitle": "Motion 03",
+        "description": "Adapting to the shape of whatever vessel we occupy.",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-4",
+        "title": "SOLID",
+        "subtitle": "Motion 04",
+        "description": "An unbreakable foundation built on pure determination.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#0A0A0A",
+    "textColor": "#FFFFFF",
+    "accentColor": "#00E5FF"
+  }
+}

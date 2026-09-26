@@ -1,0 +1,56 @@
+{
+  "id": "featured-category-2",
+  "type": "featured-category",
+  "variant": "bento-hover-reveal",
+  "settings": {
+    "title": "CURATED COLLECTIONS",
+    "subtitle": "SHOP BY CATEGORY",
+    "categories": [
+      {
+        "id": "1",
+        "name": "NEW ARRIVALS",
+        "description": "The latest styles for the season.",
+        "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1200&auto=format&fit=crop",
+        "link": "#",
+        "size": "large"
+      },
+      {
+        "id": "2",
+        "name": "DRESSES",
+        "description": "Elegant evening wear.",
+        "image": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?q=80&w=800&auto=format&fit=crop",
+        "link": "#",
+        "size": "small"
+      },
+      {
+        "id": "3",
+        "name": "OUTERWEAR",
+        "description": "Premium coats & jackets.",
+        "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop",
+        "link": "#",
+        "size": "small"
+      },
+      {
+        "id": "4",
+        "name": "ACCESSORIES",
+        "description": "Bags, belts and more.",
+        "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?q=80&w=800&auto=format&fit=crop",
+        "link": "#",
+        "size": "small"
+      },
+      {
+        "id": "5",
+        "name": "FOOTWEAR",
+        "description": "Boots & sneakers.",
+        "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=800&auto=format&fit=crop",
+        "link": "#",
+        "size": "small"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#fafafa",
+    "textColor": "#09090b",
+    "accentColor": "#09090b"
+  }
+}

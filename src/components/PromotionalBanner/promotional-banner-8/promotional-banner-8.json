@@ -1,0 +1,23 @@
+{
+  "id": "promotional-banner-8",
+  "type": "promotional",
+  "variant": "premium-bento",
+  "settings": {
+    "mainTitle": "The All-in-One Toolkit.",
+    "subTitle": "Power up your workflow.",
+    "description": "Everything you need to build faster, scale smarter, and design better in one unified platform.",
+    "ctaText": "Start Free Trial",
+    "ctaLink": "#",
+    "features": [
+      { "title": "Lightning Fast", "desc": "Zero latency architecture", "icon": "Zap", "colSpan": "col-span-12 md:col-span-4", "rowSpan": "row-span-1" },
+      { "title": "Bank-Grade Security", "desc": "End-to-end encryption", "icon": "ShieldCheck", "colSpan": "col-span-12 md:col-span-4", "rowSpan": "row-span-1" },
+      { "title": "Global CDN", "desc": "200+ edge locations", "icon": "Globe", "colSpan": "col-span-12 md:col-span-4", "rowSpan": "row-span-1" }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#f1f5f9",
+    "textColor": "#0f172a",
+    "cardBg": "#ffffff",
+    "accentColor": "#4f46e5"
+  }
+}

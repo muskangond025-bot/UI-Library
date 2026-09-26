@@ -1,0 +1,35 @@
+{
+  "id": "category-grid-5",
+  "type": "category-grid",
+  "variant": "experimental-slanted-parallelogram",
+  "settings": {
+    "title": "KINETIC ANGLES",
+    "categories": [
+      {
+        "id": "1",
+        "name": "TECH GEAR",
+        "description": "Urban utility.",
+        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "2",
+        "name": "ATHLEISURE",
+        "description": "Movement ready.",
+        "image": "https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "3",
+        "name": "Gorpcore",
+        "description": "Outdoor performance.",
+        "image": "https://images.unsplash.com/photo-1522273400909-fd1a8f77637e?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#e5e5e5",
+    "textColor": "#000000"
+  }
+}

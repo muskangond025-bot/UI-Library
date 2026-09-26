@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef, useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Navbar } from '../../shared/Navbar';
 
 export interface SectionProps {
   section: {
@@ -92,6 +93,7 @@ export function HeroCarousel2({ section }: SectionProps) {
       className="relative w-full h-screen min-h-[700px] overflow-hidden flex items-center selection:bg-black selection:text-white"
       style={{ backgroundColor: bg, color: textCol }}
     >
+      <Navbar variant="floating" />
       
       {/* Background ambient text (optional structural element) */}
       <div className="absolute top-10 left-10 pointer-events-none font-mono text-xs uppercase tracking-widest opacity-40">

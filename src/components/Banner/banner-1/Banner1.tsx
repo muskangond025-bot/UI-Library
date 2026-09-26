@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
+import { Navbar } from '../../shared/Navbar';
 
 export interface SectionProps {
   section: {
@@ -32,6 +33,7 @@ export function Banner1({ section }: SectionProps) {
       className="relative w-full h-[800px] sm:h-screen min-h-[700px] overflow-hidden flex items-center justify-center selection:bg-black selection:text-white"
       style={{ backgroundColor: styles.backgroundColor || '#F7F5F0', color: styles.textColor || '#1A1A1A' }}
     >
+      <Navbar variant="glass" />
       {/* Background massive typography (Behind Image, fades out) */}
       <div className="absolute inset-0 flex flex-col justify-between pointer-events-none z-0 overflow-hidden">
         <motion.div style={{ y: textY1 }} className="flex justify-center w-full pt-10 sm:pt-16">

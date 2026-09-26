@@ -1,0 +1,32 @@
+{
+  "id": "promotional-banner-10",
+  "type": "promotional",
+  "variant": "cinematic-glass-marquee",
+  "settings": {
+    "title": "AWWWARDS",
+    "subtitle": "Discover the unseen.",
+    "description": "Experience our state-of-the-art interactive glass components. Seamlessly integrating infinite motion, cinematic light sweeps, and 3D physics.",
+    "ctaText": "Explore Framework",
+    "ctaLink": "#",
+    "cardsRow1": [
+      { "title": "Design", "icon": "PenTool" },
+      { "title": "Develop", "icon": "Code" },
+      { "title": "Launch", "icon": "Rocket" },
+      { "title": "Scale", "icon": "TrendingUp" },
+      { "title": "Analyze", "icon": "PieChart" }
+    ],
+    "cardsRow2": [
+      { "title": "Secure", "icon": "Shield" },
+      { "title": "Connect", "icon": "Link" },
+      { "title": "Optimize", "icon": "Settings" },
+      { "title": "Cloud", "icon": "Cloud" },
+      { "title": "Mobile", "icon": "Smartphone" }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#020202",
+    "textColor": "#ffffff",
+    "accentColor": "#6366f1",
+    "secondaryAccent": "#ec4899"
+  }
+}

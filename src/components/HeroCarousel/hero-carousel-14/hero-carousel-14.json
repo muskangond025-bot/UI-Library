@@ -1,0 +1,42 @@
+{
+  "id": "hero-carousel-14",
+  "type": "hero-carousel",
+  "variant": "marquee-glitch",
+  "settings": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "title": "DISTORTION",
+        "subtitle": "Edition 01",
+        "description": "Challenging the conventional boundaries with disruptive aesthetics.",
+        "image": "https://images.unsplash.com/photo-1518893494013-481c1d8ed3fd?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-2",
+        "title": "FREQUENCY",
+        "subtitle": "Edition 02",
+        "description": "Tuning into the hidden signals of high fashion and street culture.",
+        "image": "https://images.unsplash.com/photo-1525268771113-32d9e9021a97?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-3",
+        "title": "SYNTHESIS",
+        "subtitle": "Edition 03",
+        "description": "A perfect amalgamation of organic forms and digital precision.",
+        "image": "https://images.unsplash.com/photo-1503435165685-648530ec12b0?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-4",
+        "title": "PARADOX",
+        "subtitle": "Edition 04",
+        "description": "Embracing contradictions to create something uniquely beautiful.",
+        "image": "https://images.unsplash.com/photo-1496309732348-3627f3f040ee?w=1500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#E5E5E5",
+    "textColor": "#000000",
+    "accentColor": "#FF0000"
+  }
+}

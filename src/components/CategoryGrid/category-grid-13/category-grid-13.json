@@ -1,0 +1,42 @@
+{
+  "id": "category-grid-13",
+  "type": "category-grid",
+  "variant": "alternating-timeline",
+  "settings": {
+    "title": "THE JOURNEY",
+    "categories": [
+      {
+        "id": "1",
+        "name": "CHAPTER I: ORIGINS",
+        "description": "Where the vision started.",
+        "image": "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "2",
+        "name": "CHAPTER II: ASCENT",
+        "description": "Reaching new heights.",
+        "image": "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "3",
+        "name": "CHAPTER III: PINNACLE",
+        "description": "The current standard.",
+        "image": "https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "4",
+        "name": "CHAPTER IV: FUTURE",
+        "description": "What lies beyond.",
+        "image": "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#050505",
+    "textColor": "#ffffff"
+  }
+}

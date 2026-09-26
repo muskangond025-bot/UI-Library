@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef, useState, useEffect } from 'react';
 import { motion, useScroll, useTransform, useSpring, useMotionValue } from 'framer-motion';
+import { Navbar } from '../../shared/Navbar';
 
 export interface SectionProps {
   section: {
@@ -81,6 +82,7 @@ export function Banner17({ section }: SectionProps) {
       className="relative w-full h-screen min-h-[900px] overflow-hidden selection:bg-black selection:text-white"
       style={{ backgroundColor: bg, color: textCol }}
     >
+      <Navbar variant="minimal" />
       
       {/* 1. Infinite Slanted Kinetic Marquee (Background) */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[200vw] rotate-[-15deg] opacity-[0.03] pointer-events-none flex flex-col gap-4 z-0">

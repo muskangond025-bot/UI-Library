@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef, useState, useEffect } from 'react';
 import { motion, useScroll, useTransform, useSpring, useMotionValue } from 'framer-motion';
+import { Navbar } from '../../shared/Navbar';
 
 export interface SectionProps {
   section: {
@@ -91,6 +92,7 @@ export function Banner16({ section }: SectionProps) {
       className="relative w-full h-screen overflow-hidden selection:bg-[#FF3366] selection:text-white"
       style={{ backgroundColor: bg, color: textCol }}
     >
+      <Navbar variant="glass" />
       
       {/* Dynamic Cursor Trail */}
       {Array.from({ length: 4 }).map((_, i) => {

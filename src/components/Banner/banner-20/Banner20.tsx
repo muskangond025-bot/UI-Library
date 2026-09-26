@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef, useState, useEffect } from 'react';
 import { motion, useScroll, useTransform, useSpring, useMotionValue } from 'framer-motion';
+import { Navbar } from '../../shared/Navbar';
 
 export interface SectionProps {
   section: {
@@ -67,6 +68,7 @@ export function Banner20({ section }: SectionProps) {
       className="relative w-full h-screen min-h-[800px] overflow-hidden selection:bg-[#4ADE80] selection:text-black flex items-center justify-center"
       style={{ backgroundColor: bg, color: textCol }}
     >
+      <Navbar variant="minimal" />
       
       {/* Background Noise/Grid */}
       <div 

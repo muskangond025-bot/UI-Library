@@ -1,0 +1,18 @@
+{
+  "id": "promotional-banner-2",
+  "type": "promotional",
+  "variant": "infinite-glass",
+  "settings": {
+    "title": "THE NEW COLLECTION",
+    "subtitle": "AWWWARDS NOMINEE 2026",
+    "description": "Explore the boundless limits of infinite scrolling and glassmorphic aesthetics inspired by award-winning designs.",
+    "menuItems": ["FASHION", "TECH", "LIFESTYLE", "MINIMAL", "ART", "VISION"],
+    "buttonText": "Explore Now",
+    "buttonLink": "#"
+  },
+  "styles": {
+    "backgroundColor": "#000000",
+    "textColor": "#F3F4F6",
+    "accentColor": "#60A5FA"
+  }
+}

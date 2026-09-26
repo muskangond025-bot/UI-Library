@@ -1,0 +1,38 @@
+{
+  "id": "promotional-banner-6",
+  "type": "promotional",
+  "variant": "infinite-glass-cards",
+  "settings": {
+    "title": "Premium Glass Services",
+    "description": "Explore our wide range of professional services crafted with a modern glass aesthetic.",
+    "cards": [
+      { "title": "Web Design", "subtitle": "Creative", "icon": "Monitor" },
+      { "title": "Development", "subtitle": "Coding", "icon": "Code" },
+      { "title": "Marketing", "subtitle": "Strategy", "icon": "TrendingUp" },
+      { "title": "Branding", "subtitle": "Identity", "icon": "Star" },
+      { "title": "SEO", "subtitle": "Analytics", "icon": "Search" },
+      { "title": "Social Media", "subtitle": "Growth", "icon": "Share2" },
+      { "title": "UI/UX", "subtitle": "Interface", "icon": "Layout" },
+      { "title": "Copywriting", "subtitle": "Content", "icon": "PenTool" },
+      { "title": "Video Editing", "subtitle": "Media", "icon": "Video" },
+      { "title": "Photography", "subtitle": "Visuals", "icon": "Camera" },
+      { "title": "E-commerce", "subtitle": "Sales", "icon": "ShoppingCart" },
+      { "title": "Email", "subtitle": "Outreach", "icon": "Mail" },
+      { "title": "3D Modeling", "subtitle": "Assets", "icon": "Box" },
+      { "title": "Animation", "subtitle": "Motion", "icon": "Activity" },
+      { "title": "Podcasting", "subtitle": "Audio", "icon": "Mic" },
+      { "title": "App Dev", "subtitle": "Mobile", "icon": "Smartphone" },
+      { "title": "Game Dev", "subtitle": "Interactive", "icon": "Gamepad2" },
+      { "title": "Security", "subtitle": "Protection", "icon": "Shield" },
+      { "title": "Cloud Ops", "subtitle": "Infrastructure", "icon": "Cloud" },
+      { "title": "Data Science", "subtitle": "Insights", "icon": "Database" }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#050505",
+    "textColor": "#ffffff",
+    "accentColor": "#6366f1",
+    "glassBackground": "rgba(255, 255, 255, 0.03)",
+    "glassBorder": "rgba(255, 255, 255, 0.08)"
+  }
+}

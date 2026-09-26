@@ -1,0 +1,50 @@
+{
+  "id": "featured-category-11",
+  "type": "featured-category",
+  "variant": "ripple-reveal-gallery",
+  "settings": {
+    "title": "EXPLORE LIFESTYLE",
+    "categories": [
+      {
+        "id": "1",
+        "name": "MINIMAL TECH",
+        "description": "Sleek hardware and smart devices designed for seamless integration into your daily life.",
+        "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "2",
+        "name": "MODERN SPACES",
+        "description": "Curated interior objects and furniture for the contemporary architectural home.",
+        "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "3",
+        "name": "BEAUTY & WELLNESS",
+        "description": "Nourish your body and mind with our organic skincare and daily rituals collection.",
+        "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "4",
+        "name": "TRAVEL & GEAR",
+        "description": "Durable essentials and luggage for the adventurous soul and digital nomad.",
+        "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "5",
+        "name": "CULINARY ARTS",
+        "description": "Professional-grade kitchenware and artisanal ingredients for the home chef.",
+        "image": "https://images.unsplash.com/photo-1495195134817-aeb325a55b65?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#f8f9fa",
+    "textColor": "#1a1a1a",
+    "accentColor": "#1a1a1a"
+  }
+}

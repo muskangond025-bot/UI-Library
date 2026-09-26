@@ -1,0 +1,21 @@
+{
+  "id": "promotional-banner-13",
+  "type": "promotional",
+  "variant": "brutalist-ticket",
+  "settings": {
+    "eventName": "BLACK FRIDAY DROP",
+    "date": "NOV 26 2026",
+    "location": "STOREWIDE EXCLUSIVE",
+    "discount": "50% OFF",
+    "code": "USE CODE: DROP50",
+    "description": "Strictly limited time offer. Apply code at checkout to secure your discount on all premium items. No rainchecks.",
+    "ctaText": "CLAIM TICKET",
+    "ctaLink": "#"
+  },
+  "styles": {
+    "backgroundColor": "#d1d5db",
+    "textColor": "#000000",
+    "accentColor": "#ff2a00",
+    "ticketBg": "#ffffff"
+  }
+}

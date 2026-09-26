@@ -1,0 +1,36 @@
+{
+  "id": "category-grid-10",
+  "type": "category-grid",
+  "variant": "floating-glassmorphic-cards",
+  "settings": {
+    "title": "LUCID DREAMS",
+    "backgroundImage": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1200&auto=format&fit=crop",
+    "categories": [
+      {
+        "id": "1",
+        "name": "ETHEREAL",
+        "description": "Flowing fabrics.",
+        "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "2",
+        "name": "STRUCTURE",
+        "description": "Solid forms.",
+        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "3",
+        "name": "METALLIC",
+        "description": "Reflective surfaces.",
+        "image": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#000000",
+    "textColor": "#ffffff"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "category-grid-4",
+  "type": "category-grid",
+  "variant": "circular-spotlight-mask",
+  "settings": {
+    "title": "FOCUS ZONES",
+    "categories": [
+      {
+        "id": "1",
+        "name": "MENSWEAR",
+        "description": "Classic and modern.",
+        "image": "https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "2",
+        "name": "WOMENSWEAR",
+        "description": "Elegant silhouettes.",
+        "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "3",
+        "name": "ACCESSORIES",
+        "description": "Finishing touches.",
+        "image": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "4",
+        "name": "BEAUTY",
+        "description": "Skin and fragrance.",
+        "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#111111",
+    "textColor": "#ffffff"
+  }
+}

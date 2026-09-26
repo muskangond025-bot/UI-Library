@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { Navbar } from '../../shared/Navbar';
 
 export interface SectionProps {
   section: {
@@ -26,6 +27,7 @@ export function Banner2({ section }: SectionProps) {
 
   return (
     <section className="relative w-full h-[800px] sm:h-screen min-h-[700px] flex overflow-hidden bg-black text-white selection:bg-white selection:text-black">
+      <Navbar variant="split" />
       
       {/* Central Title (Absolute overlay spanning both) */}
       <div className="absolute inset-0 z-20 pointer-events-none flex flex-col justify-center items-center mix-blend-difference">

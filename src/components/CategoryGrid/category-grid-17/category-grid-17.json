@@ -1,0 +1,28 @@
+{
+  "id": "category-grid-17",
+  "type": "category-grid",
+  "variant": "diagonal-split-screen",
+  "settings": {
+    "title": "DUALITY",
+    "categories": [
+      {
+        "id": "1",
+        "name": "MENSWEAR",
+        "description": "Classic and modern.",
+        "image": "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "2",
+        "name": "WOMENSWEAR",
+        "description": "Elegant silhouettes.",
+        "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#000000",
+    "textColor": "#ffffff"
+  }
+}

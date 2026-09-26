@@ -1,0 +1,42 @@
+{
+  "id": "hero-carousel-10",
+  "type": "hero-carousel",
+  "variant": "particle-spin-reveal",
+  "settings": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "title": "KINETIC",
+        "subtitle": "Energy 01",
+        "description": "Unleashing vibrant motion wrapped in dark, physical textures.",
+        "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-2",
+        "title": "STATIC",
+        "subtitle": "Energy 02",
+        "description": "High tension moments suspended perfectly in time and space.",
+        "image": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?q=80&w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-3",
+        "title": "PULSE",
+        "subtitle": "Energy 03",
+        "description": "The rhythm of modern fashion echoing through neon-lit streets.",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-4",
+        "title": "MOMENTUM",
+        "subtitle": "Energy 04",
+        "description": "Unstoppable forward drive reflected in aerodynamic tailoring.",
+        "image": "https://images.unsplash.com/photo-1545291730-faff8ca1d4b0?q=80&w=1500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#0D0D15",
+    "textColor": "#E2E2FF",
+    "accentColor": "#6E5BFF"
+  }
+}

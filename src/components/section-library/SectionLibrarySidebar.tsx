@@ -1,5 +1,5 @@
 import React from 'react';
-import { LayoutGrid, Images } from 'lucide-react';
+import { LayoutGrid, Images, Tag, Star, Grid } from 'lucide-react';
 
 interface SidebarProps {
   activeCategory: string;
@@ -10,6 +10,9 @@ export function SectionLibrarySidebar({ activeCategory, onSelectCategory }: Side
   const categories = [
     { id: 'hero', label: 'Hero Banners', icon: LayoutGrid },
     { id: 'hero-carousel', label: 'Hero Carousel', icon: Images },
+    { id: 'promotional', label: 'Promotional Banners', icon: Tag },
+    { id: 'featured-categories', label: 'Featured Categories', icon: Star },
+    { id: 'category-grid', label: 'Category Grid', icon: Grid },
   ];
 
   return (

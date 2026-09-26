@@ -1,0 +1,18 @@
+{
+  "id": "promotional-banner-5",
+  "type": "promotional",
+  "variant": "split-parallax",
+  "settings": {
+    "title": "ELEVATE YOUR VISION",
+    "subtitle": "LATEST APPAREL 2026",
+    "description": "Designed for the bold. Crafted for the relentless. Step into the future of streetwear with our latest drop.",
+    "buttonText": "Shop Collection",
+    "buttonLink": "#",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1500&auto=format&fit=crop"
+  },
+  "styles": {
+    "backgroundColor": "#F4F4F5",
+    "textColor": "#18181B",
+    "accentColor": "#EF4444"
+  }
+}

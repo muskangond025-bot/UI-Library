@@ -1,0 +1,19 @@
+{
+  "id": "promotional-banner-3",
+  "type": "promotional",
+  "variant": "glass-orbit",
+  "settings": {
+    "title": "CREATIVE REVOLUTION",
+    "subtitle": "FUTURE OF INTERFACE",
+    "description": "Where pixel-perfect precision meets fluid motion design. Experience the pinnacle of interactive web experiences.",
+    "orbitText": "INNOVATE • DESIGN • CREATE • INSPIRE • ",
+    "buttonText": "Discover More",
+    "buttonLink": "#",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1500&auto=format&fit=crop"
+  },
+  "styles": {
+    "backgroundColor": "#050505",
+    "textColor": "#FFFFFF",
+    "accentColor": "#10B981"
+  }
+}

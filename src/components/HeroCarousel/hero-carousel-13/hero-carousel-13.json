@@ -1,0 +1,42 @@
+{
+  "id": "hero-carousel-13",
+  "type": "hero-carousel",
+  "variant": "custom-cursor-draw",
+  "settings": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "title": "NOUVELLE",
+        "subtitle": "Volume 01",
+        "description": "Distinctive shapes and profound silhouettes capturing the true essence of modern art.",
+        "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-2",
+        "title": "PRISMATIC",
+        "subtitle": "Volume 02",
+        "description": "Bold colors intersecting with sharp geometric tailoring for the avant-garde.",
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-3",
+        "title": "MONOLITH",
+        "subtitle": "Volume 03",
+        "description": "A grounded, powerful presence forged in the fires of unyielding determination.",
+        "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-4",
+        "title": "AETHER",
+        "subtitle": "Volume 04",
+        "description": "Floating effortlessly above the ordinary, touching the sky of absolute freedom.",
+        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=1500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#D6D1C4",
+    "textColor": "#1A1A1A",
+    "accentColor": "#FF5722"
+  }
+}

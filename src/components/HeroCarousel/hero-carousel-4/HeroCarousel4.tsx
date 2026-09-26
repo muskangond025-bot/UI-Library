@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence, useMotionValue, useSpring } from 'framer-motion';
+import { Navbar } from '../../shared/Navbar';
 
 export interface SectionProps {
   section: {
@@ -85,6 +86,7 @@ export function HeroCarousel4({ section }: SectionProps) {
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
     >
+      <Navbar variant="floating" />
       
       {/* 1. Cursor follower / Cursor scaling states (PDF) */}
       <motion.div

@@ -1,0 +1,20 @@
+{
+  "id": "promotional-banner-1",
+  "type": "promotional",
+  "variant": "neon-ticker",
+  "settings": {
+    "title": "Summer Flash Sale",
+    "description": "Up to 50% off on all premium items. Limited time only.",
+    "tickerText": "FLASH SALE • 50% OFF • USE CODE SUMMER50 • FREE SHIPPING • ",
+    "buttonText": "Shop Now",
+    "buttonLink": "#",
+    "badge": "24 Hours Left"
+  },
+  "styles": {
+    "backgroundColor": "#09090b",
+    "textColor": "#ffffff",
+    "accentColor": "#f43f5e",
+    "gradientStart": "#f43f5e",
+    "gradientEnd": "#8b5cf6"
+  }
+}

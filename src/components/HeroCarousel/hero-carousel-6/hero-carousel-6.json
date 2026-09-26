@@ -1,0 +1,42 @@
+{
+  "id": "hero-carousel-6",
+  "type": "hero-carousel",
+  "variant": "liquid-clip-reveal",
+  "settings": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "title": "ELEVATION",
+        "subtitle": "Chapter One",
+        "description": "Rising above the ordinary with stark silhouettes and bold contrasts.",
+        "image": "https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-2",
+        "title": "FLUIDITY",
+        "subtitle": "Chapter Two",
+        "description": "Unrestrained motion captured in temporal fabrics and designs.",
+        "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-3",
+        "title": "RESONANCE",
+        "subtitle": "Chapter Three",
+        "description": "Echoing the future of wearable art in everyday spaces.",
+        "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-4",
+        "title": "HARMONY",
+        "subtitle": "Chapter Four",
+        "description": "Perfect alignment of form, function, and extreme aesthetics.",
+        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=1500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#020202",
+    "textColor": "#FFFFFF",
+    "accentColor": "#FFFFFF"
+  }
+}

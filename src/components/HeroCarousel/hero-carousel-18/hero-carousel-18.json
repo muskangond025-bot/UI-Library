@@ -1,0 +1,42 @@
+{
+  "id": "hero-carousel-18",
+  "type": "hero-carousel",
+  "variant": "morphing-radial",
+  "settings": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "title": "ABSTRACTION",
+        "subtitle": "Vol. 1",
+        "description": "Distilling complex visual information into pure geometry.",
+        "image": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-2",
+        "title": "ILLUSION",
+        "subtitle": "Vol. 2",
+        "description": "Playing with perception through surreal landscapes.",
+        "image": "https://images.unsplash.com/photo-1501696461405-6bd66bd10cb3?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-3",
+        "title": "VIBRANCE",
+        "subtitle": "Vol. 3",
+        "description": "Unleashing the full spectrum of high-contrast colors.",
+        "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-4",
+        "title": "MOMENTUM",
+        "subtitle": "Vol. 4",
+        "description": "Capturing kinetic energy in a static visual medium.",
+        "image": "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=1500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#FAF9F6",
+    "textColor": "#0F0F0F",
+    "accentColor": "#FF3366"
+  }
+}

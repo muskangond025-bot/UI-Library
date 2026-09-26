@@ -1,0 +1,42 @@
+{
+  "id": "hero-carousel-7",
+  "type": "hero-carousel",
+  "variant": "split-mask-timeline",
+  "settings": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "title": "HORIZON",
+        "subtitle": "Volume I",
+        "description": "Looking beyond the infinite grid to discover raw architectural beauty.",
+        "image": "https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-2",
+        "title": "VERTEX",
+        "subtitle": "Volume II",
+        "description": "Where lines converge and new dimensional plains are born.",
+        "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-3",
+        "title": "PRISM",
+        "subtitle": "Volume III",
+        "description": "Fracturing light into a spectrum of avant-garde textiles.",
+        "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-4",
+        "title": "NADIR",
+        "subtitle": "Volume IV",
+        "description": "The foundation of dark aesthetics and brutalist structures.",
+        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=1500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#121212",
+    "textColor": "#FFFFFF",
+    "accentColor": "#A0A0A0"
+  }
+}

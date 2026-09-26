@@ -1,12 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Play } from 'lucide-react';
+import { Navbar } from '../../shared/Navbar';
 
 export function Banner12({ section }: any) {
   const { settings = {} } = section || {};
   
   return (
     <section className="relative w-full h-[100vh] min-h-[600px] overflow-hidden bg-black flex items-center">
+      <Navbar variant="glass" />
       {/* Background Image with Parallax & Overlay */}
       <motion.div 
         className="absolute inset-0 z-0"

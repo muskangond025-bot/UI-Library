@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef, useState, useEffect } from 'react';
 import { motion, useSpring, useMotionValue, useMotionTemplate } from 'framer-motion';
+import { Navbar } from '../../shared/Navbar';
 
 export interface SectionProps {
   section: {
@@ -91,6 +92,7 @@ export function Banner18({ section }: SectionProps) {
       className="relative w-full h-screen min-h-[800px] overflow-hidden cursor-crosshair selection:bg-black selection:text-white"
       style={{ backgroundColor: bg }}
     >
+      <Navbar variant="split" />
       
       {/* LAYER 1: BASE (Monochrome / Outline) */}
       <div className="absolute inset-0 w-full h-full z-10 flex flex-col justify-between pb-8">

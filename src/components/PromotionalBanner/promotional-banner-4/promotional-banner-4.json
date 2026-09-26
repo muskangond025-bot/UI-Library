@@ -1,0 +1,20 @@
+{
+  "id": "promotional-banner-4",
+  "type": "promotional",
+  "variant": "clean-grid",
+  "settings": {
+    "title": "MINIMALIST EDGE",
+    "subtitle": "COLLECTION 04",
+    "description": "Discover the perfect balance of form and function. Clean lines, negative space, and premium materials.",
+    "statNumber": 2026,
+    "statText": "Design Excellence",
+    "buttonText": "View Collection",
+    "buttonLink": "#",
+    "image": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?w=1500&auto=format&fit=crop"
+  },
+  "styles": {
+    "backgroundColor": "#F9FAFB",
+    "textColor": "#111827",
+    "accentColor": "#3B82F6"
+  }
+}

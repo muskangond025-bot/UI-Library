@@ -1,0 +1,22 @@
+{
+  "id": "promotional-banner-19",
+  "type": "promotional",
+  "variant": "editorial-magnetic",
+  "settings": {
+    "eyebrow": "LIMITED CAMPAIGN",
+    "prefix": "UP TO",
+    "discount": "40%",
+    "suffix": "OFF",
+    "description": "Selected essentials, considered pieces and seasonal favorites. Curated exclusively for the modern wardrobe.",
+    "ctaText": "SHOP THE EDIT",
+    "ctaLink": "#",
+    "label": "ENDS 30 SEPTEMBER",
+    "campaignNumber": "NO. 04",
+    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=2070&auto=format&fit=crop"
+  },
+  "styles": {
+    "backgroundColor": "#f4f4f5",
+    "textColor": "#09090b",
+    "accentColor": "#a1a1aa"
+  }
+}

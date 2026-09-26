@@ -1,0 +1,35 @@
+{
+  "id": "category-grid-19",
+  "type": "category-grid",
+  "variant": "checkerboard-parallax",
+  "settings": {
+    "title": "CHESSBOARD",
+    "categories": [
+      {
+        "id": "1",
+        "name": "REFINED",
+        "description": "Elevate the everyday.",
+        "image": "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "2",
+        "name": "RAW",
+        "description": "Unfiltered aesthetic.",
+        "image": "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "3",
+        "name": "KINETIC",
+        "description": "Built for movement.",
+        "image": "https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#f4f4f5",
+    "textColor": "#111111"
+  }
+}

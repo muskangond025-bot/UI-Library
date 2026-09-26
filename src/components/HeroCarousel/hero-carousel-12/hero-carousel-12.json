@@ -1,0 +1,42 @@
+{
+  "id": "hero-carousel-12",
+  "type": "hero-carousel",
+  "variant": "elevator-glow",
+  "settings": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "title": "LUMINOUS",
+        "subtitle": "Phase 01",
+        "description": "Radiating elegance through meticulously crafted layers of light.",
+        "image": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-2",
+        "title": "OBSIDIAN",
+        "subtitle": "Phase 02",
+        "description": "Deep textures carved out of the darkest hours of the night.",
+        "image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-3",
+        "title": "CHROMA",
+        "subtitle": "Phase 03",
+        "description": "A sudden burst of vivid saturation breaking the monochrome silence.",
+        "image": "https://images.unsplash.com/photo-1542435503-956c469947f6?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-4",
+        "title": "ESSENCE",
+        "subtitle": "Phase 04",
+        "description": "The fundamental core of natural beauty and fluid movement.",
+        "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=1500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#0A0A0B",
+    "textColor": "#FFFFFF",
+    "accentColor": "#00F0FF"
+  }
+}

@@ -26,17 +26,30 @@ export function SectionLibraryShell() {
     }
   };
 
+  const isIframeMode = typeof window !== 'undefined' && new URLSearchParams(window.location.search).get('iframeMode') === 'true';
+
+  if (isIframeMode && selectedSection) {
+    return (
+      <SectionPreviewLayout 
+        sectionId={selectedSection} 
+        onBack={() => {}} 
+      />
+    );
+  }
+
   return (
     <div className="flex h-screen w-full bg-white font-sans text-gray-900 overflow-hidden">
-      <SectionLibrarySidebar 
-        activeCategory={activeCategory} 
-        onSelectCategory={(category) => {
-          setActiveCategory(category);
-          handleSelectSection(null);
-        }} 
-      />
+      {!selectedSection && (
+        <SectionLibrarySidebar 
+          activeCategory={activeCategory} 
+          onSelectCategory={(category) => {
+            setActiveCategory(category);
+            handleSelectSection(null);
+          }} 
+        />
+      )}
       
-      <main className="flex-1 ml-64 flex flex-col min-h-screen overflow-hidden bg-white relative">
+      <main className={`flex-1 ${!selectedSection ? 'ml-64' : 'ml-0'} flex flex-col min-h-screen overflow-hidden bg-white relative`}>
         {selectedSection ? (
           <SectionPreviewLayout 
             sectionId={selectedSection} 

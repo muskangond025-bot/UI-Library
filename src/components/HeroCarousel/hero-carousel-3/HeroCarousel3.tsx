@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Navbar } from '../../shared/Navbar';
 
 export interface SectionProps {
   section: {
@@ -36,6 +37,7 @@ export function HeroCarousel3({ section }: SectionProps) {
       className="relative w-full h-screen min-h-[700px] overflow-hidden flex items-center justify-center selection:bg-white selection:text-black"
       style={{ backgroundColor: bg, color: textCol }}
     >
+      <Navbar variant="glass" />
       
       {/* 1. Shared-Element / Matched-Motion & Fade-in Animations (PDF) */}
       <AnimatePresence mode="popLayout">

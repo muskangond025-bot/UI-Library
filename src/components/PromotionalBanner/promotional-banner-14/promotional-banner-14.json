@@ -1,0 +1,48 @@
+{
+  "id": "promotional-banner-14",
+  "type": "promotional",
+  "variant": "interactive-accordion",
+  "settings": {
+    "title": "END OF SEASON SALE",
+    "subtitle": "Hover to reveal category discounts",
+    "panels": [
+      {
+        "id": "1",
+        "title": "FOOTWEAR",
+        "discount": "40% OFF",
+        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1000&q=80",
+        "ctaText": "SHOP SHOES",
+        "ctaLink": "#"
+      },
+      {
+        "id": "2",
+        "title": "OUTERWEAR",
+        "discount": "30% OFF",
+        "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=1000&q=80",
+        "ctaText": "SHOP JACKETS",
+        "ctaLink": "#"
+      },
+      {
+        "id": "3",
+        "title": "ACCESSORIES",
+        "discount": "50% OFF",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1000&q=80",
+        "ctaText": "SHOP WATCHES",
+        "ctaLink": "#"
+      },
+      {
+        "id": "4",
+        "title": "ACTIVEWEAR",
+        "discount": "25% OFF",
+        "image": "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=1000&q=80",
+        "ctaText": "SHOP ACTIVE",
+        "ctaLink": "#"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#09090b",
+    "textColor": "#ffffff",
+    "accentColor": "#ffffff"
+  }
+}

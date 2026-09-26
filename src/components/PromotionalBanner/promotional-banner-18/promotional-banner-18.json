@@ -1,0 +1,21 @@
+{
+  "id": "promotional-banner-18",
+  "type": "promotional",
+  "variant": "kinetic-liquid-mesh",
+  "settings": {
+    "title": "NEO SUMMER DROP",
+    "subtitle": "EXCLUSIVE PRE-RELEASE",
+    "description": "Unlock unparalleled aesthetics with our newest collection. Experience cutting-edge design with an exclusive 40% discount applied instantly at checkout.",
+    "ctaText": "SHOP THE DROP",
+    "ctaLink": "#",
+    "backgroundText": "LIMITED EDITION DROP • 40% OFF • PREMIUM ASSETS • "
+  },
+  "styles": {
+    "backgroundColor": "#020617",
+    "textColor": "#f8fafc",
+    "accentColor": "#3b82f6",
+    "gradient1": "#6366f1",
+    "gradient2": "#ec4899",
+    "gradient3": "#8b5cf6"
+  }
+}

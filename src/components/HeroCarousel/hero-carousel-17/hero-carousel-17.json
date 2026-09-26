@@ -1,0 +1,42 @@
+{
+  "id": "hero-carousel-17",
+  "type": "hero-carousel",
+  "variant": "flip-3d-reveal",
+  "settings": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "title": "DIMENSION",
+        "subtitle": "Chapter 01",
+        "description": "Adding a new layer of depth to modern structural aesthetics.",
+        "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-2",
+        "title": "GEOMETRY",
+        "subtitle": "Chapter 02",
+        "description": "Bold shapes and clean lines defining the spaces around us.",
+        "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-3",
+        "title": "HORIZON",
+        "subtitle": "Chapter 03",
+        "description": "Stretching beyond the limits of traditional minimal design.",
+        "image": "https://images.unsplash.com/photo-1506152983158-b4a74a01c721?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-4",
+        "title": "BALANCE",
+        "subtitle": "Chapter 04",
+        "description": "Achieving perfect equilibrium between form and function.",
+        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#121212",
+    "textColor": "#FFFFFF",
+    "accentColor": "#FFD700"
+  }
+}

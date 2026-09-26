@@ -1,0 +1,42 @@
+{
+  "id": "category-grid-18",
+  "type": "category-grid",
+  "variant": "sticky-card-deck",
+  "settings": {
+    "title": "THE DECK",
+    "categories": [
+      {
+        "id": "1",
+        "name": "THE COAT",
+        "description": "Armor for the elements.",
+        "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "2",
+        "name": "THE BOOT",
+        "description": "Ground yourself.",
+        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "3",
+        "name": "THE BAG",
+        "description": "Carry the essentials.",
+        "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "4",
+        "name": "THE SHADE",
+        "description": "Filter the noise.",
+        "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#000000",
+    "textColor": "#ffffff"
+  }
+}

@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef, useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Navbar } from '../../shared/Navbar';
 
 export interface SectionProps {
   section: {
@@ -54,6 +55,7 @@ export function Banner19({ section }: SectionProps) {
       className="relative w-full h-screen min-h-[700px] overflow-hidden selection:bg-white selection:text-black flex"
       style={{ backgroundColor: bg, color: textCol }}
     >
+      <Navbar variant="split" />
       
       {/* Absolute Header (Mix Blend) */}
       <div className="absolute top-12 left-12 right-12 flex justify-between items-center z-50 pointer-events-none mix-blend-difference text-white">

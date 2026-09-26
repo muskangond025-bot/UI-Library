@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Navbar } from '../../shared/Navbar';
 
 export interface SectionProps {
   section: {
@@ -18,6 +19,7 @@ export function Banner4({ section }: SectionProps) {
 
   return (
     <section className={`relative w-full h-[800px] sm:h-screen min-h-[700px] flex overflow-hidden ${isDark ? 'bg-black text-white' : 'bg-white text-black'}`}>
+      <Navbar variant="split" />
       
       {/* Background Image & Effects */}
       <motion.div 

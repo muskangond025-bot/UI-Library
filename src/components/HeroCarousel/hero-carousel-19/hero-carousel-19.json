@@ -1,0 +1,42 @@
+{
+  "id": "hero-carousel-19",
+  "type": "hero-carousel",
+  "variant": "typography-mask",
+  "settings": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "title": "VISION",
+        "subtitle": "Chapter One",
+        "description": "Seeing through the noise to find the absolute truth.",
+        "image": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-2",
+        "title": "NATURE",
+        "subtitle": "Chapter Two",
+        "description": "The organic roots of modern structural design.",
+        "image": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-3",
+        "title": "CLARITY",
+        "subtitle": "Chapter Three",
+        "description": "Minimalism as a tool for ultimate focus.",
+        "image": "https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-4",
+        "title": "SILENCE",
+        "subtitle": "Chapter Four",
+        "description": "The profound impact of negative space.",
+        "image": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?w=1500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#050505",
+    "textColor": "#F5F5F5",
+    "accentColor": "#FF4500"
+  }
+}

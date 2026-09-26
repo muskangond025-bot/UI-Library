@@ -1,0 +1,35 @@
+{
+  "id": "category-grid-20",
+  "type": "category-grid",
+  "variant": "monolithic-sidebar-snap",
+  "settings": {
+    "title": "THE FINALE",
+    "categories": [
+      {
+        "id": "1",
+        "name": "VISION",
+        "description": "Look forward.",
+        "image": "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "2",
+        "name": "HERITAGE",
+        "description": "Look back.",
+        "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "3",
+        "name": "PRESENT",
+        "description": "Live now.",
+        "image": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#09090b",
+    "textColor": "#ffffff"
+  }
+}

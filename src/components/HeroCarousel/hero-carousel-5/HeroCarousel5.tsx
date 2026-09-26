@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Navbar } from '../../shared/Navbar';
 
 export interface SectionProps {
   section: {
@@ -95,6 +96,7 @@ export function HeroCarousel5({ section }: SectionProps) {
       className="relative w-full h-screen min-h-[700px] overflow-hidden flex items-center justify-center selection:bg-black selection:text-white"
       style={{ backgroundColor: bg, color: textCol }}
     >
+      <Navbar variant="split" />
       
       {/* 4. Ambient motion layers (PDF) */}
       <AnimatePresence mode="wait">

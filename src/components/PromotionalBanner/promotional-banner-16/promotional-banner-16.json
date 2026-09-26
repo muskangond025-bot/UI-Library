@@ -1,0 +1,20 @@
+{
+  "id": "promotional-banner-16",
+  "type": "promotional",
+  "variant": "cyber-decoder",
+  "settings": {
+    "title": "SYSTEM OVERRIDE",
+    "subtitle": "ACCESS GRANTED: PROTOCOL 77",
+    "discount": "FLAT 60% OFF",
+    "description": "Encrypted savings unlocked. Enter the sequence below at terminal checkout to decrypt your discount on all cyberware and digital assets.",
+    "code": "CYBER-60",
+    "ctaText": "INITIATE PROTOCOL",
+    "ctaLink": "#"
+  },
+  "styles": {
+    "backgroundColor": "#050505",
+    "textColor": "#00ff41",
+    "accentColor": "#008f11",
+    "secondaryColor": "#ffffff"
+  }
+}

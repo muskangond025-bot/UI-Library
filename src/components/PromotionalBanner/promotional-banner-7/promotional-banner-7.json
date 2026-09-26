@@ -1,0 +1,24 @@
+{
+  "id": "promotional-banner-7",
+  "type": "promotional",
+  "variant": "glass-infinite-banner",
+  "settings": {
+    "title": "Unlock Premium Features",
+    "description": "Upgrade your workflow with our interactive 3D glass toolkit. Hover over the tools to experience next-level magnetic motion.",
+    "buttonText": "Upgrade Now",
+    "buttonLink": "#",
+    "cards": [
+      { "title": "Analytics", "icon": "BarChart3" },
+      { "title": "Security", "icon": "ShieldCheck" },
+      { "title": "Cloud", "icon": "CloudLightning" },
+      { "title": "Mobile", "icon": "Smartphone" },
+      { "title": "AI Models", "icon": "Cpu" },
+      { "title": "Global CDN", "icon": "Globe" }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#020617",
+    "textColor": "#f8fafc",
+    "accentColor": "#8b5cf6"
+  }
+}

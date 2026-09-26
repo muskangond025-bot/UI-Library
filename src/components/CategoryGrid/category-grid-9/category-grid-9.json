@@ -1,0 +1,42 @@
+{
+  "id": "category-grid-9",
+  "type": "category-grid",
+  "variant": "alternating-split-panorama",
+  "settings": {
+    "title": "THE PANORAMA",
+    "categories": [
+      {
+        "id": "1",
+        "name": "SUMMER COLLECTION",
+        "description": "Breezy & Light.",
+        "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "2",
+        "name": "WINTER GEAR",
+        "description": "Heavy & Warm.",
+        "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "3",
+        "name": "STREET STYLE",
+        "description": "Urban vibes.",
+        "image": "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      },
+      {
+        "id": "4",
+        "name": "FORMAL WEAR",
+        "description": "Sharp tailoring.",
+        "image": "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?q=80&w=1200&auto=format&fit=crop",
+        "link": "#"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#fafafa",
+    "textColor": "#000000"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "promotional-banner-12",
+  "type": "promotional",
+  "variant": "vibrant-vector-pop",
+  "settings": {
+    "title": "MEGA SUPER SALE",
+    "subtitle": "Up to 80% Off Everything",
+    "description": "Don't miss out on the biggest event of the year. Grab our premium assets before the timer runs out.",
+    "ctaText": "Shop The Sale",
+    "ctaLink": "#",
+    "tickerText": "⚡ FLASH SALE ⚡ MASSIVE DISCOUNTS ⚡ FREE UPGRADES ⚡",
+    "floatingIcons": ["ShoppingBag", "Gift", "Tag", "Percent", "Sparkles", "Heart"]
+  },
+  "styles": {
+    "backgroundColor": "#FF416C",
+    "secondaryColor": "#FF4B2B",
+    "textColor": "#ffffff",
+    "cardBg": "rgba(255, 255, 255, 0.2)",
+    "accentColor": "#FFD700"
+  }
+}

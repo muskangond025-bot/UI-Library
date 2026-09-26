@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { Navbar } from '../../shared/Navbar';
 
 export interface SectionProps {
   section: {
@@ -53,6 +54,7 @@ export function Banner9({ section }: SectionProps) {
         setHoveredPanel(null);
       }}
     >
+      <Navbar variant="split" />
       {/* BACKGROUND STAGE */}
       <div className="absolute inset-0 bg-current pointer-events-none" style={{ backgroundColor: bg }} />
 

@@ -1,0 +1,42 @@
+{
+  "id": "hero-carousel-9",
+  "type": "hero-carousel",
+  "variant": "fluid-blob-flip",
+  "settings": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "title": "ORGANIC",
+        "subtitle": "Shape Morphing 01",
+        "description": "Embracing natural curves and fluid transitions in modern apparel.",
+        "image": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-2",
+        "title": "OUTDOOR",
+        "subtitle": "Shape Morphing 02",
+        "description": "Functional pieces designed to blend seamlessly with the environment.",
+        "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-3",
+        "title": "SCARLET",
+        "subtitle": "Shape Morphing 03",
+        "description": "Bold striking colors that demand attention and command the room.",
+        "image": "https://images.unsplash.com/photo-1509631179647-0c500ab14c50?w=1500&auto=format&fit=crop"
+      },
+      {
+        "id": "slide-4",
+        "title": "NEUTRAL",
+        "subtitle": "Shape Morphing 04",
+        "description": "Stripped back tones for maximum versatility and understated elegance.",
+        "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=1500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#F4F4F0",
+    "textColor": "#1A1A1A",
+    "accentColor": "#FF5533"
+  }
+}

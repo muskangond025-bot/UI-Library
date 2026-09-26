@@ -1,0 +1,18 @@
+{
+  "id": "promotional-banner-17",
+  "type": "promotional",
+  "variant": "luxury-gold-banner",
+  "settings": {
+    "title": "THE GOLD STANDARD",
+    "subtitle": "VIP EXCLUSIVE INVITATION",
+    "description": "Elevate your collection with our exclusive luxury event. Members receive priority access to unreleased premium items and early discounts.",
+    "ctaText": "UNLOCK VIP ACCESS",
+    "ctaLink": "#"
+  },
+  "styles": {
+    "backgroundColor": "#0a0a0a",
+    "textColor": "#ffffff",
+    "accentColor": "#d4af37",
+    "secondaryColor": "#1a1a1a"
+  }
+}
