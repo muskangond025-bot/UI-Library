@@ -1,0 +1,28 @@
+{
+  "id": "banner-5",
+  "type": "banner",
+  "variant": "magazine-cover",
+  "settings": {
+    "issueNumber": "ISSUE No. 05",
+    "date": "OCTOBER 2026",
+    "magazineTitle": "VANGUARD",
+    "headline": "THE NEW SILHOUETTE",
+    "subheadline": "Redefining form and function for the modern avant-garde. An exclusive look at the Fall 26 collection.",
+    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1920&auto=format&fit=crop",
+    "editorialIndex": [
+      { "number": "01", "title": "The Editor's Letter", "url": "#" },
+      { "number": "02", "title": "Fall Collection Showcase", "url": "#" },
+      { "number": "03", "title": "Designer Interview", "url": "#" },
+      { "number": "04", "title": "Backstage Access", "url": "#" }
+    ],
+    "primaryAction": {
+      "label": "Read Issue",
+      "url": "#"
+    }
+  },
+  "styles": {
+    "backgroundColor": "#E5E3DB",
+    "textColor": "#1A1A1A",
+    "accentColor": "#D92D20"
+  }
+}

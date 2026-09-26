@@ -1,0 +1,38 @@
+{
+  "id": "banner-8",
+  "type": "banner",
+  "variant": "cinematic-layered-gallery",
+  "settings": {
+    "eyebrow": "THE CAMPAIGN EDIT",
+    "title": "THE ART OF\nMOVEMENT",
+    "description": "A visual study of texture, proportion and contemporary expression. Discover the latest editorial series.",
+    "image": {
+      "src": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1500&auto=format&fit=crop",
+      "alt": "Luxury fashion campaign"
+    },
+    "secondaryImages": [
+      {
+        "src": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?q=80&w=1500&auto=format&fit=crop",
+        "alt": "Editorial fashion detail"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1500&auto=format&fit=crop",
+        "alt": "Contemporary fashion portrait"
+      }
+    ],
+    "cta": {
+      "label": "EXPLORE THE CAMPAIGN",
+      "href": "#"
+    },
+    "collectionLabel": "COLLECTION 08",
+    "campaignLabel": "EDITORIAL / 2026",
+    "index": "08"
+  },
+  "styles": {
+    "backgroundColor": "#F4F1ED",
+    "textColor": "#1A1A1A",
+    "accentColor": "#8A735E",
+    "mutedColor": "#8C8984",
+    "lineColor": "#D6D1CA"
+  }
+}

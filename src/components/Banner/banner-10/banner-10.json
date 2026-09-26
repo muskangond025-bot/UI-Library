@@ -1,0 +1,37 @@
+{
+  "id": "banner-10",
+  "type": "banner",
+  "variant": "interactive-3d-editorial",
+  "settings": {
+    "eyebrow": "THE OBJECT EDIT",
+    "title": "TWO SIDES\nOF FORM",
+    "description": "An interactive study of material, proportion and contemporary expression.",
+    "image": {
+      "src": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1500&auto=format&fit=crop",
+      "alt": "Luxury fashion campaign front view"
+    },
+    "backImage": {
+      "src": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?q=80&w=1500&auto=format&fit=crop",
+      "alt": "Luxury fashion campaign detail view"
+    },
+    "cta": {
+      "label": "EXPLORE THE COLLECTION",
+      "href": "#"
+    },
+    "flipLabel": "VIEW DETAIL",
+    "flipBackLabel": "VIEW FRONT",
+    "collectionLabel": "COLLECTION 10",
+    "campaignLabel": "OBJECT / 2026",
+    "index": "10",
+    "backTitle": "THE DETAIL",
+    "backDescription": "A closer look at the material, construction and character behind the collection."
+  },
+  "styles": {
+    "backgroundColor": "#E9E3D9",
+    "textColor": "#121212",
+    "accentColor": "#6F4E37",
+    "mutedColor": "#77716A",
+    "frameColor": "#C5BBB0",
+    "backFaceColor": "#171717"
+  }
+}

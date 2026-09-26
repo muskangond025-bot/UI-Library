@@ -1,0 +1,35 @@
+{
+  "id": "banner-9",
+  "type": "banner",
+  "variant": "kinetic-curtain",
+  "settings": {
+    "eyebrow": "THE MOTION EDIT",
+    "title": "MOVE WITH\nINTENT",
+    "description": "A study in movement, silhouette and contemporary expression.",
+    "image": {
+      "src": "https://images.unsplash.com/photo-1549488344-c6a6f64243a7?q=80&w=1500&auto=format&fit=crop",
+      "alt": "Contemporary fashion campaign"
+    },
+    "cta": {
+      "label": "EXPLORE THE COLLECTION",
+      "href": "#"
+    },
+    "collectionLabel": "COLLECTION 09",
+    "campaignLabel": "AUTUMN / WINTER",
+    "index": "09",
+    "panelLabels": [
+      "FORM",
+      "TEXTURE",
+      "MOVEMENT",
+      "SILHOUETTE",
+      "DETAIL"
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#151515",
+    "textColor": "#F4F0E8",
+    "accentColor": "#C9B59C",
+    "panelColor": "#202020",
+    "mutedColor": "#A9A39A"
+  }
+}

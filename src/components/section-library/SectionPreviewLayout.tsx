@@ -1,11 +1,34 @@
 "use client";
 import React from 'react';
 import { ArrowLeft, Monitor, Smartphone, Tablet } from 'lucide-react';
-import { mockHeroBanner2, mockHeroBanner3 } from '../../data/mock-sections/hero-banner';
 import banner1Data from '../Banner/banner-1/banner-1.json';
+import banner2Data from '../Banner/banner-2/banner-2.json';
+import banner3Data from '../Banner/banner-3/banner-3.json';
+import banner4Data from '../Banner/banner-4/banner-4.json';
+import banner5Data from '../Banner/banner-5/banner-5.json';
+import banner6Data from '../Banner/banner-6/banner-6.json';
+import banner7Data from '../Banner/banner-7/banner-7.json';
+import banner8Data from '../Banner/banner-8/banner-8.json';
+import banner9Data from '../Banner/banner-9/banner-9.json';
+import banner10Data from '../Banner/banner-10/banner-10.json';
+import banner11Data from '../Banner/banner-11/banner-11.json';
+import banner12Data from '../Banner/banner-12/banner-12.json';
+import banner13Data from '../Banner/banner-13/banner-13.json';
+import banner14Data from '../Banner/banner-14/banner-14.json';
 import { Banner1 } from '../Banner/banner-1/Banner1';
 import { Banner2 } from '../Banner/banner-2/Banner2';
 import { Banner3 } from '../Banner/banner-3/Banner3';
+import { Banner4 } from '../Banner/banner-4/Banner4';
+import { Banner5 } from '../Banner/banner-5/Banner5';
+import { Banner6 } from '../Banner/banner-6/Banner6';
+import { Banner7 } from '../Banner/banner-7/Banner7';
+import { Banner8 } from '../Banner/banner-8/Banner8';
+import { Banner9 } from '../Banner/banner-9/Banner9';
+import { Banner10 } from '../Banner/banner-10/Banner10';
+import { Banner11 } from '../Banner/banner-11/Banner11';
+import { Banner12 } from '../Banner/banner-12/Banner12';
+import { Banner13 } from '../Banner/banner-13/Banner13';
+import { Banner14 } from '../Banner/banner-14/Banner14';
 
 interface PreviewProps {
   sectionId: string;
@@ -17,8 +40,19 @@ export function SectionPreviewLayout({ sectionId, onBack }: PreviewProps) {
 
   // Derive mock data based on the new ID structure (banner-1, banner-2...)
   const sectionData = 
-    sectionId === 'banner-3' ? mockHeroBanner3 : 
-    sectionId === 'banner-2' ? mockHeroBanner2 : 
+    sectionId === 'banner-14' ? banner14Data : 
+    sectionId === 'banner-13' ? banner13Data : 
+    sectionId === 'banner-12' ? banner12Data : 
+    sectionId === 'banner-11' ? banner11Data :
+    sectionId === 'banner-10' ? banner10Data : 
+    sectionId === 'banner-9' ? banner9Data : 
+    sectionId === 'banner-8' ? banner8Data : 
+    sectionId === 'banner-7' ? banner7Data : 
+    sectionId === 'banner-6' ? banner6Data : 
+    sectionId === 'banner-5' ? banner5Data : 
+    sectionId === 'banner-4' ? banner4Data : 
+    sectionId === 'banner-3' ? banner3Data : 
+    sectionId === 'banner-2' ? banner2Data : 
     sectionId === 'banner-1' ? banner1Data : 
     { id: sectionId, type: 'hero-banner', settings: { title: `Coming Soon: ${sectionId}` }, styles: {} }; 
 
@@ -63,7 +97,29 @@ export function SectionPreviewLayout({ sectionId, onBack }: PreviewProps) {
             }}
           >
             {/* Render actual component */}
-            {sectionId === 'banner-3' ? (
+            {sectionId === 'banner-14' ? (
+              <Banner14 section={sectionData as any} />
+            ) : sectionId === 'banner-13' ? (
+              <Banner13 section={sectionData as any} />
+            ) : sectionId === 'banner-12' ? (
+              <Banner12 section={sectionData as any} />
+            ) : sectionId === 'banner-11' ? (
+              <Banner11 section={sectionData as any} />
+            ) : sectionId === 'banner-10' ? (
+              <Banner10 section={sectionData as any} />
+            ) : sectionId === 'banner-9' ? (
+              <Banner9 section={sectionData as any} />
+            ) : sectionId === 'banner-8' ? (
+              <Banner8 section={sectionData as any} />
+            ) : sectionId === 'banner-7' ? (
+              <Banner7 section={sectionData as any} />
+            ) : sectionId === 'banner-6' ? (
+              <Banner6 section={sectionData as any} />
+            ) : sectionId === 'banner-5' ? (
+              <Banner5 section={sectionData as any} />
+            ) : sectionId === 'banner-4' ? (
+              <Banner4 section={sectionData as any} />
+            ) : sectionId === 'banner-3' ? (
               <Banner3 section={sectionData as any} />
             ) : sectionId === 'banner-2' ? (
               <Banner2 section={sectionData as any} />

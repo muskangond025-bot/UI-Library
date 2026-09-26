@@ -1,0 +1,30 @@
+{
+  "id": "banner-11",
+  "type": "banner",
+  "variant": "interactive-magnetic-canvas",
+  "settings": {
+    "eyebrow": "THE OBJECT EDIT",
+    "title": "DESIGNED TO BE FELT",
+    "description": "A refined study of material, movement and modern form.",
+    "image": {
+      "src": "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1500&auto=format&fit=crop",
+      "alt": "Premium contemporary product editorial"
+    },
+    "cta": {
+      "label": "EXPLORE THE OBJECT",
+      "href": "#"
+    },
+    "collectionLabel": "COLLECTION 11",
+    "campaignLabel": "OBJECT / 2026",
+    "index": "11",
+    "microcopy": "INTERACTIVE EDITION"
+  },
+  "styles": {
+    "backgroundColor": "#EAE5DC",
+    "textColor": "#151515",
+    "accentColor": "#6F4E37",
+    "mutedColor": "#77716A",
+    "frameColor": "#C7BEB2",
+    "highlightColor": "#D8C7B2"
+  }
+}

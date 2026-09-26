@@ -1,0 +1,22 @@
+{
+  "id": "banner-3",
+  "type": "banner",
+  "variant": "architectural-frame",
+  "settings": {
+    "titleLine1": "SCULPTURAL",
+    "titleLine2": "PROPORTIONS",
+    "description": "Redefining spatial aesthetics through meticulous craft and absolute proportion. A study in material silence.",
+    "image": "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2000&auto=format&fit=crop",
+    "frameTextLeft": "EXHIBITION 03",
+    "frameTextRight": "CRAFT & SPACE",
+    "primaryAction": {
+      "label": "Enter Gallery",
+      "url": "#"
+    }
+  },
+  "styles": {
+    "backgroundColor": "#F4F4F5",
+    "textColor": "#09090B",
+    "frameColor": "#D4D4D8"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "banner-6",
+  "type": "banner",
+  "variant": "kinetic-typography",
+  "settings": {
+    "kineticTextTop": "KINETIC",
+    "kineticTextBottom": "ENERGY",
+    "eyebrow": "COLLECTION 06",
+    "headline": "MOTION & GRACE",
+    "description": "Discover a new vocabulary of movement. Fluid silhouettes meeting structured tailoring in perfect equilibrium.",
+    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1500&auto=format&fit=crop",
+    "primaryAction": {
+      "label": "Explore Collection",
+      "url": "#"
+    }
+  },
+  "styles": {
+    "theme": "dark",
+    "backgroundColor": "#0A0A0A",
+    "textColor": "#FFFFFF",
+    "accentColor": "#FF3300"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "banner-14",
+  "type": "banner",
+  "variant": "experimental-kinetic",
+  "settings": {
+    "label": "ISSUE N°14",
+    "titleLine1": "THE",
+    "titleLine2": "UNSEEN",
+    "titleLine3": "SYMMETRY",
+    "description": "Redefining the boundaries of visual expression. Where structural brutalism meets organic fluidity in an unending dance of aesthetics.",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=2000&auto=format&fit=crop",
+        "alt": "Avant garde fashion portrait 1"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1500&auto=format&fit=crop",
+        "alt": "Fashion silhouette 2"
+      }
+    ],
+    "cta": "EXPLORE CAMPAIGN",
+    "metadata": {
+      "director": "JEAN-LUC",
+      "studio": "PARIS / TOKYO",
+      "year": "2026"
+    }
+  },
+  "styles": {
+    "backgroundColor": "#D6D3CD",
+    "textColor": "#1A1A1A",
+    "accentColor": "#FF3B00"
+  }
+}

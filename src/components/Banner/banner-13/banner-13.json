@@ -1,0 +1,31 @@
+{
+  "id": "banner-13",
+  "type": "banner",
+  "variant": "awwwards-glassmorphism",
+  "settings": {
+    "eyebrow": "2026 FALL/WINTER",
+    "title": "AETHEREAL",
+    "subtitle": "THE NEW SILHOUETTE",
+    "description": "Experience fashion redefined. A seamless blend of radical forms, liquid fabrics, and futuristic glass aesthetics crafted for the avant-garde.",
+    "image": {
+      "src": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=2840&auto=format&fit=crop",
+      "alt": "High fashion model in a dramatic avant-garde pose"
+    },
+    "cta": {
+      "label": "EXPLORE RUNWAY",
+      "href": "#"
+    },
+    "marqueeText": "FASHION • AVANT-GARDE • EDITORIAL • LUXURY • ",
+    "stats": [
+      { "label": "VOGUE", "value": "A++" },
+      { "label": "YEAR", "value": "2026" },
+      { "label": "FABRIC", "value": "SILK" }
+    ]
+  },
+  "styles": {
+    "backgroundColor": "#0a0a0a",
+    "textColor": "#ffffff",
+    "glassBackground": "rgba(255, 255, 255, 0.05)",
+    "glassBorder": "rgba(255, 255, 255, 0.15)"
+  }
+}
