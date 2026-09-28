@@ -1,0 +1,19 @@
+{
+  "id": "flash-sale-18",
+  "name": "FlashSale18",
+  "type": "flash-sale",
+  "content": {
+    "title": "Full Throttle",
+    "subtitle": "Prices moving fast",
+    "products": [
+      { "id": "fs18-1", "name": "Racing Simulator", "oldPrice": "$800", "newPrice": "$399", "image": "https://picsum.photos/seed/fs18_1/800/500" },
+      { "id": "fs18-2", "name": "Gaming Steering Wheel", "oldPrice": "$300", "newPrice": "$149", "image": "https://picsum.photos/seed/fs18_2/800/500" },
+      { "id": "fs18-3", "name": "VR Headset", "oldPrice": "$400", "newPrice": "$199", "image": "https://picsum.photos/seed/fs18_3/800/500" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#18181B",
+    "textColor": "#FFFFFF",
+    "accentColor": "#3B82F6"
+  }
+}

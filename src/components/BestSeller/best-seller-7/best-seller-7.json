@@ -1,0 +1,66 @@
+{
+  "id": "best-seller-7",
+  "name": "BestSeller7",
+  "type": "best-seller",
+  "content": {
+    "title": "Marquee Rankings",
+    "subtitle": "Global Favorites",
+    "products": [
+      {
+        "id": "bs7-1",
+        "name": "Smart Thermostat",
+        "price": "$249",
+        "category": "Home",
+        "image": "https://picsum.photos/seed/bs7_1/600/800",
+        "rating": 4.9,
+        "reviews": 3200,
+        "badge": "Eco"
+      },
+      {
+        "id": "bs7-2",
+        "name": "Robot Vacuum",
+        "price": "$599",
+        "category": "Home",
+        "image": "https://picsum.photos/seed/bs7_2/600/800",
+        "rating": 4.7,
+        "reviews": 4100,
+        "badge": null
+      },
+      {
+        "id": "bs7-3",
+        "name": "Security Camera",
+        "price": "$199",
+        "category": "Home",
+        "image": "https://picsum.photos/seed/bs7_3/600/800",
+        "rating": 4.8,
+        "reviews": 2500,
+        "badge": "Popular"
+      },
+      {
+        "id": "bs7-4",
+        "name": "Smart Doorbell",
+        "price": "$149",
+        "category": "Home",
+        "image": "https://picsum.photos/seed/bs7_4/600/800",
+        "rating": 4.6,
+        "reviews": 1800,
+        "badge": null
+      },
+      {
+        "id": "bs7-5",
+        "name": "Air Purifier",
+        "price": "$299",
+        "category": "Home",
+        "image": "https://picsum.photos/seed/bs7_5/600/800",
+        "rating": 4.9,
+        "reviews": 900,
+        "badge": "New"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000",
+    "accentColor": "#3B82F6"
+  }
+}

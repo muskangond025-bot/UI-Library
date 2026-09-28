@@ -1,0 +1,29 @@
+{
+  "id": "image-text-13",
+  "name": "ImageText13",
+  "type": "image-text",
+  "content": {
+    "heading": "Neon Dreams",
+    "subheading": "CYBERPUNK",
+    "description": "Illuminating the dark with striking gradients and luminous accents. This layout is designed for modern tech, gaming, or nightlife brands looking to make an electrifying impression.",
+    "features": [
+      "Luminous Gradients",
+      "Dark Mode Optimized",
+      "High Impact Visuals"
+    ],
+    "primaryAction": {
+      "label": "Enter The Void",
+      "url": "#"
+    },
+    "image": {
+      "url": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&q=80",
+      "alt": "Neon retro setup"
+    }
+  },
+  "style": {
+    "backgroundColor": "#050505",
+    "textColor": "#FFFFFF",
+    "accentColor": "linear-gradient(90deg, #F9A826 0%, #FF3366 100%)",
+    "imageAlignment": "right"
+  }
+}

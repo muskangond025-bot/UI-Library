@@ -1,0 +1,35 @@
+{
+  "id": "featured-product-tab-7",
+  "name": "FeaturedProductTab7",
+  "type": "featured-product-tab",
+  "content": {
+    "title": "Seasonal Collections",
+    "subtitle": "Swipe to explore the latest drops",
+    "tabs": [
+      { "id": "t1", "label": "Winter '24", "products": ["p1", "p2", "p3", "p4", "p5"] },
+      { "id": "t2", "label": "Spring '24", "products": ["p6", "p7", "p8", "p9"] },
+      { "id": "t3", "label": "Summer '23", "products": ["p10", "p11", "p12"] }
+    ],
+    "allProducts": [
+      { "id": "p1", "name": "Heavy Puffer Jacket", "price": "$199", "category": "Outerwear", "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&q=80" },
+      { "id": "p2", "name": "Knit Beanie", "price": "$35", "category": "Accessories", "image": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=800&q=80" },
+      { "id": "p3", "name": "Wool Scarf", "price": "$45", "category": "Accessories", "image": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=800&q=80" },
+      { "id": "p4", "name": "Thermal Long Sleeve", "price": "$55", "category": "Tops", "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&q=80" },
+      { "id": "p5", "name": "Fleece Lined Pants", "price": "$89", "category": "Bottoms", "image": "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=800&q=80" },
+
+      { "id": "p6", "name": "Lightweight Trench", "price": "$149", "category": "Outerwear", "image": "https://images.unsplash.com/photo-1520975954732-57dd22299614?w=800&q=80" },
+      { "id": "p7", "name": "Cotton Polo", "price": "$45", "category": "Tops", "image": "https://images.unsplash.com/photo-1574180566232-aaad1b5b8450?w=800&q=80" },
+      { "id": "p8", "name": "Chino Trousers", "price": "$75", "category": "Bottoms", "image": "https://images.unsplash.com/photo-1594938291221-94f18cbb5660?w=800&q=80" },
+      { "id": "p9", "name": "Leather Loafers", "price": "$110", "category": "Shoes", "image": "https://images.unsplash.com/photo-1533827432537-70133748f5c8?w=800&q=80" },
+
+      { "id": "p10", "name": "Swim Trunks", "price": "$45", "category": "Swimwear", "image": "https://images.unsplash.com/photo-1582533561751-6896238b16c8?w=800&q=80" },
+      { "id": "p11", "name": "Linen Shirt", "price": "$65", "category": "Tops", "image": "https://images.unsplash.com/photo-1596755094514-f87e32f85e98?w=800&q=80" },
+      { "id": "p12", "name": "Slide Sandals", "price": "$30", "category": "Shoes", "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#111827",
+    "textColor": "#F9FAFB",
+    "accentColor": "#10B981"
+  }
+}

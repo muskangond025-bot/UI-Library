@@ -1,0 +1,20 @@
+{
+  "id": "promo-card-4",
+  "name": "PromoCard4",
+  "type": "promotional-card",
+  "content": {
+    "badge": "Limited Time Offer",
+    "title": "50% OFF",
+    "subtitle": "Annual Subscription",
+    "description": "Unlock all premium features, templates, and priority support at half the price.",
+    "code": "SUMMER50",
+    "cta": {
+      "text": "Redeem Offer",
+      "url": "#"
+    }
+  },
+  "style": {
+    "backgroundColor": "#FF4500",
+    "textColor": "#FFFFFF"
+  }
+}

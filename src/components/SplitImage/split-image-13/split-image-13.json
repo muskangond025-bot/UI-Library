@@ -1,0 +1,29 @@
+{
+  "id": "split-image-13",
+  "name": "SplitImage13",
+  "type": "split-image",
+  "content": {
+    "leftPanel": {
+      "heading": "WILD",
+      "description": "Untamed and free.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1542272201-b1ca555f8505?w=1000&q=80",
+        "alt": "Forest"
+      },
+      "url": "#wild"
+    },
+    "rightPanel": {
+      "heading": "CALM",
+      "description": "Serene and composed.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000&q=80",
+        "alt": "Ocean"
+      },
+      "url": "#calm"
+    }
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000"
+  }
+}

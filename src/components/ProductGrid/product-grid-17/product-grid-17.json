@@ -1,0 +1,64 @@
+{
+  "id": "product-grid-17",
+  "name": "ProductGrid17",
+  "type": "product-grid",
+  "content": {
+    "title": "Waterfall Grid",
+    "subtitle": "Seamless flow",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Cotton Tee",
+        "price": "$35",
+        "category": "Apparel",
+        "image": "https://picsum.photos/seed/pg17_1/600/800",
+        "badge": null
+      },
+      {
+        "id": "p2",
+        "name": "Denim Jeans",
+        "price": "$95",
+        "category": "Apparel",
+        "image": "https://picsum.photos/seed/pg17_2/800/600",
+        "badge": "Bestseller"
+      },
+      {
+        "id": "p3",
+        "name": "Leather Belt",
+        "price": "$45",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/pg17_3/600/800",
+        "badge": null
+      },
+      {
+        "id": "p4",
+        "name": "Beanie",
+        "price": "$25",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/pg17_4/600/600",
+        "badge": "New"
+      },
+      {
+        "id": "p5",
+        "name": "Canvas Bag",
+        "price": "$65",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/pg17_5/800/1000",
+        "badge": null
+      },
+      {
+        "id": "p6",
+        "name": "Summer Shorts",
+        "price": "$55",
+        "category": "Apparel",
+        "image": "https://picsum.photos/seed/pg17_6/800/600",
+        "badge": null
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF",
+    "accentColor": "#38BDF8"
+  }
+}

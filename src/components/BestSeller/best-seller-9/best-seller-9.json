@@ -1,0 +1,56 @@
+{
+  "id": "best-seller-9",
+  "name": "BestSeller9",
+  "type": "best-seller",
+  "content": {
+    "title": "Grid Showcase",
+    "subtitle": "Discover more",
+    "products": [
+      {
+        "id": "bs9-1",
+        "name": "Minimalist Backpack",
+        "price": "$120",
+        "category": "Travel",
+        "image": "https://picsum.photos/seed/bs9_1/800/800",
+        "rating": 4.8,
+        "reviews": 560,
+        "badge": "Top Rated"
+      },
+      {
+        "id": "bs9-2",
+        "name": "Travel Mug",
+        "price": "$35",
+        "category": "Travel",
+        "image": "https://picsum.photos/seed/bs9_2/800/800",
+        "rating": 4.9,
+        "reviews": 1200,
+        "badge": null
+      },
+      {
+        "id": "bs9-3",
+        "name": "Passport Holder",
+        "price": "$45",
+        "category": "Travel",
+        "image": "https://picsum.photos/seed/bs9_3/800/800",
+        "rating": 4.7,
+        "reviews": 340,
+        "badge": null
+      },
+      {
+        "id": "bs9-4",
+        "name": "Luggage Tag Set",
+        "price": "$25",
+        "category": "Travel",
+        "image": "https://picsum.photos/seed/bs9_4/800/800",
+        "rating": 4.6,
+        "reviews": 150,
+        "badge": null
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FAFAFA",
+    "textColor": "#171717",
+    "accentColor": "#F59E0B"
+  }
+}

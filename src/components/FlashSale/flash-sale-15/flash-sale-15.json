@@ -1,0 +1,19 @@
+{
+  "id": "flash-sale-15",
+  "name": "FlashSale15",
+  "type": "flash-sale",
+  "content": {
+    "title": "Hyperdrive",
+    "subtitle": "Blink and you miss it",
+    "products": [
+      { "id": "fs15-1", "name": "Drone Pro", "oldPrice": "$1000", "newPrice": "$499", "image": "https://picsum.photos/seed/fs15_1/800/600" },
+      { "id": "fs15-2", "name": "Action Camera", "oldPrice": "$400", "newPrice": "$199", "image": "https://picsum.photos/seed/fs15_2/800/600" },
+      { "id": "fs15-3", "name": "Gimbal Stabilizer", "oldPrice": "$250", "newPrice": "$125", "image": "https://picsum.photos/seed/fs15_3/800/600" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF",
+    "accentColor": "#EC4899"
+  }
+}

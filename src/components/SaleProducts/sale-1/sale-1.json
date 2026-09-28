@@ -1,0 +1,20 @@
+{
+  "id": "sale-1",
+  "name": "Sale1",
+  "type": "sale-products",
+  "content": {
+    "title": "Clearance",
+    "subtitle": "Up to 50% Off",
+    "products": [
+      { "id": "s1-1", "name": "Basic Tee", "oldPrice": "$40", "newPrice": "$20", "image": "https://picsum.photos/seed/s1_1/600/800" },
+      { "id": "s1-2", "name": "Denim Shorts", "oldPrice": "$65", "newPrice": "$35", "image": "https://picsum.photos/seed/s1_2/600/800" },
+      { "id": "s1-3", "name": "Summer Hat", "oldPrice": "$30", "newPrice": "$15", "image": "https://picsum.photos/seed/s1_3/600/800" },
+      { "id": "s1-4", "name": "Canvas Sneakers", "oldPrice": "$80", "newPrice": "$45", "image": "https://picsum.photos/seed/s1_4/600/800" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000",
+    "accentColor": "#FF0000"
+  }
+}

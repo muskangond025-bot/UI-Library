@@ -1,0 +1,66 @@
+{
+  "id": "best-seller-3",
+  "name": "BestSeller3",
+  "type": "best-seller",
+  "content": {
+    "title": "Wall of Fame",
+    "subtitle": "Highest Rated",
+    "products": [
+      {
+        "id": "bs3-1",
+        "name": "Luxury Silk Robe",
+        "price": "$150",
+        "category": "Apparel",
+        "image": "https://picsum.photos/seed/bs3_1/800/1200",
+        "rating": 4.9,
+        "reviews": 112,
+        "badge": "Loved"
+      },
+      {
+        "id": "bs3-2",
+        "name": "Cashmere Sweater",
+        "price": "$299",
+        "category": "Apparel",
+        "image": "https://picsum.photos/seed/bs3_2/800/1200",
+        "rating": 4.8,
+        "reviews": 450,
+        "badge": "Classic"
+      },
+      {
+        "id": "bs3-3",
+        "name": "Leather Tote Bag",
+        "price": "$199",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/bs3_3/800/1200",
+        "rating": 5.0,
+        "reviews": 89,
+        "badge": "Perfect 5"
+      },
+      {
+        "id": "bs3-4",
+        "name": "Minimalist Watch",
+        "price": "$125",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/bs3_4/800/1200",
+        "rating": 4.7,
+        "reviews": 320,
+        "badge": null
+      },
+      {
+        "id": "bs3-5",
+        "name": "Wool Fedora",
+        "price": "$85",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/bs3_5/800/1200",
+        "rating": 4.6,
+        "reviews": 210,
+        "badge": null
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#18181B",
+    "textColor": "#FAFAFA",
+    "accentColor": "#F43F5E"
+  }
+}

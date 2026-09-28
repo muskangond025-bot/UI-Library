@@ -1,0 +1,29 @@
+{
+  "id": "image-text-1",
+  "name": "ImageText1",
+  "type": "image-text",
+  "content": {
+    "heading": "Crafting Digital Experiences",
+    "subheading": "OUR PHILOSOPHY",
+    "description": "We believe in the perfect harmony of form and function. Every pixel is thoughtfully placed to create seamless, intuitive, and breathtaking user journeys. Our approach merges cutting-edge technology with timeless design principles.",
+    "features": [
+      "User-Centric Design",
+      "Seamless Animations",
+      "Optimized Performance"
+    ],
+    "primaryAction": {
+      "label": "Discover More",
+      "url": "#"
+    },
+    "image": {
+      "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80",
+      "alt": "Modern workspace"
+    }
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#111827",
+    "accentColor": "#2563EB",
+    "imageAlignment": "right"
+  }
+}

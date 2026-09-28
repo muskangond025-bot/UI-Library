@@ -1,0 +1,20 @@
+{
+  "id": "new-arrival-7",
+  "name": "NewArrival7",
+  "type": "new-arrival",
+  "content": {
+    "title": "The Deck",
+    "subtitle": "Just Landed",
+    "products": [
+      { "id": "na7-1", "name": "Ceramic Pour Over", "price": "$65", "image": "https://picsum.photos/seed/na7_1/600/800", "badge": "New" },
+      { "id": "na7-2", "name": "Artisan Coffee Mug", "price": "$28", "image": "https://picsum.photos/seed/na7_2/600/800", "badge": "Restocked" },
+      { "id": "na7-3", "name": "Electric Kettle", "price": "$145", "image": "https://picsum.photos/seed/na7_3/600/800", "badge": "New" },
+      { "id": "na7-4", "name": "Burr Grinder", "price": "$210", "image": "https://picsum.photos/seed/na7_4/600/800", "badge": "New" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FDFBF7",
+    "textColor": "#292524",
+    "accentColor": "#CA8A04"
+  }
+}

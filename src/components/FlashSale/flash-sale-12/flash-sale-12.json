@@ -1,0 +1,19 @@
+{
+  "id": "flash-sale-12",
+  "name": "FlashSale12",
+  "type": "flash-sale",
+  "content": {
+    "title": "Cyber Deals",
+    "subtitle": "Override sequence initiated",
+    "products": [
+      { "id": "fs12-1", "name": "Mech Keyboard", "oldPrice": "$200", "newPrice": "$99", "image": "https://picsum.photos/seed/fs12_1/800/600" },
+      { "id": "fs12-2", "name": "Gaming Monitor", "oldPrice": "$500", "newPrice": "$249", "image": "https://picsum.photos/seed/fs12_2/800/600" },
+      { "id": "fs12-3", "name": "Studio Mic", "oldPrice": "$150", "newPrice": "$75", "image": "https://picsum.photos/seed/fs12_3/800/600" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FDE047",
+    "textColor": "#000000",
+    "accentColor": "#000000"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "flash-sale-1",
+  "name": "FlashSale1",
+  "type": "flash-sale",
+  "content": {
+    "title": "Lightning Deals",
+    "subtitle": "Gone in a flash",
+    "products": [
+      { "id": "fs1-1", "name": "Power Bank", "oldPrice": "$60", "newPrice": "$25", "image": "https://picsum.photos/seed/fs1_1/600/600" },
+      { "id": "fs1-2", "name": "Fast Charger", "oldPrice": "$40", "newPrice": "$15", "image": "https://picsum.photos/seed/fs1_2/600/600" },
+      { "id": "fs1-3", "name": "Wireless Pad", "oldPrice": "$50", "newPrice": "$20", "image": "https://picsum.photos/seed/fs1_3/600/600" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#0F172A",
+    "textColor": "#FFFFFF",
+    "accentColor": "#FDE047"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "featured-product-tab-5",
+  "name": "FeaturedProductTab5",
+  "type": "featured-product-tab",
+  "content": {
+    "title": "Exclusive Drops",
+    "subtitle": "Limited edition pieces curated for you",
+    "tabs": [
+      { "id": "t1", "label": "Sneakers", "products": ["p1", "p2", "p3", "p4"] },
+      { "id": "t2", "label": "Watches", "products": ["p5", "p6", "p7", "p8"] },
+      { "id": "t3", "label": "Bags", "products": ["p9", "p10", "p11", "p12"] }
+    ],
+    "allProducts": [
+      { "id": "p1", "name": "Retro High OG", "price": "$250", "category": "Footwear", "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800&q=80", "badge": "Drop" },
+      { "id": "p2", "name": "Y-3 Runner 4D", "price": "$300", "category": "Footwear", "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=800&q=80" },
+      { "id": "p3", "name": "Dunk Low SP", "price": "$180", "category": "Footwear", "image": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=800&q=80" },
+      { "id": "p4", "name": "Air Max 97", "price": "$170", "category": "Footwear", "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800&q=80" },
+      { "id": "p5", "name": "Chronograph Steel", "price": "$1,200", "category": "Accessories", "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=800&q=80" },
+      { "id": "p6", "name": "Minimalist Leather", "price": "$450", "category": "Accessories", "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=800&q=80" },
+      { "id": "p7", "name": "Diver Automatic", "price": "$850", "category": "Accessories", "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=800&q=80", "badge": "New" },
+      { "id": "p8", "name": "Digital Retro", "price": "$120", "category": "Accessories", "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&q=80" },
+      { "id": "p9", "name": "Leather Tote", "price": "$350", "category": "Bags", "image": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=800&q=80" },
+      { "id": "p10", "name": "Canvas Backpack", "price": "$180", "category": "Bags", "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80" },
+      { "id": "p11", "name": "Crossbody Saddle", "price": "$220", "category": "Bags", "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80" },
+      { "id": "p12", "name": "Weekend Duffle", "price": "$290", "category": "Bags", "image": "https://images.unsplash.com/photo-1554342872-034a06541bad?w=800&q=80", "badge": "Bestseller" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FAFAFA",
+    "textColor": "#171717",
+    "accentColor": "#6366F1"
+  }
+}

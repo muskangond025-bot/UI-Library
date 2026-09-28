@@ -1,0 +1,64 @@
+{
+  "id": "product-grid-4",
+  "name": "ProductGrid4",
+  "type": "product-grid",
+  "content": {
+    "title": "Minimal",
+    "subtitle": "Less is more",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Glass Carafe",
+        "price": "$55",
+        "category": "Dining",
+        "image": "https://picsum.photos/id/123/800/1000",
+        "badge": null
+      },
+      {
+        "id": "p2",
+        "name": "Wood Serving Tray",
+        "price": "$65",
+        "category": "Dining",
+        "image": "https://picsum.photos/id/124/800/1000",
+        "badge": "New"
+      },
+      {
+        "id": "p3",
+        "name": "Linen Napkins",
+        "price": "$28",
+        "category": "Textiles",
+        "image": "https://picsum.photos/id/125/800/1000",
+        "badge": null
+      },
+      {
+        "id": "p4",
+        "name": "Ceramic Plates",
+        "price": "$90",
+        "category": "Dining",
+        "image": "https://picsum.photos/id/126/800/1000",
+        "badge": "Popular"
+      },
+      {
+        "id": "p5",
+        "name": "Cutlery Set",
+        "price": "$120",
+        "category": "Dining",
+        "image": "https://picsum.photos/id/127/800/1000",
+        "badge": null
+      },
+      {
+        "id": "p6",
+        "name": "Wine Glasses",
+        "price": "$80",
+        "category": "Dining",
+        "image": "https://picsum.photos/id/128/800/1000",
+        "badge": null
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#F3F4F6",
+    "textColor": "#1F2937",
+    "accentColor": "#8B5CF6"
+  }
+}

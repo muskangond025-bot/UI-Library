@@ -1,0 +1,19 @@
+{
+  "id": "flash-sale-3",
+  "name": "FlashSale3",
+  "type": "flash-sale",
+  "content": {
+    "title": "Neon Rush",
+    "subtitle": "Midnight Exclusives",
+    "products": [
+      { "id": "fs3-1", "name": "RGB Keyboard", "oldPrice": "$150", "newPrice": "$80", "image": "https://picsum.photos/seed/fs3_1/600/600" },
+      { "id": "fs3-2", "name": "Gaming Mouse", "oldPrice": "$90", "newPrice": "$45", "image": "https://picsum.photos/seed/fs3_2/600/600" },
+      { "id": "fs3-3", "name": "LED Strip", "oldPrice": "$40", "newPrice": "$20", "image": "https://picsum.photos/seed/fs3_3/600/600" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF",
+    "accentColor": "#00FFCC"
+  }
+}

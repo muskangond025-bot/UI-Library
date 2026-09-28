@@ -1,0 +1,48 @@
+{
+  "id": "product-grid-5",
+  "name": "ProductGrid5",
+  "type": "product-grid",
+  "content": {
+    "title": "Bestsellers",
+    "subtitle": "Community favorites",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Lounge Chair",
+        "price": "$599",
+        "category": "Furniture",
+        "image": "https://picsum.photos/id/129/800/800",
+        "badge": "Best"
+      },
+      {
+        "id": "p2",
+        "name": "Coffee Table",
+        "price": "$299",
+        "category": "Furniture",
+        "image": "https://picsum.photos/id/130/800/800",
+        "badge": null
+      },
+      {
+        "id": "p3",
+        "name": "Bookshelf",
+        "price": "$399",
+        "category": "Furniture",
+        "image": "https://picsum.photos/id/131/800/800",
+        "badge": null
+      },
+      {
+        "id": "p4",
+        "name": "Sideboard",
+        "price": "$799",
+        "category": "Furniture",
+        "image": "https://picsum.photos/id/132/800/800",
+        "badge": "Popular"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#18181B",
+    "textColor": "#FFFFFF",
+    "accentColor": "#10B981"
+  }
+}

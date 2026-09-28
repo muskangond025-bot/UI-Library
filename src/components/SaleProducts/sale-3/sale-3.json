@@ -1,0 +1,20 @@
+{
+  "id": "sale-3",
+  "name": "Sale3",
+  "type": "sale-products",
+  "content": {
+    "title": "Flash Sale",
+    "subtitle": "Ends Midnight",
+    "products": [
+      { "id": "s3-1", "name": "Leather Tote", "oldPrice": "$250", "newPrice": "$125", "image": "https://picsum.photos/seed/s3_1/600/800" },
+      { "id": "s3-2", "name": "Gold Chain", "oldPrice": "$150", "newPrice": "$90", "image": "https://picsum.photos/seed/s3_2/600/600" },
+      { "id": "s3-3", "name": "Silk Blouse", "oldPrice": "$120", "newPrice": "$75", "image": "https://picsum.photos/seed/s3_3/600/1000" },
+      { "id": "s3-4", "name": "Wool Coat", "oldPrice": "$350", "newPrice": "$190", "image": "https://picsum.photos/seed/s3_4/600/800" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FAFAFA",
+    "textColor": "#1A1A1A",
+    "accentColor": "#F97316"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "trending-10",
+  "name": "Trending10",
+  "type": "trending-products",
+  "content": {
+    "title": "Mosaic",
+    "subtitle": "Discover",
+    "products": [
+      { "id": "t10-1", "name": "Ceramic Mug", "price": "$25", "image": "https://picsum.photos/seed/t10_1/800/800", "type": "large" },
+      { "id": "t10-2", "name": "Linen Napkins", "price": "$40", "image": "https://picsum.photos/seed/t10_2/400/400", "type": "small" },
+      { "id": "t10-3", "name": "Wooden Spoon", "price": "$15", "image": "https://picsum.photos/seed/t10_3/400/400", "type": "small" },
+      { "id": "t10-4", "name": "Cast Iron Pan", "price": "$85", "image": "https://picsum.photos/seed/t10_4/800/400", "type": "wide" },
+      { "id": "t10-5", "name": "Chef's Knife", "price": "$120", "image": "https://picsum.photos/seed/t10_5/400/800", "type": "tall" },
+      { "id": "t10-6", "name": "Cutting Board", "price": "$65", "image": "https://picsum.photos/seed/t10_6/800/800", "type": "large" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#18181B",
+    "textColor": "#FAFAFA",
+    "accentColor": "#EAB308"
+  }
+}

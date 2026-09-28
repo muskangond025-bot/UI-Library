@@ -1,0 +1,79 @@
+{
+  "id": "featured-collection-20",
+  "name": "FeaturedCollection20",
+  "type": "featured-collection",
+  "content": {
+    "title": "The Cascade",
+    "subtitle": "Multidirectional scrolling",
+    "collections": [
+      {
+        "id": "c1",
+        "title": "One",
+        "description": "First.",
+        "image": "https://picsum.photos/id/68/800/1000",
+        "link": "#"
+      },
+      {
+        "id": "c2",
+        "title": "Two",
+        "description": "Second.",
+        "image": "https://picsum.photos/id/69/800/1000",
+        "link": "#"
+      },
+      {
+        "id": "c3",
+        "title": "Three",
+        "description": "Third.",
+        "image": "https://picsum.photos/id/70/800/1000",
+        "link": "#"
+      },
+      {
+        "id": "c4",
+        "title": "Four",
+        "description": "Fourth.",
+        "image": "https://picsum.photos/id/71/800/1000",
+        "link": "#"
+      },
+      {
+        "id": "c5",
+        "title": "Five",
+        "description": "Fifth.",
+        "image": "https://picsum.photos/id/72/800/1000",
+        "link": "#"
+      },
+      {
+        "id": "c6",
+        "title": "Six",
+        "description": "Sixth.",
+        "image": "https://picsum.photos/id/73/800/1000",
+        "link": "#"
+      },
+      {
+        "id": "c7",
+        "title": "Seven",
+        "description": "Seventh.",
+        "image": "https://picsum.photos/id/74/800/1000",
+        "link": "#"
+      },
+      {
+        "id": "c8",
+        "title": "Eight",
+        "description": "Eighth.",
+        "image": "https://picsum.photos/id/75/800/1000",
+        "link": "#"
+      },
+      {
+        "id": "c9",
+        "title": "Nine",
+        "description": "Ninth.",
+        "image": "https://picsum.photos/id/76/800/1000",
+        "link": "#"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#171717",
+    "textColor": "#F3F4F6",
+    "accentColor": "#A855F7"
+  }
+}

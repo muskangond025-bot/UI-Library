@@ -1,0 +1,19 @@
+{
+  "id": "flash-sale-16",
+  "name": "FlashSale16",
+  "type": "flash-sale",
+  "content": {
+    "title": "Red Alert",
+    "subtitle": "Prices slashed to the bone",
+    "products": [
+      { "id": "fs16-1", "name": "Combat Boots", "oldPrice": "$150", "newPrice": "$75", "image": "https://picsum.photos/seed/fs16_1/600/800" },
+      { "id": "fs16-2", "name": "Tactical Bag", "oldPrice": "$120", "newPrice": "$60", "image": "https://picsum.photos/seed/fs16_2/600/800" },
+      { "id": "fs16-3", "name": "Survival Kit", "oldPrice": "$80", "newPrice": "$40", "image": "https://picsum.photos/seed/fs16_3/600/800" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF",
+    "accentColor": "#FF0000"
+  }
+}

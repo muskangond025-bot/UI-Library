@@ -1,0 +1,31 @@
+{
+  "id": "image-text-5",
+  "name": "ImageText5",
+  "type": "image-text",
+  "content": {
+    "heading": "Art of Craftsmanship",
+    "subheading": "OUR PROCESS",
+    "description": "Every detail matters. We dedicate countless hours refining our designs to ensure that every interaction feels natural, and every visual element serves a distinct purpose. It's not just design; it's engineering beauty.",
+    "features": [
+      "Precision Engineering",
+      "Handcrafted Details",
+      "Uncompromising Quality",
+      "Timeless Aesthetics",
+      "Iterative Perfection"
+    ],
+    "primaryAction": {
+      "label": "Read The Story",
+      "url": "#"
+    },
+    "image": {
+      "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80",
+      "alt": "Craftsmanship and design"
+    }
+  },
+  "style": {
+    "backgroundColor": "#FAFAFA",
+    "textColor": "#2D3748",
+    "accentColor": "#E53E3E",
+    "imageAlignment": "left"
+  }
+}

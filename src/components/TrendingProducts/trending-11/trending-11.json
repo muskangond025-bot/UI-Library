@@ -1,0 +1,20 @@
+{
+  "id": "trending-11",
+  "name": "Trending11",
+  "type": "trending-products",
+  "content": {
+    "title": "The Market",
+    "subtitle": "Live Tracking",
+    "products": [
+      { "id": "t11-1", "name": "Mechanical Watch", "price": "$1250", "image": "https://picsum.photos/seed/t11_1/500/500", "trend": "+12.4%" },
+      { "id": "t11-2", "name": "Collector Sneakers", "price": "$890", "image": "https://picsum.photos/seed/t11_2/500/500", "trend": "+8.2%" },
+      { "id": "t11-3", "name": "Designer Bag", "price": "$2100", "image": "https://picsum.photos/seed/t11_3/500/500", "trend": "-2.1%" },
+      { "id": "t11-4", "name": "Vintage Camera", "price": "$650", "image": "https://picsum.photos/seed/t11_4/500/500", "trend": "+15.8%" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#0A0A0A",
+    "textColor": "#FFFFFF",
+    "accentColor": "#00FF00"
+  }
+}

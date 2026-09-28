@@ -1,0 +1,29 @@
+{
+  "id": "split-image-12",
+  "name": "SplitImage12",
+  "type": "split-image",
+  "content": {
+    "leftPanel": {
+      "heading": "Reality",
+      "description": "What you see is what you get.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1000&q=80",
+        "alt": "Hardware circuit"
+      },
+      "url": "#reality"
+    },
+    "rightPanel": {
+      "heading": "Simulation",
+      "description": "Breaking the boundaries of the physical.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1614729939124-032f0b56c9ce?w=1000&q=80",
+        "alt": "Digital glitch art"
+      },
+      "url": "#simulation"
+    }
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#00FF41"
+  }
+}

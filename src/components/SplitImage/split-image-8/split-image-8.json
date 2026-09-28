@@ -1,0 +1,29 @@
+{
+  "id": "split-image-8",
+  "name": "SplitImage8",
+  "type": "split-image",
+  "content": {
+    "leftPanel": {
+      "heading": "Classic",
+      "description": "Timeless aesthetics.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1549887552-cb1071d3e5ca?w=1000&q=80",
+        "alt": "Classic architecture"
+      },
+      "url": "#classic"
+    },
+    "rightPanel": {
+      "heading": "Modern",
+      "description": "Forward thinking design.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1000&q=80",
+        "alt": "Modern architecture"
+      },
+      "url": "#modern"
+    }
+  },
+  "style": {
+    "backgroundColor": "#FAFAFA",
+    "textColor": "#171717"
+  }
+}

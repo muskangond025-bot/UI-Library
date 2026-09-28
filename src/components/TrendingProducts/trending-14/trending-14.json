@@ -1,0 +1,19 @@
+{
+  "id": "trending-14",
+  "name": "Trending14",
+  "type": "trending-products",
+  "content": {
+    "title": "Neon Grid",
+    "subtitle": "Electric Trends",
+    "products": [
+      { "id": "t14-1", "name": "LED Keyboard", "price": "$150", "image": "https://picsum.photos/seed/t14_1/800/800", "color": "#00FFFF" },
+      { "id": "t14-2", "name": "Gaming Chair", "price": "$399", "image": "https://picsum.photos/seed/t14_2/800/800", "color": "#FF00FF" },
+      { "id": "t14-3", "name": "Studio Mic", "price": "$250", "image": "https://picsum.photos/seed/t14_3/800/800", "color": "#FFFF00" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#050505",
+    "textColor": "#FFFFFF",
+    "accentColor": "#00FFFF"
+  }
+}

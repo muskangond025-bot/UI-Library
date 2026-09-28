@@ -1,0 +1,20 @@
+{
+  "id": "sale-10",
+  "name": "Sale10",
+  "type": "sale-products",
+  "content": {
+    "title": "Midnight Madness",
+    "subtitle": "Do Not Sleep On This",
+    "products": [
+      { "id": "s10-1", "name": "Gaming PC", "oldPrice": "$2000", "newPrice": "$1200", "image": "https://picsum.photos/seed/s10_1/800/800" },
+      { "id": "s10-2", "name": "Ultrawide Monitor", "oldPrice": "$800", "newPrice": "$450", "image": "https://picsum.photos/seed/s10_2/800/800" },
+      { "id": "s10-3", "name": "Mechanical Board", "oldPrice": "$250", "newPrice": "$140", "image": "https://picsum.photos/seed/s10_3/800/800" },
+      { "id": "s10-4", "name": "Pro Mouse", "oldPrice": "$150", "newPrice": "$80", "image": "https://picsum.photos/seed/s10_4/800/800" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#05001A",
+    "textColor": "#FFFFFF",
+    "accentColor": "#FF00FF"
+  }
+}

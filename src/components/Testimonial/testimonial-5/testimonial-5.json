@@ -1,0 +1,45 @@
+{
+  "id": "testimonial-5",
+  "name": "Testimonial5",
+  "type": "testimonial",
+  "content": {
+    "heading": "Loved by thousands",
+    "description": "See what our users have to say about their experience.",
+    "testimonials": [
+      {
+        "name": "Sarah Jenkins",
+        "role": "CEO at TechFlow",
+        "content": "This platform has completely transformed how our team collaborates. The intuitive interface and powerful features saved us countless hours.",
+        "avatar": "https://i.pravatar.cc/150?u=sarah"
+      },
+      {
+        "name": "David Chen",
+        "role": "Lead Developer",
+        "content": "I've tried dozens of similar tools, but nothing comes close to this. The performance is unmatched and the support team is incredible.",
+        "avatar": "https://i.pravatar.cc/150?u=david"
+      },
+      {
+        "name": "Emily Rodriguez",
+        "role": "Product Manager",
+        "content": "Deploying this across our organization was seamless. The ROI we've seen in just the first quarter has been absolutely staggering.",
+        "avatar": "https://i.pravatar.cc/150?u=emily"
+      },
+      {
+        "name": "Michael Chang",
+        "role": "Design Director",
+        "content": "A beautiful, well-thought-out product. You can tell the team obsessed over every little detail. It's a joy to use every single day.",
+        "avatar": "https://i.pravatar.cc/150?u=michael"
+      },
+      {
+        "name": "Jessica Walsh",
+        "role": "Marketing Head",
+        "content": "Finally, a solution that actually does what it promises without the unnecessary complexity. Highly recommended for growing teams.",
+        "avatar": "https://i.pravatar.cc/150?u=jessica"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#ffffff",
+    "textColor": "#000000"
+  }
+}

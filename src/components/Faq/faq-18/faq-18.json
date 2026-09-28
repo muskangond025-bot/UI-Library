@@ -1,0 +1,40 @@
+{
+  "id": "faq-18",
+  "name": "Faq18",
+  "type": "faq",
+  "content": {
+    "heading": "Common Questions",
+    "description": "Find out everything you need to know about our platform, billing, and support options.",
+    "supportText": "Still have questions?",
+    "faqs": [
+      {
+        "question": "How do I invite team members?",
+        "answer": "You can invite team members from the Workspace Settings page. Click on 'Members' and enter their email addresses. They will receive an invitation link."
+      },
+      {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept all major credit cards including Visa, Mastercard, and American Express. We also support PayPal and wire transfers for enterprise annual plans."
+      },
+      {
+        "question": "Can I export my data?",
+        "answer": "Yes, you can export all your data at any time in CSV or JSON format from the Data Management section in your account settings."
+      },
+      {
+        "question": "Do you offer custom integrations?",
+        "answer": "Custom integrations are available on our Enterprise plan. Our engineering team will work with you to connect our platform with your internal tools."
+      },
+      {
+        "question": "How long are backups kept?",
+        "answer": "We keep daily backups for 30 days on all paid plans. Enterprise customers can request custom retention periods."
+      },
+      {
+        "question": "What happens if I exceed my usage limit?",
+        "answer": "We'll never cut off your service immediately. You'll receive a warning email when you reach 80% and 100% of your limit, giving you time to upgrade your plan."
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#0f172a",
+    "textColor": "#e2e8f0"
+  }
+}

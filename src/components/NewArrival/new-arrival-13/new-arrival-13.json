@@ -1,0 +1,21 @@
+{
+  "id": "new-arrival-13",
+  "name": "NewArrival13",
+  "type": "new-arrival",
+  "content": {
+    "title": "The Lookbook",
+    "subtitle": "Get The Look",
+    "mainImage": "https://picsum.photos/seed/na13_main/1000/1400",
+    "products": [
+      { "id": "na13-1", "name": "Oversized Blazer", "price": "$180", "image": "https://picsum.photos/seed/na13_1/600/600" },
+      { "id": "na13-2", "name": "Basic White Tee", "price": "$35", "image": "https://picsum.photos/seed/na13_2/600/600" },
+      { "id": "na13-3", "name": "Faded Jeans", "price": "$95", "image": "https://picsum.photos/seed/na13_3/600/600" },
+      { "id": "na13-4", "name": "Gold Chain", "price": "$120", "image": "https://picsum.photos/seed/na13_4/600/600" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FAF5FF",
+    "textColor": "#3B0764",
+    "accentColor": "#9333EA"
+  }
+}

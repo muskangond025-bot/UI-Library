@@ -1,0 +1,48 @@
+{
+  "id": "product-carousel-15",
+  "name": "ProductCarousel15",
+  "type": "product-carousel",
+  "content": {
+    "title": "Cascading Deck",
+    "subtitle": "Fluid motion",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Gaming Controller",
+        "price": "$70",
+        "category": "Gaming",
+        "image": "https://picsum.photos/seed/pc15_1/800/600",
+        "badge": "Pro"
+      },
+      {
+        "id": "p2",
+        "name": "Mechanical Keyboard",
+        "price": "$150",
+        "category": "Gaming",
+        "image": "https://picsum.photos/seed/pc15_2/800/600",
+        "badge": null
+      },
+      {
+        "id": "p3",
+        "name": "Wireless Mouse",
+        "price": "$90",
+        "category": "Gaming",
+        "image": "https://picsum.photos/seed/pc15_3/800/600",
+        "badge": "Popular"
+      },
+      {
+        "id": "p4",
+        "name": "Headset Stand",
+        "price": "$30",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/pc15_4/800/600",
+        "badge": null
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#0F172A",
+    "textColor": "#F8FAFC",
+    "accentColor": "#8B5CF6"
+  }
+}

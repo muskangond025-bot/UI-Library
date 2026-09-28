@@ -1,0 +1,19 @@
+{
+  "id": "trending-15",
+  "name": "Trending15",
+  "type": "trending-products",
+  "content": {
+    "title": "The Edit",
+    "subtitle": "Curated Hype",
+    "products": [
+      { "id": "t15-1", "name": "Trench Coat", "price": "$450", "image": "https://picsum.photos/seed/t15_1/800/1200", "type": "hero" },
+      { "id": "t15-2", "name": "Silk Scarf", "price": "$85", "image": "https://picsum.photos/seed/t15_2/600/600", "type": "thumb" },
+      { "id": "t15-3", "name": "Leather Gloves", "price": "$120", "image": "https://picsum.photos/seed/t15_3/600/600", "type": "thumb" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FDFBF7",
+    "textColor": "#2C2C2C",
+    "accentColor": "#B45309"
+  }
+}

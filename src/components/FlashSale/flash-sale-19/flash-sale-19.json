@@ -1,0 +1,20 @@
+{
+  "id": "flash-sale-19",
+  "name": "FlashSale19",
+  "type": "flash-sale",
+  "content": {
+    "title": "Strobe Sale",
+    "subtitle": "Blink and you miss it",
+    "products": [
+      { "id": "fs19-1", "name": "Party Speaker", "oldPrice": "$250", "newPrice": "$125", "image": "https://picsum.photos/seed/fs19_1/600/600" },
+      { "id": "fs19-2", "name": "DJ Controller", "oldPrice": "$400", "newPrice": "$199", "image": "https://picsum.photos/seed/fs19_2/600/600" },
+      { "id": "fs19-3", "name": "Headphones", "oldPrice": "$150", "newPrice": "$75", "image": "https://picsum.photos/seed/fs19_3/600/600" },
+      { "id": "fs19-4", "name": "LED Lights", "oldPrice": "$50", "newPrice": "$25", "image": "https://picsum.photos/seed/fs19_4/600/600" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FAFAFA",
+    "textColor": "#000000",
+    "accentColor": "#EAB308"
+  }
+}

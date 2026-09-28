@@ -1,0 +1,56 @@
+{
+  "id": "best-seller-17",
+  "name": "BestSeller17",
+  "type": "best-seller",
+  "content": {
+    "title": "Minimal Scroll",
+    "subtitle": "Essential Collection",
+    "products": [
+      {
+        "id": "bs17-1",
+        "name": "Cashmere Blend Throw",
+        "price": "$125",
+        "category": "Home",
+        "image": "https://picsum.photos/seed/bs17_1/800/1000",
+        "rating": 4.9,
+        "reviews": 820,
+        "badge": "Loved"
+      },
+      {
+        "id": "bs17-2",
+        "name": "Scented Soy Candle",
+        "price": "$35",
+        "category": "Decor",
+        "image": "https://picsum.photos/seed/bs17_2/800/1000",
+        "rating": 4.8,
+        "reviews": 1150,
+        "badge": null
+      },
+      {
+        "id": "bs17-3",
+        "name": "Handmade Ceramic Bowl",
+        "price": "$45",
+        "category": "Kitchen",
+        "image": "https://picsum.photos/seed/bs17_3/800/1000",
+        "rating": 4.9,
+        "reviews": 430,
+        "badge": null
+      },
+      {
+        "id": "bs17-4",
+        "name": "Linen Napkin Set",
+        "price": "$28",
+        "category": "Kitchen",
+        "image": "https://picsum.photos/seed/bs17_4/800/1000",
+        "rating": 4.7,
+        "reviews": 310,
+        "badge": "Popular"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FDFBF7",
+    "textColor": "#292524",
+    "accentColor": "#A78BFA"
+  }
+}

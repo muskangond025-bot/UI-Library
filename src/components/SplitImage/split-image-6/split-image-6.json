@@ -1,0 +1,29 @@
+{
+  "id": "split-image-6",
+  "name": "SplitImage6",
+  "type": "split-image",
+  "content": {
+    "leftPanel": {
+      "heading": "Desert",
+      "description": "Endless waves of golden sand.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?w=1000&q=80",
+        "alt": "Desert dunes"
+      },
+      "url": "#desert"
+    },
+    "rightPanel": {
+      "heading": "Oasis",
+      "description": "A hidden sanctuary of life.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1000&q=80",
+        "alt": "Lush oasis"
+      },
+      "url": "#oasis"
+    }
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#222222"
+  }
+}

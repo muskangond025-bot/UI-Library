@@ -1,0 +1,21 @@
+{
+  "id": "sale-8",
+  "name": "Sale8",
+  "type": "sale-products",
+  "content": {
+    "title": "Bargain Bin",
+    "subtitle": "Dig for Gold",
+    "products": [
+      { "id": "s8-1", "name": "Vintage Camera", "oldPrice": "$150", "newPrice": "$45", "image": "https://picsum.photos/seed/s8_1/600/600" },
+      { "id": "s8-2", "name": "Retro Games", "oldPrice": "$80", "newPrice": "$25", "image": "https://picsum.photos/seed/s8_2/600/600" },
+      { "id": "s8-3", "name": "Vinyl Records", "oldPrice": "$120", "newPrice": "$35", "image": "https://picsum.photos/seed/s8_3/600/600" },
+      { "id": "s8-4", "name": "Classic Watch", "oldPrice": "$200", "newPrice": "$65", "image": "https://picsum.photos/seed/s8_4/600/600" },
+      { "id": "s8-5", "name": "Polaroid", "oldPrice": "$90", "newPrice": "$30", "image": "https://picsum.photos/seed/s8_5/600/600" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FCD34D",
+    "textColor": "#1E40AF",
+    "accentColor": "#DC2626"
+  }
+}

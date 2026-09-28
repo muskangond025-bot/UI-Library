@@ -1,0 +1,19 @@
+{
+  "id": "trending-5",
+  "name": "Trending5",
+  "type": "trending-products",
+  "content": {
+    "title": "The Cut",
+    "subtitle": "Trending Shapes",
+    "products": [
+      { "id": "t5-1", "name": "Sculpted Heel", "price": "$240", "image": "https://picsum.photos/seed/t5_1/800/1000" },
+      { "id": "t5-2", "name": "Asymmetric Dress", "price": "$195", "image": "https://picsum.photos/seed/t5_2/800/1000" },
+      { "id": "t5-3", "name": "Geometric Bag", "price": "$310", "image": "https://picsum.photos/seed/t5_3/800/1000" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#E5E5E5",
+    "textColor": "#1A1A1A",
+    "accentColor": "#000000"
+  }
+}

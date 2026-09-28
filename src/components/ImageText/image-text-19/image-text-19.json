@@ -1,0 +1,29 @@
+{
+  "id": "image-text-19",
+  "name": "ImageText19",
+  "type": "image-text",
+  "content": {
+    "heading": "Natural Flow",
+    "subheading": "ORGANIC DESIGN",
+    "description": "Moving away from rigid boxes and sharp edges. We embrace soft, fluid forms that mimic the natural world, creating an interface that feels calm, inviting, and human.",
+    "features": [
+      "Fluid Shapes",
+      "Pastel Palettes",
+      "Gentle Motion"
+    ],
+    "primaryAction": {
+      "label": "Breathe",
+      "url": "#"
+    },
+    "image": {
+      "url": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=800&q=80",
+      "alt": "Soft abstract textures"
+    }
+  },
+  "style": {
+    "backgroundColor": "#FFF8F0",
+    "textColor": "#5D4037",
+    "accentColor": "#FFB7B2",
+    "imageAlignment": "left"
+  }
+}

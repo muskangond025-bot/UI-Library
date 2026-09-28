@@ -1,0 +1,37 @@
+{
+  "id": "new-arrival-4",
+  "name": "NewArrival4",
+  "type": "new-arrival",
+  "content": {
+    "title": "Future Tech",
+    "subtitle": "Latest Gadgets",
+    "products": [
+      {
+        "id": "na4-1",
+        "name": "Holographic Display",
+        "price": "$899",
+        "image": "https://picsum.photos/seed/na4_1/800/800",
+        "glowColor": "rgba(59, 130, 246, 0.5)"
+      },
+      {
+        "id": "na4-2",
+        "name": "Neural Interface Ring",
+        "price": "$299",
+        "image": "https://picsum.photos/seed/na4_2/800/800",
+        "glowColor": "rgba(168, 85, 247, 0.5)"
+      },
+      {
+        "id": "na4-3",
+        "name": "Quantum Earbuds",
+        "price": "$199",
+        "image": "https://picsum.photos/seed/na4_3/800/800",
+        "glowColor": "rgba(236, 72, 153, 0.5)"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#0F172A",
+    "textColor": "#F8FAFC",
+    "accentColor": "#38BDF8"
+  }
+}

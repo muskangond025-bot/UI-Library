@@ -1,0 +1,19 @@
+{
+  "id": "promo-card-2",
+  "name": "PromoCard2",
+  "type": "promotional-card",
+  "content": {
+    "badge": "Early Access",
+    "title": "The Infinite Loop",
+    "description": "Never run out of inspiration with our endless stream of curated design resources.",
+    "cta": {
+      "text": "Join the Waitlist",
+      "url": "#"
+    },
+    "scrollingText": ["Design", "Develop", "Deploy", "Scale", "Iterate", "Innovate"]
+  },
+  "style": {
+    "backgroundColor": "#FAFAFA",
+    "textColor": "#171717"
+  }
+}

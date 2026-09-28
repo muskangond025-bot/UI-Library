@@ -1,0 +1,20 @@
+{
+  "id": "trending-9",
+  "name": "Trending9",
+  "type": "trending-products",
+  "content": {
+    "title": "The Upward Trend",
+    "subtitle": "Market Movers",
+    "products": [
+      { "id": "t9-1", "name": "Smart Thermostat", "price": "$199", "image": "https://picsum.photos/seed/t9_1/600/600", "growth": "High" },
+      { "id": "t9-2", "name": "Robot Vacuum", "price": "$349", "image": "https://picsum.photos/seed/t9_2/600/600", "growth": "Medium" },
+      { "id": "t9-3", "name": "Security Camera", "price": "$129", "image": "https://picsum.photos/seed/t9_3/600/600", "growth": "Very High" },
+      { "id": "t9-4", "name": "Smart Bulb 4-Pack", "price": "$45", "image": "https://picsum.photos/seed/t9_4/600/600", "growth": "Extreme" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FAFAFA",
+    "textColor": "#171717",
+    "accentColor": "#3B82F6"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "sale-2",
+  "name": "Sale2",
+  "type": "sale-products",
+  "content": {
+    "title": "Black Friday",
+    "subtitle": "Ticket to Savings",
+    "products": [
+      { "id": "s2-1", "name": "Smart TV", "oldPrice": "$999", "newPrice": "$599", "image": "https://picsum.photos/seed/s2_1/800/600", "discount": "40%" },
+      { "id": "s2-2", "name": "Soundbar", "oldPrice": "$299", "newPrice": "$149", "image": "https://picsum.photos/seed/s2_2/800/600", "discount": "50%" },
+      { "id": "s2-3", "name": "Console", "oldPrice": "$499", "newPrice": "$399", "image": "https://picsum.photos/seed/s2_3/800/600", "discount": "20%" },
+      { "id": "s2-4", "name": "Headphones", "oldPrice": "$199", "newPrice": "$99", "image": "https://picsum.photos/seed/s2_4/800/600", "discount": "50%" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#111111",
+    "textColor": "#FFFFFF",
+    "accentColor": "#FF3333"
+  }
+}

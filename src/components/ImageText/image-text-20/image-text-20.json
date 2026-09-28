@@ -1,0 +1,29 @@
+{
+  "id": "image-text-20",
+  "name": "ImageText20",
+  "type": "image-text",
+  "content": {
+    "heading": "The Masterpiece",
+    "subheading": "PREMIUM SHOWCASE",
+    "description": "This is the culmination of design and engineering. A layout built to stop scrolling, command attention, and deliver a message with absolute authority.",
+    "features": [
+      "Cinematic Scale",
+      "Refined Glassmorphism",
+      "Uncompromising Quality"
+    ],
+    "primaryAction": {
+      "label": "Experience Now",
+      "url": "#"
+    },
+    "image": {
+      "url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1600&q=80",
+      "alt": "Premium abstract landscape"
+    }
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF",
+    "accentColor": "#EAB308",
+    "imageAlignment": "right"
+  }
+}

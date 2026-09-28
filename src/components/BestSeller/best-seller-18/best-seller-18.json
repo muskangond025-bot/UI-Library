@@ -1,0 +1,56 @@
+{
+  "id": "best-seller-18",
+  "name": "BestSeller18",
+  "type": "best-seller",
+  "content": {
+    "title": "Floating Hierarchy",
+    "subtitle": "Standout Pieces",
+    "products": [
+      {
+        "id": "bs18-1",
+        "name": "Flagship Smartphone",
+        "price": "$999",
+        "category": "Mobile",
+        "image": "https://picsum.photos/seed/bs18_1/1000/1000",
+        "rating": 4.9,
+        "reviews": 15000,
+        "badge": "Bestseller"
+      },
+      {
+        "id": "bs18-2",
+        "name": "Wireless Earbuds",
+        "price": "$249",
+        "category": "Audio",
+        "image": "https://picsum.photos/seed/bs18_2/800/800",
+        "rating": 4.8,
+        "reviews": 8400,
+        "badge": null
+      },
+      {
+        "id": "bs18-3",
+        "name": "Smart Watch",
+        "price": "$399",
+        "category": "Wearable",
+        "image": "https://picsum.photos/seed/bs18_3/800/800",
+        "rating": 4.7,
+        "reviews": 5200,
+        "badge": "Trending"
+      },
+      {
+        "id": "bs18-4",
+        "name": "Fast Charger",
+        "price": "$49",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/bs18_4/800/800",
+        "rating": 4.9,
+        "reviews": 12000,
+        "badge": null
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#18181B",
+    "textColor": "#FAFAFA",
+    "accentColor": "#14B8A6"
+  }
+}

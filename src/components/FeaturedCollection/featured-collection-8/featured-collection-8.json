@@ -1,0 +1,51 @@
+{
+  "id": "featured-collection-8",
+  "name": "FeaturedCollection8",
+  "type": "featured-collection",
+  "content": {
+    "title": "Continuous Flow",
+    "subtitle": "Discover our endless gallery",
+    "collections": [
+      {
+        "id": "c1",
+        "title": "Motion",
+        "description": "Never stopping.",
+        "image": "https://picsum.photos/id/13/800/600",
+        "link": "#"
+      },
+      {
+        "id": "c2",
+        "title": "Velocity",
+        "description": "High speed design.",
+        "image": "https://picsum.photos/id/14/800/600",
+        "link": "#"
+      },
+      {
+        "id": "c3",
+        "title": "Rhythm",
+        "description": "A steady beat.",
+        "image": "https://picsum.photos/id/15/800/600",
+        "link": "#"
+      },
+      {
+        "id": "c4",
+        "title": "Flow",
+        "description": "Like a river.",
+        "image": "https://picsum.photos/id/16/800/600",
+        "link": "#"
+      },
+      {
+        "id": "c5",
+        "title": "Momentum",
+        "description": "Building force.",
+        "image": "https://picsum.photos/id/17/800/600",
+        "link": "#"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF",
+    "accentColor": "#FBBF24"
+  }
+}

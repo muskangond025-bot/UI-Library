@@ -1,0 +1,29 @@
+{
+  "id": "split-image-3",
+  "name": "SplitImage3",
+  "type": "split-image",
+  "content": {
+    "leftPanel": {
+      "heading": "Above",
+      "description": "The sky is not the limit. It's just the beginning.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1495562569060-2eec283d3391?w=1200&q=80",
+        "alt": "Sky and clouds"
+      },
+      "url": "#above"
+    },
+    "rightPanel": {
+      "heading": "Below",
+      "description": "Dive deep into the unknown.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=1200&q=80",
+        "alt": "Deep ocean water"
+      },
+      "url": "#below"
+    }
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF"
+  }
+}

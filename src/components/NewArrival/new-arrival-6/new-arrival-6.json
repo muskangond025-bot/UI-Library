@@ -1,0 +1,20 @@
+{
+  "id": "new-arrival-6",
+  "name": "NewArrival6",
+  "type": "new-arrival",
+  "content": {
+    "title": "Fresh Drops",
+    "subtitle": "Discover",
+    "products": [
+      { "id": "na6-1", "name": "Monochrome Hoodie", "price": "$120", "image": "https://picsum.photos/seed/na6_1/1000/800" },
+      { "id": "na6-2", "name": "Cargo Tech Pants", "price": "$145", "image": "https://picsum.photos/seed/na6_2/1000/800" },
+      { "id": "na6-3", "name": "Utility Vest", "price": "$90", "image": "https://picsum.photos/seed/na6_3/1000/800" },
+      { "id": "na6-4", "name": "Chunky Sneakers", "price": "$180", "image": "https://picsum.photos/seed/na6_4/1000/800" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#09090B",
+    "textColor": "#FAFAFA",
+    "accentColor": "#A3E635"
+  }
+}

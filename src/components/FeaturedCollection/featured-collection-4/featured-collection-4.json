@@ -1,0 +1,36 @@
+{
+  "id": "featured-collection-4",
+  "name": "FeaturedCollection4",
+  "type": "featured-collection",
+  "content": {
+    "title": "Kinetic Tilt Gallery",
+    "collections": [
+      {
+        "id": "c1",
+        "title": "Futurism",
+        "description": "Design of tomorrow.",
+        "image": "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "link": "#"
+      },
+      {
+        "id": "c2",
+        "title": "Retro",
+        "description": "Back to the past.",
+        "image": "https://images.unsplash.com/photo-1550684376-efcbd6e3f031?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "link": "#"
+      },
+      {
+        "id": "c3",
+        "title": "Cyberpunk",
+        "description": "Neon dreams.",
+        "image": "https://images.unsplash.com/photo-1515630278258-407f66498911?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "link": "#"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#050505",
+    "textColor": "#FAFAFA",
+    "accentColor": "#A855F7"
+  }
+}

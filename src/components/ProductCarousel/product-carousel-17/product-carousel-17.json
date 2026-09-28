@@ -1,0 +1,48 @@
+{
+  "id": "product-carousel-17",
+  "name": "ProductCarousel17",
+  "type": "product-carousel",
+  "content": {
+    "title": "3D Flip Cards",
+    "subtitle": "Discover more",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Vinyl Record",
+        "price": "$35",
+        "category": "Music",
+        "image": "https://picsum.photos/seed/pc17_1/600/800",
+        "badge": "Classic"
+      },
+      {
+        "id": "p2",
+        "name": "Art Book",
+        "price": "$65",
+        "category": "Books",
+        "image": "https://picsum.photos/seed/pc17_2/600/800",
+        "badge": null
+      },
+      {
+        "id": "p3",
+        "name": "Scented Candle",
+        "price": "$28",
+        "category": "Home",
+        "image": "https://picsum.photos/seed/pc17_3/600/800",
+        "badge": "Popular"
+      },
+      {
+        "id": "p4",
+        "name": "Ceramic Mug",
+        "price": "$18",
+        "category": "Dining",
+        "image": "https://picsum.photos/seed/pc17_4/600/800",
+        "badge": null
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#E5E7EB",
+    "textColor": "#111827",
+    "accentColor": "#6366F1"
+  }
+}

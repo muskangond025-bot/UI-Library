@@ -1,0 +1,46 @@
+{
+  "id": "featured-collection-1",
+  "name": "FeaturedCollection1",
+  "type": "featured-collection",
+  "content": {
+    "title": "Curated Exclusives",
+    "subtitle": "Discover our most sought-after pieces",
+    "description": "A collection that embodies modern aesthetic and timeless design.",
+    "collections": [
+      {
+        "id": "c1",
+        "title": "Minimalist Haven",
+        "description": "Clean lines and understated elegance.",
+        "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        "link": "#"
+      },
+      {
+        "id": "c2",
+        "title": "Urban Utility",
+        "description": "Functional pieces for the modern city.",
+        "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        "link": "#"
+      },
+      {
+        "id": "c3",
+        "title": "Organic Forms",
+        "description": "Shapes inspired by nature.",
+        "image": "https://images.unsplash.com/photo-1505693314120-0d443867891c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        "link": "#"
+      },
+      {
+        "id": "c4",
+        "title": "Monochrome Magic",
+        "description": "The power of black and white.",
+        "image": "https://images.unsplash.com/photo-1449247709967-d4461a6a6103?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        "link": "#"
+      }
+    ],
+    "buttonText": "View All Collections"
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#ffffff",
+    "accentColor": "#FF3366"
+  }
+}

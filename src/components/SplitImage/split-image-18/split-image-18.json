@@ -1,0 +1,29 @@
+{
+  "id": "split-image-18",
+  "name": "SplitImage18",
+  "type": "split-image",
+  "content": {
+    "leftPanel": {
+      "heading": "Up",
+      "description": "Rising to the challenge.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=1000&q=80",
+        "alt": "Mountain climbing"
+      },
+      "url": "#up"
+    },
+    "rightPanel": {
+      "heading": "Down",
+      "description": "Grounding your roots.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1469122312224-c5846569feb1?w=1000&q=80",
+        "alt": "Forest roots"
+      },
+      "url": "#down"
+    }
+  },
+  "style": {
+    "backgroundColor": "#2D3748",
+    "textColor": "#F7FAFC"
+  }
+}

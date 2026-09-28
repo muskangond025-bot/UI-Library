@@ -1,0 +1,44 @@
+{
+  "id": "featured-collection-2",
+  "name": "FeaturedCollection2",
+  "type": "featured-collection",
+  "content": {
+    "title": "Editorial Series",
+    "subtitle": "Expand your horizons",
+    "collections": [
+      {
+        "id": "c1",
+        "title": "Minimal",
+        "description": "A focus on essential elements.",
+        "image": "https://images.unsplash.com/photo-1600607686527-6fb886090705?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "link": "#"
+      },
+      {
+        "id": "c2",
+        "title": "Abstract",
+        "description": "Form without bound.",
+        "image": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "link": "#"
+      },
+      {
+        "id": "c3",
+        "title": "Brutal",
+        "description": "Raw architectural purity.",
+        "image": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "link": "#"
+      },
+      {
+        "id": "c4",
+        "title": "Vivid",
+        "description": "Colors that speak loudly.",
+        "image": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "link": "#"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#111111",
+    "textColor": "#ffffff",
+    "accentColor": "#facc15"
+  }
+}

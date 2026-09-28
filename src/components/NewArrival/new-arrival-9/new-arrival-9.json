@@ -1,0 +1,19 @@
+{
+  "id": "new-arrival-9",
+  "name": "NewArrival9",
+  "type": "new-arrival",
+  "content": {
+    "title": "Essentials",
+    "subtitle": "New Drops",
+    "products": [
+      { "id": "na9-1", "name": "Minimalist Watch", "price": "$195", "image": "https://picsum.photos/seed/na9_1/1600/1000", "badge": "Hot" },
+      { "id": "na9-2", "name": "Leather Cardholder", "price": "$45", "image": "https://picsum.photos/seed/na9_2/1600/1000", "badge": "New" },
+      { "id": "na9-3", "name": "Polarized Sunglasses", "price": "$125", "image": "https://picsum.photos/seed/na9_3/1600/1000", "badge": "New" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#09090B",
+    "accentColor": "#E11D48"
+  }
+}

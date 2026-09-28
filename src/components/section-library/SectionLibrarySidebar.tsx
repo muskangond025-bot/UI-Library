@@ -1,5 +1,5 @@
 import React from 'react';
-import { LayoutGrid, Images, Tag, Star, Grid } from 'lucide-react';
+import { LayoutGrid, Images, Tag, Star, Grid, Bookmark } from 'lucide-react';
 
 interface SidebarProps {
   activeCategory: string;
@@ -13,6 +13,27 @@ export function SectionLibrarySidebar({ activeCategory, onSelectCategory }: Side
     { id: 'promotional', label: 'Promotional Banners', icon: Tag },
     { id: 'featured-categories', label: 'Featured Categories', icon: Star },
     { id: 'category-grid', label: 'Category Grid', icon: Grid },
+    { id: 'featured-collections', label: 'Featured Collections', icon: Bookmark },
+    { id: 'product-grids', label: 'Product Grids', icon: Tag },
+    { id: 'product-carousels', label: 'Product Carousels', icon: Images },
+    { id: 'best-sellers', label: 'Best Sellers', icon: Star },
+    { id: 'new-arrivals', label: 'New Arrivals', icon: Star },
+    { id: 'trending-products', label: 'Trending Products', icon: Tag },
+    { id: 'sale-products', label: 'Sale Products', icon: Tag },
+    { id: 'flash-sale', label: 'Flash Sale', icon: Tag },
+    { id: 'featured-product', label: 'Featured Product', icon: Star },
+    { id: 'image-text', label: 'Image + Text', icon: LayoutGrid },
+    { id: 'split-image', label: 'Split Image Content', icon: LayoutGrid },
+    { id: 'promotional-cards', label: 'Promotional Cards', icon: Bookmark },
+    { id: 'why-choose-us', label: 'Why Choose Us', icon: Star },
+    { id: 'brand-showcase', label: 'Brand Showcase', icon: Grid },
+    { id: 'testimonials', label: 'Testimonials', icon: Star },
+    { id: 'customer-reviews', label: 'Customer Reviews', icon: Star },
+    { id: 'video-showcase', label: 'Video Showcase', icon: Images },
+    { id: 'blog-highlights', label: 'Blog Highlights', icon: LayoutGrid },
+    { id: 'buying-guide', label: 'Buying Guide', icon: Bookmark },
+    { id: 'faq', label: 'FAQ', icon: LayoutGrid },
+    { id: 'newsletter', label: 'Newsletter', icon: Bookmark },
   ];
 
   return (

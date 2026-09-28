@@ -1,0 +1,29 @@
+{
+  "id": "split-image-20",
+  "name": "SplitImage20",
+  "type": "split-image",
+  "content": {
+    "leftPanel": {
+      "heading": "Genesis",
+      "description": "The origin of all things.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1000&q=80",
+        "alt": "Abstract genesis"
+      },
+      "url": "#genesis"
+    },
+    "rightPanel": {
+      "heading": "Exodus",
+      "description": "The departure into the unknown.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=1000&q=80",
+        "alt": "Abstract exodus"
+      },
+      "url": "#exodus"
+    }
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF"
+  }
+}

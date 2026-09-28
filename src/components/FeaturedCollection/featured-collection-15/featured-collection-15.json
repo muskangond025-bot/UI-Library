@@ -1,0 +1,44 @@
+{
+  "id": "featured-collection-15",
+  "name": "FeaturedCollection15",
+  "type": "featured-collection",
+  "content": {
+    "title": "Interactive Deck",
+    "subtitle": "Swipe to explore",
+    "collections": [
+      {
+        "id": "c1",
+        "title": "The First",
+        "description": "Where it begins.",
+        "image": "https://picsum.photos/id/44/800/1200",
+        "link": "#"
+      },
+      {
+        "id": "c2",
+        "title": "The Second",
+        "description": "Moving forward.",
+        "image": "https://picsum.photos/id/45/800/1200",
+        "link": "#"
+      },
+      {
+        "id": "c3",
+        "title": "The Third",
+        "description": "Gaining momentum.",
+        "image": "https://picsum.photos/id/46/800/1200",
+        "link": "#"
+      },
+      {
+        "id": "c4",
+        "title": "The Last",
+        "description": "The final chapter.",
+        "image": "https://picsum.photos/id/47/800/1200",
+        "link": "#"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#F4F4F5",
+    "textColor": "#09090B",
+    "accentColor": "#F59E0B"
+  }
+}

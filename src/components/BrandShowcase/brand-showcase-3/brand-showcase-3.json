@@ -1,0 +1,47 @@
+{
+  "id": "brand-showcase-3",
+  "name": "BrandShowcase3",
+  "type": "brand-showcase",
+  "content": {
+    "heading": "Trusted by innovative teams worldwide",
+    "description": "Join thousands of companies using our platform to scale their operations.",
+    "brands": [
+      {
+        "name": "Acme Corp",
+        "industry": "Technology"
+      },
+      {
+        "name": "GlobalNet",
+        "industry": "Communications"
+      },
+      {
+        "name": "Innova",
+        "industry": "Healthcare"
+      },
+      {
+        "name": "Nexus",
+        "industry": "Finance"
+      },
+      {
+        "name": "OmniTech",
+        "industry": "Software"
+      },
+      {
+        "name": "Vertex",
+        "industry": "Retail"
+      },
+      {
+        "name": "Zenith",
+        "industry": "Energy"
+      },
+      {
+        "name": "Aegis",
+        "industry": "Security"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#f3f4f6",
+    "textColor": "#111827"
+  }
+}

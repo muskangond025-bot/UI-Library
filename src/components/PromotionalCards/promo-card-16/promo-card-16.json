@@ -1,0 +1,18 @@
+{
+  "id": "promo-card-16",
+  "name": "PromoCard16",
+  "type": "promotional-card",
+  "content": {
+    "badge": "Special Offer",
+    "title": "Liquid Morph",
+    "description": "Experience the power of our exclusive liquid morph design. Tailored for premium experiences.",
+    "cta": {
+      "text": "Discover",
+      "url": "#"
+    }
+  },
+  "style": {
+    "backgroundColor": "#4C1D95",
+    "textColor": "#FFFFFF"
+  }
+}

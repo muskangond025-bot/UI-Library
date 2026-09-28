@@ -1,0 +1,19 @@
+{
+  "id": "promo-card-1",
+  "name": "PromoCard1",
+  "type": "promotional-card",
+  "content": {
+    "badge": "New Arrival",
+    "title": "Glassmorphism UI Kit",
+    "description": "Elevate your designs with our premium glassmorphism icon set. Perfect for modern web and mobile applications.",
+    "cta": {
+      "text": "Get It Now",
+      "url": "#"
+    },
+    "features": ["Vector format", "Fully customizable", "Light & Dark modes"]
+  },
+  "style": {
+    "backgroundColor": "#0f172a",
+    "textColor": "#ffffff"
+  }
+}

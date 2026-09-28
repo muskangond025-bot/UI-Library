@@ -1,0 +1,29 @@
+{
+  "id": "split-image-4",
+  "name": "SplitImage4",
+  "type": "split-image",
+  "content": {
+    "leftPanel": {
+      "heading": "Fire",
+      "description": "Passion and energy uncontained.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1542272201-b1ca555f8505?w=1000&q=80",
+        "alt": "Flames"
+      },
+      "url": "#fire"
+    },
+    "rightPanel": {
+      "heading": "Ice",
+      "description": "Stillness and crystalline precision.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=1000&q=80",
+        "alt": "Ice formations"
+      },
+      "url": "#ice"
+    }
+  },
+  "style": {
+    "backgroundColor": "#0A0A0A",
+    "textColor": "#FFFFFF"
+  }
+}

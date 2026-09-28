@@ -1,0 +1,18 @@
+{
+  "id": "promo-card-8",
+  "name": "PromoCard8",
+  "type": "promotional-card",
+  "content": {
+    "badge": "Special Offer",
+    "title": "Gradient Mesh",
+    "description": "Experience the power of our exclusive gradient mesh design. Tailored for premium experiences.",
+    "cta": {
+      "text": "Discover",
+      "url": "#"
+    }
+  },
+  "style": {
+    "backgroundColor": "#0F172A",
+    "textColor": "#FFFFFF"
+  }
+}

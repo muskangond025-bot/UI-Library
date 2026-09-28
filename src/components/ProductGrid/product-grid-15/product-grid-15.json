@@ -1,0 +1,56 @@
+{
+  "id": "product-grid-15",
+  "name": "ProductGrid15",
+  "type": "product-grid",
+  "content": {
+    "title": "Scatter Gallery",
+    "subtitle": "Playful discovery",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Desk Clock",
+        "price": "$45",
+        "category": "Decor",
+        "image": "https://picsum.photos/seed/pg15_1/800/800",
+        "badge": null
+      },
+      {
+        "id": "p2",
+        "name": "Throw Pillows",
+        "price": "$65",
+        "category": "Home",
+        "image": "https://picsum.photos/seed/pg15_2/800/800",
+        "badge": "Set of 2"
+      },
+      {
+        "id": "p3",
+        "name": "Ceramic Bowl",
+        "price": "$30",
+        "category": "Kitchen",
+        "image": "https://picsum.photos/seed/pg15_3/800/800",
+        "badge": null
+      },
+      {
+        "id": "p4",
+        "name": "Woven Basket",
+        "price": "$55",
+        "category": "Storage",
+        "image": "https://picsum.photos/seed/pg15_4/800/800",
+        "badge": null
+      },
+      {
+        "id": "p5",
+        "name": "Table Lamp",
+        "price": "$120",
+        "category": "Lighting",
+        "image": "https://picsum.photos/seed/pg15_5/800/800",
+        "badge": "New"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#E5E7EB",
+    "textColor": "#1F2937",
+    "accentColor": "#F43F5E"
+  }
+}

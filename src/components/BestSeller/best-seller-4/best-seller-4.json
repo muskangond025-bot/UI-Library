@@ -1,0 +1,56 @@
+{
+  "id": "best-seller-4",
+  "name": "BestSeller4",
+  "type": "best-seller",
+  "content": {
+    "title": "Bento Bestsellers",
+    "subtitle": "Curated Selection",
+    "products": [
+      {
+        "id": "bs4-1",
+        "name": "Pro Camera Drone",
+        "price": "$899",
+        "category": "Tech",
+        "image": "https://picsum.photos/seed/bs4_1/1000/1000",
+        "rating": 4.9,
+        "reviews": 2100,
+        "badge": "Top Choice"
+      },
+      {
+        "id": "bs4-2",
+        "name": "Gaming Console",
+        "price": "$499",
+        "category": "Gaming",
+        "image": "https://picsum.photos/seed/bs4_2/800/800",
+        "rating": 4.8,
+        "reviews": 5400,
+        "badge": null
+      },
+      {
+        "id": "bs4-3",
+        "name": "Wireless Charger",
+        "price": "$45",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/bs4_3/800/800",
+        "rating": 4.6,
+        "reviews": 890,
+        "badge": null
+      },
+      {
+        "id": "bs4-4",
+        "name": "Smart Speaker",
+        "price": "$99",
+        "category": "Smart Home",
+        "image": "https://picsum.photos/seed/bs4_4/800/800",
+        "rating": 4.7,
+        "reviews": 1200,
+        "badge": "Trending"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#0F172A",
+    "textColor": "#F8FAFC",
+    "accentColor": "#10B981"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "newsletter-15",
+  "name": "Newsletter15",
+  "type": "newsletter",
+  "content": {
+    "heading": "Join our community",
+    "description": "Get our weekly newsletter delivered directly to your inbox. No spam, just the good stuff.",
+    "placeholder": "Your email address",
+    "buttonText": "Join Now",
+    "disclaimer": "By subscribing, you agree to our Terms of Service and Privacy Policy.",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=2000&auto=format&fit=crop"
+  },
+  "style": {
+    "backgroundColor": "#fafaf9",
+    "textColor": "#292524"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "split-image-10",
+  "name": "SplitImage10",
+  "type": "split-image",
+  "content": {
+    "leftPanel": {
+      "heading": "Ascent",
+      "description": "Rising above the clouds.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1000&q=80",
+        "alt": "Mountain peak above clouds"
+      },
+      "url": "#ascent"
+    },
+    "rightPanel": {
+      "heading": "Descent",
+      "description": "Plunging into the deep.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1000&q=80",
+        "alt": "Deep ocean dive"
+      },
+      "url": "#descent"
+    }
+  },
+  "style": {
+    "backgroundColor": "#1A1A1A",
+    "textColor": "#FFFFFF"
+  }
+}

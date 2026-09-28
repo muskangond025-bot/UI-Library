@@ -1,0 +1,19 @@
+{
+  "id": "promo-card-5",
+  "name": "PromoCard5",
+  "type": "promotional-card",
+  "content": {
+    "badge": "Secret Deal",
+    "title": "Unlock Your Gift",
+    "description": "A special surprise waiting just for you. Claim your exclusive rewards today.",
+    "cta": {
+      "text": "Reveal Now",
+      "url": "#"
+    },
+    "hiddenMessage": "You've unlocked 30% OFF storewide!"
+  },
+  "style": {
+    "backgroundColor": "#172554",
+    "textColor": "#FFFFFF"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "split-image-14",
+  "name": "SplitImage14",
+  "type": "split-image",
+  "content": {
+    "leftPanel": {
+      "heading": "Minimal",
+      "description": "Doing more with less.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?w=1000&q=80",
+        "alt": "Minimalist interior"
+      },
+      "url": "#minimal"
+    },
+    "rightPanel": {
+      "heading": "Maximal",
+      "description": "Embracing the chaos and complexity of detail.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1524169358666-79f22534bc6e?w=1000&q=80",
+        "alt": "Complex chaotic art"
+      },
+      "url": "#maximal"
+    }
+  },
+  "style": {
+    "backgroundColor": "#1A1A1A",
+    "textColor": "#FFFFFF"
+  }
+}

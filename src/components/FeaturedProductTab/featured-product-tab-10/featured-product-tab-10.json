@@ -1,0 +1,35 @@
+{
+  "id": "featured-product-tab-10",
+  "name": "FeaturedProductTab10",
+  "type": "featured-product-tab",
+  "content": {
+    "title": "Editorial Picks",
+    "subtitle": "Styles defining this moment",
+    "tabs": [
+      { "id": "t1", "label": "Minimalist", "products": ["p1", "p2", "p3", "p4", "p5", "p6"] },
+      { "id": "t2", "label": "Avant Garde", "products": ["p7", "p8", "p9", "p10"] },
+      { "id": "t3", "label": "Street Style", "products": ["p11", "p12", "p1", "p2"] }
+    ],
+    "allProducts": [
+      { "id": "p1", "name": "Structured Tote", "price": "$120", "category": "Bags", "image": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=800&q=80", "size": "large" },
+      { "id": "p2", "name": "Silver Chain Necklace", "price": "$85", "category": "Jewelry", "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&q=80", "size": "small" },
+      { "id": "p3", "name": "Leather Ankle Boots", "price": "$195", "category": "Shoes", "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80", "size": "medium" },
+      { "id": "p4", "name": "Silk Slip Dress", "price": "$250", "category": "Dresses", "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&q=80", "size": "large" },
+      { "id": "p5", "name": "Oversized Blazer", "price": "$150", "category": "Outerwear", "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&q=80", "size": "medium" },
+      { "id": "p6", "name": "Classic Loafers", "price": "$110", "category": "Shoes", "image": "https://images.unsplash.com/photo-1533827432537-70133748f5c8?w=800&q=80", "size": "small" },
+
+      { "id": "p7", "name": "Pleated Trousers", "price": "$135", "category": "Bottoms", "image": "https://images.unsplash.com/photo-1594938291221-94f18cbb5660?w=800&q=80", "size": "large" },
+      { "id": "p8", "name": "Sculptural Earrings", "price": "$65", "category": "Jewelry", "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80", "size": "small" },
+      { "id": "p9", "name": "Asymmetric Top", "price": "$85", "category": "Tops", "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80", "size": "medium" },
+      { "id": "p10", "name": "Platform Boots", "price": "$220", "category": "Shoes", "image": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=800&q=80", "size": "large" },
+
+      { "id": "p11", "name": "Bucket Hat", "price": "$35", "category": "Accessories", "image": "https://images.unsplash.com/photo-1520023472911-37d3910385fc?w=800&q=80", "size": "small" },
+      { "id": "p12", "name": "Utility Cargo", "price": "$95", "category": "Bottoms", "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800&q=80", "size": "large" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#F4F4F5",
+    "textColor": "#09090B",
+    "accentColor": "#EF4444"
+  }
+}

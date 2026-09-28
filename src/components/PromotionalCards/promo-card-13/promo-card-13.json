@@ -1,0 +1,18 @@
+{
+  "id": "promo-card-13",
+  "name": "PromoCard13",
+  "type": "promotional-card",
+  "content": {
+    "badge": "Special Offer",
+    "title": "Cyber Tech",
+    "description": "Experience the power of our exclusive cyber tech design. Tailored for premium experiences.",
+    "cta": {
+      "text": "Discover",
+      "url": "#"
+    }
+  },
+  "style": {
+    "backgroundColor": "#FBBF24",
+    "textColor": "#000000"
+  }
+}

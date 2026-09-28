@@ -1,0 +1,20 @@
+{
+  "id": "sale-18",
+  "name": "Sale18",
+  "type": "sale-products",
+  "content": {
+    "title": "Use Code:",
+    "subtitle": "EXTRA20 at checkout",
+    "products": [
+      { "id": "s18-1", "name": "Ceramic Mug", "oldPrice": "$24", "newPrice": "$18", "image": "https://picsum.photos/seed/s18_1/600/600" },
+      { "id": "s18-2", "name": "French Press", "oldPrice": "$45", "newPrice": "$35", "image": "https://picsum.photos/seed/s18_2/600/600" },
+      { "id": "s18-3", "name": "Coffee Beans", "oldPrice": "$20", "newPrice": "$15", "image": "https://picsum.photos/seed/s18_3/600/600" },
+      { "id": "s18-4", "name": "Milk Frother", "oldPrice": "$35", "newPrice": "$25", "image": "https://picsum.photos/seed/s18_4/600/600" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FDF2F8",
+    "textColor": "#831843",
+    "accentColor": "#DB2777"
+  }
+}

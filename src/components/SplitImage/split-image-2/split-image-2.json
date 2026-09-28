@@ -1,0 +1,29 @@
+{
+  "id": "split-image-2",
+  "name": "SplitImage2",
+  "type": "split-image",
+  "content": {
+    "leftPanel": {
+      "heading": "Light",
+      "description": "Embrace the clarity and brilliance of morning light.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1000&q=80",
+        "alt": "Bright open field"
+      },
+      "url": "#light"
+    },
+    "rightPanel": {
+      "heading": "Shadow",
+      "description": "Find depth and mystery in the quiet dark.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1504280741561-9457fb1e06e0?w=1000&q=80",
+        "alt": "Dark moody forest"
+      },
+      "url": "#shadow"
+    }
+  },
+  "style": {
+    "backgroundColor": "#111",
+    "textColor": "#FFF"
+  }
+}

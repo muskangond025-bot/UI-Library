@@ -1,0 +1,40 @@
+{
+  "id": "product-carousel-16",
+  "name": "ProductCarousel16",
+  "type": "product-carousel",
+  "content": {
+    "title": "Curtain Reveal",
+    "subtitle": "Dramatic transitions",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Velvet Armchair",
+        "price": "$550",
+        "category": "Furniture",
+        "image": "https://picsum.photos/seed/pc16_1/1200/800",
+        "badge": "Signature"
+      },
+      {
+        "id": "p2",
+        "name": "Brass Chandelier",
+        "price": "$890",
+        "category": "Lighting",
+        "image": "https://picsum.photos/seed/pc16_2/1200/800",
+        "badge": null
+      },
+      {
+        "id": "p3",
+        "name": "Silk Cushions",
+        "price": "$120",
+        "category": "Textiles",
+        "image": "https://picsum.photos/seed/pc16_3/1200/800",
+        "badge": null
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#18181B",
+    "textColor": "#FAFAFA",
+    "accentColor": "#FBBF24"
+  }
+}

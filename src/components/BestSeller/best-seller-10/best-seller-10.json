@@ -1,0 +1,46 @@
+{
+  "id": "best-seller-10",
+  "name": "BestSeller10",
+  "type": "best-seller",
+  "content": {
+    "title": "Cinematic Fade",
+    "subtitle": "Premium Selection",
+    "products": [
+      {
+        "id": "bs10-1",
+        "name": "Signature Leather Jacket",
+        "price": "$850",
+        "category": "Apparel",
+        "image": "https://picsum.photos/seed/bs10_1/1600/1000",
+        "rating": 5.0,
+        "reviews": 112,
+        "badge": "Iconic"
+      },
+      {
+        "id": "bs10-2",
+        "name": "Classic Denim",
+        "price": "$195",
+        "category": "Apparel",
+        "image": "https://picsum.photos/seed/bs10_2/1600/1000",
+        "rating": 4.8,
+        "reviews": 450,
+        "badge": null
+      },
+      {
+        "id": "bs10-3",
+        "name": "Leather Boots",
+        "price": "$350",
+        "category": "Footwear",
+        "image": "https://picsum.photos/seed/bs10_3/1600/1000",
+        "rating": 4.9,
+        "reviews": 320,
+        "badge": "Top Rated"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF",
+    "accentColor": "#FACC15"
+  }
+}

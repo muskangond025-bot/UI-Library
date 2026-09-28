@@ -1,0 +1,20 @@
+{
+  "id": "flash-sale-10",
+  "name": "FlashSale10",
+  "type": "flash-sale",
+  "content": {
+    "title": "Fire Sale",
+    "subtitle": "Everything Must Go",
+    "products": [
+      { "id": "fs10-1", "name": "Winter Coat", "oldPrice": "$400", "newPrice": "$120", "image": "https://picsum.photos/seed/fs10_1/800/1000" },
+      { "id": "fs10-2", "name": "Snow Pants", "oldPrice": "$250", "newPrice": "$80", "image": "https://picsum.photos/seed/fs10_2/800/1000" },
+      { "id": "fs10-3", "name": "Thermal Set", "oldPrice": "$100", "newPrice": "$35", "image": "https://picsum.photos/seed/fs10_3/800/1000" },
+      { "id": "fs10-4", "name": "Goggles", "oldPrice": "$150", "newPrice": "$50", "image": "https://picsum.photos/seed/fs10_4/800/1000" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#7F1D1D",
+    "textColor": "#FEF08A",
+    "accentColor": "#F97316"
+  }
+}

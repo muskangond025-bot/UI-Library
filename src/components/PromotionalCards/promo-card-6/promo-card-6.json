@@ -1,0 +1,18 @@
+{
+  "id": "promo-card-6",
+  "name": "PromoCard6",
+  "type": "promotional-card",
+  "content": {
+    "badge": "Special Offer",
+    "title": "Neon Glow",
+    "description": "Experience the power of our exclusive neon glow design. Tailored for premium experiences.",
+    "cta": {
+      "text": "Discover",
+      "url": "#"
+    }
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF"
+  }
+}

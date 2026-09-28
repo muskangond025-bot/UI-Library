@@ -1,0 +1,19 @@
+{
+  "id": "sale-7",
+  "name": "Sale7",
+  "type": "sale-products",
+  "content": {
+    "title": "Price Slashed",
+    "subtitle": "Brutal Reductions",
+    "products": [
+      { "id": "s7-1", "name": "Combat Boots", "oldPrice": "$220", "newPrice": "$110", "image": "https://picsum.photos/seed/s7_1/800/1000" },
+      { "id": "s7-2", "name": "Leather Jacket", "oldPrice": "$450", "newPrice": "$250", "image": "https://picsum.photos/seed/s7_2/800/1000" },
+      { "id": "s7-3", "name": "Distressed Denim", "oldPrice": "$130", "newPrice": "$65", "image": "https://picsum.photos/seed/s7_3/800/1000" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#18181B",
+    "textColor": "#FAFAFA",
+    "accentColor": "#EF4444"
+  }
+}

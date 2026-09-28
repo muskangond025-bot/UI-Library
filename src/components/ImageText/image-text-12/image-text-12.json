@@ -1,0 +1,29 @@
+{
+  "id": "image-text-12",
+  "name": "ImageText12",
+  "type": "image-text",
+  "content": {
+    "heading": "Symmetric Balance",
+    "subheading": "THE SPLIT",
+    "description": "True balance is achieved when visual weight is equally distributed. This pure 50/50 split allows the imagery to command as much attention as the narrative, creating a perfect equilibrium.",
+    "features": [
+      "Equal Prominence",
+      "Clean Hierarchy",
+      "Responsive Flow"
+    ],
+    "primaryAction": {
+      "label": "Read More",
+      "url": "#"
+    },
+    "image": {
+      "url": "https://images.unsplash.com/photo-1449247709967-d4461a6a6103?w=1200&q=80",
+      "alt": "Clean workspace aesthetic"
+    }
+  },
+  "style": {
+    "backgroundColor": "#171717",
+    "textColor": "#F5F5F5",
+    "accentColor": "#38BDF8",
+    "imageAlignment": "left"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "sale-4",
+  "name": "Sale4",
+  "type": "sale-products",
+  "content": {
+    "title": "Archive Sale",
+    "subtitle": "Past Collections",
+    "products": [
+      { "id": "s4-1", "name": "Cashmere Sweater", "oldPrice": "$450", "newPrice": "$225", "image": "https://picsum.photos/seed/s4_1/1000/1200" },
+      { "id": "s4-2", "name": "Pleated Trousers", "oldPrice": "$320", "newPrice": "$160", "image": "https://picsum.photos/seed/s4_2/1000/1200" },
+      { "id": "s4-3", "name": "Oxford Shoes", "oldPrice": "$550", "newPrice": "$300", "image": "https://picsum.photos/seed/s4_3/1000/1200" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#E5E5E5",
+    "textColor": "#000000",
+    "accentColor": "#6B7280"
+  }
+}

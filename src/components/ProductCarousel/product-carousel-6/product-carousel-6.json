@@ -1,0 +1,56 @@
+{
+  "id": "product-carousel-6",
+  "name": "ProductCarousel6",
+  "type": "product-carousel",
+  "content": {
+    "title": "Minimalist Drag",
+    "subtitle": "Editorial swipe",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Geometric Rug",
+        "price": "$290",
+        "category": "Home",
+        "image": "https://picsum.photos/seed/pc6_1/600/600",
+        "badge": "New"
+      },
+      {
+        "id": "p2",
+        "name": "Lounge Sofa",
+        "price": "$1250",
+        "category": "Furniture",
+        "image": "https://picsum.photos/seed/pc6_2/600/600",
+        "badge": null
+      },
+      {
+        "id": "p3",
+        "name": "Pendant Light",
+        "price": "$180",
+        "category": "Lighting",
+        "image": "https://picsum.photos/seed/pc6_3/600/600",
+        "badge": null
+      },
+      {
+        "id": "p4",
+        "name": "Coffee Table",
+        "price": "$420",
+        "category": "Furniture",
+        "image": "https://picsum.photos/seed/pc6_4/600/600",
+        "badge": "Popular"
+      },
+      {
+        "id": "p5",
+        "name": "Desk Clock",
+        "price": "$45",
+        "category": "Decor",
+        "image": "https://picsum.photos/seed/pc6_5/600/600",
+        "badge": null
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000",
+    "accentColor": "#FF3366"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "new-arrival-1",
+  "name": "NewArrival1",
+  "type": "new-arrival",
+  "content": {
+    "title": "The Fall Collection",
+    "subtitle": "Just Dropped",
+    "description": "Experience our latest silhouettes tailored for the upcoming season.",
+    "ctaText": "Shop Now",
+    "product": {
+      "id": "na1-1",
+      "name": "Oversized Wool Coat",
+      "price": "$295",
+      "image": "https://picsum.photos/seed/na1_1/1600/1000",
+      "badge": "New"
+    }
+  },
+  "style": {
+    "backgroundColor": "#FAFAFA",
+    "textColor": "#171717",
+    "accentColor": "#EF4444"
+  }
+}

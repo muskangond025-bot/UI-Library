@@ -1,0 +1,56 @@
+{
+  "id": "product-grid-9",
+  "name": "ProductGrid9",
+  "type": "product-grid",
+  "content": {
+    "title": "Snap Track",
+    "subtitle": "Horizontal Exploration",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Coffee Maker",
+        "price": "$399",
+        "category": "Appliances",
+        "image": "https://picsum.photos/seed/pg9_1/800/1000",
+        "badge": "Bestseller"
+      },
+      {
+        "id": "p2",
+        "name": "Toaster",
+        "price": "$120",
+        "category": "Appliances",
+        "image": "https://picsum.photos/seed/pg9_2/800/1000",
+        "badge": null
+      },
+      {
+        "id": "p3",
+        "name": "Blender",
+        "price": "$250",
+        "category": "Appliances",
+        "image": "https://picsum.photos/seed/pg9_3/800/1000",
+        "badge": "New"
+      },
+      {
+        "id": "p4",
+        "name": "Kettle",
+        "price": "$90",
+        "category": "Appliances",
+        "image": "https://picsum.photos/seed/pg9_4/800/1000",
+        "badge": null
+      },
+      {
+        "id": "p5",
+        "name": "Stand Mixer",
+        "price": "$450",
+        "category": "Appliances",
+        "image": "https://picsum.photos/seed/pg9_5/800/1000",
+        "badge": null
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#0F172A",
+    "textColor": "#E2E8F0",
+    "accentColor": "#14B8A6"
+  }
+}

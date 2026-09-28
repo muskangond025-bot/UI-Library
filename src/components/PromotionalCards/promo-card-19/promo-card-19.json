@@ -1,0 +1,18 @@
+{
+  "id": "promo-card-19",
+  "name": "PromoCard19",
+  "type": "promotional-card",
+  "content": {
+    "badge": "Special Offer",
+    "title": "Game HUD",
+    "description": "Experience the power of our exclusive game hud design. Tailored for premium experiences.",
+    "cta": {
+      "text": "Discover",
+      "url": "#"
+    }
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FF0055"
+  }
+}

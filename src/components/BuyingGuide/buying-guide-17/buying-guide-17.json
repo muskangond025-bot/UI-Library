@@ -1,0 +1,122 @@
+{
+  "id": "buying-guide-17",
+  "name": "BuyingGuide17",
+  "type": "buying-guide",
+  "content": {
+    "heading": "The 2026 Smartphone Buying Guide",
+    "description": "We evaluated battery life, camera performance, and value to find the absolute best smartphones you can buy right now.",
+    "lastUpdated": "Updated November 2026",
+    "items": [
+      {
+        "award": "Best Overall",
+        "name": "OmniPhone 15 Pro",
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=2000&auto=format&fit=crop",
+        "price": "From $999",
+        "verdict": "With its incredible battery life, stunning titanium build, and unmatched camera system, the OmniPhone 15 Pro is the best phone for most people.",
+        "pros": [
+          "Exceptional camera system",
+          "Incredible battery life",
+          "Premium titanium build"
+        ],
+        "cons": [
+          "Very expensive",
+          "Slow charging speeds"
+        ],
+        "specs": [
+          {
+            "label": "Screen",
+            "value": "6.7\" OLED 120Hz"
+          },
+          {
+            "label": "Processor",
+            "value": "A18 Pro"
+          },
+          {
+            "label": "Storage",
+            "value": "256GB - 1TB"
+          },
+          {
+            "label": "Weight",
+            "value": "221g"
+          }
+        ],
+        "buyLink": "#"
+      },
+      {
+        "award": "Best Budget",
+        "name": "PixelLens 8a",
+        "image": "https://images.unsplash.com/photo-1598327105666-5b89351cb315?q=80&w=2000&auto=format&fit=crop",
+        "price": "From $499",
+        "verdict": "You get flagship-level cameras and a clean, incredibly smart software experience for half the price of the competition.",
+        "pros": [
+          "Flagship camera quality",
+          "7 years of updates",
+          "Clean software"
+        ],
+        "cons": [
+          "Thick bezels",
+          "Average battery life"
+        ],
+        "specs": [
+          {
+            "label": "Screen",
+            "value": "6.1\" OLED 90Hz"
+          },
+          {
+            "label": "Processor",
+            "value": "Tensor G3"
+          },
+          {
+            "label": "Storage",
+            "value": "128GB - 256GB"
+          },
+          {
+            "label": "Weight",
+            "value": "188g"
+          }
+        ],
+        "buyLink": "#"
+      },
+      {
+        "award": "Best Foldable",
+        "name": "Galaxy Flex 6",
+        "image": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?q=80&w=2000&auto=format&fit=crop",
+        "price": "From $1,799",
+        "verdict": "The most refined foldable yet. The Flex 6 fixes the hinge, improves the cameras, and finally makes folding phones feel mainstream.",
+        "pros": [
+          "Massive inner display",
+          "Much improved hinge",
+          "Great multitasking software"
+        ],
+        "cons": [
+          "Still very expensive",
+          "Outer screen is very narrow",
+          "Cameras aren't flagship tier"
+        ],
+        "specs": [
+          {
+            "label": "Inner Screen",
+            "value": "7.6\" AMOLED 120Hz"
+          },
+          {
+            "label": "Processor",
+            "value": "Snapdragon 8 Gen 3"
+          },
+          {
+            "label": "Storage",
+            "value": "512GB - 1TB"
+          },
+          {
+            "label": "Weight",
+            "value": "253g"
+          }
+        ],
+        "buyLink": "#"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#ffffff",
+    "textColor": "#000000"
+  }
+}

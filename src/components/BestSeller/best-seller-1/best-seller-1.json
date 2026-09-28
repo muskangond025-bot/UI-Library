@@ -1,0 +1,76 @@
+{
+  "id": "best-seller-1",
+  "name": "BestSeller1",
+  "type": "best-seller",
+  "content": {
+    "title": "Best Sellers",
+    "subtitle": "Most Loved by You",
+    "products": [
+      {
+        "id": "bs1",
+        "name": "Wireless Earbuds Pro",
+        "price": "$249",
+        "category": "Audio",
+        "image": "https://picsum.photos/seed/bs1_1/800/1000",
+        "rating": 4.9,
+        "reviews": 1245,
+        "badge": "Top Rated"
+      },
+      {
+        "id": "bs2",
+        "name": "Smart Fitness Watch",
+        "price": "$199",
+        "category": "Wearables",
+        "image": "https://picsum.photos/seed/bs1_2/800/1000",
+        "rating": 4.8,
+        "reviews": 890,
+        "badge": "Bestseller"
+      },
+      {
+        "id": "bs3",
+        "name": "Noise Cancelling Headphones",
+        "price": "$349",
+        "category": "Audio",
+        "image": "https://picsum.photos/seed/bs1_3/800/1000",
+        "rating": 4.7,
+        "reviews": 650,
+        "badge": null
+      },
+      {
+        "id": "bs4",
+        "name": "Portable Bluetooth Speaker",
+        "price": "$129",
+        "category": "Audio",
+        "image": "https://picsum.photos/seed/bs1_4/800/1000",
+        "rating": 4.6,
+        "reviews": 430,
+        "badge": "Trending"
+      },
+      {
+        "id": "bs5",
+        "name": "4K Action Camera",
+        "price": "$399",
+        "category": "Photography",
+        "image": "https://picsum.photos/seed/bs1_5/800/1000",
+        "rating": 4.8,
+        "reviews": 320,
+        "badge": null
+      },
+      {
+        "id": "bs6",
+        "name": "Smart Home Hub",
+        "price": "$149",
+        "category": "Smart Home",
+        "image": "https://picsum.photos/seed/bs1_6/800/1000",
+        "rating": 4.5,
+        "reviews": 560,
+        "badge": null
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#0F172A",
+    "textColor": "#F8FAFC",
+    "accentColor": "#F59E0B"
+  }
+}

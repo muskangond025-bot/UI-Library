@@ -1,0 +1,48 @@
+{
+  "id": "product-grid-19",
+  "name": "ProductGrid19",
+  "type": "product-grid",
+  "content": {
+    "title": "Spotlight Grid",
+    "subtitle": "Hover to illuminate",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Smart Watch",
+        "price": "$299",
+        "category": "Electronics",
+        "image": "https://picsum.photos/seed/pg19_1/600/600",
+        "badge": "New"
+      },
+      {
+        "id": "p2",
+        "name": "Wireless Earbuds",
+        "price": "$150",
+        "category": "Electronics",
+        "image": "https://picsum.photos/seed/pg19_2/600/600",
+        "badge": null
+      },
+      {
+        "id": "p3",
+        "name": "Portable Charger",
+        "price": "$60",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/pg19_3/600/600",
+        "badge": null
+      },
+      {
+        "id": "p4",
+        "name": "Tablet Stand",
+        "price": "$40",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/pg19_4/600/600",
+        "badge": "Popular"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#09090B",
+    "textColor": "#FFFFFF",
+    "accentColor": "#EAB308"
+  }
+}

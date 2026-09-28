@@ -1,0 +1,37 @@
+{
+  "id": "featured-collection-10",
+  "name": "FeaturedCollection10",
+  "type": "featured-collection",
+  "content": {
+    "title": "Windows to the World",
+    "subtitle": "Immersive depth",
+    "collections": [
+      {
+        "id": "c1",
+        "title": "Serenity",
+        "description": "Peaceful landscapes.",
+        "image": "https://picsum.photos/id/22/1200/800",
+        "link": "#"
+      },
+      {
+        "id": "c2",
+        "title": "Chaos",
+        "description": "Urban jungles.",
+        "image": "https://picsum.photos/id/23/1200/800",
+        "link": "#"
+      },
+      {
+        "id": "c3",
+        "title": "Harmony",
+        "description": "Nature and design.",
+        "image": "https://picsum.photos/id/24/1200/800",
+        "link": "#"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#0F172A",
+    "textColor": "#F8FAFC",
+    "accentColor": "#38BDF8"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "trending-1",
+  "name": "Trending1",
+  "type": "trending-products",
+  "content": {
+    "title": "On Fire",
+    "subtitle": "Currently Viral",
+    "products": [
+      { "id": "t1-1", "name": "Vaporwave Sneakers", "price": "$195", "image": "https://picsum.photos/seed/t1_1/1000/1000", "status": "Selling Fast" },
+      { "id": "t1-2", "name": "Cyberpunk Jacket", "price": "$350", "image": "https://picsum.photos/seed/t1_2/1000/1000", "status": "Almost Gone" },
+      { "id": "t1-3", "name": "Neon Beanie", "price": "$45", "image": "https://picsum.photos/seed/t1_3/1000/1000", "status": "Restocked" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#0F0F11",
+    "textColor": "#FFFFFF",
+    "accentColor": "#FF3B30"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "new-arrival-17",
+  "name": "NewArrival17",
+  "type": "new-arrival",
+  "content": {
+    "title": "Cascade",
+    "subtitle": "Fresh Flows",
+    "products": [
+      { "id": "na17-1", "name": "Gradient Vase", "price": "$125", "image": "https://picsum.photos/seed/na17_1/600/900" },
+      { "id": "na17-2", "name": "Woven Rug", "price": "$340", "image": "https://picsum.photos/seed/na17_2/600/700" },
+      { "id": "na17-3", "name": "Floor Lamp", "price": "$295", "image": "https://picsum.photos/seed/na17_3/600/1000" },
+      { "id": "na17-4", "name": "Lounge Chair", "price": "$850", "image": "https://picsum.photos/seed/na17_4/600/800" },
+      { "id": "na17-5", "name": "Side Table", "price": "$210", "image": "https://picsum.photos/seed/na17_5/600/750" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#27272A",
+    "accentColor": "#3B82F6"
+  }
+}

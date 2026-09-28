@@ -1,0 +1,29 @@
+{
+  "id": "image-text-6",
+  "name": "ImageText6",
+  "type": "image-text",
+  "content": {
+    "heading": "Make It Bold.",
+    "subheading": "RULE BREAKERS",
+    "description": "We don't do subtle. This layout uses heavy borders, stark contrasts, and aggressive typography to make a statement that cannot be ignored.",
+    "features": [
+      "High Contrast",
+      "Thick Borders",
+      "Offset Shadows"
+    ],
+    "primaryAction": {
+      "label": "Join The Movement",
+      "url": "#"
+    },
+    "image": {
+      "url": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=1200&q=80",
+      "alt": "Bold expressive fashion"
+    }
+  },
+  "style": {
+    "backgroundColor": "#FFDE59",
+    "textColor": "#000000",
+    "accentColor": "#000000",
+    "imageAlignment": "right"
+  }
+}

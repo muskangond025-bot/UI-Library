@@ -1,0 +1,21 @@
+{
+  "id": "sale-11",
+  "name": "Sale11",
+  "type": "sale-products",
+  "content": {
+    "title": "Clearance Receipt",
+    "subtitle": "Store 402 - Register 4",
+    "products": [
+      { "id": "s11-1", "name": "Basic Tee", "oldPrice": "$40", "newPrice": "$15", "sku": "0984729" },
+      { "id": "s11-2", "name": "Denim Shorts", "oldPrice": "$65", "newPrice": "$30", "sku": "9183745" },
+      { "id": "s11-3", "name": "Summer Hat", "oldPrice": "$30", "newPrice": "$10", "sku": "1827364" },
+      { "id": "s11-4", "name": "Canvas Shoes", "oldPrice": "$80", "newPrice": "$40", "sku": "9982736" },
+      { "id": "s11-5", "name": "Sunglasses", "oldPrice": "$120", "newPrice": "$55", "sku": "1122334" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#F4F4F5",
+    "textColor": "#000000",
+    "accentColor": "#000000"
+  }
+}

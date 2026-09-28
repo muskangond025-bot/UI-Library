@@ -1,0 +1,33 @@
+{
+  "id": "featured-product-tab-13",
+  "name": "FeaturedProductTab13",
+  "type": "featured-product-tab",
+  "content": {
+    "title": "New",
+    "subtitle": "Fresh arrivals",
+    "tabs": [
+      { "id": "t1", "label": "Furniture", "products": ["p1", "p2", "p3", "p4"] },
+      { "id": "t2", "label": "Lighting", "products": ["p5", "p6", "p7"] },
+      { "id": "t3", "label": "Decor", "products": ["p8", "p9", "p10"] }
+    ],
+    "allProducts": [
+      { "id": "p1", "name": "Lounge Chair", "price": "$450", "category": "Seating", "image": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=800&q=80" },
+      { "id": "p2", "name": "Marble Table", "price": "$899", "category": "Tables", "image": "https://images.unsplash.com/photo-1604578762246-41134e37f9cc?w=800&q=80" },
+      { "id": "p3", "name": "Sofa Set", "price": "$1299", "category": "Seating", "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800&q=80" },
+      { "id": "p4", "name": "Wooden Stool", "price": "$120", "category": "Seating", "image": "https://images.unsplash.com/photo-1503602642458-232111445657?w=800&q=80" },
+
+      { "id": "p5", "name": "Pendant Light", "price": "$299", "category": "Ceiling", "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&q=80" },
+      { "id": "p6", "name": "Table Lamp", "price": "$149", "category": "Table", "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800&q=80" },
+      { "id": "p7", "name": "Floor Lamp", "price": "$199", "category": "Floor", "image": "https://images.unsplash.com/photo-1524498250077-390f9e378fc0?w=800&q=80" },
+
+      { "id": "p8", "name": "Ceramic Vase", "price": "$65", "category": "Accessories", "image": "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?w=800&q=80" },
+      { "id": "p9", "name": "Woven Basket", "price": "$45", "category": "Storage", "image": "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?w=800&q=80" },
+      { "id": "p10", "name": "Wall Mirror", "price": "$150", "category": "Mirrors", "image": "https://images.unsplash.com/photo-1618220179428-22790b461013?w=800&q=80" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FAF9F6",
+    "textColor": "#2C3E50",
+    "accentColor": "#E67E22"
+  }
+}

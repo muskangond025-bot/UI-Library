@@ -1,0 +1,46 @@
+{
+  "id": "best-seller-16",
+  "name": "BestSeller16",
+  "type": "best-seller",
+  "content": {
+    "title": "Snap Showcase",
+    "subtitle": "Scroll to discover",
+    "products": [
+      {
+        "id": "bs16-1",
+        "name": "High-Fidelity Turntable",
+        "price": "$550",
+        "category": "Audio",
+        "image": "https://picsum.photos/seed/bs16_1/1600/1000",
+        "rating": 4.9,
+        "reviews": 310,
+        "badge": "Audiophile Choice"
+      },
+      {
+        "id": "bs16-2",
+        "name": "Bookshelf Speakers",
+        "price": "$380",
+        "category": "Audio",
+        "image": "https://picsum.photos/seed/bs16_2/1600/1000",
+        "rating": 4.8,
+        "reviews": 1250,
+        "badge": null
+      },
+      {
+        "id": "bs16-3",
+        "name": "Vacuum Tube Amplifier",
+        "price": "$900",
+        "category": "Audio",
+        "image": "https://picsum.photos/seed/bs16_3/1600/1000",
+        "rating": 5.0,
+        "reviews": 85,
+        "badge": "Premium"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF",
+    "accentColor": "#F43F5E"
+  }
+}

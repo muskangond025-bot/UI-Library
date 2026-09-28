@@ -1,0 +1,29 @@
+{
+  "id": "split-image-5",
+  "name": "SplitImage5",
+  "type": "split-image",
+  "content": {
+    "leftPanel": {
+      "heading": "Dawn",
+      "description": "The world wakes up.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1000&q=80",
+        "alt": "Sunrise"
+      },
+      "url": "#dawn"
+    },
+    "rightPanel": {
+      "heading": "Dusk",
+      "description": "The city goes to sleep.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1000&q=80",
+        "alt": "City night"
+      },
+      "url": "#dusk"
+    }
+  },
+  "style": {
+    "backgroundColor": "#222222",
+    "textColor": "#F3F4F6"
+  }
+}

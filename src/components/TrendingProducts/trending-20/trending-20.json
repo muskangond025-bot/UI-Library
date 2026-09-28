@@ -1,0 +1,21 @@
+{
+  "id": "trending-20",
+  "name": "Trending20",
+  "type": "trending-products",
+  "content": {
+    "title": "The Pinnacle",
+    "subtitle": "Number One Trend",
+    "products": [
+      { "id": "t20-1", "name": "Hypercar Watch", "price": "$4,500", "image": "https://picsum.photos/seed/t20_1/1200/800", "type": "pinnacle" },
+      { "id": "t20-2", "name": "Racing Gloves", "price": "$350", "image": "https://picsum.photos/seed/t20_2/400/400", "type": "micro" },
+      { "id": "t20-3", "name": "Carbon Sunglasses", "price": "$520", "image": "https://picsum.photos/seed/t20_3/400/400", "type": "micro" },
+      { "id": "t20-4", "name": "Leather Wallet", "price": "$210", "image": "https://picsum.photos/seed/t20_4/400/400", "type": "micro" },
+      { "id": "t20-5", "name": "Key Fob Case", "price": "$95", "image": "https://picsum.photos/seed/t20_5/400/400", "type": "micro" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FAFAFA",
+    "textColor": "#09090B",
+    "accentColor": "#DC2626"
+  }
+}

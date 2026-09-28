@@ -1,0 +1,20 @@
+{
+  "id": "trending-17",
+  "name": "Trending17",
+  "type": "trending-products",
+  "content": {
+    "title": "Thermal Map",
+    "subtitle": "Heat Index",
+    "products": [
+      { "id": "t17-1", "name": "Chunky Loafers", "price": "$190", "image": "https://picsum.photos/seed/t17_1/600/600", "heat": "Extreme" },
+      { "id": "t17-2", "name": "Baggy Jeans", "price": "$110", "image": "https://picsum.photos/seed/t17_2/600/600", "heat": "High" },
+      { "id": "t17-3", "name": "Cropped Jacket", "price": "$240", "image": "https://picsum.photos/seed/t17_3/600/600", "heat": "Medium" },
+      { "id": "t17-4", "name": "Tinted Shades", "price": "$65", "image": "https://picsum.photos/seed/t17_4/600/600", "heat": "High" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#09090B",
+    "textColor": "#FFFFFF",
+    "accentColor": "#F97316"
+  }
+}

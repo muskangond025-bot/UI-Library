@@ -1,0 +1,19 @@
+{
+  "id": "new-arrival-15",
+  "name": "NewArrival15",
+  "type": "new-arrival",
+  "content": {
+    "title": "The Gallery",
+    "subtitle": "Exhibition 01",
+    "products": [
+      { "id": "na15-1", "name": "Sculptural Chair", "price": "$850", "image": "https://picsum.photos/seed/na15_1/800/1000", "badge": "Limited" },
+      { "id": "na15-2", "name": "Marble Side Table", "price": "$420", "image": "https://picsum.photos/seed/na15_2/800/1000", "badge": null },
+      { "id": "na15-3", "name": "Brass Pendant Light", "price": "$295", "image": "https://picsum.photos/seed/na15_3/800/1000", "badge": "New" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000",
+    "accentColor": "#000000"
+  }
+}

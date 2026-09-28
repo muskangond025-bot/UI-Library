@@ -1,0 +1,29 @@
+{
+  "id": "image-text-11",
+  "name": "ImageText11",
+  "type": "image-text",
+  "content": {
+    "heading": "Capture The Moment",
+    "subheading": "MEMORIES",
+    "description": "Every snapshot tells a story. Our approach to visual storytelling blends authentic, raw imagery with deeply personal typography to create a narrative that feels both timeless and intimate.",
+    "features": [
+      "Authentic Styling",
+      "Handcrafted Vibe",
+      "Nostalgic Tones"
+    ],
+    "primaryAction": {
+      "label": "View Journal",
+      "url": "#"
+    },
+    "image": {
+      "url": "https://images.unsplash.com/photo-1516245834210-c4c142787335?w=1200&q=80",
+      "alt": "Vintage camera and photos"
+    }
+  },
+  "style": {
+    "backgroundColor": "#FDFBF7",
+    "textColor": "#2C2C2C",
+    "accentColor": "#D97706",
+    "imageAlignment": "left"
+  }
+}

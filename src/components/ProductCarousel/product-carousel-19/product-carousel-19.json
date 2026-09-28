@@ -1,0 +1,48 @@
+{
+  "id": "product-carousel-19",
+  "name": "ProductCarousel19",
+  "type": "product-carousel",
+  "content": {
+    "title": "Drag Slider",
+    "subtitle": "Scrub the timeline",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Mechanical Keyboard",
+        "price": "$180",
+        "category": "Tech",
+        "image": "https://picsum.photos/seed/pc19_1/800/800",
+        "badge": "Pro"
+      },
+      {
+        "id": "p2",
+        "name": "Wireless Mouse",
+        "price": "$90",
+        "category": "Tech",
+        "image": "https://picsum.photos/seed/pc19_2/800/800",
+        "badge": null
+      },
+      {
+        "id": "p3",
+        "name": "Noise Cancelling Headphones",
+        "price": "$350",
+        "category": "Audio",
+        "image": "https://picsum.photos/seed/pc19_3/800/800",
+        "badge": "Popular"
+      },
+      {
+        "id": "p4",
+        "name": "Ultrawide Monitor",
+        "price": "$899",
+        "category": "Tech",
+        "image": "https://picsum.photos/seed/pc19_4/800/800",
+        "badge": null
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#09090B",
+    "textColor": "#FAFAFA",
+    "accentColor": "#A855F7"
+  }
+}

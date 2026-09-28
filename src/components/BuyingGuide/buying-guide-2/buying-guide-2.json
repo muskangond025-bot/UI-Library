@@ -1,0 +1,122 @@
+{
+  "id": "buying-guide-2",
+  "name": "BuyingGuide2",
+  "type": "buying-guide",
+  "content": {
+    "heading": "The 2026 Laptop Buying Guide",
+    "description": "We rigorously tested over 50 of the latest laptops to help you find the absolute best device for your workflow, budget, and lifestyle.",
+    "lastUpdated": "Updated October 2026",
+    "items": [
+      {
+        "award": "Best Overall",
+        "name": "Zenith ProBook 14",
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=2000&auto=format&fit=crop",
+        "price": "From $1,299",
+        "verdict": "The Zenith ProBook 14 strikes the perfect balance between sustained performance, all-day battery life, and a stunning design. It is the default recommendation for almost everyone.",
+        "pros": [
+          "Incredible 18-hour battery life",
+          "Vibrant 120Hz OLED display",
+          "Best-in-class keyboard"
+        ],
+        "cons": [
+          "Limited port selection (No HDMI)",
+          "720p webcam is outdated"
+        ],
+        "specs": [
+          {
+            "label": "CPU",
+            "value": "NeuralCore X1"
+          },
+          {
+            "label": "RAM",
+            "value": "16GB - 32GB LPDDR5"
+          },
+          {
+            "label": "Storage",
+            "value": "512GB - 2TB PCIe Gen 5"
+          },
+          {
+            "label": "Weight",
+            "value": "2.7 lbs"
+          }
+        ],
+        "buyLink": "#"
+      },
+      {
+        "award": "Best Budget",
+        "name": "Aero Swift 13",
+        "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=2000&auto=format&fit=crop",
+        "price": "From $649",
+        "verdict": "You don't have to spend a fortune to get a highly capable machine. The Aero Swift offers solid daily performance in a premium-feeling aluminum chassis.",
+        "pros": [
+          "Exceptional value",
+          "Premium aluminum build",
+          "Comfortable trackpad"
+        ],
+        "cons": [
+          "Screen doesn't get very bright",
+          "Bloatware out of the box"
+        ],
+        "specs": [
+          {
+            "label": "CPU",
+            "value": "Aero Silicon M1"
+          },
+          {
+            "label": "RAM",
+            "value": "8GB - 16GB"
+          },
+          {
+            "label": "Storage",
+            "value": "256GB - 1TB SSD"
+          },
+          {
+            "label": "Weight",
+            "value": "2.9 lbs"
+          }
+        ],
+        "buyLink": "#"
+      },
+      {
+        "award": "Best for Creatives",
+        "name": "StudioMaster Pro 16",
+        "image": "https://images.unsplash.com/photo-1531297172867-4d6537f05218?q=80&w=2000&auto=format&fit=crop",
+        "price": "From $2,499",
+        "verdict": "If you render 4K video, compile massive codebases, or run 3D simulations, the StudioMaster Pro has the thermal headroom and raw GPU power to handle it without breaking a sweat.",
+        "pros": [
+          "Desktop-class performance",
+          "Color-accurate mini-LED screen",
+          "Massive array of ports"
+        ],
+        "cons": [
+          "Very heavy and thick",
+          "Fans get loud under heavy load",
+          "Expensive"
+        ],
+        "specs": [
+          {
+            "label": "CPU",
+            "value": "NeuralCore X1 Max"
+          },
+          {
+            "label": "RAM",
+            "value": "32GB - 128GB"
+          },
+          {
+            "label": "Storage",
+            "value": "1TB - 8TB NVMe"
+          },
+          {
+            "label": "Weight",
+            "value": "4.8 lbs"
+          }
+        ],
+        "buyLink": "#"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#0f172a",
+    "textColor": "#f8fafc"
+  }
+}

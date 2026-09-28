@@ -1,0 +1,51 @@
+{
+  "id": "featured-collection-17",
+  "name": "FeaturedCollection17",
+  "type": "featured-collection",
+  "content": {
+    "title": "Cover Flow",
+    "subtitle": "Swipe through the gallery",
+    "collections": [
+      {
+        "id": "c1",
+        "title": "Neon",
+        "description": "Bright lights, big city.",
+        "image": "https://picsum.photos/id/53/800/1200",
+        "link": "#"
+      },
+      {
+        "id": "c2",
+        "title": "Pulse",
+        "description": "Feel the beat.",
+        "image": "https://picsum.photos/id/54/800/1200",
+        "link": "#"
+      },
+      {
+        "id": "c3",
+        "title": "Vibe",
+        "description": "Catch the mood.",
+        "image": "https://picsum.photos/id/55/800/1200",
+        "link": "#"
+      },
+      {
+        "id": "c4",
+        "title": "Echo",
+        "description": "Sound and vision.",
+        "image": "https://picsum.photos/id/56/800/1200",
+        "link": "#"
+      },
+      {
+        "id": "c5",
+        "title": "Aura",
+        "description": "A certain energy.",
+        "image": "https://picsum.photos/id/57/800/1200",
+        "link": "#"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#0F172A",
+    "textColor": "#F8FAFC",
+    "accentColor": "#38BDF8"
+  }
+}

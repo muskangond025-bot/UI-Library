@@ -1,0 +1,20 @@
+{
+  "id": "flash-sale-2",
+  "name": "FlashSale2",
+  "type": "flash-sale",
+  "content": {
+    "title": "Beat the Clock",
+    "subtitle": "Time is running out",
+    "products": [
+      { "id": "fs2-1", "name": "Sneakers", "oldPrice": "$120", "newPrice": "$60", "image": "https://picsum.photos/seed/fs2_1/800/800" },
+      { "id": "fs2-2", "name": "Gym Bag", "oldPrice": "$80", "newPrice": "$40", "image": "https://picsum.photos/seed/fs2_2/800/800" },
+      { "id": "fs2-3", "name": "Water Bottle", "oldPrice": "$30", "newPrice": "$15", "image": "https://picsum.photos/seed/fs2_3/800/800" },
+      { "id": "fs2-4", "name": "Yoga Mat", "oldPrice": "$50", "newPrice": "$25", "image": "https://picsum.photos/seed/fs2_4/800/800" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#EF4444",
+    "textColor": "#FFFFFF",
+    "accentColor": "#000000"
+  }
+}

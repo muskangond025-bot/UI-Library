@@ -1,0 +1,48 @@
+{
+  "id": "product-grid-16",
+  "name": "ProductGrid16",
+  "type": "product-grid",
+  "content": {
+    "title": "Brutalist Catalog",
+    "subtitle": "Raw structure",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Steel Chair",
+        "price": "$350",
+        "category": "Furniture",
+        "image": "https://picsum.photos/seed/pg16_1/600/800",
+        "badge": "RAW"
+      },
+      {
+        "id": "p2",
+        "name": "Concrete Table",
+        "price": "$890",
+        "category": "Furniture",
+        "image": "https://picsum.photos/seed/pg16_2/600/800",
+        "badge": null
+      },
+      {
+        "id": "p3",
+        "name": "Wire Shelf",
+        "price": "$120",
+        "category": "Storage",
+        "image": "https://picsum.photos/seed/pg16_3/600/800",
+        "badge": null
+      },
+      {
+        "id": "p4",
+        "name": "Exposed Bulb",
+        "price": "$45",
+        "category": "Lighting",
+        "image": "https://picsum.photos/seed/pg16_4/600/800",
+        "badge": "NEW"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000",
+    "accentColor": "#00FF00"
+  }
+}

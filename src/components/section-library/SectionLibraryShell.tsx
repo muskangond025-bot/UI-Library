@@ -15,14 +15,18 @@ export function SectionLibraryShell() {
     if (section) {
       setSelectedSection(section);
     }
+    const category = params.get('category');
+    if (category) {
+      setActiveCategory(category);
+    }
   }, []);
 
   const handleSelectSection = (sectionId: string | null) => {
     setSelectedSection(sectionId);
     if (sectionId) {
-      window.history.pushState(null, '', `?section=${sectionId}`);
+      window.history.pushState(null, '', `?section=${sectionId}&category=${activeCategory}`);
     } else {
-      window.history.pushState(null, '', window.location.pathname);
+      window.history.pushState(null, '', `?category=${activeCategory}`);
     }
   };
 
@@ -44,7 +48,8 @@ export function SectionLibraryShell() {
           activeCategory={activeCategory} 
           onSelectCategory={(category) => {
             setActiveCategory(category);
-            handleSelectSection(null);
+            setSelectedSection(null);
+            window.history.pushState(null, '', `?category=${category}`);
           }} 
         />
       )}

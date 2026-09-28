@@ -1,0 +1,20 @@
+{
+  "id": "trending-13",
+  "name": "Trending13",
+  "type": "trending-products",
+  "content": {
+    "title": "Flash Drops",
+    "subtitle": "Going Fast",
+    "products": [
+      { "id": "t13-1", "name": "Limited Hoodie", "price": "$110", "image": "https://picsum.photos/seed/t13_1/600/600", "timeLeft": "02:14:59" },
+      { "id": "t13-2", "name": "Drop Sneakers", "price": "$220", "image": "https://picsum.photos/seed/t13_2/600/600", "timeLeft": "00:45:12" },
+      { "id": "t13-3", "name": "Exclusive Cap", "price": "$55", "image": "https://picsum.photos/seed/t13_3/600/600", "timeLeft": "12:00:00" },
+      { "id": "t13-4", "name": "Vinyl Record", "price": "$35", "image": "https://picsum.photos/seed/t13_4/600/600", "timeLeft": "05:30:20" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#1A1A1A",
+    "accentColor": "#FF0000"
+  }
+}

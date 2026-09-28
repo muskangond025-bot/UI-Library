@@ -1,0 +1,19 @@
+{
+  "id": "new-arrival-18",
+  "name": "NewArrival18",
+  "type": "new-arrival",
+  "content": {
+    "title": "Soft Touch",
+    "subtitle": "Neumorphic Drop",
+    "products": [
+      { "id": "na18-1", "name": "Smart Scale", "price": "$89", "image": "https://picsum.photos/seed/na18_1/600/600" },
+      { "id": "na18-2", "name": "Sonic Toothbrush", "price": "$129", "image": "https://picsum.photos/seed/na18_2/600/600" },
+      { "id": "na18-3", "name": "Air Purifier", "price": "$249", "image": "https://picsum.photos/seed/na18_3/600/600" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#E0E5EC",
+    "textColor": "#4B5563",
+    "accentColor": "#8B5CF6"
+  }
+}

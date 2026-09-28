@@ -1,0 +1,51 @@
+{
+  "id": "featured-collection-16",
+  "name": "FeaturedCollection16",
+  "type": "featured-collection",
+  "content": {
+    "title": "Focus Accordion",
+    "subtitle": "Expand your view",
+    "collections": [
+      {
+        "id": "c1",
+        "title": "Nature",
+        "description": "Wild and free.",
+        "image": "https://picsum.photos/id/48/1200/800",
+        "link": "#"
+      },
+      {
+        "id": "c2",
+        "title": "Urban",
+        "description": "Concrete jungle.",
+        "image": "https://picsum.photos/id/49/1200/800",
+        "link": "#"
+      },
+      {
+        "id": "c3",
+        "title": "Abstract",
+        "description": "Shapes and colors.",
+        "image": "https://picsum.photos/id/50/1200/800",
+        "link": "#"
+      },
+      {
+        "id": "c4",
+        "title": "Minimal",
+        "description": "Less is more.",
+        "image": "https://picsum.photos/id/51/1200/800",
+        "link": "#"
+      },
+      {
+        "id": "c5",
+        "title": "Vintage",
+        "description": "Timeless classics.",
+        "image": "https://picsum.photos/id/52/1200/800",
+        "link": "#"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#171717",
+    "textColor": "#FFFFFF",
+    "accentColor": "#10B981"
+  }
+}

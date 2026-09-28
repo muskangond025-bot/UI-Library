@@ -1,0 +1,20 @@
+{
+  "id": "sale-12",
+  "name": "Sale12",
+  "type": "sale-products",
+  "content": {
+    "title": "Summer Savings",
+    "subtitle": "Crystal Clear Deals",
+    "products": [
+      { "id": "s12-1", "name": "Beach Towel", "oldPrice": "$45", "newPrice": "$25", "image": "https://picsum.photos/seed/s12_1/600/600" },
+      { "id": "s12-2", "name": "Swim Trunks", "oldPrice": "$65", "newPrice": "$35", "image": "https://picsum.photos/seed/s12_2/600/600" },
+      { "id": "s12-3", "name": "Cooler Bag", "oldPrice": "$90", "newPrice": "$50", "image": "https://picsum.photos/seed/s12_3/600/600" },
+      { "id": "s12-4", "name": "Sunscreen Set", "oldPrice": "$40", "newPrice": "$20", "image": "https://picsum.photos/seed/s12_4/600/600" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#1E293B",
+    "accentColor": "#38BDF8"
+  }
+}

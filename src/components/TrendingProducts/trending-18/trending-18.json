@@ -1,0 +1,19 @@
+{
+  "id": "trending-18",
+  "name": "Trending18",
+  "type": "trending-products",
+  "content": {
+    "title": "Departures",
+    "subtitle": "Moving Fast",
+    "products": [
+      { "id": "t18-1", "name": "Duffel Bag", "price": "$180", "image": "https://picsum.photos/seed/t18_1/800/800" },
+      { "id": "t18-2", "name": "Travel Tech Pouch", "price": "$45", "image": "https://picsum.photos/seed/t18_2/800/800" },
+      { "id": "t18-3", "name": "Passport Cover", "price": "$30", "image": "https://picsum.photos/seed/t18_3/800/800" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#1E293B",
+    "textColor": "#F8FAFC",
+    "accentColor": "#EAB308"
+  }
+}

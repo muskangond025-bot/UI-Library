@@ -1,0 +1,29 @@
+{
+  "id": "split-image-19",
+  "name": "SplitImage19",
+  "type": "split-image",
+  "content": {
+    "leftPanel": {
+      "heading": "Dawn",
+      "description": "The first light.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1000&q=80",
+        "alt": "Sunrise landscape"
+      },
+      "url": "#dawn"
+    },
+    "rightPanel": {
+      "heading": "Dusk",
+      "description": "The fading light.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1000&q=80",
+        "alt": "City at night"
+      },
+      "url": "#dusk"
+    }
+  },
+  "style": {
+    "backgroundColor": "#18181B",
+    "textColor": "#FAFAFA"
+  }
+}

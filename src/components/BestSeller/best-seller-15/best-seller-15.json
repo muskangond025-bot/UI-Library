@@ -1,0 +1,56 @@
+{
+  "id": "best-seller-15",
+  "name": "BestSeller15",
+  "type": "best-seller",
+  "content": {
+    "title": "Grid Explorer",
+    "subtitle": "Discover the finest",
+    "products": [
+      {
+        "id": "bs15-1",
+        "name": "Artisan Coffee Beans",
+        "price": "$28",
+        "category": "Food",
+        "image": "https://picsum.photos/seed/bs15_1/800/800",
+        "rating": 4.9,
+        "reviews": 1200,
+        "badge": "Top Rated"
+      },
+      {
+        "id": "bs15-2",
+        "name": "French Press",
+        "price": "$45",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/bs15_2/800/800",
+        "rating": 4.8,
+        "reviews": 890,
+        "badge": null
+      },
+      {
+        "id": "bs15-3",
+        "name": "Gooseneck Kettle",
+        "price": "$75",
+        "category": "Appliances",
+        "image": "https://picsum.photos/seed/bs15_3/800/800",
+        "rating": 4.7,
+        "reviews": 650,
+        "badge": "Popular"
+      },
+      {
+        "id": "bs15-4",
+        "name": "Ceramic Mug Set",
+        "price": "$35",
+        "category": "Dining",
+        "image": "https://picsum.photos/seed/bs15_4/800/800",
+        "rating": 4.9,
+        "reviews": 420,
+        "badge": null
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#E5E7EB",
+    "textColor": "#111827",
+    "accentColor": "#F59E0B"
+  }
+}

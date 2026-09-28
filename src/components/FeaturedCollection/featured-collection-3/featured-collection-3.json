@@ -1,0 +1,43 @@
+{
+  "id": "featured-collection-3",
+  "name": "FeaturedCollection3",
+  "type": "featured-collection",
+  "content": {
+    "title": "The Split Series",
+    "collections": [
+      {
+        "id": "c1",
+        "title": "Sculpture",
+        "description": "Three-dimensional art.",
+        "image": "https://images.unsplash.com/photo-1551024739-78e9d60c45ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        "link": "#"
+      },
+      {
+        "id": "c2",
+        "title": "Painting",
+        "description": "Strokes of genius.",
+        "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        "link": "#"
+      },
+      {
+        "id": "c3",
+        "title": "Photography",
+        "description": "Capturing moments.",
+        "image": "https://images.unsplash.com/photo-1516802273409-68526ee1bdd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        "link": "#"
+      },
+      {
+        "id": "c4",
+        "title": "Digital",
+        "description": "The new frontier.",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        "link": "#"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#F9F9F9",
+    "textColor": "#1A1A1A",
+    "accentColor": "#3B82F6"
+  }
+}

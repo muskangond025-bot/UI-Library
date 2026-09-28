@@ -1,0 +1,48 @@
+{
+  "id": "product-grid-12",
+  "name": "ProductGrid12",
+  "type": "product-grid",
+  "content": {
+    "title": "Cursor Tracker",
+    "subtitle": "Interactive catalog",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Aesthetic Vase",
+        "price": "$45",
+        "category": "Decor",
+        "image": "https://picsum.photos/seed/pg12_1/800/1000",
+        "badge": null
+      },
+      {
+        "id": "p2",
+        "name": "Scented Candle",
+        "price": "$30",
+        "category": "Home",
+        "image": "https://picsum.photos/seed/pg12_2/800/1000",
+        "badge": "Bestseller"
+      },
+      {
+        "id": "p3",
+        "name": "Ceramic Plate Set",
+        "price": "$85",
+        "category": "Dining",
+        "image": "https://picsum.photos/seed/pg12_3/800/1000",
+        "badge": null
+      },
+      {
+        "id": "p4",
+        "name": "Linen Tablecloth",
+        "price": "$60",
+        "category": "Dining",
+        "image": "https://picsum.photos/seed/pg12_4/800/1000",
+        "badge": "New"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FAFAFA",
+    "textColor": "#000000",
+    "accentColor": "#EC4899"
+  }
+}

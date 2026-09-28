@@ -1,0 +1,37 @@
+{
+  "id": "new-arrival-8",
+  "name": "NewArrival8",
+  "type": "new-arrival",
+  "content": {
+    "title": "Studio Collection",
+    "subtitle": "Season 02",
+    "products": [
+      {
+        "id": "na8-1",
+        "name": "Geometric Table Lamp",
+        "price": "$220",
+        "description": "A study in form and function. This lamp brings warm ambient light to any modern space.",
+        "image": "https://picsum.photos/seed/na8_1/1200/1600"
+      },
+      {
+        "id": "na8-2",
+        "name": "Velvet Accent Chair",
+        "price": "$595",
+        "description": "Plush textures meet strict architectural lines in our newest seating masterpiece.",
+        "image": "https://picsum.photos/seed/na8_2/1200/1600"
+      },
+      {
+        "id": "na8-3",
+        "name": "Abstract Wall Art",
+        "price": "$340",
+        "description": "Hand-painted textures that add depth and conversation to your walls.",
+        "image": "https://picsum.photos/seed/na8_3/1200/1600"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#171717",
+    "textColor": "#FFFFFF",
+    "accentColor": "#60A5FA"
+  }
+}

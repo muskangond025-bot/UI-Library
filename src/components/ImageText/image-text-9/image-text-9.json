@@ -1,0 +1,29 @@
+{
+  "id": "image-text-9",
+  "name": "ImageText9",
+  "type": "image-text",
+  "content": {
+    "heading": "The Printed Word",
+    "subheading": "EDITORIAL_09",
+    "description": "Embracing the structured beauty of traditional print media. This layout utilizes multiple columns, strict alignment, and small, poignant imagery to guide the reader through a dense, informative narrative without overwhelming the senses.",
+    "features": [
+      "Multi-column Layout",
+      "Strict Grid Alignment",
+      "Serif Typography"
+    ],
+    "primaryAction": {
+      "label": "Read The Article",
+      "url": "#"
+    },
+    "image": {
+      "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80",
+      "alt": "Writing desk"
+    }
+  },
+  "style": {
+    "backgroundColor": "#F4F1EA",
+    "textColor": "#2B2B2B",
+    "accentColor": "#C0392B",
+    "imageAlignment": "left"
+  }
+}

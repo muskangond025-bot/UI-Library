@@ -1,0 +1,82 @@
+{
+  "id": "featured-product-tab-2",
+  "name": "FeaturedProductTab2",
+  "type": "featured-product-tab",
+  "content": {
+    "title": "Trending Now",
+    "subtitle": "Discover our handpicked selection of top-rated items",
+    "tabs": [
+      { "id": "t1", "label": "For You", "products": ["p1", "p4", "p5"] },
+      { "id": "t2", "label": "Apparel", "products": ["p2", "p6", "p7"] },
+      { "id": "t3", "label": "Accessories", "products": ["p3", "p8"] }
+    ],
+    "allProducts": [
+      {
+        "id": "p1",
+        "name": "Techwear Cargo Pants",
+        "price": "$120",
+        "category": "Apparel",
+        "image": "https://images.unsplash.com/photo-1517423568366-8b83523034fd?w=800&q=80",
+        "badge": "Hot"
+      },
+      {
+        "id": "p2",
+        "name": "Oversized Graphic Tee",
+        "price": "$45",
+        "category": "Apparel",
+        "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800&q=80"
+      },
+      {
+        "id": "p3",
+        "name": "Cyberpunk Visor Glasses",
+        "price": "$85",
+        "category": "Accessories",
+        "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&q=80",
+        "badge": "New"
+      },
+      {
+        "id": "p4",
+        "name": "Tactical Chest Rig",
+        "price": "$95",
+        "category": "Accessories",
+        "image": "https://images.unsplash.com/photo-1544441893-675973e31985?w=800&q=80"
+      },
+      {
+        "id": "p5",
+        "name": "Reflective Windbreaker",
+        "price": "$150",
+        "originalPrice": "$180",
+        "category": "Apparel",
+        "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&q=80",
+        "badge": "Sale"
+      },
+      {
+        "id": "p6",
+        "name": "Heavyweight Hoodie",
+        "price": "$80",
+        "category": "Apparel",
+        "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&q=80"
+      },
+      {
+        "id": "p7",
+        "name": "Utility Vest",
+        "price": "$110",
+        "category": "Apparel",
+        "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80"
+      },
+      {
+        "id": "p8",
+        "name": "Chunky Sneakers",
+        "price": "$190",
+        "category": "Footwear",
+        "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=800&q=80",
+        "badge": "Trending"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#09090b",
+    "textColor": "#fafafa",
+    "accentColor": "#06b6d4"
+  }
+}

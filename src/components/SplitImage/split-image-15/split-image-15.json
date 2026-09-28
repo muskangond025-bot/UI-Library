@@ -1,0 +1,29 @@
+{
+  "id": "split-image-15",
+  "name": "SplitImage15",
+  "type": "split-image",
+  "content": {
+    "leftPanel": {
+      "heading": "Open",
+      "description": "Unlock the potential.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=1000&q=80",
+        "alt": "Door texture left"
+      },
+      "url": "#open"
+    },
+    "rightPanel": {
+      "heading": "Discover",
+      "description": "What lies beneath the surface.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=1000&q=80",
+        "alt": "Door texture right"
+      },
+      "url": "#discover"
+    }
+  },
+  "style": {
+    "backgroundColor": "#111827",
+    "textColor": "#F3F4F6"
+  }
+}

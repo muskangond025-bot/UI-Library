@@ -1,0 +1,18 @@
+{
+  "id": "promo-card-9",
+  "name": "PromoCard9",
+  "type": "promotional-card",
+  "content": {
+    "badge": "Special Offer",
+    "title": "Isometric Grid",
+    "description": "Experience the power of our exclusive isometric grid design. Tailored for premium experiences.",
+    "cta": {
+      "text": "Discover",
+      "url": "#"
+    }
+  },
+  "style": {
+    "backgroundColor": "#1E1E1E",
+    "textColor": "#00FF41"
+  }
+}

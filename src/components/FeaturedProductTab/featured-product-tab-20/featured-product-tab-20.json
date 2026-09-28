@@ -1,0 +1,27 @@
+{
+  "id": "featured-product-tab-20",
+  "name": "FeaturedProductTab20",
+  "type": "featured-product-tab",
+  "content": {
+    "title": "Immersive",
+    "subtitle": "Step into the experience",
+    "tabs": [
+      { "id": "t1", "label": "Camping", "products": ["p1", "p2", "p3"] },
+      { "id": "t2", "label": "Hiking", "products": ["p4", "p5", "p6"] }
+    ],
+    "allProducts": [
+      { "id": "p1", "name": "Dome Tent", "price": "$299", "category": "Shelter", "image": "https://images.unsplash.com/photo-1504280390267-331062227c08?w=800&q=80" },
+      { "id": "p2", "name": "Sleeping Bag", "price": "$120", "category": "Sleep", "image": "https://images.unsplash.com/photo-1596766487900-58097b7b12d3?w=800&q=80" },
+      { "id": "p3", "name": "Camp Stove", "price": "$85", "category": "Cooking", "image": "https://images.unsplash.com/photo-1533681431052-a50d4f3b7f16?w=800&q=80" },
+
+      { "id": "p4", "name": "Hiking Boots", "price": "$180", "category": "Footwear", "image": "https://images.unsplash.com/photo-1520316587275-5e4f06f68971?w=800&q=80" },
+      { "id": "p5", "name": "Trekking Poles", "price": "$65", "category": "Gear", "image": "https://images.unsplash.com/photo-1512224759681-422bc70b6748?w=800&q=80" },
+      { "id": "p6", "name": "Daypack", "price": "$95", "category": "Bags", "image": "https://images.unsplash.com/photo-1582210874134-8c85eb07f0bb?w=800&q=80" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF",
+    "accentColor": "#FFFFFF"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "trending-16",
+  "name": "Trending16",
+  "type": "trending-products",
+  "content": {
+    "title": "Search Matrix",
+    "subtitle": "Most Searched",
+    "products": [
+      { "id": "t16-1", "name": "Mechanical Keyboard", "price": "$189", "image": "https://picsum.photos/seed/t16_1/600/600", "queries": "1.2M searches" },
+      { "id": "t16-2", "name": "Ceramic Mug", "price": "$28", "image": "https://picsum.photos/seed/t16_2/600/600", "queries": "800k searches" },
+      { "id": "t16-3", "name": "Desk Mat", "price": "$35", "image": "https://picsum.photos/seed/t16_3/600/600", "queries": "650k searches" },
+      { "id": "t16-4", "name": "Ergo Chair", "price": "$450", "image": "https://picsum.photos/seed/t16_4/600/600", "queries": "500k searches" },
+      { "id": "t16-5", "name": "Monitor Arm", "price": "$120", "image": "https://picsum.photos/seed/t16_5/600/600", "queries": "400k searches" },
+      { "id": "t16-6", "name": "Light Bar", "price": "$90", "image": "https://picsum.photos/seed/t16_6/600/600", "queries": "350k searches" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000",
+    "accentColor": "#2563EB"
+  }
+}

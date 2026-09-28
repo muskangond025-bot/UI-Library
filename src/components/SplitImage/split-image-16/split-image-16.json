@@ -1,0 +1,29 @@
+{
+  "id": "split-image-16",
+  "name": "SplitImage16",
+  "type": "split-image",
+  "content": {
+    "leftPanel": {
+      "heading": "Art",
+      "description": "Expressive, subjective, and boundless.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=1000&q=80",
+        "alt": "Abstract painting"
+      },
+      "url": "#art"
+    },
+    "rightPanel": {
+      "heading": "Science",
+      "description": "Objective, analytical, and structured.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1000&q=80",
+        "alt": "Laboratory setup"
+      },
+      "url": "#science"
+    }
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000"
+  }
+}

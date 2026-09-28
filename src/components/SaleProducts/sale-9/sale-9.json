@@ -1,0 +1,20 @@
+{
+  "id": "sale-9",
+  "name": "Sale9",
+  "type": "sale-products",
+  "content": {
+    "title": "End of Season",
+    "subtitle": "Final Markdowns",
+    "products": [
+      { "id": "s9-1", "name": "Winter Parka", "oldPrice": "$350", "newPrice": "$105", "image": "https://picsum.photos/seed/s9_1/600/800", "percentage": "-70%" },
+      { "id": "s9-2", "name": "Snow Boots", "oldPrice": "$220", "newPrice": "$110", "image": "https://picsum.photos/seed/s9_2/600/800", "percentage": "-50%" },
+      { "id": "s9-3", "name": "Knit Scarf", "oldPrice": "$80", "newPrice": "$32", "image": "https://picsum.photos/seed/s9_3/600/800", "percentage": "-60%" },
+      { "id": "s9-4", "name": "Fleece Zip", "oldPrice": "$150", "newPrice": "$75", "image": "https://picsum.photos/seed/s9_4/600/800", "percentage": "-50%" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000",
+    "accentColor": "#000000"
+  }
+}

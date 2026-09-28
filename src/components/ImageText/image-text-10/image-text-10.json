@@ -1,0 +1,29 @@
+{
+  "id": "image-text-10",
+  "name": "ImageText10",
+  "type": "image-text",
+  "content": {
+    "heading": "Unbound Creativity.",
+    "subheading": "BEYOND LIMITS",
+    "description": "We explore the edges of interactive design. Blending motion, typography, and imagery to create moments that captivate and engage.",
+    "features": [
+      "Fluid Animations",
+      "Dynamic Layouts",
+      "Immersive Scrolling"
+    ],
+    "primaryAction": {
+      "label": "View Gallery",
+      "url": "#"
+    },
+    "image": {
+      "url": "https://images.unsplash.com/photo-1557672172-298e090bd0f1?w=1200&q=80",
+      "alt": "Abstract fluid gradient"
+    }
+  },
+  "style": {
+    "backgroundColor": "#1E1E24",
+    "textColor": "#F3F4F6",
+    "accentColor": "#8B5CF6",
+    "imageAlignment": "right"
+  }
+}

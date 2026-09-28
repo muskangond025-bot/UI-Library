@@ -1,0 +1,64 @@
+{
+  "id": "product-carousel-7",
+  "name": "ProductCarousel7",
+  "type": "product-carousel",
+  "content": {
+    "title": "Interactive Marquee",
+    "subtitle": "Endless loop",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Leather Tote",
+        "price": "$125",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/pc7_1/800/800",
+        "badge": "New"
+      },
+      {
+        "id": "p2",
+        "name": "Silk Scarf",
+        "price": "$45",
+        "category": "Apparel",
+        "image": "https://picsum.photos/seed/pc7_2/800/800",
+        "badge": null
+      },
+      {
+        "id": "p3",
+        "name": "Wool Coat",
+        "price": "$295",
+        "category": "Apparel",
+        "image": "https://picsum.photos/seed/pc7_3/800/800",
+        "badge": "Bestseller"
+      },
+      {
+        "id": "p4",
+        "name": "Ankle Boots",
+        "price": "$180",
+        "category": "Footwear",
+        "image": "https://picsum.photos/seed/pc7_4/800/800",
+        "badge": null
+      },
+      {
+        "id": "p5",
+        "name": "Silver Watch",
+        "price": "$210",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/pc7_5/800/800",
+        "badge": null
+      },
+      {
+        "id": "p6",
+        "name": "Cashmere Beanie",
+        "price": "$55",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/pc7_6/800/800",
+        "badge": "Sale"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#09090B",
+    "textColor": "#FAFAFA",
+    "accentColor": "#A3E635"
+  }
+}

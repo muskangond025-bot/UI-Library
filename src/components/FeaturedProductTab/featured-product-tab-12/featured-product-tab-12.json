@@ -1,0 +1,31 @@
+{
+  "id": "featured-product-tab-12",
+  "name": "FeaturedProductTab12",
+  "type": "featured-product-tab",
+  "content": {
+    "title": "The Lookbook",
+    "subtitle": "Shop the styled outfits",
+    "tabs": [
+      { "id": "t1", "label": "Look 01: Weekend", "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1000&q=80", "products": ["p1", "p2", "p3"] },
+      { "id": "t2", "label": "Look 02: Office", "image": "https://images.unsplash.com/photo-1550614000-4b9a1bd1a666?w=1000&q=80", "products": ["p4", "p5", "p6"] },
+      { "id": "t3", "label": "Look 03: Evening", "image": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=1000&q=80", "products": ["p7", "p8"] }
+    ],
+    "allProducts": [
+      { "id": "p1", "name": "Oversized Denim Jacket", "price": "$120", "category": "Outerwear", "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=80" },
+      { "id": "p2", "name": "Classic White Tee", "price": "$35", "category": "Tops", "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=80" },
+      { "id": "p3", "name": "Straight Leg Jeans", "price": "$98", "category": "Bottoms", "image": "https://images.unsplash.com/photo-1542272201-b1ca555f8505?w=800&q=80" },
+      
+      { "id": "p4", "name": "Tailored Blazer", "price": "$180", "category": "Outerwear", "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&q=80" },
+      { "id": "p5", "name": "Silk Blouse", "price": "$85", "category": "Tops", "image": "https://images.unsplash.com/photo-1599643478514-4a42045cc947?w=800&q=80" },
+      { "id": "p6", "name": "Pleated Trousers", "price": "$110", "category": "Bottoms", "image": "https://images.unsplash.com/photo-1594938291221-94f18cbb5660?w=800&q=80" },
+
+      { "id": "p7", "name": "Slip Dress", "price": "$150", "category": "Dresses", "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&q=80" },
+      { "id": "p8", "name": "Strappy Heels", "price": "$135", "category": "Shoes", "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#1A1A1A",
+    "accentColor": "#000000"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "featured-product-tab-3",
+  "name": "FeaturedProductTab3",
+  "type": "featured-product-tab",
+  "content": {
+    "title": "Shop by Room",
+    "subtitle": "Curated collections for every space in your home",
+    "tabs": [
+      { "id": "t1", "label": "Living Room", "products": ["p1", "p2", "p3", "p4"] },
+      { "id": "t2", "label": "Bedroom", "products": ["p5", "p6", "p7"] },
+      { "id": "t3", "label": "Dining", "products": ["p8", "p9"] },
+      { "id": "t4", "label": "Home Office", "products": ["p10", "p11"] }
+    ],
+    "allProducts": [
+      { "id": "p1", "name": "Sectional Sofa", "price": "$1,299", "category": "Seating", "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800&q=80" },
+      { "id": "p2", "name": "Coffee Table", "price": "$349", "category": "Tables", "image": "https://images.unsplash.com/photo-1532372320572-cda25653a26d?w=800&q=80", "badge": "Popular" },
+      { "id": "p3", "name": "Floor Lamp", "price": "$129", "category": "Lighting", "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&q=80" },
+      { "id": "p4", "name": "Wool Rug", "price": "$450", "category": "Decor", "image": "https://images.unsplash.com/photo-1534889156217-d643df14f14a?w=800&q=80" },
+      { "id": "p5", "name": "Platform Bed", "price": "$899", "category": "Furniture", "image": "https://images.unsplash.com/photo-1505693314120-0d443867891c?w=800&q=80" },
+      { "id": "p6", "name": "Nightstand", "price": "$199", "category": "Storage", "image": "https://images.unsplash.com/photo-1532372320572-cda25653a26d?w=800&q=80" },
+      { "id": "p7", "name": "Linen Bedding Set", "price": "$220", "category": "Textiles", "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80", "badge": "New" },
+      { "id": "p8", "name": "Dining Table", "price": "$799", "category": "Tables", "image": "https://images.unsplash.com/photo-1604578762246-41134e37f9cc?w=800&q=80" },
+      { "id": "p9", "name": "Dining Chair Set", "price": "$399", "category": "Seating", "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800&q=80" },
+      { "id": "p10", "name": "Ergonomic Chair", "price": "$550", "category": "Seating", "image": "https://images.unsplash.com/photo-1505843490538-5133c6c7d0e1?w=800&q=80" },
+      { "id": "p11", "name": "Writing Desk", "price": "$420", "category": "Tables", "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=800&q=80" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#F3F4F6",
+    "textColor": "#1F2937",
+    "accentColor": "#D97706"
+  }
+}

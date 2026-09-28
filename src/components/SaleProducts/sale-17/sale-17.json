@@ -1,0 +1,19 @@
+{
+  "id": "sale-17",
+  "name": "Sale17",
+  "type": "sale-products",
+  "content": {
+    "title": "Prices Dropping",
+    "subtitle": "Catch them now",
+    "products": [
+      { "id": "s17-1", "name": "Trail Sneakers", "oldPrice": "$160", "newPrice": "$95", "image": "https://picsum.photos/seed/s17_1/600/800" },
+      { "id": "s17-2", "name": "Running Shorts", "oldPrice": "$45", "newPrice": "$25", "image": "https://picsum.photos/seed/s17_2/600/800" },
+      { "id": "s17-3", "name": "Windbreaker", "oldPrice": "$120", "newPrice": "$60", "image": "https://picsum.photos/seed/s17_3/600/800" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000",
+    "accentColor": "#10B981"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "featured-collection-18",
+  "name": "FeaturedCollection18",
+  "type": "featured-collection",
+  "content": {
+    "title": "Scroll Stack",
+    "subtitle": "Peel back the layers",
+    "collections": [
+      {
+        "id": "c1",
+        "title": "The Surface",
+        "description": "What you see.",
+        "image": "https://picsum.photos/id/58/1200/800",
+        "link": "#"
+      },
+      {
+        "id": "c2",
+        "title": "The Core",
+        "description": "What lies beneath.",
+        "image": "https://picsum.photos/id/59/1200/800",
+        "link": "#"
+      },
+      {
+        "id": "c3",
+        "title": "The Depth",
+        "description": "Further down.",
+        "image": "https://picsum.photos/id/60/1200/800",
+        "link": "#"
+      },
+      {
+        "id": "c4",
+        "title": "The Abyss",
+        "description": "The absolute bottom.",
+        "image": "https://picsum.photos/id/61/1200/800",
+        "link": "#"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#09090B",
+    "textColor": "#FAFAFA",
+    "accentColor": "#F43F5E"
+  }
+}

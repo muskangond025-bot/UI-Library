@@ -1,0 +1,22 @@
+{
+  "id": "new-arrival-10",
+  "name": "NewArrival10",
+  "type": "new-arrival",
+  "content": {
+    "title": "Radial Vision",
+    "subtitle": "Explore",
+    "products": [
+      { "id": "na10-1", "name": "Pro Camera Body", "price": "$1299", "image": "https://picsum.photos/seed/na10_1/600/600" },
+      { "id": "na10-2", "name": "50mm Prime Lens", "price": "$450", "image": "https://picsum.photos/seed/na10_2/600/600" },
+      { "id": "na10-3", "name": "Carbon Tripod", "price": "$320", "image": "https://picsum.photos/seed/na10_3/600/600" },
+      { "id": "na10-4", "name": "Camera Sling Bag", "price": "$110", "image": "https://picsum.photos/seed/na10_4/600/600" },
+      { "id": "na10-5", "name": "Memory Card 256GB", "price": "$65", "image": "https://picsum.photos/seed/na10_5/600/600" },
+      { "id": "na10-6", "name": "LED Video Light", "price": "$180", "image": "https://picsum.photos/seed/na10_6/600/600" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#020617",
+    "textColor": "#F8FAFC",
+    "accentColor": "#8B5CF6"
+  }
+}

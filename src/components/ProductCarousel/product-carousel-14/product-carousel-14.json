@@ -1,0 +1,48 @@
+{
+  "id": "product-carousel-14",
+  "name": "ProductCarousel14",
+  "type": "product-carousel",
+  "content": {
+    "title": "Lens Magnifier",
+    "subtitle": "Discover details",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Ceramic Pot",
+        "price": "$45",
+        "category": "Home",
+        "image": "https://picsum.photos/seed/pc14_1/1000/1000",
+        "badge": null
+      },
+      {
+        "id": "p2",
+        "name": "Woven Basket",
+        "price": "$35",
+        "category": "Decor",
+        "image": "https://picsum.photos/seed/pc14_2/1000/1000",
+        "badge": "Popular"
+      },
+      {
+        "id": "p3",
+        "name": "Wooden Server",
+        "price": "$25",
+        "category": "Dining",
+        "image": "https://picsum.photos/seed/pc14_3/1000/1000",
+        "badge": null
+      },
+      {
+        "id": "p4",
+        "name": "Cotton Blanket",
+        "price": "$85",
+        "category": "Home",
+        "image": "https://picsum.photos/seed/pc14_4/1000/1000",
+        "badge": "New"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000",
+    "accentColor": "#F43F5E"
+  }
+}

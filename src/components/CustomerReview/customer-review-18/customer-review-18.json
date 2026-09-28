@@ -1,0 +1,53 @@
+{
+  "id": "customer-review-18",
+  "name": "CustomerReview18",
+  "type": "customer-review",
+  "content": {
+    "heading": "Real reviews from real users",
+    "description": "Don't just take our word for it. Here is what our community says.",
+    "overallRating": 4.9,
+    "totalReviews": 850,
+    "reviews": [
+      {
+        "name": "Emma Stone",
+        "date": "1 day ago",
+        "rating": 5,
+        "title": "Incredible Support",
+        "content": "The support team went above and beyond to help me set up my custom integrations. I have never experienced this level of service before.",
+        "avatar": "https://i.pravatar.cc/150?img=41",
+        "verified": true
+      },
+      {
+        "name": "Lucas Grant",
+        "date": "3 days ago",
+        "rating": 5,
+        "title": "Lightning Fast",
+        "content": "The speed at which this platform operates is just mind-blowing. It handles our massive datasets without breaking a sweat.",
+        "avatar": "https://i.pravatar.cc/150?img=12",
+        "verified": true
+      },
+      {
+        "name": "Olivia Chen",
+        "date": "1 week ago",
+        "rating": 4,
+        "title": "Great tool, slight learning curve",
+        "content": "It took our team a few days to get used to the new workflow, but once we did, the efficiency gains were massive.",
+        "avatar": "https://i.pravatar.cc/150?img=23",
+        "verified": true
+      },
+      {
+        "name": "Marcus Johnson",
+        "date": "2 weeks ago",
+        "rating": 5,
+        "title": "Exactly what we needed",
+        "content": "We were looking for a scalable solution for months before finding this. It ticks every single box on our requirements list.",
+        "avatar": "https://i.pravatar.cc/150?img=33",
+        "verified": false
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#ffffff",
+    "textColor": "#000000"
+  }
+}

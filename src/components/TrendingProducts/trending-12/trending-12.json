@@ -1,0 +1,19 @@
+{
+  "id": "trending-12",
+  "name": "Trending12",
+  "type": "trending-products",
+  "content": {
+    "title": "Liquid Hot",
+    "subtitle": "Melting Trends",
+    "products": [
+      { "id": "t12-1", "name": "Resin Ring", "price": "$45", "image": "https://picsum.photos/seed/t12_1/600/800" },
+      { "id": "t12-2", "name": "Glass Vase", "price": "$120", "image": "https://picsum.photos/seed/t12_2/600/800" },
+      { "id": "t12-3", "name": "Melted Candle", "price": "$30", "image": "https://picsum.photos/seed/t12_3/600/800" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#F43F5E",
+    "textColor": "#FFFFFF",
+    "accentColor": "#FDA403"
+  }
+}

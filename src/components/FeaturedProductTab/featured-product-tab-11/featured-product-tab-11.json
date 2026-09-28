@@ -1,0 +1,30 @@
+{
+  "id": "featured-product-tab-11",
+  "name": "FeaturedProductTab11",
+  "type": "featured-product-tab",
+  "content": {
+    "title": "Activewear Edit",
+    "subtitle": "Performance meets style",
+    "tabs": [
+      { "id": "t1", "label": "Running", "products": ["p1", "p2", "p3"] },
+      { "id": "t2", "label": "Training", "products": ["p4", "p5", "p6"] },
+      { "id": "t3", "label": "Yoga", "products": ["p7", "p8", "p9"] }
+    ],
+    "allProducts": [
+      { "id": "p1", "name": "Aero Running Top", "price": "$45", "category": "Tops", "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80" },
+      { "id": "p2", "name": "Pace Shorts", "price": "$35", "category": "Bottoms", "image": "https://images.unsplash.com/photo-1533681431052-a50d4f3b7f16?w=800&q=80" },
+      { "id": "p3", "name": "Marathon Shoes", "price": "$120", "category": "Footwear", "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=80" },
+      { "id": "p4", "name": "Compression Tights", "price": "$65", "category": "Bottoms", "image": "https://images.unsplash.com/photo-1594938291221-94f18cbb5660?w=800&q=80" },
+      { "id": "p5", "name": "Training Tank", "price": "$30", "category": "Tops", "image": "https://images.unsplash.com/photo-1574180566232-aaad1b5b8450?w=800&q=80" },
+      { "id": "p6", "name": "Cross Trainers", "price": "$110", "category": "Footwear", "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=800&q=80" },
+      { "id": "p7", "name": "Studio Leggings", "price": "$55", "category": "Bottoms", "image": "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=800&q=80" },
+      { "id": "p8", "name": "Seamless Bra", "price": "$40", "category": "Tops", "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&q=80" },
+      { "id": "p9", "name": "Grip Socks", "price": "$15", "category": "Accessories", "image": "https://images.unsplash.com/photo-1596755094514-f87e32f85e98?w=800&q=80" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#1E1B4B",
+    "textColor": "#F3F4F6",
+    "accentColor": "#6366F1"
+  }
+}

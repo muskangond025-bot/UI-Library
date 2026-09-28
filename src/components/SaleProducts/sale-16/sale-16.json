@@ -1,0 +1,19 @@
+{
+  "id": "sale-16",
+  "name": "Sale16",
+  "type": "sale-products",
+  "content": {
+    "title": "Mega Drop",
+    "subtitle": "Swipe for deals",
+    "products": [
+      { "id": "s16-1", "name": "Minimalist Sofa", "oldPrice": "$1,200", "newPrice": "$699", "image": "https://picsum.photos/seed/s16_1/1200/800" },
+      { "id": "s16-2", "name": "Accent Chair", "oldPrice": "$450", "newPrice": "$250", "image": "https://picsum.photos/seed/s16_2/1200/800" },
+      { "id": "s16-3", "name": "Pendant Light", "oldPrice": "$280", "newPrice": "$140", "image": "https://picsum.photos/seed/s16_3/1200/800" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#111827",
+    "textColor": "#FFFFFF",
+    "accentColor": "#F59E0B"
+  }
+}

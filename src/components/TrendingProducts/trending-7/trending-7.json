@@ -1,0 +1,20 @@
+{
+  "id": "trending-7",
+  "name": "Trending7",
+  "type": "trending-products",
+  "content": {
+    "title": "The Spotlight",
+    "subtitle": "Everyone's Watching",
+    "products": [
+      { "id": "t7-1", "name": "Retro Sneakers", "price": "$125", "image": "https://picsum.photos/seed/t7_1/800/1000", "badge": "Trending" },
+      { "id": "t7-2", "name": "Aviator Shades", "price": "$85", "image": "https://picsum.photos/seed/t7_2/800/1000", "badge": "Hot" },
+      { "id": "t7-3", "name": "Leather Jacket", "price": "$290", "image": "https://picsum.photos/seed/t7_3/800/1000", "badge": "Selling Fast" },
+      { "id": "t7-4", "name": "Silver Chain", "price": "$45", "image": "https://picsum.photos/seed/t7_4/800/1000", "badge": "Trending" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000",
+    "accentColor": "#EF4444"
+  }
+}

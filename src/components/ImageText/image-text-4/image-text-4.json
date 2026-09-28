@@ -1,0 +1,29 @@
+{
+  "id": "image-text-4",
+  "name": "ImageText4",
+  "type": "image-text",
+  "content": {
+    "heading": "Discover Serenity",
+    "subheading": "WELLNESS RESORT",
+    "description": "Escape the noise of the city and immerse yourself in nature's embrace. Our resort offers a sanctuary where modern luxury meets untouched wilderness, designed to rejuvenate your mind, body, and soul.",
+    "features": [
+      "Guided Meditations",
+      "Organic Cuisine",
+      "Private Hot Springs"
+    ],
+    "primaryAction": {
+      "label": "Book Your Retreat",
+      "url": "#"
+    },
+    "image": {
+      "url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1600&q=80",
+      "alt": "Mountain wellness resort"
+    }
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#1A202C",
+    "accentColor": "#4FD1C5",
+    "imageAlignment": "left"
+  }
+}

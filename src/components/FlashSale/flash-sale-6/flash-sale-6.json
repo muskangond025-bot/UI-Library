@@ -1,0 +1,20 @@
+{
+  "id": "flash-sale-6",
+  "name": "FlashSale6",
+  "type": "flash-sale",
+  "content": {
+    "title": "Emergency Drops",
+    "subtitle": "Prices slashed",
+    "products": [
+      { "id": "fs6-1", "name": "4K Action Cam", "oldPrice": "$300", "newPrice": "$149", "image": "https://picsum.photos/seed/fs6_1/600/600" },
+      { "id": "fs6-2", "name": "Tripod Stand", "oldPrice": "$80", "newPrice": "$39", "image": "https://picsum.photos/seed/fs6_2/600/600" },
+      { "id": "fs6-3", "name": "Lens Kit", "oldPrice": "$150", "newPrice": "$75", "image": "https://picsum.photos/seed/fs6_3/600/600" },
+      { "id": "fs6-4", "name": "Ring Light", "oldPrice": "$90", "newPrice": "$45", "image": "https://picsum.photos/seed/fs6_4/600/600" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#0F172A",
+    "textColor": "#FFFFFF",
+    "accentColor": "#EF4444"
+  }
+}

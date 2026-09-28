@@ -1,0 +1,56 @@
+{
+  "id": "best-seller-14",
+  "name": "BestSeller14",
+  "type": "best-seller",
+  "content": {
+    "title": "Cover Flow",
+    "subtitle": "Swipe to explore",
+    "products": [
+      {
+        "id": "bs14-1",
+        "name": "Pro Gaming Headset",
+        "price": "$299",
+        "category": "Gaming",
+        "image": "https://picsum.photos/seed/bs14_1/800/1000",
+        "rating": 4.9,
+        "reviews": 1150,
+        "badge": "Choice"
+      },
+      {
+        "id": "bs14-2",
+        "name": "Mechanical Keyboard",
+        "price": "$149",
+        "category": "Gaming",
+        "image": "https://picsum.photos/seed/bs14_2/800/1000",
+        "rating": 4.8,
+        "reviews": 3200,
+        "badge": null
+      },
+      {
+        "id": "bs14-3",
+        "name": "Wireless Mouse",
+        "price": "$89",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/bs14_3/800/1000",
+        "rating": 4.7,
+        "reviews": 890,
+        "badge": null
+      },
+      {
+        "id": "bs14-4",
+        "name": "RGB Mousepad",
+        "price": "$45",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/bs14_4/800/1000",
+        "rating": 4.6,
+        "reviews": 560,
+        "badge": "Popular"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#09090B",
+    "textColor": "#FAFAFA",
+    "accentColor": "#A855F7"
+  }
+}

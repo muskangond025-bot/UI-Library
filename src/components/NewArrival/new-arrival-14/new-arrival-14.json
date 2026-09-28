@@ -1,0 +1,26 @@
+{
+  "id": "new-arrival-14",
+  "name": "NewArrival14",
+  "type": "new-arrival",
+  "content": {
+    "title": "Endless Stream",
+    "subtitle": "Just Added",
+    "row1": [
+      { "id": "na14-1", "name": "Smart Watch Series X", "price": "$399", "image": "https://picsum.photos/seed/na14_1/500/500" },
+      { "id": "na14-2", "name": "Wireless Charging Pad", "price": "$49", "image": "https://picsum.photos/seed/na14_2/500/500" },
+      { "id": "na14-3", "name": "Noise Cancelling Earbuds", "price": "$199", "image": "https://picsum.photos/seed/na14_3/500/500" },
+      { "id": "na14-4", "name": "Phone Case", "price": "$39", "image": "https://picsum.photos/seed/na14_4/500/500" }
+    ],
+    "row2": [
+      { "id": "na14-5", "name": "Portable SSD 1TB", "price": "$129", "image": "https://picsum.photos/seed/na14_5/500/500" },
+      { "id": "na14-6", "name": "Mechanical Keyboard", "price": "$149", "image": "https://picsum.photos/seed/na14_6/500/500" },
+      { "id": "na14-7", "name": "Ergonomic Mouse", "price": "$89", "image": "https://picsum.photos/seed/na14_7/500/500" },
+      { "id": "na14-8", "name": "USB-C Hub", "price": "$69", "image": "https://picsum.photos/seed/na14_8/500/500" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#18181B",
+    "textColor": "#FAFAFA",
+    "accentColor": "#38BDF8"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "product-carousel-13",
+  "name": "ProductCarousel13",
+  "type": "product-carousel",
+  "content": {
+    "title": "Focus Ring",
+    "subtitle": "Automated showcase",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Smart Watch",
+        "price": "$299",
+        "category": "Tech",
+        "image": "https://picsum.photos/seed/pc13_1/1000/1000",
+        "badge": "New"
+      },
+      {
+        "id": "p2",
+        "name": "Wireless Earbuds",
+        "price": "$150",
+        "category": "Tech",
+        "image": "https://picsum.photos/seed/pc13_2/1000/1000",
+        "badge": null
+      },
+      {
+        "id": "p3",
+        "name": "Portable Charger",
+        "price": "$45",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/pc13_3/1000/1000",
+        "badge": "Popular"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#111827",
+    "textColor": "#F9FAFB",
+    "accentColor": "#10B981"
+  }
+}

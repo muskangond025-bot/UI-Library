@@ -1,0 +1,19 @@
+{
+  "id": "sale-19",
+  "name": "Sale19",
+  "type": "sale-products",
+  "content": {
+    "title": "Bundle & Save",
+    "subtitle": "Buy the look for less",
+    "products": [
+      { "id": "s19-1", "name": "Linen Shirt", "oldPrice": "$80", "newPrice": "$40", "image": "https://picsum.photos/seed/s19_1/600/600" },
+      { "id": "s19-2", "name": "Chino Shorts", "oldPrice": "$60", "newPrice": "$30", "image": "https://picsum.photos/seed/s19_2/600/600" },
+      { "id": "s19-3", "name": "Leather Belt", "oldPrice": "$40", "newPrice": "$20", "image": "https://picsum.photos/seed/s19_3/600/600" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#ECFCCB",
+    "textColor": "#14532D",
+    "accentColor": "#16A34A"
+  }
+}

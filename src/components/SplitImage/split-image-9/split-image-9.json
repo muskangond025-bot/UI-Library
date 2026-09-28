@@ -1,0 +1,29 @@
+{
+  "id": "split-image-9",
+  "name": "SplitImage9",
+  "type": "split-image",
+  "content": {
+    "leftPanel": {
+      "heading": "YIN",
+      "description": "The receptive, yielding, and flowing.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000&q=80",
+        "alt": "Soft waves"
+      },
+      "url": "#yin"
+    },
+    "rightPanel": {
+      "heading": "YANG",
+      "description": "The active, solid, and driving.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1000&q=80",
+        "alt": "Solid mountains"
+      },
+      "url": "#yang"
+    }
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF"
+  }
+}

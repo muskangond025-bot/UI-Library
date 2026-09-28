@@ -1,0 +1,19 @@
+{
+  "id": "flash-sale-9",
+  "name": "FlashSale9",
+  "type": "flash-sale",
+  "content": {
+    "title": "Target Locked",
+    "subtitle": "Precision Markdowns",
+    "products": [
+      { "id": "fs9-1", "name": "Running Watch", "oldPrice": "$350", "newPrice": "$199", "image": "https://picsum.photos/seed/fs9_1/600/600" },
+      { "id": "fs9-2", "name": "Track Spikes", "oldPrice": "$120", "newPrice": "$65", "image": "https://picsum.photos/seed/fs9_2/600/600" },
+      { "id": "fs9-3", "name": "Recovery Gun", "oldPrice": "$250", "newPrice": "$125", "image": "https://picsum.photos/seed/fs9_3/600/600" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000",
+    "accentColor": "#DC2626"
+  }
+}

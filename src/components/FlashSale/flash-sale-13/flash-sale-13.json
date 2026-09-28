@@ -1,0 +1,20 @@
+{
+  "id": "flash-sale-13",
+  "name": "FlashSale13",
+  "type": "flash-sale",
+  "content": {
+    "title": "Laser Cuts",
+    "subtitle": "Prices slashed by 50%",
+    "products": [
+      { "id": "fs13-1", "name": "Leather Jacket", "oldPrice": "$300", "newPrice": "$150", "image": "https://picsum.photos/seed/fs13_1/600/800" },
+      { "id": "fs13-2", "name": "Denim Jeans", "oldPrice": "$120", "newPrice": "$60", "image": "https://picsum.photos/seed/fs13_2/600/800" },
+      { "id": "fs13-3", "name": "Ankle Boots", "oldPrice": "$180", "newPrice": "$90", "image": "https://picsum.photos/seed/fs13_3/600/800" },
+      { "id": "fs13-4", "name": "Graphic Tee", "oldPrice": "$40", "newPrice": "$20", "image": "https://picsum.photos/seed/fs13_4/600/800" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#18181B",
+    "textColor": "#FFFFFF",
+    "accentColor": "#10B981"
+  }
+}

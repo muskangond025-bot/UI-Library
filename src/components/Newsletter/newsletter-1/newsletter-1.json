@@ -1,0 +1,17 @@
+{
+  "id": "newsletter-1",
+  "name": "Newsletter1",
+  "type": "newsletter",
+  "content": {
+    "heading": "Subscribe to our newsletter",
+    "description": "Stay up to date with the latest news, announcements, and articles.",
+    "placeholder": "Enter your email address",
+    "buttonText": "Subscribe",
+    "disclaimer": "We care about your data. Read our Privacy Policy.",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2000&auto=format&fit=crop"
+  },
+  "style": {
+    "backgroundColor": "#ffffff",
+    "textColor": "#171717"
+  }
+}

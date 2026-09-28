@@ -1,0 +1,19 @@
+{
+  "id": "flash-sale-17",
+  "name": "FlashSale17",
+  "type": "flash-sale",
+  "content": {
+    "title": "Zero Hour",
+    "subtitle": "Time is running out",
+    "products": [
+      { "id": "fs17-1", "name": "Digital Watch", "oldPrice": "$200", "newPrice": "$99", "image": "https://picsum.photos/seed/fs17_1/600/600" },
+      { "id": "fs17-2", "name": "Smart Band", "oldPrice": "$100", "newPrice": "$49", "image": "https://picsum.photos/seed/fs17_2/600/600" },
+      { "id": "fs17-3", "name": "Wireless Charger", "oldPrice": "$60", "newPrice": "$29", "image": "https://picsum.photos/seed/fs17_3/600/600" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#0F172A",
+    "textColor": "#10B981",
+    "accentColor": "#059669"
+  }
+}

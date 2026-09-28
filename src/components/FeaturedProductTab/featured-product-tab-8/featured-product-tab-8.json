@@ -1,0 +1,33 @@
+{
+  "id": "featured-product-tab-8",
+  "name": "FeaturedProductTab8",
+  "type": "featured-product-tab",
+  "content": {
+    "title": "Tech Accessories",
+    "subtitle": "Elevate your workspace",
+    "tabs": [
+      { "id": "t1", "label": "Keyboards", "products": ["p1", "p2", "p3", "p4"] },
+      { "id": "t2", "label": "Audio", "products": ["p5", "p6", "p7"] },
+      { "id": "t3", "label": "Desk Setups", "products": ["p8", "p9", "p10"] }
+    ],
+    "allProducts": [
+      { "id": "p1", "name": "Mechanical Keyboard Pro", "price": "$189", "category": "Input", "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?w=800&q=80" },
+      { "id": "p2", "name": "Minimalist Wireless Keyboard", "price": "$99", "category": "Input", "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&q=80" },
+      { "id": "p3", "name": "Ergonomic Split Keyboard", "price": "$249", "category": "Input", "image": "https://images.unsplash.com/photo-1601445638532-3c6f6c3aa1d6?w=800&q=80" },
+      { "id": "p4", "name": "Custom Keycaps Set", "price": "$45", "category": "Accessories", "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=800&q=80" },
+      
+      { "id": "p5", "name": "Studio Headphones", "price": "$299", "category": "Audio", "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80" },
+      { "id": "p6", "name": "Wireless Earbuds", "price": "$149", "category": "Audio", "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80" },
+      { "id": "p7", "name": "Desktop DAC/Amp", "price": "$129", "category": "Audio", "image": "https://images.unsplash.com/photo-1608042314453-ae338d80c427?w=800&q=80" },
+
+      { "id": "p8", "name": "Desk Mat Large", "price": "$35", "category": "Accessories", "image": "https://images.unsplash.com/photo-1611246061173-95b001a1c430?w=800&q=80" },
+      { "id": "p9", "name": "Monitor Light Bar", "price": "$79", "category": "Lighting", "image": "https://images.unsplash.com/photo-1524143986875-3b098d78b363?w=800&q=80" },
+      { "id": "p10", "name": "Wooden Monitor Stand", "price": "$85", "category": "Furniture", "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=800&q=80" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#09090b",
+    "textColor": "#fafafa",
+    "accentColor": "#8b5cf6"
+  }
+}

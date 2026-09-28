@@ -1,0 +1,35 @@
+{
+  "id": "featured-product-tab-6",
+  "name": "FeaturedProductTab6",
+  "type": "featured-product-tab",
+  "content": {
+    "title": "Curated Sets",
+    "subtitle": "Discover hand-picked combinations",
+    "tabs": [
+      { "id": "tab-1", "label": "Living Room", "products": ["p1", "p2", "p3", "p4", "p5"] },
+      { "id": "tab-2", "label": "Bedroom", "products": ["p6", "p7", "p8", "p9"] },
+      { "id": "tab-3", "label": "Outdoor", "products": ["p10", "p11", "p12"] }
+    ],
+    "allProducts": [
+      { "id": "p1", "name": "Sectional Sofa Set", "price": "$1,499", "category": "Seating", "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800&q=80", "isFeatured": true },
+      { "id": "p2", "name": "Minimalist Coffee Table", "price": "$299", "category": "Tables", "image": "https://images.unsplash.com/photo-1532372320572-cda25653a26d?w=800&q=80" },
+      { "id": "p3", "name": "Abstract Canvas", "price": "$129", "category": "Decor", "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&q=80" },
+      { "id": "p4", "name": "Floor Lamp", "price": "$159", "category": "Lighting", "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&q=80" },
+      { "id": "p5", "name": "Woven Rug", "price": "$399", "category": "Textiles", "image": "https://images.unsplash.com/photo-1534889156217-d643df14f14a?w=800&q=80" },
+      
+      { "id": "p6", "name": "Queen Bed Frame", "price": "$899", "category": "Furniture", "image": "https://images.unsplash.com/photo-1505693314120-0d443867891c?w=800&q=80", "isFeatured": true },
+      { "id": "p7", "name": "Bedside Table", "price": "$149", "category": "Storage", "image": "https://images.unsplash.com/photo-1532372320572-cda25653a26d?w=800&q=80" },
+      { "id": "p8", "name": "Table Lamp", "price": "$89", "category": "Lighting", "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800&q=80" },
+      { "id": "p9", "name": "Linen Sheets", "price": "$120", "category": "Textiles", "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80" },
+
+      { "id": "p10", "name": "Patio Sofa", "price": "$1,199", "category": "Seating", "image": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80", "isFeatured": true },
+      { "id": "p11", "name": "Outdoor Lantern", "price": "$45", "category": "Lighting", "image": "https://images.unsplash.com/photo-1563813898132-7c87c0628d01?w=800&q=80" },
+      { "id": "p12", "name": "Planter Set", "price": "$85", "category": "Decor", "image": "https://images.unsplash.com/photo-1416879573089-111fb4c62c3e?w=800&q=80" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000",
+    "accentColor": "#2563EB"
+  }
+}

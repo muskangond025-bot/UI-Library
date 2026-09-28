@@ -1,0 +1,27 @@
+{
+  "id": "featured-product-tab-18",
+  "name": "FeaturedProductTab18",
+  "type": "featured-product-tab",
+  "content": {
+    "title": "Editorial_03",
+    "subtitle": "The new standard",
+    "tabs": [
+      { "id": "t1", "label": "Volume I", "products": ["p1", "p2", "p3"] },
+      { "id": "t2", "label": "Volume II", "products": ["p4", "p5", "p6"] }
+    ],
+    "allProducts": [
+      { "id": "p1", "name": "Structured Coat", "price": "$350", "category": "Outerwear", "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&q=80" },
+      { "id": "p2", "name": "Leather Handbag", "price": "$280", "category": "Accessories", "image": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=800&q=80" },
+      { "id": "p3", "name": "Wool Trousers", "price": "$150", "category": "Bottoms", "image": "https://images.unsplash.com/photo-1594938291221-94f18cbb5660?w=800&q=80" },
+
+      { "id": "p4", "name": "Silk Dress", "price": "$295", "category": "Dresses", "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&q=80" },
+      { "id": "p5", "name": "Pearl Necklace", "price": "$120", "category": "Jewelry", "image": "https://images.unsplash.com/photo-1599643478514-4a42045cc947?w=800&q=80" },
+      { "id": "p6", "name": "Mule Heels", "price": "$185", "category": "Shoes", "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FDFBF7",
+    "textColor": "#2C2C2C",
+    "accentColor": "#8B0000"
+  }
+}

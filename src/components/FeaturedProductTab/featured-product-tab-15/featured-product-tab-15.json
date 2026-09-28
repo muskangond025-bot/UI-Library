@@ -1,0 +1,31 @@
+{
+  "id": "featured-product-tab-15",
+  "name": "FeaturedProductTab15",
+  "type": "featured-product-tab",
+  "content": {
+    "title": "Drop 001",
+    "subtitle": "Limited Edition",
+    "tabs": [
+      { "id": "t1", "label": "Tops", "products": ["p1", "p2", "p3"] },
+      { "id": "t2", "label": "Bottoms", "products": ["p4", "p5"] },
+      { "id": "t3", "label": "Accessories", "products": ["p6", "p7", "p8"] }
+    ],
+    "allProducts": [
+      { "id": "p1", "name": "Heavyweight Hoodie", "price": "$85", "category": "Fleece", "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&q=80" },
+      { "id": "p2", "name": "Graphic Tee", "price": "$45", "category": "T-Shirts", "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&q=80" },
+      { "id": "p3", "name": "Zip-Up Jacket", "price": "$120", "category": "Outerwear", "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800&q=80" },
+      
+      { "id": "p4", "name": "Cargo Pants", "price": "$95", "category": "Trousers", "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800&q=80" },
+      { "id": "p5", "name": "Sweatpants", "price": "$75", "category": "Fleece", "image": "https://images.unsplash.com/photo-1584865288642-42078afe6942?w=800&q=80" },
+
+      { "id": "p6", "name": "Beanie", "price": "$25", "category": "Headwear", "image": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=800&q=80" },
+      { "id": "p7", "name": "Crossbody Bag", "price": "$40", "category": "Bags", "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=80" },
+      { "id": "p8", "name": "Crew Socks", "price": "$15", "category": "Basics", "image": "https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=800&q=80" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#D1D5DB",
+    "textColor": "#111827",
+    "accentColor": "#DC2626"
+  }
+}

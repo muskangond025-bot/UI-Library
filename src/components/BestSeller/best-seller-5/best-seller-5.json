@@ -1,0 +1,66 @@
+{
+  "id": "best-seller-5",
+  "name": "BestSeller5",
+  "type": "best-seller",
+  "content": {
+    "title": "Top 5 Elite",
+    "subtitle": "Unrivaled Quality",
+    "products": [
+      {
+        "id": "bs5-1",
+        "name": "Luxury Sports Watch",
+        "price": "$4,200",
+        "category": "Watches",
+        "image": "https://picsum.photos/seed/bs5_1/800/1200",
+        "rating": 5.0,
+        "reviews": 24,
+        "badge": "Limited"
+      },
+      {
+        "id": "bs5-2",
+        "name": "Leather Duffle Bag",
+        "price": "$850",
+        "category": "Travel",
+        "image": "https://picsum.photos/seed/bs5_2/800/1200",
+        "rating": 4.9,
+        "reviews": 112,
+        "badge": null
+      },
+      {
+        "id": "bs5-3",
+        "name": "Premium Fountain Pen",
+        "price": "$295",
+        "category": "Writing",
+        "image": "https://picsum.photos/seed/bs5_3/800/1200",
+        "rating": 4.8,
+        "reviews": 85,
+        "badge": null
+      },
+      {
+        "id": "bs5-4",
+        "name": "Noise Isolating Earbuds",
+        "price": "$350",
+        "category": "Audio",
+        "image": "https://picsum.photos/seed/bs5_4/800/1200",
+        "rating": 4.7,
+        "reviews": 420,
+        "badge": "Popular"
+      },
+      {
+        "id": "bs5-5",
+        "name": "Titanium Sunglasses",
+        "price": "$450",
+        "category": "Eyewear",
+        "image": "https://picsum.photos/seed/bs5_5/800/1200",
+        "rating": 4.9,
+        "reviews": 60,
+        "badge": null
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#F4F4F5",
+    "textColor": "#18181B",
+    "accentColor": "#0284C7"
+  }
+}

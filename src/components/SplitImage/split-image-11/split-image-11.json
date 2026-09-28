@@ -1,0 +1,29 @@
+{
+  "id": "split-image-11",
+  "name": "SplitImage11",
+  "type": "split-image",
+  "content": {
+    "leftPanel": {
+      "heading": "The Brand",
+      "description": "Crafting narratives that resonate and endure.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1000&q=80",
+        "alt": "Modern office space"
+      },
+      "url": "#brand"
+    },
+    "rightPanel": {
+      "heading": "The Vision",
+      "description": "Looking beyond the horizon to see what's next.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1000&q=80",
+        "alt": "Earth from space"
+      },
+      "url": "#vision"
+    }
+  },
+  "style": {
+    "backgroundColor": "#FF3366",
+    "textColor": "#FFFFFF"
+  }
+}

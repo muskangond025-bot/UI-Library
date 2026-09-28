@@ -1,0 +1,29 @@
+{
+  "id": "image-text-15",
+  "name": "ImageText15",
+  "type": "image-text",
+  "content": {
+    "heading": "Engineered for Performance",
+    "subheading": "THE HARDWARE",
+    "description": "Every curve, every material, and every component has been meticulously selected to deliver an unparalleled experience. It's not just a device; it's an extension of you.",
+    "features": [
+      "Aerospace-Grade Aluminum",
+      "Adaptive Thermal Cooling",
+      "All-Day Battery Life"
+    ],
+    "primaryAction": {
+      "label": "Buy Now",
+      "url": "#"
+    },
+    "image": {
+      "url": "https://images.unsplash.com/photo-1526406915894-7bcd65f60845?w=1200&q=80",
+      "alt": "Sleek electronic device"
+    }
+  },
+  "style": {
+    "backgroundColor": "#F9FAFB",
+    "textColor": "#111827",
+    "accentColor": "#4F46E5",
+    "imageAlignment": "right"
+  }
+}

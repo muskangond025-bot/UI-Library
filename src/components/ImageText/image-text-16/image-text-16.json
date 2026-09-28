@@ -1,0 +1,29 @@
+{
+  "id": "image-text-16",
+  "name": "ImageText16",
+  "type": "image-text",
+  "content": {
+    "heading": "Layered Experiences",
+    "subheading": "UI DESIGN",
+    "description": "By offsetting elements, we create depth without relying on shadows. It establishes a z-index hierarchy that guides the eye naturally through the content blocks.",
+    "features": [
+      "Spatial Layouts",
+      "Distinct Containers",
+      "Overlapping Focus"
+    ],
+    "primaryAction": {
+      "label": "View Case Study",
+      "url": "#"
+    },
+    "image": {
+      "url": "https://images.unsplash.com/photo-1558655146-d09347e92766?w=800&q=80",
+      "alt": "Modern office interior"
+    }
+  },
+  "style": {
+    "backgroundColor": "#F4F4F5",
+    "textColor": "#18181B",
+    "accentColor": "#10B981",
+    "imageAlignment": "right"
+  }
+}

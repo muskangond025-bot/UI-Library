@@ -1,0 +1,22 @@
+{
+  "id": "new-arrival-5",
+  "name": "NewArrival5",
+  "type": "new-arrival",
+  "content": {
+    "title": "Infinite Gallery",
+    "subtitle": "Explore What's New",
+    "products": [
+      { "id": "na5-1", "name": "Vase 01", "price": "$45", "image": "https://picsum.photos/seed/na5_1/600/600" },
+      { "id": "na5-2", "name": "Lamp 02", "price": "$120", "image": "https://picsum.photos/seed/na5_2/600/600" },
+      { "id": "na5-3", "name": "Chair 03", "price": "$350", "image": "https://picsum.photos/seed/na5_3/600/600" },
+      { "id": "na5-4", "name": "Table 04", "price": "$280", "image": "https://picsum.photos/seed/na5_4/600/600" },
+      { "id": "na5-5", "name": "Mirror 05", "price": "$95", "image": "https://picsum.photos/seed/na5_5/600/600" },
+      { "id": "na5-6", "name": "Rug 06", "price": "$150", "image": "https://picsum.photos/seed/na5_6/600/600" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#E7E5E4",
+    "textColor": "#292524",
+    "accentColor": "#D97706"
+  }
+}

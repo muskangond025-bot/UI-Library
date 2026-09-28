@@ -1,0 +1,20 @@
+{
+  "id": "flash-sale-5",
+  "name": "FlashSale5",
+  "type": "flash-sale",
+  "content": {
+    "title": "Last Chance",
+    "subtitle": "Almost Sold Out",
+    "products": [
+      { "id": "fs5-1", "name": "Leather Tote", "oldPrice": "$250", "newPrice": "$125", "image": "https://picsum.photos/seed/fs5_1/600/800", "claimed": 85 },
+      { "id": "fs5-2", "name": "Silk Scarf", "oldPrice": "$90", "newPrice": "$45", "image": "https://picsum.photos/seed/fs5_2/600/800", "claimed": 92 },
+      { "id": "fs5-3", "name": "Sunglasses", "oldPrice": "$150", "newPrice": "$75", "image": "https://picsum.photos/seed/fs5_3/600/800", "claimed": 78 },
+      { "id": "fs5-4", "name": "Wallet", "oldPrice": "$80", "newPrice": "$40", "image": "https://picsum.photos/seed/fs5_4/600/800", "claimed": 98 }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#18181B",
+    "textColor": "#FFFFFF",
+    "accentColor": "#F97316"
+  }
+}

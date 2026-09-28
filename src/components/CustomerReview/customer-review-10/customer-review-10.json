@@ -1,0 +1,53 @@
+{
+  "id": "customer-review-10",
+  "name": "CustomerReview10",
+  "type": "customer-review",
+  "content": {
+    "heading": "Real reviews from real users",
+    "description": "Don't just take our word for it. Here is what our community says.",
+    "overallRating": 4.8,
+    "totalReviews": 1250,
+    "reviews": [
+      {
+        "name": "Alex Thompson",
+        "date": "2 days ago",
+        "rating": 5,
+        "title": "Absolutely Game Changing",
+        "content": "I was skeptical at first, but after using this for a week, my productivity has doubled. The attention to detail is remarkable.",
+        "avatar": "https://i.pravatar.cc/150?u=alex",
+        "verified": true
+      },
+      {
+        "name": "Maria Garcia",
+        "date": "1 week ago",
+        "rating": 5,
+        "title": "Best investment this year",
+        "content": "We migrated our entire team over to this platform. The onboarding was incredibly smooth and the support team was there every step of the way.",
+        "avatar": "https://i.pravatar.cc/150?u=maria",
+        "verified": true
+      },
+      {
+        "name": "James Wilson",
+        "date": "2 weeks ago",
+        "rating": 4,
+        "title": "Solid product, great features",
+        "content": "Very impressed with the feature set. There are a few minor UI bugs here and there, but nothing that breaks the experience. Highly recommend.",
+        "avatar": "https://i.pravatar.cc/150?u=james",
+        "verified": true
+      },
+      {
+        "name": "Sophie Clark",
+        "date": "1 month ago",
+        "rating": 5,
+        "title": "I can't imagine working without it",
+        "content": "It integrates seamlessly with all my other tools. The automation features alone have saved me hours of manual data entry every week.",
+        "avatar": "https://i.pravatar.cc/150?u=sophie",
+        "verified": false
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#020617",
+    "textColor": "#e2e8f0"
+  }
+}

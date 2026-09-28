@@ -1,0 +1,46 @@
+{
+  "id": "best-seller-20",
+  "name": "BestSeller20",
+  "type": "best-seller",
+  "content": {
+    "title": "The Podium",
+    "subtitle": "Medal Winners",
+    "products": [
+      {
+        "id": "bs20-1",
+        "name": "Gold Standard Coffee Maker",
+        "price": "$599",
+        "category": "Appliances",
+        "image": "https://picsum.photos/seed/bs20_1/800/1000",
+        "rating": 5.0,
+        "reviews": 3200,
+        "badge": "Gold"
+      },
+      {
+        "id": "bs20-2",
+        "name": "Silver Series Blender",
+        "price": "$299",
+        "category": "Appliances",
+        "image": "https://picsum.photos/seed/bs20_2/800/1000",
+        "rating": 4.8,
+        "reviews": 1850,
+        "badge": "Silver"
+      },
+      {
+        "id": "bs20-3",
+        "name": "Bronze Toaster Oven",
+        "price": "$149",
+        "category": "Appliances",
+        "image": "https://picsum.photos/seed/bs20_3/800/1000",
+        "rating": 4.7,
+        "reviews": 940,
+        "badge": "Bronze"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#020617",
+    "textColor": "#F8FAFC",
+    "accentColor": "#EAB308"
+  }
+}

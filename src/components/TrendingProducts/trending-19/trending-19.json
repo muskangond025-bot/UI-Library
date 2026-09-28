@@ -1,0 +1,20 @@
+{
+  "id": "trending-19",
+  "name": "Trending19",
+  "type": "trending-products",
+  "content": {
+    "title": "Captured",
+    "subtitle": "Viral Moments",
+    "products": [
+      { "id": "t19-1", "name": "Film Camera", "price": "$850", "image": "https://picsum.photos/seed/t19_1/600/600" },
+      { "id": "t19-2", "name": "Tote Bag", "price": "$120", "image": "https://picsum.photos/seed/t19_2/600/600" },
+      { "id": "t19-3", "name": "Dad Cap", "price": "$45", "image": "https://picsum.photos/seed/t19_3/600/600" },
+      { "id": "t19-4", "name": "Silver Rings", "price": "$90", "image": "https://picsum.photos/seed/t19_4/600/600" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#E5E7EB",
+    "textColor": "#111827",
+    "accentColor": "#6366F1"
+  }
+}

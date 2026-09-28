@@ -1,0 +1,21 @@
+{
+  "id": "trending-3",
+  "name": "Trending3",
+  "type": "trending-products",
+  "content": {
+    "title": "Social Feed",
+    "subtitle": "#TrendingNow",
+    "products": [
+      { "id": "t3-1", "name": "Retro Shades", "price": "$55", "image": "https://picsum.photos/seed/t3_1/600/800", "likes": "12.4k" },
+      { "id": "t3-2", "name": "Knit Sweater", "price": "$90", "image": "https://picsum.photos/seed/t3_2/600/600", "likes": "8.2k" },
+      { "id": "t3-3", "name": "Cargo Pants", "price": "$110", "image": "https://picsum.photos/seed/t3_3/600/1000", "likes": "15.1k" },
+      { "id": "t3-4", "name": "Chunky Rings", "price": "$45", "image": "https://picsum.photos/seed/t3_4/600/600", "likes": "6.7k" },
+      { "id": "t3-5", "name": "Leather Tote", "price": "$185", "image": "https://picsum.photos/seed/t3_5/600/800", "likes": "10.3k" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000",
+    "accentColor": "#EC4899"
+  }
+}

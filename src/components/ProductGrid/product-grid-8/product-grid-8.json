@@ -1,0 +1,48 @@
+{
+  "id": "product-grid-8",
+  "name": "ProductGrid8",
+  "type": "product-grid",
+  "content": {
+    "title": "Expanding Gallery",
+    "subtitle": "Hover to focus",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Table Lamp",
+        "price": "$150",
+        "category": "Lighting",
+        "image": "https://picsum.photos/seed/pg8_1/800/1000",
+        "badge": null
+      },
+      {
+        "id": "p2",
+        "name": "Armchair",
+        "price": "$650",
+        "category": "Furniture",
+        "image": "https://picsum.photos/seed/pg8_2/800/1000",
+        "badge": "Sale"
+      },
+      {
+        "id": "p3",
+        "name": "Vase Set",
+        "price": "$85",
+        "category": "Decor",
+        "image": "https://picsum.photos/seed/pg8_3/800/1000",
+        "badge": null
+      },
+      {
+        "id": "p4",
+        "name": "Dining Chair",
+        "price": "$280",
+        "category": "Furniture",
+        "image": "https://picsum.photos/seed/pg8_4/800/1000",
+        "badge": "New"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#111827",
+    "textColor": "#F9FAFB",
+    "accentColor": "#60A5FA"
+  }
+}

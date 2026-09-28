@@ -1,0 +1,20 @@
+{
+  "id": "sale-6",
+  "name": "Sale6",
+  "type": "sale-products",
+  "content": {
+    "title": "Secret Deals",
+    "subtitle": "Hover to Reveal",
+    "products": [
+      { "id": "s6-1", "name": "Wireless Earbuds", "oldPrice": "$149", "newPrice": "$75", "image": "https://picsum.photos/seed/s6_1/600/600", "discount": "50% OFF" },
+      { "id": "s6-2", "name": "Smart Watch", "oldPrice": "$299", "newPrice": "$199", "image": "https://picsum.photos/seed/s6_2/600/600", "discount": "33% OFF" },
+      { "id": "s6-3", "name": "Bluetooth Speaker", "oldPrice": "$120", "newPrice": "$90", "image": "https://picsum.photos/seed/s6_3/600/600", "discount": "25% OFF" },
+      { "id": "s6-4", "name": "Noise Cancelling Cans", "oldPrice": "$350", "newPrice": "$210", "image": "https://picsum.photos/seed/s6_4/600/600", "discount": "40% OFF" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#F1F5F9",
+    "textColor": "#0F172A",
+    "accentColor": "#6366F1"
+  }
+}

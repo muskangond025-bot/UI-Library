@@ -1,0 +1,19 @@
+{
+  "id": "new-arrival-19",
+  "name": "NewArrival19",
+  "type": "new-arrival",
+  "content": {
+    "title": "Cinematic",
+    "subtitle": "The Premiere",
+    "products": [
+      { "id": "na19-1", "name": "Director's Chair", "price": "$180", "image": "https://picsum.photos/seed/na19_1/1000/1000" },
+      { "id": "na19-2", "name": "Studio Light", "price": "$340", "image": "https://picsum.photos/seed/na19_2/1000/1000" },
+      { "id": "na19-3", "name": "Boom Mic", "price": "$210", "image": "https://picsum.photos/seed/na19_3/1000/1000" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#0A0A0A",
+    "textColor": "#FFFFFF",
+    "accentColor": "#FBBF24"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "new-arrival-3",
+  "name": "NewArrival3",
+  "type": "new-arrival",
+  "content": {
+    "title": "Runway Ready",
+    "subtitle": "New Arrivals",
+    "products": [
+      {
+        "id": "na3-1",
+        "name": "Pleated Trousers",
+        "price": "$125",
+        "image": "https://picsum.photos/seed/na3_1/600/800"
+      },
+      {
+        "id": "na3-2",
+        "name": "Cashmere Knit",
+        "price": "$240",
+        "image": "https://picsum.photos/seed/na3_2/600/800"
+      },
+      {
+        "id": "na3-3",
+        "name": "Chunky Loafers",
+        "price": "$195",
+        "image": "https://picsum.photos/seed/na3_3/600/800"
+      },
+      {
+        "id": "na3-4",
+        "name": "Boxy Blazer",
+        "price": "$280",
+        "image": "https://picsum.photos/seed/na3_4/600/800"
+      },
+      {
+        "id": "na3-5",
+        "name": "Ribbed Beanie",
+        "price": "$45",
+        "image": "https://picsum.photos/seed/na3_5/600/800"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000",
+    "accentColor": "#000000"
+  }
+}

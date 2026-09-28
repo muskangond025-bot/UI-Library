@@ -1,0 +1,31 @@
+{
+  "id": "why-choose-us-20",
+  "name": "WhyChooseUs20",
+  "type": "why-choose-us",
+  "content": {
+    "heading": "Why Choose Us 20",
+    "description": "Discover what makes us different and why we are the best choice for your next project.",
+    "features": [
+      {
+        "title": "Fast & Reliable",
+        "description": "Experience lightning fast load times with 99.9% uptime."
+      },
+      {
+        "title": "Secure by Design",
+        "description": "Enterprise-grade security built into every layer of our platform."
+      },
+      {
+        "title": "24/7 Support",
+        "description": "Our expert team is available around the clock to help you."
+      },
+      {
+        "title": "Scalable Architecture",
+        "description": "Grow without limits. Our infrastructure scales with your needs."
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#ffffff",
+    "textColor": "#000000"
+  }
+}

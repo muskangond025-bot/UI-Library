@@ -1,0 +1,20 @@
+{
+  "id": "new-arrival-16",
+  "name": "NewArrival16",
+  "type": "new-arrival",
+  "content": {
+    "title": "Raw & Real",
+    "subtitle": "New Drop 04",
+    "products": [
+      { "id": "na16-1", "name": "Heavyweight Tee", "price": "$60", "image": "https://picsum.photos/seed/na16_1/800/800" },
+      { "id": "na16-2", "name": "Workwear Jacket", "price": "$150", "image": "https://picsum.photos/seed/na16_2/800/800" },
+      { "id": "na16-3", "name": "Distressed Denim", "price": "$110", "image": "https://picsum.photos/seed/na16_3/800/800" },
+      { "id": "na16-4", "name": "Combat Boots", "price": "$220", "image": "https://picsum.photos/seed/na16_4/800/800" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#D6D3D1",
+    "textColor": "#1C1917",
+    "accentColor": "#EF4444"
+  }
+}

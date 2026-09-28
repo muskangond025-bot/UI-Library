@@ -1,0 +1,29 @@
+{
+  "id": "image-text-17",
+  "name": "ImageText17",
+  "type": "image-text",
+  "content": {
+    "heading": "Immersive Scale.",
+    "subheading": "FULL BLEED",
+    "description": "Utilizing the entire viewport to create an immersive experience. The text box is anchored within the environment, providing context without breaking the visual continuity.",
+    "features": [
+      "Edge-to-Edge Imagery",
+      "Nested Content Blocks",
+      "Environmental Context"
+    ],
+    "primaryAction": {
+      "label": "Discover More",
+      "url": "#"
+    },
+    "image": {
+      "url": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=1600&q=80",
+      "alt": "Expansive landscape"
+    }
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000",
+    "accentColor": "#FFFFFF",
+    "imageAlignment": "left"
+  }
+}

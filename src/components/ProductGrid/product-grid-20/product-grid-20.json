@@ -1,0 +1,48 @@
+{
+  "id": "product-grid-20",
+  "name": "ProductGrid20",
+  "type": "product-grid",
+  "content": {
+    "title": "The Masterpiece",
+    "subtitle": "Curated perfection",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Statement Sofa",
+        "price": "$2499",
+        "category": "Furniture",
+        "image": "https://picsum.photos/seed/pg20_1/1200/800",
+        "badge": "Exclusive"
+      },
+      {
+        "id": "p2",
+        "name": "Abstract Art Print",
+        "price": "$120",
+        "category": "Art",
+        "image": "https://picsum.photos/seed/pg20_2/600/800",
+        "badge": null
+      },
+      {
+        "id": "p3",
+        "name": "Marble Sculpture",
+        "price": "$450",
+        "category": "Decor",
+        "image": "https://picsum.photos/seed/pg20_3/600/800",
+        "badge": "New"
+      },
+      {
+        "id": "p4",
+        "name": "Designer Rug",
+        "price": "$890",
+        "category": "Home",
+        "image": "https://picsum.photos/seed/pg20_4/1200/600",
+        "badge": null
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000",
+    "accentColor": "#6366F1"
+  }
+}

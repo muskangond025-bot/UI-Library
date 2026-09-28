@@ -1,0 +1,18 @@
+{
+  "id": "promo-card-15",
+  "name": "PromoCard15",
+  "type": "promotional-card",
+  "content": {
+    "badge": "Special Offer",
+    "title": "Neo Brutalism",
+    "description": "Experience the power of our exclusive neo brutalism design. Tailored for premium experiences.",
+    "cta": {
+      "text": "Discover",
+      "url": "#"
+    }
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000"
+  }
+}

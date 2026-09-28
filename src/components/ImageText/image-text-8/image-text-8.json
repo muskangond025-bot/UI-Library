@@ -1,0 +1,29 @@
+{
+  "id": "image-text-8",
+  "name": "ImageText8",
+  "type": "image-text",
+  "content": {
+    "heading": "Shapes & Colors.",
+    "subheading": "GEOMETRY",
+    "description": "Playing with primitive shapes to create complex layouts. The circle represents unity and focus, while the bold typography adds structure and rhythm.",
+    "features": [
+      "Dynamic Cropping",
+      "Vibrant Contrasts",
+      "Playful Composition"
+    ],
+    "primaryAction": {
+      "label": "Get Started",
+      "url": "#"
+    },
+    "image": {
+      "url": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=1200&q=80",
+      "alt": "Abstract colorful shapes"
+    }
+  },
+  "style": {
+    "backgroundColor": "#FF7A59",
+    "textColor": "#FFFFFF",
+    "accentColor": "#000000",
+    "imageAlignment": "right"
+  }
+}

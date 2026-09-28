@@ -1,0 +1,18 @@
+{
+  "id": "promo-card-14",
+  "name": "PromoCard14",
+  "type": "promotional-card",
+  "content": {
+    "badge": "Special Offer",
+    "title": "Luxury Accent",
+    "description": "Experience the power of our exclusive luxury accent design. Tailored for premium experiences.",
+    "cta": {
+      "text": "Discover",
+      "url": "#"
+    }
+  },
+  "style": {
+    "backgroundColor": "#064E3B",
+    "textColor": "#D4AF37"
+  }
+}

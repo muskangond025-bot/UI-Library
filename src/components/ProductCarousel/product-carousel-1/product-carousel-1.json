@@ -1,0 +1,64 @@
+{
+  "id": "product-carousel-1",
+  "name": "ProductCarousel1",
+  "type": "product-carousel",
+  "content": {
+    "title": "Infinite Gallery",
+    "subtitle": "Swipe to explore our latest arrivals",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Minimalist Chair",
+        "price": "$299",
+        "category": "Furniture",
+        "image": "https://picsum.photos/seed/pc1_1/800/1000",
+        "badge": "New"
+      },
+      {
+        "id": "p2",
+        "name": "Ceramic Vase",
+        "price": "$85",
+        "category": "Decor",
+        "image": "https://picsum.photos/seed/pc1_2/800/1000",
+        "badge": null
+      },
+      {
+        "id": "p3",
+        "name": "Pendant Lamp",
+        "price": "$150",
+        "category": "Lighting",
+        "image": "https://picsum.photos/seed/pc1_3/800/1000",
+        "badge": "Popular"
+      },
+      {
+        "id": "p4",
+        "name": "Lounge Sofa",
+        "price": "$899",
+        "category": "Furniture",
+        "image": "https://picsum.photos/seed/pc1_4/800/1000",
+        "badge": null
+      },
+      {
+        "id": "p5",
+        "name": "Wall Clock",
+        "price": "$65",
+        "category": "Decor",
+        "image": "https://picsum.photos/seed/pc1_5/800/1000",
+        "badge": null
+      },
+      {
+        "id": "p6",
+        "name": "Wooden Desk",
+        "price": "$450",
+        "category": "Furniture",
+        "image": "https://picsum.photos/seed/pc1_6/800/1000",
+        "badge": "Sale"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#09090B",
+    "textColor": "#FAFAFA",
+    "accentColor": "#38BDF8"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "best-seller-6",
+  "name": "BestSeller6",
+  "type": "best-seller",
+  "content": {
+    "title": "Top Picks",
+    "subtitle": "Expert Approved",
+    "products": [
+      {
+        "id": "bs6-1",
+        "name": "Professional Espresso Machine",
+        "price": "$1,250",
+        "category": "Appliances",
+        "image": "https://picsum.photos/seed/bs6_1/800/1000",
+        "rating": 4.9,
+        "reviews": 1150,
+        "badge": "Editor's Choice"
+      },
+      {
+        "id": "bs6-2",
+        "name": "Burr Coffee Grinder",
+        "price": "$299",
+        "category": "Appliances",
+        "image": "https://picsum.photos/seed/bs6_2/800/1000",
+        "rating": 4.8,
+        "reviews": 3200,
+        "badge": null
+      },
+      {
+        "id": "bs6-3",
+        "name": "Pour Over Kettle",
+        "price": "$145",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/bs6_3/800/1000",
+        "rating": 4.7,
+        "reviews": 890,
+        "badge": null
+      },
+      {
+        "id": "bs6-4",
+        "name": "Ceramic Mug Set",
+        "price": "$45",
+        "category": "Dining",
+        "image": "https://picsum.photos/seed/bs6_4/800/1000",
+        "rating": 4.9,
+        "reviews": 560,
+        "badge": "Popular"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#171717",
+    "textColor": "#FAFAFA",
+    "accentColor": "#D97706"
+  }
+}

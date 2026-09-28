@@ -1,0 +1,29 @@
+{
+  "id": "split-image-1",
+  "name": "SplitImage1",
+  "type": "split-image",
+  "content": {
+    "leftPanel": {
+      "heading": "Urban Exploring",
+      "description": "Discover the hidden geometry of the city.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1000&q=80",
+        "alt": "Urban architecture"
+      },
+      "url": "#urban"
+    },
+    "rightPanel": {
+      "heading": "Nature Escapes",
+      "description": "Find peace in the organic shapes of the wild.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1000&q=80",
+        "alt": "Forest path"
+      },
+      "url": "#nature"
+    }
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF"
+  }
+}

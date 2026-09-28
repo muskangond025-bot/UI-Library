@@ -1,0 +1,29 @@
+{
+  "id": "featured-product-tab-17",
+  "name": "FeaturedProductTab17",
+  "type": "featured-product-tab",
+  "content": {
+    "title": "Gallery View",
+    "subtitle": "Discover our collection",
+    "tabs": [
+      { "id": "t1", "label": "Portraits", "products": ["p1", "p2", "p3", "p4"] },
+      { "id": "t2", "label": "Landscapes", "products": ["p5", "p6", "p7", "p8"] }
+    ],
+    "allProducts": [
+      { "id": "p1", "name": "Classic Portrait", "price": "1,200", "category": "Art", "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&q=80" },
+      { "id": "p2", "name": "Modern Muse", "price": "850", "category": "Art", "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80" },
+      { "id": "p3", "name": "Candid Moment", "price": "600", "category": "Photography", "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&q=80" },
+      { "id": "p4", "name": "Studio Light", "price": "950", "category": "Photography", "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&q=80" },
+
+      { "id": "p5", "name": "Mountain Peak", "price": "1,100", "category": "Nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80" },
+      { "id": "p6", "name": "Ocean Waves", "price": "750", "category": "Nature", "image": "https://images.unsplash.com/photo-1495422964230-2e4e28151474?w=800&q=80" },
+      { "id": "p7", "name": "Forest Mist", "price": "900", "category": "Nature", "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80" },
+      { "id": "p8", "name": "Desert Dune", "price": "800", "category": "Nature", "image": "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?w=800&q=80" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#0F172A",
+    "textColor": "#F8FAFC",
+    "accentColor": "#38BDF8"
+  }
+}

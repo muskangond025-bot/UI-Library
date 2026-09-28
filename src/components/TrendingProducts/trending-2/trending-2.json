@@ -1,0 +1,21 @@
+{
+  "id": "trending-2",
+  "name": "Trending2",
+  "type": "trending-products",
+  "content": {
+    "title": "The Top 5",
+    "subtitle": "Most Wanted",
+    "products": [
+      { "id": "t2-1", "name": "Minimalist Backpack", "price": "$125", "image": "https://picsum.photos/seed/t2_1/400/400" },
+      { "id": "t2-2", "name": "Steel Water Bottle", "price": "$35", "image": "https://picsum.photos/seed/t2_2/400/400" },
+      { "id": "t2-3", "name": "Oversized Hoodie", "price": "$85", "image": "https://picsum.photos/seed/t2_3/400/400" },
+      { "id": "t2-4", "name": "Platform Boots", "price": "$180", "image": "https://picsum.photos/seed/t2_4/400/400" },
+      { "id": "t2-5", "name": "Crossbody Bag", "price": "$65", "image": "https://picsum.photos/seed/t2_5/400/400" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FAFAFA",
+    "textColor": "#171717",
+    "accentColor": "#F59E0B"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "flash-sale-11",
+  "name": "FlashSale11",
+  "type": "flash-sale",
+  "content": {
+    "title": "Deal Vortex",
+    "subtitle": "Get pulled in",
+    "products": [
+      { "id": "fs11-1", "name": "Mixer Pro", "oldPrice": "$450", "newPrice": "$199", "image": "https://picsum.photos/seed/fs11_1/600/600" },
+      { "id": "fs11-2", "name": "Espresso Machine", "oldPrice": "$600", "newPrice": "$299", "image": "https://picsum.photos/seed/fs11_2/600/600" },
+      { "id": "fs11-3", "name": "Blender", "oldPrice": "$150", "newPrice": "$75", "image": "https://picsum.photos/seed/fs11_3/600/600" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#0A0A0A",
+    "textColor": "#FFFFFF",
+    "accentColor": "#A855F7"
+  }
+}

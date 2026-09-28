@@ -1,0 +1,48 @@
+{
+  "id": "product-carousel-11",
+  "name": "ProductCarousel11",
+  "type": "product-carousel",
+  "content": {
+    "title": "Cinematic Fade",
+    "subtitle": "Focus on the details",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Automatic Watch",
+        "price": "$1200",
+        "category": "Timepieces",
+        "image": "https://picsum.photos/seed/pc11_1/1600/900",
+        "badge": "Limited Edition"
+      },
+      {
+        "id": "p2",
+        "name": "Leather Strap",
+        "price": "$150",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/pc11_2/1600/900",
+        "badge": null
+      },
+      {
+        "id": "p3",
+        "name": "Watch Winder",
+        "price": "$300",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/pc11_3/1600/900",
+        "badge": "New"
+      },
+      {
+        "id": "p4",
+        "name": "Travel Case",
+        "price": "$90",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/pc11_4/1600/900",
+        "badge": null
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF",
+    "accentColor": "#9CA3AF"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "new-arrival-12",
+  "name": "NewArrival12",
+  "type": "new-arrival",
+  "content": {
+    "title": "Spring Drops",
+    "subtitle": "Fresh Arrivals",
+    "products": [
+      { "id": "na12-1", "name": "Linen Button-Down", "price": "$85", "image": "https://picsum.photos/seed/na12_1/600/800" },
+      { "id": "na12-2", "name": "Denim Over-Shirt", "price": "$110", "image": "https://picsum.photos/seed/na12_2/600/800" },
+      { "id": "na12-3", "name": "Pleated Shorts", "price": "$65", "image": "https://picsum.photos/seed/na12_3/600/800" },
+      { "id": "na12-4", "name": "Canvas Sneakers", "price": "$95", "image": "https://picsum.photos/seed/na12_4/600/800" },
+      { "id": "na12-5", "name": "Cotton Cap", "price": "$35", "image": "https://picsum.photos/seed/na12_5/600/800" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#F3F4F6",
+    "textColor": "#111827",
+    "accentColor": "#10B981"
+  }
+}

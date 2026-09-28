@@ -1,0 +1,18 @@
+{
+  "id": "promo-card-7",
+  "name": "PromoCard7",
+  "type": "promotional-card",
+  "content": {
+    "badge": "Special Offer",
+    "title": "Minimal Elegance",
+    "description": "Experience the power of our exclusive minimal elegance design. Tailored for premium experiences.",
+    "cta": {
+      "text": "Discover",
+      "url": "#"
+    }
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000"
+  }
+}

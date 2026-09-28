@@ -1,0 +1,56 @@
+{
+  "id": "product-carousel-3",
+  "name": "ProductCarousel3",
+  "type": "product-carousel",
+  "content": {
+    "title": "Split Sync",
+    "subtitle": "Discover collections",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Linen Shirt",
+        "price": "$85",
+        "category": "Apparel",
+        "image": "https://picsum.photos/seed/pc3_1/800/1000",
+        "badge": "New"
+      },
+      {
+        "id": "p2",
+        "name": "Chino Shorts",
+        "price": "$65",
+        "category": "Apparel",
+        "image": "https://picsum.photos/seed/pc3_2/800/1000",
+        "badge": null
+      },
+      {
+        "id": "p3",
+        "name": "Canvas Sneakers",
+        "price": "$95",
+        "category": "Footwear",
+        "image": "https://picsum.photos/seed/pc3_3/800/1000",
+        "badge": "Popular"
+      },
+      {
+        "id": "p4",
+        "name": "Sunglasses",
+        "price": "$120",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/pc3_4/800/1000",
+        "badge": null
+      },
+      {
+        "id": "p5",
+        "name": "Lightweight Jacket",
+        "price": "$150",
+        "category": "Apparel",
+        "image": "https://picsum.photos/seed/pc3_5/800/1000",
+        "badge": "Sale"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#F9FAFB",
+    "textColor": "#111827",
+    "accentColor": "#3B82F6"
+  }
+}

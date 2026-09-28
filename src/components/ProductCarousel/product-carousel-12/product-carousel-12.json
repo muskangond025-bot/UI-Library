@@ -1,0 +1,48 @@
+{
+  "id": "product-carousel-12",
+  "name": "ProductCarousel12",
+  "type": "product-carousel",
+  "content": {
+    "title": "Vertical Snap",
+    "subtitle": "Scroll to explore",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Modern Dining Chair",
+        "price": "$150",
+        "category": "Furniture",
+        "image": "https://picsum.photos/seed/pc12_1/800/1000",
+        "badge": "New"
+      },
+      {
+        "id": "p2",
+        "name": "Glass Vase Set",
+        "price": "$60",
+        "category": "Decor",
+        "image": "https://picsum.photos/seed/pc12_2/800/1000",
+        "badge": null
+      },
+      {
+        "id": "p3",
+        "name": "Minimalist Desk",
+        "price": "$320",
+        "category": "Furniture",
+        "image": "https://picsum.photos/seed/pc12_3/800/1000",
+        "badge": "Popular"
+      },
+      {
+        "id": "p4",
+        "name": "Floor Lamp",
+        "price": "$110",
+        "category": "Lighting",
+        "image": "https://picsum.photos/seed/pc12_4/800/1000",
+        "badge": null
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#F4F4F5",
+    "textColor": "#18181B",
+    "accentColor": "#6366F1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "promo-card-12",
+  "name": "PromoCard12",
+  "type": "promotional-card",
+  "content": {
+    "badge": "Special Offer",
+    "title": "Expanding Accordion",
+    "description": "Experience the power of our exclusive expanding accordion design. Tailored for premium experiences.",
+    "cta": {
+      "text": "Discover",
+      "url": "#"
+    }
+  },
+  "style": {
+    "backgroundColor": "#3B82F6",
+    "textColor": "#FFFFFF"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "trending-6",
+  "name": "Trending6",
+  "type": "trending-products",
+  "content": {
+    "title": "Viral Velocity",
+    "subtitle": "Live Stats",
+    "products": [
+      { "id": "t6-1", "name": "Mechanical Keyboard", "price": "$145", "image": "https://picsum.photos/seed/t6_1/600/600", "velocity": "+342%", "views": "45.2k" },
+      { "id": "t6-2", "name": "Noise Cancelling Buds", "price": "$199", "image": "https://picsum.photos/seed/t6_2/600/600", "velocity": "+185%", "views": "28.9k" },
+      { "id": "t6-3", "name": "Curved Monitor", "price": "$450", "image": "https://picsum.photos/seed/t6_3/600/600", "velocity": "+95%", "views": "12.4k" },
+      { "id": "t6-4", "name": "Ergo Mouse", "price": "$89", "image": "https://picsum.photos/seed/t6_4/600/600", "velocity": "+410%", "views": "89.1k" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#111827",
+    "textColor": "#F3F4F6",
+    "accentColor": "#10B981"
+  }
+}

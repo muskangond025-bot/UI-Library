@@ -1,0 +1,48 @@
+{
+  "id": "product-grid-14",
+  "name": "ProductGrid14",
+  "type": "product-grid",
+  "content": {
+    "title": "Sticky Stack",
+    "subtitle": "Scroll to reveal",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Geometric Rug",
+        "price": "$290",
+        "category": "Home",
+        "image": "https://picsum.photos/seed/pg14_1/800/600",
+        "badge": "New"
+      },
+      {
+        "id": "p2",
+        "name": "Lounge Sofa",
+        "price": "$1250",
+        "category": "Furniture",
+        "image": "https://picsum.photos/seed/pg14_2/800/600",
+        "badge": null
+      },
+      {
+        "id": "p3",
+        "name": "Pendant Light",
+        "price": "$180",
+        "category": "Lighting",
+        "image": "https://picsum.photos/seed/pg14_3/800/600",
+        "badge": null
+      },
+      {
+        "id": "p4",
+        "name": "Coffee Table",
+        "price": "$420",
+        "category": "Furniture",
+        "image": "https://picsum.photos/seed/pg14_4/800/600",
+        "badge": "Popular"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#F3F4F6",
+    "textColor": "#111827",
+    "accentColor": "#8B5CF6"
+  }
+}

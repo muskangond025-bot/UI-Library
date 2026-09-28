@@ -1,0 +1,56 @@
+{
+  "id": "product-grid-7",
+  "name": "ProductGrid7",
+  "type": "product-grid",
+  "content": {
+    "title": "The Index",
+    "subtitle": "Editorial selection",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Cashmere Sweater",
+        "price": "$295",
+        "category": "Apparel",
+        "image": "https://picsum.photos/seed/pg7_1/600/800",
+        "badge": null
+      },
+      {
+        "id": "p2",
+        "name": "Leather Tote",
+        "price": "$450",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/pg7_2/600/800",
+        "badge": "New"
+      },
+      {
+        "id": "p3",
+        "name": "Silk Scarf",
+        "price": "$120",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/pg7_3/600/800",
+        "badge": null
+      },
+      {
+        "id": "p4",
+        "name": "Wool Coat",
+        "price": "$890",
+        "category": "Apparel",
+        "image": "https://picsum.photos/seed/pg7_4/600/800",
+        "badge": "Popular"
+      },
+      {
+        "id": "p5",
+        "name": "Ankle Boots",
+        "price": "$320",
+        "category": "Footwear",
+        "image": "https://picsum.photos/seed/pg7_5/600/800",
+        "badge": null
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#171717",
+    "accentColor": "#EF4444"
+  }
+}

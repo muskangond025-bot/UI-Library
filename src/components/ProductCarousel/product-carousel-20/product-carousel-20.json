@@ -1,0 +1,40 @@
+{
+  "id": "product-carousel-20",
+  "name": "ProductCarousel20",
+  "type": "product-carousel",
+  "content": {
+    "title": "The Masterpiece",
+    "subtitle": "Immersive experience",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Carbon Road Bike",
+        "price": "$4,500",
+        "category": "Cycling",
+        "image": "https://picsum.photos/seed/pc20_1/1600/1000",
+        "badge": "Pro Edition"
+      },
+      {
+        "id": "p2",
+        "name": "Aero Helmet",
+        "price": "$299",
+        "category": "Gear",
+        "image": "https://picsum.photos/seed/pc20_2/1600/1000",
+        "badge": null
+      },
+      {
+        "id": "p3",
+        "name": "Smart Trainer",
+        "price": "$1,200",
+        "category": "Training",
+        "image": "https://picsum.photos/seed/pc20_3/1600/1000",
+        "badge": "Popular"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF",
+    "accentColor": "#EF4444"
+  }
+}

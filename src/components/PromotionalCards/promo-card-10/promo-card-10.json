@@ -1,0 +1,18 @@
+{
+  "id": "promo-card-10",
+  "name": "PromoCard10",
+  "type": "promotional-card",
+  "content": {
+    "badge": "Special Offer",
+    "title": "Spotlight Hover",
+    "description": "Experience the power of our exclusive spotlight hover design. Tailored for premium experiences.",
+    "cta": {
+      "text": "Discover",
+      "url": "#"
+    }
+  },
+  "style": {
+    "backgroundColor": "#09090B",
+    "textColor": "#FAFAFA"
+  }
+}

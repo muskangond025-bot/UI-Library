@@ -1,0 +1,37 @@
+{
+  "id": "featured-collection-12",
+  "name": "FeaturedCollection12",
+  "type": "featured-collection",
+  "content": {
+    "title": "The Spotlight",
+    "subtitle": "Discover what lies beneath",
+    "collections": [
+      {
+        "id": "c1",
+        "title": "Neon",
+        "description": "City lights glow.",
+        "image": "https://picsum.photos/id/29/1200/800",
+        "link": "#"
+      },
+      {
+        "id": "c2",
+        "title": "Shadows",
+        "description": "What hides in the dark.",
+        "image": "https://picsum.photos/id/30/1200/800",
+        "link": "#"
+      },
+      {
+        "id": "c3",
+        "title": "Twilight",
+        "description": "The golden hour.",
+        "image": "https://picsum.photos/id/31/1200/800",
+        "link": "#"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#050505",
+    "textColor": "#D4D4D8",
+    "accentColor": "#14B8A6"
+  }
+}

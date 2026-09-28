@@ -1,0 +1,18 @@
+{
+  "id": "promo-card-20",
+  "name": "PromoCard20",
+  "type": "promotional-card",
+  "content": {
+    "badge": "Special Offer",
+    "title": "The Masterpiece",
+    "description": "Experience the power of our exclusive the masterpiece design. Tailored for premium experiences.",
+    "cta": {
+      "text": "Discover",
+      "url": "#"
+    }
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF"
+  }
+}

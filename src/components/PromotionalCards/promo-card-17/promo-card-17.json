@@ -1,0 +1,18 @@
+{
+  "id": "promo-card-17",
+  "name": "PromoCard17",
+  "type": "promotional-card",
+  "content": {
+    "badge": "Special Offer",
+    "title": "Rotating Badge",
+    "description": "Experience the power of our exclusive rotating badge design. Tailored for premium experiences.",
+    "cta": {
+      "text": "Discover",
+      "url": "#"
+    }
+  },
+  "style": {
+    "backgroundColor": "#111827",
+    "textColor": "#E5E7EB"
+  }
+}

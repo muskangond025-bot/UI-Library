@@ -1,0 +1,48 @@
+{
+  "id": "product-carousel-4",
+  "name": "ProductCarousel4",
+  "type": "product-carousel",
+  "content": {
+    "title": "Full Screen Snap",
+    "subtitle": "Immersive catalog",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Aesthetic Vase",
+        "price": "$45",
+        "category": "Decor",
+        "image": "https://picsum.photos/seed/pc4_1/1200/800",
+        "badge": null
+      },
+      {
+        "id": "p2",
+        "name": "Scented Candle",
+        "price": "$30",
+        "category": "Home",
+        "image": "https://picsum.photos/seed/pc4_2/1200/800",
+        "badge": "Bestseller"
+      },
+      {
+        "id": "p3",
+        "name": "Ceramic Plate Set",
+        "price": "$85",
+        "category": "Dining",
+        "image": "https://picsum.photos/seed/pc4_3/1200/800",
+        "badge": null
+      },
+      {
+        "id": "p4",
+        "name": "Linen Tablecloth",
+        "price": "$60",
+        "category": "Dining",
+        "image": "https://picsum.photos/seed/pc4_4/1200/800",
+        "badge": "New"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FAFAFA",
+    "textColor": "#000000",
+    "accentColor": "#EC4899"
+  }
+}

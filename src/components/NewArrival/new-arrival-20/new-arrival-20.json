@@ -1,0 +1,21 @@
+{
+  "id": "new-arrival-20",
+  "name": "NewArrival20",
+  "type": "new-arrival",
+  "content": {
+    "title": "The Bento Box",
+    "subtitle": "Curated Selection",
+    "products": [
+      { "id": "na20-1", "name": "Keycap Set", "price": "$120", "image": "https://picsum.photos/seed/na20_1/500/500", "size": "large" },
+      { "id": "na20-2", "name": "Artisan Switch", "price": "$45", "image": "https://picsum.photos/seed/na20_2/400/400", "size": "small" },
+      { "id": "na20-3", "name": "Coiled Cable", "price": "$65", "image": "https://picsum.photos/seed/na20_3/400/400", "size": "small" },
+      { "id": "na20-4", "name": "Desk Mat", "price": "$35", "image": "https://picsum.photos/seed/na20_4/800/400", "size": "wide" },
+      { "id": "na20-5", "name": "Wrist Rest", "price": "$50", "image": "https://picsum.photos/seed/na20_5/800/400", "size": "wide" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#F4F4F5",
+    "textColor": "#18181B",
+    "accentColor": "#0EA5E9"
+  }
+}

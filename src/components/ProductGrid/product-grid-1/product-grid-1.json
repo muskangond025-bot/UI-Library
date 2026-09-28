@@ -1,0 +1,64 @@
+{
+  "id": "product-grid-1",
+  "name": "ProductGrid1",
+  "type": "product-grid",
+  "content": {
+    "title": "New Arrivals",
+    "subtitle": "Discover our latest collection",
+    "products": [
+      {
+        "id": "p1",
+        "name": "Minimalist Lounge Chair",
+        "price": "$299",
+        "category": "Furniture",
+        "image": "https://picsum.photos/id/103/800/1000",
+        "badge": "New"
+      },
+      {
+        "id": "p2",
+        "name": "Ceramic Table Lamp",
+        "price": "$129",
+        "category": "Lighting",
+        "image": "https://picsum.photos/id/104/800/1000",
+        "badge": null
+      },
+      {
+        "id": "p3",
+        "name": "Woven Basket Set",
+        "price": "$89",
+        "category": "Decor",
+        "image": "https://picsum.photos/id/106/800/1000",
+        "badge": "Sale"
+      },
+      {
+        "id": "p4",
+        "name": "Oak Dining Table",
+        "price": "$899",
+        "category": "Furniture",
+        "image": "https://picsum.photos/id/107/800/1000",
+        "badge": null
+      },
+      {
+        "id": "p5",
+        "name": "Linen Throw Pillow",
+        "price": "$45",
+        "category": "Textiles",
+        "image": "https://picsum.photos/id/108/800/1000",
+        "badge": null
+      },
+      {
+        "id": "p6",
+        "name": "Abstract Wall Art",
+        "price": "$150",
+        "category": "Art",
+        "image": "https://picsum.photos/id/109/800/1000",
+        "badge": "Popular"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FAFAFA",
+    "textColor": "#18181B",
+    "accentColor": "#000000"
+  }
+}

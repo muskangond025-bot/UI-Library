@@ -1,0 +1,56 @@
+{
+  "id": "best-seller-12",
+  "name": "BestSeller12",
+  "type": "best-seller",
+  "content": {
+    "title": "Orbit Showcase",
+    "subtitle": "Around the world",
+    "products": [
+      {
+        "id": "bs12-1",
+        "name": "Drone Pro Max",
+        "price": "$1200",
+        "category": "Tech",
+        "image": "https://picsum.photos/seed/bs12_1/800/800",
+        "rating": 4.9,
+        "reviews": 320,
+        "badge": "Top Rated"
+      },
+      {
+        "id": "bs12-2",
+        "name": "Action Camera",
+        "price": "$399",
+        "category": "Tech",
+        "image": "https://picsum.photos/seed/bs12_2/800/800",
+        "rating": 4.8,
+        "reviews": 450,
+        "badge": null
+      },
+      {
+        "id": "bs12-3",
+        "name": "Gimbal Stabilizer",
+        "price": "$150",
+        "category": "Accessories",
+        "image": "https://picsum.photos/seed/bs12_3/800/800",
+        "rating": 4.7,
+        "reviews": 210,
+        "badge": null
+      },
+      {
+        "id": "bs12-4",
+        "name": "Camera Backpack",
+        "price": "$180",
+        "category": "Gear",
+        "image": "https://picsum.photos/seed/bs12_4/800/800",
+        "rating": 4.9,
+        "reviews": 890,
+        "badge": "Popular"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#0F172A",
+    "textColor": "#F8FAFC",
+    "accentColor": "#6366F1"
+  }
+}

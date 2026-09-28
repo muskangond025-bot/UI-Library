@@ -1,0 +1,44 @@
+{
+  "id": "featured-collection-13",
+  "name": "FeaturedCollection13",
+  "type": "featured-collection",
+  "content": {
+    "title": "Floating Spaces",
+    "subtitle": "Explore in 3D perspective",
+    "collections": [
+      {
+        "id": "c1",
+        "title": "Vantage",
+        "description": "Looking down.",
+        "image": "https://picsum.photos/id/32/800/800",
+        "link": "#"
+      },
+      {
+        "id": "c2",
+        "title": "Horizon",
+        "description": "Looking out.",
+        "image": "https://picsum.photos/id/33/800/800",
+        "link": "#"
+      },
+      {
+        "id": "c3",
+        "title": "Zenith",
+        "description": "Looking up.",
+        "image": "https://picsum.photos/id/34/800/800",
+        "link": "#"
+      },
+      {
+        "id": "c4",
+        "title": "Nadir",
+        "description": "The deep.",
+        "image": "https://picsum.photos/id/35/800/800",
+        "link": "#"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#E7E5E4",
+    "textColor": "#292524",
+    "accentColor": "#F43F5E"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "promo-card-3",
+  "name": "PromoCard3",
+  "type": "promotional-card",
+  "content": {
+    "badge": "Exclusive",
+    "title": "The Black Card",
+    "description": "Experience unparalleled benefits and rewards with our premium membership tier.",
+    "cta": {
+      "text": "Apply Now",
+      "url": "#"
+    },
+    "benefits": ["0% APR for 12 months", "No foreign transaction fees", "24/7 Concierge"]
+  },
+  "style": {
+    "backgroundColor": "#E5E7EB",
+    "textColor": "#111827"
+  }
+}

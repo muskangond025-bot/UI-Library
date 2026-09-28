@@ -1,0 +1,44 @@
+{
+  "id": "featured-collection-9",
+  "name": "FeaturedCollection9",
+  "type": "featured-collection",
+  "content": {
+    "title": "The Aperture",
+    "subtitle": "Focus on the details",
+    "collections": [
+      {
+        "id": "c1",
+        "title": "Clarity",
+        "description": "Seeing through the noise.",
+        "image": "https://picsum.photos/id/18/1200/800",
+        "link": "#"
+      },
+      {
+        "id": "c2",
+        "title": "Vision",
+        "description": "Looking ahead.",
+        "image": "https://picsum.photos/id/19/1200/800",
+        "link": "#"
+      },
+      {
+        "id": "c3",
+        "title": "Focus",
+        "description": "Sharp and precise.",
+        "image": "https://picsum.photos/id/20/1200/800",
+        "link": "#"
+      },
+      {
+        "id": "c4",
+        "title": "Perspective",
+        "description": "A new angle.",
+        "image": "https://picsum.photos/id/21/1200/800",
+        "link": "#"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#F3F4F6",
+    "textColor": "#1F2937",
+    "accentColor": "#EF4444"
+  }
+}

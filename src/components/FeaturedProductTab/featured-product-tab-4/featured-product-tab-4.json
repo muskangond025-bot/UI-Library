@@ -1,0 +1,31 @@
+{
+  "id": "featured-product-tab-4",
+  "name": "FeaturedProductTab4",
+  "type": "featured-product-tab",
+  "content": {
+    "title": "Spring Collection",
+    "subtitle": "Fresh styles for the new season",
+    "tabs": [
+      { "id": "t1", "label": "Women", "products": ["p1", "p2", "p3", "p4", "p5"] },
+      { "id": "t2", "label": "Men", "products": ["p6", "p7", "p8"] },
+      { "id": "t3", "label": "Kids", "products": ["p9", "p10"] }
+    ],
+    "allProducts": [
+      { "id": "p1", "name": "Floral Summer Dress", "price": "$89", "category": "Dresses", "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&q=80" },
+      { "id": "p2", "name": "Straw Sun Hat", "price": "$45", "category": "Accessories", "image": "https://images.unsplash.com/photo-1533827432537-70133748f5c8?w=800&q=80", "badge": "Bestseller" },
+      { "id": "p3", "name": "Linen Wrap Skirt", "price": "$65", "category": "Bottoms", "image": "https://images.unsplash.com/photo-1574015974293-817f0ebebb74?w=800&q=80" },
+      { "id": "p4", "name": "Strappy Sandals", "price": "$55", "category": "Shoes", "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80" },
+      { "id": "p5", "name": "Silk Scarf", "price": "$35", "category": "Accessories", "image": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=800&q=80" },
+      { "id": "p6", "name": "Linen Button-Down", "price": "$75", "category": "Tops", "image": "https://images.unsplash.com/photo-1596755094514-f87e32f85e98?w=800&q=80" },
+      { "id": "p7", "name": "Chino Shorts", "price": "$50", "category": "Bottoms", "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800&q=80" },
+      { "id": "p8", "name": "Canvas Sneakers", "price": "$65", "category": "Shoes", "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800&q=80" },
+      { "id": "p9", "name": "Kids Denim Jacket", "price": "$45", "category": "Outerwear", "image": "https://images.unsplash.com/photo-1519238263530-99eaa114fc5d?w=800&q=80" },
+      { "id": "p10", "name": "Graphic T-Shirt", "price": "$25", "category": "Tops", "image": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=800&q=80" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#1C1917",
+    "accentColor": "#F43F5E"
+  }
+}

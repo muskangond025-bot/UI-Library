@@ -1,0 +1,32 @@
+{
+  "id": "featured-product-tab-19",
+  "name": "FeaturedProductTab19",
+  "type": "featured-product-tab",
+  "content": {
+    "title": "Beauty Edit",
+    "subtitle": "Discover pure ingredients",
+    "tabs": [
+      { "id": "t1", "label": "Skincare", "products": ["p1", "p2", "p3"] },
+      { "id": "t2", "label": "Body", "products": ["p4", "p5", "p6"] },
+      { "id": "t3", "label": "Hair", "products": ["p7", "p8", "p9"] }
+    ],
+    "allProducts": [
+      { "id": "p1", "name": "Hydrating Serum", "price": "$48", "category": "Serum", "image": "https://images.unsplash.com/photo-1599305090598-fe179d501227?w=800&q=80" },
+      { "id": "p2", "name": "Daily Moisturizer", "price": "$35", "category": "Cream", "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&q=80" },
+      { "id": "p3", "name": "Exfoliating Mask", "price": "$42", "category": "Mask", "image": "https://images.unsplash.com/photo-1599305090598-fe179d501227?w=800&q=80" },
+
+      { "id": "p4", "name": "Body Lotion", "price": "$28", "category": "Lotion", "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80" },
+      { "id": "p5", "name": "Shower Gel", "price": "$22", "category": "Wash", "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&q=80" },
+      { "id": "p6", "name": "Body Scrub", "price": "$34", "category": "Scrub", "image": "https://images.unsplash.com/photo-1608248593859-7b3b90554c25?w=800&q=80" },
+
+      { "id": "p7", "name": "Shampoo", "price": "$26", "category": "Cleanse", "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&q=80" },
+      { "id": "p8", "name": "Conditioner", "price": "$26", "category": "Hydrate", "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&q=80" },
+      { "id": "p9", "name": "Hair Oil", "price": "$38", "category": "Treatment", "image": "https://images.unsplash.com/photo-1601049541289-9b1b7ce81045?w=800&q=80" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#FDF8F5",
+    "textColor": "#4A4A4A",
+    "accentColor": "#E2A499"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "image-text-18",
+  "name": "ImageText18",
+  "type": "image-text",
+  "content": {
+    "heading": "Dynamic Angles",
+    "subheading": "MOTION & SPEED",
+    "description": "Breaking away from standard orthographic grids. The diagonal cut injects immediate energy, momentum, and a sense of forward progression into the layout.",
+    "features": [
+      "Slanted Horizons",
+      "Kinetic Energy",
+      "Bold Asymmetry"
+    ],
+    "primaryAction": {
+      "label": "Feel The Speed",
+      "url": "#"
+    },
+    "image": {
+      "url": "https://images.unsplash.com/photo-1542314831-c6a4d14272ce?w=1200&q=80",
+      "alt": "Fast moving vehicle"
+    }
+  },
+  "style": {
+    "backgroundColor": "#1A1A1A",
+    "textColor": "#FFFFFF",
+    "accentColor": "#FF2A2A",
+    "imageAlignment": "right"
+  }
+}

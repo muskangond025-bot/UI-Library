@@ -1,0 +1,28 @@
+{
+  "id": "image-text-2",
+  "name": "ImageText2",
+  "type": "image-text",
+  "content": {
+    "heading": "Redefining the standard.",
+    "subheading": "INNOVATION",
+    "description": "We are breaking the grid. Traditional layouts restrict creativity, so we designed a system that allows content to flow naturally and assertively across the screen.",
+    "stats": [
+      { "value": "10x", "label": "Faster Delivery" },
+      { "value": "99%", "label": "Client Satisfaction" }
+    ],
+    "primaryAction": {
+      "label": "Explore Our Work",
+      "url": "#"
+    },
+    "image": {
+      "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80",
+      "alt": "Team collaboration"
+    }
+  },
+  "style": {
+    "backgroundColor": "#F3F4F6",
+    "textColor": "#1F2937",
+    "accentColor": "#10B981",
+    "imageAlignment": "left"
+  }
+}

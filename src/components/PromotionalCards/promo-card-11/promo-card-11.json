@@ -1,0 +1,18 @@
+{
+  "id": "promo-card-11",
+  "name": "PromoCard11",
+  "type": "promotional-card",
+  "content": {
+    "badge": "Special Offer",
+    "title": "Split Content",
+    "description": "Experience the power of our exclusive split content design. Tailored for premium experiences.",
+    "cta": {
+      "text": "Discover",
+      "url": "#"
+    }
+  },
+  "style": {
+    "backgroundColor": "#E5E5E5",
+    "textColor": "#171717"
+  }
+}

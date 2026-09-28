@@ -1,0 +1,20 @@
+{
+  "id": "sale-13",
+  "name": "Sale13",
+  "type": "sale-products",
+  "content": {
+    "title": "Gold Rush",
+    "subtitle": "Premium Markdowns",
+    "products": [
+      { "id": "s13-1", "name": "Gold Watch", "oldPrice": "$450", "newPrice": "$290", "image": "https://picsum.photos/seed/s13_1/600/600" },
+      { "id": "s13-2", "name": "Leather Briefcase", "oldPrice": "$320", "newPrice": "$199", "image": "https://picsum.photos/seed/s13_2/600/600" },
+      { "id": "s13-3", "name": "Fountain Pen", "oldPrice": "$150", "newPrice": "$85", "image": "https://picsum.photos/seed/s13_3/600/600" },
+      { "id": "s13-4", "name": "Silk Tie", "oldPrice": "$85", "newPrice": "$45", "image": "https://picsum.photos/seed/s13_4/600/600" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#18181B",
+    "textColor": "#FAFAFA",
+    "accentColor": "#EAB308"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "new-arrival-2",
+  "name": "NewArrival2",
+  "type": "new-arrival",
+  "content": {
+    "title": "Editorial Picks",
+    "subtitle": "Fresh In",
+    "products": [
+      {
+        "id": "na2-1",
+        "name": "Structured Tote",
+        "price": "$180",
+        "image": "https://picsum.photos/seed/na2_1/800/1200",
+        "badge": "New"
+      },
+      {
+        "id": "na2-2",
+        "name": "Silk Slip Dress",
+        "price": "$210",
+        "image": "https://picsum.photos/seed/na2_2/800/1200",
+        "badge": "Trending"
+      },
+      {
+        "id": "na2-3",
+        "name": "Leather Mules",
+        "price": "$145",
+        "image": "https://picsum.photos/seed/na2_3/800/1200",
+        "badge": "New"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#18181B",
+    "textColor": "#F4F4F5",
+    "accentColor": "#E4E4E7"
+  }
+}

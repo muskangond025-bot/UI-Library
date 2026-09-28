@@ -1,0 +1,20 @@
+{
+  "id": "flash-sale-20",
+  "name": "FlashSale20",
+  "type": "flash-sale",
+  "content": {
+    "title": "The Vault",
+    "subtitle": "Doors close in 1 hour",
+    "products": [
+      { "id": "fs20-1", "name": "Gold Watch", "oldPrice": "$1200", "newPrice": "$599", "image": "https://picsum.photos/seed/fs20_1/800/800" },
+      { "id": "fs20-2", "name": "Diamond Ring", "oldPrice": "$2500", "newPrice": "$999", "image": "https://picsum.photos/seed/fs20_2/800/800" },
+      { "id": "fs20-3", "name": "Platinum Chain", "oldPrice": "$800", "newPrice": "$399", "image": "https://picsum.photos/seed/fs20_3/800/800" },
+      { "id": "fs20-4", "name": "Silver Bracelet", "oldPrice": "$300", "newPrice": "$149", "image": "https://picsum.photos/seed/fs20_4/800/800" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#1C1917",
+    "textColor": "#FACC15",
+    "accentColor": "#A16207"
+  }
+}

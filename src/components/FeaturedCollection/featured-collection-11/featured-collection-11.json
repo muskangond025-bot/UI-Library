@@ -1,0 +1,44 @@
+{
+  "id": "featured-collection-11",
+  "name": "FeaturedCollection11",
+  "type": "featured-collection",
+  "content": {
+    "title": "Bento Expansion",
+    "subtitle": "Interactive Grid Layout",
+    "collections": [
+      {
+        "id": "c1",
+        "title": "Architecture",
+        "description": "Modern structural marvels.",
+        "image": "https://picsum.photos/id/25/800/800",
+        "link": "#"
+      },
+      {
+        "id": "c2",
+        "title": "Interiors",
+        "description": "Spaces to live.",
+        "image": "https://picsum.photos/id/26/800/800",
+        "link": "#"
+      },
+      {
+        "id": "c3",
+        "title": "Exteriors",
+        "description": "Outside the box.",
+        "image": "https://picsum.photos/id/27/800/800",
+        "link": "#"
+      },
+      {
+        "id": "c4",
+        "title": "Landscapes",
+        "description": "Nature's design.",
+        "image": "https://picsum.photos/id/28/800/800",
+        "link": "#"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#18181B",
+    "textColor": "#FAFAFA",
+    "accentColor": "#A78BFA"
+  }
+}

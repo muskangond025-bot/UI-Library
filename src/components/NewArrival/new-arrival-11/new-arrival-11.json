@@ -1,0 +1,20 @@
+{
+  "id": "new-arrival-11",
+  "name": "NewArrival11",
+  "type": "new-arrival",
+  "content": {
+    "title": "Hover Collection",
+    "subtitle": "Interactive Drops",
+    "products": [
+      { "id": "na11-1", "name": "Silk Bomber Jacket", "price": "$350", "image": "https://picsum.photos/seed/na11_1/1000/1000" },
+      { "id": "na11-2", "name": "Tailored Wide Leg Pants", "price": "$180", "image": "https://picsum.photos/seed/na11_2/1000/1000" },
+      { "id": "na11-3", "name": "Ribbed Turtleneck", "price": "$95", "image": "https://picsum.photos/seed/na11_3/1000/1000" },
+      { "id": "na11-4", "name": "Leather Ankle Boots", "price": "$290", "image": "https://picsum.photos/seed/na11_4/1000/1000" }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF",
+    "accentColor": "#F43F5E"
+  }
+}

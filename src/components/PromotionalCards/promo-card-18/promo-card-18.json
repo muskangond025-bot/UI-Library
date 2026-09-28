@@ -1,0 +1,18 @@
+{
+  "id": "promo-card-18",
+  "name": "PromoCard18",
+  "type": "promotional-card",
+  "content": {
+    "badge": "Special Offer",
+    "title": "Layered Stack",
+    "description": "Experience the power of our exclusive layered stack design. Tailored for premium experiences.",
+    "cta": {
+      "text": "Discover",
+      "url": "#"
+    }
+  },
+  "style": {
+    "backgroundColor": "#F3F4F6",
+    "textColor": "#111827"
+  }
+}

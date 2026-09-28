@@ -1,0 +1,58 @@
+{
+  "id": "featured-collection-7",
+  "name": "FeaturedCollection7",
+  "type": "featured-collection",
+  "content": {
+    "title": "The Morph Grid",
+    "subtitle": "Interactive gallery focus",
+    "collections": [
+      {
+        "id": "c1",
+        "title": "Alpha",
+        "description": "First of its kind.",
+        "image": "https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "link": "#"
+      },
+      {
+        "id": "c2",
+        "title": "Beta",
+        "description": "The second wave.",
+        "image": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "link": "#"
+      },
+      {
+        "id": "c3",
+        "title": "Gamma",
+        "description": "High energy.",
+        "image": "https://picsum.photos/id/12/800/800",
+        "link": "#"
+      },
+      {
+        "id": "c4",
+        "title": "Delta",
+        "description": "Constant change.",
+        "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "link": "#"
+      },
+      {
+        "id": "c5",
+        "title": "Epsilon",
+        "description": "Smooth surfaces.",
+        "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "link": "#"
+      },
+      {
+        "id": "c6",
+        "title": "Zeta",
+        "description": "The finale.",
+        "image": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "link": "#"
+      }
+    ]
+  },
+  "style": {
+    "backgroundColor": "#171717",
+    "textColor": "#E5E5E5",
+    "accentColor": "#EC4899"
+  }
+}
