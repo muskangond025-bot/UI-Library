@@ -1,4 +1,20 @@
 {
-  "title": "Product Information 1",
-  "description": "Placeholder content for Product Information 1"
+  "title": "Premium Active Noise Cancelling",
+  "subtitle": "Immersive Sound",
+  "description": "Experience pure audio with our advanced active noise cancelling technology. Block out the world and dive into your music.",
+  "specs": [
+    {
+      "label": "Battery",
+      "value": "30 Hours"
+    },
+    {
+      "label": "Weight",
+      "value": "250g"
+    },
+    {
+      "label": "Bluetooth",
+      "value": "5.2"
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=1000&auto=format&fit=crop"
 }

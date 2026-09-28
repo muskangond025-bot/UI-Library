@@ -1,4 +1,10 @@
 {
-  "title": "Product Purchase Section 19",
-  "description": "Placeholder content for Product Purchase Section 19"
+  "name": "ARCH-1 Lamp",
+  "price": "£ 350",
+  "details": [
+    "Aluminum Body",
+    "LED 2700K",
+    "Touch Dimmer"
+  ],
+  "image": "https://picsum.photos/seed/arch/800/800"
 }

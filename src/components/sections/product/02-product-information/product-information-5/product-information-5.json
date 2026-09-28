@@ -1,4 +1,41 @@
 {
-  "title": "Product Information 5",
-  "description": "Placeholder content for Product Information 5"
+  "title": "Core Specifications",
+  "specs": [
+    {
+      "icon": "Cpu",
+      "label": "Processor",
+      "value": "M3 Pro Chip",
+      "desc": "12-core CPU, 18-core GPU"
+    },
+    {
+      "icon": "MemoryStick",
+      "label": "Memory",
+      "value": "Up to 36GB",
+      "desc": "Unified memory architecture"
+    },
+    {
+      "icon": "HardDrive",
+      "label": "Storage",
+      "value": "Up to 4TB",
+      "desc": "Superfast SSD storage"
+    },
+    {
+      "icon": "Monitor",
+      "label": "Display",
+      "value": "14.2-inch",
+      "desc": "Liquid Retina XDR display"
+    },
+    {
+      "icon": "Battery",
+      "label": "Battery",
+      "value": "18 hours",
+      "desc": "Video playback on a single charge"
+    },
+    {
+      "icon": "Wifi",
+      "label": "Wireless",
+      "value": "Wi-Fi 6E",
+      "desc": "802.11ax and Bluetooth 5.3"
+    }
+  ]
 }

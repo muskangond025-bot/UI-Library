@@ -1,4 +1,24 @@
 {
-  "title": "Product Information 11",
-  "description": "Placeholder content for Product Information 11"
+  "title": "Interactive Engineering",
+  "image": "https://picsum.photos/seed/tech11/1200/800",
+  "hotspots": [
+    {
+      "top": "30%",
+      "left": "40%",
+      "title": "Titanium Frame",
+      "desc": "Grade 5 titanium for maximum durability."
+    },
+    {
+      "top": "60%",
+      "left": "70%",
+      "title": "Thermal Core",
+      "desc": "Advanced liquid cooling system."
+    },
+    {
+      "top": "75%",
+      "left": "25%",
+      "title": "Taptic Engine",
+      "desc": "Precise haptic feedback vibration."
+    }
+  ]
 }

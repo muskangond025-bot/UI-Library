@@ -1,4 +1,17 @@
 {
-  "title": "Product Information 19",
-  "description": "Placeholder content for Product Information 19"
+  "title": "Next-Gen Networking",
+  "specs": [
+    {
+      "val": "10 Gbps",
+      "lbl": "Bandwidth"
+    },
+    {
+      "val": "1 ms",
+      "lbl": "Latency"
+    },
+    {
+      "val": "Wi-Fi 7",
+      "lbl": "Protocol"
+    }
+  ]
 }

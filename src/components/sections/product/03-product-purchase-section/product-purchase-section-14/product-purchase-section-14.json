@@ -1,4 +1,6 @@
 {
-  "title": "Product Purchase Section 14",
-  "description": "Placeholder content for Product Purchase Section 14"
+  "name": "Quantum VR Headset",
+  "price": "$499.99",
+  "image": "https://picsum.photos/seed/vr/800/800",
+  "description": "Dive into the metaverse with dual 4K micro-OLED displays."
 }

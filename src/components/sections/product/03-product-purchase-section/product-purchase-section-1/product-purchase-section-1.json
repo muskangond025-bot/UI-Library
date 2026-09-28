@@ -1,4 +1,32 @@
 {
-  "title": "Product Purchase Section 1",
-  "description": "Placeholder content for Product Purchase Section 1"
+  "name": "Aethel Pro Wireless Headphones",
+  "price": "$299.00",
+  "originalPrice": "$349.00",
+  "rating": 4.8,
+  "reviews": 1245,
+  "description": "Experience high-fidelity audio with industry-leading active noise cancellation.",
+  "colors": [
+    {
+      "name": "Midnight Black",
+      "hex": "#1a1a1a"
+    },
+    {
+      "name": "Lunar Silver",
+      "hex": "#e2e8f0"
+    },
+    {
+      "name": "Ocean Blue",
+      "hex": "#1e3a8a"
+    }
+  ],
+  "features": [
+    "Free Shipping",
+    "30-Day Returns",
+    "2-Year Warranty"
+  ],
+  "images": [
+    "https://picsum.photos/seed/headphone1/800/800",
+    "https://picsum.photos/seed/headphone2/800/800",
+    "https://picsum.photos/seed/headphone3/800/800"
+  ]
 }

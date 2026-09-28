@@ -1,4 +1,7 @@
 {
-  "title": "Product Purchase Section 20",
-  "description": "Placeholder content for Product Purchase Section 20"
+  "name": "The Collector's Edition",
+  "price": "$199.99",
+  "imageFront": "https://picsum.photos/seed/boxfront/600/800",
+  "imageBack": "https://picsum.photos/seed/boxback/600/800",
+  "description": "Limited run of 1,000 units globally."
 }

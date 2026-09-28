@@ -1,4 +1,15 @@
 {
-  "title": "Product Information 6",
-  "description": "Placeholder content for Product Information 6"
+  "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1600&auto=format&fit=crop",
+  "cards": [
+    {
+      "title": "Ergonomic Design",
+      "text": "Crafted to fit perfectly, reducing fatigue during long sessions.",
+      "position": "top-10 left-10"
+    },
+    {
+      "title": "Premium Materials",
+      "text": "Soft memory foam wrapped in breathable synthetic leather.",
+      "position": "bottom-20 right-10"
+    }
+  ]
 }

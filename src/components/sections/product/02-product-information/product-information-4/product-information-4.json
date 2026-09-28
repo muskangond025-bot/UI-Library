@@ -1,4 +1,20 @@
 {
-  "title": "Product Information 4",
-  "description": "Placeholder content for Product Information 4"
+  "title": "Technical Excellence",
+  "tabs": [
+    {
+      "name": "Performance",
+      "content": "Equipped with our latest generation processor, delivering 2x faster speeds while using 30% less power.",
+      "image": "/assets/tech_performance.jpg"
+    },
+    {
+      "name": "Display",
+      "content": "A stunning edge-to-edge OLED display with 120Hz refresh rate and peak brightness of 2000 nits.",
+      "image": "/assets/tech_display.jpg"
+    },
+    {
+      "name": "Connectivity",
+      "content": "Next-gen Wi-Fi 7 and Bluetooth 5.3 ensure you are always connected at the highest possible speeds.",
+      "image": "/assets/tech_connectivity.jpg"
+    }
+  ]
 }

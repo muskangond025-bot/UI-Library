@@ -1,4 +1,11 @@
 {
-  "title": "Product Purchase Section 3",
-  "description": "Placeholder content for Product Purchase Section 3"
+  "name": "Neon Deck Mechanical Keyboard",
+  "price": "$189.99",
+  "rating": 4.9,
+  "switches": [
+    "Linear Red",
+    "Tactile Brown",
+    "Clicky Blue"
+  ],
+  "image": "https://picsum.photos/seed/keyboard/800/600"
 }

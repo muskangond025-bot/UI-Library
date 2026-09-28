@@ -1,4 +1,7 @@
 {
-  "title": "Product Description 4",
-  "description": "Placeholder content for Product Description 4"
+  "quote": "It changes how you interact with the digital world.",
+  "para1": "We didn't set out to make something different. We set out to make something better. The interface fades away, leaving you directly connected to your work.",
+  "para2": "The haptic engine provides subtle, physical affirmations to your digital actions. It creates a seamless bridge between the physical and virtual.",
+  "img1": "https://picsum.photos/seed/mag1/800/1000",
+  "img2": "https://picsum.photos/seed/mag2/800/600"
 }

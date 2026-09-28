@@ -1,4 +1,19 @@
 {
-  "title": "Product Description 11",
-  "description": "Placeholder content for Product Description 11"
+  "blocks": [
+    {
+      "title": "Precision Crafted",
+      "text": "Every component is meticulously designed to work in perfect harmony. We eliminated everything unnecessary.",
+      "img": "https://picsum.photos/seed/desc11a/800/800"
+    },
+    {
+      "title": "Seamless Integration",
+      "text": "It doesn't just look good, it acts as a natural extension of your workflow, syncing instantly.",
+      "img": "https://picsum.photos/seed/desc11b/800/800"
+    },
+    {
+      "title": "Built to Last",
+      "text": "Using aerospace-grade materials ensures that it will look and perform flawlessly for years to come.",
+      "img": "https://picsum.photos/seed/desc11c/800/800"
+    }
+  ]
 }

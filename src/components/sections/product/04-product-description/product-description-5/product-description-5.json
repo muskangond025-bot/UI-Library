@@ -1,4 +1,25 @@
 {
-  "title": "Product Description 5",
-  "description": "Placeholder content for Product Description 5"
+  "title": "The Story",
+  "chapters": [
+    {
+      "title": "Conception",
+      "text": "It started as a sketch on a napkin.",
+      "img": "https://picsum.photos/seed/ch1/600/400"
+    },
+    {
+      "title": "Prototyping",
+      "text": "145 iterations later, we found the perfect curve.",
+      "img": "https://picsum.photos/seed/ch2/600/400"
+    },
+    {
+      "title": "Production",
+      "text": "Custom machinery was built just to manufacture the casing.",
+      "img": "https://picsum.photos/seed/ch3/600/400"
+    },
+    {
+      "title": "Realization",
+      "text": "The final product exceeds every expectation.",
+      "img": "https://picsum.photos/seed/ch4/600/400"
+    }
+  ]
 }

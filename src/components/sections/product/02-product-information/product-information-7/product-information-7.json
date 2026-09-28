@@ -1,4 +1,14 @@
 {
-  "title": "Product Information 7",
-  "description": "Placeholder content for Product Information 7"
+  "blocks": [
+    {
+      "title": "Flawless Integration",
+      "text": "Works seamlessly with your existing workflow. No complex setup required, just plug and play.",
+      "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "title": "Military-Grade Security",
+      "text": "Your data is protected by end-to-end encryption and strict access controls at the hardware level.",
+      "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=800&auto=format&fit=crop"
+    }
+  ]
 }

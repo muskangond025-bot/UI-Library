@@ -1,4 +1,17 @@
 {
-  "title": "Product Description 2",
-  "description": "Placeholder content for Product Description 2"
+  "blocks": [
+    {
+      "title": "Incredibly Light.",
+      "text": "Weighing in at under 2 pounds, it redefines portability without compromising an ounce of performance."
+    },
+    {
+      "title": "Devastatingly Powerful.",
+      "text": "Powered by our next-generation neural engine, capable of 15 trillion operations per second."
+    },
+    {
+      "title": "Silently Brilliant.",
+      "text": "A revolutionary fanless thermal design keeps things running completely silent, even under heavy load."
+    }
+  ],
+  "image": "https://picsum.photos/seed/desc2/800/1200"
 }

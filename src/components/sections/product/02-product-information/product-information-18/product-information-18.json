@@ -1,4 +1,16 @@
 {
-  "title": "Product Information 18",
-  "description": "Placeholder content for Product Information 18"
+  "cards": [
+    {
+      "title": "Sleek Aluminum",
+      "img": "https://picsum.photos/seed/tech18a/600/400"
+    },
+    {
+      "title": "Vibrant Display",
+      "img": "https://picsum.photos/seed/tech18b/600/400"
+    },
+    {
+      "title": "Tactile Keyboard",
+      "img": "https://picsum.photos/seed/tech18c/600/400"
+    }
+  ]
 }

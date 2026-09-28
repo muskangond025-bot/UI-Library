@@ -1,4 +1,20 @@
 {
-  "title": "Product Information 15",
-  "description": "Placeholder content for Product Information 15"
+  "title": "The Manufacturing Process",
+  "steps": [
+    {
+      "step": "01",
+      "title": "Milling",
+      "desc": "Precision CNC milling shapes the block."
+    },
+    {
+      "step": "02",
+      "title": "Anodizing",
+      "desc": "A protective oxide layer is added for color."
+    },
+    {
+      "step": "03",
+      "title": "Polishing",
+      "desc": "Diamond tools polish the edges to a mirror finish."
+    }
+  ]
 }

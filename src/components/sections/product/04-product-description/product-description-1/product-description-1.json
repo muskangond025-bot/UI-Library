@@ -1,4 +1,7 @@
 {
-  "title": "Product Description 1",
-  "description": "Placeholder content for Product Description 1"
+  "headline": "A Masterclass in Engineering",
+  "subhead": "The details that make the difference.",
+  "content1": "Designing this product was a journey of elimination. We stripped away everything that wasn't strictly necessary, leaving only the purest expression of function and form. The unibody enclosure is machined from a single block of aerospace-grade aluminum, offering structural rigidity that feels incredibly dense and premium in the hand.",
+  "content2": "Every curve has been mathematically calculated to catch the light perfectly. We spent over 1,000 hours refining the tactile feedback of the control surfaces. It is a device that invites touch, and rewards you with a level of precision that you simply have to experience to believe.",
+  "image": "https://picsum.photos/seed/desc1/1200/600"
 }

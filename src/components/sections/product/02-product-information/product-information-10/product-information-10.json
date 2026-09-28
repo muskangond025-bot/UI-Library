@@ -1,4 +1,8 @@
 {
-  "title": "Product Information 10",
-  "description": "Placeholder content for Product Information 10"
+  "title": "An engineering marvel.",
+  "content": "Building something this powerful required us to rethink everything. From the custom silicon architecture to the microscopic details of the thermal management system. We didn't just iterate; we completely reimagined what a device in this category could be.",
+  "images": [
+    "https://images.unsplash.com/photo-1550009158-9ebf69173e03?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1526406915894-7bcd65f60845?q=80&w=800&auto=format&fit=crop"
+  ]
 }

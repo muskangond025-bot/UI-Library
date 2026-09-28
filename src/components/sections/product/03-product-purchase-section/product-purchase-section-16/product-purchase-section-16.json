@@ -1,4 +1,6 @@
 {
-  "title": "Product Purchase Section 16",
-  "description": "Placeholder content for Product Purchase Section 16"
+  "name": "Aqua Purifier",
+  "price": "$299",
+  "image": "https://picsum.photos/seed/purifier/800/1000",
+  "description": "Advanced filtration with an organic, fluid design."
 }

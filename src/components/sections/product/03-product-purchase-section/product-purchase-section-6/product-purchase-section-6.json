@@ -1,4 +1,5 @@
 {
-  "title": "Product Purchase Section 6",
-  "description": "Placeholder content for Product Purchase Section 6"
+  "name": "Sonic V2 Earbuds",
+  "price": "$149",
+  "image": "https://picsum.photos/seed/earbuds/800/800"
 }

@@ -1,4 +1,26 @@
 {
-  "title": "Product Purchase Section 12",
-  "description": "Placeholder content for Product Purchase Section 12"
+  "name": "Smart Home Hub",
+  "image": "https://picsum.photos/seed/hub/800/800",
+  "tiers": [
+    {
+      "name": "Starter",
+      "price": "$99",
+      "specs": [
+        "Basic Hub",
+        "2 Sensors",
+        "App Control"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price": "$199",
+      "specs": [
+        "Advanced Hub",
+        "5 Sensors",
+        "Camera",
+        "Cloud AI"
+      ],
+      "popular": true
+    }
+  ]
 }

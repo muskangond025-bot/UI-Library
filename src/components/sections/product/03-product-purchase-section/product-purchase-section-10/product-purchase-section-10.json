@@ -1,4 +1,6 @@
 {
-  "title": "Product Purchase Section 10",
-  "description": "Placeholder content for Product Purchase Section 10"
+  "name": "The Eternity Ring",
+  "price": "$2,450",
+  "description": "Handcrafted in 18k solid gold with pavé-set conflict-free diamonds.",
+  "image": "https://picsum.photos/seed/ring/800/800"
 }

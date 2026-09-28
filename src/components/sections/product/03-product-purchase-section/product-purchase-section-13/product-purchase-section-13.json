@@ -1,4 +1,10 @@
 {
-  "title": "Product Purchase Section 13",
-  "description": "Placeholder content for Product Purchase Section 13"
+  "name": "AirLight Drone",
+  "price": "$1,299",
+  "image": "https://picsum.photos/seed/drone/1600/1000",
+  "specs": [
+    "4K 60fps",
+    "34m Flight Time",
+    "Omnidirectional Obstacle Sensing"
+  ]
 }

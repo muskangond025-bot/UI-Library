@@ -1,4 +1,19 @@
 {
-  "title": "Product Description 18",
-  "description": "Placeholder content for Product Description 18"
+  "cards": [
+    {
+      "title": "Stage 1: The Core",
+      "desc": "Forging the central processing unit.",
+      "color": "bg-blue-600"
+    },
+    {
+      "title": "Stage 2: The Shell",
+      "desc": "Milling the unibody enclosure.",
+      "color": "bg-indigo-600"
+    },
+    {
+      "title": "Stage 3: The Polish",
+      "desc": "Diamond cutting the chamfered edges.",
+      "color": "bg-purple-600"
+    }
+  ]
 }

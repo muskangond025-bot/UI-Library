@@ -1,4 +1,18 @@
 {
-  "title": "Product Information 3",
-  "description": "Placeholder content for Product Information 3"
+  "headline": "The Art of Simplicity.",
+  "paragraphs": [
+    "We stripped away the unnecessary to focus on what truly matters. The result is an object of pure function and beauty.",
+    "Crafted with precision, every curve and edge serves a purpose. The tactile feedback is designed to be deeply satisfying."
+  ],
+  "stats": [
+    {
+      "number": "0.4mm",
+      "label": "Tolerance"
+    },
+    {
+      "number": "100%",
+      "label": "Recycled"
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=1000&auto=format&fit=crop"
 }

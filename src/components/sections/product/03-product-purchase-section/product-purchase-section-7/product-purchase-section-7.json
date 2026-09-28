@@ -1,4 +1,8 @@
 {
-  "title": "Product Purchase Section 7",
-  "description": "Placeholder content for Product Purchase Section 7"
+  "name": "Studio Desk Lamp",
+  "price": "$125.00",
+  "images": [
+    "https://picsum.photos/seed/lamp1/800/1000",
+    "https://picsum.photos/seed/lamp2/800/1000"
+  ]
 }

@@ -1,4 +1,11 @@
 {
-  "title": "Product Purchase Section 11",
-  "description": "Placeholder content for Product Purchase Section 11"
+  "name": "Polaris Soundbar Max",
+  "price": "$899.00",
+  "description": "Room-filling 3D audio enclosed in an acoustic masterpiece.",
+  "image": "https://picsum.photos/seed/soundbar/1920/1080",
+  "features": [
+    "Dolby Atmos",
+    "Wi-Fi Streaming",
+    "Voice Assistant"
+  ]
 }

@@ -1,4 +1,11 @@
 {
-  "title": "Product Purchase Section 18",
-  "description": "Placeholder content for Product Purchase Section 18"
+  "name": "Bamboo Fiber Essential",
+  "price": "$45.00",
+  "description": "Breathable, sustainable, and incredibly soft against the skin.",
+  "image": "https://picsum.photos/seed/eco/800/1000",
+  "colors": [
+    "#d2c6b4",
+    "#8c9b83",
+    "#5c6b73"
+  ]
 }

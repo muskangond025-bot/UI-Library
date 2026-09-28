@@ -1,4 +1,10 @@
 {
-  "title": "Product Purchase Section 2",
-  "description": "Placeholder content for Product Purchase Section 2"
+  "name": "Aura Smartwatch Series X",
+  "price": "$499.00",
+  "description": "Titanium case with sapphire crystal display and advanced health sensors.",
+  "image": "https://picsum.photos/seed/watch1/1200/800",
+  "options": [
+    "41mm",
+    "45mm"
+  ]
 }

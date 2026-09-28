@@ -1,4 +1,17 @@
 {
-  "title": "Product Information 14",
-  "description": "Placeholder content for Product Information 14"
+  "title": "Crystal Clear Quality",
+  "cards": [
+    {
+      "label": "Lens",
+      "icon": "Camera"
+    },
+    {
+      "label": "Sensor",
+      "icon": "Aperture"
+    },
+    {
+      "label": "Focus",
+      "icon": "Focus"
+    }
+  ]
 }

@@ -1,4 +1,19 @@
 {
-  "title": "Product Information 20",
-  "description": "Placeholder content for Product Information 20"
+  "items": [
+    {
+      "title": "Camera",
+      "span": "col-span-1 md:col-span-2 row-span-2",
+      "img": "https://picsum.photos/seed/tech20a/800/800"
+    },
+    {
+      "title": "Battery",
+      "span": "col-span-1 row-span-1",
+      "img": "https://picsum.photos/seed/tech20b/400/400"
+    },
+    {
+      "title": "Screen",
+      "span": "col-span-1 row-span-1",
+      "img": "https://picsum.photos/seed/tech20c/400/400"
+    }
+  ]
 }

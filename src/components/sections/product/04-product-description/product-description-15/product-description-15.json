@@ -1,4 +1,16 @@
 {
-  "title": "Product Description 15",
-  "description": "Placeholder content for Product Description 15"
+  "slices": [
+    {
+      "text": "Breathtaking clarity.",
+      "img": "https://picsum.photos/seed/slice1/1920/400"
+    },
+    {
+      "text": "Infinite contrast.",
+      "img": "https://picsum.photos/seed/slice2/1920/400"
+    },
+    {
+      "text": "True-to-life color.",
+      "img": "https://picsum.photos/seed/slice3/1920/400"
+    }
+  ]
 }

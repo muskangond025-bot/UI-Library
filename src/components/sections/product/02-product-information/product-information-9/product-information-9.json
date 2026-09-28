@@ -1,4 +1,25 @@
 {
-  "title": "Product Information 9",
-  "description": "Placeholder content for Product Information 9"
+  "title": "Discover the Details",
+  "cards": [
+    {
+      "title": "Precision Crafted",
+      "text": "CNC machined chassis for perfect alignment.",
+      "icon": "Crosshair"
+    },
+    {
+      "title": "Thermal Control",
+      "text": "Vapor chamber cooling keeps temps low.",
+      "icon": "Thermometer"
+    },
+    {
+      "title": "Spatial Audio",
+      "text": "Six-speaker sound system with force-cancelling.",
+      "icon": "Volume2"
+    },
+    {
+      "title": "Studio Mics",
+      "text": "Three-mic array with directional beamforming.",
+      "icon": "Mic"
+    }
+  ]
 }

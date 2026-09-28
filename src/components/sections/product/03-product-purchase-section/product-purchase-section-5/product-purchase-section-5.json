@@ -1,4 +1,6 @@
 {
-  "title": "Product Purchase Section 5",
-  "description": "Placeholder content for Product Purchase Section 5"
+  "name": "ErgoChair Pro+",
+  "price": "$699",
+  "description": "Customize your comfort with premium materials.",
+  "image": "https://picsum.photos/seed/chair/800/800"
 }

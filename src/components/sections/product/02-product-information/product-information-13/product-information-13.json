@@ -1,4 +1,17 @@
 {
-  "title": "Product Information 13",
-  "description": "Placeholder content for Product Information 13"
+  "image": "https://picsum.photos/seed/tech13/800/1200",
+  "sections": [
+    {
+      "title": "Design",
+      "content": "Meticulously crafted from a single block of aerospace-grade aluminum. Every edge is diamond-cut."
+    },
+    {
+      "title": "Power",
+      "content": "The new M-series architecture delivers unprecedented performance while maintaining incredible battery life."
+    },
+    {
+      "title": "Display",
+      "content": "A screen so bright and color-accurate, it rivals professional reference monitors."
+    }
+  ]
 }

@@ -1,4 +1,17 @@
 {
-  "title": "Product Description 13",
-  "description": "Placeholder content for Product Description 13"
+  "image": "https://picsum.photos/seed/desc13/800/1200",
+  "details": [
+    {
+      "title": "Aerospace Aluminum",
+      "text": "Machined from a single solid block of Grade 5 Titanium for unmatched durability."
+    },
+    {
+      "title": "Sapphire Crystal",
+      "text": "The display is protected by lab-grown sapphire, making it virtually scratch-proof."
+    },
+    {
+      "title": "Liquid Cooling",
+      "text": "A micro-fluidic chamber dissipates heat instantly, maintaining peak performance."
+    }
+  ]
 }

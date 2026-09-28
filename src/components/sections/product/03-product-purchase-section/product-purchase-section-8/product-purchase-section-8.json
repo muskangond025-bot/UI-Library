@@ -1,4 +1,5 @@
 {
-  "title": "Product Purchase Section 8",
-  "description": "Placeholder content for Product Purchase Section 8"
+  "name": "Nomad Backpack",
+  "price": "$180",
+  "image": "https://picsum.photos/seed/bag/800/1200"
 }

@@ -1,4 +1,7 @@
 {
-  "title": "Product Purchase Section 17",
-  "description": "Placeholder content for Product Purchase Section 17"
+  "name": "Predator X Mouse",
+  "price": "$129",
+  "image": "https://picsum.photos/seed/mouse/800/800",
+  "dpi": "25,600 DPI",
+  "weight": "63g"
 }

@@ -1,4 +1,30 @@
 {
-  "title": "Product Information 2",
-  "description": "Placeholder content for Product Information 2"
+  "title": "Designed for the Future",
+  "description": "Every detail has been meticulously crafted to provide the ultimate user experience.",
+  "features": [
+    {
+      "title": "Aerospace Grade",
+      "text": "Machined from a single block of aluminum.",
+      "span": "col-span-1 md:col-span-2",
+      "img": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "title": "Water Resistant",
+      "text": "IP68 rated for ultimate protection.",
+      "span": "col-span-1",
+      "img": "https://images.unsplash.com/photo-1520615967073-a60965e63442?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "title": "All-Day Battery",
+      "text": "Up to 48 hours of mixed usage.",
+      "span": "col-span-1",
+      "img": "https://images.unsplash.com/photo-1622434641406-a158123450f9?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "title": "Neural Engine",
+      "text": "Powered by advanced AI for real-time processing.",
+      "span": "col-span-1 md:col-span-2",
+      "img": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop"
+    }
+  ]
 }

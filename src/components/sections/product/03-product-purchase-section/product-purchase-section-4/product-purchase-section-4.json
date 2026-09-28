@@ -1,4 +1,13 @@
 {
-  "title": "Product Purchase Section 4",
-  "description": "Placeholder content for Product Purchase Section 4"
+  "name": "The Classic Trench",
+  "price": "$895",
+  "designer": "Studio Collection",
+  "image": "https://picsum.photos/seed/fashion/800/1200",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ]
 }
