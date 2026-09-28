@@ -71,7 +71,7 @@ export function HeroCarousel9({ section }: SectionProps) {
           transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
         />
         <motion.div 
-          className="absolute -bottom-1/4 -left-1/4 w-[100vw] h-[100vw] md:w-[60vw] md:h-[60vw] rounded-full mix-blend-multiply filter blur-[80px]"
+          className="absolute -bottom-1/4 -left-1/4 w-full h-[100vw] md:w-[60vw] md:h-[60vw] rounded-full mix-blend-multiply filter blur-[80px]"
           style={{ backgroundColor: '#000000' }}
           animate={{
             scale: [1, 0.8, 1.2, 0.9, 1],

@@ -1,0 +1,95 @@
+import React from 'react';
+import { homeCategories, productCategories } from './navigationData';
+import { ChevronDown } from 'lucide-react';
+
+interface NavbarProps {
+  activeCategory: string;
+  onSelectCategory: (category: string) => void;
+}
+
+export function SectionLibraryNavbar({ activeCategory, onSelectCategory }: NavbarProps) {
+  const scrollToSection = (id: string, categoryId: string) => {
+    if (activeCategory !== categoryId) {
+      onSelectCategory(categoryId);
+      setTimeout(() => {
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    } else {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
+
+  return (
+    <div className="relative z-[9999] w-full bg-white border-b border-gray-200">
+      <div className="flex items-center px-8 lg:px-12 h-16 w-full max-w-[1600px] mx-auto">
+        <div className="flex items-center gap-12 h-full">
+          <h1 className="text-lg font-bold tracking-tight text-gray-900 uppercase whitespace-nowrap">UI LIBRARY</h1>
+          
+          <nav className="flex items-center gap-8 h-full">
+            {/* HOME Dropdown */}
+            <div className="group relative h-full flex items-center">
+              <button 
+                onClick={() => {
+                  onSelectCategory('home');
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+                className={`flex items-center gap-1 text-sm font-semibold uppercase tracking-wide transition-colors h-full ${
+                  activeCategory === 'home' ? 'text-black' : 'text-gray-400 hover:text-black'
+                }`}
+              >
+                HOME
+                <ChevronDown size={14} className="opacity-50" />
+              </button>
+              
+              <div className="absolute top-full left-0 w-64 bg-white border border-gray-200 shadow-xl rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all flex flex-col py-2 max-h-[70vh] overflow-y-auto z-[10000]">
+                {homeCategories.map((cat) => (
+                  <button
+                    key={cat.id}
+                    onClick={() => scrollToSection(cat.id, 'home')}
+                    className="text-left px-4 py-2 text-xs font-medium text-gray-600 hover:text-black hover:bg-gray-50 uppercase tracking-wider transition-colors"
+                  >
+                    {cat.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* PRODUCT Dropdown */}
+            <div className="group relative h-full flex items-center">
+              <button 
+                onClick={() => {
+                  onSelectCategory('product');
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+                className={`flex items-center gap-1 text-sm font-semibold uppercase tracking-wide transition-colors h-full ${
+                  activeCategory === 'product' ? 'text-black' : 'text-gray-400 hover:text-black'
+                }`}
+              >
+                PRODUCT
+                <ChevronDown size={14} className="opacity-50" />
+              </button>
+              
+              <div className="absolute top-full left-0 w-64 bg-white border border-gray-200 shadow-xl rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all flex flex-col py-2 max-h-[70vh] overflow-y-auto z-[10000]">
+                {productCategories.map((cat) => (
+                  <button
+                    key={cat.id}
+                    onClick={() => scrollToSection(cat.id, 'product')}
+                    className="text-left px-4 py-2 text-xs font-medium text-gray-600 hover:text-black hover:bg-gray-50 uppercase tracking-wider transition-colors"
+                  >
+                    {cat.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  );
+}

@@ -43,7 +43,7 @@ export function FlashSale11({ section }: FlashSale11Props) {
         <motion.div 
           animate={{ rotate: -360, scale: [1, 1.5, 1] }}
           transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
-          className="absolute w-[100vw] h-[100vw] border-[50px] border-dashed rounded-full"
+          className="absolute w-full h-[100vw] border-[50px] border-dashed rounded-full"
           style={{ borderColor: style.accentColor }}
         />
       </div>

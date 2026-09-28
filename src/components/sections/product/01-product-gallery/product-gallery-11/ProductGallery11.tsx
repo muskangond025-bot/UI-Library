@@ -6,8 +6,8 @@ export default function ProductGallery11({ data }: { data: any }) {
     'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200&q=80',
     'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1200&q=80',
     'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&q=80',
-    'https://images.unsplash.com/photo-1546435770-a3e426fa03bd?w=1200&q=80',
-    'https://images.unsplash.com/photo-1583394838173-6143b40d6cda?w=1200&q=80'
+    'https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=1200&q=80',
+    'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=1200&q=80'
   ];
 
   return (

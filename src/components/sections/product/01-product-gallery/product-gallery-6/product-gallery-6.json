@@ -4,11 +4,11 @@
   "type": "product-gallery",
   "settings": {
     "images": [
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&q=80",
-      "https://images.unsplash.com/photo-1546435770-a3e426fa03bd?w=1200&q=80",
-      "https://images.unsplash.com/photo-1583394838173-6143b40d6cda?w=1200&q=80",
       "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=1200&q=80",
-      "https://images.unsplash.com/photo-1528702748617-c64d49e9cb99?w=1200&q=80"
+      "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=1200&q=80",
+      "https://images.unsplash.com/photo-1504274066651-8d31a536b11a?w=1200&q=80",
+      "https://images.unsplash.com/photo-1627384113972-f4c0392fe5aa?w=1200&q=80",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&q=80"
     ]
   },
   "description": "Asymmetric Split Layout (text details left, gallery grid right)"

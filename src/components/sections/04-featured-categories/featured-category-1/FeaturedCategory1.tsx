@@ -35,7 +35,7 @@ export function FeaturedCategory1({ section }: FeaturedCategoryProps) {
       {/* Header Section */}
       <div 
         ref={headerRef}
-        className="w-full max-w-[100vw] px-6 md:px-12 lg:px-24 mb-16 flex flex-col md:flex-row justify-between items-start md:items-end gap-6 z-10"
+        className="w-full max-w-full px-6 md:px-12 lg:px-24 mb-16 flex flex-col md:flex-row justify-between items-start md:items-end gap-6 z-10"
       >
         <div className="flex flex-col gap-2">
           <motion.span 

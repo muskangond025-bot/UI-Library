@@ -85,7 +85,7 @@ export default function SplitImage8({ data }: SplitImage8Props) {
         />
         <div className="absolute inset-0 bg-black/20" />
 
-        <div className="absolute top-1/2 left-[10%] -translate-y-1/2 text-left z-10 w-screen">
+        <div className="absolute top-1/2 left-[10%] -translate-y-1/2 text-left z-10 w-full">
           <h2 className="text-6xl md:text-8xl lg:text-9xl font-bold uppercase tracking-tighter text-white drop-shadow-2xl">
             {data.content.leftPanel.heading}
           </h2>

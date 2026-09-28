@@ -156,7 +156,7 @@ export function Banner16({ section }: SectionProps) {
               style={{ width: `${sliceWidth}%` }}
             >
               <div 
-                className="absolute top-0 h-full w-[100vw] filter grayscale contrast-125"
+                className="absolute top-0 h-full w-full filter grayscale contrast-125"
                 style={{ 
                   left: `-${i * 100}%`,
                   backgroundImage: `url(${settings?.images?.[0]?.src})`,
