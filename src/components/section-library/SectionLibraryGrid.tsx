@@ -1,1043 +1,1043 @@
 import React from 'react';
 import { SectionLibraryCard } from './SectionLibraryCard';
-import FeaturedProductTab1 from '../FeaturedProductTab/featured-product-tab-1/FeaturedProductTab1';
-import featuredProductTab1Data from '../FeaturedProductTab/featured-product-tab-1/featured-product-tab-1.json';
-import FeaturedProductTab2 from '../FeaturedProductTab/featured-product-tab-2/FeaturedProductTab2';
-import featuredProductTab2Data from '../FeaturedProductTab/featured-product-tab-2/featured-product-tab-2.json';
-import FeaturedProductTab3 from '../FeaturedProductTab/featured-product-tab-3/FeaturedProductTab3';
-import featuredProductTab3Data from '../FeaturedProductTab/featured-product-tab-3/featured-product-tab-3.json';
-import FeaturedProductTab4 from '../FeaturedProductTab/featured-product-tab-4/FeaturedProductTab4';
-import featuredProductTab4Data from '../FeaturedProductTab/featured-product-tab-4/featured-product-tab-4.json';
-import FeaturedProductTab5 from '../FeaturedProductTab/featured-product-tab-5/FeaturedProductTab5';
-import featuredProductTab5Data from '../FeaturedProductTab/featured-product-tab-5/featured-product-tab-5.json';
-import FeaturedProductTab6 from '../FeaturedProductTab/featured-product-tab-6/FeaturedProductTab6';
-import featuredProductTab6Data from '../FeaturedProductTab/featured-product-tab-6/featured-product-tab-6.json';
-import FeaturedProductTab7 from '../FeaturedProductTab/featured-product-tab-7/FeaturedProductTab7';
-import featuredProductTab7Data from '../FeaturedProductTab/featured-product-tab-7/featured-product-tab-7.json';
-import FeaturedProductTab8 from '../FeaturedProductTab/featured-product-tab-8/FeaturedProductTab8';
-import featuredProductTab8Data from '../FeaturedProductTab/featured-product-tab-8/featured-product-tab-8.json';
-import FeaturedProductTab9 from '../FeaturedProductTab/featured-product-tab-9/FeaturedProductTab9';
-import featuredProductTab9Data from '../FeaturedProductTab/featured-product-tab-9/featured-product-tab-9.json';
-import FeaturedProductTab10 from '../FeaturedProductTab/featured-product-tab-10/FeaturedProductTab10';
-import featuredProductTab10Data from '../FeaturedProductTab/featured-product-tab-10/featured-product-tab-10.json';
-import FeaturedProductTab11 from '../FeaturedProductTab/featured-product-tab-11/FeaturedProductTab11';
-import featuredProductTab11Data from '../FeaturedProductTab/featured-product-tab-11/featured-product-tab-11.json';
-import FeaturedProductTab12 from '../FeaturedProductTab/featured-product-tab-12/FeaturedProductTab12';
-import featuredProductTab12Data from '../FeaturedProductTab/featured-product-tab-12/featured-product-tab-12.json';
-import FeaturedProductTab13 from '../FeaturedProductTab/featured-product-tab-13/FeaturedProductTab13';
-import featuredProductTab13Data from '../FeaturedProductTab/featured-product-tab-13/featured-product-tab-13.json';
-import FeaturedProductTab14 from '../FeaturedProductTab/featured-product-tab-14/FeaturedProductTab14';
-import featuredProductTab14Data from '../FeaturedProductTab/featured-product-tab-14/featured-product-tab-14.json';
-import FeaturedProductTab15 from '../FeaturedProductTab/featured-product-tab-15/FeaturedProductTab15';
-import featuredProductTab15Data from '../FeaturedProductTab/featured-product-tab-15/featured-product-tab-15.json';
-import FeaturedProductTab16 from '../FeaturedProductTab/featured-product-tab-16/FeaturedProductTab16';
-import featuredProductTab16Data from '../FeaturedProductTab/featured-product-tab-16/featured-product-tab-16.json';
-import FeaturedProductTab17 from '../FeaturedProductTab/featured-product-tab-17/FeaturedProductTab17';
-import featuredProductTab17Data from '../FeaturedProductTab/featured-product-tab-17/featured-product-tab-17.json';
-import FeaturedProductTab18 from '../FeaturedProductTab/featured-product-tab-18/FeaturedProductTab18';
-import featuredProductTab18Data from '../FeaturedProductTab/featured-product-tab-18/featured-product-tab-18.json';
-import FeaturedProductTab19 from '../FeaturedProductTab/featured-product-tab-19/FeaturedProductTab19';
-import featuredProductTab19Data from '../FeaturedProductTab/featured-product-tab-19/featured-product-tab-19.json';
-import FeaturedProductTab20 from '../FeaturedProductTab/featured-product-tab-20/FeaturedProductTab20';
-import featuredProductTab20Data from '../FeaturedProductTab/featured-product-tab-20/featured-product-tab-20.json';
-import ImageText1 from '../ImageText/image-text-1/ImageText1';
-import imageText1Data from '../ImageText/image-text-1/image-text-1.json';
-import ImageText2 from '../ImageText/image-text-2/ImageText2';
-import imageText2Data from '../ImageText/image-text-2/image-text-2.json';
-import ImageText3 from '../ImageText/image-text-3/ImageText3';
-import imageText3Data from '../ImageText/image-text-3/image-text-3.json';
-import ImageText4 from '../ImageText/image-text-4/ImageText4';
-import imageText4Data from '../ImageText/image-text-4/image-text-4.json';
-import ImageText5 from '../ImageText/image-text-5/ImageText5';
-import imageText5Data from '../ImageText/image-text-5/image-text-5.json';
-import ImageText6 from '../ImageText/image-text-6/ImageText6';
-import imageText6Data from '../ImageText/image-text-6/image-text-6.json';
-import ImageText7 from '../ImageText/image-text-7/ImageText7';
-import imageText7Data from '../ImageText/image-text-7/image-text-7.json';
-import ImageText8 from '../ImageText/image-text-8/ImageText8';
-import imageText8Data from '../ImageText/image-text-8/image-text-8.json';
-import ImageText9 from '../ImageText/image-text-9/ImageText9';
-import imageText9Data from '../ImageText/image-text-9/image-text-9.json';
-import ImageText10 from '../ImageText/image-text-10/ImageText10';
-import imageText10Data from '../ImageText/image-text-10/image-text-10.json';
-import ImageText11 from '../ImageText/image-text-11/ImageText11';
-import imageText11Data from '../ImageText/image-text-11/image-text-11.json';
-import ImageText12 from '../ImageText/image-text-12/ImageText12';
-import imageText12Data from '../ImageText/image-text-12/image-text-12.json';
-import ImageText13 from '../ImageText/image-text-13/ImageText13';
-import imageText13Data from '../ImageText/image-text-13/image-text-13.json';
-import ImageText14 from '../ImageText/image-text-14/ImageText14';
-import imageText14Data from '../ImageText/image-text-14/image-text-14.json';
-import ImageText15 from '../ImageText/image-text-15/ImageText15';
-import imageText15Data from '../ImageText/image-text-15/image-text-15.json';
-import ImageText16 from '../ImageText/image-text-16/ImageText16';
-import imageText16Data from '../ImageText/image-text-16/image-text-16.json';
-import ImageText17 from '../ImageText/image-text-17/ImageText17';
-import imageText17Data from '../ImageText/image-text-17/image-text-17.json';
-import ImageText18 from '../ImageText/image-text-18/ImageText18';
-import imageText18Data from '../ImageText/image-text-18/image-text-18.json';
-import ImageText19 from '../ImageText/image-text-19/ImageText19';
-import imageText19Data from '../ImageText/image-text-19/image-text-19.json';
-import ImageText20 from '../ImageText/image-text-20/ImageText20';
-import imageText20Data from '../ImageText/image-text-20/image-text-20.json';
-import SplitImage1 from '../SplitImage/split-image-1/SplitImage1';
-import splitImage1Data from '../SplitImage/split-image-1/split-image-1.json';
-import SplitImage2 from '../SplitImage/split-image-2/SplitImage2';
-import splitImage2Data from '../SplitImage/split-image-2/split-image-2.json';
-import SplitImage3 from '../SplitImage/split-image-3/SplitImage3';
-import splitImage3Data from '../SplitImage/split-image-3/split-image-3.json';
-import SplitImage4 from '../SplitImage/split-image-4/SplitImage4';
-import splitImage4Data from '../SplitImage/split-image-4/split-image-4.json';
-import SplitImage5 from '../SplitImage/split-image-5/SplitImage5';
-import splitImage5Data from '../SplitImage/split-image-5/split-image-5.json';
-import SplitImage6 from '../SplitImage/split-image-6/SplitImage6';
-import splitImage6Data from '../SplitImage/split-image-6/split-image-6.json';
-import SplitImage7 from '../SplitImage/split-image-7/SplitImage7';
-import splitImage7Data from '../SplitImage/split-image-7/split-image-7.json';
-import SplitImage8 from '../SplitImage/split-image-8/SplitImage8';
-import splitImage8Data from '../SplitImage/split-image-8/split-image-8.json';
-import SplitImage9 from '../SplitImage/split-image-9/SplitImage9';
-import splitImage9Data from '../SplitImage/split-image-9/split-image-9.json';
-import SplitImage10 from '../SplitImage/split-image-10/SplitImage10';
-import splitImage10Data from '../SplitImage/split-image-10/split-image-10.json';
-import SplitImage11 from '../SplitImage/split-image-11/SplitImage11';
-import splitImage11Data from '../SplitImage/split-image-11/split-image-11.json';
-import SplitImage12 from '../SplitImage/split-image-12/SplitImage12';
-import splitImage12Data from '../SplitImage/split-image-12/split-image-12.json';
-import SplitImage13 from '../SplitImage/split-image-13/SplitImage13';
-import splitImage13Data from '../SplitImage/split-image-13/split-image-13.json';
-import SplitImage14 from '../SplitImage/split-image-14/SplitImage14';
-import splitImage14Data from '../SplitImage/split-image-14/split-image-14.json';
-import SplitImage15 from '../SplitImage/split-image-15/SplitImage15';
-import splitImage15Data from '../SplitImage/split-image-15/split-image-15.json';
-import SplitImage16 from '../SplitImage/split-image-16/SplitImage16';
-import splitImage16Data from '../SplitImage/split-image-16/split-image-16.json';
-import SplitImage17 from '../SplitImage/split-image-17/SplitImage17';
-import splitImage17Data from '../SplitImage/split-image-17/split-image-17.json';
-import SplitImage18 from '../SplitImage/split-image-18/SplitImage18';
-import splitImage18Data from '../SplitImage/split-image-18/split-image-18.json';
-import SplitImage19 from '../SplitImage/split-image-19/SplitImage19';
-import splitImage19Data from '../SplitImage/split-image-19/split-image-19.json';
-import SplitImage20 from '../SplitImage/split-image-20/SplitImage20';
-import splitImage20Data from '../SplitImage/split-image-20/split-image-20.json';
-import PromoCard1 from '../PromotionalCards/promo-card-1/PromoCard1';
-import promoCard1Data from '../PromotionalCards/promo-card-1/promo-card-1.json';
-import PromoCard2 from '../PromotionalCards/promo-card-2/PromoCard2';
-import promoCard2Data from '../PromotionalCards/promo-card-2/promo-card-2.json';
-import PromoCard3 from '../PromotionalCards/promo-card-3/PromoCard3';
-import promoCard3Data from '../PromotionalCards/promo-card-3/promo-card-3.json';
-import PromoCard4 from '../PromotionalCards/promo-card-4/PromoCard4';
-import promoCard4Data from '../PromotionalCards/promo-card-4/promo-card-4.json';
-import PromoCard5 from '../PromotionalCards/promo-card-5/PromoCard5';
-import promoCard5Data from '../PromotionalCards/promo-card-5/promo-card-5.json';
-import PromoCard6 from '../PromotionalCards/promo-card-6/PromoCard6';
-import promoCard6Data from '../PromotionalCards/promo-card-6/promo-card-6.json';
-import PromoCard7 from '../PromotionalCards/promo-card-7/PromoCard7';
-import promoCard7Data from '../PromotionalCards/promo-card-7/promo-card-7.json';
-import PromoCard8 from '../PromotionalCards/promo-card-8/PromoCard8';
-import promoCard8Data from '../PromotionalCards/promo-card-8/promo-card-8.json';
-import PromoCard9 from '../PromotionalCards/promo-card-9/PromoCard9';
-import promoCard9Data from '../PromotionalCards/promo-card-9/promo-card-9.json';
-import PromoCard10 from '../PromotionalCards/promo-card-10/PromoCard10';
-import promoCard10Data from '../PromotionalCards/promo-card-10/promo-card-10.json';
-import PromoCard11 from '../PromotionalCards/promo-card-11/PromoCard11';
-import promoCard11Data from '../PromotionalCards/promo-card-11/promo-card-11.json';
-import PromoCard12 from '../PromotionalCards/promo-card-12/PromoCard12';
-import promoCard12Data from '../PromotionalCards/promo-card-12/promo-card-12.json';
-import PromoCard13 from '../PromotionalCards/promo-card-13/PromoCard13';
-import promoCard13Data from '../PromotionalCards/promo-card-13/promo-card-13.json';
-import PromoCard14 from '../PromotionalCards/promo-card-14/PromoCard14';
-import promoCard14Data from '../PromotionalCards/promo-card-14/promo-card-14.json';
-import PromoCard15 from '../PromotionalCards/promo-card-15/PromoCard15';
-import promoCard15Data from '../PromotionalCards/promo-card-15/promo-card-15.json';
-import PromoCard16 from '../PromotionalCards/promo-card-16/PromoCard16';
-import promoCard16Data from '../PromotionalCards/promo-card-16/promo-card-16.json';
-import PromoCard17 from '../PromotionalCards/promo-card-17/PromoCard17';
-import promoCard17Data from '../PromotionalCards/promo-card-17/promo-card-17.json';
-import PromoCard18 from '../PromotionalCards/promo-card-18/PromoCard18';
-import promoCard18Data from '../PromotionalCards/promo-card-18/promo-card-18.json';
-import PromoCard19 from '../PromotionalCards/promo-card-19/PromoCard19';
-import promoCard19Data from '../PromotionalCards/promo-card-19/promo-card-19.json';
-import PromoCard20 from '../PromotionalCards/promo-card-20/PromoCard20';
-import promoCard20Data from '../PromotionalCards/promo-card-20/promo-card-20.json';
-import WhyChooseUs1 from '../WhyChooseUs/why-choose-us-1/WhyChooseUs1';
-import whyChooseUs1Data from '../WhyChooseUs/why-choose-us-1/why-choose-us-1.json';
-import WhyChooseUs2 from '../WhyChooseUs/why-choose-us-2/WhyChooseUs2';
-import whyChooseUs2Data from '../WhyChooseUs/why-choose-us-2/why-choose-us-2.json';
-import WhyChooseUs3 from '../WhyChooseUs/why-choose-us-3/WhyChooseUs3';
-import whyChooseUs3Data from '../WhyChooseUs/why-choose-us-3/why-choose-us-3.json';
-import WhyChooseUs4 from '../WhyChooseUs/why-choose-us-4/WhyChooseUs4';
-import whyChooseUs4Data from '../WhyChooseUs/why-choose-us-4/why-choose-us-4.json';
-import WhyChooseUs5 from '../WhyChooseUs/why-choose-us-5/WhyChooseUs5';
-import whyChooseUs5Data from '../WhyChooseUs/why-choose-us-5/why-choose-us-5.json';
-import WhyChooseUs6 from '../WhyChooseUs/why-choose-us-6/WhyChooseUs6';
-import whyChooseUs6Data from '../WhyChooseUs/why-choose-us-6/why-choose-us-6.json';
-import WhyChooseUs7 from '../WhyChooseUs/why-choose-us-7/WhyChooseUs7';
-import whyChooseUs7Data from '../WhyChooseUs/why-choose-us-7/why-choose-us-7.json';
-import WhyChooseUs8 from '../WhyChooseUs/why-choose-us-8/WhyChooseUs8';
-import whyChooseUs8Data from '../WhyChooseUs/why-choose-us-8/why-choose-us-8.json';
-import WhyChooseUs9 from '../WhyChooseUs/why-choose-us-9/WhyChooseUs9';
-import whyChooseUs9Data from '../WhyChooseUs/why-choose-us-9/why-choose-us-9.json';
-import WhyChooseUs10 from '../WhyChooseUs/why-choose-us-10/WhyChooseUs10';
-import whyChooseUs10Data from '../WhyChooseUs/why-choose-us-10/why-choose-us-10.json';
-import WhyChooseUs11 from '../WhyChooseUs/why-choose-us-11/WhyChooseUs11';
-import whyChooseUs11Data from '../WhyChooseUs/why-choose-us-11/why-choose-us-11.json';
-import WhyChooseUs12 from '../WhyChooseUs/why-choose-us-12/WhyChooseUs12';
-import whyChooseUs12Data from '../WhyChooseUs/why-choose-us-12/why-choose-us-12.json';
-import WhyChooseUs13 from '../WhyChooseUs/why-choose-us-13/WhyChooseUs13';
-import whyChooseUs13Data from '../WhyChooseUs/why-choose-us-13/why-choose-us-13.json';
-import WhyChooseUs14 from '../WhyChooseUs/why-choose-us-14/WhyChooseUs14';
-import whyChooseUs14Data from '../WhyChooseUs/why-choose-us-14/why-choose-us-14.json';
-import WhyChooseUs15 from '../WhyChooseUs/why-choose-us-15/WhyChooseUs15';
-import whyChooseUs15Data from '../WhyChooseUs/why-choose-us-15/why-choose-us-15.json';
-import WhyChooseUs16 from '../WhyChooseUs/why-choose-us-16/WhyChooseUs16';
-import whyChooseUs16Data from '../WhyChooseUs/why-choose-us-16/why-choose-us-16.json';
-import WhyChooseUs17 from '../WhyChooseUs/why-choose-us-17/WhyChooseUs17';
-import whyChooseUs17Data from '../WhyChooseUs/why-choose-us-17/why-choose-us-17.json';
-import WhyChooseUs18 from '../WhyChooseUs/why-choose-us-18/WhyChooseUs18';
-import whyChooseUs18Data from '../WhyChooseUs/why-choose-us-18/why-choose-us-18.json';
-import WhyChooseUs19 from '../WhyChooseUs/why-choose-us-19/WhyChooseUs19';
-import whyChooseUs19Data from '../WhyChooseUs/why-choose-us-19/why-choose-us-19.json';
-import WhyChooseUs20 from '../WhyChooseUs/why-choose-us-20/WhyChooseUs20';
-import whyChooseUs20Data from '../WhyChooseUs/why-choose-us-20/why-choose-us-20.json';
-import BrandShowcase1 from '../BrandShowcase/brand-showcase-1/BrandShowcase1';
-import brandShowcase1Data from '../BrandShowcase/brand-showcase-1/brand-showcase-1.json';
-import BrandShowcase2 from '../BrandShowcase/brand-showcase-2/BrandShowcase2';
-import brandShowcase2Data from '../BrandShowcase/brand-showcase-2/brand-showcase-2.json';
-import BrandShowcase3 from '../BrandShowcase/brand-showcase-3/BrandShowcase3';
-import brandShowcase3Data from '../BrandShowcase/brand-showcase-3/brand-showcase-3.json';
-import BrandShowcase4 from '../BrandShowcase/brand-showcase-4/BrandShowcase4';
-import brandShowcase4Data from '../BrandShowcase/brand-showcase-4/brand-showcase-4.json';
-import BrandShowcase5 from '../BrandShowcase/brand-showcase-5/BrandShowcase5';
-import brandShowcase5Data from '../BrandShowcase/brand-showcase-5/brand-showcase-5.json';
-import BrandShowcase6 from '../BrandShowcase/brand-showcase-6/BrandShowcase6';
-import brandShowcase6Data from '../BrandShowcase/brand-showcase-6/brand-showcase-6.json';
-import BrandShowcase7 from '../BrandShowcase/brand-showcase-7/BrandShowcase7';
-import brandShowcase7Data from '../BrandShowcase/brand-showcase-7/brand-showcase-7.json';
-import BrandShowcase8 from '../BrandShowcase/brand-showcase-8/BrandShowcase8';
-import brandShowcase8Data from '../BrandShowcase/brand-showcase-8/brand-showcase-8.json';
-import BrandShowcase9 from '../BrandShowcase/brand-showcase-9/BrandShowcase9';
-import brandShowcase9Data from '../BrandShowcase/brand-showcase-9/brand-showcase-9.json';
-import BrandShowcase10 from '../BrandShowcase/brand-showcase-10/BrandShowcase10';
-import brandShowcase10Data from '../BrandShowcase/brand-showcase-10/brand-showcase-10.json';
-import BrandShowcase11 from '../BrandShowcase/brand-showcase-11/BrandShowcase11';
-import brandShowcase11Data from '../BrandShowcase/brand-showcase-11/brand-showcase-11.json';
-import BrandShowcase12 from '../BrandShowcase/brand-showcase-12/BrandShowcase12';
-import brandShowcase12Data from '../BrandShowcase/brand-showcase-12/brand-showcase-12.json';
-import BrandShowcase13 from '../BrandShowcase/brand-showcase-13/BrandShowcase13';
-import brandShowcase13Data from '../BrandShowcase/brand-showcase-13/brand-showcase-13.json';
-import BrandShowcase14 from '../BrandShowcase/brand-showcase-14/BrandShowcase14';
-import brandShowcase14Data from '../BrandShowcase/brand-showcase-14/brand-showcase-14.json';
-import BrandShowcase15 from '../BrandShowcase/brand-showcase-15/BrandShowcase15';
-import brandShowcase15Data from '../BrandShowcase/brand-showcase-15/brand-showcase-15.json';
-import BrandShowcase16 from '../BrandShowcase/brand-showcase-16/BrandShowcase16';
-import brandShowcase16Data from '../BrandShowcase/brand-showcase-16/brand-showcase-16.json';
-import BrandShowcase17 from '../BrandShowcase/brand-showcase-17/BrandShowcase17';
-import brandShowcase17Data from '../BrandShowcase/brand-showcase-17/brand-showcase-17.json';
-import BrandShowcase18 from '../BrandShowcase/brand-showcase-18/BrandShowcase18';
-import brandShowcase18Data from '../BrandShowcase/brand-showcase-18/brand-showcase-18.json';
-import BrandShowcase19 from '../BrandShowcase/brand-showcase-19/BrandShowcase19';
-import brandShowcase19Data from '../BrandShowcase/brand-showcase-19/brand-showcase-19.json';
-import BrandShowcase20 from '../BrandShowcase/brand-showcase-20/BrandShowcase20';
-import brandShowcase20Data from '../BrandShowcase/brand-showcase-20/brand-showcase-20.json';
-import Testimonial1 from '../Testimonial/testimonial-1/Testimonial1';
-import testimonial1Data from '../Testimonial/testimonial-1/testimonial-1.json';
-import Testimonial2 from '../Testimonial/testimonial-2/Testimonial2';
-import testimonial2Data from '../Testimonial/testimonial-2/testimonial-2.json';
-import Testimonial3 from '../Testimonial/testimonial-3/Testimonial3';
-import testimonial3Data from '../Testimonial/testimonial-3/testimonial-3.json';
-import Testimonial4 from '../Testimonial/testimonial-4/Testimonial4';
-import testimonial4Data from '../Testimonial/testimonial-4/testimonial-4.json';
-import Testimonial5 from '../Testimonial/testimonial-5/Testimonial5';
-import testimonial5Data from '../Testimonial/testimonial-5/testimonial-5.json';
-import Testimonial6 from '../Testimonial/testimonial-6/Testimonial6';
-import testimonial6Data from '../Testimonial/testimonial-6/testimonial-6.json';
-import Testimonial7 from '../Testimonial/testimonial-7/Testimonial7';
-import testimonial7Data from '../Testimonial/testimonial-7/testimonial-7.json';
-import Testimonial8 from '../Testimonial/testimonial-8/Testimonial8';
-import testimonial8Data from '../Testimonial/testimonial-8/testimonial-8.json';
-import Testimonial9 from '../Testimonial/testimonial-9/Testimonial9';
-import testimonial9Data from '../Testimonial/testimonial-9/testimonial-9.json';
-import Testimonial10 from '../Testimonial/testimonial-10/Testimonial10';
-import testimonial10Data from '../Testimonial/testimonial-10/testimonial-10.json';
-import Testimonial11 from '../Testimonial/testimonial-11/Testimonial11';
-import testimonial11Data from '../Testimonial/testimonial-11/testimonial-11.json';
-import Testimonial12 from '../Testimonial/testimonial-12/Testimonial12';
-import testimonial12Data from '../Testimonial/testimonial-12/testimonial-12.json';
-import Testimonial13 from '../Testimonial/testimonial-13/Testimonial13';
-import testimonial13Data from '../Testimonial/testimonial-13/testimonial-13.json';
-import Testimonial14 from '../Testimonial/testimonial-14/Testimonial14';
-import testimonial14Data from '../Testimonial/testimonial-14/testimonial-14.json';
-import Testimonial15 from '../Testimonial/testimonial-15/Testimonial15';
-import testimonial15Data from '../Testimonial/testimonial-15/testimonial-15.json';
-import Testimonial16 from '../Testimonial/testimonial-16/Testimonial16';
-import testimonial16Data from '../Testimonial/testimonial-16/testimonial-16.json';
-import Testimonial17 from '../Testimonial/testimonial-17/Testimonial17';
-import testimonial17Data from '../Testimonial/testimonial-17/testimonial-17.json';
-import Testimonial18 from '../Testimonial/testimonial-18/Testimonial18';
-import testimonial18Data from '../Testimonial/testimonial-18/testimonial-18.json';
-import Testimonial19 from '../Testimonial/testimonial-19/Testimonial19';
-import testimonial19Data from '../Testimonial/testimonial-19/testimonial-19.json';
-import Testimonial20 from '../Testimonial/testimonial-20/Testimonial20';
-import testimonial20Data from '../Testimonial/testimonial-20/testimonial-20.json';
-import CustomerReview1 from '../CustomerReview/customer-review-1/CustomerReview1';
-import customerReview1Data from '../CustomerReview/customer-review-1/customer-review-1.json';
-import CustomerReview2 from '../CustomerReview/customer-review-2/CustomerReview2';
-import customerReview2Data from '../CustomerReview/customer-review-2/customer-review-2.json';
-import CustomerReview3 from '../CustomerReview/customer-review-3/CustomerReview3';
-import customerReview3Data from '../CustomerReview/customer-review-3/customer-review-3.json';
-import CustomerReview4 from '../CustomerReview/customer-review-4/CustomerReview4';
-import customerReview4Data from '../CustomerReview/customer-review-4/customer-review-4.json';
-import CustomerReview5 from '../CustomerReview/customer-review-5/CustomerReview5';
-import customerReview5Data from '../CustomerReview/customer-review-5/customer-review-5.json';
-import CustomerReview6 from '../CustomerReview/customer-review-6/CustomerReview6';
-import customerReview6Data from '../CustomerReview/customer-review-6/customer-review-6.json';
-import CustomerReview7 from '../CustomerReview/customer-review-7/CustomerReview7';
-import customerReview7Data from '../CustomerReview/customer-review-7/customer-review-7.json';
-import CustomerReview8 from '../CustomerReview/customer-review-8/CustomerReview8';
-import customerReview8Data from '../CustomerReview/customer-review-8/customer-review-8.json';
-import CustomerReview9 from '../CustomerReview/customer-review-9/CustomerReview9';
-import customerReview9Data from '../CustomerReview/customer-review-9/customer-review-9.json';
-import CustomerReview10 from '../CustomerReview/customer-review-10/CustomerReview10';
-import customerReview10Data from '../CustomerReview/customer-review-10/customer-review-10.json';
-import CustomerReview11 from '../CustomerReview/customer-review-11/CustomerReview11';
-import customerReview11Data from '../CustomerReview/customer-review-11/customer-review-11.json';
-import CustomerReview12 from '../CustomerReview/customer-review-12/CustomerReview12';
-import customerReview12Data from '../CustomerReview/customer-review-12/customer-review-12.json';
-import CustomerReview13 from '../CustomerReview/customer-review-13/CustomerReview13';
-import customerReview13Data from '../CustomerReview/customer-review-13/customer-review-13.json';
-import CustomerReview14 from '../CustomerReview/customer-review-14/CustomerReview14';
-import customerReview14Data from '../CustomerReview/customer-review-14/customer-review-14.json';
-import CustomerReview15 from '../CustomerReview/customer-review-15/CustomerReview15';
-import customerReview15Data from '../CustomerReview/customer-review-15/customer-review-15.json';
-import CustomerReview16 from '../CustomerReview/customer-review-16/CustomerReview16';
-import customerReview16Data from '../CustomerReview/customer-review-16/customer-review-16.json';
-import CustomerReview17 from '../CustomerReview/customer-review-17/CustomerReview17';
-import customerReview17Data from '../CustomerReview/customer-review-17/customer-review-17.json';
-import CustomerReview18 from '../CustomerReview/customer-review-18/CustomerReview18';
-import customerReview18Data from '../CustomerReview/customer-review-18/customer-review-18.json';
-import CustomerReview19 from '../CustomerReview/customer-review-19/CustomerReview19';
-import customerReview19Data from '../CustomerReview/customer-review-19/customer-review-19.json';
-import CustomerReview20 from '../CustomerReview/customer-review-20/CustomerReview20';
-import customerReview20Data from '../CustomerReview/customer-review-20/customer-review-20.json';
-import VideoShowcase1 from '../VideoShowcase/video-showcase-1/VideoShowcase1';
-import videoShowcase1Data from '../VideoShowcase/video-showcase-1/video-showcase-1.json';
-import VideoShowcase2 from '../VideoShowcase/video-showcase-2/VideoShowcase2';
-import videoShowcase2Data from '../VideoShowcase/video-showcase-2/video-showcase-2.json';
-import VideoShowcase3 from '../VideoShowcase/video-showcase-3/VideoShowcase3';
-import videoShowcase3Data from '../VideoShowcase/video-showcase-3/video-showcase-3.json';
-import VideoShowcase4 from '../VideoShowcase/video-showcase-4/VideoShowcase4';
-import videoShowcase4Data from '../VideoShowcase/video-showcase-4/video-showcase-4.json';
-import VideoShowcase5 from '../VideoShowcase/video-showcase-5/VideoShowcase5';
-import videoShowcase5Data from '../VideoShowcase/video-showcase-5/video-showcase-5.json';
-import VideoShowcase6 from '../VideoShowcase/video-showcase-6/VideoShowcase6';
-import videoShowcase6Data from '../VideoShowcase/video-showcase-6/video-showcase-6.json';
-import VideoShowcase7 from '../VideoShowcase/video-showcase-7/VideoShowcase7';
-import videoShowcase7Data from '../VideoShowcase/video-showcase-7/video-showcase-7.json';
-import VideoShowcase8 from '../VideoShowcase/video-showcase-8/VideoShowcase8';
-import videoShowcase8Data from '../VideoShowcase/video-showcase-8/video-showcase-8.json';
-import VideoShowcase9 from '../VideoShowcase/video-showcase-9/VideoShowcase9';
-import videoShowcase9Data from '../VideoShowcase/video-showcase-9/video-showcase-9.json';
-import VideoShowcase10 from '../VideoShowcase/video-showcase-10/VideoShowcase10';
-import videoShowcase10Data from '../VideoShowcase/video-showcase-10/video-showcase-10.json';
-import VideoShowcase11 from '../VideoShowcase/video-showcase-11/VideoShowcase11';
-import videoShowcase11Data from '../VideoShowcase/video-showcase-11/video-showcase-11.json';
-import VideoShowcase12 from '../VideoShowcase/video-showcase-12/VideoShowcase12';
-import videoShowcase12Data from '../VideoShowcase/video-showcase-12/video-showcase-12.json';
-import VideoShowcase13 from '../VideoShowcase/video-showcase-13/VideoShowcase13';
-import videoShowcase13Data from '../VideoShowcase/video-showcase-13/video-showcase-13.json';
-import VideoShowcase14 from '../VideoShowcase/video-showcase-14/VideoShowcase14';
-import videoShowcase14Data from '../VideoShowcase/video-showcase-14/video-showcase-14.json';
-import VideoShowcase15 from '../VideoShowcase/video-showcase-15/VideoShowcase15';
-import videoShowcase15Data from '../VideoShowcase/video-showcase-15/video-showcase-15.json';
-import VideoShowcase16 from '../VideoShowcase/video-showcase-16/VideoShowcase16';
-import videoShowcase16Data from '../VideoShowcase/video-showcase-16/video-showcase-16.json';
-import VideoShowcase17 from '../VideoShowcase/video-showcase-17/VideoShowcase17';
-import videoShowcase17Data from '../VideoShowcase/video-showcase-17/video-showcase-17.json';
-import VideoShowcase18 from '../VideoShowcase/video-showcase-18/VideoShowcase18';
-import videoShowcase18Data from '../VideoShowcase/video-showcase-18/video-showcase-18.json';
-import VideoShowcase19 from '../VideoShowcase/video-showcase-19/VideoShowcase19';
-import videoShowcase19Data from '../VideoShowcase/video-showcase-19/video-showcase-19.json';
-import VideoShowcase20 from '../VideoShowcase/video-showcase-20/VideoShowcase20';
-import videoShowcase20Data from '../VideoShowcase/video-showcase-20/video-showcase-20.json';
-import BlogHighlight1 from '../BlogHighlight/blog-highlight-1/BlogHighlight1';
-import blogHighlight1Data from '../BlogHighlight/blog-highlight-1/blog-highlight-1.json';
-import BlogHighlight2 from '../BlogHighlight/blog-highlight-2/BlogHighlight2';
-import blogHighlight2Data from '../BlogHighlight/blog-highlight-2/blog-highlight-2.json';
-import BlogHighlight3 from '../BlogHighlight/blog-highlight-3/BlogHighlight3';
-import blogHighlight3Data from '../BlogHighlight/blog-highlight-3/blog-highlight-3.json';
-import BlogHighlight4 from '../BlogHighlight/blog-highlight-4/BlogHighlight4';
-import blogHighlight4Data from '../BlogHighlight/blog-highlight-4/blog-highlight-4.json';
-import BlogHighlight5 from '../BlogHighlight/blog-highlight-5/BlogHighlight5';
-import blogHighlight5Data from '../BlogHighlight/blog-highlight-5/blog-highlight-5.json';
-import BlogHighlight6 from '../BlogHighlight/blog-highlight-6/BlogHighlight6';
-import blogHighlight6Data from '../BlogHighlight/blog-highlight-6/blog-highlight-6.json';
-import BlogHighlight7 from '../BlogHighlight/blog-highlight-7/BlogHighlight7';
-import blogHighlight7Data from '../BlogHighlight/blog-highlight-7/blog-highlight-7.json';
-import BlogHighlight8 from '../BlogHighlight/blog-highlight-8/BlogHighlight8';
-import blogHighlight8Data from '../BlogHighlight/blog-highlight-8/blog-highlight-8.json';
-import BlogHighlight9 from '../BlogHighlight/blog-highlight-9/BlogHighlight9';
-import blogHighlight9Data from '../BlogHighlight/blog-highlight-9/blog-highlight-9.json';
-import BlogHighlight10 from '../BlogHighlight/blog-highlight-10/BlogHighlight10';
-import blogHighlight10Data from '../BlogHighlight/blog-highlight-10/blog-highlight-10.json';
-import BlogHighlight11 from '../BlogHighlight/blog-highlight-11/BlogHighlight11';
-import blogHighlight11Data from '../BlogHighlight/blog-highlight-11/blog-highlight-11.json';
-import BlogHighlight12 from '../BlogHighlight/blog-highlight-12/BlogHighlight12';
-import blogHighlight12Data from '../BlogHighlight/blog-highlight-12/blog-highlight-12.json';
-import BlogHighlight13 from '../BlogHighlight/blog-highlight-13/BlogHighlight13';
-import blogHighlight13Data from '../BlogHighlight/blog-highlight-13/blog-highlight-13.json';
-import BlogHighlight14 from '../BlogHighlight/blog-highlight-14/BlogHighlight14';
-import blogHighlight14Data from '../BlogHighlight/blog-highlight-14/blog-highlight-14.json';
-import BlogHighlight15 from '../BlogHighlight/blog-highlight-15/BlogHighlight15';
-import blogHighlight15Data from '../BlogHighlight/blog-highlight-15/blog-highlight-15.json';
-import BlogHighlight16 from '../BlogHighlight/blog-highlight-16/BlogHighlight16';
-import blogHighlight16Data from '../BlogHighlight/blog-highlight-16/blog-highlight-16.json';
-import BlogHighlight17 from '../BlogHighlight/blog-highlight-17/BlogHighlight17';
-import blogHighlight17Data from '../BlogHighlight/blog-highlight-17/blog-highlight-17.json';
-import BlogHighlight18 from '../BlogHighlight/blog-highlight-18/BlogHighlight18';
-import blogHighlight18Data from '../BlogHighlight/blog-highlight-18/blog-highlight-18.json';
-import BlogHighlight19 from '../BlogHighlight/blog-highlight-19/BlogHighlight19';
-import blogHighlight19Data from '../BlogHighlight/blog-highlight-19/blog-highlight-19.json';
-import BlogHighlight20 from '../BlogHighlight/blog-highlight-20/BlogHighlight20';
-import blogHighlight20Data from '../BlogHighlight/blog-highlight-20/blog-highlight-20.json';
-import BuyingGuide1 from '../BuyingGuide/buying-guide-1/BuyingGuide1';
-import buyingGuide1Data from '../BuyingGuide/buying-guide-1/buying-guide-1.json';
-import BuyingGuide2 from '../BuyingGuide/buying-guide-2/BuyingGuide2';
-import buyingGuide2Data from '../BuyingGuide/buying-guide-2/buying-guide-2.json';
-import BuyingGuide3 from '../BuyingGuide/buying-guide-3/BuyingGuide3';
-import buyingGuide3Data from '../BuyingGuide/buying-guide-3/buying-guide-3.json';
-import BuyingGuide4 from '../BuyingGuide/buying-guide-4/BuyingGuide4';
-import buyingGuide4Data from '../BuyingGuide/buying-guide-4/buying-guide-4.json';
-import BuyingGuide5 from '../BuyingGuide/buying-guide-5/BuyingGuide5';
-import buyingGuide5Data from '../BuyingGuide/buying-guide-5/buying-guide-5.json';
-import BuyingGuide6 from '../BuyingGuide/buying-guide-6/BuyingGuide6';
-import buyingGuide6Data from '../BuyingGuide/buying-guide-6/buying-guide-6.json';
-import BuyingGuide7 from '../BuyingGuide/buying-guide-7/BuyingGuide7';
-import buyingGuide7Data from '../BuyingGuide/buying-guide-7/buying-guide-7.json';
-import BuyingGuide8 from '../BuyingGuide/buying-guide-8/BuyingGuide8';
-import buyingGuide8Data from '../BuyingGuide/buying-guide-8/buying-guide-8.json';
-import BuyingGuide9 from '../BuyingGuide/buying-guide-9/BuyingGuide9';
-import buyingGuide9Data from '../BuyingGuide/buying-guide-9/buying-guide-9.json';
-import BuyingGuide10 from '../BuyingGuide/buying-guide-10/BuyingGuide10';
-import buyingGuide10Data from '../BuyingGuide/buying-guide-10/buying-guide-10.json';
-import BuyingGuide11 from '../BuyingGuide/buying-guide-11/BuyingGuide11';
-import buyingGuide11Data from '../BuyingGuide/buying-guide-11/buying-guide-11.json';
-import BuyingGuide12 from '../BuyingGuide/buying-guide-12/BuyingGuide12';
-import buyingGuide12Data from '../BuyingGuide/buying-guide-12/buying-guide-12.json';
-import BuyingGuide13 from '../BuyingGuide/buying-guide-13/BuyingGuide13';
-import buyingGuide13Data from '../BuyingGuide/buying-guide-13/buying-guide-13.json';
-import BuyingGuide14 from '../BuyingGuide/buying-guide-14/BuyingGuide14';
-import buyingGuide14Data from '../BuyingGuide/buying-guide-14/buying-guide-14.json';
-import BuyingGuide15 from '../BuyingGuide/buying-guide-15/BuyingGuide15';
-import buyingGuide15Data from '../BuyingGuide/buying-guide-15/buying-guide-15.json';
-import BuyingGuide16 from '../BuyingGuide/buying-guide-16/BuyingGuide16';
-import buyingGuide16Data from '../BuyingGuide/buying-guide-16/buying-guide-16.json';
-import BuyingGuide17 from '../BuyingGuide/buying-guide-17/BuyingGuide17';
-import buyingGuide17Data from '../BuyingGuide/buying-guide-17/buying-guide-17.json';
-import BuyingGuide18 from '../BuyingGuide/buying-guide-18/BuyingGuide18';
-import buyingGuide18Data from '../BuyingGuide/buying-guide-18/buying-guide-18.json';
-import BuyingGuide19 from '../BuyingGuide/buying-guide-19/BuyingGuide19';
-import buyingGuide19Data from '../BuyingGuide/buying-guide-19/buying-guide-19.json';
-import BuyingGuide20 from '../BuyingGuide/buying-guide-20/BuyingGuide20';
-import buyingGuide20Data from '../BuyingGuide/buying-guide-20/buying-guide-20.json';
-import Faq1 from '../Faq/faq-1/Faq1';
-import faq1Data from '../Faq/faq-1/faq-1.json';
-import Faq2 from '../Faq/faq-2/Faq2';
-import faq2Data from '../Faq/faq-2/faq-2.json';
-import Faq3 from '../Faq/faq-3/Faq3';
-import faq3Data from '../Faq/faq-3/faq-3.json';
-import Faq4 from '../Faq/faq-4/Faq4';
-import faq4Data from '../Faq/faq-4/faq-4.json';
-import Faq5 from '../Faq/faq-5/Faq5';
-import faq5Data from '../Faq/faq-5/faq-5.json';
-import Faq6 from '../Faq/faq-6/Faq6';
-import faq6Data from '../Faq/faq-6/faq-6.json';
-import Faq7 from '../Faq/faq-7/Faq7';
-import faq7Data from '../Faq/faq-7/faq-7.json';
-import Faq8 from '../Faq/faq-8/Faq8';
-import faq8Data from '../Faq/faq-8/faq-8.json';
-import Faq9 from '../Faq/faq-9/Faq9';
-import faq9Data from '../Faq/faq-9/faq-9.json';
-import Faq10 from '../Faq/faq-10/Faq10';
-import faq10Data from '../Faq/faq-10/faq-10.json';
-import Faq11 from '../Faq/faq-11/Faq11';
-import faq11Data from '../Faq/faq-11/faq-11.json';
-import Faq12 from '../Faq/faq-12/Faq12';
-import faq12Data from '../Faq/faq-12/faq-12.json';
-import Faq13 from '../Faq/faq-13/Faq13';
-import faq13Data from '../Faq/faq-13/faq-13.json';
-import Faq14 from '../Faq/faq-14/Faq14';
-import faq14Data from '../Faq/faq-14/faq-14.json';
-import Faq15 from '../Faq/faq-15/Faq15';
-import faq15Data from '../Faq/faq-15/faq-15.json';
-import Faq16 from '../Faq/faq-16/Faq16';
-import faq16Data from '../Faq/faq-16/faq-16.json';
-import Faq17 from '../Faq/faq-17/Faq17';
-import faq17Data from '../Faq/faq-17/faq-17.json';
-import Faq18 from '../Faq/faq-18/Faq18';
-import faq18Data from '../Faq/faq-18/faq-18.json';
-import Faq19 from '../Faq/faq-19/Faq19';
-import faq19Data from '../Faq/faq-19/faq-19.json';
-import Faq20 from '../Faq/faq-20/Faq20';
-import faq20Data from '../Faq/faq-20/faq-20.json';
-import Newsletter1 from '../Newsletter/newsletter-1/Newsletter1';
-import newsletter1Data from '../Newsletter/newsletter-1/newsletter-1.json';
-import Newsletter2 from '../Newsletter/newsletter-2/Newsletter2';
-import newsletter2Data from '../Newsletter/newsletter-2/newsletter-2.json';
-import Newsletter3 from '../Newsletter/newsletter-3/Newsletter3';
-import newsletter3Data from '../Newsletter/newsletter-3/newsletter-3.json';
-import Newsletter4 from '../Newsletter/newsletter-4/Newsletter4';
-import newsletter4Data from '../Newsletter/newsletter-4/newsletter-4.json';
-import Newsletter5 from '../Newsletter/newsletter-5/Newsletter5';
-import newsletter5Data from '../Newsletter/newsletter-5/newsletter-5.json';
-import Newsletter6 from '../Newsletter/newsletter-6/Newsletter6';
-import newsletter6Data from '../Newsletter/newsletter-6/newsletter-6.json';
-import Newsletter7 from '../Newsletter/newsletter-7/Newsletter7';
-import newsletter7Data from '../Newsletter/newsletter-7/newsletter-7.json';
-import Newsletter8 from '../Newsletter/newsletter-8/Newsletter8';
-import newsletter8Data from '../Newsletter/newsletter-8/newsletter-8.json';
-import Newsletter9 from '../Newsletter/newsletter-9/Newsletter9';
-import newsletter9Data from '../Newsletter/newsletter-9/newsletter-9.json';
-import Newsletter10 from '../Newsletter/newsletter-10/Newsletter10';
-import newsletter10Data from '../Newsletter/newsletter-10/newsletter-10.json';
-import Newsletter11 from '../Newsletter/newsletter-11/Newsletter11';
-import newsletter11Data from '../Newsletter/newsletter-11/newsletter-11.json';
-import Newsletter12 from '../Newsletter/newsletter-12/Newsletter12';
-import newsletter12Data from '../Newsletter/newsletter-12/newsletter-12.json';
-import Newsletter13 from '../Newsletter/newsletter-13/Newsletter13';
-import newsletter13Data from '../Newsletter/newsletter-13/newsletter-13.json';
-import Newsletter14 from '../Newsletter/newsletter-14/Newsletter14';
-import newsletter14Data from '../Newsletter/newsletter-14/newsletter-14.json';
-import Newsletter15 from '../Newsletter/newsletter-15/Newsletter15';
-import newsletter15Data from '../Newsletter/newsletter-15/newsletter-15.json';
-import Newsletter16 from '../Newsletter/newsletter-16/Newsletter16';
-import newsletter16Data from '../Newsletter/newsletter-16/newsletter-16.json';
-import Newsletter17 from '../Newsletter/newsletter-17/Newsletter17';
-import newsletter17Data from '../Newsletter/newsletter-17/newsletter-17.json';
-import Newsletter18 from '../Newsletter/newsletter-18/Newsletter18';
-import newsletter18Data from '../Newsletter/newsletter-18/newsletter-18.json';
-import Newsletter19 from '../Newsletter/newsletter-19/Newsletter19';
-import newsletter19Data from '../Newsletter/newsletter-19/newsletter-19.json';
-import Newsletter20 from '../Newsletter/newsletter-20/Newsletter20';
-import newsletter20Data from '../Newsletter/newsletter-20/newsletter-20.json';
-import { Banner1 } from '../Banner/banner-1/Banner1';
-import { Banner2 } from '../Banner/banner-2/Banner2';
-import { Banner3 } from '../Banner/banner-3/Banner3';
-import { Banner4 } from '../Banner/banner-4/Banner4';
-import { Banner5 } from '../Banner/banner-5/Banner5';
-import { Banner6 } from '../Banner/banner-6/Banner6';
-import { Banner7 } from '../Banner/banner-7/Banner7';
-import { Banner8 } from '../Banner/banner-8/Banner8';
-import { Banner9 } from '../Banner/banner-9/Banner9';
-import { Banner10 } from '../Banner/banner-10/Banner10';
-import { Banner11 } from '../Banner/banner-11/Banner11';
-import { Banner12 } from '../Banner/banner-12/Banner12';
-import { Banner13 } from '../Banner/banner-13/Banner13';
-import { Banner14 } from '../Banner/banner-14/Banner14';
-import { Banner15 } from '../Banner/banner-15/Banner15';
-import { Banner16 } from '../Banner/banner-16/Banner16';
-import { Banner17 } from '../Banner/banner-17/Banner17';
-import { Banner18 } from '../Banner/banner-18/Banner18';
-import { Banner19 } from '../Banner/banner-19/Banner19';
-import { Banner20 } from '../Banner/banner-20/Banner20';
-import banner1Data from '../Banner/banner-1/banner-1.json';
-import banner2Data from '../Banner/banner-2/banner-2.json';
-import banner3Data from '../Banner/banner-3/banner-3.json';
-import banner4Data from '../Banner/banner-4/banner-4.json';
-import banner5Data from '../Banner/banner-5/banner-5.json';
-import banner6Data from '../Banner/banner-6/banner-6.json';
-import banner7Data from '../Banner/banner-7/banner-7.json';
-import banner8Data from '../Banner/banner-8/banner-8.json';
-import banner9Data from '../Banner/banner-9/banner-9.json';
-import banner10Data from '../Banner/banner-10/banner-10.json';
-import banner11Data from '../Banner/banner-11/banner-11.json';
-import banner12Data from '../Banner/banner-12/banner-12.json';
-import banner13Data from '../Banner/banner-13/banner-13.json';
-import banner14Data from '../Banner/banner-14/banner-14.json';
-import banner15Data from '../Banner/banner-15/banner-15.json';
-import banner16Data from '../Banner/banner-16/banner-16.json';
-import banner17Data from '../Banner/banner-17/banner-17.json';
-import banner18Data from '../Banner/banner-18/banner-18.json';
-import banner19Data from '../Banner/banner-19/banner-19.json';
-import banner20Data from '../Banner/banner-20/banner-20.json';
-import { HeroCarousel1 } from '../HeroCarousel/hero-carousel-1/HeroCarousel1';
-import heroCarousel1Data from '../HeroCarousel/hero-carousel-1/hero-carousel-1.json';
-import { HeroCarousel2 } from '../HeroCarousel/hero-carousel-2/HeroCarousel2';
-import heroCarousel2Data from '../HeroCarousel/hero-carousel-2/hero-carousel-2.json';
-import { HeroCarousel3 } from '../HeroCarousel/hero-carousel-3/HeroCarousel3';
-import heroCarousel3Data from '../HeroCarousel/hero-carousel-3/hero-carousel-3.json';
-import { HeroCarousel4 } from '../HeroCarousel/hero-carousel-4/HeroCarousel4';
-import heroCarousel4Data from '../HeroCarousel/hero-carousel-4/hero-carousel-4.json';
-import { HeroCarousel5 } from '../HeroCarousel/hero-carousel-5/HeroCarousel5';
-import heroCarousel5Data from '../HeroCarousel/hero-carousel-5/hero-carousel-5.json';
-import { HeroCarousel6 } from '../HeroCarousel/hero-carousel-6/HeroCarousel6';
-import heroCarousel6Data from '../HeroCarousel/hero-carousel-6/hero-carousel-6.json';
-import { HeroCarousel7 } from '../HeroCarousel/hero-carousel-7/HeroCarousel7';
-import heroCarousel7Data from '../HeroCarousel/hero-carousel-7/hero-carousel-7.json';
-import { HeroCarousel8 } from '../HeroCarousel/hero-carousel-8/HeroCarousel8';
-import heroCarousel8Data from '../HeroCarousel/hero-carousel-8/hero-carousel-8.json';
-import { HeroCarousel9 } from '../HeroCarousel/hero-carousel-9/HeroCarousel9';
-import heroCarousel9Data from '../HeroCarousel/hero-carousel-9/hero-carousel-9.json';
-import { HeroCarousel10 } from '../HeroCarousel/hero-carousel-10/HeroCarousel10';
-import heroCarousel10Data from '../HeroCarousel/hero-carousel-10/hero-carousel-10.json';
-import { HeroCarousel11 } from '../HeroCarousel/hero-carousel-11/HeroCarousel11';
-import heroCarousel11Data from '../HeroCarousel/hero-carousel-11/hero-carousel-11.json';
-import { HeroCarousel12 } from '../HeroCarousel/hero-carousel-12/HeroCarousel12';
-import heroCarousel12Data from '../HeroCarousel/hero-carousel-12/hero-carousel-12.json';
-import { HeroCarousel13 } from '../HeroCarousel/hero-carousel-13/HeroCarousel13';
-import heroCarousel13Data from '../HeroCarousel/hero-carousel-13/hero-carousel-13.json';
-import { HeroCarousel14 } from '../HeroCarousel/hero-carousel-14/HeroCarousel14';
-import heroCarousel14Data from '../HeroCarousel/hero-carousel-14/hero-carousel-14.json';
-import { HeroCarousel15 } from '../HeroCarousel/hero-carousel-15/HeroCarousel15';
-import heroCarousel15Data from '../HeroCarousel/hero-carousel-15/hero-carousel-15.json';
-import { HeroCarousel16 } from '../HeroCarousel/hero-carousel-16/HeroCarousel16';
-import heroCarousel16Data from '../HeroCarousel/hero-carousel-16/hero-carousel-16.json';
-import { HeroCarousel17 } from '../HeroCarousel/hero-carousel-17/HeroCarousel17';
-import heroCarousel17Data from '../HeroCarousel/hero-carousel-17/hero-carousel-17.json';
-import { HeroCarousel18 } from '../HeroCarousel/hero-carousel-18/HeroCarousel18';
-import heroCarousel18Data from '../HeroCarousel/hero-carousel-18/hero-carousel-18.json';
-import { HeroCarousel19 } from '../HeroCarousel/hero-carousel-19/HeroCarousel19';
-import heroCarousel19Data from '../HeroCarousel/hero-carousel-19/hero-carousel-19.json';
-import { HeroCarousel20 } from '../HeroCarousel/hero-carousel-20/HeroCarousel20';
-import heroCarousel20Data from '../HeroCarousel/hero-carousel-20/hero-carousel-20.json';
-import { PromotionalBanner1 } from '../PromotionalBanner/promotional-banner-1/PromotionalBanner1';
-import promotionalBanner1Data from '../PromotionalBanner/promotional-banner-1/promotional-banner-1.json';
-import { PromotionalBanner2 } from '../PromotionalBanner/promotional-banner-2/PromotionalBanner2';
-import promotionalBanner2Data from '../PromotionalBanner/promotional-banner-2/promotional-banner-2.json';
-import { PromotionalBanner3 } from '../PromotionalBanner/promotional-banner-3/PromotionalBanner3';
-import promotionalBanner3Data from '../PromotionalBanner/promotional-banner-3/promotional-banner-3.json';
-import { PromotionalBanner4 } from '../PromotionalBanner/promotional-banner-4/PromotionalBanner4';
-import promotionalBanner4Data from '../PromotionalBanner/promotional-banner-4/promotional-banner-4.json';
-import { PromotionalBanner5 } from '../PromotionalBanner/promotional-banner-5/PromotionalBanner5';
-import promotionalBanner5Data from '../PromotionalBanner/promotional-banner-5/promotional-banner-5.json';
-import { PromotionalBanner6 } from '../PromotionalBanner/promotional-banner-6/PromotionalBanner6';
-import promotionalBanner6Data from '../PromotionalBanner/promotional-banner-6/promotional-banner-6.json';
-import { PromotionalBanner7 } from '../PromotionalBanner/promotional-banner-7/PromotionalBanner7';
-import promotionalBanner7Data from '../PromotionalBanner/promotional-banner-7/promotional-banner-7.json';
-import { PromotionalBanner8 } from '../PromotionalBanner/promotional-banner-8/PromotionalBanner8';
-import promotionalBanner8Data from '../PromotionalBanner/promotional-banner-8/promotional-banner-8.json';
-import { PromotionalBanner10 } from '../PromotionalBanner/promotional-banner-10/PromotionalBanner10';
-import promotionalBanner10Data from '../PromotionalBanner/promotional-banner-10/promotional-banner-10.json';
-import { PromotionalBanner11 } from '../PromotionalBanner/promotional-banner-11/PromotionalBanner11';
-import promotionalBanner11Data from '../PromotionalBanner/promotional-banner-11/promotional-banner-11.json';
-import { PromotionalBanner12 } from '../PromotionalBanner/promotional-banner-12/PromotionalBanner12';
-import promotionalBanner12Data from '../PromotionalBanner/promotional-banner-12/promotional-banner-12.json';
-import { PromotionalBanner13 } from '../PromotionalBanner/promotional-banner-13/PromotionalBanner13';
-import promotionalBanner13Data from '../PromotionalBanner/promotional-banner-13/promotional-banner-13.json';
-import { PromotionalBanner14 } from '../PromotionalBanner/promotional-banner-14/PromotionalBanner14';
-import promotionalBanner14Data from '../PromotionalBanner/promotional-banner-14/promotional-banner-14.json';
-import { PromotionalBanner16 } from '../PromotionalBanner/promotional-banner-16/PromotionalBanner16';
-import promotionalBanner16Data from '../PromotionalBanner/promotional-banner-16/promotional-banner-16.json';
-import { PromotionalBanner17 } from '../PromotionalBanner/promotional-banner-17/PromotionalBanner17';
-import promotionalBanner17Data from '../PromotionalBanner/promotional-banner-17/promotional-banner-17.json';
-import { PromotionalBanner18 } from '../PromotionalBanner/promotional-banner-18/PromotionalBanner18';
-import promotionalBanner18Data from '../PromotionalBanner/promotional-banner-18/promotional-banner-18.json';
-import { PromotionalBanner19 } from '../PromotionalBanner/promotional-banner-19/PromotionalBanner19';
-import promotionalBanner19Data from '../PromotionalBanner/promotional-banner-19/promotional-banner-19.json';
-import { PromotionalBanner20 } from '../PromotionalBanner/promotional-banner-20/PromotionalBanner20';
-import promotionalBanner20Data from '../PromotionalBanner/promotional-banner-20/promotional-banner-20.json';
-import { FeaturedCategory1 } from '../FeaturedCategory/featured-category-1/FeaturedCategory1';
-import featuredCategory1Data from '../FeaturedCategory/featured-category-1/featured-category-1.json';
-import { FeaturedCategory2 } from '../FeaturedCategory/featured-category-2/FeaturedCategory2';
-import featuredCategory2Data from '../FeaturedCategory/featured-category-2/featured-category-2.json';
-import { FeaturedCategory3 } from '../FeaturedCategory/featured-category-3/FeaturedCategory3';
-import featuredCategory3Data from '../FeaturedCategory/featured-category-3/featured-category-3.json';
-import { FeaturedCategory4 } from '../FeaturedCategory/featured-category-4/FeaturedCategory4';
-import featuredCategory4Data from '../FeaturedCategory/featured-category-4/featured-category-4.json';
-import { FeaturedCategory5 } from '../FeaturedCategory/featured-category-5/FeaturedCategory5';
-import featuredCategory5Data from '../FeaturedCategory/featured-category-5/featured-category-5.json';
-import { FeaturedCategory6 } from '../FeaturedCategory/featured-category-6/FeaturedCategory6';
-import featuredCategory6Data from '../FeaturedCategory/featured-category-6/featured-category-6.json';
-import { FeaturedCategory7 } from '../FeaturedCategory/featured-category-7/FeaturedCategory7';
-import featuredCategory7Data from '../FeaturedCategory/featured-category-7/featured-category-7.json';
-import { FeaturedCategory8 } from '../FeaturedCategory/featured-category-8/FeaturedCategory8';
-import featuredCategory8Data from '../FeaturedCategory/featured-category-8/featured-category-8.json';
-import { FeaturedCategory9 } from '../FeaturedCategory/featured-category-9/FeaturedCategory9';
-import featuredCategory9Data from '../FeaturedCategory/featured-category-9/featured-category-9.json';
-import { FeaturedCategory10 } from '../FeaturedCategory/featured-category-10/FeaturedCategory10';
-import featuredCategory10Data from '../FeaturedCategory/featured-category-10/featured-category-10.json';
-import { FeaturedCategory11 } from '../FeaturedCategory/featured-category-11/FeaturedCategory11';
-import featuredCategory11Data from '../FeaturedCategory/featured-category-11/featured-category-11.json';
-import { FeaturedCategory12 } from '../FeaturedCategory/featured-category-12/FeaturedCategory12';
-import featuredCategory12Data from '../FeaturedCategory/featured-category-12/featured-category-12.json';
-import { FeaturedCategory13 } from '../FeaturedCategory/featured-category-13/FeaturedCategory13';
-import featuredCategory13Data from '../FeaturedCategory/featured-category-13/featured-category-13.json';
-import { FeaturedCategory14 } from '../FeaturedCategory/featured-category-14/FeaturedCategory14';
-import featuredCategory14Data from '../FeaturedCategory/featured-category-14/featured-category-14.json';
-import { FeaturedCategory15 } from '../FeaturedCategory/featured-category-15/FeaturedCategory15';
-import featuredCategory15Data from '../FeaturedCategory/featured-category-15/featured-category-15.json';
-import { FeaturedCategory16 } from '../FeaturedCategory/featured-category-16/FeaturedCategory16';
-import featuredCategory16Data from '../FeaturedCategory/featured-category-16/featured-category-16.json';
-import { FeaturedCategory17 } from '../FeaturedCategory/featured-category-17/FeaturedCategory17';
-import featuredCategory17Data from '../FeaturedCategory/featured-category-17/featured-category-17.json';
-import { FeaturedCategory18 } from '../FeaturedCategory/featured-category-18/FeaturedCategory18';
-import featuredCategory18Data from '../FeaturedCategory/featured-category-18/featured-category-18.json';
-import { FeaturedCategory19 } from '../FeaturedCategory/featured-category-19/FeaturedCategory19';
-import featuredCategory19Data from '../FeaturedCategory/featured-category-19/featured-category-19.json';
-import { FeaturedCategory20 } from '../FeaturedCategory/featured-category-20/FeaturedCategory20';
-import featuredCategory20Data from '../FeaturedCategory/featured-category-20/featured-category-20.json';
-import { CategoryGrid1 } from '../CategoryGrid/category-grid-1/CategoryGrid1';
-import categoryGrid1Data from '../CategoryGrid/category-grid-1/category-grid-1.json';
-import { CategoryGrid2 } from '../CategoryGrid/category-grid-2/CategoryGrid2';
-import categoryGrid2Data from '../CategoryGrid/category-grid-2/category-grid-2.json';
-import { CategoryGrid3 } from '../CategoryGrid/category-grid-3/CategoryGrid3';
-import categoryGrid3Data from '../CategoryGrid/category-grid-3/category-grid-3.json';
-import { CategoryGrid4 } from '../CategoryGrid/category-grid-4/CategoryGrid4';
-import categoryGrid4Data from '../CategoryGrid/category-grid-4/category-grid-4.json';
-import { CategoryGrid5 } from '../CategoryGrid/category-grid-5/CategoryGrid5';
-import categoryGrid5Data from '../CategoryGrid/category-grid-5/category-grid-5.json';
-import { CategoryGrid6 } from '../CategoryGrid/category-grid-6/CategoryGrid6';
-import categoryGrid6Data from '../CategoryGrid/category-grid-6/category-grid-6.json';
-import { CategoryGrid7 } from '../CategoryGrid/category-grid-7/CategoryGrid7';
-import categoryGrid7Data from '../CategoryGrid/category-grid-7/category-grid-7.json';
-import { CategoryGrid8 } from '../CategoryGrid/category-grid-8/CategoryGrid8';
-import categoryGrid8Data from '../CategoryGrid/category-grid-8/category-grid-8.json';
-import { CategoryGrid9 } from '../CategoryGrid/category-grid-9/CategoryGrid9';
-import categoryGrid9Data from '../CategoryGrid/category-grid-9/category-grid-9.json';
-import { CategoryGrid10 } from '../CategoryGrid/category-grid-10/CategoryGrid10';
-import categoryGrid10Data from '../CategoryGrid/category-grid-10/category-grid-10.json';
-import { CategoryGrid11 } from '../CategoryGrid/category-grid-11/CategoryGrid11';
-import categoryGrid11Data from '../CategoryGrid/category-grid-11/category-grid-11.json';
-import { CategoryGrid12 } from '../CategoryGrid/category-grid-12/CategoryGrid12';
-import categoryGrid12Data from '../CategoryGrid/category-grid-12/category-grid-12.json';
-import { CategoryGrid13 } from '../CategoryGrid/category-grid-13/CategoryGrid13';
-import categoryGrid13Data from '../CategoryGrid/category-grid-13/category-grid-13.json';
-import { CategoryGrid14 } from '../CategoryGrid/category-grid-14/CategoryGrid14';
-import categoryGrid14Data from '../CategoryGrid/category-grid-14/category-grid-14.json';
-import { CategoryGrid15 } from '../CategoryGrid/category-grid-15/CategoryGrid15';
-import categoryGrid15Data from '../CategoryGrid/category-grid-15/category-grid-15.json';
-import { CategoryGrid16 } from '../CategoryGrid/category-grid-16/CategoryGrid16';
-import categoryGrid16Data from '../CategoryGrid/category-grid-16/category-grid-16.json';
-import { CategoryGrid17 } from '../CategoryGrid/category-grid-17/CategoryGrid17';
-import categoryGrid17Data from '../CategoryGrid/category-grid-17/category-grid-17.json';
-import { CategoryGrid18 } from '../CategoryGrid/category-grid-18/CategoryGrid18';
-import categoryGrid18Data from '../CategoryGrid/category-grid-18/category-grid-18.json';
-import { CategoryGrid19 } from '../CategoryGrid/category-grid-19/CategoryGrid19';
-import categoryGrid19Data from '../CategoryGrid/category-grid-19/category-grid-19.json';
-import { CategoryGrid20 } from '../CategoryGrid/category-grid-20/CategoryGrid20';
-import categoryGrid20Data from '../CategoryGrid/category-grid-20/category-grid-20.json';
-import { FeaturedCollection1 } from '../FeaturedCollection/featured-collection-1/FeaturedCollection1';
-import featuredCollection1Data from '../FeaturedCollection/featured-collection-1/featured-collection-1.json';
-import { FeaturedCollection2 } from '../FeaturedCollection/featured-collection-2/FeaturedCollection2';
-import featuredCollection2Data from '../FeaturedCollection/featured-collection-2/featured-collection-2.json';
-import { FeaturedCollection3 } from '../FeaturedCollection/featured-collection-3/FeaturedCollection3';
-import featuredCollection3Data from '../FeaturedCollection/featured-collection-3/featured-collection-3.json';
-import { FeaturedCollection4 } from '../FeaturedCollection/featured-collection-4/FeaturedCollection4';
-import featuredCollection4Data from '../FeaturedCollection/featured-collection-4/featured-collection-4.json';
-import { FeaturedCollection5 } from '../FeaturedCollection/featured-collection-5/FeaturedCollection5';
-import featuredCollection5Data from '../FeaturedCollection/featured-collection-5/featured-collection-5.json';
-import { FeaturedCollection6 } from '../FeaturedCollection/featured-collection-6/FeaturedCollection6';
-import featuredCollection6Data from '../FeaturedCollection/featured-collection-6/featured-collection-6.json';
-import { FeaturedCollection7 } from '../FeaturedCollection/featured-collection-7/FeaturedCollection7';
-import featuredCollection7Data from '../FeaturedCollection/featured-collection-7/featured-collection-7.json';
-import { FeaturedCollection8 } from '../FeaturedCollection/featured-collection-8/FeaturedCollection8';
-import featuredCollection8Data from '../FeaturedCollection/featured-collection-8/featured-collection-8.json';
-import { FeaturedCollection9 } from '../FeaturedCollection/featured-collection-9/FeaturedCollection9';
-import featuredCollection9Data from '../FeaturedCollection/featured-collection-9/featured-collection-9.json';
-import { FeaturedCollection10 } from '../FeaturedCollection/featured-collection-10/FeaturedCollection10';
-import featuredCollection10Data from '../FeaturedCollection/featured-collection-10/featured-collection-10.json';
-import { FeaturedCollection11 } from '../FeaturedCollection/featured-collection-11/FeaturedCollection11';
-import featuredCollection11Data from '../FeaturedCollection/featured-collection-11/featured-collection-11.json';
-import { FeaturedCollection12 } from '../FeaturedCollection/featured-collection-12/FeaturedCollection12';
-import featuredCollection12Data from '../FeaturedCollection/featured-collection-12/featured-collection-12.json';
-import { FeaturedCollection13 } from '../FeaturedCollection/featured-collection-13/FeaturedCollection13';
-import featuredCollection13Data from '../FeaturedCollection/featured-collection-13/featured-collection-13.json';
-import { FeaturedCollection14 } from '../FeaturedCollection/featured-collection-14/FeaturedCollection14';
-import featuredCollection14Data from '../FeaturedCollection/featured-collection-14/featured-collection-14.json';
-import { FeaturedCollection15 } from '../FeaturedCollection/featured-collection-15/FeaturedCollection15';
-import featuredCollection15Data from '../FeaturedCollection/featured-collection-15/featured-collection-15.json';
-import { FeaturedCollection16 } from '../FeaturedCollection/featured-collection-16/FeaturedCollection16';
-import featuredCollection16Data from '../FeaturedCollection/featured-collection-16/featured-collection-16.json';
-import { FeaturedCollection17 } from '../FeaturedCollection/featured-collection-17/FeaturedCollection17';
-import featuredCollection17Data from '../FeaturedCollection/featured-collection-17/featured-collection-17.json';
-import { FeaturedCollection18 } from '../FeaturedCollection/featured-collection-18/FeaturedCollection18';
-import featuredCollection18Data from '../FeaturedCollection/featured-collection-18/featured-collection-18.json';
-import { FeaturedCollection19 } from '../FeaturedCollection/featured-collection-19/FeaturedCollection19';
-import featuredCollection19Data from '../FeaturedCollection/featured-collection-19/featured-collection-19.json';
-import { FeaturedCollection20 } from '../FeaturedCollection/featured-collection-20/FeaturedCollection20';
-import featuredCollection20Data from '../FeaturedCollection/featured-collection-20/featured-collection-20.json';
-import { ProductGrid1 } from '../ProductGrid/product-grid-1/ProductGrid1';
-import productGrid1Data from '../ProductGrid/product-grid-1/product-grid-1.json';
-import { ProductGrid2 } from '../ProductGrid/product-grid-2/ProductGrid2';
-import productGrid2Data from '../ProductGrid/product-grid-2/product-grid-2.json';
-import { ProductGrid3 } from '../ProductGrid/product-grid-3/ProductGrid3';
-import productGrid3Data from '../ProductGrid/product-grid-3/product-grid-3.json';
-import { ProductGrid4 } from '../ProductGrid/product-grid-4/ProductGrid4';
-import productGrid4Data from '../ProductGrid/product-grid-4/product-grid-4.json';
-import { ProductGrid5 } from '../ProductGrid/product-grid-5/ProductGrid5';
-import productGrid5Data from '../ProductGrid/product-grid-5/product-grid-5.json';
-import { ProductGrid6 } from '../ProductGrid/product-grid-6/ProductGrid6';
-import productGrid6Data from '../ProductGrid/product-grid-6/product-grid-6.json';
-import { ProductGrid7 } from '../ProductGrid/product-grid-7/ProductGrid7';
-import productGrid7Data from '../ProductGrid/product-grid-7/product-grid-7.json';
-import { ProductGrid8 } from '../ProductGrid/product-grid-8/ProductGrid8';
-import productGrid8Data from '../ProductGrid/product-grid-8/product-grid-8.json';
-import { ProductGrid9 } from '../ProductGrid/product-grid-9/ProductGrid9';
-import productGrid9Data from '../ProductGrid/product-grid-9/product-grid-9.json';
-import { ProductGrid10 } from '../ProductGrid/product-grid-10/ProductGrid10';
-import productGrid10Data from '../ProductGrid/product-grid-10/product-grid-10.json';
-import { ProductGrid11 } from '../ProductGrid/product-grid-11/ProductGrid11';
-import productGrid11Data from '../ProductGrid/product-grid-11/product-grid-11.json';
-import { ProductGrid12 } from '../ProductGrid/product-grid-12/ProductGrid12';
-import productGrid12Data from '../ProductGrid/product-grid-12/product-grid-12.json';
-import { ProductGrid13 } from '../ProductGrid/product-grid-13/ProductGrid13';
-import productGrid13Data from '../ProductGrid/product-grid-13/product-grid-13.json';
-import { ProductGrid14 } from '../ProductGrid/product-grid-14/ProductGrid14';
-import productGrid14Data from '../ProductGrid/product-grid-14/product-grid-14.json';
-import { ProductGrid15 } from '../ProductGrid/product-grid-15/ProductGrid15';
-import productGrid15Data from '../ProductGrid/product-grid-15/product-grid-15.json';
-import { ProductGrid16 } from '../ProductGrid/product-grid-16/ProductGrid16';
-import productGrid16Data from '../ProductGrid/product-grid-16/product-grid-16.json';
-import { ProductGrid17 } from '../ProductGrid/product-grid-17/ProductGrid17';
-import productGrid17Data from '../ProductGrid/product-grid-17/product-grid-17.json';
-import { ProductGrid18 } from '../ProductGrid/product-grid-18/ProductGrid18';
-import productGrid18Data from '../ProductGrid/product-grid-18/product-grid-18.json';
-import { ProductGrid19 } from '../ProductGrid/product-grid-19/ProductGrid19';
-import productGrid19Data from '../ProductGrid/product-grid-19/product-grid-19.json';
-import { ProductGrid20 } from '../ProductGrid/product-grid-20/ProductGrid20';
-import productGrid20Data from '../ProductGrid/product-grid-20/product-grid-20.json';
-import { ProductCarousel1 } from '../ProductCarousel/product-carousel-1/ProductCarousel1';
-import productCarousel1Data from '../ProductCarousel/product-carousel-1/product-carousel-1.json';
-import { ProductCarousel2 } from '../ProductCarousel/product-carousel-2/ProductCarousel2';
-import productCarousel2Data from '../ProductCarousel/product-carousel-2/product-carousel-2.json';
-import { ProductCarousel3 } from '../ProductCarousel/product-carousel-3/ProductCarousel3';
-import productCarousel3Data from '../ProductCarousel/product-carousel-3/product-carousel-3.json';
-import { ProductCarousel4 } from '../ProductCarousel/product-carousel-4/ProductCarousel4';
-import productCarousel4Data from '../ProductCarousel/product-carousel-4/product-carousel-4.json';
-import { ProductCarousel5 } from '../ProductCarousel/product-carousel-5/ProductCarousel5';
-import productCarousel5Data from '../ProductCarousel/product-carousel-5/product-carousel-5.json';
-import { ProductCarousel6 } from '../ProductCarousel/product-carousel-6/ProductCarousel6';
-import productCarousel6Data from '../ProductCarousel/product-carousel-6/product-carousel-6.json';
-import { ProductCarousel7 } from '../ProductCarousel/product-carousel-7/ProductCarousel7';
-import productCarousel7Data from '../ProductCarousel/product-carousel-7/product-carousel-7.json';
-import { ProductCarousel8 } from '../ProductCarousel/product-carousel-8/ProductCarousel8';
-import productCarousel8Data from '../ProductCarousel/product-carousel-8/product-carousel-8.json';
-import { ProductCarousel9 } from '../ProductCarousel/product-carousel-9/ProductCarousel9';
-import productCarousel9Data from '../ProductCarousel/product-carousel-9/product-carousel-9.json';
-import { ProductCarousel10 } from '../ProductCarousel/product-carousel-10/ProductCarousel10';
-import productCarousel10Data from '../ProductCarousel/product-carousel-10/product-carousel-10.json';
-import { ProductCarousel11 } from '../ProductCarousel/product-carousel-11/ProductCarousel11';
-import productCarousel11Data from '../ProductCarousel/product-carousel-11/product-carousel-11.json';
-import { ProductCarousel12 } from '../ProductCarousel/product-carousel-12/ProductCarousel12';
-import productCarousel12Data from '../ProductCarousel/product-carousel-12/product-carousel-12.json';
-import { ProductCarousel13 } from '../ProductCarousel/product-carousel-13/ProductCarousel13';
-import productCarousel13Data from '../ProductCarousel/product-carousel-13/product-carousel-13.json';
-import { ProductCarousel14 } from '../ProductCarousel/product-carousel-14/ProductCarousel14';
-import productCarousel14Data from '../ProductCarousel/product-carousel-14/product-carousel-14.json';
-import { ProductCarousel15 } from '../ProductCarousel/product-carousel-15/ProductCarousel15';
-import productCarousel15Data from '../ProductCarousel/product-carousel-15/product-carousel-15.json';
-import { ProductCarousel16 } from '../ProductCarousel/product-carousel-16/ProductCarousel16';
-import productCarousel16Data from '../ProductCarousel/product-carousel-16/product-carousel-16.json';
-import { ProductCarousel17 } from '../ProductCarousel/product-carousel-17/ProductCarousel17';
-import productCarousel17Data from '../ProductCarousel/product-carousel-17/product-carousel-17.json';
-import { ProductCarousel18 } from '../ProductCarousel/product-carousel-18/ProductCarousel18';
-import productCarousel18Data from '../ProductCarousel/product-carousel-18/product-carousel-18.json';
-import { ProductCarousel19 } from '../ProductCarousel/product-carousel-19/ProductCarousel19';
-import productCarousel19Data from '../ProductCarousel/product-carousel-19/product-carousel-19.json';
-import { ProductCarousel20 } from '../ProductCarousel/product-carousel-20/ProductCarousel20';
-import productCarousel20Data from '../ProductCarousel/product-carousel-20/product-carousel-20.json';
-import { BestSeller1 } from '../BestSeller/best-seller-1/BestSeller1';
-import bestSeller1Data from '../BestSeller/best-seller-1/best-seller-1.json';
-import { BestSeller2 } from '../BestSeller/best-seller-2/BestSeller2';
-import bestSeller2Data from '../BestSeller/best-seller-2/best-seller-2.json';
-import { BestSeller3 } from '../BestSeller/best-seller-3/BestSeller3';
-import bestSeller3Data from '../BestSeller/best-seller-3/best-seller-3.json';
-import { BestSeller4 } from '../BestSeller/best-seller-4/BestSeller4';
-import bestSeller4Data from '../BestSeller/best-seller-4/best-seller-4.json';
-import { BestSeller5 } from '../BestSeller/best-seller-5/BestSeller5';
-import bestSeller5Data from '../BestSeller/best-seller-5/best-seller-5.json';
-import { BestSeller6 } from '../BestSeller/best-seller-6/BestSeller6';
-import bestSeller6Data from '../BestSeller/best-seller-6/best-seller-6.json';
-import { BestSeller7 } from '../BestSeller/best-seller-7/BestSeller7';
-import bestSeller7Data from '../BestSeller/best-seller-7/best-seller-7.json';
-import { BestSeller8 } from '../BestSeller/best-seller-8/BestSeller8';
-import bestSeller8Data from '../BestSeller/best-seller-8/best-seller-8.json';
-import { BestSeller9 } from '../BestSeller/best-seller-9/BestSeller9';
-import bestSeller9Data from '../BestSeller/best-seller-9/best-seller-9.json';
-import { BestSeller10 } from '../BestSeller/best-seller-10/BestSeller10';
-import bestSeller10Data from '../BestSeller/best-seller-10/best-seller-10.json';
-import { BestSeller11 } from '../BestSeller/best-seller-11/BestSeller11';
-import bestSeller11Data from '../BestSeller/best-seller-11/best-seller-11.json';
-import { BestSeller12 } from '../BestSeller/best-seller-12/BestSeller12';
-import bestSeller12Data from '../BestSeller/best-seller-12/best-seller-12.json';
-import { BestSeller13 } from '../BestSeller/best-seller-13/BestSeller13';
-import bestSeller13Data from '../BestSeller/best-seller-13/best-seller-13.json';
-import { BestSeller14 } from '../BestSeller/best-seller-14/BestSeller14';
-import bestSeller14Data from '../BestSeller/best-seller-14/best-seller-14.json';
-import { BestSeller15 } from '../BestSeller/best-seller-15/BestSeller15';
-import bestSeller15Data from '../BestSeller/best-seller-15/best-seller-15.json';
-import { BestSeller16 } from '../BestSeller/best-seller-16/BestSeller16';
-import bestSeller16Data from '../BestSeller/best-seller-16/best-seller-16.json';
-import { BestSeller17 } from '../BestSeller/best-seller-17/BestSeller17';
-import bestSeller17Data from '../BestSeller/best-seller-17/best-seller-17.json';
-import { BestSeller18 } from '../BestSeller/best-seller-18/BestSeller18';
-import bestSeller18Data from '../BestSeller/best-seller-18/best-seller-18.json';
-import { BestSeller19 } from '../BestSeller/best-seller-19/BestSeller19';
-import bestSeller19Data from '../BestSeller/best-seller-19/best-seller-19.json';
-import { BestSeller20 } from '../BestSeller/best-seller-20/BestSeller20';
-import bestSeller20Data from '../BestSeller/best-seller-20/best-seller-20.json';
-import { NewArrival1 } from '../NewArrival/new-arrival-1/NewArrival1';
-import newArrival1Data from '../NewArrival/new-arrival-1/new-arrival-1.json';
-import { NewArrival2 } from '../NewArrival/new-arrival-2/NewArrival2';
-import newArrival2Data from '../NewArrival/new-arrival-2/new-arrival-2.json';
-import { NewArrival3 } from '../NewArrival/new-arrival-3/NewArrival3';
-import newArrival3Data from '../NewArrival/new-arrival-3/new-arrival-3.json';
-import { NewArrival4 } from '../NewArrival/new-arrival-4/NewArrival4';
-import newArrival4Data from '../NewArrival/new-arrival-4/new-arrival-4.json';
-import { NewArrival5 } from '../NewArrival/new-arrival-5/NewArrival5';
-import newArrival5Data from '../NewArrival/new-arrival-5/new-arrival-5.json';
-import { NewArrival6 } from '../NewArrival/new-arrival-6/NewArrival6';
-import newArrival6Data from '../NewArrival/new-arrival-6/new-arrival-6.json';
-import { NewArrival7 } from '../NewArrival/new-arrival-7/NewArrival7';
-import newArrival7Data from '../NewArrival/new-arrival-7/new-arrival-7.json';
-import { NewArrival8 } from '../NewArrival/new-arrival-8/NewArrival8';
-import newArrival8Data from '../NewArrival/new-arrival-8/new-arrival-8.json';
-import { NewArrival9 } from '../NewArrival/new-arrival-9/NewArrival9';
-import newArrival9Data from '../NewArrival/new-arrival-9/new-arrival-9.json';
-import { NewArrival10 } from '../NewArrival/new-arrival-10/NewArrival10';
-import newArrival10Data from '../NewArrival/new-arrival-10/new-arrival-10.json';
-import { NewArrival11 } from '../NewArrival/new-arrival-11/NewArrival11';
-import newArrival11Data from '../NewArrival/new-arrival-11/new-arrival-11.json';
-import { NewArrival12 } from '../NewArrival/new-arrival-12/NewArrival12';
-import newArrival12Data from '../NewArrival/new-arrival-12/new-arrival-12.json';
-import { NewArrival13 } from '../NewArrival/new-arrival-13/NewArrival13';
-import newArrival13Data from '../NewArrival/new-arrival-13/new-arrival-13.json';
-import { NewArrival14 } from '../NewArrival/new-arrival-14/NewArrival14';
-import newArrival14Data from '../NewArrival/new-arrival-14/new-arrival-14.json';
-import { NewArrival15 } from '../NewArrival/new-arrival-15/NewArrival15';
-import newArrival15Data from '../NewArrival/new-arrival-15/new-arrival-15.json';
-import { NewArrival16 } from '../NewArrival/new-arrival-16/NewArrival16';
-import newArrival16Data from '../NewArrival/new-arrival-16/new-arrival-16.json';
-import { NewArrival17 } from '../NewArrival/new-arrival-17/NewArrival17';
-import newArrival17Data from '../NewArrival/new-arrival-17/new-arrival-17.json';
-import { NewArrival18 } from '../NewArrival/new-arrival-18/NewArrival18';
-import newArrival18Data from '../NewArrival/new-arrival-18/new-arrival-18.json';
-import { NewArrival19 } from '../NewArrival/new-arrival-19/NewArrival19';
-import newArrival19Data from '../NewArrival/new-arrival-19/new-arrival-19.json';
-import { NewArrival20 } from '../NewArrival/new-arrival-20/NewArrival20';
-import newArrival20Data from '../NewArrival/new-arrival-20/new-arrival-20.json';
-import { Trending1 } from '../TrendingProducts/trending-1/Trending1';
-import trending1Data from '../TrendingProducts/trending-1/trending-1.json';
-import { Trending2 } from '../TrendingProducts/trending-2/Trending2';
-import trending2Data from '../TrendingProducts/trending-2/trending-2.json';
-import { Trending3 } from '../TrendingProducts/trending-3/Trending3';
-import trending3Data from '../TrendingProducts/trending-3/trending-3.json';
-import { Trending4 } from '../TrendingProducts/trending-4/Trending4';
-import trending4Data from '../TrendingProducts/trending-4/trending-4.json';
-import { Trending5 } from '../TrendingProducts/trending-5/Trending5';
-import trending5Data from '../TrendingProducts/trending-5/trending-5.json';
-import { Trending6 } from '../TrendingProducts/trending-6/Trending6';
-import trending6Data from '../TrendingProducts/trending-6/trending-6.json';
-import { Trending7 } from '../TrendingProducts/trending-7/Trending7';
-import trending7Data from '../TrendingProducts/trending-7/trending-7.json';
-import { Trending8 } from '../TrendingProducts/trending-8/Trending8';
-import trending8Data from '../TrendingProducts/trending-8/trending-8.json';
-import { Trending9 } from '../TrendingProducts/trending-9/Trending9';
-import trending9Data from '../TrendingProducts/trending-9/trending-9.json';
-import { Trending10 } from '../TrendingProducts/trending-10/Trending10';
-import trending10Data from '../TrendingProducts/trending-10/trending-10.json';
-import { Trending11 } from '../TrendingProducts/trending-11/Trending11';
-import trending11Data from '../TrendingProducts/trending-11/trending-11.json';
-import { Trending12 } from '../TrendingProducts/trending-12/Trending12';
-import trending12Data from '../TrendingProducts/trending-12/trending-12.json';
-import { Trending13 } from '../TrendingProducts/trending-13/Trending13';
-import trending13Data from '../TrendingProducts/trending-13/trending-13.json';
-import { Trending14 } from '../TrendingProducts/trending-14/Trending14';
-import trending14Data from '../TrendingProducts/trending-14/trending-14.json';
-import { Trending15 } from '../TrendingProducts/trending-15/Trending15';
-import trending15Data from '../TrendingProducts/trending-15/trending-15.json';
-import { Trending16 } from '../TrendingProducts/trending-16/Trending16';
-import trending16Data from '../TrendingProducts/trending-16/trending-16.json';
-import { Trending17 } from '../TrendingProducts/trending-17/Trending17';
-import trending17Data from '../TrendingProducts/trending-17/trending-17.json';
-import { Trending18 } from '../TrendingProducts/trending-18/Trending18';
-import trending18Data from '../TrendingProducts/trending-18/trending-18.json';
-import { Trending19 } from '../TrendingProducts/trending-19/Trending19';
-import trending19Data from '../TrendingProducts/trending-19/trending-19.json';
-import { Trending20 } from '../TrendingProducts/trending-20/Trending20';
-import trending20Data from '../TrendingProducts/trending-20/trending-20.json';
+import FeaturedProductTab1 from '../sections/14-featured-product/featured-product-tab-1/FeaturedProductTab1';
+import featuredProductTab1Data from '../sections/14-featured-product/featured-product-tab-1/featured-product-tab-1.json';
+import FeaturedProductTab2 from '../sections/14-featured-product/featured-product-tab-2/FeaturedProductTab2';
+import featuredProductTab2Data from '../sections/14-featured-product/featured-product-tab-2/featured-product-tab-2.json';
+import FeaturedProductTab3 from '../sections/14-featured-product/featured-product-tab-3/FeaturedProductTab3';
+import featuredProductTab3Data from '../sections/14-featured-product/featured-product-tab-3/featured-product-tab-3.json';
+import FeaturedProductTab4 from '../sections/14-featured-product/featured-product-tab-4/FeaturedProductTab4';
+import featuredProductTab4Data from '../sections/14-featured-product/featured-product-tab-4/featured-product-tab-4.json';
+import FeaturedProductTab5 from '../sections/14-featured-product/featured-product-tab-5/FeaturedProductTab5';
+import featuredProductTab5Data from '../sections/14-featured-product/featured-product-tab-5/featured-product-tab-5.json';
+import FeaturedProductTab6 from '../sections/14-featured-product/featured-product-tab-6/FeaturedProductTab6';
+import featuredProductTab6Data from '../sections/14-featured-product/featured-product-tab-6/featured-product-tab-6.json';
+import FeaturedProductTab7 from '../sections/14-featured-product/featured-product-tab-7/FeaturedProductTab7';
+import featuredProductTab7Data from '../sections/14-featured-product/featured-product-tab-7/featured-product-tab-7.json';
+import FeaturedProductTab8 from '../sections/14-featured-product/featured-product-tab-8/FeaturedProductTab8';
+import featuredProductTab8Data from '../sections/14-featured-product/featured-product-tab-8/featured-product-tab-8.json';
+import FeaturedProductTab9 from '../sections/14-featured-product/featured-product-tab-9/FeaturedProductTab9';
+import featuredProductTab9Data from '../sections/14-featured-product/featured-product-tab-9/featured-product-tab-9.json';
+import FeaturedProductTab10 from '../sections/14-featured-product/featured-product-tab-10/FeaturedProductTab10';
+import featuredProductTab10Data from '../sections/14-featured-product/featured-product-tab-10/featured-product-tab-10.json';
+import FeaturedProductTab11 from '../sections/14-featured-product/featured-product-tab-11/FeaturedProductTab11';
+import featuredProductTab11Data from '../sections/14-featured-product/featured-product-tab-11/featured-product-tab-11.json';
+import FeaturedProductTab12 from '../sections/14-featured-product/featured-product-tab-12/FeaturedProductTab12';
+import featuredProductTab12Data from '../sections/14-featured-product/featured-product-tab-12/featured-product-tab-12.json';
+import FeaturedProductTab13 from '../sections/14-featured-product/featured-product-tab-13/FeaturedProductTab13';
+import featuredProductTab13Data from '../sections/14-featured-product/featured-product-tab-13/featured-product-tab-13.json';
+import FeaturedProductTab14 from '../sections/14-featured-product/featured-product-tab-14/FeaturedProductTab14';
+import featuredProductTab14Data from '../sections/14-featured-product/featured-product-tab-14/featured-product-tab-14.json';
+import FeaturedProductTab15 from '../sections/14-featured-product/featured-product-tab-15/FeaturedProductTab15';
+import featuredProductTab15Data from '../sections/14-featured-product/featured-product-tab-15/featured-product-tab-15.json';
+import FeaturedProductTab16 from '../sections/14-featured-product/featured-product-tab-16/FeaturedProductTab16';
+import featuredProductTab16Data from '../sections/14-featured-product/featured-product-tab-16/featured-product-tab-16.json';
+import FeaturedProductTab17 from '../sections/14-featured-product/featured-product-tab-17/FeaturedProductTab17';
+import featuredProductTab17Data from '../sections/14-featured-product/featured-product-tab-17/featured-product-tab-17.json';
+import FeaturedProductTab18 from '../sections/14-featured-product/featured-product-tab-18/FeaturedProductTab18';
+import featuredProductTab18Data from '../sections/14-featured-product/featured-product-tab-18/featured-product-tab-18.json';
+import FeaturedProductTab19 from '../sections/14-featured-product/featured-product-tab-19/FeaturedProductTab19';
+import featuredProductTab19Data from '../sections/14-featured-product/featured-product-tab-19/featured-product-tab-19.json';
+import FeaturedProductTab20 from '../sections/14-featured-product/featured-product-tab-20/FeaturedProductTab20';
+import featuredProductTab20Data from '../sections/14-featured-product/featured-product-tab-20/featured-product-tab-20.json';
+import ImageText1 from '../sections/15-image-text/image-text-1/ImageText1';
+import imageText1Data from '../sections/15-image-text/image-text-1/image-text-1.json';
+import ImageText2 from '../sections/15-image-text/image-text-2/ImageText2';
+import imageText2Data from '../sections/15-image-text/image-text-2/image-text-2.json';
+import ImageText3 from '../sections/15-image-text/image-text-3/ImageText3';
+import imageText3Data from '../sections/15-image-text/image-text-3/image-text-3.json';
+import ImageText4 from '../sections/15-image-text/image-text-4/ImageText4';
+import imageText4Data from '../sections/15-image-text/image-text-4/image-text-4.json';
+import ImageText5 from '../sections/15-image-text/image-text-5/ImageText5';
+import imageText5Data from '../sections/15-image-text/image-text-5/image-text-5.json';
+import ImageText6 from '../sections/15-image-text/image-text-6/ImageText6';
+import imageText6Data from '../sections/15-image-text/image-text-6/image-text-6.json';
+import ImageText7 from '../sections/15-image-text/image-text-7/ImageText7';
+import imageText7Data from '../sections/15-image-text/image-text-7/image-text-7.json';
+import ImageText8 from '../sections/15-image-text/image-text-8/ImageText8';
+import imageText8Data from '../sections/15-image-text/image-text-8/image-text-8.json';
+import ImageText9 from '../sections/15-image-text/image-text-9/ImageText9';
+import imageText9Data from '../sections/15-image-text/image-text-9/image-text-9.json';
+import ImageText10 from '../sections/15-image-text/image-text-10/ImageText10';
+import imageText10Data from '../sections/15-image-text/image-text-10/image-text-10.json';
+import ImageText11 from '../sections/15-image-text/image-text-11/ImageText11';
+import imageText11Data from '../sections/15-image-text/image-text-11/image-text-11.json';
+import ImageText12 from '../sections/15-image-text/image-text-12/ImageText12';
+import imageText12Data from '../sections/15-image-text/image-text-12/image-text-12.json';
+import ImageText13 from '../sections/15-image-text/image-text-13/ImageText13';
+import imageText13Data from '../sections/15-image-text/image-text-13/image-text-13.json';
+import ImageText14 from '../sections/15-image-text/image-text-14/ImageText14';
+import imageText14Data from '../sections/15-image-text/image-text-14/image-text-14.json';
+import ImageText15 from '../sections/15-image-text/image-text-15/ImageText15';
+import imageText15Data from '../sections/15-image-text/image-text-15/image-text-15.json';
+import ImageText16 from '../sections/15-image-text/image-text-16/ImageText16';
+import imageText16Data from '../sections/15-image-text/image-text-16/image-text-16.json';
+import ImageText17 from '../sections/15-image-text/image-text-17/ImageText17';
+import imageText17Data from '../sections/15-image-text/image-text-17/image-text-17.json';
+import ImageText18 from '../sections/15-image-text/image-text-18/ImageText18';
+import imageText18Data from '../sections/15-image-text/image-text-18/image-text-18.json';
+import ImageText19 from '../sections/15-image-text/image-text-19/ImageText19';
+import imageText19Data from '../sections/15-image-text/image-text-19/image-text-19.json';
+import ImageText20 from '../sections/15-image-text/image-text-20/ImageText20';
+import imageText20Data from '../sections/15-image-text/image-text-20/image-text-20.json';
+import SplitImage1 from '../sections/16-split-image-content/split-image-1/SplitImage1';
+import splitImage1Data from '../sections/16-split-image-content/split-image-1/split-image-1.json';
+import SplitImage2 from '../sections/16-split-image-content/split-image-2/SplitImage2';
+import splitImage2Data from '../sections/16-split-image-content/split-image-2/split-image-2.json';
+import SplitImage3 from '../sections/16-split-image-content/split-image-3/SplitImage3';
+import splitImage3Data from '../sections/16-split-image-content/split-image-3/split-image-3.json';
+import SplitImage4 from '../sections/16-split-image-content/split-image-4/SplitImage4';
+import splitImage4Data from '../sections/16-split-image-content/split-image-4/split-image-4.json';
+import SplitImage5 from '../sections/16-split-image-content/split-image-5/SplitImage5';
+import splitImage5Data from '../sections/16-split-image-content/split-image-5/split-image-5.json';
+import SplitImage6 from '../sections/16-split-image-content/split-image-6/SplitImage6';
+import splitImage6Data from '../sections/16-split-image-content/split-image-6/split-image-6.json';
+import SplitImage7 from '../sections/16-split-image-content/split-image-7/SplitImage7';
+import splitImage7Data from '../sections/16-split-image-content/split-image-7/split-image-7.json';
+import SplitImage8 from '../sections/16-split-image-content/split-image-8/SplitImage8';
+import splitImage8Data from '../sections/16-split-image-content/split-image-8/split-image-8.json';
+import SplitImage9 from '../sections/16-split-image-content/split-image-9/SplitImage9';
+import splitImage9Data from '../sections/16-split-image-content/split-image-9/split-image-9.json';
+import SplitImage10 from '../sections/16-split-image-content/split-image-10/SplitImage10';
+import splitImage10Data from '../sections/16-split-image-content/split-image-10/split-image-10.json';
+import SplitImage11 from '../sections/16-split-image-content/split-image-11/SplitImage11';
+import splitImage11Data from '../sections/16-split-image-content/split-image-11/split-image-11.json';
+import SplitImage12 from '../sections/16-split-image-content/split-image-12/SplitImage12';
+import splitImage12Data from '../sections/16-split-image-content/split-image-12/split-image-12.json';
+import SplitImage13 from '../sections/16-split-image-content/split-image-13/SplitImage13';
+import splitImage13Data from '../sections/16-split-image-content/split-image-13/split-image-13.json';
+import SplitImage14 from '../sections/16-split-image-content/split-image-14/SplitImage14';
+import splitImage14Data from '../sections/16-split-image-content/split-image-14/split-image-14.json';
+import SplitImage15 from '../sections/16-split-image-content/split-image-15/SplitImage15';
+import splitImage15Data from '../sections/16-split-image-content/split-image-15/split-image-15.json';
+import SplitImage16 from '../sections/16-split-image-content/split-image-16/SplitImage16';
+import splitImage16Data from '../sections/16-split-image-content/split-image-16/split-image-16.json';
+import SplitImage17 from '../sections/16-split-image-content/split-image-17/SplitImage17';
+import splitImage17Data from '../sections/16-split-image-content/split-image-17/split-image-17.json';
+import SplitImage18 from '../sections/16-split-image-content/split-image-18/SplitImage18';
+import splitImage18Data from '../sections/16-split-image-content/split-image-18/split-image-18.json';
+import SplitImage19 from '../sections/16-split-image-content/split-image-19/SplitImage19';
+import splitImage19Data from '../sections/16-split-image-content/split-image-19/split-image-19.json';
+import SplitImage20 from '../sections/16-split-image-content/split-image-20/SplitImage20';
+import splitImage20Data from '../sections/16-split-image-content/split-image-20/split-image-20.json';
+import PromoCard1 from '../sections/17-promotional-cards/promo-card-1/PromoCard1';
+import promoCard1Data from '../sections/17-promotional-cards/promo-card-1/promo-card-1.json';
+import PromoCard2 from '../sections/17-promotional-cards/promo-card-2/PromoCard2';
+import promoCard2Data from '../sections/17-promotional-cards/promo-card-2/promo-card-2.json';
+import PromoCard3 from '../sections/17-promotional-cards/promo-card-3/PromoCard3';
+import promoCard3Data from '../sections/17-promotional-cards/promo-card-3/promo-card-3.json';
+import PromoCard4 from '../sections/17-promotional-cards/promo-card-4/PromoCard4';
+import promoCard4Data from '../sections/17-promotional-cards/promo-card-4/promo-card-4.json';
+import PromoCard5 from '../sections/17-promotional-cards/promo-card-5/PromoCard5';
+import promoCard5Data from '../sections/17-promotional-cards/promo-card-5/promo-card-5.json';
+import PromoCard6 from '../sections/17-promotional-cards/promo-card-6/PromoCard6';
+import promoCard6Data from '../sections/17-promotional-cards/promo-card-6/promo-card-6.json';
+import PromoCard7 from '../sections/17-promotional-cards/promo-card-7/PromoCard7';
+import promoCard7Data from '../sections/17-promotional-cards/promo-card-7/promo-card-7.json';
+import PromoCard8 from '../sections/17-promotional-cards/promo-card-8/PromoCard8';
+import promoCard8Data from '../sections/17-promotional-cards/promo-card-8/promo-card-8.json';
+import PromoCard9 from '../sections/17-promotional-cards/promo-card-9/PromoCard9';
+import promoCard9Data from '../sections/17-promotional-cards/promo-card-9/promo-card-9.json';
+import PromoCard10 from '../sections/17-promotional-cards/promo-card-10/PromoCard10';
+import promoCard10Data from '../sections/17-promotional-cards/promo-card-10/promo-card-10.json';
+import PromoCard11 from '../sections/17-promotional-cards/promo-card-11/PromoCard11';
+import promoCard11Data from '../sections/17-promotional-cards/promo-card-11/promo-card-11.json';
+import PromoCard12 from '../sections/17-promotional-cards/promo-card-12/PromoCard12';
+import promoCard12Data from '../sections/17-promotional-cards/promo-card-12/promo-card-12.json';
+import PromoCard13 from '../sections/17-promotional-cards/promo-card-13/PromoCard13';
+import promoCard13Data from '../sections/17-promotional-cards/promo-card-13/promo-card-13.json';
+import PromoCard14 from '../sections/17-promotional-cards/promo-card-14/PromoCard14';
+import promoCard14Data from '../sections/17-promotional-cards/promo-card-14/promo-card-14.json';
+import PromoCard15 from '../sections/17-promotional-cards/promo-card-15/PromoCard15';
+import promoCard15Data from '../sections/17-promotional-cards/promo-card-15/promo-card-15.json';
+import PromoCard16 from '../sections/17-promotional-cards/promo-card-16/PromoCard16';
+import promoCard16Data from '../sections/17-promotional-cards/promo-card-16/promo-card-16.json';
+import PromoCard17 from '../sections/17-promotional-cards/promo-card-17/PromoCard17';
+import promoCard17Data from '../sections/17-promotional-cards/promo-card-17/promo-card-17.json';
+import PromoCard18 from '../sections/17-promotional-cards/promo-card-18/PromoCard18';
+import promoCard18Data from '../sections/17-promotional-cards/promo-card-18/promo-card-18.json';
+import PromoCard19 from '../sections/17-promotional-cards/promo-card-19/PromoCard19';
+import promoCard19Data from '../sections/17-promotional-cards/promo-card-19/promo-card-19.json';
+import PromoCard20 from '../sections/17-promotional-cards/promo-card-20/PromoCard20';
+import promoCard20Data from '../sections/17-promotional-cards/promo-card-20/promo-card-20.json';
+import WhyChooseUs1 from '../sections/18-why-choose-us/why-choose-us-1/WhyChooseUs1';
+import whyChooseUs1Data from '../sections/18-why-choose-us/why-choose-us-1/why-choose-us-1.json';
+import WhyChooseUs2 from '../sections/18-why-choose-us/why-choose-us-2/WhyChooseUs2';
+import whyChooseUs2Data from '../sections/18-why-choose-us/why-choose-us-2/why-choose-us-2.json';
+import WhyChooseUs3 from '../sections/18-why-choose-us/why-choose-us-3/WhyChooseUs3';
+import whyChooseUs3Data from '../sections/18-why-choose-us/why-choose-us-3/why-choose-us-3.json';
+import WhyChooseUs4 from '../sections/18-why-choose-us/why-choose-us-4/WhyChooseUs4';
+import whyChooseUs4Data from '../sections/18-why-choose-us/why-choose-us-4/why-choose-us-4.json';
+import WhyChooseUs5 from '../sections/18-why-choose-us/why-choose-us-5/WhyChooseUs5';
+import whyChooseUs5Data from '../sections/18-why-choose-us/why-choose-us-5/why-choose-us-5.json';
+import WhyChooseUs6 from '../sections/18-why-choose-us/why-choose-us-6/WhyChooseUs6';
+import whyChooseUs6Data from '../sections/18-why-choose-us/why-choose-us-6/why-choose-us-6.json';
+import WhyChooseUs7 from '../sections/18-why-choose-us/why-choose-us-7/WhyChooseUs7';
+import whyChooseUs7Data from '../sections/18-why-choose-us/why-choose-us-7/why-choose-us-7.json';
+import WhyChooseUs8 from '../sections/18-why-choose-us/why-choose-us-8/WhyChooseUs8';
+import whyChooseUs8Data from '../sections/18-why-choose-us/why-choose-us-8/why-choose-us-8.json';
+import WhyChooseUs9 from '../sections/18-why-choose-us/why-choose-us-9/WhyChooseUs9';
+import whyChooseUs9Data from '../sections/18-why-choose-us/why-choose-us-9/why-choose-us-9.json';
+import WhyChooseUs10 from '../sections/18-why-choose-us/why-choose-us-10/WhyChooseUs10';
+import whyChooseUs10Data from '../sections/18-why-choose-us/why-choose-us-10/why-choose-us-10.json';
+import WhyChooseUs11 from '../sections/18-why-choose-us/why-choose-us-11/WhyChooseUs11';
+import whyChooseUs11Data from '../sections/18-why-choose-us/why-choose-us-11/why-choose-us-11.json';
+import WhyChooseUs12 from '../sections/18-why-choose-us/why-choose-us-12/WhyChooseUs12';
+import whyChooseUs12Data from '../sections/18-why-choose-us/why-choose-us-12/why-choose-us-12.json';
+import WhyChooseUs13 from '../sections/18-why-choose-us/why-choose-us-13/WhyChooseUs13';
+import whyChooseUs13Data from '../sections/18-why-choose-us/why-choose-us-13/why-choose-us-13.json';
+import WhyChooseUs14 from '../sections/18-why-choose-us/why-choose-us-14/WhyChooseUs14';
+import whyChooseUs14Data from '../sections/18-why-choose-us/why-choose-us-14/why-choose-us-14.json';
+import WhyChooseUs15 from '../sections/18-why-choose-us/why-choose-us-15/WhyChooseUs15';
+import whyChooseUs15Data from '../sections/18-why-choose-us/why-choose-us-15/why-choose-us-15.json';
+import WhyChooseUs16 from '../sections/18-why-choose-us/why-choose-us-16/WhyChooseUs16';
+import whyChooseUs16Data from '../sections/18-why-choose-us/why-choose-us-16/why-choose-us-16.json';
+import WhyChooseUs17 from '../sections/18-why-choose-us/why-choose-us-17/WhyChooseUs17';
+import whyChooseUs17Data from '../sections/18-why-choose-us/why-choose-us-17/why-choose-us-17.json';
+import WhyChooseUs18 from '../sections/18-why-choose-us/why-choose-us-18/WhyChooseUs18';
+import whyChooseUs18Data from '../sections/18-why-choose-us/why-choose-us-18/why-choose-us-18.json';
+import WhyChooseUs19 from '../sections/18-why-choose-us/why-choose-us-19/WhyChooseUs19';
+import whyChooseUs19Data from '../sections/18-why-choose-us/why-choose-us-19/why-choose-us-19.json';
+import WhyChooseUs20 from '../sections/18-why-choose-us/why-choose-us-20/WhyChooseUs20';
+import whyChooseUs20Data from '../sections/18-why-choose-us/why-choose-us-20/why-choose-us-20.json';
+import BrandShowcase1 from '../sections/19-brand-showcase/brand-showcase-1/BrandShowcase1';
+import brandShowcase1Data from '../sections/19-brand-showcase/brand-showcase-1/brand-showcase-1.json';
+import BrandShowcase2 from '../sections/19-brand-showcase/brand-showcase-2/BrandShowcase2';
+import brandShowcase2Data from '../sections/19-brand-showcase/brand-showcase-2/brand-showcase-2.json';
+import BrandShowcase3 from '../sections/19-brand-showcase/brand-showcase-3/BrandShowcase3';
+import brandShowcase3Data from '../sections/19-brand-showcase/brand-showcase-3/brand-showcase-3.json';
+import BrandShowcase4 from '../sections/19-brand-showcase/brand-showcase-4/BrandShowcase4';
+import brandShowcase4Data from '../sections/19-brand-showcase/brand-showcase-4/brand-showcase-4.json';
+import BrandShowcase5 from '../sections/19-brand-showcase/brand-showcase-5/BrandShowcase5';
+import brandShowcase5Data from '../sections/19-brand-showcase/brand-showcase-5/brand-showcase-5.json';
+import BrandShowcase6 from '../sections/19-brand-showcase/brand-showcase-6/BrandShowcase6';
+import brandShowcase6Data from '../sections/19-brand-showcase/brand-showcase-6/brand-showcase-6.json';
+import BrandShowcase7 from '../sections/19-brand-showcase/brand-showcase-7/BrandShowcase7';
+import brandShowcase7Data from '../sections/19-brand-showcase/brand-showcase-7/brand-showcase-7.json';
+import BrandShowcase8 from '../sections/19-brand-showcase/brand-showcase-8/BrandShowcase8';
+import brandShowcase8Data from '../sections/19-brand-showcase/brand-showcase-8/brand-showcase-8.json';
+import BrandShowcase9 from '../sections/19-brand-showcase/brand-showcase-9/BrandShowcase9';
+import brandShowcase9Data from '../sections/19-brand-showcase/brand-showcase-9/brand-showcase-9.json';
+import BrandShowcase10 from '../sections/19-brand-showcase/brand-showcase-10/BrandShowcase10';
+import brandShowcase10Data from '../sections/19-brand-showcase/brand-showcase-10/brand-showcase-10.json';
+import BrandShowcase11 from '../sections/19-brand-showcase/brand-showcase-11/BrandShowcase11';
+import brandShowcase11Data from '../sections/19-brand-showcase/brand-showcase-11/brand-showcase-11.json';
+import BrandShowcase12 from '../sections/19-brand-showcase/brand-showcase-12/BrandShowcase12';
+import brandShowcase12Data from '../sections/19-brand-showcase/brand-showcase-12/brand-showcase-12.json';
+import BrandShowcase13 from '../sections/19-brand-showcase/brand-showcase-13/BrandShowcase13';
+import brandShowcase13Data from '../sections/19-brand-showcase/brand-showcase-13/brand-showcase-13.json';
+import BrandShowcase14 from '../sections/19-brand-showcase/brand-showcase-14/BrandShowcase14';
+import brandShowcase14Data from '../sections/19-brand-showcase/brand-showcase-14/brand-showcase-14.json';
+import BrandShowcase15 from '../sections/19-brand-showcase/brand-showcase-15/BrandShowcase15';
+import brandShowcase15Data from '../sections/19-brand-showcase/brand-showcase-15/brand-showcase-15.json';
+import BrandShowcase16 from '../sections/19-brand-showcase/brand-showcase-16/BrandShowcase16';
+import brandShowcase16Data from '../sections/19-brand-showcase/brand-showcase-16/brand-showcase-16.json';
+import BrandShowcase17 from '../sections/19-brand-showcase/brand-showcase-17/BrandShowcase17';
+import brandShowcase17Data from '../sections/19-brand-showcase/brand-showcase-17/brand-showcase-17.json';
+import BrandShowcase18 from '../sections/19-brand-showcase/brand-showcase-18/BrandShowcase18';
+import brandShowcase18Data from '../sections/19-brand-showcase/brand-showcase-18/brand-showcase-18.json';
+import BrandShowcase19 from '../sections/19-brand-showcase/brand-showcase-19/BrandShowcase19';
+import brandShowcase19Data from '../sections/19-brand-showcase/brand-showcase-19/brand-showcase-19.json';
+import BrandShowcase20 from '../sections/19-brand-showcase/brand-showcase-20/BrandShowcase20';
+import brandShowcase20Data from '../sections/19-brand-showcase/brand-showcase-20/brand-showcase-20.json';
+import Testimonial1 from '../sections/20-testimonials/testimonial-1/Testimonial1';
+import testimonial1Data from '../sections/20-testimonials/testimonial-1/testimonial-1.json';
+import Testimonial2 from '../sections/20-testimonials/testimonial-2/Testimonial2';
+import testimonial2Data from '../sections/20-testimonials/testimonial-2/testimonial-2.json';
+import Testimonial3 from '../sections/20-testimonials/testimonial-3/Testimonial3';
+import testimonial3Data from '../sections/20-testimonials/testimonial-3/testimonial-3.json';
+import Testimonial4 from '../sections/20-testimonials/testimonial-4/Testimonial4';
+import testimonial4Data from '../sections/20-testimonials/testimonial-4/testimonial-4.json';
+import Testimonial5 from '../sections/20-testimonials/testimonial-5/Testimonial5';
+import testimonial5Data from '../sections/20-testimonials/testimonial-5/testimonial-5.json';
+import Testimonial6 from '../sections/20-testimonials/testimonial-6/Testimonial6';
+import testimonial6Data from '../sections/20-testimonials/testimonial-6/testimonial-6.json';
+import Testimonial7 from '../sections/20-testimonials/testimonial-7/Testimonial7';
+import testimonial7Data from '../sections/20-testimonials/testimonial-7/testimonial-7.json';
+import Testimonial8 from '../sections/20-testimonials/testimonial-8/Testimonial8';
+import testimonial8Data from '../sections/20-testimonials/testimonial-8/testimonial-8.json';
+import Testimonial9 from '../sections/20-testimonials/testimonial-9/Testimonial9';
+import testimonial9Data from '../sections/20-testimonials/testimonial-9/testimonial-9.json';
+import Testimonial10 from '../sections/20-testimonials/testimonial-10/Testimonial10';
+import testimonial10Data from '../sections/20-testimonials/testimonial-10/testimonial-10.json';
+import Testimonial11 from '../sections/20-testimonials/testimonial-11/Testimonial11';
+import testimonial11Data from '../sections/20-testimonials/testimonial-11/testimonial-11.json';
+import Testimonial12 from '../sections/20-testimonials/testimonial-12/Testimonial12';
+import testimonial12Data from '../sections/20-testimonials/testimonial-12/testimonial-12.json';
+import Testimonial13 from '../sections/20-testimonials/testimonial-13/Testimonial13';
+import testimonial13Data from '../sections/20-testimonials/testimonial-13/testimonial-13.json';
+import Testimonial14 from '../sections/20-testimonials/testimonial-14/Testimonial14';
+import testimonial14Data from '../sections/20-testimonials/testimonial-14/testimonial-14.json';
+import Testimonial15 from '../sections/20-testimonials/testimonial-15/Testimonial15';
+import testimonial15Data from '../sections/20-testimonials/testimonial-15/testimonial-15.json';
+import Testimonial16 from '../sections/20-testimonials/testimonial-16/Testimonial16';
+import testimonial16Data from '../sections/20-testimonials/testimonial-16/testimonial-16.json';
+import Testimonial17 from '../sections/20-testimonials/testimonial-17/Testimonial17';
+import testimonial17Data from '../sections/20-testimonials/testimonial-17/testimonial-17.json';
+import Testimonial18 from '../sections/20-testimonials/testimonial-18/Testimonial18';
+import testimonial18Data from '../sections/20-testimonials/testimonial-18/testimonial-18.json';
+import Testimonial19 from '../sections/20-testimonials/testimonial-19/Testimonial19';
+import testimonial19Data from '../sections/20-testimonials/testimonial-19/testimonial-19.json';
+import Testimonial20 from '../sections/20-testimonials/testimonial-20/Testimonial20';
+import testimonial20Data from '../sections/20-testimonials/testimonial-20/testimonial-20.json';
+import CustomerReview1 from '../sections/21-customer-reviews/customer-review-1/CustomerReview1';
+import customerReview1Data from '../sections/21-customer-reviews/customer-review-1/customer-review-1.json';
+import CustomerReview2 from '../sections/21-customer-reviews/customer-review-2/CustomerReview2';
+import customerReview2Data from '../sections/21-customer-reviews/customer-review-2/customer-review-2.json';
+import CustomerReview3 from '../sections/21-customer-reviews/customer-review-3/CustomerReview3';
+import customerReview3Data from '../sections/21-customer-reviews/customer-review-3/customer-review-3.json';
+import CustomerReview4 from '../sections/21-customer-reviews/customer-review-4/CustomerReview4';
+import customerReview4Data from '../sections/21-customer-reviews/customer-review-4/customer-review-4.json';
+import CustomerReview5 from '../sections/21-customer-reviews/customer-review-5/CustomerReview5';
+import customerReview5Data from '../sections/21-customer-reviews/customer-review-5/customer-review-5.json';
+import CustomerReview6 from '../sections/21-customer-reviews/customer-review-6/CustomerReview6';
+import customerReview6Data from '../sections/21-customer-reviews/customer-review-6/customer-review-6.json';
+import CustomerReview7 from '../sections/21-customer-reviews/customer-review-7/CustomerReview7';
+import customerReview7Data from '../sections/21-customer-reviews/customer-review-7/customer-review-7.json';
+import CustomerReview8 from '../sections/21-customer-reviews/customer-review-8/CustomerReview8';
+import customerReview8Data from '../sections/21-customer-reviews/customer-review-8/customer-review-8.json';
+import CustomerReview9 from '../sections/21-customer-reviews/customer-review-9/CustomerReview9';
+import customerReview9Data from '../sections/21-customer-reviews/customer-review-9/customer-review-9.json';
+import CustomerReview10 from '../sections/21-customer-reviews/customer-review-10/CustomerReview10';
+import customerReview10Data from '../sections/21-customer-reviews/customer-review-10/customer-review-10.json';
+import CustomerReview11 from '../sections/21-customer-reviews/customer-review-11/CustomerReview11';
+import customerReview11Data from '../sections/21-customer-reviews/customer-review-11/customer-review-11.json';
+import CustomerReview12 from '../sections/21-customer-reviews/customer-review-12/CustomerReview12';
+import customerReview12Data from '../sections/21-customer-reviews/customer-review-12/customer-review-12.json';
+import CustomerReview13 from '../sections/21-customer-reviews/customer-review-13/CustomerReview13';
+import customerReview13Data from '../sections/21-customer-reviews/customer-review-13/customer-review-13.json';
+import CustomerReview14 from '../sections/21-customer-reviews/customer-review-14/CustomerReview14';
+import customerReview14Data from '../sections/21-customer-reviews/customer-review-14/customer-review-14.json';
+import CustomerReview15 from '../sections/21-customer-reviews/customer-review-15/CustomerReview15';
+import customerReview15Data from '../sections/21-customer-reviews/customer-review-15/customer-review-15.json';
+import CustomerReview16 from '../sections/21-customer-reviews/customer-review-16/CustomerReview16';
+import customerReview16Data from '../sections/21-customer-reviews/customer-review-16/customer-review-16.json';
+import CustomerReview17 from '../sections/21-customer-reviews/customer-review-17/CustomerReview17';
+import customerReview17Data from '../sections/21-customer-reviews/customer-review-17/customer-review-17.json';
+import CustomerReview18 from '../sections/21-customer-reviews/customer-review-18/CustomerReview18';
+import customerReview18Data from '../sections/21-customer-reviews/customer-review-18/customer-review-18.json';
+import CustomerReview19 from '../sections/21-customer-reviews/customer-review-19/CustomerReview19';
+import customerReview19Data from '../sections/21-customer-reviews/customer-review-19/customer-review-19.json';
+import CustomerReview20 from '../sections/21-customer-reviews/customer-review-20/CustomerReview20';
+import customerReview20Data from '../sections/21-customer-reviews/customer-review-20/customer-review-20.json';
+import VideoShowcase1 from '../sections/22-video-showcase/video-showcase-1/VideoShowcase1';
+import videoShowcase1Data from '../sections/22-video-showcase/video-showcase-1/video-showcase-1.json';
+import VideoShowcase2 from '../sections/22-video-showcase/video-showcase-2/VideoShowcase2';
+import videoShowcase2Data from '../sections/22-video-showcase/video-showcase-2/video-showcase-2.json';
+import VideoShowcase3 from '../sections/22-video-showcase/video-showcase-3/VideoShowcase3';
+import videoShowcase3Data from '../sections/22-video-showcase/video-showcase-3/video-showcase-3.json';
+import VideoShowcase4 from '../sections/22-video-showcase/video-showcase-4/VideoShowcase4';
+import videoShowcase4Data from '../sections/22-video-showcase/video-showcase-4/video-showcase-4.json';
+import VideoShowcase5 from '../sections/22-video-showcase/video-showcase-5/VideoShowcase5';
+import videoShowcase5Data from '../sections/22-video-showcase/video-showcase-5/video-showcase-5.json';
+import VideoShowcase6 from '../sections/22-video-showcase/video-showcase-6/VideoShowcase6';
+import videoShowcase6Data from '../sections/22-video-showcase/video-showcase-6/video-showcase-6.json';
+import VideoShowcase7 from '../sections/22-video-showcase/video-showcase-7/VideoShowcase7';
+import videoShowcase7Data from '../sections/22-video-showcase/video-showcase-7/video-showcase-7.json';
+import VideoShowcase8 from '../sections/22-video-showcase/video-showcase-8/VideoShowcase8';
+import videoShowcase8Data from '../sections/22-video-showcase/video-showcase-8/video-showcase-8.json';
+import VideoShowcase9 from '../sections/22-video-showcase/video-showcase-9/VideoShowcase9';
+import videoShowcase9Data from '../sections/22-video-showcase/video-showcase-9/video-showcase-9.json';
+import VideoShowcase10 from '../sections/22-video-showcase/video-showcase-10/VideoShowcase10';
+import videoShowcase10Data from '../sections/22-video-showcase/video-showcase-10/video-showcase-10.json';
+import VideoShowcase11 from '../sections/22-video-showcase/video-showcase-11/VideoShowcase11';
+import videoShowcase11Data from '../sections/22-video-showcase/video-showcase-11/video-showcase-11.json';
+import VideoShowcase12 from '../sections/22-video-showcase/video-showcase-12/VideoShowcase12';
+import videoShowcase12Data from '../sections/22-video-showcase/video-showcase-12/video-showcase-12.json';
+import VideoShowcase13 from '../sections/22-video-showcase/video-showcase-13/VideoShowcase13';
+import videoShowcase13Data from '../sections/22-video-showcase/video-showcase-13/video-showcase-13.json';
+import VideoShowcase14 from '../sections/22-video-showcase/video-showcase-14/VideoShowcase14';
+import videoShowcase14Data from '../sections/22-video-showcase/video-showcase-14/video-showcase-14.json';
+import VideoShowcase15 from '../sections/22-video-showcase/video-showcase-15/VideoShowcase15';
+import videoShowcase15Data from '../sections/22-video-showcase/video-showcase-15/video-showcase-15.json';
+import VideoShowcase16 from '../sections/22-video-showcase/video-showcase-16/VideoShowcase16';
+import videoShowcase16Data from '../sections/22-video-showcase/video-showcase-16/video-showcase-16.json';
+import VideoShowcase17 from '../sections/22-video-showcase/video-showcase-17/VideoShowcase17';
+import videoShowcase17Data from '../sections/22-video-showcase/video-showcase-17/video-showcase-17.json';
+import VideoShowcase18 from '../sections/22-video-showcase/video-showcase-18/VideoShowcase18';
+import videoShowcase18Data from '../sections/22-video-showcase/video-showcase-18/video-showcase-18.json';
+import VideoShowcase19 from '../sections/22-video-showcase/video-showcase-19/VideoShowcase19';
+import videoShowcase19Data from '../sections/22-video-showcase/video-showcase-19/video-showcase-19.json';
+import VideoShowcase20 from '../sections/22-video-showcase/video-showcase-20/VideoShowcase20';
+import videoShowcase20Data from '../sections/22-video-showcase/video-showcase-20/video-showcase-20.json';
+import BlogHighlight1 from '../sections/23-blog-highlights/blog-highlight-1/BlogHighlight1';
+import blogHighlight1Data from '../sections/23-blog-highlights/blog-highlight-1/blog-highlight-1.json';
+import BlogHighlight2 from '../sections/23-blog-highlights/blog-highlight-2/BlogHighlight2';
+import blogHighlight2Data from '../sections/23-blog-highlights/blog-highlight-2/blog-highlight-2.json';
+import BlogHighlight3 from '../sections/23-blog-highlights/blog-highlight-3/BlogHighlight3';
+import blogHighlight3Data from '../sections/23-blog-highlights/blog-highlight-3/blog-highlight-3.json';
+import BlogHighlight4 from '../sections/23-blog-highlights/blog-highlight-4/BlogHighlight4';
+import blogHighlight4Data from '../sections/23-blog-highlights/blog-highlight-4/blog-highlight-4.json';
+import BlogHighlight5 from '../sections/23-blog-highlights/blog-highlight-5/BlogHighlight5';
+import blogHighlight5Data from '../sections/23-blog-highlights/blog-highlight-5/blog-highlight-5.json';
+import BlogHighlight6 from '../sections/23-blog-highlights/blog-highlight-6/BlogHighlight6';
+import blogHighlight6Data from '../sections/23-blog-highlights/blog-highlight-6/blog-highlight-6.json';
+import BlogHighlight7 from '../sections/23-blog-highlights/blog-highlight-7/BlogHighlight7';
+import blogHighlight7Data from '../sections/23-blog-highlights/blog-highlight-7/blog-highlight-7.json';
+import BlogHighlight8 from '../sections/23-blog-highlights/blog-highlight-8/BlogHighlight8';
+import blogHighlight8Data from '../sections/23-blog-highlights/blog-highlight-8/blog-highlight-8.json';
+import BlogHighlight9 from '../sections/23-blog-highlights/blog-highlight-9/BlogHighlight9';
+import blogHighlight9Data from '../sections/23-blog-highlights/blog-highlight-9/blog-highlight-9.json';
+import BlogHighlight10 from '../sections/23-blog-highlights/blog-highlight-10/BlogHighlight10';
+import blogHighlight10Data from '../sections/23-blog-highlights/blog-highlight-10/blog-highlight-10.json';
+import BlogHighlight11 from '../sections/23-blog-highlights/blog-highlight-11/BlogHighlight11';
+import blogHighlight11Data from '../sections/23-blog-highlights/blog-highlight-11/blog-highlight-11.json';
+import BlogHighlight12 from '../sections/23-blog-highlights/blog-highlight-12/BlogHighlight12';
+import blogHighlight12Data from '../sections/23-blog-highlights/blog-highlight-12/blog-highlight-12.json';
+import BlogHighlight13 from '../sections/23-blog-highlights/blog-highlight-13/BlogHighlight13';
+import blogHighlight13Data from '../sections/23-blog-highlights/blog-highlight-13/blog-highlight-13.json';
+import BlogHighlight14 from '../sections/23-blog-highlights/blog-highlight-14/BlogHighlight14';
+import blogHighlight14Data from '../sections/23-blog-highlights/blog-highlight-14/blog-highlight-14.json';
+import BlogHighlight15 from '../sections/23-blog-highlights/blog-highlight-15/BlogHighlight15';
+import blogHighlight15Data from '../sections/23-blog-highlights/blog-highlight-15/blog-highlight-15.json';
+import BlogHighlight16 from '../sections/23-blog-highlights/blog-highlight-16/BlogHighlight16';
+import blogHighlight16Data from '../sections/23-blog-highlights/blog-highlight-16/blog-highlight-16.json';
+import BlogHighlight17 from '../sections/23-blog-highlights/blog-highlight-17/BlogHighlight17';
+import blogHighlight17Data from '../sections/23-blog-highlights/blog-highlight-17/blog-highlight-17.json';
+import BlogHighlight18 from '../sections/23-blog-highlights/blog-highlight-18/BlogHighlight18';
+import blogHighlight18Data from '../sections/23-blog-highlights/blog-highlight-18/blog-highlight-18.json';
+import BlogHighlight19 from '../sections/23-blog-highlights/blog-highlight-19/BlogHighlight19';
+import blogHighlight19Data from '../sections/23-blog-highlights/blog-highlight-19/blog-highlight-19.json';
+import BlogHighlight20 from '../sections/23-blog-highlights/blog-highlight-20/BlogHighlight20';
+import blogHighlight20Data from '../sections/23-blog-highlights/blog-highlight-20/blog-highlight-20.json';
+import BuyingGuide1 from '../sections/24-buying-guide/buying-guide-1/BuyingGuide1';
+import buyingGuide1Data from '../sections/24-buying-guide/buying-guide-1/buying-guide-1.json';
+import BuyingGuide2 from '../sections/24-buying-guide/buying-guide-2/BuyingGuide2';
+import buyingGuide2Data from '../sections/24-buying-guide/buying-guide-2/buying-guide-2.json';
+import BuyingGuide3 from '../sections/24-buying-guide/buying-guide-3/BuyingGuide3';
+import buyingGuide3Data from '../sections/24-buying-guide/buying-guide-3/buying-guide-3.json';
+import BuyingGuide4 from '../sections/24-buying-guide/buying-guide-4/BuyingGuide4';
+import buyingGuide4Data from '../sections/24-buying-guide/buying-guide-4/buying-guide-4.json';
+import BuyingGuide5 from '../sections/24-buying-guide/buying-guide-5/BuyingGuide5';
+import buyingGuide5Data from '../sections/24-buying-guide/buying-guide-5/buying-guide-5.json';
+import BuyingGuide6 from '../sections/24-buying-guide/buying-guide-6/BuyingGuide6';
+import buyingGuide6Data from '../sections/24-buying-guide/buying-guide-6/buying-guide-6.json';
+import BuyingGuide7 from '../sections/24-buying-guide/buying-guide-7/BuyingGuide7';
+import buyingGuide7Data from '../sections/24-buying-guide/buying-guide-7/buying-guide-7.json';
+import BuyingGuide8 from '../sections/24-buying-guide/buying-guide-8/BuyingGuide8';
+import buyingGuide8Data from '../sections/24-buying-guide/buying-guide-8/buying-guide-8.json';
+import BuyingGuide9 from '../sections/24-buying-guide/buying-guide-9/BuyingGuide9';
+import buyingGuide9Data from '../sections/24-buying-guide/buying-guide-9/buying-guide-9.json';
+import BuyingGuide10 from '../sections/24-buying-guide/buying-guide-10/BuyingGuide10';
+import buyingGuide10Data from '../sections/24-buying-guide/buying-guide-10/buying-guide-10.json';
+import BuyingGuide11 from '../sections/24-buying-guide/buying-guide-11/BuyingGuide11';
+import buyingGuide11Data from '../sections/24-buying-guide/buying-guide-11/buying-guide-11.json';
+import BuyingGuide12 from '../sections/24-buying-guide/buying-guide-12/BuyingGuide12';
+import buyingGuide12Data from '../sections/24-buying-guide/buying-guide-12/buying-guide-12.json';
+import BuyingGuide13 from '../sections/24-buying-guide/buying-guide-13/BuyingGuide13';
+import buyingGuide13Data from '../sections/24-buying-guide/buying-guide-13/buying-guide-13.json';
+import BuyingGuide14 from '../sections/24-buying-guide/buying-guide-14/BuyingGuide14';
+import buyingGuide14Data from '../sections/24-buying-guide/buying-guide-14/buying-guide-14.json';
+import BuyingGuide15 from '../sections/24-buying-guide/buying-guide-15/BuyingGuide15';
+import buyingGuide15Data from '../sections/24-buying-guide/buying-guide-15/buying-guide-15.json';
+import BuyingGuide16 from '../sections/24-buying-guide/buying-guide-16/BuyingGuide16';
+import buyingGuide16Data from '../sections/24-buying-guide/buying-guide-16/buying-guide-16.json';
+import BuyingGuide17 from '../sections/24-buying-guide/buying-guide-17/BuyingGuide17';
+import buyingGuide17Data from '../sections/24-buying-guide/buying-guide-17/buying-guide-17.json';
+import BuyingGuide18 from '../sections/24-buying-guide/buying-guide-18/BuyingGuide18';
+import buyingGuide18Data from '../sections/24-buying-guide/buying-guide-18/buying-guide-18.json';
+import BuyingGuide19 from '../sections/24-buying-guide/buying-guide-19/BuyingGuide19';
+import buyingGuide19Data from '../sections/24-buying-guide/buying-guide-19/buying-guide-19.json';
+import BuyingGuide20 from '../sections/24-buying-guide/buying-guide-20/BuyingGuide20';
+import buyingGuide20Data from '../sections/24-buying-guide/buying-guide-20/buying-guide-20.json';
+import Faq1 from '../sections/25-faq/faq-1/Faq1';
+import faq1Data from '../sections/25-faq/faq-1/faq-1.json';
+import Faq2 from '../sections/25-faq/faq-2/Faq2';
+import faq2Data from '../sections/25-faq/faq-2/faq-2.json';
+import Faq3 from '../sections/25-faq/faq-3/Faq3';
+import faq3Data from '../sections/25-faq/faq-3/faq-3.json';
+import Faq4 from '../sections/25-faq/faq-4/Faq4';
+import faq4Data from '../sections/25-faq/faq-4/faq-4.json';
+import Faq5 from '../sections/25-faq/faq-5/Faq5';
+import faq5Data from '../sections/25-faq/faq-5/faq-5.json';
+import Faq6 from '../sections/25-faq/faq-6/Faq6';
+import faq6Data from '../sections/25-faq/faq-6/faq-6.json';
+import Faq7 from '../sections/25-faq/faq-7/Faq7';
+import faq7Data from '../sections/25-faq/faq-7/faq-7.json';
+import Faq8 from '../sections/25-faq/faq-8/Faq8';
+import faq8Data from '../sections/25-faq/faq-8/faq-8.json';
+import Faq9 from '../sections/25-faq/faq-9/Faq9';
+import faq9Data from '../sections/25-faq/faq-9/faq-9.json';
+import Faq10 from '../sections/25-faq/faq-10/Faq10';
+import faq10Data from '../sections/25-faq/faq-10/faq-10.json';
+import Faq11 from '../sections/25-faq/faq-11/Faq11';
+import faq11Data from '../sections/25-faq/faq-11/faq-11.json';
+import Faq12 from '../sections/25-faq/faq-12/Faq12';
+import faq12Data from '../sections/25-faq/faq-12/faq-12.json';
+import Faq13 from '../sections/25-faq/faq-13/Faq13';
+import faq13Data from '../sections/25-faq/faq-13/faq-13.json';
+import Faq14 from '../sections/25-faq/faq-14/Faq14';
+import faq14Data from '../sections/25-faq/faq-14/faq-14.json';
+import Faq15 from '../sections/25-faq/faq-15/Faq15';
+import faq15Data from '../sections/25-faq/faq-15/faq-15.json';
+import Faq16 from '../sections/25-faq/faq-16/Faq16';
+import faq16Data from '../sections/25-faq/faq-16/faq-16.json';
+import Faq17 from '../sections/25-faq/faq-17/Faq17';
+import faq17Data from '../sections/25-faq/faq-17/faq-17.json';
+import Faq18 from '../sections/25-faq/faq-18/Faq18';
+import faq18Data from '../sections/25-faq/faq-18/faq-18.json';
+import Faq19 from '../sections/25-faq/faq-19/Faq19';
+import faq19Data from '../sections/25-faq/faq-19/faq-19.json';
+import Faq20 from '../sections/25-faq/faq-20/Faq20';
+import faq20Data from '../sections/25-faq/faq-20/faq-20.json';
+import Newsletter1 from '../sections/26-newsletter/newsletter-1/Newsletter1';
+import newsletter1Data from '../sections/26-newsletter/newsletter-1/newsletter-1.json';
+import Newsletter2 from '../sections/26-newsletter/newsletter-2/Newsletter2';
+import newsletter2Data from '../sections/26-newsletter/newsletter-2/newsletter-2.json';
+import Newsletter3 from '../sections/26-newsletter/newsletter-3/Newsletter3';
+import newsletter3Data from '../sections/26-newsletter/newsletter-3/newsletter-3.json';
+import Newsletter4 from '../sections/26-newsletter/newsletter-4/Newsletter4';
+import newsletter4Data from '../sections/26-newsletter/newsletter-4/newsletter-4.json';
+import Newsletter5 from '../sections/26-newsletter/newsletter-5/Newsletter5';
+import newsletter5Data from '../sections/26-newsletter/newsletter-5/newsletter-5.json';
+import Newsletter6 from '../sections/26-newsletter/newsletter-6/Newsletter6';
+import newsletter6Data from '../sections/26-newsletter/newsletter-6/newsletter-6.json';
+import Newsletter7 from '../sections/26-newsletter/newsletter-7/Newsletter7';
+import newsletter7Data from '../sections/26-newsletter/newsletter-7/newsletter-7.json';
+import Newsletter8 from '../sections/26-newsletter/newsletter-8/Newsletter8';
+import newsletter8Data from '../sections/26-newsletter/newsletter-8/newsletter-8.json';
+import Newsletter9 from '../sections/26-newsletter/newsletter-9/Newsletter9';
+import newsletter9Data from '../sections/26-newsletter/newsletter-9/newsletter-9.json';
+import Newsletter10 from '../sections/26-newsletter/newsletter-10/Newsletter10';
+import newsletter10Data from '../sections/26-newsletter/newsletter-10/newsletter-10.json';
+import Newsletter11 from '../sections/26-newsletter/newsletter-11/Newsletter11';
+import newsletter11Data from '../sections/26-newsletter/newsletter-11/newsletter-11.json';
+import Newsletter12 from '../sections/26-newsletter/newsletter-12/Newsletter12';
+import newsletter12Data from '../sections/26-newsletter/newsletter-12/newsletter-12.json';
+import Newsletter13 from '../sections/26-newsletter/newsletter-13/Newsletter13';
+import newsletter13Data from '../sections/26-newsletter/newsletter-13/newsletter-13.json';
+import Newsletter14 from '../sections/26-newsletter/newsletter-14/Newsletter14';
+import newsletter14Data from '../sections/26-newsletter/newsletter-14/newsletter-14.json';
+import Newsletter15 from '../sections/26-newsletter/newsletter-15/Newsletter15';
+import newsletter15Data from '../sections/26-newsletter/newsletter-15/newsletter-15.json';
+import Newsletter16 from '../sections/26-newsletter/newsletter-16/Newsletter16';
+import newsletter16Data from '../sections/26-newsletter/newsletter-16/newsletter-16.json';
+import Newsletter17 from '../sections/26-newsletter/newsletter-17/Newsletter17';
+import newsletter17Data from '../sections/26-newsletter/newsletter-17/newsletter-17.json';
+import Newsletter18 from '../sections/26-newsletter/newsletter-18/Newsletter18';
+import newsletter18Data from '../sections/26-newsletter/newsletter-18/newsletter-18.json';
+import Newsletter19 from '../sections/26-newsletter/newsletter-19/Newsletter19';
+import newsletter19Data from '../sections/26-newsletter/newsletter-19/newsletter-19.json';
+import Newsletter20 from '../sections/26-newsletter/newsletter-20/Newsletter20';
+import newsletter20Data from '../sections/26-newsletter/newsletter-20/newsletter-20.json';
+import { Banner1 } from '../sections/01-hero-banner/banner-1/Banner1';
+import { Banner2 } from '../sections/01-hero-banner/banner-2/Banner2';
+import { Banner3 } from '../sections/01-hero-banner/banner-3/Banner3';
+import { Banner4 } from '../sections/01-hero-banner/banner-4/Banner4';
+import { Banner5 } from '../sections/01-hero-banner/banner-5/Banner5';
+import { Banner6 } from '../sections/01-hero-banner/banner-6/Banner6';
+import { Banner7 } from '../sections/01-hero-banner/banner-7/Banner7';
+import { Banner8 } from '../sections/01-hero-banner/banner-8/Banner8';
+import { Banner9 } from '../sections/01-hero-banner/banner-9/Banner9';
+import { Banner10 } from '../sections/01-hero-banner/banner-10/Banner10';
+import { Banner11 } from '../sections/01-hero-banner/banner-11/Banner11';
+import { Banner12 } from '../sections/01-hero-banner/banner-12/Banner12';
+import { Banner13 } from '../sections/01-hero-banner/banner-13/Banner13';
+import { Banner14 } from '../sections/01-hero-banner/banner-14/Banner14';
+import { Banner15 } from '../sections/01-hero-banner/banner-15/Banner15';
+import { Banner16 } from '../sections/01-hero-banner/banner-16/Banner16';
+import { Banner17 } from '../sections/01-hero-banner/banner-17/Banner17';
+import { Banner18 } from '../sections/01-hero-banner/banner-18/Banner18';
+import { Banner19 } from '../sections/01-hero-banner/banner-19/Banner19';
+import { Banner20 } from '../sections/01-hero-banner/banner-20/Banner20';
+import banner1Data from '../sections/01-hero-banner/banner-1/banner-1.json';
+import banner2Data from '../sections/01-hero-banner/banner-2/banner-2.json';
+import banner3Data from '../sections/01-hero-banner/banner-3/banner-3.json';
+import banner4Data from '../sections/01-hero-banner/banner-4/banner-4.json';
+import banner5Data from '../sections/01-hero-banner/banner-5/banner-5.json';
+import banner6Data from '../sections/01-hero-banner/banner-6/banner-6.json';
+import banner7Data from '../sections/01-hero-banner/banner-7/banner-7.json';
+import banner8Data from '../sections/01-hero-banner/banner-8/banner-8.json';
+import banner9Data from '../sections/01-hero-banner/banner-9/banner-9.json';
+import banner10Data from '../sections/01-hero-banner/banner-10/banner-10.json';
+import banner11Data from '../sections/01-hero-banner/banner-11/banner-11.json';
+import banner12Data from '../sections/01-hero-banner/banner-12/banner-12.json';
+import banner13Data from '../sections/01-hero-banner/banner-13/banner-13.json';
+import banner14Data from '../sections/01-hero-banner/banner-14/banner-14.json';
+import banner15Data from '../sections/01-hero-banner/banner-15/banner-15.json';
+import banner16Data from '../sections/01-hero-banner/banner-16/banner-16.json';
+import banner17Data from '../sections/01-hero-banner/banner-17/banner-17.json';
+import banner18Data from '../sections/01-hero-banner/banner-18/banner-18.json';
+import banner19Data from '../sections/01-hero-banner/banner-19/banner-19.json';
+import banner20Data from '../sections/01-hero-banner/banner-20/banner-20.json';
+import { HeroCarousel1 } from '../sections/02-hero-carousel/hero-carousel-1/HeroCarousel1';
+import heroCarousel1Data from '../sections/02-hero-carousel/hero-carousel-1/hero-carousel-1.json';
+import { HeroCarousel2 } from '../sections/02-hero-carousel/hero-carousel-2/HeroCarousel2';
+import heroCarousel2Data from '../sections/02-hero-carousel/hero-carousel-2/hero-carousel-2.json';
+import { HeroCarousel3 } from '../sections/02-hero-carousel/hero-carousel-3/HeroCarousel3';
+import heroCarousel3Data from '../sections/02-hero-carousel/hero-carousel-3/hero-carousel-3.json';
+import { HeroCarousel4 } from '../sections/02-hero-carousel/hero-carousel-4/HeroCarousel4';
+import heroCarousel4Data from '../sections/02-hero-carousel/hero-carousel-4/hero-carousel-4.json';
+import { HeroCarousel5 } from '../sections/02-hero-carousel/hero-carousel-5/HeroCarousel5';
+import heroCarousel5Data from '../sections/02-hero-carousel/hero-carousel-5/hero-carousel-5.json';
+import { HeroCarousel6 } from '../sections/02-hero-carousel/hero-carousel-6/HeroCarousel6';
+import heroCarousel6Data from '../sections/02-hero-carousel/hero-carousel-6/hero-carousel-6.json';
+import { HeroCarousel7 } from '../sections/02-hero-carousel/hero-carousel-7/HeroCarousel7';
+import heroCarousel7Data from '../sections/02-hero-carousel/hero-carousel-7/hero-carousel-7.json';
+import { HeroCarousel8 } from '../sections/02-hero-carousel/hero-carousel-8/HeroCarousel8';
+import heroCarousel8Data from '../sections/02-hero-carousel/hero-carousel-8/hero-carousel-8.json';
+import { HeroCarousel9 } from '../sections/02-hero-carousel/hero-carousel-9/HeroCarousel9';
+import heroCarousel9Data from '../sections/02-hero-carousel/hero-carousel-9/hero-carousel-9.json';
+import { HeroCarousel10 } from '../sections/02-hero-carousel/hero-carousel-10/HeroCarousel10';
+import heroCarousel10Data from '../sections/02-hero-carousel/hero-carousel-10/hero-carousel-10.json';
+import { HeroCarousel11 } from '../sections/02-hero-carousel/hero-carousel-11/HeroCarousel11';
+import heroCarousel11Data from '../sections/02-hero-carousel/hero-carousel-11/hero-carousel-11.json';
+import { HeroCarousel12 } from '../sections/02-hero-carousel/hero-carousel-12/HeroCarousel12';
+import heroCarousel12Data from '../sections/02-hero-carousel/hero-carousel-12/hero-carousel-12.json';
+import { HeroCarousel13 } from '../sections/02-hero-carousel/hero-carousel-13/HeroCarousel13';
+import heroCarousel13Data from '../sections/02-hero-carousel/hero-carousel-13/hero-carousel-13.json';
+import { HeroCarousel14 } from '../sections/02-hero-carousel/hero-carousel-14/HeroCarousel14';
+import heroCarousel14Data from '../sections/02-hero-carousel/hero-carousel-14/hero-carousel-14.json';
+import { HeroCarousel15 } from '../sections/02-hero-carousel/hero-carousel-15/HeroCarousel15';
+import heroCarousel15Data from '../sections/02-hero-carousel/hero-carousel-15/hero-carousel-15.json';
+import { HeroCarousel16 } from '../sections/02-hero-carousel/hero-carousel-16/HeroCarousel16';
+import heroCarousel16Data from '../sections/02-hero-carousel/hero-carousel-16/hero-carousel-16.json';
+import { HeroCarousel17 } from '../sections/02-hero-carousel/hero-carousel-17/HeroCarousel17';
+import heroCarousel17Data from '../sections/02-hero-carousel/hero-carousel-17/hero-carousel-17.json';
+import { HeroCarousel18 } from '../sections/02-hero-carousel/hero-carousel-18/HeroCarousel18';
+import heroCarousel18Data from '../sections/02-hero-carousel/hero-carousel-18/hero-carousel-18.json';
+import { HeroCarousel19 } from '../sections/02-hero-carousel/hero-carousel-19/HeroCarousel19';
+import heroCarousel19Data from '../sections/02-hero-carousel/hero-carousel-19/hero-carousel-19.json';
+import { HeroCarousel20 } from '../sections/02-hero-carousel/hero-carousel-20/HeroCarousel20';
+import heroCarousel20Data from '../sections/02-hero-carousel/hero-carousel-20/hero-carousel-20.json';
+import { PromotionalBanner1 } from '../sections/03-promotional-banner/promotional-banner-1/PromotionalBanner1';
+import promotionalBanner1Data from '../sections/03-promotional-banner/promotional-banner-1/promotional-banner-1.json';
+import { PromotionalBanner2 } from '../sections/03-promotional-banner/promotional-banner-2/PromotionalBanner2';
+import promotionalBanner2Data from '../sections/03-promotional-banner/promotional-banner-2/promotional-banner-2.json';
+import { PromotionalBanner3 } from '../sections/03-promotional-banner/promotional-banner-3/PromotionalBanner3';
+import promotionalBanner3Data from '../sections/03-promotional-banner/promotional-banner-3/promotional-banner-3.json';
+import { PromotionalBanner4 } from '../sections/03-promotional-banner/promotional-banner-4/PromotionalBanner4';
+import promotionalBanner4Data from '../sections/03-promotional-banner/promotional-banner-4/promotional-banner-4.json';
+import { PromotionalBanner5 } from '../sections/03-promotional-banner/promotional-banner-5/PromotionalBanner5';
+import promotionalBanner5Data from '../sections/03-promotional-banner/promotional-banner-5/promotional-banner-5.json';
+import { PromotionalBanner6 } from '../sections/03-promotional-banner/promotional-banner-6/PromotionalBanner6';
+import promotionalBanner6Data from '../sections/03-promotional-banner/promotional-banner-6/promotional-banner-6.json';
+import { PromotionalBanner7 } from '../sections/03-promotional-banner/promotional-banner-7/PromotionalBanner7';
+import promotionalBanner7Data from '../sections/03-promotional-banner/promotional-banner-7/promotional-banner-7.json';
+import { PromotionalBanner8 } from '../sections/03-promotional-banner/promotional-banner-8/PromotionalBanner8';
+import promotionalBanner8Data from '../sections/03-promotional-banner/promotional-banner-8/promotional-banner-8.json';
+import { PromotionalBanner10 } from '../sections/03-promotional-banner/promotional-banner-10/PromotionalBanner10';
+import promotionalBanner10Data from '../sections/03-promotional-banner/promotional-banner-10/promotional-banner-10.json';
+import { PromotionalBanner11 } from '../sections/03-promotional-banner/promotional-banner-11/PromotionalBanner11';
+import promotionalBanner11Data from '../sections/03-promotional-banner/promotional-banner-11/promotional-banner-11.json';
+import { PromotionalBanner12 } from '../sections/03-promotional-banner/promotional-banner-12/PromotionalBanner12';
+import promotionalBanner12Data from '../sections/03-promotional-banner/promotional-banner-12/promotional-banner-12.json';
+import { PromotionalBanner13 } from '../sections/03-promotional-banner/promotional-banner-13/PromotionalBanner13';
+import promotionalBanner13Data from '../sections/03-promotional-banner/promotional-banner-13/promotional-banner-13.json';
+import { PromotionalBanner14 } from '../sections/03-promotional-banner/promotional-banner-14/PromotionalBanner14';
+import promotionalBanner14Data from '../sections/03-promotional-banner/promotional-banner-14/promotional-banner-14.json';
+import { PromotionalBanner16 } from '../sections/03-promotional-banner/promotional-banner-16/PromotionalBanner16';
+import promotionalBanner16Data from '../sections/03-promotional-banner/promotional-banner-16/promotional-banner-16.json';
+import { PromotionalBanner17 } from '../sections/03-promotional-banner/promotional-banner-17/PromotionalBanner17';
+import promotionalBanner17Data from '../sections/03-promotional-banner/promotional-banner-17/promotional-banner-17.json';
+import { PromotionalBanner18 } from '../sections/03-promotional-banner/promotional-banner-18/PromotionalBanner18';
+import promotionalBanner18Data from '../sections/03-promotional-banner/promotional-banner-18/promotional-banner-18.json';
+import { PromotionalBanner19 } from '../sections/03-promotional-banner/promotional-banner-19/PromotionalBanner19';
+import promotionalBanner19Data from '../sections/03-promotional-banner/promotional-banner-19/promotional-banner-19.json';
+import { PromotionalBanner20 } from '../sections/03-promotional-banner/promotional-banner-20/PromotionalBanner20';
+import promotionalBanner20Data from '../sections/03-promotional-banner/promotional-banner-20/promotional-banner-20.json';
+import { FeaturedCategory1 } from '../sections/04-featured-categories/featured-category-1/FeaturedCategory1';
+import featuredCategory1Data from '../sections/04-featured-categories/featured-category-1/featured-category-1.json';
+import { FeaturedCategory2 } from '../sections/04-featured-categories/featured-category-2/FeaturedCategory2';
+import featuredCategory2Data from '../sections/04-featured-categories/featured-category-2/featured-category-2.json';
+import { FeaturedCategory3 } from '../sections/04-featured-categories/featured-category-3/FeaturedCategory3';
+import featuredCategory3Data from '../sections/04-featured-categories/featured-category-3/featured-category-3.json';
+import { FeaturedCategory4 } from '../sections/04-featured-categories/featured-category-4/FeaturedCategory4';
+import featuredCategory4Data from '../sections/04-featured-categories/featured-category-4/featured-category-4.json';
+import { FeaturedCategory5 } from '../sections/04-featured-categories/featured-category-5/FeaturedCategory5';
+import featuredCategory5Data from '../sections/04-featured-categories/featured-category-5/featured-category-5.json';
+import { FeaturedCategory6 } from '../sections/04-featured-categories/featured-category-6/FeaturedCategory6';
+import featuredCategory6Data from '../sections/04-featured-categories/featured-category-6/featured-category-6.json';
+import { FeaturedCategory7 } from '../sections/04-featured-categories/featured-category-7/FeaturedCategory7';
+import featuredCategory7Data from '../sections/04-featured-categories/featured-category-7/featured-category-7.json';
+import { FeaturedCategory8 } from '../sections/04-featured-categories/featured-category-8/FeaturedCategory8';
+import featuredCategory8Data from '../sections/04-featured-categories/featured-category-8/featured-category-8.json';
+import { FeaturedCategory9 } from '../sections/04-featured-categories/featured-category-9/FeaturedCategory9';
+import featuredCategory9Data from '../sections/04-featured-categories/featured-category-9/featured-category-9.json';
+import { FeaturedCategory10 } from '../sections/04-featured-categories/featured-category-10/FeaturedCategory10';
+import featuredCategory10Data from '../sections/04-featured-categories/featured-category-10/featured-category-10.json';
+import { FeaturedCategory11 } from '../sections/04-featured-categories/featured-category-11/FeaturedCategory11';
+import featuredCategory11Data from '../sections/04-featured-categories/featured-category-11/featured-category-11.json';
+import { FeaturedCategory12 } from '../sections/04-featured-categories/featured-category-12/FeaturedCategory12';
+import featuredCategory12Data from '../sections/04-featured-categories/featured-category-12/featured-category-12.json';
+import { FeaturedCategory13 } from '../sections/04-featured-categories/featured-category-13/FeaturedCategory13';
+import featuredCategory13Data from '../sections/04-featured-categories/featured-category-13/featured-category-13.json';
+import { FeaturedCategory14 } from '../sections/04-featured-categories/featured-category-14/FeaturedCategory14';
+import featuredCategory14Data from '../sections/04-featured-categories/featured-category-14/featured-category-14.json';
+import { FeaturedCategory15 } from '../sections/04-featured-categories/featured-category-15/FeaturedCategory15';
+import featuredCategory15Data from '../sections/04-featured-categories/featured-category-15/featured-category-15.json';
+import { FeaturedCategory16 } from '../sections/04-featured-categories/featured-category-16/FeaturedCategory16';
+import featuredCategory16Data from '../sections/04-featured-categories/featured-category-16/featured-category-16.json';
+import { FeaturedCategory17 } from '../sections/04-featured-categories/featured-category-17/FeaturedCategory17';
+import featuredCategory17Data from '../sections/04-featured-categories/featured-category-17/featured-category-17.json';
+import { FeaturedCategory18 } from '../sections/04-featured-categories/featured-category-18/FeaturedCategory18';
+import featuredCategory18Data from '../sections/04-featured-categories/featured-category-18/featured-category-18.json';
+import { FeaturedCategory19 } from '../sections/04-featured-categories/featured-category-19/FeaturedCategory19';
+import featuredCategory19Data from '../sections/04-featured-categories/featured-category-19/featured-category-19.json';
+import { FeaturedCategory20 } from '../sections/04-featured-categories/featured-category-20/FeaturedCategory20';
+import featuredCategory20Data from '../sections/04-featured-categories/featured-category-20/featured-category-20.json';
+import { CategoryGrid1 } from '../sections/05-category-grid/category-grid-1/CategoryGrid1';
+import categoryGrid1Data from '../sections/05-category-grid/category-grid-1/category-grid-1.json';
+import { CategoryGrid2 } from '../sections/05-category-grid/category-grid-2/CategoryGrid2';
+import categoryGrid2Data from '../sections/05-category-grid/category-grid-2/category-grid-2.json';
+import { CategoryGrid3 } from '../sections/05-category-grid/category-grid-3/CategoryGrid3';
+import categoryGrid3Data from '../sections/05-category-grid/category-grid-3/category-grid-3.json';
+import { CategoryGrid4 } from '../sections/05-category-grid/category-grid-4/CategoryGrid4';
+import categoryGrid4Data from '../sections/05-category-grid/category-grid-4/category-grid-4.json';
+import { CategoryGrid5 } from '../sections/05-category-grid/category-grid-5/CategoryGrid5';
+import categoryGrid5Data from '../sections/05-category-grid/category-grid-5/category-grid-5.json';
+import { CategoryGrid6 } from '../sections/05-category-grid/category-grid-6/CategoryGrid6';
+import categoryGrid6Data from '../sections/05-category-grid/category-grid-6/category-grid-6.json';
+import { CategoryGrid7 } from '../sections/05-category-grid/category-grid-7/CategoryGrid7';
+import categoryGrid7Data from '../sections/05-category-grid/category-grid-7/category-grid-7.json';
+import { CategoryGrid8 } from '../sections/05-category-grid/category-grid-8/CategoryGrid8';
+import categoryGrid8Data from '../sections/05-category-grid/category-grid-8/category-grid-8.json';
+import { CategoryGrid9 } from '../sections/05-category-grid/category-grid-9/CategoryGrid9';
+import categoryGrid9Data from '../sections/05-category-grid/category-grid-9/category-grid-9.json';
+import { CategoryGrid10 } from '../sections/05-category-grid/category-grid-10/CategoryGrid10';
+import categoryGrid10Data from '../sections/05-category-grid/category-grid-10/category-grid-10.json';
+import { CategoryGrid11 } from '../sections/05-category-grid/category-grid-11/CategoryGrid11';
+import categoryGrid11Data from '../sections/05-category-grid/category-grid-11/category-grid-11.json';
+import { CategoryGrid12 } from '../sections/05-category-grid/category-grid-12/CategoryGrid12';
+import categoryGrid12Data from '../sections/05-category-grid/category-grid-12/category-grid-12.json';
+import { CategoryGrid13 } from '../sections/05-category-grid/category-grid-13/CategoryGrid13';
+import categoryGrid13Data from '../sections/05-category-grid/category-grid-13/category-grid-13.json';
+import { CategoryGrid14 } from '../sections/05-category-grid/category-grid-14/CategoryGrid14';
+import categoryGrid14Data from '../sections/05-category-grid/category-grid-14/category-grid-14.json';
+import { CategoryGrid15 } from '../sections/05-category-grid/category-grid-15/CategoryGrid15';
+import categoryGrid15Data from '../sections/05-category-grid/category-grid-15/category-grid-15.json';
+import { CategoryGrid16 } from '../sections/05-category-grid/category-grid-16/CategoryGrid16';
+import categoryGrid16Data from '../sections/05-category-grid/category-grid-16/category-grid-16.json';
+import { CategoryGrid17 } from '../sections/05-category-grid/category-grid-17/CategoryGrid17';
+import categoryGrid17Data from '../sections/05-category-grid/category-grid-17/category-grid-17.json';
+import { CategoryGrid18 } from '../sections/05-category-grid/category-grid-18/CategoryGrid18';
+import categoryGrid18Data from '../sections/05-category-grid/category-grid-18/category-grid-18.json';
+import { CategoryGrid19 } from '../sections/05-category-grid/category-grid-19/CategoryGrid19';
+import categoryGrid19Data from '../sections/05-category-grid/category-grid-19/category-grid-19.json';
+import { CategoryGrid20 } from '../sections/05-category-grid/category-grid-20/CategoryGrid20';
+import categoryGrid20Data from '../sections/05-category-grid/category-grid-20/category-grid-20.json';
+import { FeaturedCollection1 } from '../sections/06-featured-collections/featured-collection-1/FeaturedCollection1';
+import featuredCollection1Data from '../sections/06-featured-collections/featured-collection-1/featured-collection-1.json';
+import { FeaturedCollection2 } from '../sections/06-featured-collections/featured-collection-2/FeaturedCollection2';
+import featuredCollection2Data from '../sections/06-featured-collections/featured-collection-2/featured-collection-2.json';
+import { FeaturedCollection3 } from '../sections/06-featured-collections/featured-collection-3/FeaturedCollection3';
+import featuredCollection3Data from '../sections/06-featured-collections/featured-collection-3/featured-collection-3.json';
+import { FeaturedCollection4 } from '../sections/06-featured-collections/featured-collection-4/FeaturedCollection4';
+import featuredCollection4Data from '../sections/06-featured-collections/featured-collection-4/featured-collection-4.json';
+import { FeaturedCollection5 } from '../sections/06-featured-collections/featured-collection-5/FeaturedCollection5';
+import featuredCollection5Data from '../sections/06-featured-collections/featured-collection-5/featured-collection-5.json';
+import { FeaturedCollection6 } from '../sections/06-featured-collections/featured-collection-6/FeaturedCollection6';
+import featuredCollection6Data from '../sections/06-featured-collections/featured-collection-6/featured-collection-6.json';
+import { FeaturedCollection7 } from '../sections/06-featured-collections/featured-collection-7/FeaturedCollection7';
+import featuredCollection7Data from '../sections/06-featured-collections/featured-collection-7/featured-collection-7.json';
+import { FeaturedCollection8 } from '../sections/06-featured-collections/featured-collection-8/FeaturedCollection8';
+import featuredCollection8Data from '../sections/06-featured-collections/featured-collection-8/featured-collection-8.json';
+import { FeaturedCollection9 } from '../sections/06-featured-collections/featured-collection-9/FeaturedCollection9';
+import featuredCollection9Data from '../sections/06-featured-collections/featured-collection-9/featured-collection-9.json';
+import { FeaturedCollection10 } from '../sections/06-featured-collections/featured-collection-10/FeaturedCollection10';
+import featuredCollection10Data from '../sections/06-featured-collections/featured-collection-10/featured-collection-10.json';
+import { FeaturedCollection11 } from '../sections/06-featured-collections/featured-collection-11/FeaturedCollection11';
+import featuredCollection11Data from '../sections/06-featured-collections/featured-collection-11/featured-collection-11.json';
+import { FeaturedCollection12 } from '../sections/06-featured-collections/featured-collection-12/FeaturedCollection12';
+import featuredCollection12Data from '../sections/06-featured-collections/featured-collection-12/featured-collection-12.json';
+import { FeaturedCollection13 } from '../sections/06-featured-collections/featured-collection-13/FeaturedCollection13';
+import featuredCollection13Data from '../sections/06-featured-collections/featured-collection-13/featured-collection-13.json';
+import { FeaturedCollection14 } from '../sections/06-featured-collections/featured-collection-14/FeaturedCollection14';
+import featuredCollection14Data from '../sections/06-featured-collections/featured-collection-14/featured-collection-14.json';
+import { FeaturedCollection15 } from '../sections/06-featured-collections/featured-collection-15/FeaturedCollection15';
+import featuredCollection15Data from '../sections/06-featured-collections/featured-collection-15/featured-collection-15.json';
+import { FeaturedCollection16 } from '../sections/06-featured-collections/featured-collection-16/FeaturedCollection16';
+import featuredCollection16Data from '../sections/06-featured-collections/featured-collection-16/featured-collection-16.json';
+import { FeaturedCollection17 } from '../sections/06-featured-collections/featured-collection-17/FeaturedCollection17';
+import featuredCollection17Data from '../sections/06-featured-collections/featured-collection-17/featured-collection-17.json';
+import { FeaturedCollection18 } from '../sections/06-featured-collections/featured-collection-18/FeaturedCollection18';
+import featuredCollection18Data from '../sections/06-featured-collections/featured-collection-18/featured-collection-18.json';
+import { FeaturedCollection19 } from '../sections/06-featured-collections/featured-collection-19/FeaturedCollection19';
+import featuredCollection19Data from '../sections/06-featured-collections/featured-collection-19/featured-collection-19.json';
+import { FeaturedCollection20 } from '../sections/06-featured-collections/featured-collection-20/FeaturedCollection20';
+import featuredCollection20Data from '../sections/06-featured-collections/featured-collection-20/featured-collection-20.json';
+import { ProductGrid1 } from '../sections/07-product-grid/product-grid-1/ProductGrid1';
+import productGrid1Data from '../sections/07-product-grid/product-grid-1/product-grid-1.json';
+import { ProductGrid2 } from '../sections/07-product-grid/product-grid-2/ProductGrid2';
+import productGrid2Data from '../sections/07-product-grid/product-grid-2/product-grid-2.json';
+import { ProductGrid3 } from '../sections/07-product-grid/product-grid-3/ProductGrid3';
+import productGrid3Data from '../sections/07-product-grid/product-grid-3/product-grid-3.json';
+import { ProductGrid4 } from '../sections/07-product-grid/product-grid-4/ProductGrid4';
+import productGrid4Data from '../sections/07-product-grid/product-grid-4/product-grid-4.json';
+import { ProductGrid5 } from '../sections/07-product-grid/product-grid-5/ProductGrid5';
+import productGrid5Data from '../sections/07-product-grid/product-grid-5/product-grid-5.json';
+import { ProductGrid6 } from '../sections/07-product-grid/product-grid-6/ProductGrid6';
+import productGrid6Data from '../sections/07-product-grid/product-grid-6/product-grid-6.json';
+import { ProductGrid7 } from '../sections/07-product-grid/product-grid-7/ProductGrid7';
+import productGrid7Data from '../sections/07-product-grid/product-grid-7/product-grid-7.json';
+import { ProductGrid8 } from '../sections/07-product-grid/product-grid-8/ProductGrid8';
+import productGrid8Data from '../sections/07-product-grid/product-grid-8/product-grid-8.json';
+import { ProductGrid9 } from '../sections/07-product-grid/product-grid-9/ProductGrid9';
+import productGrid9Data from '../sections/07-product-grid/product-grid-9/product-grid-9.json';
+import { ProductGrid10 } from '../sections/07-product-grid/product-grid-10/ProductGrid10';
+import productGrid10Data from '../sections/07-product-grid/product-grid-10/product-grid-10.json';
+import { ProductGrid11 } from '../sections/07-product-grid/product-grid-11/ProductGrid11';
+import productGrid11Data from '../sections/07-product-grid/product-grid-11/product-grid-11.json';
+import { ProductGrid12 } from '../sections/07-product-grid/product-grid-12/ProductGrid12';
+import productGrid12Data from '../sections/07-product-grid/product-grid-12/product-grid-12.json';
+import { ProductGrid13 } from '../sections/07-product-grid/product-grid-13/ProductGrid13';
+import productGrid13Data from '../sections/07-product-grid/product-grid-13/product-grid-13.json';
+import { ProductGrid14 } from '../sections/07-product-grid/product-grid-14/ProductGrid14';
+import productGrid14Data from '../sections/07-product-grid/product-grid-14/product-grid-14.json';
+import { ProductGrid15 } from '../sections/07-product-grid/product-grid-15/ProductGrid15';
+import productGrid15Data from '../sections/07-product-grid/product-grid-15/product-grid-15.json';
+import { ProductGrid16 } from '../sections/07-product-grid/product-grid-16/ProductGrid16';
+import productGrid16Data from '../sections/07-product-grid/product-grid-16/product-grid-16.json';
+import { ProductGrid17 } from '../sections/07-product-grid/product-grid-17/ProductGrid17';
+import productGrid17Data from '../sections/07-product-grid/product-grid-17/product-grid-17.json';
+import { ProductGrid18 } from '../sections/07-product-grid/product-grid-18/ProductGrid18';
+import productGrid18Data from '../sections/07-product-grid/product-grid-18/product-grid-18.json';
+import { ProductGrid19 } from '../sections/07-product-grid/product-grid-19/ProductGrid19';
+import productGrid19Data from '../sections/07-product-grid/product-grid-19/product-grid-19.json';
+import { ProductGrid20 } from '../sections/07-product-grid/product-grid-20/ProductGrid20';
+import productGrid20Data from '../sections/07-product-grid/product-grid-20/product-grid-20.json';
+import { ProductCarousel1 } from '../sections/08-product-carousel/product-carousel-1/ProductCarousel1';
+import productCarousel1Data from '../sections/08-product-carousel/product-carousel-1/product-carousel-1.json';
+import { ProductCarousel2 } from '../sections/08-product-carousel/product-carousel-2/ProductCarousel2';
+import productCarousel2Data from '../sections/08-product-carousel/product-carousel-2/product-carousel-2.json';
+import { ProductCarousel3 } from '../sections/08-product-carousel/product-carousel-3/ProductCarousel3';
+import productCarousel3Data from '../sections/08-product-carousel/product-carousel-3/product-carousel-3.json';
+import { ProductCarousel4 } from '../sections/08-product-carousel/product-carousel-4/ProductCarousel4';
+import productCarousel4Data from '../sections/08-product-carousel/product-carousel-4/product-carousel-4.json';
+import { ProductCarousel5 } from '../sections/08-product-carousel/product-carousel-5/ProductCarousel5';
+import productCarousel5Data from '../sections/08-product-carousel/product-carousel-5/product-carousel-5.json';
+import { ProductCarousel6 } from '../sections/08-product-carousel/product-carousel-6/ProductCarousel6';
+import productCarousel6Data from '../sections/08-product-carousel/product-carousel-6/product-carousel-6.json';
+import { ProductCarousel7 } from '../sections/08-product-carousel/product-carousel-7/ProductCarousel7';
+import productCarousel7Data from '../sections/08-product-carousel/product-carousel-7/product-carousel-7.json';
+import { ProductCarousel8 } from '../sections/08-product-carousel/product-carousel-8/ProductCarousel8';
+import productCarousel8Data from '../sections/08-product-carousel/product-carousel-8/product-carousel-8.json';
+import { ProductCarousel9 } from '../sections/08-product-carousel/product-carousel-9/ProductCarousel9';
+import productCarousel9Data from '../sections/08-product-carousel/product-carousel-9/product-carousel-9.json';
+import { ProductCarousel10 } from '../sections/08-product-carousel/product-carousel-10/ProductCarousel10';
+import productCarousel10Data from '../sections/08-product-carousel/product-carousel-10/product-carousel-10.json';
+import { ProductCarousel11 } from '../sections/08-product-carousel/product-carousel-11/ProductCarousel11';
+import productCarousel11Data from '../sections/08-product-carousel/product-carousel-11/product-carousel-11.json';
+import { ProductCarousel12 } from '../sections/08-product-carousel/product-carousel-12/ProductCarousel12';
+import productCarousel12Data from '../sections/08-product-carousel/product-carousel-12/product-carousel-12.json';
+import { ProductCarousel13 } from '../sections/08-product-carousel/product-carousel-13/ProductCarousel13';
+import productCarousel13Data from '../sections/08-product-carousel/product-carousel-13/product-carousel-13.json';
+import { ProductCarousel14 } from '../sections/08-product-carousel/product-carousel-14/ProductCarousel14';
+import productCarousel14Data from '../sections/08-product-carousel/product-carousel-14/product-carousel-14.json';
+import { ProductCarousel15 } from '../sections/08-product-carousel/product-carousel-15/ProductCarousel15';
+import productCarousel15Data from '../sections/08-product-carousel/product-carousel-15/product-carousel-15.json';
+import { ProductCarousel16 } from '../sections/08-product-carousel/product-carousel-16/ProductCarousel16';
+import productCarousel16Data from '../sections/08-product-carousel/product-carousel-16/product-carousel-16.json';
+import { ProductCarousel17 } from '../sections/08-product-carousel/product-carousel-17/ProductCarousel17';
+import productCarousel17Data from '../sections/08-product-carousel/product-carousel-17/product-carousel-17.json';
+import { ProductCarousel18 } from '../sections/08-product-carousel/product-carousel-18/ProductCarousel18';
+import productCarousel18Data from '../sections/08-product-carousel/product-carousel-18/product-carousel-18.json';
+import { ProductCarousel19 } from '../sections/08-product-carousel/product-carousel-19/ProductCarousel19';
+import productCarousel19Data from '../sections/08-product-carousel/product-carousel-19/product-carousel-19.json';
+import { ProductCarousel20 } from '../sections/08-product-carousel/product-carousel-20/ProductCarousel20';
+import productCarousel20Data from '../sections/08-product-carousel/product-carousel-20/product-carousel-20.json';
+import { BestSeller1 } from '../sections/09-best-sellers/best-seller-1/BestSeller1';
+import bestSeller1Data from '../sections/09-best-sellers/best-seller-1/best-seller-1.json';
+import { BestSeller2 } from '../sections/09-best-sellers/best-seller-2/BestSeller2';
+import bestSeller2Data from '../sections/09-best-sellers/best-seller-2/best-seller-2.json';
+import { BestSeller3 } from '../sections/09-best-sellers/best-seller-3/BestSeller3';
+import bestSeller3Data from '../sections/09-best-sellers/best-seller-3/best-seller-3.json';
+import { BestSeller4 } from '../sections/09-best-sellers/best-seller-4/BestSeller4';
+import bestSeller4Data from '../sections/09-best-sellers/best-seller-4/best-seller-4.json';
+import { BestSeller5 } from '../sections/09-best-sellers/best-seller-5/BestSeller5';
+import bestSeller5Data from '../sections/09-best-sellers/best-seller-5/best-seller-5.json';
+import { BestSeller6 } from '../sections/09-best-sellers/best-seller-6/BestSeller6';
+import bestSeller6Data from '../sections/09-best-sellers/best-seller-6/best-seller-6.json';
+import { BestSeller7 } from '../sections/09-best-sellers/best-seller-7/BestSeller7';
+import bestSeller7Data from '../sections/09-best-sellers/best-seller-7/best-seller-7.json';
+import { BestSeller8 } from '../sections/09-best-sellers/best-seller-8/BestSeller8';
+import bestSeller8Data from '../sections/09-best-sellers/best-seller-8/best-seller-8.json';
+import { BestSeller9 } from '../sections/09-best-sellers/best-seller-9/BestSeller9';
+import bestSeller9Data from '../sections/09-best-sellers/best-seller-9/best-seller-9.json';
+import { BestSeller10 } from '../sections/09-best-sellers/best-seller-10/BestSeller10';
+import bestSeller10Data from '../sections/09-best-sellers/best-seller-10/best-seller-10.json';
+import { BestSeller11 } from '../sections/09-best-sellers/best-seller-11/BestSeller11';
+import bestSeller11Data from '../sections/09-best-sellers/best-seller-11/best-seller-11.json';
+import { BestSeller12 } from '../sections/09-best-sellers/best-seller-12/BestSeller12';
+import bestSeller12Data from '../sections/09-best-sellers/best-seller-12/best-seller-12.json';
+import { BestSeller13 } from '../sections/09-best-sellers/best-seller-13/BestSeller13';
+import bestSeller13Data from '../sections/09-best-sellers/best-seller-13/best-seller-13.json';
+import { BestSeller14 } from '../sections/09-best-sellers/best-seller-14/BestSeller14';
+import bestSeller14Data from '../sections/09-best-sellers/best-seller-14/best-seller-14.json';
+import { BestSeller15 } from '../sections/09-best-sellers/best-seller-15/BestSeller15';
+import bestSeller15Data from '../sections/09-best-sellers/best-seller-15/best-seller-15.json';
+import { BestSeller16 } from '../sections/09-best-sellers/best-seller-16/BestSeller16';
+import bestSeller16Data from '../sections/09-best-sellers/best-seller-16/best-seller-16.json';
+import { BestSeller17 } from '../sections/09-best-sellers/best-seller-17/BestSeller17';
+import bestSeller17Data from '../sections/09-best-sellers/best-seller-17/best-seller-17.json';
+import { BestSeller18 } from '../sections/09-best-sellers/best-seller-18/BestSeller18';
+import bestSeller18Data from '../sections/09-best-sellers/best-seller-18/best-seller-18.json';
+import { BestSeller19 } from '../sections/09-best-sellers/best-seller-19/BestSeller19';
+import bestSeller19Data from '../sections/09-best-sellers/best-seller-19/best-seller-19.json';
+import { BestSeller20 } from '../sections/09-best-sellers/best-seller-20/BestSeller20';
+import bestSeller20Data from '../sections/09-best-sellers/best-seller-20/best-seller-20.json';
+import { NewArrival1 } from '../sections/10-new-arrivals/new-arrival-1/NewArrival1';
+import newArrival1Data from '../sections/10-new-arrivals/new-arrival-1/new-arrival-1.json';
+import { NewArrival2 } from '../sections/10-new-arrivals/new-arrival-2/NewArrival2';
+import newArrival2Data from '../sections/10-new-arrivals/new-arrival-2/new-arrival-2.json';
+import { NewArrival3 } from '../sections/10-new-arrivals/new-arrival-3/NewArrival3';
+import newArrival3Data from '../sections/10-new-arrivals/new-arrival-3/new-arrival-3.json';
+import { NewArrival4 } from '../sections/10-new-arrivals/new-arrival-4/NewArrival4';
+import newArrival4Data from '../sections/10-new-arrivals/new-arrival-4/new-arrival-4.json';
+import { NewArrival5 } from '../sections/10-new-arrivals/new-arrival-5/NewArrival5';
+import newArrival5Data from '../sections/10-new-arrivals/new-arrival-5/new-arrival-5.json';
+import { NewArrival6 } from '../sections/10-new-arrivals/new-arrival-6/NewArrival6';
+import newArrival6Data from '../sections/10-new-arrivals/new-arrival-6/new-arrival-6.json';
+import { NewArrival7 } from '../sections/10-new-arrivals/new-arrival-7/NewArrival7';
+import newArrival7Data from '../sections/10-new-arrivals/new-arrival-7/new-arrival-7.json';
+import { NewArrival8 } from '../sections/10-new-arrivals/new-arrival-8/NewArrival8';
+import newArrival8Data from '../sections/10-new-arrivals/new-arrival-8/new-arrival-8.json';
+import { NewArrival9 } from '../sections/10-new-arrivals/new-arrival-9/NewArrival9';
+import newArrival9Data from '../sections/10-new-arrivals/new-arrival-9/new-arrival-9.json';
+import { NewArrival10 } from '../sections/10-new-arrivals/new-arrival-10/NewArrival10';
+import newArrival10Data from '../sections/10-new-arrivals/new-arrival-10/new-arrival-10.json';
+import { NewArrival11 } from '../sections/10-new-arrivals/new-arrival-11/NewArrival11';
+import newArrival11Data from '../sections/10-new-arrivals/new-arrival-11/new-arrival-11.json';
+import { NewArrival12 } from '../sections/10-new-arrivals/new-arrival-12/NewArrival12';
+import newArrival12Data from '../sections/10-new-arrivals/new-arrival-12/new-arrival-12.json';
+import { NewArrival13 } from '../sections/10-new-arrivals/new-arrival-13/NewArrival13';
+import newArrival13Data from '../sections/10-new-arrivals/new-arrival-13/new-arrival-13.json';
+import { NewArrival14 } from '../sections/10-new-arrivals/new-arrival-14/NewArrival14';
+import newArrival14Data from '../sections/10-new-arrivals/new-arrival-14/new-arrival-14.json';
+import { NewArrival15 } from '../sections/10-new-arrivals/new-arrival-15/NewArrival15';
+import newArrival15Data from '../sections/10-new-arrivals/new-arrival-15/new-arrival-15.json';
+import { NewArrival16 } from '../sections/10-new-arrivals/new-arrival-16/NewArrival16';
+import newArrival16Data from '../sections/10-new-arrivals/new-arrival-16/new-arrival-16.json';
+import { NewArrival17 } from '../sections/10-new-arrivals/new-arrival-17/NewArrival17';
+import newArrival17Data from '../sections/10-new-arrivals/new-arrival-17/new-arrival-17.json';
+import { NewArrival18 } from '../sections/10-new-arrivals/new-arrival-18/NewArrival18';
+import newArrival18Data from '../sections/10-new-arrivals/new-arrival-18/new-arrival-18.json';
+import { NewArrival19 } from '../sections/10-new-arrivals/new-arrival-19/NewArrival19';
+import newArrival19Data from '../sections/10-new-arrivals/new-arrival-19/new-arrival-19.json';
+import { NewArrival20 } from '../sections/10-new-arrivals/new-arrival-20/NewArrival20';
+import newArrival20Data from '../sections/10-new-arrivals/new-arrival-20/new-arrival-20.json';
+import { Trending1 } from '../sections/11-trending-products/trending-1/Trending1';
+import trending1Data from '../sections/11-trending-products/trending-1/trending-1.json';
+import { Trending2 } from '../sections/11-trending-products/trending-2/Trending2';
+import trending2Data from '../sections/11-trending-products/trending-2/trending-2.json';
+import { Trending3 } from '../sections/11-trending-products/trending-3/Trending3';
+import trending3Data from '../sections/11-trending-products/trending-3/trending-3.json';
+import { Trending4 } from '../sections/11-trending-products/trending-4/Trending4';
+import trending4Data from '../sections/11-trending-products/trending-4/trending-4.json';
+import { Trending5 } from '../sections/11-trending-products/trending-5/Trending5';
+import trending5Data from '../sections/11-trending-products/trending-5/trending-5.json';
+import { Trending6 } from '../sections/11-trending-products/trending-6/Trending6';
+import trending6Data from '../sections/11-trending-products/trending-6/trending-6.json';
+import { Trending7 } from '../sections/11-trending-products/trending-7/Trending7';
+import trending7Data from '../sections/11-trending-products/trending-7/trending-7.json';
+import { Trending8 } from '../sections/11-trending-products/trending-8/Trending8';
+import trending8Data from '../sections/11-trending-products/trending-8/trending-8.json';
+import { Trending9 } from '../sections/11-trending-products/trending-9/Trending9';
+import trending9Data from '../sections/11-trending-products/trending-9/trending-9.json';
+import { Trending10 } from '../sections/11-trending-products/trending-10/Trending10';
+import trending10Data from '../sections/11-trending-products/trending-10/trending-10.json';
+import { Trending11 } from '../sections/11-trending-products/trending-11/Trending11';
+import trending11Data from '../sections/11-trending-products/trending-11/trending-11.json';
+import { Trending12 } from '../sections/11-trending-products/trending-12/Trending12';
+import trending12Data from '../sections/11-trending-products/trending-12/trending-12.json';
+import { Trending13 } from '../sections/11-trending-products/trending-13/Trending13';
+import trending13Data from '../sections/11-trending-products/trending-13/trending-13.json';
+import { Trending14 } from '../sections/11-trending-products/trending-14/Trending14';
+import trending14Data from '../sections/11-trending-products/trending-14/trending-14.json';
+import { Trending15 } from '../sections/11-trending-products/trending-15/Trending15';
+import trending15Data from '../sections/11-trending-products/trending-15/trending-15.json';
+import { Trending16 } from '../sections/11-trending-products/trending-16/Trending16';
+import trending16Data from '../sections/11-trending-products/trending-16/trending-16.json';
+import { Trending17 } from '../sections/11-trending-products/trending-17/Trending17';
+import trending17Data from '../sections/11-trending-products/trending-17/trending-17.json';
+import { Trending18 } from '../sections/11-trending-products/trending-18/Trending18';
+import trending18Data from '../sections/11-trending-products/trending-18/trending-18.json';
+import { Trending19 } from '../sections/11-trending-products/trending-19/Trending19';
+import trending19Data from '../sections/11-trending-products/trending-19/trending-19.json';
+import { Trending20 } from '../sections/11-trending-products/trending-20/Trending20';
+import trending20Data from '../sections/11-trending-products/trending-20/trending-20.json';
 
-import { Sale1 } from '../SaleProducts/sale-1/Sale1';
-import sale1Data from '../SaleProducts/sale-1/sale-1.json';
-import { Sale2 } from '../SaleProducts/sale-2/Sale2';
-import sale2Data from '../SaleProducts/sale-2/sale-2.json';
-import { Sale3 } from '../SaleProducts/sale-3/Sale3';
-import sale3Data from '../SaleProducts/sale-3/sale-3.json';
-import { Sale4 } from '../SaleProducts/sale-4/Sale4';
-import sale4Data from '../SaleProducts/sale-4/sale-4.json';
-import { Sale5 } from '../SaleProducts/sale-5/Sale5';
-import sale5Data from '../SaleProducts/sale-5/sale-5.json';
-import { Sale6 } from '../SaleProducts/sale-6/Sale6';
-import sale6Data from '../SaleProducts/sale-6/sale-6.json';
-import { Sale7 } from '../SaleProducts/sale-7/Sale7';
-import sale7Data from '../SaleProducts/sale-7/sale-7.json';
-import { Sale8 } from '../SaleProducts/sale-8/Sale8';
-import sale8Data from '../SaleProducts/sale-8/sale-8.json';
-import { Sale9 } from '../SaleProducts/sale-9/Sale9';
-import sale9Data from '../SaleProducts/sale-9/sale-9.json';
-import { Sale10 } from '../SaleProducts/sale-10/Sale10';
-import sale10Data from '../SaleProducts/sale-10/sale-10.json';
-import { Sale11 } from '../SaleProducts/sale-11/Sale11';
-import sale11Data from '../SaleProducts/sale-11/sale-11.json';
-import { Sale12 } from '../SaleProducts/sale-12/Sale12';
-import sale12Data from '../SaleProducts/sale-12/sale-12.json';
-import { Sale13 } from '../SaleProducts/sale-13/Sale13';
-import sale13Data from '../SaleProducts/sale-13/sale-13.json';
-import { Sale14 } from '../SaleProducts/sale-14/Sale14';
-import sale14Data from '../SaleProducts/sale-14/sale-14.json';
-import { Sale15 } from '../SaleProducts/sale-15/Sale15';
-import sale15Data from '../SaleProducts/sale-15/sale-15.json';
-import { Sale16 } from '../SaleProducts/sale-16/Sale16';
-import sale16Data from '../SaleProducts/sale-16/sale-16.json';
-import { Sale17 } from '../SaleProducts/sale-17/Sale17';
-import sale17Data from '../SaleProducts/sale-17/sale-17.json';
-import { Sale18 } from '../SaleProducts/sale-18/Sale18';
-import sale18Data from '../SaleProducts/sale-18/sale-18.json';
-import { Sale19 } from '../SaleProducts/sale-19/Sale19';
-import sale19Data from '../SaleProducts/sale-19/sale-19.json';
-import { Sale20 } from '../SaleProducts/sale-20/Sale20';
-import sale20Data from '../SaleProducts/sale-20/sale-20.json';
+import { Sale1 } from '../sections/12-sale-products/sale-1/Sale1';
+import sale1Data from '../sections/12-sale-products/sale-1/sale-1.json';
+import { Sale2 } from '../sections/12-sale-products/sale-2/Sale2';
+import sale2Data from '../sections/12-sale-products/sale-2/sale-2.json';
+import { Sale3 } from '../sections/12-sale-products/sale-3/Sale3';
+import sale3Data from '../sections/12-sale-products/sale-3/sale-3.json';
+import { Sale4 } from '../sections/12-sale-products/sale-4/Sale4';
+import sale4Data from '../sections/12-sale-products/sale-4/sale-4.json';
+import { Sale5 } from '../sections/12-sale-products/sale-5/Sale5';
+import sale5Data from '../sections/12-sale-products/sale-5/sale-5.json';
+import { Sale6 } from '../sections/12-sale-products/sale-6/Sale6';
+import sale6Data from '../sections/12-sale-products/sale-6/sale-6.json';
+import { Sale7 } from '../sections/12-sale-products/sale-7/Sale7';
+import sale7Data from '../sections/12-sale-products/sale-7/sale-7.json';
+import { Sale8 } from '../sections/12-sale-products/sale-8/Sale8';
+import sale8Data from '../sections/12-sale-products/sale-8/sale-8.json';
+import { Sale9 } from '../sections/12-sale-products/sale-9/Sale9';
+import sale9Data from '../sections/12-sale-products/sale-9/sale-9.json';
+import { Sale10 } from '../sections/12-sale-products/sale-10/Sale10';
+import sale10Data from '../sections/12-sale-products/sale-10/sale-10.json';
+import { Sale11 } from '../sections/12-sale-products/sale-11/Sale11';
+import sale11Data from '../sections/12-sale-products/sale-11/sale-11.json';
+import { Sale12 } from '../sections/12-sale-products/sale-12/Sale12';
+import sale12Data from '../sections/12-sale-products/sale-12/sale-12.json';
+import { Sale13 } from '../sections/12-sale-products/sale-13/Sale13';
+import sale13Data from '../sections/12-sale-products/sale-13/sale-13.json';
+import { Sale14 } from '../sections/12-sale-products/sale-14/Sale14';
+import sale14Data from '../sections/12-sale-products/sale-14/sale-14.json';
+import { Sale15 } from '../sections/12-sale-products/sale-15/Sale15';
+import sale15Data from '../sections/12-sale-products/sale-15/sale-15.json';
+import { Sale16 } from '../sections/12-sale-products/sale-16/Sale16';
+import sale16Data from '../sections/12-sale-products/sale-16/sale-16.json';
+import { Sale17 } from '../sections/12-sale-products/sale-17/Sale17';
+import sale17Data from '../sections/12-sale-products/sale-17/sale-17.json';
+import { Sale18 } from '../sections/12-sale-products/sale-18/Sale18';
+import sale18Data from '../sections/12-sale-products/sale-18/sale-18.json';
+import { Sale19 } from '../sections/12-sale-products/sale-19/Sale19';
+import sale19Data from '../sections/12-sale-products/sale-19/sale-19.json';
+import { Sale20 } from '../sections/12-sale-products/sale-20/Sale20';
+import sale20Data from '../sections/12-sale-products/sale-20/sale-20.json';
 
-import { FlashSale1 } from '../FlashSale/flash-sale-1/FlashSale1';
-import flashSale1Data from '../FlashSale/flash-sale-1/flash-sale-1.json';
-import { FlashSale2 } from '../FlashSale/flash-sale-2/FlashSale2';
-import flashSale2Data from '../FlashSale/flash-sale-2/flash-sale-2.json';
-import { FlashSale3 } from '../FlashSale/flash-sale-3/FlashSale3';
-import flashSale3Data from '../FlashSale/flash-sale-3/flash-sale-3.json';
-import { FlashSale4 } from '../FlashSale/flash-sale-4/FlashSale4';
-import flashSale4Data from '../FlashSale/flash-sale-4/flash-sale-4.json';
-import { FlashSale5 } from '../FlashSale/flash-sale-5/FlashSale5';
-import flashSale5Data from '../FlashSale/flash-sale-5/flash-sale-5.json';
-import { FlashSale6 } from '../FlashSale/flash-sale-6/FlashSale6';
-import flashSale6Data from '../FlashSale/flash-sale-6/flash-sale-6.json';
-import { FlashSale7 } from '../FlashSale/flash-sale-7/FlashSale7';
-import flashSale7Data from '../FlashSale/flash-sale-7/flash-sale-7.json';
-import { FlashSale8 } from '../FlashSale/flash-sale-8/FlashSale8';
-import flashSale8Data from '../FlashSale/flash-sale-8/flash-sale-8.json';
-import { FlashSale9 } from '../FlashSale/flash-sale-9/FlashSale9';
-import flashSale9Data from '../FlashSale/flash-sale-9/flash-sale-9.json';
-import { FlashSale10 } from '../FlashSale/flash-sale-10/FlashSale10';
-import flashSale10Data from '../FlashSale/flash-sale-10/flash-sale-10.json';
-import { FlashSale11 } from '../FlashSale/flash-sale-11/FlashSale11';
-import flashSale11Data from '../FlashSale/flash-sale-11/flash-sale-11.json';
-import { FlashSale12 } from '../FlashSale/flash-sale-12/FlashSale12';
-import flashSale12Data from '../FlashSale/flash-sale-12/flash-sale-12.json';
-import { FlashSale13 } from '../FlashSale/flash-sale-13/FlashSale13';
-import flashSale13Data from '../FlashSale/flash-sale-13/flash-sale-13.json';
-import { FlashSale14 } from '../FlashSale/flash-sale-14/FlashSale14';
-import flashSale14Data from '../FlashSale/flash-sale-14/flash-sale-14.json';
-import { FlashSale15 } from '../FlashSale/flash-sale-15/FlashSale15';
-import flashSale15Data from '../FlashSale/flash-sale-15/flash-sale-15.json';
-import { FlashSale16 } from '../FlashSale/flash-sale-16/FlashSale16';
-import flashSale16Data from '../FlashSale/flash-sale-16/flash-sale-16.json';
-import { FlashSale17 } from '../FlashSale/flash-sale-17/FlashSale17';
-import flashSale17Data from '../FlashSale/flash-sale-17/flash-sale-17.json';
-import { FlashSale18 } from '../FlashSale/flash-sale-18/FlashSale18';
-import flashSale18Data from '../FlashSale/flash-sale-18/flash-sale-18.json';
-import { FlashSale19 } from '../FlashSale/flash-sale-19/FlashSale19';
-import flashSale19Data from '../FlashSale/flash-sale-19/flash-sale-19.json';
-import { FlashSale20 } from '../FlashSale/flash-sale-20/FlashSale20';
-import flashSale20Data from '../FlashSale/flash-sale-20/flash-sale-20.json';
+import { FlashSale1 } from '../sections/13-flash-sale/flash-sale-1/FlashSale1';
+import flashSale1Data from '../sections/13-flash-sale/flash-sale-1/flash-sale-1.json';
+import { FlashSale2 } from '../sections/13-flash-sale/flash-sale-2/FlashSale2';
+import flashSale2Data from '../sections/13-flash-sale/flash-sale-2/flash-sale-2.json';
+import { FlashSale3 } from '../sections/13-flash-sale/flash-sale-3/FlashSale3';
+import flashSale3Data from '../sections/13-flash-sale/flash-sale-3/flash-sale-3.json';
+import { FlashSale4 } from '../sections/13-flash-sale/flash-sale-4/FlashSale4';
+import flashSale4Data from '../sections/13-flash-sale/flash-sale-4/flash-sale-4.json';
+import { FlashSale5 } from '../sections/13-flash-sale/flash-sale-5/FlashSale5';
+import flashSale5Data from '../sections/13-flash-sale/flash-sale-5/flash-sale-5.json';
+import { FlashSale6 } from '../sections/13-flash-sale/flash-sale-6/FlashSale6';
+import flashSale6Data from '../sections/13-flash-sale/flash-sale-6/flash-sale-6.json';
+import { FlashSale7 } from '../sections/13-flash-sale/flash-sale-7/FlashSale7';
+import flashSale7Data from '../sections/13-flash-sale/flash-sale-7/flash-sale-7.json';
+import { FlashSale8 } from '../sections/13-flash-sale/flash-sale-8/FlashSale8';
+import flashSale8Data from '../sections/13-flash-sale/flash-sale-8/flash-sale-8.json';
+import { FlashSale9 } from '../sections/13-flash-sale/flash-sale-9/FlashSale9';
+import flashSale9Data from '../sections/13-flash-sale/flash-sale-9/flash-sale-9.json';
+import { FlashSale10 } from '../sections/13-flash-sale/flash-sale-10/FlashSale10';
+import flashSale10Data from '../sections/13-flash-sale/flash-sale-10/flash-sale-10.json';
+import { FlashSale11 } from '../sections/13-flash-sale/flash-sale-11/FlashSale11';
+import flashSale11Data from '../sections/13-flash-sale/flash-sale-11/flash-sale-11.json';
+import { FlashSale12 } from '../sections/13-flash-sale/flash-sale-12/FlashSale12';
+import flashSale12Data from '../sections/13-flash-sale/flash-sale-12/flash-sale-12.json';
+import { FlashSale13 } from '../sections/13-flash-sale/flash-sale-13/FlashSale13';
+import flashSale13Data from '../sections/13-flash-sale/flash-sale-13/flash-sale-13.json';
+import { FlashSale14 } from '../sections/13-flash-sale/flash-sale-14/FlashSale14';
+import flashSale14Data from '../sections/13-flash-sale/flash-sale-14/flash-sale-14.json';
+import { FlashSale15 } from '../sections/13-flash-sale/flash-sale-15/FlashSale15';
+import flashSale15Data from '../sections/13-flash-sale/flash-sale-15/flash-sale-15.json';
+import { FlashSale16 } from '../sections/13-flash-sale/flash-sale-16/FlashSale16';
+import flashSale16Data from '../sections/13-flash-sale/flash-sale-16/flash-sale-16.json';
+import { FlashSale17 } from '../sections/13-flash-sale/flash-sale-17/FlashSale17';
+import flashSale17Data from '../sections/13-flash-sale/flash-sale-17/flash-sale-17.json';
+import { FlashSale18 } from '../sections/13-flash-sale/flash-sale-18/FlashSale18';
+import flashSale18Data from '../sections/13-flash-sale/flash-sale-18/flash-sale-18.json';
+import { FlashSale19 } from '../sections/13-flash-sale/flash-sale-19/FlashSale19';
+import flashSale19Data from '../sections/13-flash-sale/flash-sale-19/flash-sale-19.json';
+import { FlashSale20 } from '../sections/13-flash-sale/flash-sale-20/FlashSale20';
+import flashSale20Data from '../sections/13-flash-sale/flash-sale-20/flash-sale-20.json';
 
 interface GridProps {
   category: string;
@@ -4231,25 +4231,3099 @@ export function SectionLibraryGrid({ category, onSelectSection }: GridProps) {
           description: 'A very stark, elegant dark layout featuring heavy border-bottom dividers and massive input fields.',
           previewComponent: <Newsletter20 data={newsletter20Data as any} />
         }
+      ] :
+    category === 'product-gallery' ? [
+        {
+          id: 'product-gallery-1',
+          title: 'Product Gallery 1',
+          description: 'Placeholder content for Product Gallery 1',
+          previewComponent: <ProductGallery1 data={productGallery1Data as any} />
+        },
+        {
+          id: 'product-gallery-2',
+          title: 'Product Gallery 2',
+          description: 'Placeholder content for Product Gallery 2',
+          previewComponent: <ProductGallery2 data={productGallery2Data as any} />
+        },
+        {
+          id: 'product-gallery-3',
+          title: 'Product Gallery 3',
+          description: 'Placeholder content for Product Gallery 3',
+          previewComponent: <ProductGallery3 data={productGallery3Data as any} />
+        },
+        {
+          id: 'product-gallery-4',
+          title: 'Product Gallery 4',
+          description: 'Placeholder content for Product Gallery 4',
+          previewComponent: <ProductGallery4 data={productGallery4Data as any} />
+        },
+        {
+          id: 'product-gallery-5',
+          title: 'Product Gallery 5',
+          description: 'Placeholder content for Product Gallery 5',
+          previewComponent: <ProductGallery5 data={productGallery5Data as any} />
+        },
+        {
+          id: 'product-gallery-6',
+          title: 'Product Gallery 6',
+          description: 'Placeholder content for Product Gallery 6',
+          previewComponent: <ProductGallery6 data={productGallery6Data as any} />
+        },
+        {
+          id: 'product-gallery-7',
+          title: 'Product Gallery 7',
+          description: 'Placeholder content for Product Gallery 7',
+          previewComponent: <ProductGallery7 data={productGallery7Data as any} />
+        },
+        {
+          id: 'product-gallery-8',
+          title: 'Product Gallery 8',
+          description: 'Placeholder content for Product Gallery 8',
+          previewComponent: <ProductGallery8 data={productGallery8Data as any} />
+        },
+        {
+          id: 'product-gallery-9',
+          title: 'Product Gallery 9',
+          description: 'Placeholder content for Product Gallery 9',
+          previewComponent: <ProductGallery9 data={productGallery9Data as any} />
+        },
+        {
+          id: 'product-gallery-10',
+          title: 'Product Gallery 10',
+          description: 'Placeholder content for Product Gallery 10',
+          previewComponent: <ProductGallery10 data={productGallery10Data as any} />
+        },
+        {
+          id: 'product-gallery-11',
+          title: 'Product Gallery 11',
+          description: 'Placeholder content for Product Gallery 11',
+          previewComponent: <ProductGallery11 data={productGallery11Data as any} />
+        },
+        {
+          id: 'product-gallery-12',
+          title: 'Product Gallery 12',
+          description: 'Placeholder content for Product Gallery 12',
+          previewComponent: <ProductGallery12 data={productGallery12Data as any} />
+        },
+        {
+          id: 'product-gallery-13',
+          title: 'Product Gallery 13',
+          description: 'Placeholder content for Product Gallery 13',
+          previewComponent: <ProductGallery13 data={productGallery13Data as any} />
+        },
+        {
+          id: 'product-gallery-14',
+          title: 'Product Gallery 14',
+          description: 'Placeholder content for Product Gallery 14',
+          previewComponent: <ProductGallery14 data={productGallery14Data as any} />
+        },
+        {
+          id: 'product-gallery-15',
+          title: 'Product Gallery 15',
+          description: 'Placeholder content for Product Gallery 15',
+          previewComponent: <ProductGallery15 data={productGallery15Data as any} />
+        },
+        {
+          id: 'product-gallery-16',
+          title: 'Product Gallery 16',
+          description: 'Placeholder content for Product Gallery 16',
+          previewComponent: <ProductGallery16 data={productGallery16Data as any} />
+        },
+        {
+          id: 'product-gallery-17',
+          title: 'Product Gallery 17',
+          description: 'Placeholder content for Product Gallery 17',
+          previewComponent: <ProductGallery17 data={productGallery17Data as any} />
+        },
+        {
+          id: 'product-gallery-18',
+          title: 'Product Gallery 18',
+          description: 'Placeholder content for Product Gallery 18',
+          previewComponent: <ProductGallery18 data={productGallery18Data as any} />
+        },
+        {
+          id: 'product-gallery-19',
+          title: 'Product Gallery 19',
+          description: 'Placeholder content for Product Gallery 19',
+          previewComponent: <ProductGallery19 data={productGallery19Data as any} />
+        },
+        {
+          id: 'product-gallery-20',
+          title: 'Product Gallery 20',
+          description: 'Placeholder content for Product Gallery 20',
+          previewComponent: <ProductGallery20 data={productGallery20Data as any} />
+        }
+      ] :
+    category === 'product-information' ? [
+        {
+          id: 'product-information-1',
+          title: 'Product Information 1',
+          description: 'Placeholder content for Product Information 1',
+          previewComponent: <ProductInformation1 data={productInformation1Data as any} />
+        },
+        {
+          id: 'product-information-2',
+          title: 'Product Information 2',
+          description: 'Placeholder content for Product Information 2',
+          previewComponent: <ProductInformation2 data={productInformation2Data as any} />
+        },
+        {
+          id: 'product-information-3',
+          title: 'Product Information 3',
+          description: 'Placeholder content for Product Information 3',
+          previewComponent: <ProductInformation3 data={productInformation3Data as any} />
+        },
+        {
+          id: 'product-information-4',
+          title: 'Product Information 4',
+          description: 'Placeholder content for Product Information 4',
+          previewComponent: <ProductInformation4 data={productInformation4Data as any} />
+        },
+        {
+          id: 'product-information-5',
+          title: 'Product Information 5',
+          description: 'Placeholder content for Product Information 5',
+          previewComponent: <ProductInformation5 data={productInformation5Data as any} />
+        },
+        {
+          id: 'product-information-6',
+          title: 'Product Information 6',
+          description: 'Placeholder content for Product Information 6',
+          previewComponent: <ProductInformation6 data={productInformation6Data as any} />
+        },
+        {
+          id: 'product-information-7',
+          title: 'Product Information 7',
+          description: 'Placeholder content for Product Information 7',
+          previewComponent: <ProductInformation7 data={productInformation7Data as any} />
+        },
+        {
+          id: 'product-information-8',
+          title: 'Product Information 8',
+          description: 'Placeholder content for Product Information 8',
+          previewComponent: <ProductInformation8 data={productInformation8Data as any} />
+        },
+        {
+          id: 'product-information-9',
+          title: 'Product Information 9',
+          description: 'Placeholder content for Product Information 9',
+          previewComponent: <ProductInformation9 data={productInformation9Data as any} />
+        },
+        {
+          id: 'product-information-10',
+          title: 'Product Information 10',
+          description: 'Placeholder content for Product Information 10',
+          previewComponent: <ProductInformation10 data={productInformation10Data as any} />
+        },
+        {
+          id: 'product-information-11',
+          title: 'Product Information 11',
+          description: 'Placeholder content for Product Information 11',
+          previewComponent: <ProductInformation11 data={productInformation11Data as any} />
+        },
+        {
+          id: 'product-information-12',
+          title: 'Product Information 12',
+          description: 'Placeholder content for Product Information 12',
+          previewComponent: <ProductInformation12 data={productInformation12Data as any} />
+        },
+        {
+          id: 'product-information-13',
+          title: 'Product Information 13',
+          description: 'Placeholder content for Product Information 13',
+          previewComponent: <ProductInformation13 data={productInformation13Data as any} />
+        },
+        {
+          id: 'product-information-14',
+          title: 'Product Information 14',
+          description: 'Placeholder content for Product Information 14',
+          previewComponent: <ProductInformation14 data={productInformation14Data as any} />
+        },
+        {
+          id: 'product-information-15',
+          title: 'Product Information 15',
+          description: 'Placeholder content for Product Information 15',
+          previewComponent: <ProductInformation15 data={productInformation15Data as any} />
+        },
+        {
+          id: 'product-information-16',
+          title: 'Product Information 16',
+          description: 'Placeholder content for Product Information 16',
+          previewComponent: <ProductInformation16 data={productInformation16Data as any} />
+        },
+        {
+          id: 'product-information-17',
+          title: 'Product Information 17',
+          description: 'Placeholder content for Product Information 17',
+          previewComponent: <ProductInformation17 data={productInformation17Data as any} />
+        },
+        {
+          id: 'product-information-18',
+          title: 'Product Information 18',
+          description: 'Placeholder content for Product Information 18',
+          previewComponent: <ProductInformation18 data={productInformation18Data as any} />
+        },
+        {
+          id: 'product-information-19',
+          title: 'Product Information 19',
+          description: 'Placeholder content for Product Information 19',
+          previewComponent: <ProductInformation19 data={productInformation19Data as any} />
+        },
+        {
+          id: 'product-information-20',
+          title: 'Product Information 20',
+          description: 'Placeholder content for Product Information 20',
+          previewComponent: <ProductInformation20 data={productInformation20Data as any} />
+        }
+      ] :
+    category === 'product-purchase-section' ? [
+        {
+          id: 'product-purchase-section-1',
+          title: 'Product Purchase Section 1',
+          description: 'Placeholder content for Product Purchase Section 1',
+          previewComponent: <ProductPurchaseSection1 data={productPurchaseSection1Data as any} />
+        },
+        {
+          id: 'product-purchase-section-2',
+          title: 'Product Purchase Section 2',
+          description: 'Placeholder content for Product Purchase Section 2',
+          previewComponent: <ProductPurchaseSection2 data={productPurchaseSection2Data as any} />
+        },
+        {
+          id: 'product-purchase-section-3',
+          title: 'Product Purchase Section 3',
+          description: 'Placeholder content for Product Purchase Section 3',
+          previewComponent: <ProductPurchaseSection3 data={productPurchaseSection3Data as any} />
+        },
+        {
+          id: 'product-purchase-section-4',
+          title: 'Product Purchase Section 4',
+          description: 'Placeholder content for Product Purchase Section 4',
+          previewComponent: <ProductPurchaseSection4 data={productPurchaseSection4Data as any} />
+        },
+        {
+          id: 'product-purchase-section-5',
+          title: 'Product Purchase Section 5',
+          description: 'Placeholder content for Product Purchase Section 5',
+          previewComponent: <ProductPurchaseSection5 data={productPurchaseSection5Data as any} />
+        },
+        {
+          id: 'product-purchase-section-6',
+          title: 'Product Purchase Section 6',
+          description: 'Placeholder content for Product Purchase Section 6',
+          previewComponent: <ProductPurchaseSection6 data={productPurchaseSection6Data as any} />
+        },
+        {
+          id: 'product-purchase-section-7',
+          title: 'Product Purchase Section 7',
+          description: 'Placeholder content for Product Purchase Section 7',
+          previewComponent: <ProductPurchaseSection7 data={productPurchaseSection7Data as any} />
+        },
+        {
+          id: 'product-purchase-section-8',
+          title: 'Product Purchase Section 8',
+          description: 'Placeholder content for Product Purchase Section 8',
+          previewComponent: <ProductPurchaseSection8 data={productPurchaseSection8Data as any} />
+        },
+        {
+          id: 'product-purchase-section-9',
+          title: 'Product Purchase Section 9',
+          description: 'Placeholder content for Product Purchase Section 9',
+          previewComponent: <ProductPurchaseSection9 data={productPurchaseSection9Data as any} />
+        },
+        {
+          id: 'product-purchase-section-10',
+          title: 'Product Purchase Section 10',
+          description: 'Placeholder content for Product Purchase Section 10',
+          previewComponent: <ProductPurchaseSection10 data={productPurchaseSection10Data as any} />
+        },
+        {
+          id: 'product-purchase-section-11',
+          title: 'Product Purchase Section 11',
+          description: 'Placeholder content for Product Purchase Section 11',
+          previewComponent: <ProductPurchaseSection11 data={productPurchaseSection11Data as any} />
+        },
+        {
+          id: 'product-purchase-section-12',
+          title: 'Product Purchase Section 12',
+          description: 'Placeholder content for Product Purchase Section 12',
+          previewComponent: <ProductPurchaseSection12 data={productPurchaseSection12Data as any} />
+        },
+        {
+          id: 'product-purchase-section-13',
+          title: 'Product Purchase Section 13',
+          description: 'Placeholder content for Product Purchase Section 13',
+          previewComponent: <ProductPurchaseSection13 data={productPurchaseSection13Data as any} />
+        },
+        {
+          id: 'product-purchase-section-14',
+          title: 'Product Purchase Section 14',
+          description: 'Placeholder content for Product Purchase Section 14',
+          previewComponent: <ProductPurchaseSection14 data={productPurchaseSection14Data as any} />
+        },
+        {
+          id: 'product-purchase-section-15',
+          title: 'Product Purchase Section 15',
+          description: 'Placeholder content for Product Purchase Section 15',
+          previewComponent: <ProductPurchaseSection15 data={productPurchaseSection15Data as any} />
+        },
+        {
+          id: 'product-purchase-section-16',
+          title: 'Product Purchase Section 16',
+          description: 'Placeholder content for Product Purchase Section 16',
+          previewComponent: <ProductPurchaseSection16 data={productPurchaseSection16Data as any} />
+        },
+        {
+          id: 'product-purchase-section-17',
+          title: 'Product Purchase Section 17',
+          description: 'Placeholder content for Product Purchase Section 17',
+          previewComponent: <ProductPurchaseSection17 data={productPurchaseSection17Data as any} />
+        },
+        {
+          id: 'product-purchase-section-18',
+          title: 'Product Purchase Section 18',
+          description: 'Placeholder content for Product Purchase Section 18',
+          previewComponent: <ProductPurchaseSection18 data={productPurchaseSection18Data as any} />
+        },
+        {
+          id: 'product-purchase-section-19',
+          title: 'Product Purchase Section 19',
+          description: 'Placeholder content for Product Purchase Section 19',
+          previewComponent: <ProductPurchaseSection19 data={productPurchaseSection19Data as any} />
+        },
+        {
+          id: 'product-purchase-section-20',
+          title: 'Product Purchase Section 20',
+          description: 'Placeholder content for Product Purchase Section 20',
+          previewComponent: <ProductPurchaseSection20 data={productPurchaseSection20Data as any} />
+        }
+      ] :
+    category === 'product-description' ? [
+        {
+          id: 'product-description-1',
+          title: 'Product Description 1',
+          description: 'Placeholder content for Product Description 1',
+          previewComponent: <ProductDescription1 data={productDescription1Data as any} />
+        },
+        {
+          id: 'product-description-2',
+          title: 'Product Description 2',
+          description: 'Placeholder content for Product Description 2',
+          previewComponent: <ProductDescription2 data={productDescription2Data as any} />
+        },
+        {
+          id: 'product-description-3',
+          title: 'Product Description 3',
+          description: 'Placeholder content for Product Description 3',
+          previewComponent: <ProductDescription3 data={productDescription3Data as any} />
+        },
+        {
+          id: 'product-description-4',
+          title: 'Product Description 4',
+          description: 'Placeholder content for Product Description 4',
+          previewComponent: <ProductDescription4 data={productDescription4Data as any} />
+        },
+        {
+          id: 'product-description-5',
+          title: 'Product Description 5',
+          description: 'Placeholder content for Product Description 5',
+          previewComponent: <ProductDescription5 data={productDescription5Data as any} />
+        },
+        {
+          id: 'product-description-6',
+          title: 'Product Description 6',
+          description: 'Placeholder content for Product Description 6',
+          previewComponent: <ProductDescription6 data={productDescription6Data as any} />
+        },
+        {
+          id: 'product-description-7',
+          title: 'Product Description 7',
+          description: 'Placeholder content for Product Description 7',
+          previewComponent: <ProductDescription7 data={productDescription7Data as any} />
+        },
+        {
+          id: 'product-description-8',
+          title: 'Product Description 8',
+          description: 'Placeholder content for Product Description 8',
+          previewComponent: <ProductDescription8 data={productDescription8Data as any} />
+        },
+        {
+          id: 'product-description-9',
+          title: 'Product Description 9',
+          description: 'Placeholder content for Product Description 9',
+          previewComponent: <ProductDescription9 data={productDescription9Data as any} />
+        },
+        {
+          id: 'product-description-10',
+          title: 'Product Description 10',
+          description: 'Placeholder content for Product Description 10',
+          previewComponent: <ProductDescription10 data={productDescription10Data as any} />
+        },
+        {
+          id: 'product-description-11',
+          title: 'Product Description 11',
+          description: 'Placeholder content for Product Description 11',
+          previewComponent: <ProductDescription11 data={productDescription11Data as any} />
+        },
+        {
+          id: 'product-description-12',
+          title: 'Product Description 12',
+          description: 'Placeholder content for Product Description 12',
+          previewComponent: <ProductDescription12 data={productDescription12Data as any} />
+        },
+        {
+          id: 'product-description-13',
+          title: 'Product Description 13',
+          description: 'Placeholder content for Product Description 13',
+          previewComponent: <ProductDescription13 data={productDescription13Data as any} />
+        },
+        {
+          id: 'product-description-14',
+          title: 'Product Description 14',
+          description: 'Placeholder content for Product Description 14',
+          previewComponent: <ProductDescription14 data={productDescription14Data as any} />
+        },
+        {
+          id: 'product-description-15',
+          title: 'Product Description 15',
+          description: 'Placeholder content for Product Description 15',
+          previewComponent: <ProductDescription15 data={productDescription15Data as any} />
+        },
+        {
+          id: 'product-description-16',
+          title: 'Product Description 16',
+          description: 'Placeholder content for Product Description 16',
+          previewComponent: <ProductDescription16 data={productDescription16Data as any} />
+        },
+        {
+          id: 'product-description-17',
+          title: 'Product Description 17',
+          description: 'Placeholder content for Product Description 17',
+          previewComponent: <ProductDescription17 data={productDescription17Data as any} />
+        },
+        {
+          id: 'product-description-18',
+          title: 'Product Description 18',
+          description: 'Placeholder content for Product Description 18',
+          previewComponent: <ProductDescription18 data={productDescription18Data as any} />
+        },
+        {
+          id: 'product-description-19',
+          title: 'Product Description 19',
+          description: 'Placeholder content for Product Description 19',
+          previewComponent: <ProductDescription19 data={productDescription19Data as any} />
+        },
+        {
+          id: 'product-description-20',
+          title: 'Product Description 20',
+          description: 'Placeholder content for Product Description 20',
+          previewComponent: <ProductDescription20 data={productDescription20Data as any} />
+        }
+      ] :
+    category === 'product-highlights' ? [
+        {
+          id: 'product-highlights-1',
+          title: 'Product Highlights 1',
+          description: 'Placeholder content for Product Highlights 1',
+          previewComponent: <ProductHighlights1 data={productHighlights1Data as any} />
+        },
+        {
+          id: 'product-highlights-2',
+          title: 'Product Highlights 2',
+          description: 'Placeholder content for Product Highlights 2',
+          previewComponent: <ProductHighlights2 data={productHighlights2Data as any} />
+        },
+        {
+          id: 'product-highlights-3',
+          title: 'Product Highlights 3',
+          description: 'Placeholder content for Product Highlights 3',
+          previewComponent: <ProductHighlights3 data={productHighlights3Data as any} />
+        },
+        {
+          id: 'product-highlights-4',
+          title: 'Product Highlights 4',
+          description: 'Placeholder content for Product Highlights 4',
+          previewComponent: <ProductHighlights4 data={productHighlights4Data as any} />
+        },
+        {
+          id: 'product-highlights-5',
+          title: 'Product Highlights 5',
+          description: 'Placeholder content for Product Highlights 5',
+          previewComponent: <ProductHighlights5 data={productHighlights5Data as any} />
+        },
+        {
+          id: 'product-highlights-6',
+          title: 'Product Highlights 6',
+          description: 'Placeholder content for Product Highlights 6',
+          previewComponent: <ProductHighlights6 data={productHighlights6Data as any} />
+        },
+        {
+          id: 'product-highlights-7',
+          title: 'Product Highlights 7',
+          description: 'Placeholder content for Product Highlights 7',
+          previewComponent: <ProductHighlights7 data={productHighlights7Data as any} />
+        },
+        {
+          id: 'product-highlights-8',
+          title: 'Product Highlights 8',
+          description: 'Placeholder content for Product Highlights 8',
+          previewComponent: <ProductHighlights8 data={productHighlights8Data as any} />
+        },
+        {
+          id: 'product-highlights-9',
+          title: 'Product Highlights 9',
+          description: 'Placeholder content for Product Highlights 9',
+          previewComponent: <ProductHighlights9 data={productHighlights9Data as any} />
+        },
+        {
+          id: 'product-highlights-10',
+          title: 'Product Highlights 10',
+          description: 'Placeholder content for Product Highlights 10',
+          previewComponent: <ProductHighlights10 data={productHighlights10Data as any} />
+        },
+        {
+          id: 'product-highlights-11',
+          title: 'Product Highlights 11',
+          description: 'Placeholder content for Product Highlights 11',
+          previewComponent: <ProductHighlights11 data={productHighlights11Data as any} />
+        },
+        {
+          id: 'product-highlights-12',
+          title: 'Product Highlights 12',
+          description: 'Placeholder content for Product Highlights 12',
+          previewComponent: <ProductHighlights12 data={productHighlights12Data as any} />
+        },
+        {
+          id: 'product-highlights-13',
+          title: 'Product Highlights 13',
+          description: 'Placeholder content for Product Highlights 13',
+          previewComponent: <ProductHighlights13 data={productHighlights13Data as any} />
+        },
+        {
+          id: 'product-highlights-14',
+          title: 'Product Highlights 14',
+          description: 'Placeholder content for Product Highlights 14',
+          previewComponent: <ProductHighlights14 data={productHighlights14Data as any} />
+        },
+        {
+          id: 'product-highlights-15',
+          title: 'Product Highlights 15',
+          description: 'Placeholder content for Product Highlights 15',
+          previewComponent: <ProductHighlights15 data={productHighlights15Data as any} />
+        },
+        {
+          id: 'product-highlights-16',
+          title: 'Product Highlights 16',
+          description: 'Placeholder content for Product Highlights 16',
+          previewComponent: <ProductHighlights16 data={productHighlights16Data as any} />
+        },
+        {
+          id: 'product-highlights-17',
+          title: 'Product Highlights 17',
+          description: 'Placeholder content for Product Highlights 17',
+          previewComponent: <ProductHighlights17 data={productHighlights17Data as any} />
+        },
+        {
+          id: 'product-highlights-18',
+          title: 'Product Highlights 18',
+          description: 'Placeholder content for Product Highlights 18',
+          previewComponent: <ProductHighlights18 data={productHighlights18Data as any} />
+        },
+        {
+          id: 'product-highlights-19',
+          title: 'Product Highlights 19',
+          description: 'Placeholder content for Product Highlights 19',
+          previewComponent: <ProductHighlights19 data={productHighlights19Data as any} />
+        },
+        {
+          id: 'product-highlights-20',
+          title: 'Product Highlights 20',
+          description: 'Placeholder content for Product Highlights 20',
+          previewComponent: <ProductHighlights20 data={productHighlights20Data as any} />
+        }
+      ] :
+    category === 'product-specifications' ? [
+        {
+          id: 'product-specifications-1',
+          title: 'Product Specifications 1',
+          description: 'Placeholder content for Product Specifications 1',
+          previewComponent: <ProductSpecifications1 data={productSpecifications1Data as any} />
+        },
+        {
+          id: 'product-specifications-2',
+          title: 'Product Specifications 2',
+          description: 'Placeholder content for Product Specifications 2',
+          previewComponent: <ProductSpecifications2 data={productSpecifications2Data as any} />
+        },
+        {
+          id: 'product-specifications-3',
+          title: 'Product Specifications 3',
+          description: 'Placeholder content for Product Specifications 3',
+          previewComponent: <ProductSpecifications3 data={productSpecifications3Data as any} />
+        },
+        {
+          id: 'product-specifications-4',
+          title: 'Product Specifications 4',
+          description: 'Placeholder content for Product Specifications 4',
+          previewComponent: <ProductSpecifications4 data={productSpecifications4Data as any} />
+        },
+        {
+          id: 'product-specifications-5',
+          title: 'Product Specifications 5',
+          description: 'Placeholder content for Product Specifications 5',
+          previewComponent: <ProductSpecifications5 data={productSpecifications5Data as any} />
+        },
+        {
+          id: 'product-specifications-6',
+          title: 'Product Specifications 6',
+          description: 'Placeholder content for Product Specifications 6',
+          previewComponent: <ProductSpecifications6 data={productSpecifications6Data as any} />
+        },
+        {
+          id: 'product-specifications-7',
+          title: 'Product Specifications 7',
+          description: 'Placeholder content for Product Specifications 7',
+          previewComponent: <ProductSpecifications7 data={productSpecifications7Data as any} />
+        },
+        {
+          id: 'product-specifications-8',
+          title: 'Product Specifications 8',
+          description: 'Placeholder content for Product Specifications 8',
+          previewComponent: <ProductSpecifications8 data={productSpecifications8Data as any} />
+        },
+        {
+          id: 'product-specifications-9',
+          title: 'Product Specifications 9',
+          description: 'Placeholder content for Product Specifications 9',
+          previewComponent: <ProductSpecifications9 data={productSpecifications9Data as any} />
+        },
+        {
+          id: 'product-specifications-10',
+          title: 'Product Specifications 10',
+          description: 'Placeholder content for Product Specifications 10',
+          previewComponent: <ProductSpecifications10 data={productSpecifications10Data as any} />
+        },
+        {
+          id: 'product-specifications-11',
+          title: 'Product Specifications 11',
+          description: 'Placeholder content for Product Specifications 11',
+          previewComponent: <ProductSpecifications11 data={productSpecifications11Data as any} />
+        },
+        {
+          id: 'product-specifications-12',
+          title: 'Product Specifications 12',
+          description: 'Placeholder content for Product Specifications 12',
+          previewComponent: <ProductSpecifications12 data={productSpecifications12Data as any} />
+        },
+        {
+          id: 'product-specifications-13',
+          title: 'Product Specifications 13',
+          description: 'Placeholder content for Product Specifications 13',
+          previewComponent: <ProductSpecifications13 data={productSpecifications13Data as any} />
+        },
+        {
+          id: 'product-specifications-14',
+          title: 'Product Specifications 14',
+          description: 'Placeholder content for Product Specifications 14',
+          previewComponent: <ProductSpecifications14 data={productSpecifications14Data as any} />
+        },
+        {
+          id: 'product-specifications-15',
+          title: 'Product Specifications 15',
+          description: 'Placeholder content for Product Specifications 15',
+          previewComponent: <ProductSpecifications15 data={productSpecifications15Data as any} />
+        },
+        {
+          id: 'product-specifications-16',
+          title: 'Product Specifications 16',
+          description: 'Placeholder content for Product Specifications 16',
+          previewComponent: <ProductSpecifications16 data={productSpecifications16Data as any} />
+        },
+        {
+          id: 'product-specifications-17',
+          title: 'Product Specifications 17',
+          description: 'Placeholder content for Product Specifications 17',
+          previewComponent: <ProductSpecifications17 data={productSpecifications17Data as any} />
+        },
+        {
+          id: 'product-specifications-18',
+          title: 'Product Specifications 18',
+          description: 'Placeholder content for Product Specifications 18',
+          previewComponent: <ProductSpecifications18 data={productSpecifications18Data as any} />
+        },
+        {
+          id: 'product-specifications-19',
+          title: 'Product Specifications 19',
+          description: 'Placeholder content for Product Specifications 19',
+          previewComponent: <ProductSpecifications19 data={productSpecifications19Data as any} />
+        },
+        {
+          id: 'product-specifications-20',
+          title: 'Product Specifications 20',
+          description: 'Placeholder content for Product Specifications 20',
+          previewComponent: <ProductSpecifications20 data={productSpecifications20Data as any} />
+        }
+      ] :
+    category === 'product-features' ? [
+        {
+          id: 'product-features-1',
+          title: 'Product Features 1',
+          description: 'Placeholder content for Product Features 1',
+          previewComponent: <ProductFeatures1 data={productFeatures1Data as any} />
+        },
+        {
+          id: 'product-features-2',
+          title: 'Product Features 2',
+          description: 'Placeholder content for Product Features 2',
+          previewComponent: <ProductFeatures2 data={productFeatures2Data as any} />
+        },
+        {
+          id: 'product-features-3',
+          title: 'Product Features 3',
+          description: 'Placeholder content for Product Features 3',
+          previewComponent: <ProductFeatures3 data={productFeatures3Data as any} />
+        },
+        {
+          id: 'product-features-4',
+          title: 'Product Features 4',
+          description: 'Placeholder content for Product Features 4',
+          previewComponent: <ProductFeatures4 data={productFeatures4Data as any} />
+        },
+        {
+          id: 'product-features-5',
+          title: 'Product Features 5',
+          description: 'Placeholder content for Product Features 5',
+          previewComponent: <ProductFeatures5 data={productFeatures5Data as any} />
+        },
+        {
+          id: 'product-features-6',
+          title: 'Product Features 6',
+          description: 'Placeholder content for Product Features 6',
+          previewComponent: <ProductFeatures6 data={productFeatures6Data as any} />
+        },
+        {
+          id: 'product-features-7',
+          title: 'Product Features 7',
+          description: 'Placeholder content for Product Features 7',
+          previewComponent: <ProductFeatures7 data={productFeatures7Data as any} />
+        },
+        {
+          id: 'product-features-8',
+          title: 'Product Features 8',
+          description: 'Placeholder content for Product Features 8',
+          previewComponent: <ProductFeatures8 data={productFeatures8Data as any} />
+        },
+        {
+          id: 'product-features-9',
+          title: 'Product Features 9',
+          description: 'Placeholder content for Product Features 9',
+          previewComponent: <ProductFeatures9 data={productFeatures9Data as any} />
+        },
+        {
+          id: 'product-features-10',
+          title: 'Product Features 10',
+          description: 'Placeholder content for Product Features 10',
+          previewComponent: <ProductFeatures10 data={productFeatures10Data as any} />
+        },
+        {
+          id: 'product-features-11',
+          title: 'Product Features 11',
+          description: 'Placeholder content for Product Features 11',
+          previewComponent: <ProductFeatures11 data={productFeatures11Data as any} />
+        },
+        {
+          id: 'product-features-12',
+          title: 'Product Features 12',
+          description: 'Placeholder content for Product Features 12',
+          previewComponent: <ProductFeatures12 data={productFeatures12Data as any} />
+        },
+        {
+          id: 'product-features-13',
+          title: 'Product Features 13',
+          description: 'Placeholder content for Product Features 13',
+          previewComponent: <ProductFeatures13 data={productFeatures13Data as any} />
+        },
+        {
+          id: 'product-features-14',
+          title: 'Product Features 14',
+          description: 'Placeholder content for Product Features 14',
+          previewComponent: <ProductFeatures14 data={productFeatures14Data as any} />
+        },
+        {
+          id: 'product-features-15',
+          title: 'Product Features 15',
+          description: 'Placeholder content for Product Features 15',
+          previewComponent: <ProductFeatures15 data={productFeatures15Data as any} />
+        },
+        {
+          id: 'product-features-16',
+          title: 'Product Features 16',
+          description: 'Placeholder content for Product Features 16',
+          previewComponent: <ProductFeatures16 data={productFeatures16Data as any} />
+        },
+        {
+          id: 'product-features-17',
+          title: 'Product Features 17',
+          description: 'Placeholder content for Product Features 17',
+          previewComponent: <ProductFeatures17 data={productFeatures17Data as any} />
+        },
+        {
+          id: 'product-features-18',
+          title: 'Product Features 18',
+          description: 'Placeholder content for Product Features 18',
+          previewComponent: <ProductFeatures18 data={productFeatures18Data as any} />
+        },
+        {
+          id: 'product-features-19',
+          title: 'Product Features 19',
+          description: 'Placeholder content for Product Features 19',
+          previewComponent: <ProductFeatures19 data={productFeatures19Data as any} />
+        },
+        {
+          id: 'product-features-20',
+          title: 'Product Features 20',
+          description: 'Placeholder content for Product Features 20',
+          previewComponent: <ProductFeatures20 data={productFeatures20Data as any} />
+        }
+      ] :
+    category === 'what-s-included' ? [
+        {
+          id: 'what-s-included-1',
+          title: "What's Included 1",
+          description: "Placeholder content for What's Included 1",
+          previewComponent: <WhatSIncluded1 data={whatSIncluded1Data as any} />
+        },
+        {
+          id: 'what-s-included-2',
+          title: "What's Included 2",
+          description: "Placeholder content for What's Included 2",
+          previewComponent: <WhatSIncluded2 data={whatSIncluded2Data as any} />
+        },
+        {
+          id: 'what-s-included-3',
+          title: "What's Included 3",
+          description: "Placeholder content for What's Included 3",
+          previewComponent: <WhatSIncluded3 data={whatSIncluded3Data as any} />
+        },
+        {
+          id: 'what-s-included-4',
+          title: "What's Included 4",
+          description: "Placeholder content for What's Included 4",
+          previewComponent: <WhatSIncluded4 data={whatSIncluded4Data as any} />
+        },
+        {
+          id: 'what-s-included-5',
+          title: "What's Included 5",
+          description: "Placeholder content for What's Included 5",
+          previewComponent: <WhatSIncluded5 data={whatSIncluded5Data as any} />
+        },
+        {
+          id: 'what-s-included-6',
+          title: "What's Included 6",
+          description: "Placeholder content for What's Included 6",
+          previewComponent: <WhatSIncluded6 data={whatSIncluded6Data as any} />
+        },
+        {
+          id: 'what-s-included-7',
+          title: "What's Included 7",
+          description: "Placeholder content for What's Included 7",
+          previewComponent: <WhatSIncluded7 data={whatSIncluded7Data as any} />
+        },
+        {
+          id: 'what-s-included-8',
+          title: "What's Included 8",
+          description: "Placeholder content for What's Included 8",
+          previewComponent: <WhatSIncluded8 data={whatSIncluded8Data as any} />
+        },
+        {
+          id: 'what-s-included-9',
+          title: "What's Included 9",
+          description: "Placeholder content for What's Included 9",
+          previewComponent: <WhatSIncluded9 data={whatSIncluded9Data as any} />
+        },
+        {
+          id: 'what-s-included-10',
+          title: "What's Included 10",
+          description: "Placeholder content for What's Included 10",
+          previewComponent: <WhatSIncluded10 data={whatSIncluded10Data as any} />
+        },
+        {
+          id: 'what-s-included-11',
+          title: "What's Included 11",
+          description: "Placeholder content for What's Included 11",
+          previewComponent: <WhatSIncluded11 data={whatSIncluded11Data as any} />
+        },
+        {
+          id: 'what-s-included-12',
+          title: "What's Included 12",
+          description: "Placeholder content for What's Included 12",
+          previewComponent: <WhatSIncluded12 data={whatSIncluded12Data as any} />
+        },
+        {
+          id: 'what-s-included-13',
+          title: "What's Included 13",
+          description: "Placeholder content for What's Included 13",
+          previewComponent: <WhatSIncluded13 data={whatSIncluded13Data as any} />
+        },
+        {
+          id: 'what-s-included-14',
+          title: "What's Included 14",
+          description: "Placeholder content for What's Included 14",
+          previewComponent: <WhatSIncluded14 data={whatSIncluded14Data as any} />
+        },
+        {
+          id: 'what-s-included-15',
+          title: "What's Included 15",
+          description: "Placeholder content for What's Included 15",
+          previewComponent: <WhatSIncluded15 data={whatSIncluded15Data as any} />
+        },
+        {
+          id: 'what-s-included-16',
+          title: "What's Included 16",
+          description: "Placeholder content for What's Included 16",
+          previewComponent: <WhatSIncluded16 data={whatSIncluded16Data as any} />
+        },
+        {
+          id: 'what-s-included-17',
+          title: "What's Included 17",
+          description: "Placeholder content for What's Included 17",
+          previewComponent: <WhatSIncluded17 data={whatSIncluded17Data as any} />
+        },
+        {
+          id: 'what-s-included-18',
+          title: "What's Included 18",
+          description: "Placeholder content for What's Included 18",
+          previewComponent: <WhatSIncluded18 data={whatSIncluded18Data as any} />
+        },
+        {
+          id: 'what-s-included-19',
+          title: "What's Included 19",
+          description: "Placeholder content for What's Included 19",
+          previewComponent: <WhatSIncluded19 data={whatSIncluded19Data as any} />
+        },
+        {
+          id: 'what-s-included-20',
+          title: "What's Included 20",
+          description: "Placeholder content for What's Included 20",
+          previewComponent: <WhatSIncluded20 data={whatSIncluded20Data as any} />
+        }
+      ] :
+    category === 'size-guide' ? [
+        {
+          id: 'size-guide-1',
+          title: 'Size Guide 1',
+          description: 'Placeholder content for Size Guide 1',
+          previewComponent: <SizeGuide1 data={sizeGuide1Data as any} />
+        },
+        {
+          id: 'size-guide-2',
+          title: 'Size Guide 2',
+          description: 'Placeholder content for Size Guide 2',
+          previewComponent: <SizeGuide2 data={sizeGuide2Data as any} />
+        },
+        {
+          id: 'size-guide-3',
+          title: 'Size Guide 3',
+          description: 'Placeholder content for Size Guide 3',
+          previewComponent: <SizeGuide3 data={sizeGuide3Data as any} />
+        },
+        {
+          id: 'size-guide-4',
+          title: 'Size Guide 4',
+          description: 'Placeholder content for Size Guide 4',
+          previewComponent: <SizeGuide4 data={sizeGuide4Data as any} />
+        },
+        {
+          id: 'size-guide-5',
+          title: 'Size Guide 5',
+          description: 'Placeholder content for Size Guide 5',
+          previewComponent: <SizeGuide5 data={sizeGuide5Data as any} />
+        },
+        {
+          id: 'size-guide-6',
+          title: 'Size Guide 6',
+          description: 'Placeholder content for Size Guide 6',
+          previewComponent: <SizeGuide6 data={sizeGuide6Data as any} />
+        },
+        {
+          id: 'size-guide-7',
+          title: 'Size Guide 7',
+          description: 'Placeholder content for Size Guide 7',
+          previewComponent: <SizeGuide7 data={sizeGuide7Data as any} />
+        },
+        {
+          id: 'size-guide-8',
+          title: 'Size Guide 8',
+          description: 'Placeholder content for Size Guide 8',
+          previewComponent: <SizeGuide8 data={sizeGuide8Data as any} />
+        },
+        {
+          id: 'size-guide-9',
+          title: 'Size Guide 9',
+          description: 'Placeholder content for Size Guide 9',
+          previewComponent: <SizeGuide9 data={sizeGuide9Data as any} />
+        },
+        {
+          id: 'size-guide-10',
+          title: 'Size Guide 10',
+          description: 'Placeholder content for Size Guide 10',
+          previewComponent: <SizeGuide10 data={sizeGuide10Data as any} />
+        },
+        {
+          id: 'size-guide-11',
+          title: 'Size Guide 11',
+          description: 'Placeholder content for Size Guide 11',
+          previewComponent: <SizeGuide11 data={sizeGuide11Data as any} />
+        },
+        {
+          id: 'size-guide-12',
+          title: 'Size Guide 12',
+          description: 'Placeholder content for Size Guide 12',
+          previewComponent: <SizeGuide12 data={sizeGuide12Data as any} />
+        },
+        {
+          id: 'size-guide-13',
+          title: 'Size Guide 13',
+          description: 'Placeholder content for Size Guide 13',
+          previewComponent: <SizeGuide13 data={sizeGuide13Data as any} />
+        },
+        {
+          id: 'size-guide-14',
+          title: 'Size Guide 14',
+          description: 'Placeholder content for Size Guide 14',
+          previewComponent: <SizeGuide14 data={sizeGuide14Data as any} />
+        },
+        {
+          id: 'size-guide-15',
+          title: 'Size Guide 15',
+          description: 'Placeholder content for Size Guide 15',
+          previewComponent: <SizeGuide15 data={sizeGuide15Data as any} />
+        },
+        {
+          id: 'size-guide-16',
+          title: 'Size Guide 16',
+          description: 'Placeholder content for Size Guide 16',
+          previewComponent: <SizeGuide16 data={sizeGuide16Data as any} />
+        },
+        {
+          id: 'size-guide-17',
+          title: 'Size Guide 17',
+          description: 'Placeholder content for Size Guide 17',
+          previewComponent: <SizeGuide17 data={sizeGuide17Data as any} />
+        },
+        {
+          id: 'size-guide-18',
+          title: 'Size Guide 18',
+          description: 'Placeholder content for Size Guide 18',
+          previewComponent: <SizeGuide18 data={sizeGuide18Data as any} />
+        },
+        {
+          id: 'size-guide-19',
+          title: 'Size Guide 19',
+          description: 'Placeholder content for Size Guide 19',
+          previewComponent: <SizeGuide19 data={sizeGuide19Data as any} />
+        },
+        {
+          id: 'size-guide-20',
+          title: 'Size Guide 20',
+          description: 'Placeholder content for Size Guide 20',
+          previewComponent: <SizeGuide20 data={sizeGuide20Data as any} />
+        }
+      ] :
+    category === 'product-care' ? [
+        {
+          id: 'product-care-1',
+          title: 'Product Care 1',
+          description: 'Placeholder content for Product Care 1',
+          previewComponent: <ProductCare1 data={productCare1Data as any} />
+        },
+        {
+          id: 'product-care-2',
+          title: 'Product Care 2',
+          description: 'Placeholder content for Product Care 2',
+          previewComponent: <ProductCare2 data={productCare2Data as any} />
+        },
+        {
+          id: 'product-care-3',
+          title: 'Product Care 3',
+          description: 'Placeholder content for Product Care 3',
+          previewComponent: <ProductCare3 data={productCare3Data as any} />
+        },
+        {
+          id: 'product-care-4',
+          title: 'Product Care 4',
+          description: 'Placeholder content for Product Care 4',
+          previewComponent: <ProductCare4 data={productCare4Data as any} />
+        },
+        {
+          id: 'product-care-5',
+          title: 'Product Care 5',
+          description: 'Placeholder content for Product Care 5',
+          previewComponent: <ProductCare5 data={productCare5Data as any} />
+        },
+        {
+          id: 'product-care-6',
+          title: 'Product Care 6',
+          description: 'Placeholder content for Product Care 6',
+          previewComponent: <ProductCare6 data={productCare6Data as any} />
+        },
+        {
+          id: 'product-care-7',
+          title: 'Product Care 7',
+          description: 'Placeholder content for Product Care 7',
+          previewComponent: <ProductCare7 data={productCare7Data as any} />
+        },
+        {
+          id: 'product-care-8',
+          title: 'Product Care 8',
+          description: 'Placeholder content for Product Care 8',
+          previewComponent: <ProductCare8 data={productCare8Data as any} />
+        },
+        {
+          id: 'product-care-9',
+          title: 'Product Care 9',
+          description: 'Placeholder content for Product Care 9',
+          previewComponent: <ProductCare9 data={productCare9Data as any} />
+        },
+        {
+          id: 'product-care-10',
+          title: 'Product Care 10',
+          description: 'Placeholder content for Product Care 10',
+          previewComponent: <ProductCare10 data={productCare10Data as any} />
+        },
+        {
+          id: 'product-care-11',
+          title: 'Product Care 11',
+          description: 'Placeholder content for Product Care 11',
+          previewComponent: <ProductCare11 data={productCare11Data as any} />
+        },
+        {
+          id: 'product-care-12',
+          title: 'Product Care 12',
+          description: 'Placeholder content for Product Care 12',
+          previewComponent: <ProductCare12 data={productCare12Data as any} />
+        },
+        {
+          id: 'product-care-13',
+          title: 'Product Care 13',
+          description: 'Placeholder content for Product Care 13',
+          previewComponent: <ProductCare13 data={productCare13Data as any} />
+        },
+        {
+          id: 'product-care-14',
+          title: 'Product Care 14',
+          description: 'Placeholder content for Product Care 14',
+          previewComponent: <ProductCare14 data={productCare14Data as any} />
+        },
+        {
+          id: 'product-care-15',
+          title: 'Product Care 15',
+          description: 'Placeholder content for Product Care 15',
+          previewComponent: <ProductCare15 data={productCare15Data as any} />
+        },
+        {
+          id: 'product-care-16',
+          title: 'Product Care 16',
+          description: 'Placeholder content for Product Care 16',
+          previewComponent: <ProductCare16 data={productCare16Data as any} />
+        },
+        {
+          id: 'product-care-17',
+          title: 'Product Care 17',
+          description: 'Placeholder content for Product Care 17',
+          previewComponent: <ProductCare17 data={productCare17Data as any} />
+        },
+        {
+          id: 'product-care-18',
+          title: 'Product Care 18',
+          description: 'Placeholder content for Product Care 18',
+          previewComponent: <ProductCare18 data={productCare18Data as any} />
+        },
+        {
+          id: 'product-care-19',
+          title: 'Product Care 19',
+          description: 'Placeholder content for Product Care 19',
+          previewComponent: <ProductCare19 data={productCare19Data as any} />
+        },
+        {
+          id: 'product-care-20',
+          title: 'Product Care 20',
+          description: 'Placeholder content for Product Care 20',
+          previewComponent: <ProductCare20 data={productCare20Data as any} />
+        }
+      ] :
+    category === 'warranty-information' ? [
+        {
+          id: 'warranty-information-1',
+          title: 'Warranty Information 1',
+          description: 'Placeholder content for Warranty Information 1',
+          previewComponent: <WarrantyInformation1 data={warrantyInformation1Data as any} />
+        },
+        {
+          id: 'warranty-information-2',
+          title: 'Warranty Information 2',
+          description: 'Placeholder content for Warranty Information 2',
+          previewComponent: <WarrantyInformation2 data={warrantyInformation2Data as any} />
+        },
+        {
+          id: 'warranty-information-3',
+          title: 'Warranty Information 3',
+          description: 'Placeholder content for Warranty Information 3',
+          previewComponent: <WarrantyInformation3 data={warrantyInformation3Data as any} />
+        },
+        {
+          id: 'warranty-information-4',
+          title: 'Warranty Information 4',
+          description: 'Placeholder content for Warranty Information 4',
+          previewComponent: <WarrantyInformation4 data={warrantyInformation4Data as any} />
+        },
+        {
+          id: 'warranty-information-5',
+          title: 'Warranty Information 5',
+          description: 'Placeholder content for Warranty Information 5',
+          previewComponent: <WarrantyInformation5 data={warrantyInformation5Data as any} />
+        },
+        {
+          id: 'warranty-information-6',
+          title: 'Warranty Information 6',
+          description: 'Placeholder content for Warranty Information 6',
+          previewComponent: <WarrantyInformation6 data={warrantyInformation6Data as any} />
+        },
+        {
+          id: 'warranty-information-7',
+          title: 'Warranty Information 7',
+          description: 'Placeholder content for Warranty Information 7',
+          previewComponent: <WarrantyInformation7 data={warrantyInformation7Data as any} />
+        },
+        {
+          id: 'warranty-information-8',
+          title: 'Warranty Information 8',
+          description: 'Placeholder content for Warranty Information 8',
+          previewComponent: <WarrantyInformation8 data={warrantyInformation8Data as any} />
+        },
+        {
+          id: 'warranty-information-9',
+          title: 'Warranty Information 9',
+          description: 'Placeholder content for Warranty Information 9',
+          previewComponent: <WarrantyInformation9 data={warrantyInformation9Data as any} />
+        },
+        {
+          id: 'warranty-information-10',
+          title: 'Warranty Information 10',
+          description: 'Placeholder content for Warranty Information 10',
+          previewComponent: <WarrantyInformation10 data={warrantyInformation10Data as any} />
+        },
+        {
+          id: 'warranty-information-11',
+          title: 'Warranty Information 11',
+          description: 'Placeholder content for Warranty Information 11',
+          previewComponent: <WarrantyInformation11 data={warrantyInformation11Data as any} />
+        },
+        {
+          id: 'warranty-information-12',
+          title: 'Warranty Information 12',
+          description: 'Placeholder content for Warranty Information 12',
+          previewComponent: <WarrantyInformation12 data={warrantyInformation12Data as any} />
+        },
+        {
+          id: 'warranty-information-13',
+          title: 'Warranty Information 13',
+          description: 'Placeholder content for Warranty Information 13',
+          previewComponent: <WarrantyInformation13 data={warrantyInformation13Data as any} />
+        },
+        {
+          id: 'warranty-information-14',
+          title: 'Warranty Information 14',
+          description: 'Placeholder content for Warranty Information 14',
+          previewComponent: <WarrantyInformation14 data={warrantyInformation14Data as any} />
+        },
+        {
+          id: 'warranty-information-15',
+          title: 'Warranty Information 15',
+          description: 'Placeholder content for Warranty Information 15',
+          previewComponent: <WarrantyInformation15 data={warrantyInformation15Data as any} />
+        },
+        {
+          id: 'warranty-information-16',
+          title: 'Warranty Information 16',
+          description: 'Placeholder content for Warranty Information 16',
+          previewComponent: <WarrantyInformation16 data={warrantyInformation16Data as any} />
+        },
+        {
+          id: 'warranty-information-17',
+          title: 'Warranty Information 17',
+          description: 'Placeholder content for Warranty Information 17',
+          previewComponent: <WarrantyInformation17 data={warrantyInformation17Data as any} />
+        },
+        {
+          id: 'warranty-information-18',
+          title: 'Warranty Information 18',
+          description: 'Placeholder content for Warranty Information 18',
+          previewComponent: <WarrantyInformation18 data={warrantyInformation18Data as any} />
+        },
+        {
+          id: 'warranty-information-19',
+          title: 'Warranty Information 19',
+          description: 'Placeholder content for Warranty Information 19',
+          previewComponent: <WarrantyInformation19 data={warrantyInformation19Data as any} />
+        },
+        {
+          id: 'warranty-information-20',
+          title: 'Warranty Information 20',
+          description: 'Placeholder content for Warranty Information 20',
+          previewComponent: <WarrantyInformation20 data={warrantyInformation20Data as any} />
+        }
+      ] :
+    category === 'shipping-delivery-information' ? [
+        {
+          id: 'shipping-delivery-information-1',
+          title: 'Shipping & Delivery Information 1',
+          description: 'Placeholder content for Shipping & Delivery Information 1',
+          previewComponent: <ShippingDeliveryInformation1 data={shippingDeliveryInformation1Data as any} />
+        },
+        {
+          id: 'shipping-delivery-information-2',
+          title: 'Shipping & Delivery Information 2',
+          description: 'Placeholder content for Shipping & Delivery Information 2',
+          previewComponent: <ShippingDeliveryInformation2 data={shippingDeliveryInformation2Data as any} />
+        },
+        {
+          id: 'shipping-delivery-information-3',
+          title: 'Shipping & Delivery Information 3',
+          description: 'Placeholder content for Shipping & Delivery Information 3',
+          previewComponent: <ShippingDeliveryInformation3 data={shippingDeliveryInformation3Data as any} />
+        },
+        {
+          id: 'shipping-delivery-information-4',
+          title: 'Shipping & Delivery Information 4',
+          description: 'Placeholder content for Shipping & Delivery Information 4',
+          previewComponent: <ShippingDeliveryInformation4 data={shippingDeliveryInformation4Data as any} />
+        },
+        {
+          id: 'shipping-delivery-information-5',
+          title: 'Shipping & Delivery Information 5',
+          description: 'Placeholder content for Shipping & Delivery Information 5',
+          previewComponent: <ShippingDeliveryInformation5 data={shippingDeliveryInformation5Data as any} />
+        },
+        {
+          id: 'shipping-delivery-information-6',
+          title: 'Shipping & Delivery Information 6',
+          description: 'Placeholder content for Shipping & Delivery Information 6',
+          previewComponent: <ShippingDeliveryInformation6 data={shippingDeliveryInformation6Data as any} />
+        },
+        {
+          id: 'shipping-delivery-information-7',
+          title: 'Shipping & Delivery Information 7',
+          description: 'Placeholder content for Shipping & Delivery Information 7',
+          previewComponent: <ShippingDeliveryInformation7 data={shippingDeliveryInformation7Data as any} />
+        },
+        {
+          id: 'shipping-delivery-information-8',
+          title: 'Shipping & Delivery Information 8',
+          description: 'Placeholder content for Shipping & Delivery Information 8',
+          previewComponent: <ShippingDeliveryInformation8 data={shippingDeliveryInformation8Data as any} />
+        },
+        {
+          id: 'shipping-delivery-information-9',
+          title: 'Shipping & Delivery Information 9',
+          description: 'Placeholder content for Shipping & Delivery Information 9',
+          previewComponent: <ShippingDeliveryInformation9 data={shippingDeliveryInformation9Data as any} />
+        },
+        {
+          id: 'shipping-delivery-information-10',
+          title: 'Shipping & Delivery Information 10',
+          description: 'Placeholder content for Shipping & Delivery Information 10',
+          previewComponent: <ShippingDeliveryInformation10 data={shippingDeliveryInformation10Data as any} />
+        },
+        {
+          id: 'shipping-delivery-information-11',
+          title: 'Shipping & Delivery Information 11',
+          description: 'Placeholder content for Shipping & Delivery Information 11',
+          previewComponent: <ShippingDeliveryInformation11 data={shippingDeliveryInformation11Data as any} />
+        },
+        {
+          id: 'shipping-delivery-information-12',
+          title: 'Shipping & Delivery Information 12',
+          description: 'Placeholder content for Shipping & Delivery Information 12',
+          previewComponent: <ShippingDeliveryInformation12 data={shippingDeliveryInformation12Data as any} />
+        },
+        {
+          id: 'shipping-delivery-information-13',
+          title: 'Shipping & Delivery Information 13',
+          description: 'Placeholder content for Shipping & Delivery Information 13',
+          previewComponent: <ShippingDeliveryInformation13 data={shippingDeliveryInformation13Data as any} />
+        },
+        {
+          id: 'shipping-delivery-information-14',
+          title: 'Shipping & Delivery Information 14',
+          description: 'Placeholder content for Shipping & Delivery Information 14',
+          previewComponent: <ShippingDeliveryInformation14 data={shippingDeliveryInformation14Data as any} />
+        },
+        {
+          id: 'shipping-delivery-information-15',
+          title: 'Shipping & Delivery Information 15',
+          description: 'Placeholder content for Shipping & Delivery Information 15',
+          previewComponent: <ShippingDeliveryInformation15 data={shippingDeliveryInformation15Data as any} />
+        },
+        {
+          id: 'shipping-delivery-information-16',
+          title: 'Shipping & Delivery Information 16',
+          description: 'Placeholder content for Shipping & Delivery Information 16',
+          previewComponent: <ShippingDeliveryInformation16 data={shippingDeliveryInformation16Data as any} />
+        },
+        {
+          id: 'shipping-delivery-information-17',
+          title: 'Shipping & Delivery Information 17',
+          description: 'Placeholder content for Shipping & Delivery Information 17',
+          previewComponent: <ShippingDeliveryInformation17 data={shippingDeliveryInformation17Data as any} />
+        },
+        {
+          id: 'shipping-delivery-information-18',
+          title: 'Shipping & Delivery Information 18',
+          description: 'Placeholder content for Shipping & Delivery Information 18',
+          previewComponent: <ShippingDeliveryInformation18 data={shippingDeliveryInformation18Data as any} />
+        },
+        {
+          id: 'shipping-delivery-information-19',
+          title: 'Shipping & Delivery Information 19',
+          description: 'Placeholder content for Shipping & Delivery Information 19',
+          previewComponent: <ShippingDeliveryInformation19 data={shippingDeliveryInformation19Data as any} />
+        },
+        {
+          id: 'shipping-delivery-information-20',
+          title: 'Shipping & Delivery Information 20',
+          description: 'Placeholder content for Shipping & Delivery Information 20',
+          previewComponent: <ShippingDeliveryInformation20 data={shippingDeliveryInformation20Data as any} />
+        }
+      ] :
+    category === 'return-refund-information' ? [
+        {
+          id: 'return-refund-information-1',
+          title: 'Return & Refund Information 1',
+          description: 'Placeholder content for Return & Refund Information 1',
+          previewComponent: <ReturnRefundInformation1 data={returnRefundInformation1Data as any} />
+        },
+        {
+          id: 'return-refund-information-2',
+          title: 'Return & Refund Information 2',
+          description: 'Placeholder content for Return & Refund Information 2',
+          previewComponent: <ReturnRefundInformation2 data={returnRefundInformation2Data as any} />
+        },
+        {
+          id: 'return-refund-information-3',
+          title: 'Return & Refund Information 3',
+          description: 'Placeholder content for Return & Refund Information 3',
+          previewComponent: <ReturnRefundInformation3 data={returnRefundInformation3Data as any} />
+        },
+        {
+          id: 'return-refund-information-4',
+          title: 'Return & Refund Information 4',
+          description: 'Placeholder content for Return & Refund Information 4',
+          previewComponent: <ReturnRefundInformation4 data={returnRefundInformation4Data as any} />
+        },
+        {
+          id: 'return-refund-information-5',
+          title: 'Return & Refund Information 5',
+          description: 'Placeholder content for Return & Refund Information 5',
+          previewComponent: <ReturnRefundInformation5 data={returnRefundInformation5Data as any} />
+        },
+        {
+          id: 'return-refund-information-6',
+          title: 'Return & Refund Information 6',
+          description: 'Placeholder content for Return & Refund Information 6',
+          previewComponent: <ReturnRefundInformation6 data={returnRefundInformation6Data as any} />
+        },
+        {
+          id: 'return-refund-information-7',
+          title: 'Return & Refund Information 7',
+          description: 'Placeholder content for Return & Refund Information 7',
+          previewComponent: <ReturnRefundInformation7 data={returnRefundInformation7Data as any} />
+        },
+        {
+          id: 'return-refund-information-8',
+          title: 'Return & Refund Information 8',
+          description: 'Placeholder content for Return & Refund Information 8',
+          previewComponent: <ReturnRefundInformation8 data={returnRefundInformation8Data as any} />
+        },
+        {
+          id: 'return-refund-information-9',
+          title: 'Return & Refund Information 9',
+          description: 'Placeholder content for Return & Refund Information 9',
+          previewComponent: <ReturnRefundInformation9 data={returnRefundInformation9Data as any} />
+        },
+        {
+          id: 'return-refund-information-10',
+          title: 'Return & Refund Information 10',
+          description: 'Placeholder content for Return & Refund Information 10',
+          previewComponent: <ReturnRefundInformation10 data={returnRefundInformation10Data as any} />
+        },
+        {
+          id: 'return-refund-information-11',
+          title: 'Return & Refund Information 11',
+          description: 'Placeholder content for Return & Refund Information 11',
+          previewComponent: <ReturnRefundInformation11 data={returnRefundInformation11Data as any} />
+        },
+        {
+          id: 'return-refund-information-12',
+          title: 'Return & Refund Information 12',
+          description: 'Placeholder content for Return & Refund Information 12',
+          previewComponent: <ReturnRefundInformation12 data={returnRefundInformation12Data as any} />
+        },
+        {
+          id: 'return-refund-information-13',
+          title: 'Return & Refund Information 13',
+          description: 'Placeholder content for Return & Refund Information 13',
+          previewComponent: <ReturnRefundInformation13 data={returnRefundInformation13Data as any} />
+        },
+        {
+          id: 'return-refund-information-14',
+          title: 'Return & Refund Information 14',
+          description: 'Placeholder content for Return & Refund Information 14',
+          previewComponent: <ReturnRefundInformation14 data={returnRefundInformation14Data as any} />
+        },
+        {
+          id: 'return-refund-information-15',
+          title: 'Return & Refund Information 15',
+          description: 'Placeholder content for Return & Refund Information 15',
+          previewComponent: <ReturnRefundInformation15 data={returnRefundInformation15Data as any} />
+        },
+        {
+          id: 'return-refund-information-16',
+          title: 'Return & Refund Information 16',
+          description: 'Placeholder content for Return & Refund Information 16',
+          previewComponent: <ReturnRefundInformation16 data={returnRefundInformation16Data as any} />
+        },
+        {
+          id: 'return-refund-information-17',
+          title: 'Return & Refund Information 17',
+          description: 'Placeholder content for Return & Refund Information 17',
+          previewComponent: <ReturnRefundInformation17 data={returnRefundInformation17Data as any} />
+        },
+        {
+          id: 'return-refund-information-18',
+          title: 'Return & Refund Information 18',
+          description: 'Placeholder content for Return & Refund Information 18',
+          previewComponent: <ReturnRefundInformation18 data={returnRefundInformation18Data as any} />
+        },
+        {
+          id: 'return-refund-information-19',
+          title: 'Return & Refund Information 19',
+          description: 'Placeholder content for Return & Refund Information 19',
+          previewComponent: <ReturnRefundInformation19 data={returnRefundInformation19Data as any} />
+        },
+        {
+          id: 'return-refund-information-20',
+          title: 'Return & Refund Information 20',
+          description: 'Placeholder content for Return & Refund Information 20',
+          previewComponent: <ReturnRefundInformation20 data={returnRefundInformation20Data as any} />
+        }
+      ] :
+    category === 'payment-information' ? [
+        {
+          id: 'payment-information-1',
+          title: 'Payment Information 1',
+          description: 'Placeholder content for Payment Information 1',
+          previewComponent: <PaymentInformation1 data={paymentInformation1Data as any} />
+        },
+        {
+          id: 'payment-information-2',
+          title: 'Payment Information 2',
+          description: 'Placeholder content for Payment Information 2',
+          previewComponent: <PaymentInformation2 data={paymentInformation2Data as any} />
+        },
+        {
+          id: 'payment-information-3',
+          title: 'Payment Information 3',
+          description: 'Placeholder content for Payment Information 3',
+          previewComponent: <PaymentInformation3 data={paymentInformation3Data as any} />
+        },
+        {
+          id: 'payment-information-4',
+          title: 'Payment Information 4',
+          description: 'Placeholder content for Payment Information 4',
+          previewComponent: <PaymentInformation4 data={paymentInformation4Data as any} />
+        },
+        {
+          id: 'payment-information-5',
+          title: 'Payment Information 5',
+          description: 'Placeholder content for Payment Information 5',
+          previewComponent: <PaymentInformation5 data={paymentInformation5Data as any} />
+        },
+        {
+          id: 'payment-information-6',
+          title: 'Payment Information 6',
+          description: 'Placeholder content for Payment Information 6',
+          previewComponent: <PaymentInformation6 data={paymentInformation6Data as any} />
+        },
+        {
+          id: 'payment-information-7',
+          title: 'Payment Information 7',
+          description: 'Placeholder content for Payment Information 7',
+          previewComponent: <PaymentInformation7 data={paymentInformation7Data as any} />
+        },
+        {
+          id: 'payment-information-8',
+          title: 'Payment Information 8',
+          description: 'Placeholder content for Payment Information 8',
+          previewComponent: <PaymentInformation8 data={paymentInformation8Data as any} />
+        },
+        {
+          id: 'payment-information-9',
+          title: 'Payment Information 9',
+          description: 'Placeholder content for Payment Information 9',
+          previewComponent: <PaymentInformation9 data={paymentInformation9Data as any} />
+        },
+        {
+          id: 'payment-information-10',
+          title: 'Payment Information 10',
+          description: 'Placeholder content for Payment Information 10',
+          previewComponent: <PaymentInformation10 data={paymentInformation10Data as any} />
+        },
+        {
+          id: 'payment-information-11',
+          title: 'Payment Information 11',
+          description: 'Placeholder content for Payment Information 11',
+          previewComponent: <PaymentInformation11 data={paymentInformation11Data as any} />
+        },
+        {
+          id: 'payment-information-12',
+          title: 'Payment Information 12',
+          description: 'Placeholder content for Payment Information 12',
+          previewComponent: <PaymentInformation12 data={paymentInformation12Data as any} />
+        },
+        {
+          id: 'payment-information-13',
+          title: 'Payment Information 13',
+          description: 'Placeholder content for Payment Information 13',
+          previewComponent: <PaymentInformation13 data={paymentInformation13Data as any} />
+        },
+        {
+          id: 'payment-information-14',
+          title: 'Payment Information 14',
+          description: 'Placeholder content for Payment Information 14',
+          previewComponent: <PaymentInformation14 data={paymentInformation14Data as any} />
+        },
+        {
+          id: 'payment-information-15',
+          title: 'Payment Information 15',
+          description: 'Placeholder content for Payment Information 15',
+          previewComponent: <PaymentInformation15 data={paymentInformation15Data as any} />
+        },
+        {
+          id: 'payment-information-16',
+          title: 'Payment Information 16',
+          description: 'Placeholder content for Payment Information 16',
+          previewComponent: <PaymentInformation16 data={paymentInformation16Data as any} />
+        },
+        {
+          id: 'payment-information-17',
+          title: 'Payment Information 17',
+          description: 'Placeholder content for Payment Information 17',
+          previewComponent: <PaymentInformation17 data={paymentInformation17Data as any} />
+        },
+        {
+          id: 'payment-information-18',
+          title: 'Payment Information 18',
+          description: 'Placeholder content for Payment Information 18',
+          previewComponent: <PaymentInformation18 data={paymentInformation18Data as any} />
+        },
+        {
+          id: 'payment-information-19',
+          title: 'Payment Information 19',
+          description: 'Placeholder content for Payment Information 19',
+          previewComponent: <PaymentInformation19 data={paymentInformation19Data as any} />
+        },
+        {
+          id: 'payment-information-20',
+          title: 'Payment Information 20',
+          description: 'Placeholder content for Payment Information 20',
+          previewComponent: <PaymentInformation20 data={paymentInformation20Data as any} />
+        }
+      ] :
+    category === 'frequently-bought-together' ? [
+        {
+          id: 'frequently-bought-together-1',
+          title: 'Frequently Bought Together 1',
+          description: 'Placeholder content for Frequently Bought Together 1',
+          previewComponent: <FrequentlyBoughtTogether1 data={frequentlyBoughtTogether1Data as any} />
+        },
+        {
+          id: 'frequently-bought-together-2',
+          title: 'Frequently Bought Together 2',
+          description: 'Placeholder content for Frequently Bought Together 2',
+          previewComponent: <FrequentlyBoughtTogether2 data={frequentlyBoughtTogether2Data as any} />
+        },
+        {
+          id: 'frequently-bought-together-3',
+          title: 'Frequently Bought Together 3',
+          description: 'Placeholder content for Frequently Bought Together 3',
+          previewComponent: <FrequentlyBoughtTogether3 data={frequentlyBoughtTogether3Data as any} />
+        },
+        {
+          id: 'frequently-bought-together-4',
+          title: 'Frequently Bought Together 4',
+          description: 'Placeholder content for Frequently Bought Together 4',
+          previewComponent: <FrequentlyBoughtTogether4 data={frequentlyBoughtTogether4Data as any} />
+        },
+        {
+          id: 'frequently-bought-together-5',
+          title: 'Frequently Bought Together 5',
+          description: 'Placeholder content for Frequently Bought Together 5',
+          previewComponent: <FrequentlyBoughtTogether5 data={frequentlyBoughtTogether5Data as any} />
+        },
+        {
+          id: 'frequently-bought-together-6',
+          title: 'Frequently Bought Together 6',
+          description: 'Placeholder content for Frequently Bought Together 6',
+          previewComponent: <FrequentlyBoughtTogether6 data={frequentlyBoughtTogether6Data as any} />
+        },
+        {
+          id: 'frequently-bought-together-7',
+          title: 'Frequently Bought Together 7',
+          description: 'Placeholder content for Frequently Bought Together 7',
+          previewComponent: <FrequentlyBoughtTogether7 data={frequentlyBoughtTogether7Data as any} />
+        },
+        {
+          id: 'frequently-bought-together-8',
+          title: 'Frequently Bought Together 8',
+          description: 'Placeholder content for Frequently Bought Together 8',
+          previewComponent: <FrequentlyBoughtTogether8 data={frequentlyBoughtTogether8Data as any} />
+        },
+        {
+          id: 'frequently-bought-together-9',
+          title: 'Frequently Bought Together 9',
+          description: 'Placeholder content for Frequently Bought Together 9',
+          previewComponent: <FrequentlyBoughtTogether9 data={frequentlyBoughtTogether9Data as any} />
+        },
+        {
+          id: 'frequently-bought-together-10',
+          title: 'Frequently Bought Together 10',
+          description: 'Placeholder content for Frequently Bought Together 10',
+          previewComponent: <FrequentlyBoughtTogether10 data={frequentlyBoughtTogether10Data as any} />
+        },
+        {
+          id: 'frequently-bought-together-11',
+          title: 'Frequently Bought Together 11',
+          description: 'Placeholder content for Frequently Bought Together 11',
+          previewComponent: <FrequentlyBoughtTogether11 data={frequentlyBoughtTogether11Data as any} />
+        },
+        {
+          id: 'frequently-bought-together-12',
+          title: 'Frequently Bought Together 12',
+          description: 'Placeholder content for Frequently Bought Together 12',
+          previewComponent: <FrequentlyBoughtTogether12 data={frequentlyBoughtTogether12Data as any} />
+        },
+        {
+          id: 'frequently-bought-together-13',
+          title: 'Frequently Bought Together 13',
+          description: 'Placeholder content for Frequently Bought Together 13',
+          previewComponent: <FrequentlyBoughtTogether13 data={frequentlyBoughtTogether13Data as any} />
+        },
+        {
+          id: 'frequently-bought-together-14',
+          title: 'Frequently Bought Together 14',
+          description: 'Placeholder content for Frequently Bought Together 14',
+          previewComponent: <FrequentlyBoughtTogether14 data={frequentlyBoughtTogether14Data as any} />
+        },
+        {
+          id: 'frequently-bought-together-15',
+          title: 'Frequently Bought Together 15',
+          description: 'Placeholder content for Frequently Bought Together 15',
+          previewComponent: <FrequentlyBoughtTogether15 data={frequentlyBoughtTogether15Data as any} />
+        },
+        {
+          id: 'frequently-bought-together-16',
+          title: 'Frequently Bought Together 16',
+          description: 'Placeholder content for Frequently Bought Together 16',
+          previewComponent: <FrequentlyBoughtTogether16 data={frequentlyBoughtTogether16Data as any} />
+        },
+        {
+          id: 'frequently-bought-together-17',
+          title: 'Frequently Bought Together 17',
+          description: 'Placeholder content for Frequently Bought Together 17',
+          previewComponent: <FrequentlyBoughtTogether17 data={frequentlyBoughtTogether17Data as any} />
+        },
+        {
+          id: 'frequently-bought-together-18',
+          title: 'Frequently Bought Together 18',
+          description: 'Placeholder content for Frequently Bought Together 18',
+          previewComponent: <FrequentlyBoughtTogether18 data={frequentlyBoughtTogether18Data as any} />
+        },
+        {
+          id: 'frequently-bought-together-19',
+          title: 'Frequently Bought Together 19',
+          description: 'Placeholder content for Frequently Bought Together 19',
+          previewComponent: <FrequentlyBoughtTogether19 data={frequentlyBoughtTogether19Data as any} />
+        },
+        {
+          id: 'frequently-bought-together-20',
+          title: 'Frequently Bought Together 20',
+          description: 'Placeholder content for Frequently Bought Together 20',
+          previewComponent: <FrequentlyBoughtTogether20 data={frequentlyBoughtTogether20Data as any} />
+        }
+      ] :
+    category === 'product-bundles' ? [
+        {
+          id: 'product-bundles-1',
+          title: 'Product Bundles 1',
+          description: 'Placeholder content for Product Bundles 1',
+          previewComponent: <ProductBundles1 data={productBundles1Data as any} />
+        },
+        {
+          id: 'product-bundles-2',
+          title: 'Product Bundles 2',
+          description: 'Placeholder content for Product Bundles 2',
+          previewComponent: <ProductBundles2 data={productBundles2Data as any} />
+        },
+        {
+          id: 'product-bundles-3',
+          title: 'Product Bundles 3',
+          description: 'Placeholder content for Product Bundles 3',
+          previewComponent: <ProductBundles3 data={productBundles3Data as any} />
+        },
+        {
+          id: 'product-bundles-4',
+          title: 'Product Bundles 4',
+          description: 'Placeholder content for Product Bundles 4',
+          previewComponent: <ProductBundles4 data={productBundles4Data as any} />
+        },
+        {
+          id: 'product-bundles-5',
+          title: 'Product Bundles 5',
+          description: 'Placeholder content for Product Bundles 5',
+          previewComponent: <ProductBundles5 data={productBundles5Data as any} />
+        },
+        {
+          id: 'product-bundles-6',
+          title: 'Product Bundles 6',
+          description: 'Placeholder content for Product Bundles 6',
+          previewComponent: <ProductBundles6 data={productBundles6Data as any} />
+        },
+        {
+          id: 'product-bundles-7',
+          title: 'Product Bundles 7',
+          description: 'Placeholder content for Product Bundles 7',
+          previewComponent: <ProductBundles7 data={productBundles7Data as any} />
+        },
+        {
+          id: 'product-bundles-8',
+          title: 'Product Bundles 8',
+          description: 'Placeholder content for Product Bundles 8',
+          previewComponent: <ProductBundles8 data={productBundles8Data as any} />
+        },
+        {
+          id: 'product-bundles-9',
+          title: 'Product Bundles 9',
+          description: 'Placeholder content for Product Bundles 9',
+          previewComponent: <ProductBundles9 data={productBundles9Data as any} />
+        },
+        {
+          id: 'product-bundles-10',
+          title: 'Product Bundles 10',
+          description: 'Placeholder content for Product Bundles 10',
+          previewComponent: <ProductBundles10 data={productBundles10Data as any} />
+        },
+        {
+          id: 'product-bundles-11',
+          title: 'Product Bundles 11',
+          description: 'Placeholder content for Product Bundles 11',
+          previewComponent: <ProductBundles11 data={productBundles11Data as any} />
+        },
+        {
+          id: 'product-bundles-12',
+          title: 'Product Bundles 12',
+          description: 'Placeholder content for Product Bundles 12',
+          previewComponent: <ProductBundles12 data={productBundles12Data as any} />
+        },
+        {
+          id: 'product-bundles-13',
+          title: 'Product Bundles 13',
+          description: 'Placeholder content for Product Bundles 13',
+          previewComponent: <ProductBundles13 data={productBundles13Data as any} />
+        },
+        {
+          id: 'product-bundles-14',
+          title: 'Product Bundles 14',
+          description: 'Placeholder content for Product Bundles 14',
+          previewComponent: <ProductBundles14 data={productBundles14Data as any} />
+        },
+        {
+          id: 'product-bundles-15',
+          title: 'Product Bundles 15',
+          description: 'Placeholder content for Product Bundles 15',
+          previewComponent: <ProductBundles15 data={productBundles15Data as any} />
+        },
+        {
+          id: 'product-bundles-16',
+          title: 'Product Bundles 16',
+          description: 'Placeholder content for Product Bundles 16',
+          previewComponent: <ProductBundles16 data={productBundles16Data as any} />
+        },
+        {
+          id: 'product-bundles-17',
+          title: 'Product Bundles 17',
+          description: 'Placeholder content for Product Bundles 17',
+          previewComponent: <ProductBundles17 data={productBundles17Data as any} />
+        },
+        {
+          id: 'product-bundles-18',
+          title: 'Product Bundles 18',
+          description: 'Placeholder content for Product Bundles 18',
+          previewComponent: <ProductBundles18 data={productBundles18Data as any} />
+        },
+        {
+          id: 'product-bundles-19',
+          title: 'Product Bundles 19',
+          description: 'Placeholder content for Product Bundles 19',
+          previewComponent: <ProductBundles19 data={productBundles19Data as any} />
+        },
+        {
+          id: 'product-bundles-20',
+          title: 'Product Bundles 20',
+          description: 'Placeholder content for Product Bundles 20',
+          previewComponent: <ProductBundles20 data={productBundles20Data as any} />
+        }
+      ] :
+    category === 'related-products' ? [
+        {
+          id: 'related-products-1',
+          title: 'Related Products 1',
+          description: 'Placeholder content for Related Products 1',
+          previewComponent: <RelatedProducts1 data={relatedProducts1Data as any} />
+        },
+        {
+          id: 'related-products-2',
+          title: 'Related Products 2',
+          description: 'Placeholder content for Related Products 2',
+          previewComponent: <RelatedProducts2 data={relatedProducts2Data as any} />
+        },
+        {
+          id: 'related-products-3',
+          title: 'Related Products 3',
+          description: 'Placeholder content for Related Products 3',
+          previewComponent: <RelatedProducts3 data={relatedProducts3Data as any} />
+        },
+        {
+          id: 'related-products-4',
+          title: 'Related Products 4',
+          description: 'Placeholder content for Related Products 4',
+          previewComponent: <RelatedProducts4 data={relatedProducts4Data as any} />
+        },
+        {
+          id: 'related-products-5',
+          title: 'Related Products 5',
+          description: 'Placeholder content for Related Products 5',
+          previewComponent: <RelatedProducts5 data={relatedProducts5Data as any} />
+        },
+        {
+          id: 'related-products-6',
+          title: 'Related Products 6',
+          description: 'Placeholder content for Related Products 6',
+          previewComponent: <RelatedProducts6 data={relatedProducts6Data as any} />
+        },
+        {
+          id: 'related-products-7',
+          title: 'Related Products 7',
+          description: 'Placeholder content for Related Products 7',
+          previewComponent: <RelatedProducts7 data={relatedProducts7Data as any} />
+        },
+        {
+          id: 'related-products-8',
+          title: 'Related Products 8',
+          description: 'Placeholder content for Related Products 8',
+          previewComponent: <RelatedProducts8 data={relatedProducts8Data as any} />
+        },
+        {
+          id: 'related-products-9',
+          title: 'Related Products 9',
+          description: 'Placeholder content for Related Products 9',
+          previewComponent: <RelatedProducts9 data={relatedProducts9Data as any} />
+        },
+        {
+          id: 'related-products-10',
+          title: 'Related Products 10',
+          description: 'Placeholder content for Related Products 10',
+          previewComponent: <RelatedProducts10 data={relatedProducts10Data as any} />
+        },
+        {
+          id: 'related-products-11',
+          title: 'Related Products 11',
+          description: 'Placeholder content for Related Products 11',
+          previewComponent: <RelatedProducts11 data={relatedProducts11Data as any} />
+        },
+        {
+          id: 'related-products-12',
+          title: 'Related Products 12',
+          description: 'Placeholder content for Related Products 12',
+          previewComponent: <RelatedProducts12 data={relatedProducts12Data as any} />
+        },
+        {
+          id: 'related-products-13',
+          title: 'Related Products 13',
+          description: 'Placeholder content for Related Products 13',
+          previewComponent: <RelatedProducts13 data={relatedProducts13Data as any} />
+        },
+        {
+          id: 'related-products-14',
+          title: 'Related Products 14',
+          description: 'Placeholder content for Related Products 14',
+          previewComponent: <RelatedProducts14 data={relatedProducts14Data as any} />
+        },
+        {
+          id: 'related-products-15',
+          title: 'Related Products 15',
+          description: 'Placeholder content for Related Products 15',
+          previewComponent: <RelatedProducts15 data={relatedProducts15Data as any} />
+        },
+        {
+          id: 'related-products-16',
+          title: 'Related Products 16',
+          description: 'Placeholder content for Related Products 16',
+          previewComponent: <RelatedProducts16 data={relatedProducts16Data as any} />
+        },
+        {
+          id: 'related-products-17',
+          title: 'Related Products 17',
+          description: 'Placeholder content for Related Products 17',
+          previewComponent: <RelatedProducts17 data={relatedProducts17Data as any} />
+        },
+        {
+          id: 'related-products-18',
+          title: 'Related Products 18',
+          description: 'Placeholder content for Related Products 18',
+          previewComponent: <RelatedProducts18 data={relatedProducts18Data as any} />
+        },
+        {
+          id: 'related-products-19',
+          title: 'Related Products 19',
+          description: 'Placeholder content for Related Products 19',
+          previewComponent: <RelatedProducts19 data={relatedProducts19Data as any} />
+        },
+        {
+          id: 'related-products-20',
+          title: 'Related Products 20',
+          description: 'Placeholder content for Related Products 20',
+          previewComponent: <RelatedProducts20 data={relatedProducts20Data as any} />
+        }
+      ] :
+    category === 'similar-products' ? [
+        {
+          id: 'similar-products-1',
+          title: 'Similar Products 1',
+          description: 'Placeholder content for Similar Products 1',
+          previewComponent: <SimilarProducts1 data={similarProducts1Data as any} />
+        },
+        {
+          id: 'similar-products-2',
+          title: 'Similar Products 2',
+          description: 'Placeholder content for Similar Products 2',
+          previewComponent: <SimilarProducts2 data={similarProducts2Data as any} />
+        },
+        {
+          id: 'similar-products-3',
+          title: 'Similar Products 3',
+          description: 'Placeholder content for Similar Products 3',
+          previewComponent: <SimilarProducts3 data={similarProducts3Data as any} />
+        },
+        {
+          id: 'similar-products-4',
+          title: 'Similar Products 4',
+          description: 'Placeholder content for Similar Products 4',
+          previewComponent: <SimilarProducts4 data={similarProducts4Data as any} />
+        },
+        {
+          id: 'similar-products-5',
+          title: 'Similar Products 5',
+          description: 'Placeholder content for Similar Products 5',
+          previewComponent: <SimilarProducts5 data={similarProducts5Data as any} />
+        },
+        {
+          id: 'similar-products-6',
+          title: 'Similar Products 6',
+          description: 'Placeholder content for Similar Products 6',
+          previewComponent: <SimilarProducts6 data={similarProducts6Data as any} />
+        },
+        {
+          id: 'similar-products-7',
+          title: 'Similar Products 7',
+          description: 'Placeholder content for Similar Products 7',
+          previewComponent: <SimilarProducts7 data={similarProducts7Data as any} />
+        },
+        {
+          id: 'similar-products-8',
+          title: 'Similar Products 8',
+          description: 'Placeholder content for Similar Products 8',
+          previewComponent: <SimilarProducts8 data={similarProducts8Data as any} />
+        },
+        {
+          id: 'similar-products-9',
+          title: 'Similar Products 9',
+          description: 'Placeholder content for Similar Products 9',
+          previewComponent: <SimilarProducts9 data={similarProducts9Data as any} />
+        },
+        {
+          id: 'similar-products-10',
+          title: 'Similar Products 10',
+          description: 'Placeholder content for Similar Products 10',
+          previewComponent: <SimilarProducts10 data={similarProducts10Data as any} />
+        },
+        {
+          id: 'similar-products-11',
+          title: 'Similar Products 11',
+          description: 'Placeholder content for Similar Products 11',
+          previewComponent: <SimilarProducts11 data={similarProducts11Data as any} />
+        },
+        {
+          id: 'similar-products-12',
+          title: 'Similar Products 12',
+          description: 'Placeholder content for Similar Products 12',
+          previewComponent: <SimilarProducts12 data={similarProducts12Data as any} />
+        },
+        {
+          id: 'similar-products-13',
+          title: 'Similar Products 13',
+          description: 'Placeholder content for Similar Products 13',
+          previewComponent: <SimilarProducts13 data={similarProducts13Data as any} />
+        },
+        {
+          id: 'similar-products-14',
+          title: 'Similar Products 14',
+          description: 'Placeholder content for Similar Products 14',
+          previewComponent: <SimilarProducts14 data={similarProducts14Data as any} />
+        },
+        {
+          id: 'similar-products-15',
+          title: 'Similar Products 15',
+          description: 'Placeholder content for Similar Products 15',
+          previewComponent: <SimilarProducts15 data={similarProducts15Data as any} />
+        },
+        {
+          id: 'similar-products-16',
+          title: 'Similar Products 16',
+          description: 'Placeholder content for Similar Products 16',
+          previewComponent: <SimilarProducts16 data={similarProducts16Data as any} />
+        },
+        {
+          id: 'similar-products-17',
+          title: 'Similar Products 17',
+          description: 'Placeholder content for Similar Products 17',
+          previewComponent: <SimilarProducts17 data={similarProducts17Data as any} />
+        },
+        {
+          id: 'similar-products-18',
+          title: 'Similar Products 18',
+          description: 'Placeholder content for Similar Products 18',
+          previewComponent: <SimilarProducts18 data={similarProducts18Data as any} />
+        },
+        {
+          id: 'similar-products-19',
+          title: 'Similar Products 19',
+          description: 'Placeholder content for Similar Products 19',
+          previewComponent: <SimilarProducts19 data={similarProducts19Data as any} />
+        },
+        {
+          id: 'similar-products-20',
+          title: 'Similar Products 20',
+          description: 'Placeholder content for Similar Products 20',
+          previewComponent: <SimilarProducts20 data={similarProducts20Data as any} />
+        }
+      ] :
+    category === 'recommended-products' ? [
+        {
+          id: 'recommended-products-1',
+          title: 'Recommended Products 1',
+          description: 'Placeholder content for Recommended Products 1',
+          previewComponent: <RecommendedProducts1 data={recommendedProducts1Data as any} />
+        },
+        {
+          id: 'recommended-products-2',
+          title: 'Recommended Products 2',
+          description: 'Placeholder content for Recommended Products 2',
+          previewComponent: <RecommendedProducts2 data={recommendedProducts2Data as any} />
+        },
+        {
+          id: 'recommended-products-3',
+          title: 'Recommended Products 3',
+          description: 'Placeholder content for Recommended Products 3',
+          previewComponent: <RecommendedProducts3 data={recommendedProducts3Data as any} />
+        },
+        {
+          id: 'recommended-products-4',
+          title: 'Recommended Products 4',
+          description: 'Placeholder content for Recommended Products 4',
+          previewComponent: <RecommendedProducts4 data={recommendedProducts4Data as any} />
+        },
+        {
+          id: 'recommended-products-5',
+          title: 'Recommended Products 5',
+          description: 'Placeholder content for Recommended Products 5',
+          previewComponent: <RecommendedProducts5 data={recommendedProducts5Data as any} />
+        },
+        {
+          id: 'recommended-products-6',
+          title: 'Recommended Products 6',
+          description: 'Placeholder content for Recommended Products 6',
+          previewComponent: <RecommendedProducts6 data={recommendedProducts6Data as any} />
+        },
+        {
+          id: 'recommended-products-7',
+          title: 'Recommended Products 7',
+          description: 'Placeholder content for Recommended Products 7',
+          previewComponent: <RecommendedProducts7 data={recommendedProducts7Data as any} />
+        },
+        {
+          id: 'recommended-products-8',
+          title: 'Recommended Products 8',
+          description: 'Placeholder content for Recommended Products 8',
+          previewComponent: <RecommendedProducts8 data={recommendedProducts8Data as any} />
+        },
+        {
+          id: 'recommended-products-9',
+          title: 'Recommended Products 9',
+          description: 'Placeholder content for Recommended Products 9',
+          previewComponent: <RecommendedProducts9 data={recommendedProducts9Data as any} />
+        },
+        {
+          id: 'recommended-products-10',
+          title: 'Recommended Products 10',
+          description: 'Placeholder content for Recommended Products 10',
+          previewComponent: <RecommendedProducts10 data={recommendedProducts10Data as any} />
+        },
+        {
+          id: 'recommended-products-11',
+          title: 'Recommended Products 11',
+          description: 'Placeholder content for Recommended Products 11',
+          previewComponent: <RecommendedProducts11 data={recommendedProducts11Data as any} />
+        },
+        {
+          id: 'recommended-products-12',
+          title: 'Recommended Products 12',
+          description: 'Placeholder content for Recommended Products 12',
+          previewComponent: <RecommendedProducts12 data={recommendedProducts12Data as any} />
+        },
+        {
+          id: 'recommended-products-13',
+          title: 'Recommended Products 13',
+          description: 'Placeholder content for Recommended Products 13',
+          previewComponent: <RecommendedProducts13 data={recommendedProducts13Data as any} />
+        },
+        {
+          id: 'recommended-products-14',
+          title: 'Recommended Products 14',
+          description: 'Placeholder content for Recommended Products 14',
+          previewComponent: <RecommendedProducts14 data={recommendedProducts14Data as any} />
+        },
+        {
+          id: 'recommended-products-15',
+          title: 'Recommended Products 15',
+          description: 'Placeholder content for Recommended Products 15',
+          previewComponent: <RecommendedProducts15 data={recommendedProducts15Data as any} />
+        },
+        {
+          id: 'recommended-products-16',
+          title: 'Recommended Products 16',
+          description: 'Placeholder content for Recommended Products 16',
+          previewComponent: <RecommendedProducts16 data={recommendedProducts16Data as any} />
+        },
+        {
+          id: 'recommended-products-17',
+          title: 'Recommended Products 17',
+          description: 'Placeholder content for Recommended Products 17',
+          previewComponent: <RecommendedProducts17 data={recommendedProducts17Data as any} />
+        },
+        {
+          id: 'recommended-products-18',
+          title: 'Recommended Products 18',
+          description: 'Placeholder content for Recommended Products 18',
+          previewComponent: <RecommendedProducts18 data={recommendedProducts18Data as any} />
+        },
+        {
+          id: 'recommended-products-19',
+          title: 'Recommended Products 19',
+          description: 'Placeholder content for Recommended Products 19',
+          previewComponent: <RecommendedProducts19 data={recommendedProducts19Data as any} />
+        },
+        {
+          id: 'recommended-products-20',
+          title: 'Recommended Products 20',
+          description: 'Placeholder content for Recommended Products 20',
+          previewComponent: <RecommendedProducts20 data={recommendedProducts20Data as any} />
+        }
+      ] :
+    category === 'customer-reviews' ? [
+        {
+          id: 'customer-reviews-1',
+          title: 'Customer Reviews 1',
+          description: 'Placeholder content for Customer Reviews 1',
+          previewComponent: <CustomerReviews1 data={customerReviews1Data as any} />
+        },
+        {
+          id: 'customer-reviews-2',
+          title: 'Customer Reviews 2',
+          description: 'Placeholder content for Customer Reviews 2',
+          previewComponent: <CustomerReviews2 data={customerReviews2Data as any} />
+        },
+        {
+          id: 'customer-reviews-3',
+          title: 'Customer Reviews 3',
+          description: 'Placeholder content for Customer Reviews 3',
+          previewComponent: <CustomerReviews3 data={customerReviews3Data as any} />
+        },
+        {
+          id: 'customer-reviews-4',
+          title: 'Customer Reviews 4',
+          description: 'Placeholder content for Customer Reviews 4',
+          previewComponent: <CustomerReviews4 data={customerReviews4Data as any} />
+        },
+        {
+          id: 'customer-reviews-5',
+          title: 'Customer Reviews 5',
+          description: 'Placeholder content for Customer Reviews 5',
+          previewComponent: <CustomerReviews5 data={customerReviews5Data as any} />
+        },
+        {
+          id: 'customer-reviews-6',
+          title: 'Customer Reviews 6',
+          description: 'Placeholder content for Customer Reviews 6',
+          previewComponent: <CustomerReviews6 data={customerReviews6Data as any} />
+        },
+        {
+          id: 'customer-reviews-7',
+          title: 'Customer Reviews 7',
+          description: 'Placeholder content for Customer Reviews 7',
+          previewComponent: <CustomerReviews7 data={customerReviews7Data as any} />
+        },
+        {
+          id: 'customer-reviews-8',
+          title: 'Customer Reviews 8',
+          description: 'Placeholder content for Customer Reviews 8',
+          previewComponent: <CustomerReviews8 data={customerReviews8Data as any} />
+        },
+        {
+          id: 'customer-reviews-9',
+          title: 'Customer Reviews 9',
+          description: 'Placeholder content for Customer Reviews 9',
+          previewComponent: <CustomerReviews9 data={customerReviews9Data as any} />
+        },
+        {
+          id: 'customer-reviews-10',
+          title: 'Customer Reviews 10',
+          description: 'Placeholder content for Customer Reviews 10',
+          previewComponent: <CustomerReviews10 data={customerReviews10Data as any} />
+        },
+        {
+          id: 'customer-reviews-11',
+          title: 'Customer Reviews 11',
+          description: 'Placeholder content for Customer Reviews 11',
+          previewComponent: <CustomerReviews11 data={customerReviews11Data as any} />
+        },
+        {
+          id: 'customer-reviews-12',
+          title: 'Customer Reviews 12',
+          description: 'Placeholder content for Customer Reviews 12',
+          previewComponent: <CustomerReviews12 data={customerReviews12Data as any} />
+        },
+        {
+          id: 'customer-reviews-13',
+          title: 'Customer Reviews 13',
+          description: 'Placeholder content for Customer Reviews 13',
+          previewComponent: <CustomerReviews13 data={customerReviews13Data as any} />
+        },
+        {
+          id: 'customer-reviews-14',
+          title: 'Customer Reviews 14',
+          description: 'Placeholder content for Customer Reviews 14',
+          previewComponent: <CustomerReviews14 data={customerReviews14Data as any} />
+        },
+        {
+          id: 'customer-reviews-15',
+          title: 'Customer Reviews 15',
+          description: 'Placeholder content for Customer Reviews 15',
+          previewComponent: <CustomerReviews15 data={customerReviews15Data as any} />
+        },
+        {
+          id: 'customer-reviews-16',
+          title: 'Customer Reviews 16',
+          description: 'Placeholder content for Customer Reviews 16',
+          previewComponent: <CustomerReviews16 data={customerReviews16Data as any} />
+        },
+        {
+          id: 'customer-reviews-17',
+          title: 'Customer Reviews 17',
+          description: 'Placeholder content for Customer Reviews 17',
+          previewComponent: <CustomerReviews17 data={customerReviews17Data as any} />
+        },
+        {
+          id: 'customer-reviews-18',
+          title: 'Customer Reviews 18',
+          description: 'Placeholder content for Customer Reviews 18',
+          previewComponent: <CustomerReviews18 data={customerReviews18Data as any} />
+        },
+        {
+          id: 'customer-reviews-19',
+          title: 'Customer Reviews 19',
+          description: 'Placeholder content for Customer Reviews 19',
+          previewComponent: <CustomerReviews19 data={customerReviews19Data as any} />
+        },
+        {
+          id: 'customer-reviews-20',
+          title: 'Customer Reviews 20',
+          description: 'Placeholder content for Customer Reviews 20',
+          previewComponent: <CustomerReviews20 data={customerReviews20Data as any} />
+        }
+      ] :
+    category === 'review-summary' ? [
+        {
+          id: 'review-summary-1',
+          title: 'Review Summary 1',
+          description: 'Placeholder content for Review Summary 1',
+          previewComponent: <ReviewSummary1 data={reviewSummary1Data as any} />
+        },
+        {
+          id: 'review-summary-2',
+          title: 'Review Summary 2',
+          description: 'Placeholder content for Review Summary 2',
+          previewComponent: <ReviewSummary2 data={reviewSummary2Data as any} />
+        },
+        {
+          id: 'review-summary-3',
+          title: 'Review Summary 3',
+          description: 'Placeholder content for Review Summary 3',
+          previewComponent: <ReviewSummary3 data={reviewSummary3Data as any} />
+        },
+        {
+          id: 'review-summary-4',
+          title: 'Review Summary 4',
+          description: 'Placeholder content for Review Summary 4',
+          previewComponent: <ReviewSummary4 data={reviewSummary4Data as any} />
+        },
+        {
+          id: 'review-summary-5',
+          title: 'Review Summary 5',
+          description: 'Placeholder content for Review Summary 5',
+          previewComponent: <ReviewSummary5 data={reviewSummary5Data as any} />
+        },
+        {
+          id: 'review-summary-6',
+          title: 'Review Summary 6',
+          description: 'Placeholder content for Review Summary 6',
+          previewComponent: <ReviewSummary6 data={reviewSummary6Data as any} />
+        },
+        {
+          id: 'review-summary-7',
+          title: 'Review Summary 7',
+          description: 'Placeholder content for Review Summary 7',
+          previewComponent: <ReviewSummary7 data={reviewSummary7Data as any} />
+        },
+        {
+          id: 'review-summary-8',
+          title: 'Review Summary 8',
+          description: 'Placeholder content for Review Summary 8',
+          previewComponent: <ReviewSummary8 data={reviewSummary8Data as any} />
+        },
+        {
+          id: 'review-summary-9',
+          title: 'Review Summary 9',
+          description: 'Placeholder content for Review Summary 9',
+          previewComponent: <ReviewSummary9 data={reviewSummary9Data as any} />
+        },
+        {
+          id: 'review-summary-10',
+          title: 'Review Summary 10',
+          description: 'Placeholder content for Review Summary 10',
+          previewComponent: <ReviewSummary10 data={reviewSummary10Data as any} />
+        },
+        {
+          id: 'review-summary-11',
+          title: 'Review Summary 11',
+          description: 'Placeholder content for Review Summary 11',
+          previewComponent: <ReviewSummary11 data={reviewSummary11Data as any} />
+        },
+        {
+          id: 'review-summary-12',
+          title: 'Review Summary 12',
+          description: 'Placeholder content for Review Summary 12',
+          previewComponent: <ReviewSummary12 data={reviewSummary12Data as any} />
+        },
+        {
+          id: 'review-summary-13',
+          title: 'Review Summary 13',
+          description: 'Placeholder content for Review Summary 13',
+          previewComponent: <ReviewSummary13 data={reviewSummary13Data as any} />
+        },
+        {
+          id: 'review-summary-14',
+          title: 'Review Summary 14',
+          description: 'Placeholder content for Review Summary 14',
+          previewComponent: <ReviewSummary14 data={reviewSummary14Data as any} />
+        },
+        {
+          id: 'review-summary-15',
+          title: 'Review Summary 15',
+          description: 'Placeholder content for Review Summary 15',
+          previewComponent: <ReviewSummary15 data={reviewSummary15Data as any} />
+        },
+        {
+          id: 'review-summary-16',
+          title: 'Review Summary 16',
+          description: 'Placeholder content for Review Summary 16',
+          previewComponent: <ReviewSummary16 data={reviewSummary16Data as any} />
+        },
+        {
+          id: 'review-summary-17',
+          title: 'Review Summary 17',
+          description: 'Placeholder content for Review Summary 17',
+          previewComponent: <ReviewSummary17 data={reviewSummary17Data as any} />
+        },
+        {
+          id: 'review-summary-18',
+          title: 'Review Summary 18',
+          description: 'Placeholder content for Review Summary 18',
+          previewComponent: <ReviewSummary18 data={reviewSummary18Data as any} />
+        },
+        {
+          id: 'review-summary-19',
+          title: 'Review Summary 19',
+          description: 'Placeholder content for Review Summary 19',
+          previewComponent: <ReviewSummary19 data={reviewSummary19Data as any} />
+        },
+        {
+          id: 'review-summary-20',
+          title: 'Review Summary 20',
+          description: 'Placeholder content for Review Summary 20',
+          previewComponent: <ReviewSummary20 data={reviewSummary20Data as any} />
+        }
+      ] :
+    category === 'customer-review-gallery' ? [
+        {
+          id: 'customer-review-gallery-1',
+          title: 'Customer Review Gallery 1',
+          description: 'Placeholder content for Customer Review Gallery 1',
+          previewComponent: <CustomerReviewGallery1 data={customerReviewGallery1Data as any} />
+        },
+        {
+          id: 'customer-review-gallery-2',
+          title: 'Customer Review Gallery 2',
+          description: 'Placeholder content for Customer Review Gallery 2',
+          previewComponent: <CustomerReviewGallery2 data={customerReviewGallery2Data as any} />
+        },
+        {
+          id: 'customer-review-gallery-3',
+          title: 'Customer Review Gallery 3',
+          description: 'Placeholder content for Customer Review Gallery 3',
+          previewComponent: <CustomerReviewGallery3 data={customerReviewGallery3Data as any} />
+        },
+        {
+          id: 'customer-review-gallery-4',
+          title: 'Customer Review Gallery 4',
+          description: 'Placeholder content for Customer Review Gallery 4',
+          previewComponent: <CustomerReviewGallery4 data={customerReviewGallery4Data as any} />
+        },
+        {
+          id: 'customer-review-gallery-5',
+          title: 'Customer Review Gallery 5',
+          description: 'Placeholder content for Customer Review Gallery 5',
+          previewComponent: <CustomerReviewGallery5 data={customerReviewGallery5Data as any} />
+        },
+        {
+          id: 'customer-review-gallery-6',
+          title: 'Customer Review Gallery 6',
+          description: 'Placeholder content for Customer Review Gallery 6',
+          previewComponent: <CustomerReviewGallery6 data={customerReviewGallery6Data as any} />
+        },
+        {
+          id: 'customer-review-gallery-7',
+          title: 'Customer Review Gallery 7',
+          description: 'Placeholder content for Customer Review Gallery 7',
+          previewComponent: <CustomerReviewGallery7 data={customerReviewGallery7Data as any} />
+        },
+        {
+          id: 'customer-review-gallery-8',
+          title: 'Customer Review Gallery 8',
+          description: 'Placeholder content for Customer Review Gallery 8',
+          previewComponent: <CustomerReviewGallery8 data={customerReviewGallery8Data as any} />
+        },
+        {
+          id: 'customer-review-gallery-9',
+          title: 'Customer Review Gallery 9',
+          description: 'Placeholder content for Customer Review Gallery 9',
+          previewComponent: <CustomerReviewGallery9 data={customerReviewGallery9Data as any} />
+        },
+        {
+          id: 'customer-review-gallery-10',
+          title: 'Customer Review Gallery 10',
+          description: 'Placeholder content for Customer Review Gallery 10',
+          previewComponent: <CustomerReviewGallery10 data={customerReviewGallery10Data as any} />
+        },
+        {
+          id: 'customer-review-gallery-11',
+          title: 'Customer Review Gallery 11',
+          description: 'Placeholder content for Customer Review Gallery 11',
+          previewComponent: <CustomerReviewGallery11 data={customerReviewGallery11Data as any} />
+        },
+        {
+          id: 'customer-review-gallery-12',
+          title: 'Customer Review Gallery 12',
+          description: 'Placeholder content for Customer Review Gallery 12',
+          previewComponent: <CustomerReviewGallery12 data={customerReviewGallery12Data as any} />
+        },
+        {
+          id: 'customer-review-gallery-13',
+          title: 'Customer Review Gallery 13',
+          description: 'Placeholder content for Customer Review Gallery 13',
+          previewComponent: <CustomerReviewGallery13 data={customerReviewGallery13Data as any} />
+        },
+        {
+          id: 'customer-review-gallery-14',
+          title: 'Customer Review Gallery 14',
+          description: 'Placeholder content for Customer Review Gallery 14',
+          previewComponent: <CustomerReviewGallery14 data={customerReviewGallery14Data as any} />
+        },
+        {
+          id: 'customer-review-gallery-15',
+          title: 'Customer Review Gallery 15',
+          description: 'Placeholder content for Customer Review Gallery 15',
+          previewComponent: <CustomerReviewGallery15 data={customerReviewGallery15Data as any} />
+        },
+        {
+          id: 'customer-review-gallery-16',
+          title: 'Customer Review Gallery 16',
+          description: 'Placeholder content for Customer Review Gallery 16',
+          previewComponent: <CustomerReviewGallery16 data={customerReviewGallery16Data as any} />
+        },
+        {
+          id: 'customer-review-gallery-17',
+          title: 'Customer Review Gallery 17',
+          description: 'Placeholder content for Customer Review Gallery 17',
+          previewComponent: <CustomerReviewGallery17 data={customerReviewGallery17Data as any} />
+        },
+        {
+          id: 'customer-review-gallery-18',
+          title: 'Customer Review Gallery 18',
+          description: 'Placeholder content for Customer Review Gallery 18',
+          previewComponent: <CustomerReviewGallery18 data={customerReviewGallery18Data as any} />
+        },
+        {
+          id: 'customer-review-gallery-19',
+          title: 'Customer Review Gallery 19',
+          description: 'Placeholder content for Customer Review Gallery 19',
+          previewComponent: <CustomerReviewGallery19 data={customerReviewGallery19Data as any} />
+        },
+        {
+          id: 'customer-review-gallery-20',
+          title: 'Customer Review Gallery 20',
+          description: 'Placeholder content for Customer Review Gallery 20',
+          previewComponent: <CustomerReviewGallery20 data={customerReviewGallery20Data as any} />
+        }
+      ] :
+    category === 'questions-answers' ? [
+        {
+          id: 'questions-answers-1',
+          title: 'Questions & Answers 1',
+          description: 'Placeholder content for Questions & Answers 1',
+          previewComponent: <QuestionsAnswers1 data={questionsAnswers1Data as any} />
+        },
+        {
+          id: 'questions-answers-2',
+          title: 'Questions & Answers 2',
+          description: 'Placeholder content for Questions & Answers 2',
+          previewComponent: <QuestionsAnswers2 data={questionsAnswers2Data as any} />
+        },
+        {
+          id: 'questions-answers-3',
+          title: 'Questions & Answers 3',
+          description: 'Placeholder content for Questions & Answers 3',
+          previewComponent: <QuestionsAnswers3 data={questionsAnswers3Data as any} />
+        },
+        {
+          id: 'questions-answers-4',
+          title: 'Questions & Answers 4',
+          description: 'Placeholder content for Questions & Answers 4',
+          previewComponent: <QuestionsAnswers4 data={questionsAnswers4Data as any} />
+        },
+        {
+          id: 'questions-answers-5',
+          title: 'Questions & Answers 5',
+          description: 'Placeholder content for Questions & Answers 5',
+          previewComponent: <QuestionsAnswers5 data={questionsAnswers5Data as any} />
+        },
+        {
+          id: 'questions-answers-6',
+          title: 'Questions & Answers 6',
+          description: 'Placeholder content for Questions & Answers 6',
+          previewComponent: <QuestionsAnswers6 data={questionsAnswers6Data as any} />
+        },
+        {
+          id: 'questions-answers-7',
+          title: 'Questions & Answers 7',
+          description: 'Placeholder content for Questions & Answers 7',
+          previewComponent: <QuestionsAnswers7 data={questionsAnswers7Data as any} />
+        },
+        {
+          id: 'questions-answers-8',
+          title: 'Questions & Answers 8',
+          description: 'Placeholder content for Questions & Answers 8',
+          previewComponent: <QuestionsAnswers8 data={questionsAnswers8Data as any} />
+        },
+        {
+          id: 'questions-answers-9',
+          title: 'Questions & Answers 9',
+          description: 'Placeholder content for Questions & Answers 9',
+          previewComponent: <QuestionsAnswers9 data={questionsAnswers9Data as any} />
+        },
+        {
+          id: 'questions-answers-10',
+          title: 'Questions & Answers 10',
+          description: 'Placeholder content for Questions & Answers 10',
+          previewComponent: <QuestionsAnswers10 data={questionsAnswers10Data as any} />
+        },
+        {
+          id: 'questions-answers-11',
+          title: 'Questions & Answers 11',
+          description: 'Placeholder content for Questions & Answers 11',
+          previewComponent: <QuestionsAnswers11 data={questionsAnswers11Data as any} />
+        },
+        {
+          id: 'questions-answers-12',
+          title: 'Questions & Answers 12',
+          description: 'Placeholder content for Questions & Answers 12',
+          previewComponent: <QuestionsAnswers12 data={questionsAnswers12Data as any} />
+        },
+        {
+          id: 'questions-answers-13',
+          title: 'Questions & Answers 13',
+          description: 'Placeholder content for Questions & Answers 13',
+          previewComponent: <QuestionsAnswers13 data={questionsAnswers13Data as any} />
+        },
+        {
+          id: 'questions-answers-14',
+          title: 'Questions & Answers 14',
+          description: 'Placeholder content for Questions & Answers 14',
+          previewComponent: <QuestionsAnswers14 data={questionsAnswers14Data as any} />
+        },
+        {
+          id: 'questions-answers-15',
+          title: 'Questions & Answers 15',
+          description: 'Placeholder content for Questions & Answers 15',
+          previewComponent: <QuestionsAnswers15 data={questionsAnswers15Data as any} />
+        },
+        {
+          id: 'questions-answers-16',
+          title: 'Questions & Answers 16',
+          description: 'Placeholder content for Questions & Answers 16',
+          previewComponent: <QuestionsAnswers16 data={questionsAnswers16Data as any} />
+        },
+        {
+          id: 'questions-answers-17',
+          title: 'Questions & Answers 17',
+          description: 'Placeholder content for Questions & Answers 17',
+          previewComponent: <QuestionsAnswers17 data={questionsAnswers17Data as any} />
+        },
+        {
+          id: 'questions-answers-18',
+          title: 'Questions & Answers 18',
+          description: 'Placeholder content for Questions & Answers 18',
+          previewComponent: <QuestionsAnswers18 data={questionsAnswers18Data as any} />
+        },
+        {
+          id: 'questions-answers-19',
+          title: 'Questions & Answers 19',
+          description: 'Placeholder content for Questions & Answers 19',
+          previewComponent: <QuestionsAnswers19 data={questionsAnswers19Data as any} />
+        },
+        {
+          id: 'questions-answers-20',
+          title: 'Questions & Answers 20',
+          description: 'Placeholder content for Questions & Answers 20',
+          previewComponent: <QuestionsAnswers20 data={questionsAnswers20Data as any} />
+        }
+      ] :
+    category === 'product-faq' ? [
+        {
+          id: 'product-faq-1',
+          title: 'Product FAQ 1',
+          description: 'Placeholder content for Product FAQ 1',
+          previewComponent: <ProductFaq1 data={productFaq1Data as any} />
+        },
+        {
+          id: 'product-faq-2',
+          title: 'Product FAQ 2',
+          description: 'Placeholder content for Product FAQ 2',
+          previewComponent: <ProductFaq2 data={productFaq2Data as any} />
+        },
+        {
+          id: 'product-faq-3',
+          title: 'Product FAQ 3',
+          description: 'Placeholder content for Product FAQ 3',
+          previewComponent: <ProductFaq3 data={productFaq3Data as any} />
+        },
+        {
+          id: 'product-faq-4',
+          title: 'Product FAQ 4',
+          description: 'Placeholder content for Product FAQ 4',
+          previewComponent: <ProductFaq4 data={productFaq4Data as any} />
+        },
+        {
+          id: 'product-faq-5',
+          title: 'Product FAQ 5',
+          description: 'Placeholder content for Product FAQ 5',
+          previewComponent: <ProductFaq5 data={productFaq5Data as any} />
+        },
+        {
+          id: 'product-faq-6',
+          title: 'Product FAQ 6',
+          description: 'Placeholder content for Product FAQ 6',
+          previewComponent: <ProductFaq6 data={productFaq6Data as any} />
+        },
+        {
+          id: 'product-faq-7',
+          title: 'Product FAQ 7',
+          description: 'Placeholder content for Product FAQ 7',
+          previewComponent: <ProductFaq7 data={productFaq7Data as any} />
+        },
+        {
+          id: 'product-faq-8',
+          title: 'Product FAQ 8',
+          description: 'Placeholder content for Product FAQ 8',
+          previewComponent: <ProductFaq8 data={productFaq8Data as any} />
+        },
+        {
+          id: 'product-faq-9',
+          title: 'Product FAQ 9',
+          description: 'Placeholder content for Product FAQ 9',
+          previewComponent: <ProductFaq9 data={productFaq9Data as any} />
+        },
+        {
+          id: 'product-faq-10',
+          title: 'Product FAQ 10',
+          description: 'Placeholder content for Product FAQ 10',
+          previewComponent: <ProductFaq10 data={productFaq10Data as any} />
+        },
+        {
+          id: 'product-faq-11',
+          title: 'Product FAQ 11',
+          description: 'Placeholder content for Product FAQ 11',
+          previewComponent: <ProductFaq11 data={productFaq11Data as any} />
+        },
+        {
+          id: 'product-faq-12',
+          title: 'Product FAQ 12',
+          description: 'Placeholder content for Product FAQ 12',
+          previewComponent: <ProductFaq12 data={productFaq12Data as any} />
+        },
+        {
+          id: 'product-faq-13',
+          title: 'Product FAQ 13',
+          description: 'Placeholder content for Product FAQ 13',
+          previewComponent: <ProductFaq13 data={productFaq13Data as any} />
+        },
+        {
+          id: 'product-faq-14',
+          title: 'Product FAQ 14',
+          description: 'Placeholder content for Product FAQ 14',
+          previewComponent: <ProductFaq14 data={productFaq14Data as any} />
+        },
+        {
+          id: 'product-faq-15',
+          title: 'Product FAQ 15',
+          description: 'Placeholder content for Product FAQ 15',
+          previewComponent: <ProductFaq15 data={productFaq15Data as any} />
+        },
+        {
+          id: 'product-faq-16',
+          title: 'Product FAQ 16',
+          description: 'Placeholder content for Product FAQ 16',
+          previewComponent: <ProductFaq16 data={productFaq16Data as any} />
+        },
+        {
+          id: 'product-faq-17',
+          title: 'Product FAQ 17',
+          description: 'Placeholder content for Product FAQ 17',
+          previewComponent: <ProductFaq17 data={productFaq17Data as any} />
+        },
+        {
+          id: 'product-faq-18',
+          title: 'Product FAQ 18',
+          description: 'Placeholder content for Product FAQ 18',
+          previewComponent: <ProductFaq18 data={productFaq18Data as any} />
+        },
+        {
+          id: 'product-faq-19',
+          title: 'Product FAQ 19',
+          description: 'Placeholder content for Product FAQ 19',
+          previewComponent: <ProductFaq19 data={productFaq19Data as any} />
+        },
+        {
+          id: 'product-faq-20',
+          title: 'Product FAQ 20',
+          description: 'Placeholder content for Product FAQ 20',
+          previewComponent: <ProductFaq20 data={productFaq20Data as any} />
+        }
+      ] :
+    category === 'brand-information' ? [
+        {
+          id: 'brand-information-1',
+          title: 'Brand Information 1',
+          description: 'Placeholder content for Brand Information 1',
+          previewComponent: <BrandInformation1 data={brandInformation1Data as any} />
+        },
+        {
+          id: 'brand-information-2',
+          title: 'Brand Information 2',
+          description: 'Placeholder content for Brand Information 2',
+          previewComponent: <BrandInformation2 data={brandInformation2Data as any} />
+        },
+        {
+          id: 'brand-information-3',
+          title: 'Brand Information 3',
+          description: 'Placeholder content for Brand Information 3',
+          previewComponent: <BrandInformation3 data={brandInformation3Data as any} />
+        },
+        {
+          id: 'brand-information-4',
+          title: 'Brand Information 4',
+          description: 'Placeholder content for Brand Information 4',
+          previewComponent: <BrandInformation4 data={brandInformation4Data as any} />
+        },
+        {
+          id: 'brand-information-5',
+          title: 'Brand Information 5',
+          description: 'Placeholder content for Brand Information 5',
+          previewComponent: <BrandInformation5 data={brandInformation5Data as any} />
+        },
+        {
+          id: 'brand-information-6',
+          title: 'Brand Information 6',
+          description: 'Placeholder content for Brand Information 6',
+          previewComponent: <BrandInformation6 data={brandInformation6Data as any} />
+        },
+        {
+          id: 'brand-information-7',
+          title: 'Brand Information 7',
+          description: 'Placeholder content for Brand Information 7',
+          previewComponent: <BrandInformation7 data={brandInformation7Data as any} />
+        },
+        {
+          id: 'brand-information-8',
+          title: 'Brand Information 8',
+          description: 'Placeholder content for Brand Information 8',
+          previewComponent: <BrandInformation8 data={brandInformation8Data as any} />
+        },
+        {
+          id: 'brand-information-9',
+          title: 'Brand Information 9',
+          description: 'Placeholder content for Brand Information 9',
+          previewComponent: <BrandInformation9 data={brandInformation9Data as any} />
+        },
+        {
+          id: 'brand-information-10',
+          title: 'Brand Information 10',
+          description: 'Placeholder content for Brand Information 10',
+          previewComponent: <BrandInformation10 data={brandInformation10Data as any} />
+        },
+        {
+          id: 'brand-information-11',
+          title: 'Brand Information 11',
+          description: 'Placeholder content for Brand Information 11',
+          previewComponent: <BrandInformation11 data={brandInformation11Data as any} />
+        },
+        {
+          id: 'brand-information-12',
+          title: 'Brand Information 12',
+          description: 'Placeholder content for Brand Information 12',
+          previewComponent: <BrandInformation12 data={brandInformation12Data as any} />
+        },
+        {
+          id: 'brand-information-13',
+          title: 'Brand Information 13',
+          description: 'Placeholder content for Brand Information 13',
+          previewComponent: <BrandInformation13 data={brandInformation13Data as any} />
+        },
+        {
+          id: 'brand-information-14',
+          title: 'Brand Information 14',
+          description: 'Placeholder content for Brand Information 14',
+          previewComponent: <BrandInformation14 data={brandInformation14Data as any} />
+        },
+        {
+          id: 'brand-information-15',
+          title: 'Brand Information 15',
+          description: 'Placeholder content for Brand Information 15',
+          previewComponent: <BrandInformation15 data={brandInformation15Data as any} />
+        },
+        {
+          id: 'brand-information-16',
+          title: 'Brand Information 16',
+          description: 'Placeholder content for Brand Information 16',
+          previewComponent: <BrandInformation16 data={brandInformation16Data as any} />
+        },
+        {
+          id: 'brand-information-17',
+          title: 'Brand Information 17',
+          description: 'Placeholder content for Brand Information 17',
+          previewComponent: <BrandInformation17 data={brandInformation17Data as any} />
+        },
+        {
+          id: 'brand-information-18',
+          title: 'Brand Information 18',
+          description: 'Placeholder content for Brand Information 18',
+          previewComponent: <BrandInformation18 data={brandInformation18Data as any} />
+        },
+        {
+          id: 'brand-information-19',
+          title: 'Brand Information 19',
+          description: 'Placeholder content for Brand Information 19',
+          previewComponent: <BrandInformation19 data={brandInformation19Data as any} />
+        },
+        {
+          id: 'brand-information-20',
+          title: 'Brand Information 20',
+          description: 'Placeholder content for Brand Information 20',
+          previewComponent: <BrandInformation20 data={brandInformation20Data as any} />
+        }
       ] : [];
 
   return (
     <div className="p-8 lg:p-12 max-w-7xl mx-auto w-full">
       <div className="mb-10">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 capitalize">{category} Sections</h2>
-        <p className="text-gray-500 mt-2 text-lg">Browse and preview reusable sections for the {category} category.</p>
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 capitalize">{category.replace(/-/g, ' ')} Sections</h2>
+        <p className="text-gray-500 mt-2 text-lg">Browse and preview reusable sections for the {category.replace(/-/g, ' ')} category.</p>
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {sections.map(section => (
-          <SectionLibraryCard 
-            key={section.id}
-            title={section.title}
-            description={section.description}
-            previewComponent={section.previewComponent}
-            onClick={() => onSelectSection(section.id)}
-          />
-        ))}
+      <div className="flex flex-col gap-16">
+        {sections.map((section, index) => {
+          const num = (index + 1).toString().padStart(2, '0');
+          return (
+            <div key={section.id} className="flex flex-col gap-6">
+              <div className="flex items-baseline gap-4">
+                <span className="text-3xl font-light text-gray-400 font-mono">{num}</span>
+                <div>
+                  <h3 className="text-2xl font-semibold text-gray-900">{section.title}</h3>
+                </div>
+              </div>
+              
+              <div 
+                className="w-full bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer relative group"
+                onClick={() => onSelectSection(section.id)}
+              >
+                <div className="absolute inset-0 z-10 hidden group-hover:block bg-black/5" />
+                <div className="w-full relative pointer-events-none origin-top" style={{ minHeight: '300px' }}>
+                  {section.previewComponent}
+                </div>
+              </div>
+
+              <div className="max-w-3xl">
+                <p className="text-gray-600 leading-relaxed">
+                  {section.description}
+                </p>
+              </div>
+              
+              {index < sections.length - 1 && (
+                <div className="w-full h-px bg-gray-200 mt-10" />
+              )}
+            </div>
+          );
+        })}
       </div>
     </div>
   );

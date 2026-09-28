@@ -16,7 +16,7 @@ export function SectionLibraryCard({ title, description, previewComponent, onCli
       <div className="aspect-video w-full bg-gray-100 flex items-center justify-center border-b border-gray-200 group-hover:bg-gray-50 transition-colors relative overflow-hidden">
         {previewComponent ? (
           <div 
-            className="absolute top-0 left-0 origin-top-left pointer-events-none" 
+            className="absolute top-0 left-0 origin-top-left pointer-events-none [&_*]:!opacity-100 [&_*]:!translate-y-0 [&_*]:!translate-x-0 [&_*]:!scale-100" 
             style={{ width: '400%', height: '400%', transform: 'scale(0.25)' }}
           >
             {previewComponent}

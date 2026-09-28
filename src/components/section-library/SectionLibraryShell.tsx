@@ -54,7 +54,7 @@ export function SectionLibraryShell() {
         />
       )}
       
-      <main className={`flex-1 ${!selectedSection ? 'ml-64' : 'ml-0'} flex flex-col min-h-screen overflow-hidden bg-white relative`}>
+      <main className={`flex-1 ${!selectedSection ? 'ml-80' : 'ml-0'} flex flex-col min-h-screen overflow-hidden bg-white relative`}>
         {selectedSection ? (
           <SectionPreviewLayout 
             sectionId={selectedSection} 
