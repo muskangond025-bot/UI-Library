@@ -8,21 +8,12 @@ interface NavbarProps {
 }
 
 export function SectionLibraryNavbar({ activeCategory, onSelectCategory }: NavbarProps) {
-  const scrollToSection = (id: string, categoryId: string) => {
-    if (activeCategory !== categoryId) {
-      onSelectCategory(categoryId);
-      setTimeout(() => {
-        const element = document.getElementById(id);
-        if (element) {
-          element.scrollIntoView({ behavior: 'smooth' });
-        }
-      }, 100);
-    } else {
-      const element = document.getElementById(id);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
+  const isHomeActive = activeCategory === 'home' || homeCategories.some(c => c.id === activeCategory);
+  const isProductActive = activeCategory === 'product' || productCategories.some(c => c.id === activeCategory);
+
+  const handleSubcategoryClick = (id: string) => {
+    onSelectCategory(id);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
@@ -36,11 +27,10 @@ export function SectionLibraryNavbar({ activeCategory, onSelectCategory }: Navba
             <div className="group relative h-full flex items-center">
               <button 
                 onClick={() => {
-                  onSelectCategory('home');
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                  handleSubcategoryClick(homeCategories[0].id);
                 }}
                 className={`flex items-center gap-1 text-sm font-semibold uppercase tracking-wide transition-colors h-full ${
-                  activeCategory === 'home' ? 'text-black' : 'text-gray-400 hover:text-black'
+                  isHomeActive ? 'text-black' : 'text-gray-400 hover:text-black'
                 }`}
               >
                 HOME
@@ -51,7 +41,7 @@ export function SectionLibraryNavbar({ activeCategory, onSelectCategory }: Navba
                 {homeCategories.map((cat) => (
                   <button
                     key={cat.id}
-                    onClick={() => scrollToSection(cat.id, 'home')}
+                    onClick={() => handleSubcategoryClick(cat.id)}
                     className="text-left px-4 py-2 text-xs font-medium text-gray-600 hover:text-black hover:bg-gray-50 uppercase tracking-wider transition-colors"
                   >
                     {cat.label}
@@ -64,11 +54,10 @@ export function SectionLibraryNavbar({ activeCategory, onSelectCategory }: Navba
             <div className="group relative h-full flex items-center">
               <button 
                 onClick={() => {
-                  onSelectCategory('product');
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                  handleSubcategoryClick(productCategories[0].id);
                 }}
                 className={`flex items-center gap-1 text-sm font-semibold uppercase tracking-wide transition-colors h-full ${
-                  activeCategory === 'product' ? 'text-black' : 'text-gray-400 hover:text-black'
+                  isProductActive ? 'text-black' : 'text-gray-400 hover:text-black'
                 }`}
               >
                 PRODUCT
@@ -79,7 +68,7 @@ export function SectionLibraryNavbar({ activeCategory, onSelectCategory }: Navba
                 {productCategories.map((cat) => (
                   <button
                     key={cat.id}
-                    onClick={() => scrollToSection(cat.id, 'product')}
+                    onClick={() => handleSubcategoryClick(cat.id)}
                     className="text-left px-4 py-2 text-xs font-medium text-gray-600 hover:text-black hover:bg-gray-50 uppercase tracking-wider transition-colors"
                   >
                     {cat.label}

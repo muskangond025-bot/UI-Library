@@ -10,7 +10,7 @@ export function SectionLibraryShell() {
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const category = params.get('category');
-    if (category === 'home' || category === 'product') {
+    if (category) {
       setActiveCategory(category);
     }
   }, []);
