@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -75,7 +75,7 @@ export function Banner10({ section }: SectionProps) {
       className="relative w-full min-h-[900px] sm:min-h-screen overflow-hidden flex items-center selection:bg-black selection:text-white"
       style={{ backgroundColor: bg, color: textCol }}
     >
-      <Navbar variant="floating" />
+      
       <div className="relative z-10 w-full h-full max-w-[1600px] mx-auto px-6 sm:px-12 lg:px-16 py-20 flex flex-col lg:flex-row items-center justify-between gap-16 lg:gap-8">
         
         {/* Left Side: Typography */}

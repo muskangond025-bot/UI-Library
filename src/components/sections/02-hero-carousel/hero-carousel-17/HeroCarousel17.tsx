@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -65,7 +65,7 @@ export function HeroCarousel17({ section }: SectionProps) {
       style={{ backgroundColor: bg, color: textCol }}
     >
       {/* Dynamic Shared Navbar */}
-      <Navbar variant="floating" textColor={textCol} accentColor={accent} />
+      
 
       <div className="absolute inset-0 flex items-center justify-center p-6 md:p-12">
         <div className="w-full h-full max-w-7xl mx-auto flex flex-col md:flex-row relative">

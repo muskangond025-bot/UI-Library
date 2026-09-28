@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef, useState, useEffect } from 'react';
 import { motion, useScroll, useTransform, useSpring, useMotionValue } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -37,8 +37,8 @@ export function Banner16({ section }: SectionProps) {
       mouseX.set(e.clientX);
       mouseY.set(e.clientY);
     };
-    window.addEventListener("mousemove", handleMouseMove);
-    return () => window.removeEventListener("mousemove", handleMouseMove);
+    
+    return () => {};
   }, [mouseX, mouseY]);
 
   // Sliced Image Data
@@ -92,7 +92,7 @@ export function Banner16({ section }: SectionProps) {
       className="relative w-full h-screen overflow-hidden selection:bg-[#FF3366] selection:text-white"
       style={{ backgroundColor: bg, color: textCol }}
     >
-      <Navbar variant="glass" />
+      
       
       {/* Dynamic Cursor Trail */}
       {Array.from({ length: 4 }).map((_, i) => {
@@ -101,7 +101,7 @@ export function Banner16({ section }: SectionProps) {
         return (
           <motion.div
             key={i}
-            className="fixed top-0 left-0 rounded-full pointer-events-none z-[100] mix-blend-exclusion"
+            className="hidden"
             style={{ 
               x: useTransform(springX, x => x - (8 - i)), 
               y: useTransform(springY, y => y - (8 - i)),

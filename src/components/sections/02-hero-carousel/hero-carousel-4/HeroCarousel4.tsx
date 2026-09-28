@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence, useMotionValue, useSpring } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -37,8 +37,8 @@ export function HeroCarousel4({ section }: SectionProps) {
       cursorX.set(e.clientX);
       cursorY.set(e.clientY);
     };
-    window.addEventListener("mousemove", moveCursor);
-    return () => window.removeEventListener("mousemove", moveCursor);
+    
+    return () => {};
   }, []);
 
   const handleNext = () => {
@@ -86,11 +86,11 @@ export function HeroCarousel4({ section }: SectionProps) {
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
     >
-      <Navbar variant="floating" />
+      
       
       {/* 1. Cursor follower / Cursor scaling states (PDF) */}
       <motion.div
-        className="fixed top-0 left-0 w-8 h-8 rounded-full pointer-events-none z-50 flex items-center justify-center mix-blend-difference bg-white"
+        className="hidden"
         style={{ x: cursorXSpring, y: cursorYSpring, translateX: '-50%', translateY: '-50%' }}
         animate={{ 
           scale: isHoveringDrag ? 3 : isHovering ? 1.5 : 1,

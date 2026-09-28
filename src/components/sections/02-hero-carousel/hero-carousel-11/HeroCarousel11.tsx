@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, useMotionValue, useTransform } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -95,7 +95,7 @@ export function HeroCarousel11({ section }: SectionProps) {
       className="relative w-full min-h-[700px] h-screen overflow-hidden selection:bg-white selection:text-black flex flex-col pt-16 md:pt-0"
       style={{ backgroundColor: bg, color: textCol }}
     >
-      <Navbar variant="floating" />
+      
       
       {/* 4. Horizontal progress bar (top) (PDF: Data Visualization) */}
       <div className="absolute top-0 left-0 w-full h-1 bg-white/10 z-50">

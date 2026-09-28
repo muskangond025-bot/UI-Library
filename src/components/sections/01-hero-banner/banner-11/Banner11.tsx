@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef, useEffect, useState } from 'react';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -103,7 +103,7 @@ export function Banner11({ section }: SectionProps) {
       onPointerMove={handlePointerMove}
       onPointerLeave={handlePointerLeave}
     >
-      <Navbar variant="floating" />
+      
       {/* 
         Signature Cursor-Reactive Spotlight 
         Uses radial gradient tracking --mouse-x and --mouse-y

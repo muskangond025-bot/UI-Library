@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef, useEffect } from 'react';
 import { motion, useScroll, useTransform, useSpring, useMotionValue } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -40,8 +40,8 @@ export function Banner13({ section }: SectionProps) {
       mouseY.set(e.clientY);
     };
 
-    window.addEventListener("mousemove", handleMouseMove);
-    return () => window.removeEventListener("mousemove", handleMouseMove);
+    
+    return () => {};
   }, [mouseX, mouseY]);
 
   // Awwwards Style Clip Path reveal for the main image
@@ -92,7 +92,7 @@ export function Banner13({ section }: SectionProps) {
       className="relative w-full h-screen min-h-[800px] overflow-hidden selection:bg-white selection:text-black"
       style={{ backgroundColor: bg, color: textCol, perspective: '1000px' }}
     >
-      <Navbar variant="split" />
+      
       {/* 1. Base Image with Clip-Path Reveal */}
       <motion.div 
         variants={imageRevealVariants}

@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -21,7 +21,7 @@ export function Banner5({ section }: SectionProps) {
       className="relative w-full min-h-[900px] flex items-center justify-center p-4 sm:p-6 md:p-8 selection:bg-black selection:text-white"
       style={{ backgroundColor: styles.backgroundColor || '#E5E3DB', color: styles.textColor || '#1A1A1A' }}
     >
-      <Navbar variant="minimal" />
+      
       <div className="w-full h-full max-w-screen-2xl border border-current flex flex-col shadow-2xl">
         
         {/* Top Header / Metadata */}

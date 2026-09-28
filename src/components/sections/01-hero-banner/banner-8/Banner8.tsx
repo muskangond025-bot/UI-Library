@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -52,7 +52,7 @@ export function Banner8({ section }: SectionProps) {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <Navbar variant="glass" />
+      
       {/* Background Phase 1: Soft Reveal */}
       <motion.div 
         initial={{ opacity: 0 }}

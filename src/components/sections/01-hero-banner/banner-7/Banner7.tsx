@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -29,7 +29,7 @@ export function Banner7({ section }: SectionProps) {
       className="relative w-full min-h-screen overflow-hidden flex items-center justify-center pt-24 pb-16 px-6 sm:px-12 lg:px-20 selection:bg-black selection:text-white"
       style={{ backgroundColor: bg, color: textCol }}
     >
-      <Navbar variant="glass" />
+      
       {/* Background Phase 1: Soft Reveal */}
       <div className="absolute inset-0 pointer-events-none z-0">
         <motion.div 

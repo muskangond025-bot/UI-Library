@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -65,7 +65,7 @@ export function Banner15({ section }: SectionProps) {
       className="relative w-full min-h-[900px] h-screen overflow-hidden flex items-center justify-center selection:bg-[#2A2825] selection:text-[#F4F1EA]"
       style={{ backgroundColor: bg, color: textCol }}
     >
-      <Navbar variant="minimal" />
+      
       
       <div className="absolute inset-0 w-full h-full max-w-[1600px] mx-auto px-8 md:px-16 py-12 flex flex-col md:flex-row justify-between relative z-10">
         

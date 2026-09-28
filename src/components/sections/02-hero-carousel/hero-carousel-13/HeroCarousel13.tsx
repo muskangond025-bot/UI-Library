@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -71,7 +71,7 @@ export function HeroCarousel13({ section }: SectionProps) {
     >
       
       {/* Dynamic Shared Navbar */}
-      <Navbar variant="minimal" textColor={textCol} accentColor={accent} />
+      
 
       {/* 2. Cursor replacement (PDF: Hero / Brand Animations) */}
       <motion.div 

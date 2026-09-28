@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -21,7 +21,7 @@ export function Banner3({ section }: SectionProps) {
       className="relative w-full h-[900px] sm:h-screen min-h-[800px] flex items-center justify-center overflow-hidden selection:bg-black selection:text-white"
       style={{ backgroundColor: styles.backgroundColor || '#F4F4F5', color: styles.textColor || '#09090B' }}
     >
-      <Navbar variant="glass" />
+      
       {/* 
         The Architectural Frame 
         An oversized, absolute positioned container with a thin 1px border. 

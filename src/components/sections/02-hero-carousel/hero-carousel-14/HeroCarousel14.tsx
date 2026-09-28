@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -67,7 +67,7 @@ export function HeroCarousel14({ section }: SectionProps) {
       className="relative w-full h-screen min-h-[700px] overflow-hidden selection:bg-black selection:text-white flex flex-col"
       style={{ backgroundColor: bg, color: textCol }}
     >
-      <Navbar variant="split" textColor={textCol} accentColor={accent} />
+      
 
       {/* 3. Continuous Scrolling Text / Marquee (PDF: Hero / Brand Animations) */}
       <div className="absolute top-1/2 -translate-y-1/2 left-0 w-full overflow-hidden pointer-events-none opacity-5 z-0 flex whitespace-nowrap">

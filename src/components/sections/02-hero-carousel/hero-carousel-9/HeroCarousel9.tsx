@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -56,7 +56,7 @@ export function HeroCarousel9({ section }: SectionProps) {
       className="relative w-full h-screen min-h-[700px] overflow-hidden flex items-center selection:bg-black selection:text-white"
       style={{ backgroundColor: bg, color: textCol }}
     >
-      <Navbar variant="floating" />
+      
       
       {/* 2. Shape morphing backgrounds (PDF: Hover/Brand Animations) */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-30">

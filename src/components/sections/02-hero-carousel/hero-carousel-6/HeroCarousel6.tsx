@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -82,7 +82,7 @@ export function HeroCarousel6({ section }: SectionProps) {
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
     >
-      <Navbar variant="glass" />
+      
       
       {/* Background Images with Clip-Path Reveal */}
       <div className="absolute inset-0 w-full h-full bg-black">

@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -72,7 +72,7 @@ export function HeroCarousel7({ section }: SectionProps) {
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
     >
-      <Navbar variant="minimal" />
+      
       
       {/* Background Mask Reveal Images */}
       <div className="absolute inset-0 w-full h-full">

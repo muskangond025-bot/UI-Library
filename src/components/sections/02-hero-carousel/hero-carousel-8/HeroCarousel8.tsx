@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -66,7 +66,7 @@ export function HeroCarousel8({ section }: SectionProps) {
       className="relative w-full h-screen min-h-[700px] overflow-hidden flex items-center justify-center font-mono selection:bg-[#00FF66] selection:text-black"
       style={{ backgroundColor: bg, color: '#FFFFFF' }}
     >
-      <Navbar variant="glass" />
+      
       
       {/* 3. Grid / line animations (PDF: Decorative Background Animations) */}
       <div className="absolute inset-0 z-0 opacity-10 pointer-events-none overflow-hidden">

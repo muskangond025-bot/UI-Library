@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -110,7 +110,7 @@ export function HeroCarousel16({ section }: SectionProps) {
       className="relative w-full h-screen min-h-[700px] overflow-hidden selection:bg-[#00FF9D] selection:text-black flex"
       style={{ backgroundColor: bg }}
     >
-      <Navbar variant="glass" textColor={accent} accentColor={textCol} />
+      
 
       {/* Cursor Trail Rendering */}
       {mouseTrail.map((point, index) => (

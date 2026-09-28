@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -25,7 +25,7 @@ export function Banner6({ section }: SectionProps) {
       className="relative w-full h-[900px] sm:h-screen min-h-[750px] overflow-hidden flex flex-col justify-between selection:bg-white selection:text-black"
       style={{ backgroundColor: styles.backgroundColor || '#0A0A0A', color: styles.textColor || '#FFFFFF' }}
     >
-      <Navbar variant="floating" />
+      
       {/* Background Kinetic Typography */}
       <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none opacity-[0.08] z-0 overflow-hidden">
         

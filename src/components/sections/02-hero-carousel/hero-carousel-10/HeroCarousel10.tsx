@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Navbar } from '../../../shared/Navbar';
+
 
 export interface SectionProps {
   section: {
@@ -66,7 +66,7 @@ export function HeroCarousel10({ section }: SectionProps) {
       className="relative w-full h-screen min-h-[700px] overflow-hidden selection:bg-[#6E5BFF] selection:text-white flex flex-col md:flex-row items-center justify-center p-8 md:p-16 gap-12"
       style={{ backgroundColor: bg, color: textCol }}
     >
-      <Navbar variant="split" />
+      
       
       {/* Background Particle System */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-40 mix-blend-screen">
