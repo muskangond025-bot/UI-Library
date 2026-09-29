@@ -32,7 +32,7 @@ function StackCard({ collection, index, total, scrollYProgress }: { collection: 
   
   // Slide up and fade out
   const y = useTransform(scrollYProgress, [start, end], ["0vh", "-100vh"]);
-  const opacity = useTransform(scrollYProgress, [start, end - 0.1], [1, 0]);
+  const opacity = useTransform(scrollYProgress, [start, Math.max(start + 0.0001, end - 0.1)], [1, 0]);
   const scale = useTransform(scrollYProgress, [start, end], [1, 0.9]);
 
   // Is this the last card? (It shouldn't peel away)

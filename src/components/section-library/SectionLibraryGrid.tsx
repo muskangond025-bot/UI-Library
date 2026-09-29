@@ -1339,9 +1339,9 @@ import WhatSIncluded6 from '../sections/product/08-whats-included/what-s-include
 import whatSIncluded6Data from '../sections/product/08-whats-included/what-s-included-6/what-s-included-6.json';
 import WhatSIncluded7 from '../sections/product/08-whats-included/what-s-included-7/WhatSIncluded7';
 import whatSIncluded7Data from '../sections/product/08-whats-included/what-s-included-7/what-s-included-7.json';
-import WhatSIncluded8 from '../sections/product/08-whats-included/what-s-included-8/WhatSIncluded8';
+import WhatSIncluded8 from '../sections/product/08-whats-included/what-s-included-8/WhatSIncluded8_CacheBust';
 import whatSIncluded8Data from '../sections/product/08-whats-included/what-s-included-8/what-s-included-8.json';
-import WhatSIncluded9 from '../sections/product/08-whats-included/what-s-included-9/WhatSIncluded9';
+import WhatSIncluded9 from '../sections/product/08-whats-included/what-s-included-9/WhatSIncluded9_CacheBust';
 import whatSIncluded9Data from '../sections/product/08-whats-included/what-s-included-9/what-s-included-9.json';
 import WhatSIncluded10 from '../sections/product/08-whats-included/what-s-included-10/WhatSIncluded10';
 import whatSIncluded10Data from '../sections/product/08-whats-included/what-s-included-10/what-s-included-10.json';
@@ -5244,121 +5244,121 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'product-gallery-1',
           title: 'Product Gallery 1',
-          description: 'Placeholder content for Product Gallery 1',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery1 data={productGallery1Data as any} />
         },
         {
           id: 'product-gallery-2',
           title: 'Product Gallery 2',
-          description: 'Placeholder content for Product Gallery 2',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery2 data={productGallery2Data as any} />
         },
         {
           id: 'product-gallery-3',
           title: 'Product Gallery 3',
-          description: 'Placeholder content for Product Gallery 3',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery3 data={productGallery3Data as any} />
         },
         {
           id: 'product-gallery-4',
           title: 'Product Gallery 4',
-          description: 'Placeholder content for Product Gallery 4',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery4 data={productGallery4Data as any} />
         },
         {
           id: 'product-gallery-5',
           title: 'Product Gallery 5',
-          description: 'Placeholder content for Product Gallery 5',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery5 data={productGallery5Data as any} />
         },
         {
           id: 'product-gallery-6',
           title: 'Product Gallery 6',
-          description: 'Placeholder content for Product Gallery 6',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery6 data={productGallery6Data as any} />
         },
         {
           id: 'product-gallery-7',
           title: 'Product Gallery 7',
-          description: 'Placeholder content for Product Gallery 7',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery7 data={productGallery7Data as any} />
         },
         {
           id: 'product-gallery-8',
           title: 'Product Gallery 8',
-          description: 'Placeholder content for Product Gallery 8',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery8 data={productGallery8Data as any} />
         },
         {
           id: 'product-gallery-9',
           title: 'Product Gallery 9',
-          description: 'Placeholder content for Product Gallery 9',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery9 data={productGallery9Data as any} />
         },
         {
           id: 'product-gallery-10',
           title: 'Product Gallery 10',
-          description: 'Placeholder content for Product Gallery 10',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery10 data={productGallery10Data as any} />
         },
         {
           id: 'product-gallery-11',
           title: 'Product Gallery 11',
-          description: 'Placeholder content for Product Gallery 11',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery11 data={productGallery11Data as any} />
         },
         {
           id: 'product-gallery-12',
           title: 'Product Gallery 12',
-          description: 'Placeholder content for Product Gallery 12',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery12 data={productGallery12Data as any} />
         },
         {
           id: 'product-gallery-13',
           title: 'Product Gallery 13',
-          description: 'Placeholder content for Product Gallery 13',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery13 data={productGallery13Data as any} />
         },
         {
           id: 'product-gallery-14',
           title: 'Product Gallery 14',
-          description: 'Placeholder content for Product Gallery 14',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery14 data={productGallery14Data as any} />
         },
         {
           id: 'product-gallery-15',
           title: 'Product Gallery 15',
-          description: 'Placeholder content for Product Gallery 15',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery15 data={productGallery15Data as any} />
         },
         {
           id: 'product-gallery-16',
           title: 'Product Gallery 16',
-          description: 'Placeholder content for Product Gallery 16',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery16 data={productGallery16Data as any} />
         },
         {
           id: 'product-gallery-17',
           title: 'Product Gallery 17',
-          description: 'Placeholder content for Product Gallery 17',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery17 data={productGallery17Data as any} />
         },
         {
           id: 'product-gallery-18',
           title: 'Product Gallery 18',
-          description: 'Placeholder content for Product Gallery 18',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery18 data={productGallery18Data as any} />
         },
         {
           id: 'product-gallery-19',
           title: 'Product Gallery 19',
-          description: 'Placeholder content for Product Gallery 19',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery19 data={productGallery19Data as any} />
         },
         {
           id: 'product-gallery-20',
           title: 'Product Gallery 20',
-          description: 'Placeholder content for Product Gallery 20',
+          description: 'A comprehensive product image gallery featuring image navigation, thumbnails, and interactive zoom/media presentation.',
           previewComponent: <ProductGallery20 data={productGallery20Data as any} />
         }
       ] :
@@ -5366,121 +5366,121 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'product-information-1',
           title: 'Product Information 1',
-          description: 'Placeholder content for Product Information 1',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation1 data={productInformation1Data as any} />
         },
         {
           id: 'product-information-2',
           title: 'Product Information 2',
-          description: 'Placeholder content for Product Information 2',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation2 data={productInformation2Data as any} />
         },
         {
           id: 'product-information-3',
           title: 'Product Information 3',
-          description: 'Placeholder content for Product Information 3',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation3 data={productInformation3Data as any} />
         },
         {
           id: 'product-information-4',
           title: 'Product Information 4',
-          description: 'Placeholder content for Product Information 4',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation4 data={productInformation4Data as any} />
         },
         {
           id: 'product-information-5',
           title: 'Product Information 5',
-          description: 'Placeholder content for Product Information 5',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation5 data={productInformation5Data as any} />
         },
         {
           id: 'product-information-6',
           title: 'Product Information 6',
-          description: 'Placeholder content for Product Information 6',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation6 data={productInformation6Data as any} />
         },
         {
           id: 'product-information-7',
           title: 'Product Information 7',
-          description: 'Placeholder content for Product Information 7',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation7 data={productInformation7Data as any} />
         },
         {
           id: 'product-information-8',
           title: 'Product Information 8',
-          description: 'Placeholder content for Product Information 8',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation8 data={productInformation8Data as any} />
         },
         {
           id: 'product-information-9',
           title: 'Product Information 9',
-          description: 'Placeholder content for Product Information 9',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation9 data={productInformation9Data as any} />
         },
         {
           id: 'product-information-10',
           title: 'Product Information 10',
-          description: 'Placeholder content for Product Information 10',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation10 data={productInformation10Data as any} />
         },
         {
           id: 'product-information-11',
           title: 'Product Information 11',
-          description: 'Placeholder content for Product Information 11',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation11 data={productInformation11Data as any} />
         },
         {
           id: 'product-information-12',
           title: 'Product Information 12',
-          description: 'Placeholder content for Product Information 12',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation12 data={productInformation12Data as any} />
         },
         {
           id: 'product-information-13',
           title: 'Product Information 13',
-          description: 'Placeholder content for Product Information 13',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation13 data={productInformation13Data as any} />
         },
         {
           id: 'product-information-14',
           title: 'Product Information 14',
-          description: 'Placeholder content for Product Information 14',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation14 data={productInformation14Data as any} />
         },
         {
           id: 'product-information-15',
           title: 'Product Information 15',
-          description: 'Placeholder content for Product Information 15',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation15 data={productInformation15Data as any} />
         },
         {
           id: 'product-information-16',
           title: 'Product Information 16',
-          description: 'Placeholder content for Product Information 16',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation16 data={productInformation16Data as any} />
         },
         {
           id: 'product-information-17',
           title: 'Product Information 17',
-          description: 'Placeholder content for Product Information 17',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation17 data={productInformation17Data as any} />
         },
         {
           id: 'product-information-18',
           title: 'Product Information 18',
-          description: 'Placeholder content for Product Information 18',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation18 data={productInformation18Data as any} />
         },
         {
           id: 'product-information-19',
           title: 'Product Information 19',
-          description: 'Placeholder content for Product Information 19',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation19 data={productInformation19Data as any} />
         },
         {
           id: 'product-information-20',
           title: 'Product Information 20',
-          description: 'Placeholder content for Product Information 20',
+          description: 'Structured display of core product details including product name, pricing, rating, basic information, and product metadata.',
           previewComponent: <ProductInformation20 data={productInformation20Data as any} />
         }
       ] :
@@ -5488,121 +5488,121 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'product-purchase-section-1',
           title: 'Product Purchase Section 1',
-          description: 'Placeholder content for Product Purchase Section 1',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection1 data={productPurchaseSection1Data as any} />
         },
         {
           id: 'product-purchase-section-2',
           title: 'Product Purchase Section 2',
-          description: 'Placeholder content for Product Purchase Section 2',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection2 data={productPurchaseSection2Data as any} />
         },
         {
           id: 'product-purchase-section-3',
           title: 'Product Purchase Section 3',
-          description: 'Placeholder content for Product Purchase Section 3',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection3 data={productPurchaseSection3Data as any} />
         },
         {
           id: 'product-purchase-section-4',
           title: 'Product Purchase Section 4',
-          description: 'Placeholder content for Product Purchase Section 4',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection4 data={productPurchaseSection4Data as any} />
         },
         {
           id: 'product-purchase-section-5',
           title: 'Product Purchase Section 5',
-          description: 'Placeholder content for Product Purchase Section 5',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection5 data={productPurchaseSection5Data as any} />
         },
         {
           id: 'product-purchase-section-6',
           title: 'Product Purchase Section 6',
-          description: 'Placeholder content for Product Purchase Section 6',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection6 data={productPurchaseSection6Data as any} />
         },
         {
           id: 'product-purchase-section-7',
           title: 'Product Purchase Section 7',
-          description: 'Placeholder content for Product Purchase Section 7',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection7 data={productPurchaseSection7Data as any} />
         },
         {
           id: 'product-purchase-section-8',
           title: 'Product Purchase Section 8',
-          description: 'Placeholder content for Product Purchase Section 8',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection8 data={productPurchaseSection8Data as any} />
         },
         {
           id: 'product-purchase-section-9',
           title: 'Product Purchase Section 9',
-          description: 'Placeholder content for Product Purchase Section 9',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection9 data={productPurchaseSection9Data as any} />
         },
         {
           id: 'product-purchase-section-10',
           title: 'Product Purchase Section 10',
-          description: 'Placeholder content for Product Purchase Section 10',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection10 data={productPurchaseSection10Data as any} />
         },
         {
           id: 'product-purchase-section-11',
           title: 'Product Purchase Section 11',
-          description: 'Placeholder content for Product Purchase Section 11',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection11 data={productPurchaseSection11Data as any} />
         },
         {
           id: 'product-purchase-section-12',
           title: 'Product Purchase Section 12',
-          description: 'Placeholder content for Product Purchase Section 12',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection12 data={productPurchaseSection12Data as any} />
         },
         {
           id: 'product-purchase-section-13',
           title: 'Product Purchase Section 13',
-          description: 'Placeholder content for Product Purchase Section 13',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection13 data={productPurchaseSection13Data as any} />
         },
         {
           id: 'product-purchase-section-14',
           title: 'Product Purchase Section 14',
-          description: 'Placeholder content for Product Purchase Section 14',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection14 data={productPurchaseSection14Data as any} />
         },
         {
           id: 'product-purchase-section-15',
           title: 'Product Purchase Section 15',
-          description: 'Placeholder content for Product Purchase Section 15',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection15 data={productPurchaseSection15Data as any} />
         },
         {
           id: 'product-purchase-section-16',
           title: 'Product Purchase Section 16',
-          description: 'Placeholder content for Product Purchase Section 16',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection16 data={productPurchaseSection16Data as any} />
         },
         {
           id: 'product-purchase-section-17',
           title: 'Product Purchase Section 17',
-          description: 'Placeholder content for Product Purchase Section 17',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection17 data={productPurchaseSection17Data as any} />
         },
         {
           id: 'product-purchase-section-18',
           title: 'Product Purchase Section 18',
-          description: 'Placeholder content for Product Purchase Section 18',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection18 data={productPurchaseSection18Data as any} />
         },
         {
           id: 'product-purchase-section-19',
           title: 'Product Purchase Section 19',
-          description: 'Placeholder content for Product Purchase Section 19',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection19 data={productPurchaseSection19Data as any} />
         },
         {
           id: 'product-purchase-section-20',
           title: 'Product Purchase Section 20',
-          description: 'Placeholder content for Product Purchase Section 20',
+          description: 'Interactive section containing purchase actions, quantity selection, variant selection, and add to cart/buy actions.',
           previewComponent: <ProductPurchaseSection20 data={productPurchaseSection20Data as any} />
         }
       ] :
@@ -5610,731 +5610,731 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'product-description-1',
           title: 'Product Description 1',
-          description: 'Placeholder content for Product Description 1',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription1 data={productDescription1Data as any} />
         },
         {
           id: 'product-description-2',
           title: 'Product Description 2',
-          description: 'Placeholder content for Product Description 2',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription2 data={productDescription2Data as any} />
         },
         {
           id: 'product-description-3',
           title: 'Product Description 3',
-          description: 'Placeholder content for Product Description 3',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription3 data={productDescription3Data as any} />
         },
         {
           id: 'product-description-4',
           title: 'Product Description 4',
-          description: 'Placeholder content for Product Description 4',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription4 data={productDescription4Data as any} />
         },
         {
           id: 'product-description-5',
           title: 'Product Description 5',
-          description: 'Placeholder content for Product Description 5',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription5 data={productDescription5Data as any} />
         },
         {
           id: 'product-description-6',
           title: 'Product Description 6',
-          description: 'Placeholder content for Product Description 6',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription6 data={productDescription6Data as any} />
         },
         {
           id: 'product-description-7',
           title: 'Product Description 7',
-          description: 'Placeholder content for Product Description 7',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription7 data={productDescription7Data as any} />
         },
         {
           id: 'product-description-8',
           title: 'Product Description 8',
-          description: 'Placeholder content for Product Description 8',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription8 data={productDescription8Data as any} />
         },
         {
           id: 'product-description-9',
           title: 'Product Description 9',
-          description: 'Placeholder content for Product Description 9',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription9 data={productDescription9Data as any} />
         },
         {
           id: 'product-description-10',
           title: 'Product Description 10',
-          description: 'Placeholder content for Product Description 10',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription10 data={productDescription10Data as any} />
         },
         {
           id: 'product-description-11',
           title: 'Product Description 11',
-          description: 'Placeholder content for Product Description 11',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription11 data={productDescription11Data as any} />
         },
         {
           id: 'product-description-12',
           title: 'Product Description 12',
-          description: 'Placeholder content for Product Description 12',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription12 data={productDescription12Data as any} />
         },
         {
           id: 'product-description-13',
           title: 'Product Description 13',
-          description: 'Placeholder content for Product Description 13',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription13 data={productDescription13Data as any} />
         },
         {
           id: 'product-description-14',
           title: 'Product Description 14',
-          description: 'Placeholder content for Product Description 14',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription14 data={productDescription14Data as any} />
         },
         {
           id: 'product-description-15',
           title: 'Product Description 15',
-          description: 'Placeholder content for Product Description 15',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription15 data={productDescription15Data as any} />
         },
         {
           id: 'product-description-16',
           title: 'Product Description 16',
-          description: 'Placeholder content for Product Description 16',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription16 data={productDescription16Data as any} />
         },
         {
           id: 'product-description-17',
           title: 'Product Description 17',
-          description: 'Placeholder content for Product Description 17',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription17 data={productDescription17Data as any} />
         },
         {
           id: 'product-description-18',
           title: 'Product Description 18',
-          description: 'Placeholder content for Product Description 18',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription18 data={productDescription18Data as any} />
         },
         {
           id: 'product-description-19',
           title: 'Product Description 19',
-          description: 'Placeholder content for Product Description 19',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription19 data={productDescription19Data as any} />
         },
         {
           id: 'product-description-20',
           title: 'Product Description 20',
-          description: 'Placeholder content for Product Description 20',
+          description: 'Structured product storytelling section designed to present detailed product information using editorial typography, supporting imagery, and readable content hierarchy.',
           previewComponent: <ProductDescription20 data={productDescription20Data as any} />
         }
       ] :
     category === 'product-highlights' ? [
         {
           id: 'product-highlights-1',
-          title: 'Product Highlights 1',
-          description: 'Placeholder content for Product Highlights 1',
+          title: 'GLASSMORPHIC 3D TILT GRID',
+          description: 'A grid of frosted-glass feature cards featuring 3D spring-physics tilt, scaling icons, and cursor-tracking radial glare on hover.',
           previewComponent: <ProductHighlights1 data={productHighlights1Data as any} />
         },
         {
           id: 'product-highlights-2',
-          title: 'Product Highlights 2',
-          description: 'Placeholder content for Product Highlights 2',
+          title: 'INTERACTIVE VELOCITY MARQUEE',
+          description: 'Infinite dual-directional feature tracks that skew based on scroll velocity and pause on hover, elevating hovered image cards with a spring scale.',
           previewComponent: <ProductHighlights2 data={productHighlights2Data as any} />
         },
         {
           id: 'product-highlights-3',
-          title: 'Product Highlights 3',
-          description: 'Placeholder content for Product Highlights 3',
+          title: 'CINEMATIC STICKY LENS REVEAL',
+          description: 'Editorial storytelling layout where staggered glassmorphic text controls sticky full-height images that reveal through an expanding circular clip-path.',
           previewComponent: <ProductHighlights3 data={productHighlights3Data as any} />
         },
         {
           id: 'product-highlights-4',
-          title: 'Product Highlights 4',
-          description: 'Placeholder content for Product Highlights 4',
+          title: 'INTERACTIVE HOTSPOT EXPLORER',
+          description: 'A central hero product image overlaid with infinitely pulsing interactive markers that spring open into detailed feature cards when clicked.',
           previewComponent: <ProductHighlights4 data={productHighlights4Data as any} />
         },
         {
           id: 'product-highlights-5',
-          title: 'Product Highlights 5',
-          description: 'Placeholder content for Product Highlights 5',
+          title: 'SMOOTH EXPANDING ACCORDION',
+          description: 'A space-efficient feature list utilizing layout animations for buttery-smooth height expansion, fading inactive rows to focus on revealed image details.',
           previewComponent: <ProductHighlights5 data={productHighlights5Data as any} />
         },
         {
           id: 'product-highlights-6',
-          title: 'Product Highlights 6',
-          description: 'Placeholder content for Product Highlights 6',
+          title: 'CINEMATIC BENTO GRID',
+          description: 'An asymmetrical bento grid featuring glassmorphic overlay cards that gracefully fade and scale into view on scroll, complete with hover-responsive scaling and image dimming.',
           previewComponent: <ProductHighlights6 data={productHighlights6Data as any} />
         },
         {
           id: 'product-highlights-7',
-          title: 'Product Highlights 7',
-          description: 'Placeholder content for Product Highlights 7',
+          title: 'STICKY PARALLAX DECK',
+          description: 'A deck of full-width feature cards that stack sequentially on top of each other using scroll-linked parallax scaling and vertical translation for a seamless story.',
           previewComponent: <ProductHighlights7 data={productHighlights7Data as any} />
         },
         {
           id: 'product-highlights-8',
-          title: 'Product Highlights 8',
-          description: 'Placeholder content for Product Highlights 8',
+          title: 'CURSOR SPOTLIGHT GRID',
+          description: 'A futuristic feature grid where a dynamic, blurred ambient light element constantly follows the user cursor to reveal glassmorphic card boundaries.',
           previewComponent: <ProductHighlights8 data={productHighlights8Data as any} />
         },
         {
           id: 'product-highlights-9',
-          title: 'Product Highlights 9',
-          description: 'Placeholder content for Product Highlights 9',
+          title: 'INFINITE WIREFRAME ROTATION',
+          description: 'An immersive absolute-centered focus layout backed by a hypnotically rotating infinite background wireframe that scales in on scroll.',
           previewComponent: <ProductHighlights9 data={productHighlights9Data as any} />
         },
         {
           id: 'product-highlights-10',
-          title: 'Product Highlights 10',
-          description: 'Placeholder content for Product Highlights 10',
+          title: 'PARALLAX TEXT MASK',
+          description: 'A massive mix-blend-difference typography layout that scrolls inversely against a slowly scaling high-resolution background image.',
           previewComponent: <ProductHighlights10 data={productHighlights10Data as any} />
         },
         {
           id: 'product-highlights-11',
-          title: 'Product Highlights 11',
-          description: 'Placeholder content for Product Highlights 11',
+          title: 'MORPHING ACCORDION GALLERY',
+          description: 'An interactive flex-box accordion that expands its high-resolution image cards on hover, dynamically re-flowing space with smooth spring physics.',
           previewComponent: <ProductHighlights11 data={productHighlights11Data as any} />
         },
         {
           id: 'product-highlights-12',
-          title: 'Product Highlights 12',
-          description: 'Placeholder content for Product Highlights 12',
+          title: 'HORIZONTAL SCROLL TIMELINE',
+          description: 'Translates vertical user scrolling into a seamless horizontal timeline presentation using sticky containers and scroll-linked transforms.',
           previewComponent: <ProductHighlights12 data={productHighlights12Data as any} />
         },
         {
           id: 'product-highlights-13',
-          title: 'Product Highlights 13',
-          description: 'Placeholder content for Product Highlights 13',
+          title: '3D HOVER TILT CARDS',
+          description: 'A premium grid of glassmorphic cards that track the users cursor, rotating dynamically in 3D space with advanced spring-damped physics.',
           previewComponent: <ProductHighlights13 data={productHighlights13Data as any} />
         },
         {
           id: 'product-highlights-14',
-          title: 'Product Highlights 14',
-          description: 'Placeholder content for Product Highlights 14',
+          title: 'SCROLL BLUR REVEAL',
+          description: 'Massive editorial typography that utilizes scroll-linked CSS blur filters and scaling to seamlessly fade in and out of sharp focus as the user scrolls.',
           previewComponent: <ProductHighlights14 data={productHighlights14Data as any} />
         },
         {
           id: 'product-highlights-15',
-          title: 'Product Highlights 15',
-          description: 'Placeholder content for Product Highlights 15',
+          title: 'SPINNING CONIC BORDERS',
+          description: 'A sleek dark mode bento grid where ultra-thin conic gradients infinitely spin around the borders of the feature cards using pure CSS animation.',
           previewComponent: <ProductHighlights15 data={productHighlights15Data as any} />
         },
         {
           id: 'product-highlights-16',
-          title: 'Product Highlights 16',
-          description: 'Placeholder content for Product Highlights 16',
+          title: 'SCROLL SVG PATH REVEAL',
+          description: "An immersive vertical timeline where an SVG line dynamically draws itself connecting premium typography feature points based on the user's scroll depth.",
           previewComponent: <ProductHighlights16 data={productHighlights16Data as any} />
         },
         {
           id: 'product-highlights-17',
-          title: 'Product Highlights 17',
-          description: 'Placeholder content for Product Highlights 17',
+          title: 'MAGNETIC TOOLTIP MARKERS',
+          description: 'A gorgeous full-width product image overlaid with animated pulsing hotspot markers that magnetically react to the cursor and reveal glassmorphic tooltips on hover.',
           previewComponent: <ProductHighlights17 data={productHighlights17Data as any} />
         },
         {
           id: 'product-highlights-18',
-          title: 'Product Highlights 18',
-          description: 'Placeholder content for Product Highlights 18',
+          title: 'STAGGERED TEXT REVEAL',
+          description: 'High-impact editorial typography that sequentially slides into view from behind invisible bounding boxes as the user scrolls down the page.',
           previewComponent: <ProductHighlights18 data={productHighlights18Data as any} />
         },
         {
           id: 'product-highlights-19',
-          title: 'Product Highlights 19',
-          description: 'Placeholder content for Product Highlights 19',
+          title: 'ASYMMETRICAL PARALLAX GRID',
+          description: 'A vibrant bento grid layout where each colored feature card travels at a slightly different vertical speed, creating a beautiful asymmetrical parallax effect.',
           previewComponent: <ProductHighlights19 data={productHighlights19Data as any} />
         },
         {
           id: 'product-highlights-20',
-          title: 'Product Highlights 20',
-          description: 'Placeholder content for Product Highlights 20',
+          title: 'INTERACTIVE STACKED FOLDERS',
+          description: 'A highly tactile UI component resembling a deck of colorful folders. Clicking any folder brings it to the front while smoothly lowering the inactive folders into the background.',
           previewComponent: <ProductHighlights20 data={productHighlights20Data as any} />
         }
       ] :
     category === 'product-specifications' ? [
         {
           id: 'product-specifications-1',
-          title: 'Product Specifications 1',
-          description: 'Placeholder content for Product Specifications 1',
+          title: 'STAGGERED LIST REVEAL',
+          description: 'A clean, staggered list reveal where each specification is inside a premium dark card with subtle hover color transitions.',
           previewComponent: <ProductSpecifications1 data={productSpecifications1Data as any} />
         },
         {
           id: 'product-specifications-2',
-          title: 'Product Specifications 2',
-          description: 'Placeholder content for Product Specifications 2',
+          title: 'FROSTED GLASS ICONS',
+          description: 'A gorgeous grid where each spec icon is encased in a frosted glassmorphic block that glows and animates a gradient slide on hover.',
           previewComponent: <ProductSpecifications2 data={productSpecifications2Data as any} />
         },
         {
           id: 'product-specifications-3',
-          title: 'Product Specifications 3',
-          description: 'Placeholder content for Product Specifications 3',
+          title: 'INTERACTIVE TAB FOLDERS',
+          description: 'An interactive tabbed folder layout. Clicking on a category smoothly crossfades the highly detailed specification bullet points.',
           previewComponent: <ProductSpecifications3 data={productSpecifications3Data as any} />
         },
         {
           id: 'product-specifications-4',
-          title: 'Product Specifications 4',
-          description: 'Placeholder content for Product Specifications 4',
+          title: 'EDITORIAL SPEC GRID',
+          description: 'A pure, minimalist editorial grid with razor-thin borders, massive typography, and high-contrast hover states for a modern look.',
           previewComponent: <ProductSpecifications4 data={productSpecifications4Data as any} />
         },
         {
           id: 'product-specifications-5',
-          title: 'Product Specifications 5',
-          description: 'Placeholder content for Product Specifications 5',
+          title: 'INFINITE PARALLAX MARQUEE',
+          description: 'A breathtaking dual-directional parallax marquee that infinitely scrolls massive hollow typography in opposite directions.',
           previewComponent: <ProductSpecifications5 data={productSpecifications5Data as any} />
         },
         {
           id: 'product-specifications-6',
-          title: 'Product Specifications 6',
-          description: 'Placeholder content for Product Specifications 6',
+          title: 'EXPANDING ACCORDION TABLE',
+          description: 'A minimalist, smoothly expanding table where clicking a row reveals detailed specifications with a spring-physics animation.',
           previewComponent: <ProductSpecifications6 data={productSpecifications6Data as any} />
         },
         {
           id: 'product-specifications-7',
-          title: 'Product Specifications 7',
-          description: 'Placeholder content for Product Specifications 7',
+          title: 'SVG RADAR CHART',
+          description: 'A beautiful visual representation of metrics using animated SVG polygons mapped on an interactive performance radar chart.',
           previewComponent: <ProductSpecifications7 data={productSpecifications7Data as any} />
         },
         {
           id: 'product-specifications-8',
-          title: 'Product Specifications 8',
-          description: 'Placeholder content for Product Specifications 8',
+          title: 'MAGNETIC CURSOR SPOTLIGHT',
+          description: 'A bento grid of specifications where hovering your cursor casts a real-time magnetic spotlight glow effect over the technical data.',
           previewComponent: <ProductSpecifications8 data={productSpecifications8Data as any} />
         },
         {
           id: 'product-specifications-9',
-          title: 'Product Specifications 9',
-          description: 'Placeholder content for Product Specifications 9',
+          title: 'HORIZONTAL SCROLL CARDS',
+          description: 'A massive sticky horizontal scroll timeline that translates your vertical scrolling into a smooth horizontal journey across feature cards.',
           previewComponent: <ProductSpecifications9 data={productSpecifications9Data as any} />
         },
         {
           id: 'product-specifications-10',
-          title: 'Product Specifications 10',
-          description: 'Placeholder content for Product Specifications 10',
+          title: 'TYPEWRITER LINE REVEAL',
+          description: 'Massive editorial tech specs that reveal themselves line-by-line from behind invisible bounding boxes as you scroll into view.',
           previewComponent: <ProductSpecifications10 data={productSpecifications10Data as any} />
         },
         {
           id: 'product-specifications-11',
-          title: 'Product Specifications 11',
-          description: 'Placeholder content for Product Specifications 11',
+          title: 'HOVER REVEAL CARDS',
+          description: 'Minimal specification cards with sleek icons that push their titles upward to smoothly reveal detailed spec lists upon hover.',
           previewComponent: <ProductSpecifications11 data={productSpecifications11Data as any} />
         },
         {
           id: 'product-specifications-12',
-          title: 'Product Specifications 12',
-          description: 'Placeholder content for Product Specifications 12',
+          title: '3D ISOMETRIC CUBE',
+          description: 'An auto-rotating, fully 3D isometric cube where each face of the cube presents a different core hardware specification category.',
           previewComponent: <ProductSpecifications12 data={productSpecifications12Data as any} />
         },
         {
           id: 'product-specifications-13',
-          title: 'Product Specifications 13',
-          description: 'Placeholder content for Product Specifications 13',
+          title: 'STICKY EDITORIAL SIDEBAR',
+          description: 'A classic premium layout featuring a left-side sticky navigation that tracks perfectly as you scroll through massive typography spec sections.',
           previewComponent: <ProductSpecifications13 data={productSpecifications13Data as any} />
         },
         {
           id: 'product-specifications-14',
-          title: 'Product Specifications 14',
-          description: 'Placeholder content for Product Specifications 14',
+          title: 'BLUEPRINT HOTSPOTS',
+          description: 'An interactive technical wireframe blueprint. Hovering over pulsing radar hotspots reveals targeted specification details via glassmorphic tooltips.',
           previewComponent: <ProductSpecifications14 data={productSpecifications14Data as any} />
         },
         {
           id: 'product-specifications-15',
-          title: 'Product Specifications 15',
-          description: 'Placeholder content for Product Specifications 15',
+          title: 'STAGGERED PARALLAX GRID',
+          description: 'An immersive parallax layout where adjacent columns of specification cards smoothly scroll in opposite directions as you move down the page.',
           previewComponent: <ProductSpecifications15 data={productSpecifications15Data as any} />
         },
         {
           id: 'product-specifications-16',
-          title: 'Product Specifications 16',
-          description: 'Placeholder content for Product Specifications 16',
+          title: 'SCROLL-DRIVEN SVG TIMELINE',
+          description: 'A massive vertical SVG path that dynamically draws itself downwards as you scroll, sequentially revealing branching technical data points.',
           previewComponent: <ProductSpecifications16 data={productSpecifications16Data as any} />
         },
         {
           id: 'product-specifications-17',
-          title: 'Product Specifications 17',
-          description: 'Placeholder content for Product Specifications 17',
+          title: 'DYNAMIC SCI-FI TECH RING',
+          description: 'A glowing, rotating circular UI interface. Clicking different data nodes on the ring instantly updates the central holographic spec values.',
           previewComponent: <ProductSpecifications17 data={productSpecifications17Data as any} />
         },
         {
           id: 'product-specifications-18',
-          title: 'Product Specifications 18',
-          description: 'Placeholder content for Product Specifications 18',
+          title: 'MAGAZINE SPREAD TYPOGRAPHY',
+          description: 'A massive, high-contrast typography layout inspired by editorial magazine spreads. Scrolling triggers staggered word reveals.',
           previewComponent: <ProductSpecifications18 data={productSpecifications18Data as any} />
         },
         {
           id: 'product-specifications-19',
-          title: 'Product Specifications 19',
-          description: 'Placeholder content for Product Specifications 19',
+          title: 'GENERATIONAL COMPARISON SLIDER',
+          description: 'A sleek comparison grid. Hovering over a specification triggers a smooth glassmorphic overlay that compares the previous generation to the new upgrade.',
           previewComponent: <ProductSpecifications19 data={productSpecifications19Data as any} />
         },
         {
           id: 'product-specifications-20',
-          title: 'Product Specifications 20',
-          description: 'Placeholder content for Product Specifications 20',
+          title: 'AUTO-PLAY BENTO GRID',
+          description: 'An interactive bento grid layout where one specification card is always active. It automatically cycles through the bento boxes like a dynamic slideshow!',
           previewComponent: <ProductSpecifications20 data={productSpecifications20Data as any} />
         }
       ] :
     category === 'product-features' ? [
         {
           id: 'product-features-1',
-          title: 'Product Features 1',
-          description: 'Placeholder content for Product Features 1',
+          title: 'BENTO GRID FEATURES',
+          description: 'A sleek dark mode bento grid where hovering over feature boxes triggers subtle glow gradients and micro-animations on inner SVG icons.',
           previewComponent: <ProductFeatures1 data={productFeatures1Data as any} />
         },
         {
           id: 'product-features-2',
-          title: 'Product Features 2',
-          description: 'Placeholder content for Product Features 2',
+          title: 'STICKY SCROLL IMAGES',
+          description: 'A split layout where the left side is a sticky full-height dynamic image that seamlessly crossfades as you scroll through huge typography features on the right.',
           previewComponent: <ProductFeatures2 data={productFeatures2Data as any} />
         },
         {
           id: 'product-features-3',
-          title: 'Product Features 3',
-          description: 'Placeholder content for Product Features 3',
+          title: 'ACCORDION IMAGE REVEAL',
+          description: 'An interactive horizontal accordion. Clicking a vertical feature tab fluidly expands it to reveal a massive, detailed background image and action buttons.',
           previewComponent: <ProductFeatures3 data={productFeatures3Data as any} />
         },
         {
           id: 'product-features-4',
-          title: 'Product Features 4',
-          description: 'Placeholder content for Product Features 4',
+          title: 'ORBITING SCI-FI NODES',
+          description: 'A breathtaking layout featuring a massive glowing central orb. Product features orbit the orb and connect via animated dashed SVG lines.',
           previewComponent: <ProductFeatures4 data={productFeatures4Data as any} />
         },
         {
           id: 'product-features-5',
-          title: 'Product Features 5',
-          description: 'Placeholder content for Product Features 5',
+          title: 'MAGNETIC BENTO SPOTLIGHT',
+          description: 'A bento grid of features where tracking your mouse highlights the borders of the cards with a highly premium gradient spotlight effect.',
           previewComponent: <ProductFeatures5 data={productFeatures5Data as any} />
         },
         {
           id: 'product-features-6',
-          title: 'Product Features 6',
-          description: 'Placeholder content for Product Features 6',
+          title: 'AUTO-PLAY TABS',
+          description: 'A sleek horizontal tab system. Each tab features a dynamic progress bar that auto-plays to the next tab, revealing a new high-res image and description.',
           previewComponent: <ProductFeatures6 data={productFeatures6Data as any} />
         },
         {
           id: 'product-features-7',
-          title: 'Product Features 7',
-          description: 'Placeholder content for Product Features 7',
+          title: 'STAGGERED STICKY CARDS',
+          description: 'Massive, colorful feature cards that perfectly stack directly over each other as you scroll down the page, creating an immersive depth effect.',
           previewComponent: <ProductFeatures7 data={productFeatures7Data as any} />
         },
         {
           id: 'product-features-8',
-          title: 'Product Features 8',
-          description: 'Placeholder content for Product Features 8',
+          title: 'MINIMAL SVG DRAWING',
+          description: 'A pure, minimalist grid of features utilizing SVG stroke animations that elegantly draw themselves as the section enters the viewport.',
           previewComponent: <ProductFeatures8 data={productFeatures8Data as any} />
         },
         {
           id: 'product-features-9',
-          title: 'Product Features 9',
-          description: 'Placeholder content for Product Features 9',
+          title: 'INTERACTIVE PRODUCT HOTSPOTS',
+          description: 'A stunning central product mockup layered with pulsing hotspots. Interacting with them reveals beautiful glassmorphic feature tooltip cards.',
           previewComponent: <ProductFeatures9 data={productFeatures9Data as any} />
         },
         {
           id: 'product-features-10',
-          title: 'Product Features 10',
-          description: 'Placeholder content for Product Features 10',
+          title: 'TYPOGRAPHIC SCROLL REVEAL',
+          description: 'A cinematic layout where massive background typography masks an image. Scrolling dynamically scales the background and shifts the typography.',
           previewComponent: <ProductFeatures10 data={productFeatures10Data as any} />
         },
         {
           id: 'product-features-11',
-          title: 'Product Features 11',
-          description: 'Placeholder content for Product Features 11',
+          title: 'HOVER RIPPLE GRID',
+          description: 'A minimalist 3x3 grid of feature boxes. Hovering over a box triggers a sleek blue ripple explosion that originates from the center of the card.',
           previewComponent: <ProductFeatures11 data={productFeatures11Data as any} />
         },
         {
           id: 'product-features-12',
-          title: 'Product Features 12',
-          description: 'Placeholder content for Product Features 12',
+          title: 'VERTICAL TIMELINE ACCORDION',
+          description: 'An interactive vertical timeline. Clicking a step expands it downward to reveal its description while seamlessly crossfading a beautiful image on the right.',
           previewComponent: <ProductFeatures12 data={productFeatures12Data as any} />
         },
         {
           id: 'product-features-13',
-          title: 'Product Features 13',
-          description: 'Placeholder content for Product Features 13',
+          title: '3D INTERACTIVE FLIP CARDS',
+          description: 'A grid of premium cards. Hovering smoothly rotates them 180 degrees in true 3D space to reveal secondary feature details on the back.',
           previewComponent: <ProductFeatures13 data={productFeatures13Data as any} />
         },
         {
           id: 'product-features-14',
-          title: 'Product Features 14',
-          description: 'Placeholder content for Product Features 14',
+          title: 'GLASSMORPHIC PARALLAX LAYERS',
+          description: 'Multiple glassmorphic panes floating at different depths. As you scroll, they move at different speeds, creating a stunning Z-index parallax depth effect.',
           previewComponent: <ProductFeatures14 data={productFeatures14Data as any} />
         },
         {
           id: 'product-features-15',
-          title: 'Product Features 15',
-          description: 'Placeholder content for Product Features 15',
+          title: 'STICKY NUMBER COUNTUP',
+          description: 'Massive typographic numbers stick to the left side of the screen while feature descriptions and images scroll vertically past them on the right.',
           previewComponent: <ProductFeatures15 data={productFeatures15Data as any} />
         },
         {
           id: 'product-features-16',
-          title: 'Product Features 16',
-          description: 'Placeholder content for Product Features 16',
+          title: 'RADIAL PROGRESS FEATURES',
+          description: 'A sleek layout featuring large circular SVG progress bars that fluidly animate to their respective percentages as you scroll down to them.',
           previewComponent: <ProductFeatures16 data={productFeatures16Data as any} />
         },
         {
           id: 'product-features-17',
-          title: 'Product Features 17',
-          description: 'Placeholder content for Product Features 17',
+          title: 'MARQUEE FEATURE SHOWCASE',
+          description: 'A continuous, infinite CSS marquee of high-res images. Hovering over an image pauses the track and reveals a slick glassmorphic text overlay.',
           previewComponent: <ProductFeatures17 data={productFeatures17Data as any} />
         },
         {
           id: 'product-features-18',
-          title: 'Product Features 18',
-          description: 'Placeholder content for Product Features 18',
+          title: 'CURSOR FOLLOWER REVEAL',
+          description: 'A list of massive text features. A custom image cursor smoothly follows your mouse, changing its image based on which text feature you hover over.',
           previewComponent: <ProductFeatures18 data={productFeatures18Data as any} />
         },
         {
           id: 'product-features-19',
-          title: 'Product Features 19',
-          description: 'Placeholder content for Product Features 19',
+          title: 'OS SPOTLIGHT SELECTOR',
+          description: 'A layout inspired by OS interfaces. Clicking a glowing pill at the top triggers a cinematic blur crossfade to reveal the selected feature text.',
           previewComponent: <ProductFeatures19 data={productFeatures19Data as any} />
         },
         {
           id: 'product-features-20',
-          title: 'Product Features 20',
-          description: 'Placeholder content for Product Features 20',
+          title: 'CINEMATIC TEXT REVEAL',
+          description: 'The ultimate ending section. Features are revealed via cinematic blur-in and massive scale-up animations, reminiscent of a movie trailer.',
           previewComponent: <ProductFeatures20 data={productFeatures20Data as any} />
         }
       ] :
     category === 'what-s-included' ? [
         {
           id: 'what-s-included-1',
-          title: "What's Included 1",
-          description: "Placeholder content for What's Included 1",
+          title: "HOVER FADE GRID",
+          description: "A clean, animated grid of included items. Hovering over a specific item dynamically highlights it while smoothly fading out the others.",
           previewComponent: <WhatSIncluded1 data={whatSIncluded1Data as any} />
         },
         {
           id: 'what-s-included-2',
-          title: "What's Included 2",
-          description: "Placeholder content for What's Included 2",
+          title: "EXPLODED VIEW SCROLL",
+          description: "A highly dynamic layout where scrolling causes included items to literally explode outwards from a central placeholder box into their final positions.",
           previewComponent: <WhatSIncluded2 data={whatSIncluded2Data as any} />
         },
         {
           id: 'what-s-included-3',
-          title: "What's Included 3",
-          description: "Placeholder content for What's Included 3",
+          title: "INFINITE CAROUSEL",
+          description: "A sleek, auto-scrolling horizontal carousel featuring massive minimal cards for every item included in the package.",
           previewComponent: <WhatSIncluded3 data={whatSIncluded3Data as any} />
         },
         {
           id: 'what-s-included-4',
-          title: "What's Included 4",
-          description: "Placeholder content for What's Included 4",
+          title: "MINIMAL LIST FLOATING CURSOR",
+          description: "A minimal, high-contrast list of items. Hovering over an item reveals a gorgeous floating image preview that tracks your cursor perfectly.",
           previewComponent: <WhatSIncluded4 data={whatSIncluded4Data as any} />
         },
         {
           id: 'what-s-included-5',
-          title: "What's Included 5",
-          description: "Placeholder content for What's Included 5",
+          title: "INTERACTIVE PACKING SLIP",
+          description: "A deeply aesthetic, jagged-edge receipt or packing slip design. Items and quantities are laid out in a premium monospace typography.",
           previewComponent: <WhatSIncluded5 data={whatSIncluded5Data as any} />
         },
         {
           id: 'what-s-included-6',
-          title: "What's Included 6",
-          description: "Placeholder content for What's Included 6",
+          title: "ACCORDION UNBOX",
+          description: "A premium vertical accordion layout. Clicking an item fluidly expands it to reveal a beautiful image placeholder and an in-depth description.",
           previewComponent: <WhatSIncluded6 data={whatSIncluded6Data as any} />
         },
         {
           id: 'what-s-included-7',
-          title: "What's Included 7",
-          description: "Placeholder content for What's Included 7",
+          title: "SPOTLIGHT BENTO GRID",
+          description: "An advanced bento grid where a radial gradient spotlight seamlessly follows your mouse cursor across the grid to highlight the included items.",
           previewComponent: <WhatSIncluded7 data={whatSIncluded7Data as any} />
         },
         {
           id: 'what-s-included-8',
-          title: "What's Included 8",
-          description: "Placeholder content for What's Included 8",
+          title: "STACKING SCROLL CARDS",
+          description: "A dynamic scroll layout where cards representing the included items pile and stack precisely on top of each other as you scroll down the container.",
           previewComponent: <WhatSIncluded8 data={whatSIncluded8Data as any} />
         },
         {
           id: 'what-s-included-9',
-          title: "What's Included 9",
-          description: "Placeholder content for What's Included 9",
+          title: "SILHOUETTE HOVER REVEAL",
+          description: "Items begin as sleek, dark grey silhouettes. Hovering over them fluidly restores their full color, brightness, and scale while revealing their names.",
           previewComponent: <WhatSIncluded9 data={whatSIncluded9Data as any} />
         },
         {
           id: 'what-s-included-10',
-          title: "What's Included 10",
-          description: "Placeholder content for What's Included 10",
+          title: "CINEMATIC 3D CAROUSEL",
+          description: "A fully interactive 3D CSS carousel. Users can spin the carousel left or right to view massive cards for each included item rotating in true 3D space.",
           previewComponent: <WhatSIncluded10 data={whatSIncluded10Data as any} />
         },
         {
           id: 'what-s-included-11',
-          title: "What's Included 11",
-          description: "Placeholder content for What's Included 11",
+          title: "NEON GLOW CARDS",
+          description: "Dark mode. Items inside cards with a neon glowing border that pulses, revealing a beautiful image inside.",
           previewComponent: <WhatSIncluded11 data={whatSIncluded11Data as any} />
         },
         {
           id: 'what-s-included-12',
-          title: "What's Included 12",
-          description: "Placeholder content for What's Included 12",
+          title: "HORIZONTAL MARQUEE PANELS",
+          description: "A massive horizontal infinite marquee of included items, big bold text, images inside the marquee.",
           previewComponent: <WhatSIncluded12 data={whatSIncluded12Data as any} />
         },
         {
           id: 'what-s-included-13',
-          title: "What's Included 13",
-          description: "Placeholder content for What's Included 13",
+          title: "SLIDING ACCORDION CAROUSEL",
+          description: "An accordion but horizontal. When you hover over a panel, it expands sideways to show the item image and quantity.",
           previewComponent: <WhatSIncluded13 data={whatSIncluded13Data as any} />
         },
         {
           id: 'what-s-included-14',
-          title: "What's Included 14",
-          description: "Placeholder content for What's Included 14",
+          title: "MINIMALIST LIST",
+          description: "A clean text list. Clicking an item slides down an image inline with a smooth spring.",
           previewComponent: <WhatSIncluded14 data={whatSIncluded14Data as any} />
         },
         {
           id: 'what-s-included-15',
-          title: "What's Included 15",
-          description: "Placeholder content for What's Included 15",
+          title: "PARALLAX STACK",
+          description: "Items overlap each other slightly in a vertical list, and as you scroll they separate and form a neat grid.",
           previewComponent: <WhatSIncluded15 data={whatSIncluded15Data as any} />
         },
         {
           id: 'what-s-included-16',
-          title: "What's Included 16",
-          description: "Placeholder content for What's Included 16",
+          title: "CIRCULAR REVEAL",
+          description: "Items arranged in a circle. The center shows the selected item image and quantity. Hovering items updates the center.",
           previewComponent: <WhatSIncluded16 data={whatSIncluded16Data as any} />
         },
         {
           id: 'what-s-included-17',
-          title: "What's Included 17",
-          description: "Placeholder content for What's Included 17",
+          title: "GLASS BENTO",
+          description: "Glassmorphism bento grid for the included items. Floating on a colorful gradient background.",
           previewComponent: <WhatSIncluded17 data={whatSIncluded17Data as any} />
         },
         {
           id: 'what-s-included-18',
-          title: "What's Included 18",
-          description: "Placeholder content for What's Included 18",
+          title: "TICKER TAPE CARDS",
+          description: "A continuous stock-ticker like tape of text behind floating, slow-bobbing cards.",
           previewComponent: <WhatSIncluded18 data={whatSIncluded18Data as any} />
         },
         {
           id: 'what-s-included-19',
-          title: "What's Included 19",
-          description: "Placeholder content for What's Included 19",
+          title: "FOLDING PANELS",
+          description: "The items look like a folded piece of paper. As they appear in view, they unfold into flat cards.",
           previewComponent: <WhatSIncluded19 data={whatSIncluded19Data as any} />
         },
         {
           id: 'what-s-included-20',
-          title: "What's Included 20",
-          description: "Placeholder content for What's Included 20",
+          title: "CURSOR TRAIL REVEAL",
+          description: "As you move the mouse across a blank canvas, images of the included items pop up behind the cursor and slowly fade out.",
           previewComponent: <WhatSIncluded20 data={whatSIncluded20Data as any} />
         }
       ] :
     category === 'size-guide' ? [
         {
           id: 'size-guide-1',
-          title: 'Size Guide 1',
-          description: 'Placeholder content for Size Guide 1',
+          title: "INTERACTIVE HOVER MATRIX",
+          description: "A minimalist table. Hovering over a row highlights the whole row smoothly. Entrance animation features a cascading fade-in.",
           previewComponent: <SizeGuide1 data={sizeGuide1Data as any} />
         },
         {
           id: 'size-guide-2',
-          title: 'Size Guide 2',
-          description: 'Placeholder content for Size Guide 2',
+          title: "TOGGLE INTERACTIVE TABLE",
+          description: "A custom toggle switch with a smooth spring animation that changes between CM and INCHES. Features large glassmorphic size cards.",
           previewComponent: <SizeGuide2 data={sizeGuide2Data as any} />
         },
         {
           id: 'size-guide-3',
-          title: 'Size Guide 3',
-          description: 'Placeholder content for Size Guide 3',
+          title: "CLEAN EDITORIAL TABLE",
+          description: "A clean, high-contrast table layout with a bold blue circular icon. The rows enter with a staggered left-to-right fade.",
           previewComponent: <SizeGuide3 data={sizeGuide3Data as any} />
         },
         {
           id: 'size-guide-4',
-          title: 'Size Guide 4',
-          description: 'Placeholder content for Size Guide 4',
+          title: "GLASSMORPHIC SIZE CARDS",
+          description: "Glassmorphic size blocks. Hovering over them scales up the size text and seamlessly drops down exact measurements. Features an infinite marquee background.",
           previewComponent: <SizeGuide4 data={sizeGuide4Data as any} />
         },
         {
           id: 'size-guide-5',
-          title: 'Size Guide 5',
-          description: 'Placeholder content for Size Guide 5',
+          title: "HUMAN SILHOUETTE VISUALIZER",
+          description: "A 2D silhouette visualizer. Clicking a size animates physical lines drawing out to show the exact measurements on the abstract silhouette.",
           previewComponent: <SizeGuide5 data={sizeGuide5Data as any} />
         },
         {
           id: 'size-guide-6',
-          title: 'Size Guide 6',
-          description: 'Placeholder content for Size Guide 6',
+          title: "ACCORDION SIZE BREAKDOWN",
+          description: "A massive vertical accordion. Each size is a huge row. Clicking it expands with a spring physics bounce to show detailed breakdown.",
           previewComponent: <SizeGuide6 data={sizeGuide6Data as any} />
         },
         {
           id: 'size-guide-7',
-          title: 'Size Guide 7',
-          description: 'Placeholder content for Size Guide 7',
+          title: "BENTO GRID DIMENSIONS",
+          description: "A split bento grid layout where a large dark card contains the size options and a secondary card details how to measure yourself.",
           previewComponent: <SizeGuide7 data={sizeGuide7Data as any} />
         },
         {
           id: 'size-guide-8',
-          title: 'Size Guide 8',
-          description: 'Placeholder content for Size Guide 8',
+          title: "GRID STAGGER REVEAL",
+          description: "A clean grid of light cards. The components utilize staggered entrance animations, dropping in with a satisfying spring bounce.",
           previewComponent: <SizeGuide8 data={sizeGuide8Data as any} />
         },
         {
           id: 'size-guide-9',
-          title: 'Size Guide 9',
-          description: 'Placeholder content for Size Guide 9',
+          title: "FASHION EDITORIAL GUIDE",
+          description: "Huge typography with razor-thin lines. Very fashion-forward with subtle text reveals and an animated background blur effect on load.",
           previewComponent: <SizeGuide9 data={sizeGuide9Data as any} />
         },
         {
           id: 'size-guide-10',
-          title: 'Size Guide 10',
-          description: 'Placeholder content for Size Guide 10',
+          title: "INTERACTIVE DRAG-AND-COMPARE",
+          description: "A custom slider track that you can click to instantly morph the measurements between XS, S, M, L, XL with satisfying spring physics.",
           previewComponent: <SizeGuide10 data={sizeGuide10Data as any} />
         },
         {
           id: 'size-guide-11',
-          title: 'Size Guide 11',
-          description: 'Placeholder content for Size Guide 11',
+          title: "ROTARY SIZE SELECTOR",
+          description: "A stunning circular dial interface. Clicking a button rotates the massive dial with a spring animation to update the dimensions in the center.",
           previewComponent: <SizeGuide11 data={sizeGuide11Data as any} />
         },
         {
           id: 'size-guide-12',
-          title: 'Size Guide 12',
-          description: 'Placeholder content for Size Guide 12',
+          title: "HORIZONTAL CARD SNAP",
+          description: "A horizontal scroll container where huge dimension comparison cards slide in and snap precisely into the center of your view.",
           previewComponent: <SizeGuide12 data={sizeGuide12Data as any} />
         },
         {
           id: 'size-guide-13',
-          title: 'Size Guide 13',
-          description: 'Placeholder content for Size Guide 13',
+          title: "EXPANDABLE MEASURING TAPE",
+          description: "A visual measuring tape UI. Size markers pop out like dynamic spring-loaded pins along the tape as it scrolls into view.",
           previewComponent: <SizeGuide13 data={sizeGuide13Data as any} />
         },
         {
           id: 'size-guide-14',
-          title: 'Size Guide 14',
-          description: 'Placeholder content for Size Guide 14',
+          title: "NEON HOVER CHART",
+          description: "A dark-mode cyberpunk size chart. Hovering over any cell creates glowing neon intersecting crosshairs across the entire row and column.",
           previewComponent: <SizeGuide14 data={sizeGuide14Data as any} />
         },
         {
           id: 'size-guide-15',
-          title: 'Size Guide 15',
-          description: 'Placeholder content for Size Guide 15',
+          title: "3D FLIP CONVERSION TABLE",
+          description: "Each size is a physical 3D card. Hovering over a card elegantly flips it in 3D space to reveal international sizing (US, UK, EU).",
           previewComponent: <SizeGuide15 data={sizeGuide15Data as any} />
         },
         {
           id: 'size-guide-16',
-          title: 'Size Guide 16',
-          description: 'Placeholder content for Size Guide 16',
+          title: "TEAR-OFF RECEIPT GUIDE",
+          description: "Designed like a physical vintage receipt or ticket that shows sizes. Features custom CSS jagged edges and a barcode.",
           previewComponent: <SizeGuide16 data={sizeGuide16Data as any} />
         },
         {
           id: 'size-guide-17',
-          title: 'Size Guide 17',
-          description: 'Placeholder content for Size Guide 17',
+          title: "DYNAMIC RADAR CHART",
+          description: "An interactive SVG radar chart showing how sizes scale up. Hovering a size button instantly morphs the polygon shape with fluid motion.",
           previewComponent: <SizeGuide17 data={sizeGuide17Data as any} />
         },
         {
           id: 'size-guide-18',
-          title: 'Size Guide 18',
-          description: 'Placeholder content for Size Guide 18',
+          title: "PARALLAX IMAGE OVERLAY",
+          description: "A large model image background with parallax scrolling, overlaid with sleek glassmorphic size measurements that slide into view.",
           previewComponent: <SizeGuide18 data={sizeGuide18Data as any} />
         },
         {
           id: 'size-guide-19',
-          title: 'Size Guide 19',
-          description: 'Placeholder content for Size Guide 19',
+          title: "MINIMALIST WIZARD FLOW",
+          description: `A stepper UI: "Step 1: Choose fit", "Step 2: Recommended Size". Features smooth cross-fading transitions between steps.`,
           previewComponent: <SizeGuide19 data={sizeGuide19Data as any} />
         },
         {
           id: 'size-guide-20',
-          title: 'Size Guide 20',
-          description: 'Placeholder content for Size Guide 20',
+          title: "INTERACTIVE CLICK MARQUEE",
+          description: "A massive continuous scrolling text marquee of sizes. Clicking a scrolling size freezes the marquee and expands a beautiful glass spec sheet.",
           previewComponent: <SizeGuide20 data={sizeGuide20Data as any} />
         }
       ] :
@@ -6342,121 +6342,121 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'product-care-1',
           title: 'Product Care 1',
-          description: 'Placeholder content for Product Care 1',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare1 data={productCare1Data as any} />
         },
         {
           id: 'product-care-2',
           title: 'Product Care 2',
-          description: 'Placeholder content for Product Care 2',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare2 data={productCare2Data as any} />
         },
         {
           id: 'product-care-3',
           title: 'Product Care 3',
-          description: 'Placeholder content for Product Care 3',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare3 data={productCare3Data as any} />
         },
         {
           id: 'product-care-4',
           title: 'Product Care 4',
-          description: 'Placeholder content for Product Care 4',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare4 data={productCare4Data as any} />
         },
         {
           id: 'product-care-5',
           title: 'Product Care 5',
-          description: 'Placeholder content for Product Care 5',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare5 data={productCare5Data as any} />
         },
         {
           id: 'product-care-6',
           title: 'Product Care 6',
-          description: 'Placeholder content for Product Care 6',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare6 data={productCare6Data as any} />
         },
         {
           id: 'product-care-7',
           title: 'Product Care 7',
-          description: 'Placeholder content for Product Care 7',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare7 data={productCare7Data as any} />
         },
         {
           id: 'product-care-8',
           title: 'Product Care 8',
-          description: 'Placeholder content for Product Care 8',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare8 data={productCare8Data as any} />
         },
         {
           id: 'product-care-9',
           title: 'Product Care 9',
-          description: 'Placeholder content for Product Care 9',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare9 data={productCare9Data as any} />
         },
         {
           id: 'product-care-10',
           title: 'Product Care 10',
-          description: 'Placeholder content for Product Care 10',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare10 data={productCare10Data as any} />
         },
         {
           id: 'product-care-11',
           title: 'Product Care 11',
-          description: 'Placeholder content for Product Care 11',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare11 data={productCare11Data as any} />
         },
         {
           id: 'product-care-12',
           title: 'Product Care 12',
-          description: 'Placeholder content for Product Care 12',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare12 data={productCare12Data as any} />
         },
         {
           id: 'product-care-13',
           title: 'Product Care 13',
-          description: 'Placeholder content for Product Care 13',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare13 data={productCare13Data as any} />
         },
         {
           id: 'product-care-14',
           title: 'Product Care 14',
-          description: 'Placeholder content for Product Care 14',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare14 data={productCare14Data as any} />
         },
         {
           id: 'product-care-15',
           title: 'Product Care 15',
-          description: 'Placeholder content for Product Care 15',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare15 data={productCare15Data as any} />
         },
         {
           id: 'product-care-16',
           title: 'Product Care 16',
-          description: 'Placeholder content for Product Care 16',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare16 data={productCare16Data as any} />
         },
         {
           id: 'product-care-17',
           title: 'Product Care 17',
-          description: 'Placeholder content for Product Care 17',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare17 data={productCare17Data as any} />
         },
         {
           id: 'product-care-18',
           title: 'Product Care 18',
-          description: 'Placeholder content for Product Care 18',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare18 data={productCare18Data as any} />
         },
         {
           id: 'product-care-19',
           title: 'Product Care 19',
-          description: 'Placeholder content for Product Care 19',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare19 data={productCare19Data as any} />
         },
         {
           id: 'product-care-20',
           title: 'Product Care 20',
-          description: 'Placeholder content for Product Care 20',
+          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
           previewComponent: <ProductCare20 data={productCare20Data as any} />
         }
       ] :
@@ -6464,121 +6464,121 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'warranty-information-1',
           title: 'Warranty Information 1',
-          description: 'Placeholder content for Warranty Information 1',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation1 data={warrantyInformation1Data as any} />
         },
         {
           id: 'warranty-information-2',
           title: 'Warranty Information 2',
-          description: 'Placeholder content for Warranty Information 2',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation2 data={warrantyInformation2Data as any} />
         },
         {
           id: 'warranty-information-3',
           title: 'Warranty Information 3',
-          description: 'Placeholder content for Warranty Information 3',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation3 data={warrantyInformation3Data as any} />
         },
         {
           id: 'warranty-information-4',
           title: 'Warranty Information 4',
-          description: 'Placeholder content for Warranty Information 4',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation4 data={warrantyInformation4Data as any} />
         },
         {
           id: 'warranty-information-5',
           title: 'Warranty Information 5',
-          description: 'Placeholder content for Warranty Information 5',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation5 data={warrantyInformation5Data as any} />
         },
         {
           id: 'warranty-information-6',
           title: 'Warranty Information 6',
-          description: 'Placeholder content for Warranty Information 6',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation6 data={warrantyInformation6Data as any} />
         },
         {
           id: 'warranty-information-7',
           title: 'Warranty Information 7',
-          description: 'Placeholder content for Warranty Information 7',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation7 data={warrantyInformation7Data as any} />
         },
         {
           id: 'warranty-information-8',
           title: 'Warranty Information 8',
-          description: 'Placeholder content for Warranty Information 8',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation8 data={warrantyInformation8Data as any} />
         },
         {
           id: 'warranty-information-9',
           title: 'Warranty Information 9',
-          description: 'Placeholder content for Warranty Information 9',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation9 data={warrantyInformation9Data as any} />
         },
         {
           id: 'warranty-information-10',
           title: 'Warranty Information 10',
-          description: 'Placeholder content for Warranty Information 10',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation10 data={warrantyInformation10Data as any} />
         },
         {
           id: 'warranty-information-11',
           title: 'Warranty Information 11',
-          description: 'Placeholder content for Warranty Information 11',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation11 data={warrantyInformation11Data as any} />
         },
         {
           id: 'warranty-information-12',
           title: 'Warranty Information 12',
-          description: 'Placeholder content for Warranty Information 12',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation12 data={warrantyInformation12Data as any} />
         },
         {
           id: 'warranty-information-13',
           title: 'Warranty Information 13',
-          description: 'Placeholder content for Warranty Information 13',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation13 data={warrantyInformation13Data as any} />
         },
         {
           id: 'warranty-information-14',
           title: 'Warranty Information 14',
-          description: 'Placeholder content for Warranty Information 14',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation14 data={warrantyInformation14Data as any} />
         },
         {
           id: 'warranty-information-15',
           title: 'Warranty Information 15',
-          description: 'Placeholder content for Warranty Information 15',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation15 data={warrantyInformation15Data as any} />
         },
         {
           id: 'warranty-information-16',
           title: 'Warranty Information 16',
-          description: 'Placeholder content for Warranty Information 16',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation16 data={warrantyInformation16Data as any} />
         },
         {
           id: 'warranty-information-17',
           title: 'Warranty Information 17',
-          description: 'Placeholder content for Warranty Information 17',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation17 data={warrantyInformation17Data as any} />
         },
         {
           id: 'warranty-information-18',
           title: 'Warranty Information 18',
-          description: 'Placeholder content for Warranty Information 18',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation18 data={warrantyInformation18Data as any} />
         },
         {
           id: 'warranty-information-19',
           title: 'Warranty Information 19',
-          description: 'Placeholder content for Warranty Information 19',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation19 data={warrantyInformation19Data as any} />
         },
         {
           id: 'warranty-information-20',
           title: 'Warranty Information 20',
-          description: 'Placeholder content for Warranty Information 20',
+          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
           previewComponent: <WarrantyInformation20 data={warrantyInformation20Data as any} />
         }
       ] :
@@ -6586,121 +6586,121 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'shipping-delivery-information-1',
           title: 'Shipping & Delivery Information 1',
-          description: 'Placeholder content for Shipping & Delivery Information 1',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation1 data={shippingDeliveryInformation1Data as any} />
         },
         {
           id: 'shipping-delivery-information-2',
           title: 'Shipping & Delivery Information 2',
-          description: 'Placeholder content for Shipping & Delivery Information 2',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation2 data={shippingDeliveryInformation2Data as any} />
         },
         {
           id: 'shipping-delivery-information-3',
           title: 'Shipping & Delivery Information 3',
-          description: 'Placeholder content for Shipping & Delivery Information 3',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation3 data={shippingDeliveryInformation3Data as any} />
         },
         {
           id: 'shipping-delivery-information-4',
           title: 'Shipping & Delivery Information 4',
-          description: 'Placeholder content for Shipping & Delivery Information 4',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation4 data={shippingDeliveryInformation4Data as any} />
         },
         {
           id: 'shipping-delivery-information-5',
           title: 'Shipping & Delivery Information 5',
-          description: 'Placeholder content for Shipping & Delivery Information 5',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation5 data={shippingDeliveryInformation5Data as any} />
         },
         {
           id: 'shipping-delivery-information-6',
           title: 'Shipping & Delivery Information 6',
-          description: 'Placeholder content for Shipping & Delivery Information 6',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation6 data={shippingDeliveryInformation6Data as any} />
         },
         {
           id: 'shipping-delivery-information-7',
           title: 'Shipping & Delivery Information 7',
-          description: 'Placeholder content for Shipping & Delivery Information 7',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation7 data={shippingDeliveryInformation7Data as any} />
         },
         {
           id: 'shipping-delivery-information-8',
           title: 'Shipping & Delivery Information 8',
-          description: 'Placeholder content for Shipping & Delivery Information 8',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation8 data={shippingDeliveryInformation8Data as any} />
         },
         {
           id: 'shipping-delivery-information-9',
           title: 'Shipping & Delivery Information 9',
-          description: 'Placeholder content for Shipping & Delivery Information 9',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation9 data={shippingDeliveryInformation9Data as any} />
         },
         {
           id: 'shipping-delivery-information-10',
           title: 'Shipping & Delivery Information 10',
-          description: 'Placeholder content for Shipping & Delivery Information 10',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation10 data={shippingDeliveryInformation10Data as any} />
         },
         {
           id: 'shipping-delivery-information-11',
           title: 'Shipping & Delivery Information 11',
-          description: 'Placeholder content for Shipping & Delivery Information 11',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation11 data={shippingDeliveryInformation11Data as any} />
         },
         {
           id: 'shipping-delivery-information-12',
           title: 'Shipping & Delivery Information 12',
-          description: 'Placeholder content for Shipping & Delivery Information 12',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation12 data={shippingDeliveryInformation12Data as any} />
         },
         {
           id: 'shipping-delivery-information-13',
           title: 'Shipping & Delivery Information 13',
-          description: 'Placeholder content for Shipping & Delivery Information 13',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation13 data={shippingDeliveryInformation13Data as any} />
         },
         {
           id: 'shipping-delivery-information-14',
           title: 'Shipping & Delivery Information 14',
-          description: 'Placeholder content for Shipping & Delivery Information 14',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation14 data={shippingDeliveryInformation14Data as any} />
         },
         {
           id: 'shipping-delivery-information-15',
           title: 'Shipping & Delivery Information 15',
-          description: 'Placeholder content for Shipping & Delivery Information 15',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation15 data={shippingDeliveryInformation15Data as any} />
         },
         {
           id: 'shipping-delivery-information-16',
           title: 'Shipping & Delivery Information 16',
-          description: 'Placeholder content for Shipping & Delivery Information 16',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation16 data={shippingDeliveryInformation16Data as any} />
         },
         {
           id: 'shipping-delivery-information-17',
           title: 'Shipping & Delivery Information 17',
-          description: 'Placeholder content for Shipping & Delivery Information 17',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation17 data={shippingDeliveryInformation17Data as any} />
         },
         {
           id: 'shipping-delivery-information-18',
           title: 'Shipping & Delivery Information 18',
-          description: 'Placeholder content for Shipping & Delivery Information 18',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation18 data={shippingDeliveryInformation18Data as any} />
         },
         {
           id: 'shipping-delivery-information-19',
           title: 'Shipping & Delivery Information 19',
-          description: 'Placeholder content for Shipping & Delivery Information 19',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation19 data={shippingDeliveryInformation19Data as any} />
         },
         {
           id: 'shipping-delivery-information-20',
           title: 'Shipping & Delivery Information 20',
-          description: 'Placeholder content for Shipping & Delivery Information 20',
+          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
           previewComponent: <ShippingDeliveryInformation20 data={shippingDeliveryInformation20Data as any} />
         }
       ] :
@@ -6708,121 +6708,121 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'return-refund-information-1',
           title: 'Return & Refund Information 1',
-          description: 'Placeholder content for Return & Refund Information 1',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation1 data={returnRefundInformation1Data as any} />
         },
         {
           id: 'return-refund-information-2',
           title: 'Return & Refund Information 2',
-          description: 'Placeholder content for Return & Refund Information 2',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation2 data={returnRefundInformation2Data as any} />
         },
         {
           id: 'return-refund-information-3',
           title: 'Return & Refund Information 3',
-          description: 'Placeholder content for Return & Refund Information 3',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation3 data={returnRefundInformation3Data as any} />
         },
         {
           id: 'return-refund-information-4',
           title: 'Return & Refund Information 4',
-          description: 'Placeholder content for Return & Refund Information 4',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation4 data={returnRefundInformation4Data as any} />
         },
         {
           id: 'return-refund-information-5',
           title: 'Return & Refund Information 5',
-          description: 'Placeholder content for Return & Refund Information 5',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation5 data={returnRefundInformation5Data as any} />
         },
         {
           id: 'return-refund-information-6',
           title: 'Return & Refund Information 6',
-          description: 'Placeholder content for Return & Refund Information 6',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation6 data={returnRefundInformation6Data as any} />
         },
         {
           id: 'return-refund-information-7',
           title: 'Return & Refund Information 7',
-          description: 'Placeholder content for Return & Refund Information 7',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation7 data={returnRefundInformation7Data as any} />
         },
         {
           id: 'return-refund-information-8',
           title: 'Return & Refund Information 8',
-          description: 'Placeholder content for Return & Refund Information 8',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation8 data={returnRefundInformation8Data as any} />
         },
         {
           id: 'return-refund-information-9',
           title: 'Return & Refund Information 9',
-          description: 'Placeholder content for Return & Refund Information 9',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation9 data={returnRefundInformation9Data as any} />
         },
         {
           id: 'return-refund-information-10',
           title: 'Return & Refund Information 10',
-          description: 'Placeholder content for Return & Refund Information 10',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation10 data={returnRefundInformation10Data as any} />
         },
         {
           id: 'return-refund-information-11',
           title: 'Return & Refund Information 11',
-          description: 'Placeholder content for Return & Refund Information 11',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation11 data={returnRefundInformation11Data as any} />
         },
         {
           id: 'return-refund-information-12',
           title: 'Return & Refund Information 12',
-          description: 'Placeholder content for Return & Refund Information 12',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation12 data={returnRefundInformation12Data as any} />
         },
         {
           id: 'return-refund-information-13',
           title: 'Return & Refund Information 13',
-          description: 'Placeholder content for Return & Refund Information 13',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation13 data={returnRefundInformation13Data as any} />
         },
         {
           id: 'return-refund-information-14',
           title: 'Return & Refund Information 14',
-          description: 'Placeholder content for Return & Refund Information 14',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation14 data={returnRefundInformation14Data as any} />
         },
         {
           id: 'return-refund-information-15',
           title: 'Return & Refund Information 15',
-          description: 'Placeholder content for Return & Refund Information 15',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation15 data={returnRefundInformation15Data as any} />
         },
         {
           id: 'return-refund-information-16',
           title: 'Return & Refund Information 16',
-          description: 'Placeholder content for Return & Refund Information 16',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation16 data={returnRefundInformation16Data as any} />
         },
         {
           id: 'return-refund-information-17',
           title: 'Return & Refund Information 17',
-          description: 'Placeholder content for Return & Refund Information 17',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation17 data={returnRefundInformation17Data as any} />
         },
         {
           id: 'return-refund-information-18',
           title: 'Return & Refund Information 18',
-          description: 'Placeholder content for Return & Refund Information 18',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation18 data={returnRefundInformation18Data as any} />
         },
         {
           id: 'return-refund-information-19',
           title: 'Return & Refund Information 19',
-          description: 'Placeholder content for Return & Refund Information 19',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation19 data={returnRefundInformation19Data as any} />
         },
         {
           id: 'return-refund-information-20',
           title: 'Return & Refund Information 20',
-          description: 'Placeholder content for Return & Refund Information 20',
+          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
           previewComponent: <ReturnRefundInformation20 data={returnRefundInformation20Data as any} />
         }
       ] :
@@ -6830,121 +6830,121 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'payment-information-1',
           title: 'Payment Information 1',
-          description: 'Placeholder content for Payment Information 1',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation1 data={paymentInformation1Data as any} />
         },
         {
           id: 'payment-information-2',
           title: 'Payment Information 2',
-          description: 'Placeholder content for Payment Information 2',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation2 data={paymentInformation2Data as any} />
         },
         {
           id: 'payment-information-3',
           title: 'Payment Information 3',
-          description: 'Placeholder content for Payment Information 3',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation3 data={paymentInformation3Data as any} />
         },
         {
           id: 'payment-information-4',
           title: 'Payment Information 4',
-          description: 'Placeholder content for Payment Information 4',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation4 data={paymentInformation4Data as any} />
         },
         {
           id: 'payment-information-5',
           title: 'Payment Information 5',
-          description: 'Placeholder content for Payment Information 5',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation5 data={paymentInformation5Data as any} />
         },
         {
           id: 'payment-information-6',
           title: 'Payment Information 6',
-          description: 'Placeholder content for Payment Information 6',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation6 data={paymentInformation6Data as any} />
         },
         {
           id: 'payment-information-7',
           title: 'Payment Information 7',
-          description: 'Placeholder content for Payment Information 7',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation7 data={paymentInformation7Data as any} />
         },
         {
           id: 'payment-information-8',
           title: 'Payment Information 8',
-          description: 'Placeholder content for Payment Information 8',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation8 data={paymentInformation8Data as any} />
         },
         {
           id: 'payment-information-9',
           title: 'Payment Information 9',
-          description: 'Placeholder content for Payment Information 9',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation9 data={paymentInformation9Data as any} />
         },
         {
           id: 'payment-information-10',
           title: 'Payment Information 10',
-          description: 'Placeholder content for Payment Information 10',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation10 data={paymentInformation10Data as any} />
         },
         {
           id: 'payment-information-11',
           title: 'Payment Information 11',
-          description: 'Placeholder content for Payment Information 11',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation11 data={paymentInformation11Data as any} />
         },
         {
           id: 'payment-information-12',
           title: 'Payment Information 12',
-          description: 'Placeholder content for Payment Information 12',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation12 data={paymentInformation12Data as any} />
         },
         {
           id: 'payment-information-13',
           title: 'Payment Information 13',
-          description: 'Placeholder content for Payment Information 13',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation13 data={paymentInformation13Data as any} />
         },
         {
           id: 'payment-information-14',
           title: 'Payment Information 14',
-          description: 'Placeholder content for Payment Information 14',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation14 data={paymentInformation14Data as any} />
         },
         {
           id: 'payment-information-15',
           title: 'Payment Information 15',
-          description: 'Placeholder content for Payment Information 15',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation15 data={paymentInformation15Data as any} />
         },
         {
           id: 'payment-information-16',
           title: 'Payment Information 16',
-          description: 'Placeholder content for Payment Information 16',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation16 data={paymentInformation16Data as any} />
         },
         {
           id: 'payment-information-17',
           title: 'Payment Information 17',
-          description: 'Placeholder content for Payment Information 17',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation17 data={paymentInformation17Data as any} />
         },
         {
           id: 'payment-information-18',
           title: 'Payment Information 18',
-          description: 'Placeholder content for Payment Information 18',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation18 data={paymentInformation18Data as any} />
         },
         {
           id: 'payment-information-19',
           title: 'Payment Information 19',
-          description: 'Placeholder content for Payment Information 19',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation19 data={paymentInformation19Data as any} />
         },
         {
           id: 'payment-information-20',
           title: 'Payment Information 20',
-          description: 'Placeholder content for Payment Information 20',
+          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
           previewComponent: <PaymentInformation20 data={paymentInformation20Data as any} />
         }
       ] :
@@ -6952,121 +6952,121 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'frequently-bought-together-1',
           title: 'Frequently Bought Together 1',
-          description: 'Placeholder content for Frequently Bought Together 1',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether1 data={frequentlyBoughtTogether1Data as any} />
         },
         {
           id: 'frequently-bought-together-2',
           title: 'Frequently Bought Together 2',
-          description: 'Placeholder content for Frequently Bought Together 2',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether2 data={frequentlyBoughtTogether2Data as any} />
         },
         {
           id: 'frequently-bought-together-3',
           title: 'Frequently Bought Together 3',
-          description: 'Placeholder content for Frequently Bought Together 3',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether3 data={frequentlyBoughtTogether3Data as any} />
         },
         {
           id: 'frequently-bought-together-4',
           title: 'Frequently Bought Together 4',
-          description: 'Placeholder content for Frequently Bought Together 4',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether4 data={frequentlyBoughtTogether4Data as any} />
         },
         {
           id: 'frequently-bought-together-5',
           title: 'Frequently Bought Together 5',
-          description: 'Placeholder content for Frequently Bought Together 5',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether5 data={frequentlyBoughtTogether5Data as any} />
         },
         {
           id: 'frequently-bought-together-6',
           title: 'Frequently Bought Together 6',
-          description: 'Placeholder content for Frequently Bought Together 6',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether6 data={frequentlyBoughtTogether6Data as any} />
         },
         {
           id: 'frequently-bought-together-7',
           title: 'Frequently Bought Together 7',
-          description: 'Placeholder content for Frequently Bought Together 7',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether7 data={frequentlyBoughtTogether7Data as any} />
         },
         {
           id: 'frequently-bought-together-8',
           title: 'Frequently Bought Together 8',
-          description: 'Placeholder content for Frequently Bought Together 8',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether8 data={frequentlyBoughtTogether8Data as any} />
         },
         {
           id: 'frequently-bought-together-9',
           title: 'Frequently Bought Together 9',
-          description: 'Placeholder content for Frequently Bought Together 9',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether9 data={frequentlyBoughtTogether9Data as any} />
         },
         {
           id: 'frequently-bought-together-10',
           title: 'Frequently Bought Together 10',
-          description: 'Placeholder content for Frequently Bought Together 10',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether10 data={frequentlyBoughtTogether10Data as any} />
         },
         {
           id: 'frequently-bought-together-11',
           title: 'Frequently Bought Together 11',
-          description: 'Placeholder content for Frequently Bought Together 11',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether11 data={frequentlyBoughtTogether11Data as any} />
         },
         {
           id: 'frequently-bought-together-12',
           title: 'Frequently Bought Together 12',
-          description: 'Placeholder content for Frequently Bought Together 12',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether12 data={frequentlyBoughtTogether12Data as any} />
         },
         {
           id: 'frequently-bought-together-13',
           title: 'Frequently Bought Together 13',
-          description: 'Placeholder content for Frequently Bought Together 13',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether13 data={frequentlyBoughtTogether13Data as any} />
         },
         {
           id: 'frequently-bought-together-14',
           title: 'Frequently Bought Together 14',
-          description: 'Placeholder content for Frequently Bought Together 14',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether14 data={frequentlyBoughtTogether14Data as any} />
         },
         {
           id: 'frequently-bought-together-15',
           title: 'Frequently Bought Together 15',
-          description: 'Placeholder content for Frequently Bought Together 15',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether15 data={frequentlyBoughtTogether15Data as any} />
         },
         {
           id: 'frequently-bought-together-16',
           title: 'Frequently Bought Together 16',
-          description: 'Placeholder content for Frequently Bought Together 16',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether16 data={frequentlyBoughtTogether16Data as any} />
         },
         {
           id: 'frequently-bought-together-17',
           title: 'Frequently Bought Together 17',
-          description: 'Placeholder content for Frequently Bought Together 17',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether17 data={frequentlyBoughtTogether17Data as any} />
         },
         {
           id: 'frequently-bought-together-18',
           title: 'Frequently Bought Together 18',
-          description: 'Placeholder content for Frequently Bought Together 18',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether18 data={frequentlyBoughtTogether18Data as any} />
         },
         {
           id: 'frequently-bought-together-19',
           title: 'Frequently Bought Together 19',
-          description: 'Placeholder content for Frequently Bought Together 19',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether19 data={frequentlyBoughtTogether19Data as any} />
         },
         {
           id: 'frequently-bought-together-20',
           title: 'Frequently Bought Together 20',
-          description: 'Placeholder content for Frequently Bought Together 20',
+          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
           previewComponent: <FrequentlyBoughtTogether20 data={frequentlyBoughtTogether20Data as any} />
         }
       ] :
@@ -7074,121 +7074,121 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'product-bundles-1',
           title: 'Product Bundles 1',
-          description: 'Placeholder content for Product Bundles 1',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles1 data={productBundles1Data as any} />
         },
         {
           id: 'product-bundles-2',
           title: 'Product Bundles 2',
-          description: 'Placeholder content for Product Bundles 2',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles2 data={productBundles2Data as any} />
         },
         {
           id: 'product-bundles-3',
           title: 'Product Bundles 3',
-          description: 'Placeholder content for Product Bundles 3',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles3 data={productBundles3Data as any} />
         },
         {
           id: 'product-bundles-4',
           title: 'Product Bundles 4',
-          description: 'Placeholder content for Product Bundles 4',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles4 data={productBundles4Data as any} />
         },
         {
           id: 'product-bundles-5',
           title: 'Product Bundles 5',
-          description: 'Placeholder content for Product Bundles 5',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles5 data={productBundles5Data as any} />
         },
         {
           id: 'product-bundles-6',
           title: 'Product Bundles 6',
-          description: 'Placeholder content for Product Bundles 6',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles6 data={productBundles6Data as any} />
         },
         {
           id: 'product-bundles-7',
           title: 'Product Bundles 7',
-          description: 'Placeholder content for Product Bundles 7',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles7 data={productBundles7Data as any} />
         },
         {
           id: 'product-bundles-8',
           title: 'Product Bundles 8',
-          description: 'Placeholder content for Product Bundles 8',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles8 data={productBundles8Data as any} />
         },
         {
           id: 'product-bundles-9',
           title: 'Product Bundles 9',
-          description: 'Placeholder content for Product Bundles 9',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles9 data={productBundles9Data as any} />
         },
         {
           id: 'product-bundles-10',
           title: 'Product Bundles 10',
-          description: 'Placeholder content for Product Bundles 10',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles10 data={productBundles10Data as any} />
         },
         {
           id: 'product-bundles-11',
           title: 'Product Bundles 11',
-          description: 'Placeholder content for Product Bundles 11',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles11 data={productBundles11Data as any} />
         },
         {
           id: 'product-bundles-12',
           title: 'Product Bundles 12',
-          description: 'Placeholder content for Product Bundles 12',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles12 data={productBundles12Data as any} />
         },
         {
           id: 'product-bundles-13',
           title: 'Product Bundles 13',
-          description: 'Placeholder content for Product Bundles 13',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles13 data={productBundles13Data as any} />
         },
         {
           id: 'product-bundles-14',
           title: 'Product Bundles 14',
-          description: 'Placeholder content for Product Bundles 14',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles14 data={productBundles14Data as any} />
         },
         {
           id: 'product-bundles-15',
           title: 'Product Bundles 15',
-          description: 'Placeholder content for Product Bundles 15',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles15 data={productBundles15Data as any} />
         },
         {
           id: 'product-bundles-16',
           title: 'Product Bundles 16',
-          description: 'Placeholder content for Product Bundles 16',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles16 data={productBundles16Data as any} />
         },
         {
           id: 'product-bundles-17',
           title: 'Product Bundles 17',
-          description: 'Placeholder content for Product Bundles 17',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles17 data={productBundles17Data as any} />
         },
         {
           id: 'product-bundles-18',
           title: 'Product Bundles 18',
-          description: 'Placeholder content for Product Bundles 18',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles18 data={productBundles18Data as any} />
         },
         {
           id: 'product-bundles-19',
           title: 'Product Bundles 19',
-          description: 'Placeholder content for Product Bundles 19',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles19 data={productBundles19Data as any} />
         },
         {
           id: 'product-bundles-20',
           title: 'Product Bundles 20',
-          description: 'Placeholder content for Product Bundles 20',
+          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
           previewComponent: <ProductBundles20 data={productBundles20Data as any} />
         }
       ] :
@@ -7196,121 +7196,121 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'related-products-1',
           title: 'Related Products 1',
-          description: 'Placeholder content for Related Products 1',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts1 data={relatedProducts1Data as any} />
         },
         {
           id: 'related-products-2',
           title: 'Related Products 2',
-          description: 'Placeholder content for Related Products 2',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts2 data={relatedProducts2Data as any} />
         },
         {
           id: 'related-products-3',
           title: 'Related Products 3',
-          description: 'Placeholder content for Related Products 3',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts3 data={relatedProducts3Data as any} />
         },
         {
           id: 'related-products-4',
           title: 'Related Products 4',
-          description: 'Placeholder content for Related Products 4',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts4 data={relatedProducts4Data as any} />
         },
         {
           id: 'related-products-5',
           title: 'Related Products 5',
-          description: 'Placeholder content for Related Products 5',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts5 data={relatedProducts5Data as any} />
         },
         {
           id: 'related-products-6',
           title: 'Related Products 6',
-          description: 'Placeholder content for Related Products 6',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts6 data={relatedProducts6Data as any} />
         },
         {
           id: 'related-products-7',
           title: 'Related Products 7',
-          description: 'Placeholder content for Related Products 7',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts7 data={relatedProducts7Data as any} />
         },
         {
           id: 'related-products-8',
           title: 'Related Products 8',
-          description: 'Placeholder content for Related Products 8',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts8 data={relatedProducts8Data as any} />
         },
         {
           id: 'related-products-9',
           title: 'Related Products 9',
-          description: 'Placeholder content for Related Products 9',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts9 data={relatedProducts9Data as any} />
         },
         {
           id: 'related-products-10',
           title: 'Related Products 10',
-          description: 'Placeholder content for Related Products 10',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts10 data={relatedProducts10Data as any} />
         },
         {
           id: 'related-products-11',
           title: 'Related Products 11',
-          description: 'Placeholder content for Related Products 11',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts11 data={relatedProducts11Data as any} />
         },
         {
           id: 'related-products-12',
           title: 'Related Products 12',
-          description: 'Placeholder content for Related Products 12',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts12 data={relatedProducts12Data as any} />
         },
         {
           id: 'related-products-13',
           title: 'Related Products 13',
-          description: 'Placeholder content for Related Products 13',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts13 data={relatedProducts13Data as any} />
         },
         {
           id: 'related-products-14',
           title: 'Related Products 14',
-          description: 'Placeholder content for Related Products 14',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts14 data={relatedProducts14Data as any} />
         },
         {
           id: 'related-products-15',
           title: 'Related Products 15',
-          description: 'Placeholder content for Related Products 15',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts15 data={relatedProducts15Data as any} />
         },
         {
           id: 'related-products-16',
           title: 'Related Products 16',
-          description: 'Placeholder content for Related Products 16',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts16 data={relatedProducts16Data as any} />
         },
         {
           id: 'related-products-17',
           title: 'Related Products 17',
-          description: 'Placeholder content for Related Products 17',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts17 data={relatedProducts17Data as any} />
         },
         {
           id: 'related-products-18',
           title: 'Related Products 18',
-          description: 'Placeholder content for Related Products 18',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts18 data={relatedProducts18Data as any} />
         },
         {
           id: 'related-products-19',
           title: 'Related Products 19',
-          description: 'Placeholder content for Related Products 19',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts19 data={relatedProducts19Data as any} />
         },
         {
           id: 'related-products-20',
           title: 'Related Products 20',
-          description: 'Placeholder content for Related Products 20',
+          description: 'A recommendation section displaying products related to the current product.',
           previewComponent: <RelatedProducts20 data={relatedProducts20Data as any} />
         }
       ] :
@@ -7318,121 +7318,121 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'similar-products-1',
           title: 'Similar Products 1',
-          description: 'Placeholder content for Similar Products 1',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts1 data={similarProducts1Data as any} />
         },
         {
           id: 'similar-products-2',
           title: 'Similar Products 2',
-          description: 'Placeholder content for Similar Products 2',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts2 data={similarProducts2Data as any} />
         },
         {
           id: 'similar-products-3',
           title: 'Similar Products 3',
-          description: 'Placeholder content for Similar Products 3',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts3 data={similarProducts3Data as any} />
         },
         {
           id: 'similar-products-4',
           title: 'Similar Products 4',
-          description: 'Placeholder content for Similar Products 4',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts4 data={similarProducts4Data as any} />
         },
         {
           id: 'similar-products-5',
           title: 'Similar Products 5',
-          description: 'Placeholder content for Similar Products 5',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts5 data={similarProducts5Data as any} />
         },
         {
           id: 'similar-products-6',
           title: 'Similar Products 6',
-          description: 'Placeholder content for Similar Products 6',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts6 data={similarProducts6Data as any} />
         },
         {
           id: 'similar-products-7',
           title: 'Similar Products 7',
-          description: 'Placeholder content for Similar Products 7',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts7 data={similarProducts7Data as any} />
         },
         {
           id: 'similar-products-8',
           title: 'Similar Products 8',
-          description: 'Placeholder content for Similar Products 8',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts8 data={similarProducts8Data as any} />
         },
         {
           id: 'similar-products-9',
           title: 'Similar Products 9',
-          description: 'Placeholder content for Similar Products 9',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts9 data={similarProducts9Data as any} />
         },
         {
           id: 'similar-products-10',
           title: 'Similar Products 10',
-          description: 'Placeholder content for Similar Products 10',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts10 data={similarProducts10Data as any} />
         },
         {
           id: 'similar-products-11',
           title: 'Similar Products 11',
-          description: 'Placeholder content for Similar Products 11',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts11 data={similarProducts11Data as any} />
         },
         {
           id: 'similar-products-12',
           title: 'Similar Products 12',
-          description: 'Placeholder content for Similar Products 12',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts12 data={similarProducts12Data as any} />
         },
         {
           id: 'similar-products-13',
           title: 'Similar Products 13',
-          description: 'Placeholder content for Similar Products 13',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts13 data={similarProducts13Data as any} />
         },
         {
           id: 'similar-products-14',
           title: 'Similar Products 14',
-          description: 'Placeholder content for Similar Products 14',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts14 data={similarProducts14Data as any} />
         },
         {
           id: 'similar-products-15',
           title: 'Similar Products 15',
-          description: 'Placeholder content for Similar Products 15',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts15 data={similarProducts15Data as any} />
         },
         {
           id: 'similar-products-16',
           title: 'Similar Products 16',
-          description: 'Placeholder content for Similar Products 16',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts16 data={similarProducts16Data as any} />
         },
         {
           id: 'similar-products-17',
           title: 'Similar Products 17',
-          description: 'Placeholder content for Similar Products 17',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts17 data={similarProducts17Data as any} />
         },
         {
           id: 'similar-products-18',
           title: 'Similar Products 18',
-          description: 'Placeholder content for Similar Products 18',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts18 data={similarProducts18Data as any} />
         },
         {
           id: 'similar-products-19',
           title: 'Similar Products 19',
-          description: 'Placeholder content for Similar Products 19',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts19 data={similarProducts19Data as any} />
         },
         {
           id: 'similar-products-20',
           title: 'Similar Products 20',
-          description: 'Placeholder content for Similar Products 20',
+          description: 'A recommendation section displaying products similar to the current product.',
           previewComponent: <SimilarProducts20 data={similarProducts20Data as any} />
         }
       ] :
@@ -7440,121 +7440,121 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'recommended-products-1',
           title: 'Recommended Products 1',
-          description: 'Placeholder content for Recommended Products 1',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts1 data={recommendedProducts1Data as any} />
         },
         {
           id: 'recommended-products-2',
           title: 'Recommended Products 2',
-          description: 'Placeholder content for Recommended Products 2',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts2 data={recommendedProducts2Data as any} />
         },
         {
           id: 'recommended-products-3',
           title: 'Recommended Products 3',
-          description: 'Placeholder content for Recommended Products 3',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts3 data={recommendedProducts3Data as any} />
         },
         {
           id: 'recommended-products-4',
           title: 'Recommended Products 4',
-          description: 'Placeholder content for Recommended Products 4',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts4 data={recommendedProducts4Data as any} />
         },
         {
           id: 'recommended-products-5',
           title: 'Recommended Products 5',
-          description: 'Placeholder content for Recommended Products 5',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts5 data={recommendedProducts5Data as any} />
         },
         {
           id: 'recommended-products-6',
           title: 'Recommended Products 6',
-          description: 'Placeholder content for Recommended Products 6',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts6 data={recommendedProducts6Data as any} />
         },
         {
           id: 'recommended-products-7',
           title: 'Recommended Products 7',
-          description: 'Placeholder content for Recommended Products 7',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts7 data={recommendedProducts7Data as any} />
         },
         {
           id: 'recommended-products-8',
           title: 'Recommended Products 8',
-          description: 'Placeholder content for Recommended Products 8',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts8 data={recommendedProducts8Data as any} />
         },
         {
           id: 'recommended-products-9',
           title: 'Recommended Products 9',
-          description: 'Placeholder content for Recommended Products 9',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts9 data={recommendedProducts9Data as any} />
         },
         {
           id: 'recommended-products-10',
           title: 'Recommended Products 10',
-          description: 'Placeholder content for Recommended Products 10',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts10 data={recommendedProducts10Data as any} />
         },
         {
           id: 'recommended-products-11',
           title: 'Recommended Products 11',
-          description: 'Placeholder content for Recommended Products 11',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts11 data={recommendedProducts11Data as any} />
         },
         {
           id: 'recommended-products-12',
           title: 'Recommended Products 12',
-          description: 'Placeholder content for Recommended Products 12',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts12 data={recommendedProducts12Data as any} />
         },
         {
           id: 'recommended-products-13',
           title: 'Recommended Products 13',
-          description: 'Placeholder content for Recommended Products 13',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts13 data={recommendedProducts13Data as any} />
         },
         {
           id: 'recommended-products-14',
           title: 'Recommended Products 14',
-          description: 'Placeholder content for Recommended Products 14',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts14 data={recommendedProducts14Data as any} />
         },
         {
           id: 'recommended-products-15',
           title: 'Recommended Products 15',
-          description: 'Placeholder content for Recommended Products 15',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts15 data={recommendedProducts15Data as any} />
         },
         {
           id: 'recommended-products-16',
           title: 'Recommended Products 16',
-          description: 'Placeholder content for Recommended Products 16',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts16 data={recommendedProducts16Data as any} />
         },
         {
           id: 'recommended-products-17',
           title: 'Recommended Products 17',
-          description: 'Placeholder content for Recommended Products 17',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts17 data={recommendedProducts17Data as any} />
         },
         {
           id: 'recommended-products-18',
           title: 'Recommended Products 18',
-          description: 'Placeholder content for Recommended Products 18',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts18 data={recommendedProducts18Data as any} />
         },
         {
           id: 'recommended-products-19',
           title: 'Recommended Products 19',
-          description: 'Placeholder content for Recommended Products 19',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts19 data={recommendedProducts19Data as any} />
         },
         {
           id: 'recommended-products-20',
           title: 'Recommended Products 20',
-          description: 'Placeholder content for Recommended Products 20',
+          description: 'A dynamic section displaying personalized or contextual product recommendations.',
           previewComponent: <RecommendedProducts20 data={recommendedProducts20Data as any} />
         }
       ] :
@@ -7562,121 +7562,121 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'customer-reviews-1',
           title: 'Customer Reviews 1',
-          description: 'Placeholder content for Customer Reviews 1',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews1 data={customerReviews1Data as any} />
         },
         {
           id: 'customer-reviews-2',
           title: 'Customer Reviews 2',
-          description: 'Placeholder content for Customer Reviews 2',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews2 data={customerReviews2Data as any} />
         },
         {
           id: 'customer-reviews-3',
           title: 'Customer Reviews 3',
-          description: 'Placeholder content for Customer Reviews 3',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews3 data={customerReviews3Data as any} />
         },
         {
           id: 'customer-reviews-4',
           title: 'Customer Reviews 4',
-          description: 'Placeholder content for Customer Reviews 4',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews4 data={customerReviews4Data as any} />
         },
         {
           id: 'customer-reviews-5',
           title: 'Customer Reviews 5',
-          description: 'Placeholder content for Customer Reviews 5',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews5 data={customerReviews5Data as any} />
         },
         {
           id: 'customer-reviews-6',
           title: 'Customer Reviews 6',
-          description: 'Placeholder content for Customer Reviews 6',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews6 data={customerReviews6Data as any} />
         },
         {
           id: 'customer-reviews-7',
           title: 'Customer Reviews 7',
-          description: 'Placeholder content for Customer Reviews 7',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews7 data={customerReviews7Data as any} />
         },
         {
           id: 'customer-reviews-8',
           title: 'Customer Reviews 8',
-          description: 'Placeholder content for Customer Reviews 8',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews8 data={customerReviews8Data as any} />
         },
         {
           id: 'customer-reviews-9',
           title: 'Customer Reviews 9',
-          description: 'Placeholder content for Customer Reviews 9',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews9 data={customerReviews9Data as any} />
         },
         {
           id: 'customer-reviews-10',
           title: 'Customer Reviews 10',
-          description: 'Placeholder content for Customer Reviews 10',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews10 data={customerReviews10Data as any} />
         },
         {
           id: 'customer-reviews-11',
           title: 'Customer Reviews 11',
-          description: 'Placeholder content for Customer Reviews 11',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews11 data={customerReviews11Data as any} />
         },
         {
           id: 'customer-reviews-12',
           title: 'Customer Reviews 12',
-          description: 'Placeholder content for Customer Reviews 12',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews12 data={customerReviews12Data as any} />
         },
         {
           id: 'customer-reviews-13',
           title: 'Customer Reviews 13',
-          description: 'Placeholder content for Customer Reviews 13',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews13 data={customerReviews13Data as any} />
         },
         {
           id: 'customer-reviews-14',
           title: 'Customer Reviews 14',
-          description: 'Placeholder content for Customer Reviews 14',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews14 data={customerReviews14Data as any} />
         },
         {
           id: 'customer-reviews-15',
           title: 'Customer Reviews 15',
-          description: 'Placeholder content for Customer Reviews 15',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews15 data={customerReviews15Data as any} />
         },
         {
           id: 'customer-reviews-16',
           title: 'Customer Reviews 16',
-          description: 'Placeholder content for Customer Reviews 16',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews16 data={customerReviews16Data as any} />
         },
         {
           id: 'customer-reviews-17',
           title: 'Customer Reviews 17',
-          description: 'Placeholder content for Customer Reviews 17',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews17 data={customerReviews17Data as any} />
         },
         {
           id: 'customer-reviews-18',
           title: 'Customer Reviews 18',
-          description: 'Placeholder content for Customer Reviews 18',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews18 data={customerReviews18Data as any} />
         },
         {
           id: 'customer-reviews-19',
           title: 'Customer Reviews 19',
-          description: 'Placeholder content for Customer Reviews 19',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews19 data={customerReviews19Data as any} />
         },
         {
           id: 'customer-reviews-20',
           title: 'Customer Reviews 20',
-          description: 'Placeholder content for Customer Reviews 20',
+          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
           previewComponent: <CustomerReviews20 data={customerReviews20Data as any} />
         }
       ] :
@@ -7684,121 +7684,121 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'review-summary-1',
           title: 'Review Summary 1',
-          description: 'Placeholder content for Review Summary 1',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary1 data={reviewSummary1Data as any} />
         },
         {
           id: 'review-summary-2',
           title: 'Review Summary 2',
-          description: 'Placeholder content for Review Summary 2',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary2 data={reviewSummary2Data as any} />
         },
         {
           id: 'review-summary-3',
           title: 'Review Summary 3',
-          description: 'Placeholder content for Review Summary 3',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary3 data={reviewSummary3Data as any} />
         },
         {
           id: 'review-summary-4',
           title: 'Review Summary 4',
-          description: 'Placeholder content for Review Summary 4',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary4 data={reviewSummary4Data as any} />
         },
         {
           id: 'review-summary-5',
           title: 'Review Summary 5',
-          description: 'Placeholder content for Review Summary 5',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary5 data={reviewSummary5Data as any} />
         },
         {
           id: 'review-summary-6',
           title: 'Review Summary 6',
-          description: 'Placeholder content for Review Summary 6',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary6 data={reviewSummary6Data as any} />
         },
         {
           id: 'review-summary-7',
           title: 'Review Summary 7',
-          description: 'Placeholder content for Review Summary 7',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary7 data={reviewSummary7Data as any} />
         },
         {
           id: 'review-summary-8',
           title: 'Review Summary 8',
-          description: 'Placeholder content for Review Summary 8',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary8 data={reviewSummary8Data as any} />
         },
         {
           id: 'review-summary-9',
           title: 'Review Summary 9',
-          description: 'Placeholder content for Review Summary 9',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary9 data={reviewSummary9Data as any} />
         },
         {
           id: 'review-summary-10',
           title: 'Review Summary 10',
-          description: 'Placeholder content for Review Summary 10',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary10 data={reviewSummary10Data as any} />
         },
         {
           id: 'review-summary-11',
           title: 'Review Summary 11',
-          description: 'Placeholder content for Review Summary 11',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary11 data={reviewSummary11Data as any} />
         },
         {
           id: 'review-summary-12',
           title: 'Review Summary 12',
-          description: 'Placeholder content for Review Summary 12',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary12 data={reviewSummary12Data as any} />
         },
         {
           id: 'review-summary-13',
           title: 'Review Summary 13',
-          description: 'Placeholder content for Review Summary 13',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary13 data={reviewSummary13Data as any} />
         },
         {
           id: 'review-summary-14',
           title: 'Review Summary 14',
-          description: 'Placeholder content for Review Summary 14',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary14 data={reviewSummary14Data as any} />
         },
         {
           id: 'review-summary-15',
           title: 'Review Summary 15',
-          description: 'Placeholder content for Review Summary 15',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary15 data={reviewSummary15Data as any} />
         },
         {
           id: 'review-summary-16',
           title: 'Review Summary 16',
-          description: 'Placeholder content for Review Summary 16',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary16 data={reviewSummary16Data as any} />
         },
         {
           id: 'review-summary-17',
           title: 'Review Summary 17',
-          description: 'Placeholder content for Review Summary 17',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary17 data={reviewSummary17Data as any} />
         },
         {
           id: 'review-summary-18',
           title: 'Review Summary 18',
-          description: 'Placeholder content for Review Summary 18',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary18 data={reviewSummary18Data as any} />
         },
         {
           id: 'review-summary-19',
           title: 'Review Summary 19',
-          description: 'Placeholder content for Review Summary 19',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary19 data={reviewSummary19Data as any} />
         },
         {
           id: 'review-summary-20',
           title: 'Review Summary 20',
-          description: 'Placeholder content for Review Summary 20',
+          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
           previewComponent: <ReviewSummary20 data={reviewSummary20Data as any} />
         }
       ] :
@@ -7806,121 +7806,121 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'customer-review-gallery-1',
           title: 'Customer Review Gallery 1',
-          description: 'Placeholder content for Customer Review Gallery 1',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery1 data={customerReviewGallery1Data as any} />
         },
         {
           id: 'customer-review-gallery-2',
           title: 'Customer Review Gallery 2',
-          description: 'Placeholder content for Customer Review Gallery 2',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery2 data={customerReviewGallery2Data as any} />
         },
         {
           id: 'customer-review-gallery-3',
           title: 'Customer Review Gallery 3',
-          description: 'Placeholder content for Customer Review Gallery 3',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery3 data={customerReviewGallery3Data as any} />
         },
         {
           id: 'customer-review-gallery-4',
           title: 'Customer Review Gallery 4',
-          description: 'Placeholder content for Customer Review Gallery 4',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery4 data={customerReviewGallery4Data as any} />
         },
         {
           id: 'customer-review-gallery-5',
           title: 'Customer Review Gallery 5',
-          description: 'Placeholder content for Customer Review Gallery 5',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery5 data={customerReviewGallery5Data as any} />
         },
         {
           id: 'customer-review-gallery-6',
           title: 'Customer Review Gallery 6',
-          description: 'Placeholder content for Customer Review Gallery 6',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery6 data={customerReviewGallery6Data as any} />
         },
         {
           id: 'customer-review-gallery-7',
           title: 'Customer Review Gallery 7',
-          description: 'Placeholder content for Customer Review Gallery 7',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery7 data={customerReviewGallery7Data as any} />
         },
         {
           id: 'customer-review-gallery-8',
           title: 'Customer Review Gallery 8',
-          description: 'Placeholder content for Customer Review Gallery 8',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery8 data={customerReviewGallery8Data as any} />
         },
         {
           id: 'customer-review-gallery-9',
           title: 'Customer Review Gallery 9',
-          description: 'Placeholder content for Customer Review Gallery 9',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery9 data={customerReviewGallery9Data as any} />
         },
         {
           id: 'customer-review-gallery-10',
           title: 'Customer Review Gallery 10',
-          description: 'Placeholder content for Customer Review Gallery 10',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery10 data={customerReviewGallery10Data as any} />
         },
         {
           id: 'customer-review-gallery-11',
           title: 'Customer Review Gallery 11',
-          description: 'Placeholder content for Customer Review Gallery 11',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery11 data={customerReviewGallery11Data as any} />
         },
         {
           id: 'customer-review-gallery-12',
           title: 'Customer Review Gallery 12',
-          description: 'Placeholder content for Customer Review Gallery 12',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery12 data={customerReviewGallery12Data as any} />
         },
         {
           id: 'customer-review-gallery-13',
           title: 'Customer Review Gallery 13',
-          description: 'Placeholder content for Customer Review Gallery 13',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery13 data={customerReviewGallery13Data as any} />
         },
         {
           id: 'customer-review-gallery-14',
           title: 'Customer Review Gallery 14',
-          description: 'Placeholder content for Customer Review Gallery 14',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery14 data={customerReviewGallery14Data as any} />
         },
         {
           id: 'customer-review-gallery-15',
           title: 'Customer Review Gallery 15',
-          description: 'Placeholder content for Customer Review Gallery 15',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery15 data={customerReviewGallery15Data as any} />
         },
         {
           id: 'customer-review-gallery-16',
           title: 'Customer Review Gallery 16',
-          description: 'Placeholder content for Customer Review Gallery 16',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery16 data={customerReviewGallery16Data as any} />
         },
         {
           id: 'customer-review-gallery-17',
           title: 'Customer Review Gallery 17',
-          description: 'Placeholder content for Customer Review Gallery 17',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery17 data={customerReviewGallery17Data as any} />
         },
         {
           id: 'customer-review-gallery-18',
           title: 'Customer Review Gallery 18',
-          description: 'Placeholder content for Customer Review Gallery 18',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery18 data={customerReviewGallery18Data as any} />
         },
         {
           id: 'customer-review-gallery-19',
           title: 'Customer Review Gallery 19',
-          description: 'Placeholder content for Customer Review Gallery 19',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery19 data={customerReviewGallery19Data as any} />
         },
         {
           id: 'customer-review-gallery-20',
           title: 'Customer Review Gallery 20',
-          description: 'Placeholder content for Customer Review Gallery 20',
+          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
           previewComponent: <CustomerReviewGallery20 data={customerReviewGallery20Data as any} />
         }
       ] :
@@ -7928,121 +7928,121 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'questions-answers-1',
           title: 'Questions & Answers 1',
-          description: 'Placeholder content for Questions & Answers 1',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers1 data={questionsAnswers1Data as any} />
         },
         {
           id: 'questions-answers-2',
           title: 'Questions & Answers 2',
-          description: 'Placeholder content for Questions & Answers 2',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers2 data={questionsAnswers2Data as any} />
         },
         {
           id: 'questions-answers-3',
           title: 'Questions & Answers 3',
-          description: 'Placeholder content for Questions & Answers 3',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers3 data={questionsAnswers3Data as any} />
         },
         {
           id: 'questions-answers-4',
           title: 'Questions & Answers 4',
-          description: 'Placeholder content for Questions & Answers 4',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers4 data={questionsAnswers4Data as any} />
         },
         {
           id: 'questions-answers-5',
           title: 'Questions & Answers 5',
-          description: 'Placeholder content for Questions & Answers 5',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers5 data={questionsAnswers5Data as any} />
         },
         {
           id: 'questions-answers-6',
           title: 'Questions & Answers 6',
-          description: 'Placeholder content for Questions & Answers 6',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers6 data={questionsAnswers6Data as any} />
         },
         {
           id: 'questions-answers-7',
           title: 'Questions & Answers 7',
-          description: 'Placeholder content for Questions & Answers 7',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers7 data={questionsAnswers7Data as any} />
         },
         {
           id: 'questions-answers-8',
           title: 'Questions & Answers 8',
-          description: 'Placeholder content for Questions & Answers 8',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers8 data={questionsAnswers8Data as any} />
         },
         {
           id: 'questions-answers-9',
           title: 'Questions & Answers 9',
-          description: 'Placeholder content for Questions & Answers 9',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers9 data={questionsAnswers9Data as any} />
         },
         {
           id: 'questions-answers-10',
           title: 'Questions & Answers 10',
-          description: 'Placeholder content for Questions & Answers 10',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers10 data={questionsAnswers10Data as any} />
         },
         {
           id: 'questions-answers-11',
           title: 'Questions & Answers 11',
-          description: 'Placeholder content for Questions & Answers 11',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers11 data={questionsAnswers11Data as any} />
         },
         {
           id: 'questions-answers-12',
           title: 'Questions & Answers 12',
-          description: 'Placeholder content for Questions & Answers 12',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers12 data={questionsAnswers12Data as any} />
         },
         {
           id: 'questions-answers-13',
           title: 'Questions & Answers 13',
-          description: 'Placeholder content for Questions & Answers 13',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers13 data={questionsAnswers13Data as any} />
         },
         {
           id: 'questions-answers-14',
           title: 'Questions & Answers 14',
-          description: 'Placeholder content for Questions & Answers 14',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers14 data={questionsAnswers14Data as any} />
         },
         {
           id: 'questions-answers-15',
           title: 'Questions & Answers 15',
-          description: 'Placeholder content for Questions & Answers 15',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers15 data={questionsAnswers15Data as any} />
         },
         {
           id: 'questions-answers-16',
           title: 'Questions & Answers 16',
-          description: 'Placeholder content for Questions & Answers 16',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers16 data={questionsAnswers16Data as any} />
         },
         {
           id: 'questions-answers-17',
           title: 'Questions & Answers 17',
-          description: 'Placeholder content for Questions & Answers 17',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers17 data={questionsAnswers17Data as any} />
         },
         {
           id: 'questions-answers-18',
           title: 'Questions & Answers 18',
-          description: 'Placeholder content for Questions & Answers 18',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers18 data={questionsAnswers18Data as any} />
         },
         {
           id: 'questions-answers-19',
           title: 'Questions & Answers 19',
-          description: 'Placeholder content for Questions & Answers 19',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers19 data={questionsAnswers19Data as any} />
         },
         {
           id: 'questions-answers-20',
           title: 'Questions & Answers 20',
-          description: 'Placeholder content for Questions & Answers 20',
+          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
           previewComponent: <QuestionsAnswers20 data={questionsAnswers20Data as any} />
         }
       ] :
@@ -8050,121 +8050,121 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'product-faq-1',
           title: 'Product FAQ 1',
-          description: 'Placeholder content for Product FAQ 1',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq1 data={productFaq1Data as any} />
         },
         {
           id: 'product-faq-2',
           title: 'Product FAQ 2',
-          description: 'Placeholder content for Product FAQ 2',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq2 data={productFaq2Data as any} />
         },
         {
           id: 'product-faq-3',
           title: 'Product FAQ 3',
-          description: 'Placeholder content for Product FAQ 3',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq3 data={productFaq3Data as any} />
         },
         {
           id: 'product-faq-4',
           title: 'Product FAQ 4',
-          description: 'Placeholder content for Product FAQ 4',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq4 data={productFaq4Data as any} />
         },
         {
           id: 'product-faq-5',
           title: 'Product FAQ 5',
-          description: 'Placeholder content for Product FAQ 5',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq5 data={productFaq5Data as any} />
         },
         {
           id: 'product-faq-6',
           title: 'Product FAQ 6',
-          description: 'Placeholder content for Product FAQ 6',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq6 data={productFaq6Data as any} />
         },
         {
           id: 'product-faq-7',
           title: 'Product FAQ 7',
-          description: 'Placeholder content for Product FAQ 7',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq7 data={productFaq7Data as any} />
         },
         {
           id: 'product-faq-8',
           title: 'Product FAQ 8',
-          description: 'Placeholder content for Product FAQ 8',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq8 data={productFaq8Data as any} />
         },
         {
           id: 'product-faq-9',
           title: 'Product FAQ 9',
-          description: 'Placeholder content for Product FAQ 9',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq9 data={productFaq9Data as any} />
         },
         {
           id: 'product-faq-10',
           title: 'Product FAQ 10',
-          description: 'Placeholder content for Product FAQ 10',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq10 data={productFaq10Data as any} />
         },
         {
           id: 'product-faq-11',
           title: 'Product FAQ 11',
-          description: 'Placeholder content for Product FAQ 11',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq11 data={productFaq11Data as any} />
         },
         {
           id: 'product-faq-12',
           title: 'Product FAQ 12',
-          description: 'Placeholder content for Product FAQ 12',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq12 data={productFaq12Data as any} />
         },
         {
           id: 'product-faq-13',
           title: 'Product FAQ 13',
-          description: 'Placeholder content for Product FAQ 13',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq13 data={productFaq13Data as any} />
         },
         {
           id: 'product-faq-14',
           title: 'Product FAQ 14',
-          description: 'Placeholder content for Product FAQ 14',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq14 data={productFaq14Data as any} />
         },
         {
           id: 'product-faq-15',
           title: 'Product FAQ 15',
-          description: 'Placeholder content for Product FAQ 15',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq15 data={productFaq15Data as any} />
         },
         {
           id: 'product-faq-16',
           title: 'Product FAQ 16',
-          description: 'Placeholder content for Product FAQ 16',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq16 data={productFaq16Data as any} />
         },
         {
           id: 'product-faq-17',
           title: 'Product FAQ 17',
-          description: 'Placeholder content for Product FAQ 17',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq17 data={productFaq17Data as any} />
         },
         {
           id: 'product-faq-18',
           title: 'Product FAQ 18',
-          description: 'Placeholder content for Product FAQ 18',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq18 data={productFaq18Data as any} />
         },
         {
           id: 'product-faq-19',
           title: 'Product FAQ 19',
-          description: 'Placeholder content for Product FAQ 19',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq19 data={productFaq19Data as any} />
         },
         {
           id: 'product-faq-20',
           title: 'Product FAQ 20',
-          description: 'Placeholder content for Product FAQ 20',
+          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
           previewComponent: <ProductFaq20 data={productFaq20Data as any} />
         }
       ] :
@@ -8172,121 +8172,121 @@ export function SectionLibraryGrid({ category }: GridProps) {
         {
           id: 'brand-information-1',
           title: 'Brand Information 1',
-          description: 'Placeholder content for Brand Information 1',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation1 data={brandInformation1Data as any} />
         },
         {
           id: 'brand-information-2',
           title: 'Brand Information 2',
-          description: 'Placeholder content for Brand Information 2',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation2 data={brandInformation2Data as any} />
         },
         {
           id: 'brand-information-3',
           title: 'Brand Information 3',
-          description: 'Placeholder content for Brand Information 3',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation3 data={brandInformation3Data as any} />
         },
         {
           id: 'brand-information-4',
           title: 'Brand Information 4',
-          description: 'Placeholder content for Brand Information 4',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation4 data={brandInformation4Data as any} />
         },
         {
           id: 'brand-information-5',
           title: 'Brand Information 5',
-          description: 'Placeholder content for Brand Information 5',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation5 data={brandInformation5Data as any} />
         },
         {
           id: 'brand-information-6',
           title: 'Brand Information 6',
-          description: 'Placeholder content for Brand Information 6',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation6 data={brandInformation6Data as any} />
         },
         {
           id: 'brand-information-7',
           title: 'Brand Information 7',
-          description: 'Placeholder content for Brand Information 7',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation7 data={brandInformation7Data as any} />
         },
         {
           id: 'brand-information-8',
           title: 'Brand Information 8',
-          description: 'Placeholder content for Brand Information 8',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation8 data={brandInformation8Data as any} />
         },
         {
           id: 'brand-information-9',
           title: 'Brand Information 9',
-          description: 'Placeholder content for Brand Information 9',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation9 data={brandInformation9Data as any} />
         },
         {
           id: 'brand-information-10',
           title: 'Brand Information 10',
-          description: 'Placeholder content for Brand Information 10',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation10 data={brandInformation10Data as any} />
         },
         {
           id: 'brand-information-11',
           title: 'Brand Information 11',
-          description: 'Placeholder content for Brand Information 11',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation11 data={brandInformation11Data as any} />
         },
         {
           id: 'brand-information-12',
           title: 'Brand Information 12',
-          description: 'Placeholder content for Brand Information 12',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation12 data={brandInformation12Data as any} />
         },
         {
           id: 'brand-information-13',
           title: 'Brand Information 13',
-          description: 'Placeholder content for Brand Information 13',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation13 data={brandInformation13Data as any} />
         },
         {
           id: 'brand-information-14',
           title: 'Brand Information 14',
-          description: 'Placeholder content for Brand Information 14',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation14 data={brandInformation14Data as any} />
         },
         {
           id: 'brand-information-15',
           title: 'Brand Information 15',
-          description: 'Placeholder content for Brand Information 15',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation15 data={brandInformation15Data as any} />
         },
         {
           id: 'brand-information-16',
           title: 'Brand Information 16',
-          description: 'Placeholder content for Brand Information 16',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation16 data={brandInformation16Data as any} />
         },
         {
           id: 'brand-information-17',
           title: 'Brand Information 17',
-          description: 'Placeholder content for Brand Information 17',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation17 data={brandInformation17Data as any} />
         },
         {
           id: 'brand-information-18',
           title: 'Brand Information 18',
-          description: 'Placeholder content for Brand Information 18',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation18 data={brandInformation18Data as any} />
         },
         {
           id: 'brand-information-19',
           title: 'Brand Information 19',
-          description: 'Placeholder content for Brand Information 19',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation19 data={brandInformation19Data as any} />
         },
         {
           id: 'brand-information-20',
           title: 'Brand Information 20',
-          description: 'Placeholder content for Brand Information 20',
+          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
           previewComponent: <BrandInformation20 data={brandInformation20Data as any} />
         }
       ] : [];
@@ -8351,3 +8351,6 @@ export function SectionLibraryGrid({ category }: GridProps) {
     </div>
   );
 }
+
+// Force HMR reload 1790664817350
+// Force HMR reload 1790665112221\n// Cache bust 1790665804614\n// Cache bust 1790666530251\n// Cache bust sg11-20 1790666736421

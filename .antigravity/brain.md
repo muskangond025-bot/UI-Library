@@ -38,3 +38,14 @@ interface SectionProps {
   };
 }
 ```
+## Metadata Synchronization — Mandatory
+
+Section metadata must always describe the actual rendered
+implementation.
+
+Whenever a section's design, animation, interaction, or visual
+concept changes, its metadata must be reviewed and updated.
+
+Never leave stale design or animation descriptions.
+
+The rendered component is the source of truth.
