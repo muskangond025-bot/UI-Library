@@ -1,30 +1,14 @@
 const fs = require('fs');
 const path = require('path');
 
-function processFile(filepath) {
-    let content = fs.readFileSync(filepath, 'utf8');
-    let original = content;
-
-    // Fix the broken return () => ; syntax error
-    content = content.replace(/return\s*\(\)\s*=>\s*;/g, 'return () => {};');
-
-    if (content !== original) {
-        fs.writeFileSync(filepath, content, 'utf8');
-        console.log(`Fixed syntax in ${filepath}`);
-    }
+for (let i = 11; i <= 20; i++) {
+  const p = path.join('c:/UI Library/src/components/sections/product/15-frequently-bought-together', 'frequently-bought-together-' + i, 'FrequentlyBoughtTogether' + i + '.tsx');
+  if (fs.existsSync(p)) {
+    let content = fs.readFileSync(p, 'utf8');
+    // Replace \$`\${...}` with \${...}
+    content = content.replace(/\$`\$\{([^}]+)\}`/g, '$$${$1}');
+    content = content.replace(/\+\$`\$\{([^}]+)\}`/g, '+$$${$1}');
+    fs.writeFileSync(p, content, 'utf8');
+    console.log('Fixed', i);
+  }
 }
-
-function walk(dir) {
-    const files = fs.readdirSync(dir);
-    for (const file of files) {
-        const fullPath = path.join(dir, file);
-        if (fs.statSync(fullPath).isDirectory()) {
-            walk(fullPath);
-        } else if (fullPath.endsWith('.tsx') || fullPath.endsWith('.ts')) {
-            processFile(fullPath);
-        }
-    }
-}
-
-walk('c:/UI Library/src/components/sections');
-console.log('Done syntax fix');

@@ -2785,7 +2785,7 @@ export function SectionLibraryGrid({ category }: GridProps) {
   ];
 
   const getSectionsForCategory = (category: string) => {
-    return category === 'hero' 
+    return category === 'shipping-delivery-information' ? [{ id: 'shipping-delivery-information-1', title: 'GLASS ICON GRID', description: 'A futuristic global shipping grid using ReactBits style glass icons that pop with a glow on hover.', previewComponent: <ShippingDeliveryInformation1 data={shippingDeliveryInformation1Data} /> }, { id: 'shipping-delivery-information-2', title: 'PORTAL REVEAL HERO', description: 'A stunning portal animation where the screen parts open to reveal a full-bleed background image with express delivery details.', previewComponent: <ShippingDeliveryInformation2 data={shippingDeliveryInformation2Data} /> }, { id: 'shipping-delivery-information-3', title: 'INFINITE MARQUEE TAPE', description: 'A diagonal, brutalist infinite scrolling ticker tape delivering shipping highlights on an endless loop.', previewComponent: <ShippingDeliveryInformation3 data={shippingDeliveryInformation3Data} /> }, { id: 'shipping-delivery-information-4', title: 'TYPOGRAPHIC DESTINATIONS', description: 'A minimalist TypeUI-inspired destination selector featuring massive typography and sleek cross-fade state transitions.', previewComponent: <ShippingDeliveryInformation4 data={shippingDeliveryInformation4Data} /> }, { id: 'shipping-delivery-information-5', title: 'ANIMATED ROUTE ARC', description: 'A visual route tracker that literally draws an arc connecting the warehouse to your door as you scroll down.', previewComponent: <ShippingDeliveryInformation5 data={shippingDeliveryInformation5Data} /> }, { id: 'shipping-delivery-information-6', title: '3D BOX UNBOXING', description: 'An interactive unboxing experience. Hover over the card to pop open the top flaps of the 3D box.', previewComponent: <ShippingDeliveryInformation6 data={shippingDeliveryInformation6Data} /> }, { id: 'shipping-delivery-information-7', title: 'STEPPER TIMELINE', description: 'An elegant step-by-step delivery journey that connects each phase with an animated blue progress line.', previewComponent: <ShippingDeliveryInformation7 data={shippingDeliveryInformation7Data} /> }, { id: 'shipping-delivery-information-8', title: 'ESTIMATOR CALCULATOR', description: 'An interactive shipping estimator tool featuring input animations and a delayed celebration toast on success.', previewComponent: <ShippingDeliveryInformation8 data={shippingDeliveryInformation8Data} /> }, { id: 'shipping-delivery-information-9', title: 'DRIVING TRUCK TOY', description: 'A playful hover micro-interaction where a delivery truck hits the gas and bumps along an animated road.', previewComponent: <ShippingDeliveryInformation9 data={shippingDeliveryInformation9Data} /> }, { id: 'shipping-delivery-information-10', title: 'PACKING SLIP RECEIPT', description: 'A skeuomorphic design featuring a printed packing slip that physically slides out of an envelope when in view.', previewComponent: <ShippingDeliveryInformation10 data={shippingDeliveryInformation10Data} /> }, { id: "shipping-delivery-information-11", title: "SCROLL-LINKED PROGRESS MAP", description: "A dotted map where scroll-linked progress fills the path connecting global nodes.", previewComponent: <ShippingDeliveryInformation11 data={shippingDeliveryInformation11Data as any} /> }, { id: "shipping-delivery-information-12", title: "3D INTERACTIVE CARD FLIP", description: "A shipping label that can be flipped in 3D to reveal the return policy on the back.", previewComponent: <ShippingDeliveryInformation12 data={shippingDeliveryInformation12Data as any} /> }, { id: "shipping-delivery-information-13", title: "STAGGERED TRACKING LIST", description: "A list of tracking events that enters with a staggered blur and slide animation.", previewComponent: <ShippingDeliveryInformation13 data={shippingDeliveryInformation13Data as any} /> }, { id: "shipping-delivery-information-14", title: "FLOATING ACTION BUTTON EXPAND", description: "A circular shipping icon that elegantly expands into a full delivery details panel when clicked.", previewComponent: <ShippingDeliveryInformation14 data={shippingDeliveryInformation14Data as any} /> }, { id: "shipping-delivery-information-15", title: "SWIPE-TO-CONFIRM DELIVERY", description: "An interactive slider simulation for swipe to receive or confirm delivery.", previewComponent: <ShippingDeliveryInformation15 data={shippingDeliveryInformation15Data as any} /> }, { id: "shipping-delivery-information-16", title: "CURSOR-BASED SPOTLIGHT REVEAL", description: "A dark card where the users cursor acts as a flashlight to reveal a classified map underneath.", previewComponent: <ShippingDeliveryInformation16 data={shippingDeliveryInformation16Data as any} /> }, { id: "shipping-delivery-information-17", title: "DYNAMIC SKELETON LOADER", description: "A beautiful skeleton loader that morphs directly into a delivery manifest layout.", previewComponent: <ShippingDeliveryInformation17 data={shippingDeliveryInformation17Data as any} /> }, { id: "shipping-delivery-information-18", title: "PARALLAX LAYERS DELIVERY VAN", description: "A multi-layered parallax scrolling effect of a delivery van driving through a city.", previewComponent: <ShippingDeliveryInformation18 data={shippingDeliveryInformation18Data as any} /> }, { id: "shipping-delivery-information-19", title: "HORIZONTAL ACCORDION", description: "Expanding horizontal accordion columns to beautifully display different shipping tiers.", previewComponent: <ShippingDeliveryInformation19 data={shippingDeliveryInformation19Data as any} /> }, { id: "shipping-delivery-information-20", title: "SCROLL SCRUBBER OR DRAGGABLE INDICATOR", description: "A vertical timeline with a draggable progress indicator to see different shipping phases.", previewComponent: <ShippingDeliveryInformation20 data={shippingDeliveryInformation20Data as any} /> }] : category === 'hero' 
     ? [...baseHeroSections, ...placeholderHeroSections] 
     : category === 'promotional'
     ? [...basePromotionalSections, ...placeholderPromotionalSections]
@@ -6341,306 +6341,306 @@ export function SectionLibraryGrid({ category }: GridProps) {
     category === 'product-care' ? [
         {
           id: 'product-care-1',
-          title: 'Product Care 1',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: 'DARK GLASSMORPHISM GRID',
+          description: 'A sleek, dark glassmorphism grid with framer-motion hover animations and subtle radial gradients.',
           previewComponent: <ProductCare1 data={productCare1Data as any} />
         },
         {
           id: 'product-care-2',
-          title: 'Product Care 2',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: 'SCROLL REVEAL TYPOGRAPHY',
+          description: 'A typography-heavy design featuring scroll-based word reveal animations and a dynamic progress bar.',
           previewComponent: <ProductCare2 data={productCare2Data as any} />
         },
         {
           id: 'product-care-3',
-          title: 'Product Care 3',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: 'ANIMATED TABS',
+          description: 'An interactive tabbed folder layout with a deep blue theme and smooth content crossfade transitions.',
           previewComponent: <ProductCare3 data={productCare3Data as any} />
         },
         {
           id: 'product-care-4',
-          title: 'Product Care 4',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: 'PARALLAX PORTAL HERO',
+          description: 'A vibrant, gradient-background design with scroll-driven parallax blur effects inspired by portal hero designs.',
           previewComponent: <ProductCare4 data={productCare4Data as any} />
         },
         {
           id: 'product-care-5',
-          title: 'Product Care 5',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: 'HOVER ELEVATION CARDS',
+          description: "An emerald-themed Do's and Don'ts layout with spring-based entry animations and floating hover elevation.",
           previewComponent: <ProductCare5 data={productCare5Data as any} />
         },
         {
           id: 'product-care-6',
-          title: 'Product Care 6',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: 'GLOWING BORDER CARD',
+          description: 'A premium card with a dynamic glowing gradient border effect and expandable text on hover.',
           previewComponent: <ProductCare6 data={productCare6Data as any} />
         },
         {
           id: 'product-care-7',
-          title: 'Product Care 7',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: 'STAGGERED TEXT REVEAL',
+          description: 'A bold, high-contrast quick-start guide featuring staggered text and line reveal animations.',
           previewComponent: <ProductCare7 data={productCare7Data as any} />
         },
         {
           id: 'product-care-8',
-          title: 'Product Care 8',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: 'SPRING SPLIT CARDS',
+          description: 'A clean split-card layout highlighting warnings and support with responsive spring hover animations.',
           previewComponent: <ProductCare8 data={productCare8Data as any} />
         },
         {
           id: 'product-care-9',
-          title: 'Product Care 9',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: 'ELEGANT FADE LIST',
+          description: 'A minimalist list with elegant, staggered fade-in animations for care instructions and material content.',
           previewComponent: <ProductCare9 data={productCare9Data as any} />
         },
         {
           id: 'product-care-10',
-          title: 'Product Care 10',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: 'FLUID ACCORDION',
+          description: 'A beautifully animated fluid accordion dropdown utilizing Framer Motion for smooth height and padding transitions.',
           previewComponent: <ProductCare10 data={productCare10Data as any} />
         },
         {
           id: 'product-care-11',
-          title: 'Product Care 11',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: 'CURSOR FOLLOWER GLOW',
+          description: 'A dark layout featuring a custom cursor follower with glow and blur effects responding to mouse movement.',
           previewComponent: <ProductCare11 data={productCare11Data as any} />
         },
         {
           id: 'product-care-12',
-          title: 'Product Care 12',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: 'HAPTIC CHECKLIST',
+          description: 'An interactive checklist with micro-interactions, layout transitions on tap, and simulated haptic shake error feedback.',
           previewComponent: <ProductCare12 data={productCare12Data as any} />
         },
         {
           id: 'product-care-13',
-          title: 'Product Care 13',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: '3D PARALLAX TILT',
+          description: 'A stunning 3D perspective layout with parallax tilt effects and glowing elements that follow your cursor.',
           previewComponent: <ProductCare13 data={productCare13Data as any} />
         },
         {
           id: 'product-care-14',
-          title: 'Product Care 14',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: 'SHARED ELEMENT MATCHED-MOTION',
+          description: 'Clicking a grid item seamlessly expands it into a full overlay card using Shared-Element matched-motion transitions.',
           previewComponent: <ProductCare14 data={productCare14Data as any} />
         },
         {
           id: 'product-care-15',
-          title: 'Product Care 15',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: 'CINEMATIC SEQUENCE & NOISE',
+          description: 'An edgy cinematic sequence with a pulsating blur effect and a background static noise layer.',
           previewComponent: <ProductCare15 data={productCare15Data as any} />
         },
         {
           id: 'product-care-16',
-          title: 'Product Care 16',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: 'STEPPER ANIMATION',
+          description: 'A multi-step form flow animation with a dynamic progress bar and smooth horizontal slide transitions.',
           previewComponent: <ProductCare16 data={productCare16Data as any} />
         },
         {
           id: 'product-care-17',
-          title: 'Product Care 17',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: 'THEME TRANSITION',
+          description: 'A playful component showcasing a smooth, gradual transition between light and dark modes with color interpolation.',
           previewComponent: <ProductCare17 data={productCare17Data as any} />
         },
         {
           id: 'product-care-18',
-          title: 'Product Care 18',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: 'SKELETON TO DATA MORPH',
+          description: 'A realistic simulation of a loading state with spinner and skeleton placeholders that gracefully transition into actual data.',
           previewComponent: <ProductCare18 data={productCare18Data as any} />
         },
         {
           id: 'product-care-19',
-          title: 'Product Care 19',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: 'EMPTY STATE HOVER DISTORTION',
+          description: 'An empty state card surrounded by animated SVG blobs featuring 3D hover distortion effects.',
           previewComponent: <ProductCare19 data={productCare19Data as any} />
         },
         {
           id: 'product-care-20',
-          title: 'Product Care 20',
-          description: 'Comprehensive instructions for product care, cleaning, maintenance, and handling information.',
+          title: 'SCROLL PROGRESS PARALLAX',
+          description: 'A dramatic scroll-linked parallax layout where typography enters sequentially accompanied by a top scroll progress bar.',
           previewComponent: <ProductCare20 data={productCare20Data as any} />
         }
       ] :
     category === 'warranty-information' ? [
         {
           id: 'warranty-information-1',
-          title: 'Warranty Information 1',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: 'PORTAL HERO WARRANTY',
+          description: 'A stunning hero section with radial portal gradient, glassmorphic shield icon, and button slide animation.',
           previewComponent: <WarrantyInformation1 data={warrantyInformation1Data as any} />
         },
         {
           id: 'warranty-information-2',
-          title: 'Warranty Information 2',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: 'PARALLAX NUMBER REVEAL',
+          description: 'Massive background numbers that move in opposite directions on scroll, combined with an animated progress bar.',
           previewComponent: <WarrantyInformation2 data={warrantyInformation2Data as any} />
         },
         {
           id: 'warranty-information-3',
-          title: 'Warranty Information 3',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: 'TABBED COVERAGE VIEWER',
+          description: 'An interactive tab layout with a fluid active indicator and smooth crossfade text transitions.',
           previewComponent: <WarrantyInformation3 data={warrantyInformation3Data as any} />
         },
         {
           id: 'warranty-information-4',
-          title: 'Warranty Information 4',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: 'ROTATING TEXT REVEAL',
+          description: 'A bold satisfaction guarantee with text that flips into view from the bottom using spring physics.',
           previewComponent: <WarrantyInformation4 data={warrantyInformation4Data as any} />
         },
         {
           id: 'warranty-information-5',
-          title: 'Warranty Information 5',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: 'TIMELINE STEPS',
+          description: 'A step-by-step repair process with staggered entrance animations and hover states that reveal background glow.',
           previewComponent: <WarrantyInformation5 data={warrantyInformation5Data as any} />
         },
         {
           id: 'warranty-information-6',
-          title: 'Warranty Information 6',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: 'SMOOTH ACCORDION FAQ',
+          description: 'An accordion FAQ section with smooth height/opacity transitions and rotating plus/minus icons.',
           previewComponent: <WarrantyInformation6 data={warrantyInformation6Data as any} />
         },
         {
           id: 'warranty-information-7',
-          title: 'Warranty Information 7',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: 'STAGGERED LIST',
+          description: 'A staggered list entrance animation with blurred initial states, set inside an elegant editorial card layout.',
           previewComponent: <WarrantyInformation7 data={warrantyInformation7Data as any} />
         },
         {
           id: 'warranty-information-8',
-          title: 'Warranty Information 8',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: 'HOVER REVEAL CARD',
+          description: 'A 5-year warranty badge card that expands vertically to reveal more details and a subtle gradient on hover.',
           previewComponent: <WarrantyInformation8 data={warrantyInformation8Data as any} />
         },
         {
           id: 'warranty-information-9',
-          title: 'Warranty Information 9',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: '3D PERSPECTIVE GLOBAL',
+          description: 'A global warranty card utilizing 3D perspective scroll animations with scale, rotateX, and opacity transforms.',
           previewComponent: <WarrantyInformation9 data={warrantyInformation9Data as any} />
         },
         {
           id: 'warranty-information-10',
-          title: 'Warranty Information 10',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: 'LOADING CERTIFICATE',
+          description: 'A two-step animation simulating a loading spinner that transitions into a beautifully rendered warranty certificate.',
           previewComponent: <WarrantyInformation10 data={warrantyInformation10Data as any} />
         },
         {
           id: 'warranty-information-11',
-          title: 'Warranty Information 11',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: 'SPINNER ENTRANCE CARD',
+          description: 'A clean entrance animation with a springy load spinner that rotates on hover.',
           previewComponent: <WarrantyInformation11 data={warrantyInformation11Data as any} />
         },
         {
           id: 'warranty-information-12',
-          title: 'Warranty Information 12',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: 'SCROLL-LINKED PROGRESS',
+          description: 'A claim progress tracker that links the final step completion animation directly to your scroll position.',
           previewComponent: <WarrantyInformation12 data={warrantyInformation12Data as any} />
         },
         {
           id: 'warranty-information-13',
-          title: 'Warranty Information 13',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: 'STACKED CARDS HOVER',
+          description: 'A visually stacked deck of coverage cards that fan out and expand upwards gracefully when hovered.',
           previewComponent: <WarrantyInformation13 data={warrantyInformation13Data as any} />
         },
         {
           id: 'warranty-information-14',
-          title: 'Warranty Information 14',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: 'CURSOR FOLLOW 3D TILT',
+          description: 'A highly interactive card that tilts in 3D space tracking the mouse, accompanied by a glowing cursor follower.',
           previewComponent: <WarrantyInformation14 data={warrantyInformation14Data as any} />
         },
         {
           id: 'warranty-information-15',
-          title: 'Warranty Information 15',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: 'PULSING NOISE BACKGROUND',
+          description: 'An editorial design with a grainy background and a pulsing, infinite-looping 10-year guarantee badge.',
           previewComponent: <WarrantyInformation15 data={warrantyInformation15Data as any} />
         },
         {
           id: 'warranty-information-16',
-          title: 'Warranty Information 16',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: 'SWIPE TO DELETE SIMULATION',
+          description: 'A micro-interaction replicating a swipe-to-delete gesture, leading to an animated success confirmation state.',
           previewComponent: <WarrantyInformation16 data={warrantyInformation16Data as any} />
         },
         {
           id: 'warranty-information-17',
-          title: 'Warranty Information 17',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: '3D PERSPECTIVE FLIP',
+          description: 'An elegant premium coverage card that enters with a 3D flip and preserves 3D transforms for hovering depth.',
           previewComponent: <WarrantyInformation17 data={warrantyInformation17Data as any} />
         },
         {
           id: 'warranty-information-18',
-          title: 'Warranty Information 18',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: 'RIPPLE DOWNLOAD BUTTON',
+          description: 'An infinite pulsing ripple background surrounding a download button that bounces playfully on tap.',
           previewComponent: <WarrantyInformation18 data={warrantyInformation18Data as any} />
         },
         {
           id: 'warranty-information-19',
-          title: 'Warranty Information 19',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: 'COPY TO CLIPBOARD FEEDBACK',
+          description: 'A support PIN feature that reveals a floating "Copied!" notification with an animated countdown expiry bar.',
           previewComponent: <WarrantyInformation19 data={warrantyInformation19Data as any} />
         },
         {
           id: 'warranty-information-20',
-          title: 'Warranty Information 20',
-          description: 'Detailed breakdown of warranty coverage, duration, warranty terms, and support information.',
+          title: 'SCROLL DRAW SVG',
+          description: 'A certified protection seal where the SVG path for the checkmark is physically drawn onto the screen as you scroll.',
           previewComponent: <WarrantyInformation20 data={warrantyInformation20Data as any} />
         }
       ] :
     category === 'shipping-delivery-information' ? [
         {
           id: 'shipping-delivery-information-1',
-          title: 'Shipping & Delivery Information 1',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: 'GLASS ICON GRID',
+          description: 'A futuristic global shipping grid using ReactBits style glass icons that pop with a glow on hover.',
           previewComponent: <ShippingDeliveryInformation1 data={shippingDeliveryInformation1Data as any} />
         },
         {
           id: 'shipping-delivery-information-2',
-          title: 'Shipping & Delivery Information 2',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: 'PORTAL REVEAL HERO',
+          description: 'A stunning portal animation where the screen parts open to reveal a full-bleed background image with express delivery details.',
           previewComponent: <ShippingDeliveryInformation2 data={shippingDeliveryInformation2Data as any} />
         },
         {
           id: 'shipping-delivery-information-3',
-          title: 'Shipping & Delivery Information 3',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: 'INFINITE MARQUEE TAPE',
+          description: 'A diagonal, brutalist infinite scrolling ticker tape delivering shipping highlights on an endless loop.',
           previewComponent: <ShippingDeliveryInformation3 data={shippingDeliveryInformation3Data as any} />
         },
         {
           id: 'shipping-delivery-information-4',
-          title: 'Shipping & Delivery Information 4',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: 'TYPOGRAPHIC DESTINATIONS',
+          description: 'A minimalist TypeUI-inspired destination selector featuring massive typography and sleek cross-fade state transitions.',
           previewComponent: <ShippingDeliveryInformation4 data={shippingDeliveryInformation4Data as any} />
         },
         {
           id: 'shipping-delivery-information-5',
-          title: 'Shipping & Delivery Information 5',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: 'ANIMATED ROUTE ARC',
+          description: 'A visual route tracker that literally draws an arc connecting the warehouse to your door as you scroll down.',
           previewComponent: <ShippingDeliveryInformation5 data={shippingDeliveryInformation5Data as any} />
         },
         {
           id: 'shipping-delivery-information-6',
-          title: 'Shipping & Delivery Information 6',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: '3D BOX UNBOXING',
+          description: 'An interactive unboxing experience. Hover over the card to pop open the top flaps of the 3D box.',
           previewComponent: <ShippingDeliveryInformation6 data={shippingDeliveryInformation6Data as any} />
         },
         {
           id: 'shipping-delivery-information-7',
-          title: 'Shipping & Delivery Information 7',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: 'STEPPER TIMELINE',
+          description: 'An elegant step-by-step delivery journey that connects each phase with an animated blue progress line.',
           previewComponent: <ShippingDeliveryInformation7 data={shippingDeliveryInformation7Data as any} />
         },
         {
           id: 'shipping-delivery-information-8',
-          title: 'Shipping & Delivery Information 8',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: 'ESTIMATOR CALCULATOR',
+          description: 'An interactive shipping estimator tool featuring input animations and a delayed celebration toast on success.',
           previewComponent: <ShippingDeliveryInformation8 data={shippingDeliveryInformation8Data as any} />
         },
         {
           id: 'shipping-delivery-information-9',
-          title: 'Shipping & Delivery Information 9',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: 'DRIVING TRUCK TOY',
+          description: 'A playful hover micro-interaction where a delivery truck hits the gas and bumps along an animated road.',
           previewComponent: <ShippingDeliveryInformation9 data={shippingDeliveryInformation9Data as any} />
         },
         {
           id: 'shipping-delivery-information-10',
-          title: 'Shipping & Delivery Information 10',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: 'PACKING SLIP RECEIPT',
+          description: 'A skeuomorphic design featuring a printed packing slip that physically slides out of an envelope when in view.',
           previewComponent: <ShippingDeliveryInformation10 data={shippingDeliveryInformation10Data as any} />
         },
         {
@@ -6704,372 +6704,9 @@ export function SectionLibraryGrid({ category }: GridProps) {
           previewComponent: <ShippingDeliveryInformation20 data={shippingDeliveryInformation20Data as any} />
         }
       ] :
-    category === 'return-refund-information' ? [
-        {
-          id: 'return-refund-information-1',
-          title: 'Return & Refund Information 1',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation1 data={returnRefundInformation1Data as any} />
-        },
-        {
-          id: 'return-refund-information-2',
-          title: 'Return & Refund Information 2',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation2 data={returnRefundInformation2Data as any} />
-        },
-        {
-          id: 'return-refund-information-3',
-          title: 'Return & Refund Information 3',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation3 data={returnRefundInformation3Data as any} />
-        },
-        {
-          id: 'return-refund-information-4',
-          title: 'Return & Refund Information 4',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation4 data={returnRefundInformation4Data as any} />
-        },
-        {
-          id: 'return-refund-information-5',
-          title: 'Return & Refund Information 5',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation5 data={returnRefundInformation5Data as any} />
-        },
-        {
-          id: 'return-refund-information-6',
-          title: 'Return & Refund Information 6',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation6 data={returnRefundInformation6Data as any} />
-        },
-        {
-          id: 'return-refund-information-7',
-          title: 'Return & Refund Information 7',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation7 data={returnRefundInformation7Data as any} />
-        },
-        {
-          id: 'return-refund-information-8',
-          title: 'Return & Refund Information 8',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation8 data={returnRefundInformation8Data as any} />
-        },
-        {
-          id: 'return-refund-information-9',
-          title: 'Return & Refund Information 9',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation9 data={returnRefundInformation9Data as any} />
-        },
-        {
-          id: 'return-refund-information-10',
-          title: 'Return & Refund Information 10',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation10 data={returnRefundInformation10Data as any} />
-        },
-        {
-          id: 'return-refund-information-11',
-          title: 'Return & Refund Information 11',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation11 data={returnRefundInformation11Data as any} />
-        },
-        {
-          id: 'return-refund-information-12',
-          title: 'Return & Refund Information 12',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation12 data={returnRefundInformation12Data as any} />
-        },
-        {
-          id: 'return-refund-information-13',
-          title: 'Return & Refund Information 13',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation13 data={returnRefundInformation13Data as any} />
-        },
-        {
-          id: 'return-refund-information-14',
-          title: 'Return & Refund Information 14',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation14 data={returnRefundInformation14Data as any} />
-        },
-        {
-          id: 'return-refund-information-15',
-          title: 'Return & Refund Information 15',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation15 data={returnRefundInformation15Data as any} />
-        },
-        {
-          id: 'return-refund-information-16',
-          title: 'Return & Refund Information 16',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation16 data={returnRefundInformation16Data as any} />
-        },
-        {
-          id: 'return-refund-information-17',
-          title: 'Return & Refund Information 17',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation17 data={returnRefundInformation17Data as any} />
-        },
-        {
-          id: 'return-refund-information-18',
-          title: 'Return & Refund Information 18',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation18 data={returnRefundInformation18Data as any} />
-        },
-        {
-          id: 'return-refund-information-19',
-          title: 'Return & Refund Information 19',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation19 data={returnRefundInformation19Data as any} />
-        },
-        {
-          id: 'return-refund-information-20',
-          title: 'Return & Refund Information 20',
-          description: 'Clear explanation of the return policy, refund information, and return conditions/process.',
-          previewComponent: <ReturnRefundInformation20 data={returnRefundInformation20Data as any} />
-        }
-      ] :
-    category === 'payment-information' ? [
-        {
-          id: 'payment-information-1',
-          title: 'Payment Information 1',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation1 data={paymentInformation1Data as any} />
-        },
-        {
-          id: 'payment-information-2',
-          title: 'Payment Information 2',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation2 data={paymentInformation2Data as any} />
-        },
-        {
-          id: 'payment-information-3',
-          title: 'Payment Information 3',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation3 data={paymentInformation3Data as any} />
-        },
-        {
-          id: 'payment-information-4',
-          title: 'Payment Information 4',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation4 data={paymentInformation4Data as any} />
-        },
-        {
-          id: 'payment-information-5',
-          title: 'Payment Information 5',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation5 data={paymentInformation5Data as any} />
-        },
-        {
-          id: 'payment-information-6',
-          title: 'Payment Information 6',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation6 data={paymentInformation6Data as any} />
-        },
-        {
-          id: 'payment-information-7',
-          title: 'Payment Information 7',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation7 data={paymentInformation7Data as any} />
-        },
-        {
-          id: 'payment-information-8',
-          title: 'Payment Information 8',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation8 data={paymentInformation8Data as any} />
-        },
-        {
-          id: 'payment-information-9',
-          title: 'Payment Information 9',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation9 data={paymentInformation9Data as any} />
-        },
-        {
-          id: 'payment-information-10',
-          title: 'Payment Information 10',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation10 data={paymentInformation10Data as any} />
-        },
-        {
-          id: 'payment-information-11',
-          title: 'Payment Information 11',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation11 data={paymentInformation11Data as any} />
-        },
-        {
-          id: 'payment-information-12',
-          title: 'Payment Information 12',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation12 data={paymentInformation12Data as any} />
-        },
-        {
-          id: 'payment-information-13',
-          title: 'Payment Information 13',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation13 data={paymentInformation13Data as any} />
-        },
-        {
-          id: 'payment-information-14',
-          title: 'Payment Information 14',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation14 data={paymentInformation14Data as any} />
-        },
-        {
-          id: 'payment-information-15',
-          title: 'Payment Information 15',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation15 data={paymentInformation15Data as any} />
-        },
-        {
-          id: 'payment-information-16',
-          title: 'Payment Information 16',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation16 data={paymentInformation16Data as any} />
-        },
-        {
-          id: 'payment-information-17',
-          title: 'Payment Information 17',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation17 data={paymentInformation17Data as any} />
-        },
-        {
-          id: 'payment-information-18',
-          title: 'Payment Information 18',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation18 data={paymentInformation18Data as any} />
-        },
-        {
-          id: 'payment-information-19',
-          title: 'Payment Information 19',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation19 data={paymentInformation19Data as any} />
-        },
-        {
-          id: 'payment-information-20',
-          title: 'Payment Information 20',
-          description: 'Overview of accepted payment methods, payment options, and secure payment-related information.',
-          previewComponent: <PaymentInformation20 data={paymentInformation20Data as any} />
-        }
-      ] :
-    category === 'frequently-bought-together' ? [
-        {
-          id: 'frequently-bought-together-1',
-          title: 'Frequently Bought Together 1',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether1 data={frequentlyBoughtTogether1Data as any} />
-        },
-        {
-          id: 'frequently-bought-together-2',
-          title: 'Frequently Bought Together 2',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether2 data={frequentlyBoughtTogether2Data as any} />
-        },
-        {
-          id: 'frequently-bought-together-3',
-          title: 'Frequently Bought Together 3',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether3 data={frequentlyBoughtTogether3Data as any} />
-        },
-        {
-          id: 'frequently-bought-together-4',
-          title: 'Frequently Bought Together 4',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether4 data={frequentlyBoughtTogether4Data as any} />
-        },
-        {
-          id: 'frequently-bought-together-5',
-          title: 'Frequently Bought Together 5',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether5 data={frequentlyBoughtTogether5Data as any} />
-        },
-        {
-          id: 'frequently-bought-together-6',
-          title: 'Frequently Bought Together 6',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether6 data={frequentlyBoughtTogether6Data as any} />
-        },
-        {
-          id: 'frequently-bought-together-7',
-          title: 'Frequently Bought Together 7',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether7 data={frequentlyBoughtTogether7Data as any} />
-        },
-        {
-          id: 'frequently-bought-together-8',
-          title: 'Frequently Bought Together 8',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether8 data={frequentlyBoughtTogether8Data as any} />
-        },
-        {
-          id: 'frequently-bought-together-9',
-          title: 'Frequently Bought Together 9',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether9 data={frequentlyBoughtTogether9Data as any} />
-        },
-        {
-          id: 'frequently-bought-together-10',
-          title: 'Frequently Bought Together 10',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether10 data={frequentlyBoughtTogether10Data as any} />
-        },
-        {
-          id: 'frequently-bought-together-11',
-          title: 'Frequently Bought Together 11',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether11 data={frequentlyBoughtTogether11Data as any} />
-        },
-        {
-          id: 'frequently-bought-together-12',
-          title: 'Frequently Bought Together 12',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether12 data={frequentlyBoughtTogether12Data as any} />
-        },
-        {
-          id: 'frequently-bought-together-13',
-          title: 'Frequently Bought Together 13',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether13 data={frequentlyBoughtTogether13Data as any} />
-        },
-        {
-          id: 'frequently-bought-together-14',
-          title: 'Frequently Bought Together 14',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether14 data={frequentlyBoughtTogether14Data as any} />
-        },
-        {
-          id: 'frequently-bought-together-15',
-          title: 'Frequently Bought Together 15',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether15 data={frequentlyBoughtTogether15Data as any} />
-        },
-        {
-          id: 'frequently-bought-together-16',
-          title: 'Frequently Bought Together 16',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether16 data={frequentlyBoughtTogether16Data as any} />
-        },
-        {
-          id: 'frequently-bought-together-17',
-          title: 'Frequently Bought Together 17',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether17 data={frequentlyBoughtTogether17Data as any} />
-        },
-        {
-          id: 'frequently-bought-together-18',
-          title: 'Frequently Bought Together 18',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether18 data={frequentlyBoughtTogether18Data as any} />
-        },
-        {
-          id: 'frequently-bought-together-19',
-          title: 'Frequently Bought Together 19',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether19 data={frequentlyBoughtTogether19Data as any} />
-        },
-        {
-          id: 'frequently-bought-together-20',
-          title: 'Frequently Bought Together 20',
-          description: 'A cross-sell presentation featuring complementary products and bundled recommendations.',
-          previewComponent: <FrequentlyBoughtTogether20 data={frequentlyBoughtTogether20Data as any} />
-        }
-      ] :
+    category === 'return-refund-information' ? [{ id: "return-refund-information-1", title: "INFINITE RETURN CAROUSEL", description: "An infinite scrolling marquee of return perks highlighting seamless returns.", previewComponent: <ReturnRefundInformation1 data={returnRefundInformation1Data as any} /> }, { id: "return-refund-information-2", title: "GLASSMORPHISM RETURN PORTAL", description: "A 3D glass card layout where hovering tilts the glass and reveals return instructions.", previewComponent: <ReturnRefundInformation2 data={returnRefundInformation2Data as any} /> }, { id: "return-refund-information-3", title: "PORTAL REVEAL HERO", description: "A hero section where you click Initiate Return and the screen parts in half to reveal content.", previewComponent: <ReturnRefundInformation3 data={returnRefundInformation3Data as any} /> }, { id: "return-refund-information-4", title: "BRUTALIST RETURN POLICY", description: "Huge, striking typography that cross-fades between different policy highlights.", previewComponent: <ReturnRefundInformation4 data={returnRefundInformation4Data as any} /> }, { id: "return-refund-information-5", title: "INTERACTIVE REFUND SLIDER", description: "A Swipe to Refund physical slider that turns green when dragged all the way.", previewComponent: <ReturnRefundInformation5 data={returnRefundInformation5Data as any} /> }, { id: "return-refund-information-6", title: "3D BOX RE-PACKING", description: "A reverse unboxing animation where hovering makes a 3D cardboard box close and tape itself shut.", previewComponent: <ReturnRefundInformation6 data={returnRefundInformation6Data as any} /> }, { id: "return-refund-information-7", title: "STAGGERED POLICY REVEAL", description: "A timeline of the return process that animates sequentially as you scroll into view.", previewComponent: <ReturnRefundInformation7 data={returnRefundInformation7Data as any} /> }, { id: "return-refund-information-8", title: "CURSOR FOLLOW SPOTLIGHT", description: "A dark-mode return policy card where the users cursor acts as a spotlight.", previewComponent: <ReturnRefundInformation8 data={returnRefundInformation8Data as any} /> }, { id: "return-refund-information-9", title: "ANIMATED RECEIPT SHREDDER", description: "A playful animation where clicking drops a receipt into a shredder to void an order.", previewComponent: <ReturnRefundInformation9 data={returnRefundInformation9Data as any} /> }, { id: "return-refund-information-10", title: "PARALLAX REFUND JOURNEY", description: "A parallax infinite loop showing a package traveling back from a house to a warehouse.", previewComponent: <ReturnRefundInformation10 data={returnRefundInformation10Data as any} /> }, { id: "return-refund-information-11", title: "GRID TO DETAILS MORPH", description: "A grid of return reasons that seamlessly morphs into a detailed policy card when clicked.", previewComponent: <ReturnRefundInformation11 data={returnRefundInformation11Data as any} /> }, { id: "return-refund-information-12", title: "ORGANIC BLOB BACKGROUND", description: "A soft, organic blob background that slowly morphs behind a glassmorphism policy card.", previewComponent: <ReturnRefundInformation12 data={returnRefundInformation12Data as any} /> }, { id: "return-refund-information-13", title: "DRAG TO RETURN", description: "An interactive drag-and-drop zone where you drag an item into a box to reveal the policy.", previewComponent: <ReturnRefundInformation13 data={returnRefundInformation13Data as any} /> }, { id: "return-refund-information-14", title: "TERMINAL AUTOTYPING", description: "A strict terminal interface that types out the automated refund policy.", previewComponent: <ReturnRefundInformation14 data={returnRefundInformation14Data as any} /> }, { id: "return-refund-information-15", title: "3D ORIGAMI ACCORDION", description: "A 3D origami-style accordion that physically unfolds down the screen.", previewComponent: <ReturnRefundInformation15 data={returnRefundInformation15Data as any} /> }, { id: "return-refund-information-16", title: "DATA VIZ POLICY", description: "Animated 3D bars showcasing 100% Refunds and 0% Restocking Fees.", previewComponent: <ReturnRefundInformation16 data={returnRefundInformation16Data as any} /> }, { id: "return-refund-information-17", title: "MAGNETIC HOVER REVEAL", description: "A magnetic button that sticks to the cursor and unlocks the policy when clicked.", previewComponent: <ReturnRefundInformation17 data={returnRefundInformation17Data as any} /> }, { id: "return-refund-information-18", title: "MULTI-LAYER TEXT MASK", description: "Huge text masking a visual journey, expanding to show full refund details.", previewComponent: <ReturnRefundInformation18 data={returnRefundInformation18Data as any} /> }, { id: "return-refund-information-19", title: "CYBERPUNK NEON GLOW", description: "A futuristic glowing neon outline that traces the borders of the return policy.", previewComponent: <ReturnRefundInformation19 data={returnRefundInformation19Data as any} /> }, { id: "return-refund-information-20", title: "SCRATCH CARD SIMULATOR", description: "A fun simulation where clicking reveals the hidden return policy underneath a coating.", previewComponent: <ReturnRefundInformation20 data={returnRefundInformation20Data as any} /> }] :
+    category === 'payment-information' ? [{ id: "payment-information-1", title: "3D CREDIT CARD FLIP", description: "A realistic 3D credit card that flips over when you hover to show the CVC and security details.", previewComponent: <PaymentInformation1 data={paymentInformation1Data as any} /> }, { id: "payment-information-2", title: "INFINITE PAYMENT MARQUEE", description: "An infinite scrolling banner of accepted payment methods using glassmorphism logos.", previewComponent: <PaymentInformation2 data={paymentInformation2Data as any} /> }, { id: "payment-information-3", title: "INTERACTIVE RECEIPT PRINTER", description: "A terminal that literally prints out a sample encrypted, secure payment confirmation.", previewComponent: <PaymentInformation3 data={paymentInformation3Data as any} /> }, { id: "payment-information-4", title: "BIOMETRIC SCAN SIMULATOR", description: "A payment security component that simulates a fingerprint scan with laser animations.", previewComponent: <PaymentInformation4 data={paymentInformation4Data as any} /> }, { id: "payment-information-5", title: "CARD STACKING ACCORDION", description: "A vertical stack of different payment methods that fan out when you hover.", previewComponent: <PaymentInformation5 data={paymentInformation5Data as any} /> }, { id: "payment-information-6", title: "NFC TAP ANIMATION", description: "A mobile phone hovering over a terminal, simulating an NFC tap to pay.", previewComponent: <PaymentInformation6 data={paymentInformation6Data as any} /> }, { id: "payment-information-7", title: "SECURE VAULT LOCK", description: "A giant 3D vault padlock that snaps shut and glows green to signify bank-grade encryption.", previewComponent: <PaymentInformation7 data={paymentInformation7Data as any} /> }, { id: "payment-information-8", title: "INTERACTIVE SPLIT PAYMENT", description: "A custom slider that lets the user visually split a payment between multiple cards.", previewComponent: <PaymentInformation8 data={paymentInformation8Data as any} /> }, { id: "payment-information-9", title: "CYBERPUNK PAYMENT TERMINAL", description: "A dark mode terminal with a loading bar and hex codes that resolves into PAYMENT SECURED.", previewComponent: <PaymentInformation9 data={paymentInformation9Data as any} /> }, { id: "payment-information-10", title: "PORTAL REVEAL GATEWAY", description: "A huge vault door that slides open to reveal your secure payment gateway.", previewComponent: <PaymentInformation10 data={paymentInformation10Data as any} /> }, { id: "payment-information-11", title: paymentInformation11Data.title || "", description: paymentInformation11Data.description || "", previewComponent: <PaymentInformation11 data={paymentInformation11Data as any} /> }, { id: "payment-information-12", title: paymentInformation12Data.title || "", description: paymentInformation12Data.description || "", previewComponent: <PaymentInformation12 data={paymentInformation12Data as any} /> }, { id: "payment-information-13", title: paymentInformation13Data.title || "", description: paymentInformation13Data.description || "", previewComponent: <PaymentInformation13 data={paymentInformation13Data as any} /> }, { id: "payment-information-14", title: paymentInformation14Data.title || "", description: paymentInformation14Data.description || "", previewComponent: <PaymentInformation14 data={paymentInformation14Data as any} /> }, { id: "payment-information-15", title: paymentInformation15Data.title || "", description: paymentInformation15Data.description || "", previewComponent: <PaymentInformation15 data={paymentInformation15Data as any} /> }, { id: "payment-information-16", title: paymentInformation16Data.title || "", description: paymentInformation16Data.description || "", previewComponent: <PaymentInformation16 data={paymentInformation16Data as any} /> }, { id: "payment-information-17", title: paymentInformation17Data.title || "", description: paymentInformation17Data.description || "", previewComponent: <PaymentInformation17 data={paymentInformation17Data as any} /> }, { id: "payment-information-18", title: paymentInformation18Data.title || "", description: paymentInformation18Data.description || "", previewComponent: <PaymentInformation18 data={paymentInformation18Data as any} /> }, { id: "payment-information-19", title: paymentInformation19Data.title || "", description: paymentInformation19Data.description || "", previewComponent: <PaymentInformation19 data={paymentInformation19Data as any} /> }, { id: "payment-information-20", title: paymentInformation20Data.title || "", description: paymentInformation20Data.description || "", previewComponent: <PaymentInformation20 data={paymentInformation20Data as any} /> }] :
+    category === 'frequently-bought-together' ? [{ id: "frequently-bought-together-1", title: frequentlyBoughtTogether1Data.title || "", description: frequentlyBoughtTogether1Data.description || "", previewComponent: <FrequentlyBoughtTogether1 data={frequentlyBoughtTogether1Data as any} /> }, { id: "frequently-bought-together-2", title: frequentlyBoughtTogether2Data.title || "", description: frequentlyBoughtTogether2Data.description || "", previewComponent: <FrequentlyBoughtTogether2 data={frequentlyBoughtTogether2Data as any} /> }, { id: "frequently-bought-together-3", title: frequentlyBoughtTogether3Data.title || "", description: frequentlyBoughtTogether3Data.description || "", previewComponent: <FrequentlyBoughtTogether3 data={frequentlyBoughtTogether3Data as any} /> }, { id: "frequently-bought-together-4", title: frequentlyBoughtTogether4Data.title || "", description: frequentlyBoughtTogether4Data.description || "", previewComponent: <FrequentlyBoughtTogether4 data={frequentlyBoughtTogether4Data as any} /> }, { id: "frequently-bought-together-5", title: frequentlyBoughtTogether5Data.title || "", description: frequentlyBoughtTogether5Data.description || "", previewComponent: <FrequentlyBoughtTogether5 data={frequentlyBoughtTogether5Data as any} /> }, { id: "frequently-bought-together-6", title: frequentlyBoughtTogether6Data.title || "", description: frequentlyBoughtTogether6Data.description || "", previewComponent: <FrequentlyBoughtTogether6 data={frequentlyBoughtTogether6Data as any} /> }, { id: "frequently-bought-together-7", title: frequentlyBoughtTogether7Data.title || "", description: frequentlyBoughtTogether7Data.description || "", previewComponent: <FrequentlyBoughtTogether7 data={frequentlyBoughtTogether7Data as any} /> }, { id: "frequently-bought-together-8", title: frequentlyBoughtTogether8Data.title || "", description: frequentlyBoughtTogether8Data.description || "", previewComponent: <FrequentlyBoughtTogether8 data={frequentlyBoughtTogether8Data as any} /> }, { id: "frequently-bought-together-9", title: frequentlyBoughtTogether9Data.title || "", description: frequentlyBoughtTogether9Data.description || "", previewComponent: <FrequentlyBoughtTogether9 data={frequentlyBoughtTogether9Data as any} /> }, { id: "frequently-bought-together-10", title: frequentlyBoughtTogether10Data.title || "", description: frequentlyBoughtTogether10Data.description || "", previewComponent: <FrequentlyBoughtTogether10 data={frequentlyBoughtTogether10Data as any} /> }, { id: "frequently-bought-together-11", title: frequentlyBoughtTogether11Data.title || "", description: frequentlyBoughtTogether11Data.description || "", previewComponent: <FrequentlyBoughtTogether11 data={frequentlyBoughtTogether11Data as any} /> }, { id: "frequently-bought-together-12", title: frequentlyBoughtTogether12Data.title || "", description: frequentlyBoughtTogether12Data.description || "", previewComponent: <FrequentlyBoughtTogether12 data={frequentlyBoughtTogether12Data as any} /> }, { id: "frequently-bought-together-13", title: frequentlyBoughtTogether13Data.title || "", description: frequentlyBoughtTogether13Data.description || "", previewComponent: <FrequentlyBoughtTogether13 data={frequentlyBoughtTogether13Data as any} /> }, { id: "frequently-bought-together-14", title: frequentlyBoughtTogether14Data.title || "", description: frequentlyBoughtTogether14Data.description || "", previewComponent: <FrequentlyBoughtTogether14 data={frequentlyBoughtTogether14Data as any} /> }, { id: "frequently-bought-together-15", title: frequentlyBoughtTogether15Data.title || "", description: frequentlyBoughtTogether15Data.description || "", previewComponent: <FrequentlyBoughtTogether15 data={frequentlyBoughtTogether15Data as any} /> }, { id: "frequently-bought-together-16", title: frequentlyBoughtTogether16Data.title || "", description: frequentlyBoughtTogether16Data.description || "", previewComponent: <FrequentlyBoughtTogether16 data={frequentlyBoughtTogether16Data as any} /> }, { id: "frequently-bought-together-17", title: frequentlyBoughtTogether17Data.title || "", description: frequentlyBoughtTogether17Data.description || "", previewComponent: <FrequentlyBoughtTogether17 data={frequentlyBoughtTogether17Data as any} /> }, { id: "frequently-bought-together-18", title: frequentlyBoughtTogether18Data.title || "", description: frequentlyBoughtTogether18Data.description || "", previewComponent: <FrequentlyBoughtTogether18 data={frequentlyBoughtTogether18Data as any} /> }, { id: "frequently-bought-together-19", title: frequentlyBoughtTogether19Data.title || "", description: frequentlyBoughtTogether19Data.description || "", previewComponent: <FrequentlyBoughtTogether19 data={frequentlyBoughtTogether19Data as any} /> }, { id: "frequently-bought-together-20", title: frequentlyBoughtTogether20Data.title || "", description: frequentlyBoughtTogether20Data.description || "", previewComponent: <FrequentlyBoughtTogether20 data={frequentlyBoughtTogether20Data as any} /> }] :
     category === 'product-bundles' ? [
         {
           id: 'product-bundles-1',
