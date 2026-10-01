@@ -1,4 +1,33 @@
 {
-  "title": "Product FAQ 14",
-  "description": "Placeholder content for Product FAQ 14"
+  "title": "Horizontal FAQ Navigator",
+  "description": "A continuous drag-scrollable horizontal track of product information cards with quick answer previews.",
+  "eyebrow": "SWIPE TRACK",
+  "heading": "Horizontal Product Rail",
+  "subtitle": "Swipe through key product parameters horizontally.",
+  "questions": [
+    {
+      "id": "faq-14-1",
+      "question": "What certified packaging is used for transit?",
+      "answer": "Shipped inside a 100% recycled FSC-certified rigid gift box with organic cotton dust protection.",
+      "category": "Packaging"
+    },
+    {
+      "id": "faq-14-2",
+      "question": "What is the return window for international orders?",
+      "answer": "30 days from delivery date with pre-printed customs return documentation included.",
+      "category": "International Returns"
+    },
+    {
+      "id": "faq-14-3",
+      "question": "Does the garment include a custom garment bag?",
+      "answer": "Every coat includes a heavy-duty organic canvas suit carrier with dual carry handles.",
+      "category": "Accessories"
+    },
+    {
+      "id": "faq-14-4",
+      "question": "How are leather trims protected during air transit?",
+      "answer": "Leather accents are wrapped in custom acid-free tissue paper and protective foam covers.",
+      "category": "Transit Care"
+    }
+  ]
 }

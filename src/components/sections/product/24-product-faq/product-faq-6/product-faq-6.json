@@ -1,4 +1,27 @@
 {
-  "title": "Product FAQ 6",
-  "description": "Placeholder content for Product FAQ 6"
+  "title": "Category-Based FAQ",
+  "description": "Tabbed category navigator filtering product FAQs into Sizing, Materials, Care, and Global Shipping panels.",
+  "eyebrow": "TOPIC NAVIGATION",
+  "heading": "Category-Filtered FAQ",
+  "subtitle": "Filter product information by specific topic.",
+  "questions": [
+    {
+      "id": "faq-6-1",
+      "question": "Is the wool ethically certified by global standards?",
+      "answer": "100% certified under the Responsible Wool Standard (RWS), ensuring animal welfare and sustainable land management.",
+      "category": "Materials"
+    },
+    {
+      "id": "faq-6-2",
+      "question": "What express delivery timeframes apply internationally?",
+      "answer": "DHL Express international transit takes 2-4 business days with end-to-end carbon-neutral shipping.",
+      "category": "Shipping"
+    },
+    {
+      "id": "faq-6-3",
+      "question": "How do I choose between regular and tall fit lengths?",
+      "answer": "Tall fits feature an additional 5cm in body length and 3cm in sleeve length, recommended for individuals 6'2\" (188cm) and above.",
+      "category": "Sizing"
+    }
+  ]
 }

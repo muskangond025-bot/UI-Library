@@ -9,7 +9,11 @@ export function SectionLibraryShell() {
   // Read URL params on initial load
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    const category = params.get('category');
+    let category = params.get('category');
+    if (category === 'product-care') {
+      category = 'product-card';
+      window.history.replaceState(null, '', '?category=product-card');
+    }
     if (category) {
       setActiveCategory(category);
     }

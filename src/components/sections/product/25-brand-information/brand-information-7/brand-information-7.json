@@ -1,4 +1,34 @@
 {
-  "title": "Brand Information 7",
-  "description": "Placeholder content for Brand Information 7"
+  "id": 7,
+  "title": "Craftsmanship Showcase",
+  "desc": "Step-by-step visual narrative detailing fiber selection, hand-pattern cutting, double-needle stitching, and inspection.",
+  "eyebrow": "ATELIER CRAFT",
+  "heading": "The Art of Master Tailoring",
+  "subtitle": "Inside the four essential steps of our small-batch production process.",
+  "processSteps": [
+    {
+      "stepNumber": "01",
+      "title": "Fiber Selection & Sorting",
+      "description": "Raw cashmere fibers are hand-sorted under magnification to select only 15.5 micron strands.",
+      "duration": "Day 1-2"
+    },
+    {
+      "stepNumber": "02",
+      "title": "Hand-Pattern Drafting",
+      "description": "Patterns are cut individually on heavy cardboard stock to ensure geometric precision.",
+      "duration": "Day 3"
+    },
+    {
+      "stepNumber": "03",
+      "title": "Double-Needle Hand Seaming",
+      "description": "Seams are joined using 12 stitches per inch with bonded nylon thread for burst strength.",
+      "duration": "Day 4-5"
+    },
+    {
+      "stepNumber": "04",
+      "title": "Final Steam & Inspection",
+      "description": "Garments are hand-steamed over wooden bucks and thoroughly inspected under 500-lux light.",
+      "duration": "Day 6"
+    }
+  ]
 }

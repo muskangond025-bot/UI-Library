@@ -1,4 +1,27 @@
 {
-  "title": "Brand Information 10",
-  "description": "Placeholder content for Brand Information 10"
+  "id": 10,
+  "title": "Mission + Vision Split",
+  "desc": "Balanced 50/50 dual-panel layout separating the immediate Brand Mission from the 10-Year Future Vision.",
+  "eyebrow": "PURPOSE & HORIZON",
+  "heading": "Mission & Vision",
+  "subtitle": "Where we stand today and where we are heading tomorrow.",
+  "mission": {
+    "title": "Our Mission",
+    "statement": "To engineer timeless outerwear using 100% organic textiles, restoring respect to small-batch tailoring.",
+    "pillars": [
+      "100% Organic",
+      "Small Batch",
+      "Fair Wages"
+    ]
+  },
+  "vision": {
+    "title": "Our 2030 Vision",
+    "statement": "To establish a fully circular luxury ecosystem where every garment sold can be repaired or recycled indefinitely.",
+    "targetYear": "2030",
+    "goals": [
+      "Zero Landfill",
+      "100% Circular",
+      "Solar Ateliers"
+    ]
+  }
 }

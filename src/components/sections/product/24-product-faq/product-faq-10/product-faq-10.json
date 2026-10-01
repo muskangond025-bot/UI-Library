@@ -1,4 +1,33 @@
 {
-  "title": "Product FAQ 10",
-  "description": "Placeholder content for Product FAQ 10"
+  "title": "FAQ Grid",
+  "description": "A 4-column structured grid highlighting key product care symbols, washing temperatures, and ironing guidelines.",
+  "eyebrow": "GRID MATRIX",
+  "heading": "Product Care & Spec Grid",
+  "subtitle": "At-a-glance technical grid for washing, drying, and ironing specifications.",
+  "questions": [
+    {
+      "id": "faq-10-1",
+      "question": "Washing Temp: Max 30°C",
+      "answer": "Wash on gentle delicate wool cycle. Do not exceed 30°C (86°F).",
+      "category": "Washing"
+    },
+    {
+      "id": "faq-10-2",
+      "question": "Drying: Flat Air Dry",
+      "answer": "Do not tumble dry. Reshape while damp and lay flat on a clean towel.",
+      "category": "Drying"
+    },
+    {
+      "id": "faq-10-3",
+      "question": "Ironing: Low Heat Steam",
+      "answer": "Steam on low heat setting (max 110°C). Use a press cloth over dark fabrics.",
+      "category": "Ironing"
+    },
+    {
+      "id": "faq-10-4",
+      "question": "Bleaching: Do Not Bleach",
+      "answer": "Avoid chlorine or oxygen-based bleaching agents to prevent fiber degradation.",
+      "category": "Chemicals"
+    }
+  ]
 }

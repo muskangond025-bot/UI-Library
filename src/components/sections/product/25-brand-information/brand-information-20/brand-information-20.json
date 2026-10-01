@@ -1,4 +1,29 @@
 {
-  "title": "Brand Information 20",
-  "description": "Placeholder content for Brand Information 20"
+  "id": 20,
+  "title": "Premium Brand Knowledge Showcase",
+  "desc": "Comprehensive Brand Knowledge Base featuring search filter across history, sustainability reports, and press kits.",
+  "eyebrow": "KNOWLEDGE BASE",
+  "heading": "Master Brand Knowledge Hub",
+  "subtitle": "Search and inspect sustainability reports, material disclosures, and press archives.",
+  "brandName": "AURELIA & CO.",
+  "knowledgeSections": [
+    {
+      "category": "Sustainability",
+      "title": "2025 Carbon Audit Report",
+      "description": "Complete greenhouse gas emission disclosure verified by independent auditors.",
+      "downloadLink": "#"
+    },
+    {
+      "category": "Ethics",
+      "title": "Atelier Labor Standard Code",
+      "description": "Our binding labor rights charter covering living wages and studio safety.",
+      "downloadLink": "#"
+    },
+    {
+      "category": "Heritage",
+      "title": "Florentine Guild Archive Book",
+      "description": "100-page digital monograph documenting our historical weaving looms.",
+      "downloadLink": "#"
+    }
+  ]
 }

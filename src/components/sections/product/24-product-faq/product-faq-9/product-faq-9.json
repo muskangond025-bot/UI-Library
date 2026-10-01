@@ -1,4 +1,27 @@
 {
-  "title": "Product FAQ 9",
-  "description": "Placeholder content for Product FAQ 9"
+  "title": "Accordion Cards",
+  "description": "Elevated card accordions with subtle hover borders, category pills, and smooth height disclosure.",
+  "eyebrow": "CARD STRUCTURE",
+  "heading": "Product FAQ Cards",
+  "subtitle": "Interactive elevated cards detailing garment parameters.",
+  "questions": [
+    {
+      "id": "faq-9-1",
+      "question": "What seam construction method is used to prevent water leakage?",
+      "answer": "Fully taped seams with thermo-welded polyurethane tape over double-needle stitched joins.",
+      "category": "Construction"
+    },
+    {
+      "id": "faq-9-2",
+      "question": "Are replacement horn buttons included with the order?",
+      "answer": "Yes, two spare horn buttons are enclosed in a cotton pouch sewn into the interior jacket pocket.",
+      "category": "Included Parts"
+    },
+    {
+      "id": "faq-9-3",
+      "question": "Is the jacket compatible with zip-in thermal liners?",
+      "answer": "Equipped with an internal perimeter zipper compatible with all standard thermal mid-layer vests in our collection.",
+      "category": "Compatibility"
+    }
+  ]
 }

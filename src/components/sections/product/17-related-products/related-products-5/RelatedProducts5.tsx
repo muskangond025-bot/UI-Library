@@ -1,9 +1,38 @@
 import React from 'react';
+import { ShoppingBag, Star } from 'lucide-react';
 
-export default function RelatedProducts5({ data }: { data: any }) {
+export default function RelatedProducts5({ data }: { data?: any }) {
   return (
-    <div className="p-8 border rounded-lg bg-white shadow-sm flex items-center justify-center">
-      <h2 className="text-xl font-bold text-gray-500">Related Products 5 Placeholder</h2>
+    <div className="p-6 md:p-10 min-h-[650px] w-full rounded-[2.5rem] bg-stone-900 text-white flex flex-col items-center justify-between relative overflow-hidden font-sans border border-white/10 select-none">
+      <div className="text-center z-10 max-w-xl">
+        <span className="px-3.5 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-extrabold uppercase tracking-wider mb-2 inline-block">
+          Scandinavian Style Recommendations
+        </span>
+        <h2 className="text-3xl font-extrabold text-stone-100">Complete The Outfit</h2>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full max-w-2xl z-10 my-4">
+        <div className="bg-stone-950 border border-stone-800 rounded-3xl p-5">
+          <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&auto=format&fit=crop&q=80" alt="Sneakers" className="w-full h-48 object-cover rounded-2xl mb-3" />
+          <h3 className="font-extrabold text-base">Red Runner Pro</h3>
+          <span className="text-lg font-black text-amber-400">$210</span>
+        </div>
+        <div className="bg-stone-950 border border-stone-800 rounded-3xl p-5">
+          <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800&auto=format&fit=crop&q=80" alt="Hoodie" className="w-full h-48 object-cover rounded-2xl mb-3" />
+          <h3 className="font-extrabold text-base">Fleece Hoodie</h3>
+          <span className="text-lg font-black text-amber-400">$95</span>
+        </div>
+      </div>
+
+      <div className="w-full max-w-2xl bg-stone-950 border border-stone-800 p-5 rounded-3xl flex justify-between items-center z-10">
+        <div>
+          <span className="text-xs text-stone-400 block">Recommended Outfit</span>
+          <span className="text-2xl font-black text-amber-400">$305</span>
+        </div>
+        <button className="px-6 py-3.5 bg-amber-500 text-stone-950 font-black text-xs rounded-xl flex items-center gap-2">
+          <ShoppingBag size={16} /> Add Full Outfit
+        </button>
+      </div>
     </div>
   );
 }

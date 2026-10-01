@@ -1,4 +1,105 @@
 {
-  "title": "Questions & Answers 1",
-  "description": "Placeholder content for Questions & Answers 1"
+  "title": "Editorial Q&A Accordion",
+  "description": "A clean editorial accordion with razor-thin dividers, category badges, helpful count indicators, and smooth height expansion.",
+  "eyebrow": "CUSTOMER INQUIRIES",
+  "heading": "Product Questions & Answers",
+  "subtitle": "Everything you need to know about fit, craftsmanship, and care.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How does the sizing run compared to standard US sizing?",
+      "answer": "Our pieces are designed for a relaxed yet tailored fit. If you prefer a more slim silhouette, we recommend sizing down one size. Check our detailed garment measurement chart on the product page for exact sleeve and chest dimensions.",
+      "category": "Sizing & Fit",
+      "customerName": "Alex Rivera",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80",
+      "date": "3 days ago",
+      "verified": true,
+      "helpfulCount": 42,
+      "productName": "Silk Cashmere Knit",
+      "tags": [
+        "Sizing",
+        "Fit Guide"
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "What are the recommended care instructions for long-term durability?",
+      "answer": "We advise dry cleaning or delicate hand wash in cold water using a wool-safe detergent. Lay flat to dry away from direct sunlight. Do not tumble dry to preserve fabric softness and structural integrity.",
+      "category": "Care & Fabric",
+      "customerName": "Claire Dupont",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=200&q=80",
+      "date": "1 week ago",
+      "verified": true,
+      "helpfulCount": 38,
+      "productName": "Merino Wool Coat",
+      "tags": [
+        "Maintenance",
+        "Fabric Care"
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "Is this item water-resistant for heavy autumn rain?",
+      "answer": "Yes, the shell features a hydrophobic DWR coating that repels light to moderate rain showers, keeping you warm and dry without compromising breathability.",
+      "category": "Materials",
+      "customerName": "Marcus Vance",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+      "date": "2 weeks ago",
+      "verified": true,
+      "helpfulCount": 29,
+      "productName": "Technical Weather Parka",
+      "tags": [
+        "Weather Resistance",
+        "Performance"
+      ]
+    },
+    {
+      "id": "q4",
+      "question": "What is your return policy if the fit isn't right?",
+      "answer": "We offer complimentary 30-day returns and exchanges for all unworn items with original tags attached. Pre-printed prepaid return shipping labels are included in every shipment.",
+      "category": "Shipping & Returns",
+      "customerName": "Elena Rostova",
+      "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&q=80",
+      "date": "3 weeks ago",
+      "verified": true,
+      "helpfulCount": 56,
+      "productName": "Structured Blazer",
+      "tags": [
+        "Returns",
+        "Customer Care"
+      ]
+    },
+    {
+      "id": "q5",
+      "question": "Where are the raw materials sourced from?",
+      "answer": "All our cashmere and organic virgin wool are ethically harvested from certified sustainable pastures in Inner Mongolia and spun in Biella, Italy.",
+      "category": "Sustainability",
+      "customerName": "David Kim",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80",
+      "date": "1 month ago",
+      "verified": true,
+      "helpfulCount": 64,
+      "productName": "Organic Wool Sweater",
+      "tags": [
+        "Ethics",
+        "Sustainability"
+      ]
+    },
+    {
+      "id": "q6",
+      "question": "Does the coat come with extra replacement buttons?",
+      "answer": "Yes, every garment comes with a small fabric pouch inside the interior pocket containing matching horn replacement buttons and extra thread.",
+      "category": "Product Details",
+      "customerName": "Sophia Chen",
+      "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=200&q=80",
+      "date": "1 month ago",
+      "verified": true,
+      "helpfulCount": 19,
+      "productName": "Double-Breasted Trench",
+      "tags": [
+        "Hardware",
+        "Accessories"
+      ]
+    }
+  ]
 }

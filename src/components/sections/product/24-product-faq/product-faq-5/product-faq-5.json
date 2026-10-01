@@ -1,4 +1,30 @@
 {
-  "title": "Product FAQ 5",
-  "description": "Placeholder content for Product FAQ 5"
+  "title": "Split FAQ + Product Image",
+  "description": "Split-screen container pairing a high-resolution product photography canvas on the left with expandable FAQ panels on the right.",
+  "eyebrow": "IMAGE & GUIDANCE",
+  "heading": "Product FAQ & Details",
+  "subtitle": "Visual inspection paired with detailed product specifications.",
+  "questions": [
+    {
+      "id": "faq-5-1",
+      "question": "What are the exact packed dimensions when folded for travel?",
+      "answer": "Folds down flat to 35cm x 25cm x 4cm, fitting comfortably inside standard carry-on luggage sleeves.",
+      "category": "Portability",
+      "productImage": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80"
+    },
+    {
+      "id": "faq-5-2",
+      "question": "Does the fabric stretch under active movement?",
+      "answer": "Incorporates 2% elastane woven into the virgin wool warp for 4-way micro-stretch mobility without sagging.",
+      "category": "Ergonomics",
+      "productImage": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80"
+    },
+    {
+      "id": "faq-5-3",
+      "question": "How many interior utility pockets are integrated?",
+      "answer": "Includes 2 RFID-shielded zip pockets, a dedicated pen sleeve, and a passport-sized interior security pouch.",
+      "category": "Organization",
+      "productImage": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80"
+    }
+  ]
 }

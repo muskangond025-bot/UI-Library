@@ -1,0 +1,20 @@
+{
+  "heading": "18. Featured Spotlight Cart Item",
+  "description": "Prominent spotlight layout with gold border accents, expanded craft summary, gift packaging selector, and high-contrast price badge.",
+  "product": {
+    "name": "Aethelgard Cashmere & Leather Craft Item",
+    "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=800",
+    "variant": "Midnight Black / Size 50",
+    "quantity": 1,
+    "unitPrice": 1250,
+    "originalPrice": 1450,
+    "discount": "15% OFF",
+    "currency": "$",
+    "availability": "in-stock",
+    "badge": "FEATURED SPOTLIGHT",
+    "styleTag": "Spotlight / Premium Accent",
+    "descriptionText": "Handcrafted from 100% Mongolian cashmere and full-grain Italian leather hardware.",
+    "removeLabel": "Remove item",
+    "saveForLaterLabel": "Save for later"
+  }
+}

@@ -1,4 +1,27 @@
 {
-  "title": "Product FAQ 1",
-  "description": "Placeholder content for Product FAQ 1"
+  "title": "Minimal Luxury FAQ",
+  "description": "An ultra-clean monochrome product FAQ featuring generous whitespace, fine hairline dividers, and delicate height expansion animation.",
+  "eyebrow": "SPECIFICATIONS & GUIDANCE",
+  "heading": "Essential Product FAQ",
+  "subtitle": "Clear, standardized guidance on materials, sizing, and garment care.",
+  "questions": [
+    {
+      "id": "faq-1-1",
+      "question": "What certified thread count is woven into the outer cotton shell?",
+      "answer": "Our outerwear shell utilizes a high-density 400TC long-staple organic Egyptian cotton, delivering a windproof weave while maintaining breathability.",
+      "category": "Materials"
+    },
+    {
+      "id": "faq-1-2",
+      "question": "Are the closures and hardware rust-resistant?",
+      "answer": "All zippers and snap buttons are custom-forged from solid brass with a matte PVD electroplated finish, guaranteed against oxidation and tarnishing.",
+      "category": "Hardware"
+    },
+    {
+      "id": "faq-1-3",
+      "question": "What temperature environment is this outerwear rated for?",
+      "answer": "Comfort-rated for temperatures between -5°C to 15°C (23°F to 59°F) when layered with lightweight knits.",
+      "category": "Performance"
+    }
+  ]
 }

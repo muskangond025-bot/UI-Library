@@ -1,4 +1,14 @@
 {
-  "title": "Brand Information 8",
-  "description": "Placeholder content for Brand Information 8"
+  "id": 8,
+  "title": "Brand Manifesto",
+  "desc": "Bold dark cinematic text-dominant layout declaring the brand's core beliefs in massive 5XL typography.",
+  "eyebrow": "BRAND MANIFESTO",
+  "heading": "What We Believe",
+  "subtitle": "Our declaration against fast fashion and fleeting trends.",
+  "manifestoLines": [
+    "We believe in fewer, better things.",
+    "We believe in the quiet power of immaculate tailoring.",
+    "We believe a coat should last longer than a decade.",
+    "We believe true luxury honors the hands that made it."
+  ]
 }

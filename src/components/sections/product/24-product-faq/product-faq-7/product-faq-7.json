@@ -1,4 +1,27 @@
 {
-  "title": "Product FAQ 7",
-  "description": "Placeholder content for Product FAQ 7"
+  "title": "FAQ with Sticky Category Navigation",
+  "description": "Sticky sidebar index featuring smooth scroll jump links to detailed product guidance blocks.",
+  "eyebrow": "INDEXED GUIDANCE",
+  "heading": "Product FAQ Directory",
+  "subtitle": "Jump directly to specific technical sections.",
+  "questions": [
+    {
+      "id": "faq-7-1",
+      "question": "How do I measure my chest accurately before selecting a size?",
+      "answer": "Wrap a flexible tape measure around the fullest part of your chest, keeping the tape parallel to the floor.",
+      "category": "Sizing"
+    },
+    {
+      "id": "faq-7-2",
+      "question": "What is the return window for international orders?",
+      "answer": "30 days from delivery date with pre-printed customs return documentation included.",
+      "category": "Returns"
+    },
+    {
+      "id": "faq-7-3",
+      "question": "What ironing temperature is safe for the outer fabric?",
+      "answer": "Use low heat steam setting (max 110°C). Always place a damp press cloth between the iron and garment.",
+      "category": "Garment Care"
+    }
+  ]
 }

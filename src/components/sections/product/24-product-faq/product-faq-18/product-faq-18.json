@@ -1,4 +1,33 @@
 {
-  "title": "Product FAQ 18",
-  "description": "Placeholder content for Product FAQ 18"
+  "title": "Layered FAQ Panels",
+  "description": "Physical-feeling overlapping layered panels detailing repair services, replacement parts, and recycling options.",
+  "eyebrow": "REPAIR & RECYCLE",
+  "heading": "Circular Guarantee FAQ",
+  "subtitle": "Free repairs and end-of-life garment recycling programs.",
+  "questions": [
+    {
+      "id": "faq-18-1",
+      "question": "How does the complimentary lifetime repair program work?",
+      "answer": "Send your garment to our repair atelier anytime for complimentary stitching repairs, button replacement, or zip slider fixes.",
+      "category": "Repair Service"
+    },
+    {
+      "id": "faq-18-2",
+      "question": "What replacement hardware parts are available?",
+      "answer": "Spare horn buttons, zipper sliders, belt buckles, and matching thread spools are shipped free upon request.",
+      "category": "Spare Parts"
+    },
+    {
+      "id": "faq-18-3",
+      "question": "What is the trade-in program for worn garments?",
+      "answer": "Return any worn garment after 2+ years for 20% store credit toward your next purchase; returned items are refurbished or recycled.",
+      "category": "Trade-In Credit"
+    },
+    {
+      "id": "faq-18-4",
+      "question": "How long does a typical repair turnaround take?",
+      "answer": "Standard atelier repair turnaround is 7 to 10 business days from receipt, including return express shipping.",
+      "category": "Turnaround Time"
+    }
+  ]
 }

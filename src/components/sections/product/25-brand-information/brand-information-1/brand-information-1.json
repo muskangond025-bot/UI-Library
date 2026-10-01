@@ -1,4 +1,20 @@
 {
-  "title": "Brand Information 1",
-  "description": "Placeholder content for Brand Information 1"
+  "id": 1,
+  "title": "Editorial Brand Story",
+  "desc": "Long-form visual brand narrative featuring elegant serif quotes, multi-paragraph story flow, and directional image mask reveals.",
+  "eyebrow": "OUR NARRATIVE",
+  "heading": "The Pursuit of Timeless Excellence",
+  "subtitle": "Founded on the principles of quiet luxury, uncompromising materials, and slow fashion.",
+  "brandName": "AURELIA & CO.",
+  "foundedYear": "2014",
+  "origin": "Florence, Italy",
+  "storyParagraphs": [
+    "Born in the heart of Florence, our maison was founded with a singular conviction: to create garments that transcend seasonal trends through architectural silhouettes and pure natural textiles.",
+    "Every piece is handcrafted in limited batches by master artisans whose families have preserved textile weaving traditions for over three generations."
+  ],
+  "quote": "We do not design for the moment; we craft for a lifetime.",
+  "images": [
+    "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&q=80",
+    "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&q=80"
+  ]
 }

@@ -1,4 +1,28 @@
 {
-  "title": "Brand Information 17",
-  "description": "Placeholder content for Brand Information 17"
+  "id": 17,
+  "title": "Creative Process Showcase",
+  "desc": "Behind-the-scenes gallery showing raw sketching, moodboards, fabric weaving, and final tailoring.",
+  "eyebrow": "BEHIND THE SCENES",
+  "heading": "The Creative Process",
+  "subtitle": "From raw sketchbook concept to finished garment.",
+  "processGallery": [
+    {
+      "phase": "Phase 01",
+      "title": "Architectural Sketching",
+      "description": "Drafting silhouettes based on classical Italian brutalist architecture.",
+      "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600&q=80"
+    },
+    {
+      "phase": "Phase 02",
+      "title": "Textile Weaving",
+      "description": "Custom jacquard weaving on traditional shuttle looms in Biella.",
+      "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&q=80"
+    },
+    {
+      "phase": "Phase 03",
+      "title": "Atelier Tailoring",
+      "description": "Fourteen hours of hand-stitching by master Florentine tailors.",
+      "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600&q=80"
+    }
+  ]
 }

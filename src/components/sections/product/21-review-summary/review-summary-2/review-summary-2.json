@@ -1,4 +1,29 @@
 {
-  "title": "Review Summary 2",
-  "description": "Placeholder content for Review Summary 2"
+  "title": "Editorial Rating Breakdown",
+  "description": "Magazine editorial breakdown featuring progressive rating bars fill and serif typography headers.",
+  "averageRating": 4.8,
+  "reviewCount": 324,
+  "recommendationPercentage": 94,
+  "verifiedReviewCount": 310,
+  "ratingDistribution": {
+    "1": 4,
+    "2": 6,
+    "3": 14,
+    "4": 52,
+    "5": 248
+  },
+  "attributes": [
+    {
+      "name": "Build Quality",
+      "score": "4.9 / 5"
+    },
+    {
+      "name": "Comfort & Fit",
+      "score": "4.8 / 5"
+    },
+    {
+      "name": "Battery Life",
+      "score": "4.7 / 5"
+    }
+  ]
 }

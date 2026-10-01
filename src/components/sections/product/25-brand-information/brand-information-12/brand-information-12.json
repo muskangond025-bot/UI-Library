@@ -1,4 +1,31 @@
 {
-  "title": "Brand Information 12",
-  "description": "Placeholder content for Brand Information 12"
+  "id": 12,
+  "title": "Layered Brand Story",
+  "desc": "Overlapping 3D card layout organizing the brand story into Chapter 01 (Origin), Chapter 02 (Craft), and Chapter 03 (Future).",
+  "eyebrow": "STORY CHAPTERS",
+  "heading": "The Three Chapters of Aurelia",
+  "subtitle": "Explore the narrative layers of our maison.",
+  "chapters": [
+    {
+      "chapterNumber": "01",
+      "title": "The Florentine Origin",
+      "excerpt": "It started in a small workshop overlooking the Arno River...",
+      "fullStory": "Founded in Florence, our early days were defined by rigorous experimentation with natural vegetable dyes and traditional hand loom weaving.",
+      "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800&q=80"
+    },
+    {
+      "chapterNumber": "02",
+      "title": "The Master Craft",
+      "excerpt": "Every garment passes through 48 pairs of skilled hands...",
+      "fullStory": "We partner exclusively with family-owned ateliers where master tailors dedicate up to 14 hours of precision handwork to a single trench coat.",
+      "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&q=80"
+    },
+    {
+      "chapterNumber": "03",
+      "title": "The Circular Horizon",
+      "excerpt": "Designing for infinite life cycles and zero waste...",
+      "fullStory": "Our future is focused on closed-loop recycling, natural regenerative agriculture, and building clothing that enriches the earth upon disposal.",
+      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80"
+    }
+  ]
 }

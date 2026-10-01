@@ -1,4 +1,33 @@
 {
-  "title": "Product FAQ 15",
-  "description": "Placeholder content for Product FAQ 15"
+  "title": "Compact FAQ Rail",
+  "description": "A streamlined compact rail displaying technical product specifications in high visual density.",
+  "eyebrow": "COMPACT DENSITY",
+  "heading": "Quick Specification Rail",
+  "subtitle": "Fast reference for weights, origins, and certifications.",
+  "questions": [
+    {
+      "id": "faq-15-1",
+      "question": "Garment Total Weight: 850g",
+      "answer": "Medium size weighs exactly 850 grams, offering substantial cold-weather warmth without excess bulk.",
+      "category": "Weight"
+    },
+    {
+      "id": "faq-15-2",
+      "question": "Sleeve Lining: 100% Bemberg Cupro",
+      "answer": "High-grade cupro sleeve lining guarantees smooth friction-free arm movement over wool knits.",
+      "category": "Lining"
+    },
+    {
+      "id": "faq-15-3",
+      "question": "Country of Origin: Porto, Portugal",
+      "answer": "Ethically cut, stitched, and finished by master tailors in our Porto atelier.",
+      "category": "Origin"
+    },
+    {
+      "id": "faq-15-4",
+      "question": "Care Method: Professional Eco Dry Clean",
+      "answer": "Preserves natural lanolin in wool fibers and maintains garment structural drape.",
+      "category": "Care"
+    }
+  ]
 }

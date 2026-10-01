@@ -1,4 +1,26 @@
 {
-  "title": "Brand Information 19",
-  "description": "Placeholder content for Brand Information 19"
+  "id": 19,
+  "title": "Immersive Brand Documentary",
+  "desc": "Documentary film poster style layout with director quote, film duration (12 mins), and chapter timestamps.",
+  "eyebrow": "SHORT FILM",
+  "heading": "The Thread of Time: A Documentary",
+  "subtitle": "Watch our 12-minute documentary exploring Florentine textile masters.",
+  "docTitle": "The Thread of Time",
+  "directorQuote": "A hauntingly beautiful homage to the fading art of Italian hand tailoring.",
+  "duration": "12:45",
+  "videoPoster": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&q=80",
+  "chapters": [
+    {
+      "time": "01:20",
+      "title": "The Mist of Biella"
+    },
+    {
+      "time": "05:40",
+      "title": "Hands of the Master"
+    },
+    {
+      "time": "10:15",
+      "title": "The Final Stitch"
+    }
+  ]
 }

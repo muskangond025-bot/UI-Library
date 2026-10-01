@@ -1,4 +1,29 @@
 {
-  "title": "Review Summary 13",
-  "description": "Placeholder content for Review Summary 13"
+  "title": "Asymmetric Rating Composition",
+  "description": "Staggered bento rating composition with directional metric slide-up animation and feature scores.",
+  "averageRating": 4.8,
+  "reviewCount": 324,
+  "recommendationPercentage": 94,
+  "verifiedReviewCount": 310,
+  "ratingDistribution": {
+    "1": 4,
+    "2": 6,
+    "3": 14,
+    "4": 52,
+    "5": 248
+  },
+  "attributes": [
+    {
+      "name": "Build Quality",
+      "score": "4.9 / 5"
+    },
+    {
+      "name": "Comfort & Fit",
+      "score": "4.8 / 5"
+    },
+    {
+      "name": "Battery Life",
+      "score": "4.7 / 5"
+    }
+  ]
 }

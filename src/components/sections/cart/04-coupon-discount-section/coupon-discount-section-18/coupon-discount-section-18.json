@@ -1,0 +1,34 @@
+{
+  "heading": "18. Interactive Code Reveal Voucher",
+  "description": "Hidden coupon code revealing upon user click with instant copy feedback.",
+  "coupons": [
+    {
+      "id": "SAVE20",
+      "code": "SAVE20",
+      "discount": "20% OFF",
+      "title": "Festive Season Discount",
+      "minOrder": "₹2,499",
+      "expiry": "Valid till Dec 31",
+      "status": "available"
+    },
+    {
+      "id": "WELCOME500",
+      "code": "WELCOME500",
+      "discount": "₹500 OFF",
+      "title": "New Customer Gift",
+      "minOrder": "₹1,999",
+      "expiry": "Valid for 7 days",
+      "status": "available"
+    },
+    {
+      "id": "FREESHIP",
+      "code": "FREESHIP",
+      "discount": "FREE SHIP",
+      "title": "Complimentary Delivery",
+      "minOrder": "₹999",
+      "expiry": "No Expiry",
+      "status": "available"
+    }
+  ],
+  "styleTag": "Interactive Reveal"
+}

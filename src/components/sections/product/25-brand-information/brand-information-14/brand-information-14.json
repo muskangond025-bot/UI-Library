@@ -1,4 +1,31 @@
 {
-  "title": "Brand Information 14",
-  "description": "Placeholder content for Brand Information 14"
+  "id": 14,
+  "title": "Brand Principles Cards",
+  "desc": "Bento-box principles cards displaying brand commitments (Traceable Fiber, Fair Wages, Plastic Neutral) with metric badges.",
+  "eyebrow": "OUR COMMITMENTS",
+  "heading": "Bento Principles Matrix",
+  "subtitle": "Quantifiable ethical standards enforced across all operations.",
+  "principles": [
+    {
+      "title": "100% Traceable Wool",
+      "badge": "Blockchain Certified",
+      "description": "Scan the interior label QR code to trace your wool back to the exact farm pasture.",
+      "statNumber": "100%",
+      "statLabel": "Traceability"
+    },
+    {
+      "title": "Living Wage Guarantee",
+      "badge": "Fair Trade",
+      "description": "All studio tailors receive wages 300% above national minimum wage standards.",
+      "statNumber": "3.0x",
+      "statLabel": "Living Wage"
+    },
+    {
+      "title": "Zero Plastic Packaging",
+      "badge": "Compostable",
+      "description": "Packaged in 100% home-compostable cornstarch sleeves and recycled gift boxes.",
+      "statNumber": "0g",
+      "statLabel": "Plastic Used"
+    }
+  ]
 }

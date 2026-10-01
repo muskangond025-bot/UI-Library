@@ -1,4 +1,33 @@
 {
-  "title": "Product FAQ 4",
-  "description": "Placeholder content for Product FAQ 4"
+  "title": "Two-Column Product FAQ",
+  "description": "Dual-column grid separating technical garment guidance into Sizing/Care on the left and Shipping/Warranty on the right.",
+  "eyebrow": "TWO-COLUMN MATRIX",
+  "heading": "Product Information Matrix",
+  "subtitle": "Clear two-column distribution of product queries and terms.",
+  "questions": [
+    {
+      "id": "faq-4-1",
+      "question": "What exact sleeve and chest measurement allowance is built in?",
+      "answer": "Garments include a standard 2.5cm tailoring tolerance to allow for ease of movement and layering.",
+      "category": "Fit & Sizing"
+    },
+    {
+      "id": "faq-4-2",
+      "question": "Is dry cleaning required, or can it be hand-washed?",
+      "answer": "Dry cleaning is recommended once per season. Spot cleaning with a damp microfiber cloth is sufficient for light marks.",
+      "category": "Maintenance"
+    },
+    {
+      "id": "faq-4-3",
+      "question": "What lifetime warranty coverage is provided on hardware?",
+      "answer": "We offer a lifetime warranty covering free replacement or repair for zippers, snaps, and seam stitching failures.",
+      "category": "Guarantee"
+    },
+    {
+      "id": "faq-4-4",
+      "question": "What express delivery options are available for urgent orders?",
+      "answer": "Overnight express courier delivery is available across North America and Western Europe for orders placed before 2 PM.",
+      "category": "Shipping"
+    }
+  ]
 }

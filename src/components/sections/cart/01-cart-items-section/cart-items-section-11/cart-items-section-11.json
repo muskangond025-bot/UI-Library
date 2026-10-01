@@ -1,0 +1,20 @@
+{
+  "heading": "11. Floating Product Panel Item",
+  "description": "Multi-depth elevation layout where the product thumbnail is visually detached on the left and information sits in an overlapping floating panel on the right.",
+  "product": {
+    "name": "Aethelgard Cashmere & Leather Craft Item",
+    "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=800",
+    "variant": "Midnight Black / Size 50",
+    "quantity": 1,
+    "unitPrice": 1250,
+    "originalPrice": 1450,
+    "discount": "15% OFF",
+    "currency": "$",
+    "availability": "in-stock",
+    "badge": "FLOATING PANEL",
+    "styleTag": "Depth / Overlapping Panels",
+    "descriptionText": "Handcrafted from 100% Mongolian cashmere and full-grain Italian leather hardware.",
+    "removeLabel": "Remove item",
+    "saveForLaterLabel": "Save for later"
+  }
+}

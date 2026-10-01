@@ -1,4 +1,16 @@
 {
-  "title": "Brand Information 4",
-  "description": "Placeholder content for Brand Information 4"
+  "id": 4,
+  "title": "Founder Story Showcase",
+  "desc": "Personal founder profile highlighting design vision, portrait photography, personal quote, and handwritten signature.",
+  "eyebrow": "THE FOUNDER",
+  "heading": "Designed by Matteo Vane",
+  "subtitle": "A personal conversation on architectural tailoring and slow fashion.",
+  "founderName": "Matteo Vane",
+  "founderRole": "Founder & Creative Director",
+  "founderPortrait": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+  "quote": "True luxury is felt in the weight of the fabric and the silence of clean stitching.",
+  "storyParagraphs": [
+    "After fifteen years leading traditional luxury houses, Matteo founded our maison to break free from the relentless pace of seasonal fashion calendars.",
+    "His vision was simple: build a wardrobe of twenty perfect essentials that endure for decades."
+  ]
 }

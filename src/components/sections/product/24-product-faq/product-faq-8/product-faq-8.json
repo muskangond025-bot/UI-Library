@@ -1,4 +1,27 @@
 {
-  "title": "Product FAQ 8",
-  "description": "Placeholder content for Product FAQ 8"
+  "title": "Large Typography FAQ",
+  "description": "High-contrast design with massive 3XL typography for key product questions and direct concise answers.",
+  "eyebrow": "BOLD SPECIFICATIONS",
+  "heading": "High-Impact Product FAQ",
+  "subtitle": "Oversized typography engineered for rapid readability.",
+  "questions": [
+    {
+      "id": "faq-8-1",
+      "question": "What hydrostatic head water-resistance rating does the fabric achieve?",
+      "answer": "Tested to 10,000mm hydrostatic head pressure, offering complete protection against continuous heavy downpours.",
+      "category": "Technical"
+    },
+    {
+      "id": "faq-8-2",
+      "question": "Does the garment require re-proofing treatment over time?",
+      "answer": "We recommend applying a spray-on DWR re-proofer after every 15 to 20 washes to maintain maximum water repellency.",
+      "category": "Maintenance"
+    },
+    {
+      "id": "faq-8-3",
+      "question": "What seam tape width is applied to stress points?",
+      "answer": "22mm thermo-sealed polyurethane tape is applied across all primary seam junctions.",
+      "category": "Durability"
+    }
+  ]
 }

@@ -1,4 +1,33 @@
 {
-  "title": "Product FAQ 17",
-  "description": "Placeholder content for Product FAQ 17"
+  "title": "Asymmetric Editorial FAQ",
+  "description": "Bento-style asymmetric editorial layout highlighting supply chain sustainability certifications.",
+  "eyebrow": "SUSTAINABILITY MATRIX",
+  "heading": "Traceability & Eco FAQ",
+  "subtitle": "Transparent supply chain information and carbon footprint specs.",
+  "questions": [
+    {
+      "id": "faq-17-1",
+      "question": "Is the garment 100% carbon-offset from raw material to delivery?",
+      "answer": "Yes, we offset 100% of carbon emissions through certified Gold Standard reforestation projects in South America.",
+      "category": "Climate Neutral"
+    },
+    {
+      "id": "faq-17-2",
+      "question": "What water recycling standards are enforced at the dye mill?",
+      "answer": "Our Italian dye mill utilizes a Zero Liquid Discharge (ZLD) system, recycling 98% of process water.",
+      "category": "Water Recycling"
+    },
+    {
+      "id": "faq-17-3",
+      "question": "Are non-toxic OEKO-TEX dyes utilized?",
+      "answer": "Certified OEKO-TEX Standard 100 Class 1, free from heavy metals, formaldehyde, and AZO colorants.",
+      "category": "Non-Toxic Dyes"
+    },
+    {
+      "id": "faq-17-4",
+      "question": "How are fabric off-cuts repurposed?",
+      "answer": "100% of cutting table fabric scraps are shredded and spun into interior thermal insulation batting.",
+      "category": "Zero Waste"
+    }
+  ]
 }

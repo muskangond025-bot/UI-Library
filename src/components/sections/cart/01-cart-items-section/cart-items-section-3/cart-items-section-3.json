@@ -1,0 +1,20 @@
+{
+  "heading": "03. Image Dominant Overlap Cart Item",
+  "description": "Product image dominates the item card while a floating glassmorphic information card overlaps the bottom right with price and quantity integrated.",
+  "product": {
+    "name": "Aethelgard Cashmere & Leather Craft Item",
+    "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=800",
+    "variant": "Midnight Black / Size 50",
+    "quantity": 1,
+    "unitPrice": 1250,
+    "originalPrice": 1450,
+    "discount": "15% OFF",
+    "currency": "$",
+    "availability": "in-stock",
+    "badge": "IMAGE DOMINANT",
+    "styleTag": "Image Focus / Overlap",
+    "descriptionText": "Handcrafted from 100% Mongolian cashmere and full-grain Italian leather hardware.",
+    "removeLabel": "Remove item",
+    "saveForLaterLabel": "Save for later"
+  }
+}

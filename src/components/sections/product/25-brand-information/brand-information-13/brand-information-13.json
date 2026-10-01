@@ -1,4 +1,12 @@
 {
-  "title": "Brand Information 13",
-  "description": "Placeholder content for Brand Information 13"
+  "id": 13,
+  "title": "Magazine-Style Brand Profile",
+  "desc": "Print magazine aesthetic on warm cream styling with drop-cap quotes, serif headers, and editor notes.",
+  "eyebrow": "MONOCLE EDITION • PROFILE",
+  "heading": "The Quiet Luxury Revolution",
+  "subtitle": "How one Florentine maison is redefining sustainable high fashion.",
+  "dropCapParagraph": "Aurelia & Co. operates far from the frenetic pace of fast fashion. Nestled in a converted 19th-century olive mill outside Florence, the brand's master tailors cut fabric by hand with razor shears.",
+  "quoteBlock": "Fast fashion sells temporary novelty. We offer permanent elegance.",
+  "editorNote": "Published in Volume X • Heritage Edition",
+  "portraitImage": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80"
 }

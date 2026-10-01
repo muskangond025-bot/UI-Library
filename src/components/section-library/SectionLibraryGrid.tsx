@@ -1,5 +1,165 @@
+import { CouponDiscountSection1 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-1/CouponDiscountSection1';
+import couponDiscountSection1Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-1/coupon-discount-section-1.json';
+import { CouponDiscountSection2 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-2/CouponDiscountSection2';
+import couponDiscountSection2Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-2/coupon-discount-section-2.json';
+import { CouponDiscountSection3 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-3/CouponDiscountSection3';
+import couponDiscountSection3Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-3/coupon-discount-section-3.json';
+import { CouponDiscountSection4 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-4/CouponDiscountSection4';
+import couponDiscountSection4Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-4/coupon-discount-section-4.json';
+import { CouponDiscountSection5 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-5/CouponDiscountSection5';
+import couponDiscountSection5Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-5/coupon-discount-section-5.json';
+import { CouponDiscountSection6 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-6/CouponDiscountSection6';
+import couponDiscountSection6Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-6/coupon-discount-section-6.json';
+import { CouponDiscountSection7 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-7/CouponDiscountSection7';
+import couponDiscountSection7Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-7/coupon-discount-section-7.json';
+import { CouponDiscountSection8 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-8/CouponDiscountSection8';
+import couponDiscountSection8Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-8/coupon-discount-section-8.json';
+import { CouponDiscountSection9 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-9/CouponDiscountSection9';
+import couponDiscountSection9Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-9/coupon-discount-section-9.json';
+import { CouponDiscountSection10 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-10/CouponDiscountSection10';
+import couponDiscountSection10Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-10/coupon-discount-section-10.json';
+import { CouponDiscountSection11 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-11/CouponDiscountSection11';
+import couponDiscountSection11Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-11/coupon-discount-section-11.json';
+import { CouponDiscountSection12 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-12/CouponDiscountSection12';
+import couponDiscountSection12Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-12/coupon-discount-section-12.json';
+import { CouponDiscountSection13 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-13/CouponDiscountSection13';
+import couponDiscountSection13Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-13/coupon-discount-section-13.json';
+import { CouponDiscountSection14 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-14/CouponDiscountSection14';
+import couponDiscountSection14Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-14/coupon-discount-section-14.json';
+import { CouponDiscountSection15 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-15/CouponDiscountSection15';
+import couponDiscountSection15Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-15/coupon-discount-section-15.json';
+import { CouponDiscountSection16 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-16/CouponDiscountSection16';
+import couponDiscountSection16Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-16/coupon-discount-section-16.json';
+import { CouponDiscountSection17 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-17/CouponDiscountSection17';
+import couponDiscountSection17Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-17/coupon-discount-section-17.json';
+import { CouponDiscountSection18 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-18/CouponDiscountSection18';
+import couponDiscountSection18Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-18/coupon-discount-section-18.json';
+import { CouponDiscountSection19 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-19/CouponDiscountSection19';
+import couponDiscountSection19Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-19/coupon-discount-section-19.json';
+import { CouponDiscountSection20 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-20/CouponDiscountSection20';
+import couponDiscountSection20Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-20/coupon-discount-section-20.json';
+import { CartOffers1 } from '../sections/cart/03-cart-offers/cart-offers-1/CartOffers1';
+import cartOffers1Data from '../sections/cart/03-cart-offers/cart-offers-1/cart-offers-1.json';
+import { CartOffers2 } from '../sections/cart/03-cart-offers/cart-offers-2/CartOffers2';
+import cartOffers2Data from '../sections/cart/03-cart-offers/cart-offers-2/cart-offers-2.json';
+import { CartOffers3 } from '../sections/cart/03-cart-offers/cart-offers-3/CartOffers3';
+import cartOffers3Data from '../sections/cart/03-cart-offers/cart-offers-3/cart-offers-3.json';
+import { CartOffers4 } from '../sections/cart/03-cart-offers/cart-offers-4/CartOffers4';
+import cartOffers4Data from '../sections/cart/03-cart-offers/cart-offers-4/cart-offers-4.json';
+import { CartOffers5 } from '../sections/cart/03-cart-offers/cart-offers-5/CartOffers5';
+import cartOffers5Data from '../sections/cart/03-cart-offers/cart-offers-5/cart-offers-5.json';
+import { CartOffers6 } from '../sections/cart/03-cart-offers/cart-offers-6/CartOffers6';
+import cartOffers6Data from '../sections/cart/03-cart-offers/cart-offers-6/cart-offers-6.json';
+import { CartOffers7 } from '../sections/cart/03-cart-offers/cart-offers-7/CartOffers7';
+import cartOffers7Data from '../sections/cart/03-cart-offers/cart-offers-7/cart-offers-7.json';
+import { CartOffers8 } from '../sections/cart/03-cart-offers/cart-offers-8/CartOffers8';
+import cartOffers8Data from '../sections/cart/03-cart-offers/cart-offers-8/cart-offers-8.json';
+import { CartOffers9 } from '../sections/cart/03-cart-offers/cart-offers-9/CartOffers9';
+import cartOffers9Data from '../sections/cart/03-cart-offers/cart-offers-9/cart-offers-9.json';
+import { CartOffers10 } from '../sections/cart/03-cart-offers/cart-offers-10/CartOffers10';
+import cartOffers10Data from '../sections/cart/03-cart-offers/cart-offers-10/cart-offers-10.json';
+import { CartOffers11 } from '../sections/cart/03-cart-offers/cart-offers-11/CartOffers11';
+import cartOffers11Data from '../sections/cart/03-cart-offers/cart-offers-11/cart-offers-11.json';
+import { CartOffers12 } from '../sections/cart/03-cart-offers/cart-offers-12/CartOffers12';
+import cartOffers12Data from '../sections/cart/03-cart-offers/cart-offers-12/cart-offers-12.json';
+import { CartOffers13 } from '../sections/cart/03-cart-offers/cart-offers-13/CartOffers13';
+import cartOffers13Data from '../sections/cart/03-cart-offers/cart-offers-13/cart-offers-13.json';
+import { CartOffers14 } from '../sections/cart/03-cart-offers/cart-offers-14/CartOffers14';
+import cartOffers14Data from '../sections/cart/03-cart-offers/cart-offers-14/cart-offers-14.json';
+import { CartOffers15 } from '../sections/cart/03-cart-offers/cart-offers-15/CartOffers15';
+import cartOffers15Data from '../sections/cart/03-cart-offers/cart-offers-15/cart-offers-15.json';
+import { CartOffers16 } from '../sections/cart/03-cart-offers/cart-offers-16/CartOffers16';
+import cartOffers16Data from '../sections/cart/03-cart-offers/cart-offers-16/cart-offers-16.json';
+import { CartOffers17 } from '../sections/cart/03-cart-offers/cart-offers-17/CartOffers17';
+import cartOffers17Data from '../sections/cart/03-cart-offers/cart-offers-17/cart-offers-17.json';
+import { CartOffers18 } from '../sections/cart/03-cart-offers/cart-offers-18/CartOffers18';
+import cartOffers18Data from '../sections/cart/03-cart-offers/cart-offers-18/cart-offers-18.json';
+import { CartOffers19 } from '../sections/cart/03-cart-offers/cart-offers-19/CartOffers19';
+import cartOffers19Data from '../sections/cart/03-cart-offers/cart-offers-19/cart-offers-19.json';
+import { CartOffers20 } from '../sections/cart/03-cart-offers/cart-offers-20/CartOffers20';
+import cartOffers20Data from '../sections/cart/03-cart-offers/cart-offers-20/cart-offers-20.json';
+import { CartSummary1 } from '../sections/cart/02-cart-summary/cart-summary-1/CartSummary1';
+import cartSummary1Data from '../sections/cart/02-cart-summary/cart-summary-1/cart-summary-1.json';
+import { CartSummary2 } from '../sections/cart/02-cart-summary/cart-summary-2/CartSummary2';
+import cartSummary2Data from '../sections/cart/02-cart-summary/cart-summary-2/cart-summary-2.json';
+import { CartSummary3 } from '../sections/cart/02-cart-summary/cart-summary-3/CartSummary3';
+import cartSummary3Data from '../sections/cart/02-cart-summary/cart-summary-3/cart-summary-3.json';
+import { CartSummary4 } from '../sections/cart/02-cart-summary/cart-summary-4/CartSummary4';
+import cartSummary4Data from '../sections/cart/02-cart-summary/cart-summary-4/cart-summary-4.json';
+import { CartSummary5 } from '../sections/cart/02-cart-summary/cart-summary-5/CartSummary5';
+import cartSummary5Data from '../sections/cart/02-cart-summary/cart-summary-5/cart-summary-5.json';
+import { CartSummary6 } from '../sections/cart/02-cart-summary/cart-summary-6/CartSummary6';
+import cartSummary6Data from '../sections/cart/02-cart-summary/cart-summary-6/cart-summary-6.json';
+import { CartSummary7 } from '../sections/cart/02-cart-summary/cart-summary-7/CartSummary7';
+import cartSummary7Data from '../sections/cart/02-cart-summary/cart-summary-7/cart-summary-7.json';
+import { CartSummary8 } from '../sections/cart/02-cart-summary/cart-summary-8/CartSummary8';
+import cartSummary8Data from '../sections/cart/02-cart-summary/cart-summary-8/cart-summary-8.json';
+import { CartSummary9 } from '../sections/cart/02-cart-summary/cart-summary-9/CartSummary9';
+import cartSummary9Data from '../sections/cart/02-cart-summary/cart-summary-9/cart-summary-9.json';
+import { CartSummary10 } from '../sections/cart/02-cart-summary/cart-summary-10/CartSummary10';
+import cartSummary10Data from '../sections/cart/02-cart-summary/cart-summary-10/cart-summary-10.json';
+import { CartSummary11 } from '../sections/cart/02-cart-summary/cart-summary-11/CartSummary11';
+import cartSummary11Data from '../sections/cart/02-cart-summary/cart-summary-11/cart-summary-11.json';
+import { CartSummary12 } from '../sections/cart/02-cart-summary/cart-summary-12/CartSummary12';
+import cartSummary12Data from '../sections/cart/02-cart-summary/cart-summary-12/cart-summary-12.json';
+import { CartSummary13 } from '../sections/cart/02-cart-summary/cart-summary-13/CartSummary13';
+import cartSummary13Data from '../sections/cart/02-cart-summary/cart-summary-13/cart-summary-13.json';
+import { CartSummary14 } from '../sections/cart/02-cart-summary/cart-summary-14/CartSummary14';
+import cartSummary14Data from '../sections/cart/02-cart-summary/cart-summary-14/cart-summary-14.json';
+import { CartSummary15 } from '../sections/cart/02-cart-summary/cart-summary-15/CartSummary15';
+import cartSummary15Data from '../sections/cart/02-cart-summary/cart-summary-15/cart-summary-15.json';
+import { CartSummary16 } from '../sections/cart/02-cart-summary/cart-summary-16/CartSummary16';
+import cartSummary16Data from '../sections/cart/02-cart-summary/cart-summary-16/cart-summary-16.json';
+import { CartSummary17 } from '../sections/cart/02-cart-summary/cart-summary-17/CartSummary17';
+import cartSummary17Data from '../sections/cart/02-cart-summary/cart-summary-17/cart-summary-17.json';
+import { CartSummary18 } from '../sections/cart/02-cart-summary/cart-summary-18/CartSummary18';
+import cartSummary18Data from '../sections/cart/02-cart-summary/cart-summary-18/cart-summary-18.json';
+import { CartSummary19 } from '../sections/cart/02-cart-summary/cart-summary-19/CartSummary19';
+import cartSummary19Data from '../sections/cart/02-cart-summary/cart-summary-19/cart-summary-19.json';
+import { CartSummary20 } from '../sections/cart/02-cart-summary/cart-summary-20/CartSummary20';
+import cartSummary20Data from '../sections/cart/02-cart-summary/cart-summary-20/cart-summary-20.json';
+import { CartItemsSection1 } from '../sections/cart/01-cart-items-section/cart-items-section-1/CartItemsSection1';
+import cartItemsSection1Data from '../sections/cart/01-cart-items-section/cart-items-section-1/cart-items-section-1.json';
+import { CartItemsSection2 } from '../sections/cart/01-cart-items-section/cart-items-section-2/CartItemsSection2';
+import cartItemsSection2Data from '../sections/cart/01-cart-items-section/cart-items-section-2/cart-items-section-2.json';
+import { CartItemsSection3 } from '../sections/cart/01-cart-items-section/cart-items-section-3/CartItemsSection3';
+import cartItemsSection3Data from '../sections/cart/01-cart-items-section/cart-items-section-3/cart-items-section-3.json';
+import { CartItemsSection4 } from '../sections/cart/01-cart-items-section/cart-items-section-4/CartItemsSection4';
+import cartItemsSection4Data from '../sections/cart/01-cart-items-section/cart-items-section-4/cart-items-section-4.json';
+import { CartItemsSection5 } from '../sections/cart/01-cart-items-section/cart-items-section-5/CartItemsSection5';
+import cartItemsSection5Data from '../sections/cart/01-cart-items-section/cart-items-section-5/cart-items-section-5.json';
+import { CartItemsSection6 } from '../sections/cart/01-cart-items-section/cart-items-section-6/CartItemsSection6';
+import cartItemsSection6Data from '../sections/cart/01-cart-items-section/cart-items-section-6/cart-items-section-6.json';
+import { CartItemsSection7 } from '../sections/cart/01-cart-items-section/cart-items-section-7/CartItemsSection7';
+import cartItemsSection7Data from '../sections/cart/01-cart-items-section/cart-items-section-7/cart-items-section-7.json';
+import { CartItemsSection8 } from '../sections/cart/01-cart-items-section/cart-items-section-8/CartItemsSection8';
+import cartItemsSection8Data from '../sections/cart/01-cart-items-section/cart-items-section-8/cart-items-section-8.json';
+import { CartItemsSection9 } from '../sections/cart/01-cart-items-section/cart-items-section-9/CartItemsSection9';
+import cartItemsSection9Data from '../sections/cart/01-cart-items-section/cart-items-section-9/cart-items-section-9.json';
+import { CartItemsSection10 } from '../sections/cart/01-cart-items-section/cart-items-section-10/CartItemsSection10';
+import cartItemsSection10Data from '../sections/cart/01-cart-items-section/cart-items-section-10/cart-items-section-10.json';
+import { CartItemsSection11 } from '../sections/cart/01-cart-items-section/cart-items-section-11/CartItemsSection11';
+import cartItemsSection11Data from '../sections/cart/01-cart-items-section/cart-items-section-11/cart-items-section-11.json';
+import { CartItemsSection12 } from '../sections/cart/01-cart-items-section/cart-items-section-12/CartItemsSection12';
+import cartItemsSection12Data from '../sections/cart/01-cart-items-section/cart-items-section-12/cart-items-section-12.json';
+import { CartItemsSection13 } from '../sections/cart/01-cart-items-section/cart-items-section-13/CartItemsSection13';
+import cartItemsSection13Data from '../sections/cart/01-cart-items-section/cart-items-section-13/cart-items-section-13.json';
+import { CartItemsSection14 } from '../sections/cart/01-cart-items-section/cart-items-section-14/CartItemsSection14';
+import cartItemsSection14Data from '../sections/cart/01-cart-items-section/cart-items-section-14/cart-items-section-14.json';
+import { CartItemsSection15 } from '../sections/cart/01-cart-items-section/cart-items-section-15/CartItemsSection15';
+import cartItemsSection15Data from '../sections/cart/01-cart-items-section/cart-items-section-15/cart-items-section-15.json';
+import { CartItemsSection16 } from '../sections/cart/01-cart-items-section/cart-items-section-16/CartItemsSection16';
+import cartItemsSection16Data from '../sections/cart/01-cart-items-section/cart-items-section-16/cart-items-section-16.json';
+import { CartItemsSection17 } from '../sections/cart/01-cart-items-section/cart-items-section-17/CartItemsSection17';
+import cartItemsSection17Data from '../sections/cart/01-cart-items-section/cart-items-section-17/cart-items-section-17.json';
+import { CartItemsSection18 } from '../sections/cart/01-cart-items-section/cart-items-section-18/CartItemsSection18';
+import cartItemsSection18Data from '../sections/cart/01-cart-items-section/cart-items-section-18/cart-items-section-18.json';
+import { CartItemsSection19 } from '../sections/cart/01-cart-items-section/cart-items-section-19/CartItemsSection19';
+import cartItemsSection19Data from '../sections/cart/01-cart-items-section/cart-items-section-19/cart-items-section-19.json';
+import { CartItemsSection20 } from '../sections/cart/01-cart-items-section/cart-items-section-20/CartItemsSection20';
+import cartItemsSection20Data from '../sections/cart/01-cart-items-section/cart-items-section-20/cart-items-section-20.json';
 import React from 'react';
-import { homeCategories, productCategories } from './navigationData';
+import { homeCategories, productCategories, cartCategories } from './navigationData';
 import { Code } from 'lucide-react';
 
 import { SectionLibraryCard } from './SectionLibraryCard';
@@ -1405,46 +1565,46 @@ import SizeGuide19 from '../sections/product/09-size-guide/size-guide-19/SizeGui
 import sizeGuide19Data from '../sections/product/09-size-guide/size-guide-19/size-guide-19.json';
 import SizeGuide20 from '../sections/product/09-size-guide/size-guide-20/SizeGuide20';
 import sizeGuide20Data from '../sections/product/09-size-guide/size-guide-20/size-guide-20.json';
-import ProductCare1 from '../sections/product/10-product-care/product-care-1/ProductCare1';
-import productCare1Data from '../sections/product/10-product-care/product-care-1/product-care-1.json';
-import ProductCare2 from '../sections/product/10-product-care/product-care-2/ProductCare2';
-import productCare2Data from '../sections/product/10-product-care/product-care-2/product-care-2.json';
-import ProductCare3 from '../sections/product/10-product-care/product-care-3/ProductCare3';
-import productCare3Data from '../sections/product/10-product-care/product-care-3/product-care-3.json';
-import ProductCare4 from '../sections/product/10-product-care/product-care-4/ProductCare4';
-import productCare4Data from '../sections/product/10-product-care/product-care-4/product-care-4.json';
-import ProductCare5 from '../sections/product/10-product-care/product-care-5/ProductCare5';
-import productCare5Data from '../sections/product/10-product-care/product-care-5/product-care-5.json';
-import ProductCare6 from '../sections/product/10-product-care/product-care-6/ProductCare6';
-import productCare6Data from '../sections/product/10-product-care/product-care-6/product-care-6.json';
-import ProductCare7 from '../sections/product/10-product-care/product-care-7/ProductCare7';
-import productCare7Data from '../sections/product/10-product-care/product-care-7/product-care-7.json';
-import ProductCare8 from '../sections/product/10-product-care/product-care-8/ProductCare8';
-import productCare8Data from '../sections/product/10-product-care/product-care-8/product-care-8.json';
-import ProductCare9 from '../sections/product/10-product-care/product-care-9/ProductCare9';
-import productCare9Data from '../sections/product/10-product-care/product-care-9/product-care-9.json';
-import ProductCare10 from '../sections/product/10-product-care/product-care-10/ProductCare10';
-import productCare10Data from '../sections/product/10-product-care/product-care-10/product-care-10.json';
-import ProductCare11 from '../sections/product/10-product-care/product-care-11/ProductCare11';
-import productCare11Data from '../sections/product/10-product-care/product-care-11/product-care-11.json';
-import ProductCare12 from '../sections/product/10-product-care/product-care-12/ProductCare12';
-import productCare12Data from '../sections/product/10-product-care/product-care-12/product-care-12.json';
-import ProductCare13 from '../sections/product/10-product-care/product-care-13/ProductCare13';
-import productCare13Data from '../sections/product/10-product-care/product-care-13/product-care-13.json';
-import ProductCare14 from '../sections/product/10-product-care/product-care-14/ProductCare14';
-import productCare14Data from '../sections/product/10-product-care/product-care-14/product-care-14.json';
-import ProductCare15 from '../sections/product/10-product-care/product-care-15/ProductCare15';
-import productCare15Data from '../sections/product/10-product-care/product-care-15/product-care-15.json';
-import ProductCare16 from '../sections/product/10-product-care/product-care-16/ProductCare16';
-import productCare16Data from '../sections/product/10-product-care/product-care-16/product-care-16.json';
-import ProductCare17 from '../sections/product/10-product-care/product-care-17/ProductCare17';
-import productCare17Data from '../sections/product/10-product-care/product-care-17/product-care-17.json';
-import ProductCare18 from '../sections/product/10-product-care/product-care-18/ProductCare18';
-import productCare18Data from '../sections/product/10-product-care/product-care-18/product-care-18.json';
-import ProductCare19 from '../sections/product/10-product-care/product-care-19/ProductCare19';
-import productCare19Data from '../sections/product/10-product-care/product-care-19/product-care-19.json';
-import ProductCare20 from '../sections/product/10-product-care/product-care-20/ProductCare20';
-import productCare20Data from '../sections/product/10-product-care/product-care-20/product-care-20.json';
+import ProductCard1 from '../sections/product/10-product-card/product-card-1/ProductCard1';
+import productCard1Data from '../sections/product/10-product-card/product-card-1/product-card-1.json';
+import ProductCard2 from '../sections/product/10-product-card/product-card-2/ProductCard2';
+import productCard2Data from '../sections/product/10-product-card/product-card-2/product-card-2.json';
+import ProductCard3 from '../sections/product/10-product-card/product-card-3/ProductCard3';
+import productCard3Data from '../sections/product/10-product-card/product-card-3/product-card-3.json';
+import ProductCard4 from '../sections/product/10-product-card/product-card-4/ProductCard4';
+import productCard4Data from '../sections/product/10-product-card/product-card-4/product-card-4.json';
+import ProductCard5 from '../sections/product/10-product-card/product-card-5/ProductCard5';
+import productCard5Data from '../sections/product/10-product-card/product-card-5/product-card-5.json';
+import ProductCard6 from '../sections/product/10-product-card/product-card-6/ProductCard6';
+import productCard6Data from '../sections/product/10-product-card/product-card-6/product-card-6.json';
+import ProductCard7 from '../sections/product/10-product-card/product-card-7/ProductCard7';
+import productCard7Data from '../sections/product/10-product-card/product-card-7/product-card-7.json';
+import ProductCard8 from '../sections/product/10-product-card/product-card-8/ProductCard8';
+import productCard8Data from '../sections/product/10-product-card/product-card-8/product-card-8.json';
+import ProductCard9 from '../sections/product/10-product-card/product-card-9/ProductCard9';
+import productCard9Data from '../sections/product/10-product-card/product-card-9/product-card-9.json';
+import ProductCard10 from '../sections/product/10-product-card/product-card-10/ProductCard10';
+import productCard10Data from '../sections/product/10-product-card/product-card-10/product-card-10.json';
+import ProductCard11 from '../sections/product/10-product-card/product-card-11/ProductCard11';
+import productCard11Data from '../sections/product/10-product-card/product-card-11/product-card-11.json';
+import ProductCard12 from '../sections/product/10-product-card/product-card-12/ProductCard12';
+import productCard12Data from '../sections/product/10-product-card/product-card-12/product-card-12.json';
+import ProductCard13 from '../sections/product/10-product-card/product-card-13/ProductCard13';
+import productCard13Data from '../sections/product/10-product-card/product-card-13/product-card-13.json';
+import ProductCard14 from '../sections/product/10-product-card/product-card-14/ProductCard14';
+import productCard14Data from '../sections/product/10-product-card/product-card-14/product-card-14.json';
+import ProductCard15 from '../sections/product/10-product-card/product-card-15/ProductCard15';
+import productCard15Data from '../sections/product/10-product-card/product-card-15/product-card-15.json';
+import ProductCard16 from '../sections/product/10-product-card/product-card-16/ProductCard16';
+import productCard16Data from '../sections/product/10-product-card/product-card-16/product-card-16.json';
+import ProductCard17 from '../sections/product/10-product-card/product-card-17/ProductCard17';
+import productCard17Data from '../sections/product/10-product-card/product-card-17/product-card-17.json';
+import ProductCard18 from '../sections/product/10-product-card/product-card-18/ProductCard18';
+import productCard18Data from '../sections/product/10-product-card/product-card-18/product-card-18.json';
+import ProductCard19 from '../sections/product/10-product-card/product-card-19/ProductCard19';
+import productCard19Data from '../sections/product/10-product-card/product-card-19/product-card-19.json';
+import ProductCard20 from '../sections/product/10-product-card/product-card-20/ProductCard20';
+import productCard20Data from '../sections/product/10-product-card/product-card-20/product-card-20.json';
 import WarrantyInformation1 from '../sections/product/11-warranty-information/warranty-information-1/WarrantyInformation1';
 import warrantyInformation1Data from '../sections/product/11-warranty-information/warranty-information-1/warranty-information-1.json';
 import WarrantyInformation2 from '../sections/product/11-warranty-information/warranty-information-2/WarrantyInformation2';
@@ -6338,126 +6498,126 @@ export function SectionLibraryGrid({ category }: GridProps) {
           previewComponent: <SizeGuide20 data={sizeGuide20Data as any} />
         }
       ] :
-    category === 'product-care' ? [
+    category === 'product-card' ? [
         {
-          id: 'product-care-1',
-          title: 'DARK GLASSMORPHISM GRID',
-          description: 'A sleek, dark glassmorphism grid with framer-motion hover animations and subtle radial gradients.',
-          previewComponent: <ProductCare1 data={productCare1Data as any} />
+          id: 'product-card-1',
+          title: productCard1Data.title || "01. GLASSMORPHISM ACRYLIC 3D CARD",
+          description: productCard1Data.description || "Frosted acrylic glass backdrop with dynamic color swatch selector, floating wishlist morph button, and active cart toast.",
+          previewComponent: <ProductCard1 data={productCard1Data as any} />
         },
         {
-          id: 'product-care-2',
-          title: 'SCROLL REVEAL TYPOGRAPHY',
-          description: 'A typography-heavy design featuring scroll-based word reveal animations and a dynamic progress bar.',
-          previewComponent: <ProductCare2 data={productCare2Data as any} />
+          id: 'product-card-2',
+          title: productCard2Data.title || "02. INFINITE VARIANT STACK SLIDER",
+          description: productCard2Data.description || "Interactive horizontal variant tab switcher with smooth crossfade slide animations and detailed tech specs breakdown.",
+          previewComponent: <ProductCard2 data={productCard2Data as any} />
         },
         {
-          id: 'product-care-3',
-          title: 'ANIMATED TABS',
-          description: 'An interactive tabbed folder layout with a deep blue theme and smooth content crossfade transitions.',
-          previewComponent: <ProductCare3 data={productCare3Data as any} />
+          id: 'product-card-3',
+          title: productCard3Data.title || "03. 360° PERSPECTIVE ROTATION VIEW",
+          description: productCard3Data.description || "Interactive rotation slider allowing users to inspect camera angles in real time with high-contrast stock badges.",
+          previewComponent: <ProductCard3 data={productCard3Data as any} />
         },
         {
-          id: 'product-care-4',
-          title: 'PARALLAX PORTAL HERO',
-          description: 'A vibrant, gradient-background design with scroll-driven parallax blur effects inspired by portal hero designs.',
-          previewComponent: <ProductCare4 data={productCare4Data as any} />
+          id: 'product-card-4',
+          title: productCard4Data.title || "04. MINIMALIST LUXURY ATELIER",
+          description: productCard4Data.description || "Scandinavian dark theme coat card featuring interactive size picker (S, M, L, XL) and handcrafted badge.",
+          previewComponent: <ProductCard4 data={productCard4Data as any} />
         },
         {
-          id: 'product-care-5',
-          title: 'HOVER ELEVATION CARDS',
-          description: "An emerald-themed Do's and Don'ts layout with spring-based entry animations and floating hover elevation.",
-          previewComponent: <ProductCare5 data={productCare5Data as any} />
+          id: 'product-card-5',
+          title: productCard5Data.title || "05. NEUMORPHIC TACTILE SMARTWATCH",
+          description: productCard5Data.description || "Soft tactile elevation card with band variant selector, battery life status widget, and high-impact CTA.",
+          previewComponent: <ProductCard5 data={productCard5Data as any} />
         },
         {
-          id: 'product-care-6',
-          title: 'GLOWING BORDER CARD',
-          description: 'A premium card with a dynamic glowing gradient border effect and expandable text on hover.',
-          previewComponent: <ProductCare6 data={productCare6Data as any} />
+          id: 'product-card-6',
+          title: productCard6Data.title || "06. CYBER MATRIX NEON GLOW EDITION",
+          description: productCard6Data.description || "Futuristic dark cyber grid aesthetic with glowing emerald borders, hardware specs, and MSRP checkout.",
+          previewComponent: <ProductCard6 data={productCard6Data as any} />
         },
         {
-          id: 'product-care-7',
-          title: 'STAGGERED TEXT REVEAL',
-          description: 'A bold, high-contrast quick-start guide featuring staggered text and line reveal animations.',
-          previewComponent: <ProductCare7 data={productCare7Data as any} />
+          id: 'product-card-7',
+          title: productCard7Data.title || "07. RETRO SPLIT UNCOVER CARD",
+          description: productCard7Data.description || "Classic instant camera showcase with discount percentage badge, review rating stars, and gradient purchase action.",
+          previewComponent: <ProductCard7 data={productCard7Data as any} />
         },
         {
-          id: 'product-care-8',
-          title: 'SPRING SPLIT CARDS',
-          description: 'A clean split-card layout highlighting warnings and support with responsive spring hover animations.',
-          previewComponent: <ProductCare8 data={productCare8Data as any} />
+          id: 'product-card-8',
+          title: productCard8Data.title || "08. SNEAKERHEAD LIMITED RUN CARD",
+          description: productCard8Data.description || "High-energy sneaker card featuring EU shoe size selection buttons, limited run tag, and vibrant red accents.",
+          previewComponent: <ProductCard8 data={productCard8Data as any} />
         },
         {
-          id: 'product-care-9',
-          title: 'ELEGANT FADE LIST',
-          description: 'A minimalist list with elegant, staggered fade-in animations for care instructions and material content.',
-          previewComponent: <ProductCare9 data={productCare9Data as any} />
+          id: 'product-card-9',
+          title: productCard9Data.title || "09. ACCORDION SPEC DRAWER CARD",
+          description: productCard9Data.description || "Luxury timepiece card with expandable technical specifications accordion drawer and fluid Framer Motion spring transition.",
+          previewComponent: <ProductCard9 data={productCard9Data as any} />
         },
         {
-          id: 'product-care-10',
-          title: 'FLUID ACCORDION',
-          description: 'A beautifully animated fluid accordion dropdown utilizing Framer Motion for smooth height and padding transitions.',
-          previewComponent: <ProductCare10 data={productCare10Data as any} />
+          id: 'product-card-10',
+          title: productCard10Data.title || "10. NEXT-GEN AR CREATOR CARD",
+          description: productCard10Data.description || "High-impact creator mic showcase card with AR-ready badge, star rating breakdown, and purple glow ambient backdrop.",
+          previewComponent: <ProductCard10 data={productCard10Data as any} />
         },
         {
-          id: 'product-care-11',
-          title: 'CURSOR FOLLOWER GLOW',
-          description: 'A dark layout featuring a custom cursor follower with glow and blur effects responding to mouse movement.',
-          previewComponent: <ProductCare11 data={productCare11Data as any} />
+          id: 'product-card-11',
+          title: productCard11Data.title || "11. CURSOR SPOTLIGHT GLOW CARD",
+          description: productCard11Data.description || "Dark mode cursor-tracking spotlight glow card with Flat EQ and Bass Boosted audio toggle switches.",
+          previewComponent: <ProductCard11 data={productCard11Data as any} />
         },
         {
-          id: 'product-care-12',
-          title: 'HAPTIC CHECKLIST',
-          description: 'An interactive checklist with micro-interactions, layout transitions on tap, and simulated haptic shake error feedback.',
-          previewComponent: <ProductCare12 data={productCare12Data as any} />
+          id: 'product-card-12',
+          title: productCard12Data.title || "12. HAPTIC ERROR CHECKLIST CARD",
+          description: productCard12Data.description || "Action camera card with checkable kit accessories and simulated haptic shake error feedback on checkout.",
+          previewComponent: <ProductCard12 data={productCard12Data as any} />
         },
         {
-          id: 'product-care-13',
-          title: '3D PARALLAX TILT',
-          description: 'A stunning 3D perspective layout with parallax tilt effects and glowing elements that follow your cursor.',
-          previewComponent: <ProductCare13 data={productCare13Data as any} />
+          id: 'product-card-13',
+          title: productCard13Data.title || "13. 3D PARALLAX PERSPECTIVE TILT",
+          description: productCard13Data.description || "Interactive 3D tilt card that rotates smoothly on mouse hover using Framer Motion perspective transforms.",
+          previewComponent: <ProductCard13 data={productCard13Data as any} />
         },
         {
-          id: 'product-care-14',
-          title: 'SHARED ELEMENT MATCHED-MOTION',
-          description: 'Clicking a grid item seamlessly expands it into a full overlay card using Shared-Element matched-motion transitions.',
-          previewComponent: <ProductCare14 data={productCare14Data as any} />
+          id: 'product-card-14',
+          title: productCard14Data.title || "14. SHARED-ELEMENT QUICK VIEW CARD",
+          description: productCard14Data.description || "High-fashion apparel card featuring an interactive full-screen quick-view modal overlay with shared-element transition.",
+          previewComponent: <ProductCard14 data={productCard14Data as any} />
         },
         {
-          id: 'product-care-15',
-          title: 'CINEMATIC SEQUENCE & NOISE',
-          description: 'An edgy cinematic sequence with a pulsating blur effect and a background static noise layer.',
-          previewComponent: <ProductCare15 data={productCare15Data as any} />
+          id: 'product-card-15',
+          title: productCard15Data.title || "15. PULSATING AURA SOUND CARD",
+          description: productCard15Data.description || "Dark synthwave aesthetic card with pulsating background aura glow and sound test playback simulation.",
+          previewComponent: <ProductCard15 data={productCard15Data as any} />
         },
         {
-          id: 'product-care-16',
-          title: 'STEPPER ANIMATION',
-          description: 'A multi-step form flow animation with a dynamic progress bar and smooth horizontal slide transitions.',
-          previewComponent: <ProductCare16 data={productCare16Data as any} />
+          id: 'product-card-16',
+          title: productCard16Data.title || "16. MULTI-STEP ENGRAVING WIZARD",
+          description: productCard16Data.description || "3-step interactive checkout wizard card (Variant -> Laser Engraving -> Order Summary).",
+          previewComponent: <ProductCard16 data={productCard16Data as any} />
         },
         {
-          id: 'product-care-17',
-          title: 'THEME TRANSITION',
-          description: 'A playful component showcasing a smooth, gradual transition between light and dark modes with color interpolation.',
-          previewComponent: <ProductCare17 data={productCare17Data as any} />
+          id: 'product-card-17',
+          title: productCard17Data.title || "17. DYNAMIC LIGHT & DARK MODE CARD",
+          description: productCard17Data.description || "In-card theme switcher toggle allowing real-time color interpolation between sleek dark and clean light mode.",
+          previewComponent: <ProductCard17 data={productCard17Data as any} />
         },
         {
-          id: 'product-care-18',
-          title: 'SKELETON TO DATA MORPH',
-          description: 'A realistic simulation of a loading state with spinner and skeleton placeholders that gracefully transition into actual data.',
-          previewComponent: <ProductCare18 data={productCare18Data as any} />
+          id: 'product-card-18',
+          title: productCard18Data.title || "18. SKELETON SHIMMER DATA LOADER",
+          description: productCard18Data.description || "Interactive loading state demo card with shimmering skeleton placeholders transitioning into real data.",
+          previewComponent: <ProductCard18 data={productCard18Data as any} />
         },
         {
-          id: 'product-care-19',
-          title: 'EMPTY STATE HOVER DISTORTION',
-          description: 'An empty state card surrounded by animated SVG blobs featuring 3D hover distortion effects.',
-          previewComponent: <ProductCare19 data={productCare19Data as any} />
+          id: 'product-card-19',
+          title: productCard19Data.title || "19. ORGANIC ROTATING SVG BLOB CARD",
+          description: productCard19Data.description || "Glassmorphism card set against continuously rotating background gradient SVG blobs.",
+          previewComponent: <ProductCard19 data={productCard19Data as any} />
         },
         {
-          id: 'product-care-20',
-          title: 'SCROLL PROGRESS PARALLAX',
-          description: 'A dramatic scroll-linked parallax layout where typography enters sequentially accompanied by a top scroll progress bar.',
-          previewComponent: <ProductCare20 data={productCare20Data as any} />
+          id: 'product-card-20',
+          title: productCard20Data.title || "20. WORKSTATION SETUP SUITE CARD",
+          description: productCard20Data.description || "High-converting product card for luxury standing desk workstation setup with rating stars and instant order CTA.",
+          previewComponent: <ProductCard20 data={productCard20Data as any} />
         }
       ] :
     category === 'warranty-information' ? [
@@ -6710,488 +6870,488 @@ export function SectionLibraryGrid({ category }: GridProps) {
     category === 'product-bundles' ? [
         {
           id: 'product-bundles-1',
-          title: 'Product Bundles 1',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles1Data.title || "01. GLASSMORPHISM CREATOR STUDIO BUNDLE",
+          description: productBundles1Data.description || "Frosted acrylic glass card stack with active add-on selection, dynamic price calculations, and live savings badge.",
           previewComponent: <ProductBundles1 data={productBundles1Data as any} />
         },
         {
           id: 'product-bundles-2',
-          title: 'Product Bundles 2',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles2Data.title || "02. INFINITE REEL TIER SLIDER BUNDLE",
+          description: productBundles2Data.description || "Horizontal sliding card reel for 3 bundle tiers with spring-damped drag and tap selection.",
           previewComponent: <ProductBundles2 data={productBundles2Data as any} />
         },
         {
           id: 'product-bundles-3',
-          title: 'Product Bundles 3',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles3Data.title || "03. 3D FLOATING ECOSYSTEM UNCOVER BUNDLE",
+          description: productBundles3Data.description || "Layered 3D card layout where clicking Uncover Bundle triggers a smooth curtain reveal animation.",
           previewComponent: <ProductBundles3 data={productBundles3Data as any} />
         },
         {
           id: 'product-bundles-4',
-          title: 'Product Bundles 4',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles4Data.title || "04. MODULAR SMART SECURITY SYSTEM",
+          description: productBundles4Data.description || "Interactive hub-and-spoke layout with base station and smart camera attachments.",
           previewComponent: <ProductBundles4 data={productBundles4Data as any} />
         },
         {
           id: 'product-bundles-5',
-          title: 'Product Bundles 5',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles5Data.title || "05. MINIMALIST SNEAKER & HOODIE FIT SET",
+          description: productBundles5Data.description || "Clean Scandinavian aesthetic sneaker and matching hoodie bundle set.",
           previewComponent: <ProductBundles5 data={productBundles5Data as any} />
         },
         {
           id: 'product-bundles-6',
-          title: 'Product Bundles 6',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles6Data.title || "06. CYBERPUNK PRO BATTLESTATION PACK",
+          description: productBundles6Data.description || "Futuristic neon cyan/magenta matrix style RGB gaming setup bundle.",
           previewComponent: <ProductBundles6 data={productBundles6Data as any} />
         },
         {
           id: 'product-bundles-7',
-          title: 'Product Bundles 7',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles7Data.title || "07. RETRO ANALOG FILM CAMERA BUNDLE",
+          description: productBundles7Data.description || "Classic analog instant camera with leather case and 3-pack film accessories.",
           previewComponent: <ProductBundles7 data={productBundles7Data as any} />
         },
         {
           id: 'product-bundles-8',
-          title: 'Product Bundles 8',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles8Data.title || "08. NEUMORPHIC AUDIOPHILE LISTENING SUITE",
+          description: productBundles8Data.description || "Soft-shadow tactile container with wireless ANC headphones and aluminum stand.",
           previewComponent: <ProductBundles8 data={productBundles8Data as any} />
         },
         {
           id: 'product-bundles-9',
-          title: 'Product Bundles 9',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles9Data.title || "09. LUXURY TIMEPIECE GIFT PACK",
+          description: productBundles9Data.description || "Luxury leather timepiece with extra Italian calfskin strap gift pack.",
           previewComponent: <ProductBundles9 data={productBundles9Data as any} />
         },
         {
           id: 'product-bundles-10',
-          title: 'Product Bundles 10',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles10Data.title || "10. 360-DEGREE INTERACTIVE TECH SUITE",
+          description: productBundles10Data.description || "Interactive 360 product view rotator for core item in bundle with floating accessory cards.",
           previewComponent: <ProductBundles10 data={productBundles10Data as any} />
         },
         {
           id: 'product-bundles-11',
-          title: 'Product Bundles 11',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles11Data.title || "11. CURSOR SPOTLIGHT REACTIVE BUNDLE",
+          description: productBundles11Data.description || "Dark mode spotlight glow effect following user cursor with audio setup bundle.",
           previewComponent: <ProductBundles11 data={productBundles11Data as any} />
         },
         {
           id: 'product-bundles-12',
-          title: 'Product Bundles 12',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles12Data.title || "12. HAPTIC ERROR ACTION CAM BUNDLE",
+          description: productBundles12Data.description || "Waterproof Action Cam with checkable kit accessories and haptic error feedback.",
           previewComponent: <ProductBundles12 data={productBundles12Data as any} />
         },
         {
           id: 'product-bundles-13',
-          title: 'Product Bundles 13',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles13Data.title || "13. 3D PARALLAX TILT WORKSTATION BUNDLE",
+          description: productBundles13Data.description || "3D mouse parallax tilt card featuring Ergonomic Desk and Dual Monitor Arm.",
           previewComponent: <ProductBundles13 data={productBundles13Data as any} />
         },
         {
           id: 'product-bundles-14',
-          title: 'Product Bundles 14',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles14Data.title || "14. SHARED-ELEMENT QUICK VIEW BUNDLE",
+          description: productBundles14Data.description || "Compact bundle preview card expanding into a full-bleed modal preview overlay.",
           previewComponent: <ProductBundles14 data={productBundles14Data as any} />
         },
         {
           id: 'product-bundles-15',
-          title: 'Product Bundles 15',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles15Data.title || "15. PULSATING SOUND AURA MUSIC SUITE",
+          description: productBundles15Data.description || "Studio Monitors and Audio Interface with animated audio waveform visualizer.",
           previewComponent: <ProductBundles15 data={productBundles15Data as any} />
         },
         {
           id: 'product-bundles-16',
-          title: 'Product Bundles 16',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles16Data.title || "16. MULTI-STEP CUSTOM BUNDLE WIZARD",
+          description: productBundles16Data.description || "Step-by-step interactive bundle builder wizard (Core -> Accessories -> Protection).",
           previewComponent: <ProductBundles16 data={productBundles16Data as any} />
         },
         {
           id: 'product-bundles-17',
-          title: 'Product Bundles 17',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles17Data.title || "17. DYNAMIC LIGHT & DARK MODE BUNDLE",
+          description: productBundles17Data.description || "In-card theme toggle (Light / Dark) for multi-device tablet ecosystem.",
           previewComponent: <ProductBundles17 data={productBundles17Data as any} />
         },
         {
           id: 'product-bundles-18',
-          title: 'Product Bundles 18',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles18Data.title || "18. SKELETON SHIMMER DATA LOADER BUNDLE",
+          description: productBundles18Data.description || "Interactive skeleton shimmer preview loading state transitioning into real bundle products.",
           previewComponent: <ProductBundles18 data={productBundles18Data as any} />
         },
         {
           id: 'product-bundles-19',
-          title: 'Product Bundles 19',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles19Data.title || "19. ORGANIC SVG BLOB ECO WORKSTATION",
+          description: productBundles19Data.description || "Continuous rotating background gradient blobs with eco-friendly bamboo workstation accessories.",
           previewComponent: <ProductBundles19 data={productBundles19Data as any} />
         },
         {
           id: 'product-bundles-20',
-          title: 'Product Bundles 20',
-          description: 'A presentation of grouped products featuring bundle pricing, presentation, and bundle contents.',
+          title: productBundles20Data.title || "20. ULTIMATE ALL-IN-ONE ENTERPRISE SUITE",
+          description: productBundles20Data.description || "Multi-card grid layout with savings countdown timer, verified review stars, and instant checkout CTA.",
           previewComponent: <ProductBundles20 data={productBundles20Data as any} />
         }
       ] :
     category === 'related-products' ? [
         {
           id: 'related-products-1',
-          title: 'Related Products 1',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts1Data.title || "GLASSMORPHISM CAROUSEL RAIL",
+          description: relatedProducts1Data.description || "Dark frosted glass card carousel with specular highlights, smooth scroll, and active item toasts.",
           previewComponent: <RelatedProducts1 data={relatedProducts1Data as any} />
         },
         {
           id: 'related-products-2',
-          title: 'Related Products 2',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts2Data.title || "INTERACTIVE TABBED CATEGORY REEL",
+          description: relatedProducts2Data.description || "Top tab category switcher with smooth spring sliders between companion tech packs.",
           previewComponent: <RelatedProducts2 data={relatedProducts2Data as any} />
         },
         {
           id: 'related-products-3',
-          title: 'Related Products 3',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts3Data.title || "3D CURTAIN UNCOVER HERO SPLIT",
+          description: relatedProducts3Data.description || "Interactive uncover curtain reveal button unleashing 3D companion equipment.",
           previewComponent: <RelatedProducts3 data={relatedProducts3Data as any} />
         },
         {
           id: 'related-products-4',
-          title: 'Related Products 4',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts4Data.title || "BENTO GRID RECOMMENDATION SHOWCASE",
+          description: relatedProducts4Data.description || "High-contrast bento grid layout displaying related accessories with rating stars.",
           previewComponent: <RelatedProducts4 data={relatedProducts4Data as any} />
         },
         {
           id: 'related-products-5',
-          title: 'Related Products 5',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts5Data.title || "MINIMALIST SCANDINAVIAN LIGHT GRID",
+          description: relatedProducts5Data.description || "Clean Scandinavian white/beige design for fashion & footwear recommendations.",
           previewComponent: <RelatedProducts5 data={relatedProducts5Data as any} />
         },
         {
           id: 'related-products-6',
-          title: 'Related Products 6',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts6Data.title || "CYBER MATRIX GAMING ACCESSORIES SLIDER",
+          description: relatedProducts6Data.description || "Dark futuristic gaming grid with glowing neon borders and hardware specs breakdown.",
           previewComponent: <RelatedProducts6 data={relatedProducts6Data as any} />
         },
         {
           id: 'related-products-7',
-          title: 'Related Products 7',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts7Data.title || "SPLIT-SCREEN HERO INSPECTOR & RAIL",
+          description: relatedProducts7Data.description || "Left sticky main hero inspector paired with right side-scroll selection cards.",
           previewComponent: <RelatedProducts7 data={relatedProducts7Data as any} />
         },
         {
           id: 'related-products-8',
-          title: 'Related Products 8',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts8Data.title || "NEUMORPHIC SOFT TACTILE AUDIO CARDS",
+          description: relatedProducts8Data.description || "Soft tactile neumorphic shadows with metallic highlights for audio accessories.",
           previewComponent: <RelatedProducts8 data={relatedProducts8Data as any} />
         },
         {
           id: 'related-products-9',
-          title: 'Related Products 9',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts9Data.title || "EXPANDABLE SPEC ACCORDION REEL",
+          description: relatedProducts9Data.description || "Cards with expandable technical specifications accordion drawer.",
           previewComponent: <RelatedProducts9 data={relatedProducts9Data as any} />
         },
         {
           id: 'related-products-10',
-          title: 'Related Products 10',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts10Data.title || "360-DEGREE INTERACTIVE LENS ROTATOR",
+          description: relatedProducts10Data.description || "Embedded 360 range slider for inspecting related camera lenses.",
           previewComponent: <RelatedProducts10 data={relatedProducts10Data as any} />
         },
         {
           id: 'related-products-11',
-          title: 'Related Products 11',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts11Data.title || "CURSOR SPOTLIGHT GLOW GRID",
+          description: relatedProducts11Data.description || "Interactive cursor tracking spotlight glow background effect across slate cards.",
           previewComponent: <RelatedProducts11 data={relatedProducts11Data as any} />
         },
         {
           id: 'related-products-12',
-          title: 'Related Products 12',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts12Data.title || "HAPTIC ERROR CHECKBOX ACCESSORY MATRIX",
+          description: relatedProducts12Data.description || "Action camera accessories rail with checkbox selections and haptic error feedback.",
           previewComponent: <RelatedProducts12 data={relatedProducts12Data as any} />
         },
         {
           id: 'related-products-13',
-          title: 'Related Products 13',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts13Data.title || "3D MOUSE PARALLAX TILT CARDS",
+          description: relatedProducts13Data.description || "3D parallax tilt cards that rotate dynamically on mouse hover.",
           previewComponent: <RelatedProducts13 data={relatedProducts13Data as any} />
         },
         {
           id: 'related-products-14',
-          title: 'Related Products 14',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts14Data.title || "SHARED-ELEMENT QUICK VIEW MODAL RAIL",
+          description: relatedProducts14Data.description || "Full-bleed quick view modal preview overlay trigger on card click.",
           previewComponent: <RelatedProducts14 data={relatedProducts14Data as any} />
         },
         {
           id: 'related-products-15',
-          title: 'Related Products 15',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts15Data.title || "PULSATING SOUND AURA MUSIC SUITE",
+          description: relatedProducts15Data.description || "Music production accessories with animated audio visualizer pulses.",
           previewComponent: <RelatedProducts15 data={relatedProducts15Data as any} />
         },
         {
           id: 'related-products-16',
-          title: 'Related Products 16',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts16Data.title || "MULTI-STEP RECOMMENDATION BUILDER WIZARD",
+          description: relatedProducts16Data.description || "Step-by-step recommendation flow (Step 1: Pick Case -> Step 2: Pick Strap).",
           previewComponent: <RelatedProducts16 data={relatedProducts16Data as any} />
         },
         {
           id: 'related-products-17',
-          title: 'Related Products 17',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts17Data.title || "DYNAMIC LIGHT & DARK MODE SWITCHER RAIL",
+          description: relatedProducts17Data.description || "In-card theme toggle allowing real-time light/dark mode switching.",
           previewComponent: <RelatedProducts17 data={relatedProducts17Data as any} />
         },
         {
           id: 'related-products-18',
-          title: 'Related Products 18',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts18Data.title || "SKELETON-TO-DATA SHIMMER LOADER REEL",
+          description: relatedProducts18Data.description || "Shimmering skeleton loader demo transitioning into real related items.",
           previewComponent: <RelatedProducts18 data={relatedProducts18Data as any} />
         },
         {
           id: 'related-products-19',
-          title: 'Related Products 19',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts19Data.title || "ORGANIC SVG BLOB ECO RECOMMENDATIONS",
+          description: relatedProducts19Data.description || "Rotating gradient SVG blobs with eco-friendly bamboo desk accessories.",
           previewComponent: <RelatedProducts19 data={relatedProducts19Data as any} />
         },
         {
           id: 'related-products-20',
-          title: 'Related Products 20',
-          description: 'A recommendation section displaying products related to the current product.',
+          title: relatedProducts20Data.title || "ENTERPRISE COMPARISON TABLE & RECOMMENDATIONS",
+          description: relatedProducts20Data.description || "High-converting recommendation grid with verified review badges and instant checkout CTAs.",
           previewComponent: <RelatedProducts20 data={relatedProducts20Data as any} />
         }
       ] :
     category === 'similar-products' ? [
         {
           id: 'similar-products-1',
-          title: 'Similar Products 1',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts1Data.title || "GLASSMORPHISM ALTERNATIVE CAROUSEL",
+          description: similarProducts1Data.description || "Dark frosted glass card carousel with specular highlights and model comparison tags.",
           previewComponent: <SimilarProducts1 data={similarProducts1Data as any} />
         },
         {
           id: 'similar-products-2',
-          title: 'Similar Products 2',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts2Data.title || "INFINITE REEL ALTERNATIVE DECK",
+          description: similarProducts2Data.description || "Swipeable deck carousel for alternative product models with smooth spring sliders.",
           previewComponent: <SimilarProducts2 data={similarProducts2Data as any} />
         },
         {
           id: 'similar-products-3',
-          title: 'Similar Products 3',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts3Data.title || "3D UNCOVER REVEAL ALTERNATIVES",
+          description: similarProducts3Data.description || "Curtain reveal trigger unveiling 3D-elevated similar models with side-by-side spec badges.",
           previewComponent: <SimilarProducts3 data={similarProducts3Data as any} />
         },
         {
           id: 'similar-products-4',
-          title: 'Similar Products 4',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts4Data.title || "BENTO GRID COMPARISON MATRIX",
+          description: similarProducts4Data.description || "Bento grid layout comparing the current product against 3 alternative options.",
           previewComponent: <SimilarProducts4 data={similarProducts4Data as any} />
         },
         {
           id: 'similar-products-5',
-          title: 'Similar Products 5',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts5Data.title || "SCANDINAVIAN LIGHT APPAREL ALTERNATIVES",
+          description: similarProducts5Data.description || "Clean white/beige design showing alternative sweater/jacket colors and fits.",
           previewComponent: <SimilarProducts5 data={similarProducts5Data as any} />
         },
         {
           id: 'similar-products-6',
-          title: 'Similar Products 6',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts6Data.title || "CYBER MATRIX GAMING ALTERNATIVES",
+          description: similarProducts6Data.description || "Cyber gaming grid with RGB neon borders and benchmark comparison meters.",
           previewComponent: <SimilarProducts6 data={similarProducts6Data as any} />
         },
         {
           id: 'similar-products-7',
-          title: 'Similar Products 7',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts7Data.title || "SPLIT HERO COMPARISON INSPECTOR",
+          description: similarProducts7Data.description || "Left sticky active product paired with right interactive list of similar alternatives.",
           previewComponent: <SimilarProducts7 data={similarProducts7Data as any} />
         },
         {
           id: 'similar-products-8',
-          title: 'Similar Products 8',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts8Data.title || "NEUMORPHIC SOFT TACTILE AUDIO ALTERNATIVES",
+          description: similarProducts8Data.description || "Tactile soft shadow cards comparing noise-canceling headphones.",
           previewComponent: <SimilarProducts8 data={similarProducts8Data as any} />
         },
         {
           id: 'similar-products-9',
-          title: 'Similar Products 9',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts9Data.title || "EXPANDABLE SPEC ACCORDION COMPARISON",
+          description: similarProducts9Data.description || "Accordion drawers inside each alternative card to compare battery, size, & price.",
           previewComponent: <SimilarProducts9 data={similarProducts9Data as any} />
         },
         {
           id: 'similar-products-10',
-          title: 'Similar Products 10',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts10Data.title || "360-DEGREE INTERACTIVE LENS ALTERNATIVES",
+          description: similarProducts10Data.description || "360 viewer comparing alternative camera lens focal lengths.",
           previewComponent: <SimilarProducts10 data={similarProducts10Data as any} />
         },
         {
           id: 'similar-products-11',
-          title: 'Similar Products 11',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts11Data.title || "CURSOR SPOTLIGHT GLOW ALTERNATIVES",
+          description: similarProducts11Data.description || "Interactive cursor spotlight tracking across alternative product cards.",
           previewComponent: <SimilarProducts11 data={similarProducts11Data as any} />
         },
         {
           id: 'similar-products-12',
-          title: 'Similar Products 12',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts12Data.title || "HAPTIC ERROR FEATURE MATRIX",
+          description: similarProducts12Data.description || "Alternative action cameras with feature comparison checks and error feedback.",
           previewComponent: <SimilarProducts12 data={similarProducts12Data as any} />
         },
         {
           id: 'similar-products-13',
-          title: 'Similar Products 13',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts13Data.title || "3D MOUSE PARALLAX TILT ALTERNATIVES",
+          description: similarProducts13Data.description || "3D parallax tilt cards rotating on mouse position.",
           previewComponent: <SimilarProducts13 data={similarProducts13Data as any} />
         },
         {
           id: 'similar-products-14',
-          title: 'Similar Products 14',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts14Data.title || "SHARED-ELEMENT QUICK VIEW MODAL REEL",
+          description: similarProducts14Data.description || "Quick view modal popover comparing alternative apparel items.",
           previewComponent: <SimilarProducts14 data={similarProducts14Data as any} />
         },
         {
           id: 'similar-products-15',
-          title: 'Similar Products 15',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts15Data.title || "PULSATING SOUND AURA AUDIO ALTERNATIVES",
+          description: similarProducts15Data.description || "Audio interface alternatives with sound wave visualizer pulses.",
           previewComponent: <SimilarProducts15 data={similarProducts15Data as any} />
         },
         {
           id: 'similar-products-16',
-          title: 'Similar Products 16',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts16Data.title || "MULTI-STEP ALTERNATIVE FINDER WIZARD",
+          description: similarProducts16Data.description || "Step wizard to filter similar products by budget, style, and features.",
           previewComponent: <SimilarProducts16 data={similarProducts16Data as any} />
         },
         {
           id: 'similar-products-17',
-          title: 'Similar Products 17',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts17Data.title || "DYNAMIC LIGHT & DARK MODE SWITCHER",
+          description: similarProducts17Data.description || "Theme switcher toggle between Dark & Light mode for tablet alternatives.",
           previewComponent: <SimilarProducts17 data={similarProducts17Data as any} />
         },
         {
           id: 'similar-products-18',
-          title: 'Similar Products 18',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts18Data.title || "SKELETON SHIMMER DATA LOADER GRID",
+          description: similarProducts18Data.description || "Shimmering skeleton loader demo transitioning into real alternative items.",
           previewComponent: <SimilarProducts18 data={similarProducts18Data as any} />
         },
         {
           id: 'similar-products-19',
-          title: 'Similar Products 19',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts19Data.title || "ORGANIC SVG BLOB ECO ALTERNATIVES",
+          description: similarProducts19Data.description || "Gradient SVG blobs with eco-friendly bamboo desk alternatives.",
           previewComponent: <SimilarProducts19 data={similarProducts19Data as any} />
         },
         {
           id: 'similar-products-20',
-          title: 'Similar Products 20',
-          description: 'A recommendation section displaying products similar to the current product.',
+          title: similarProducts20Data.title || "ULTIMATE ENTERPRISE COMPARISON SUITE",
+          description: similarProducts20Data.description || "Multi-card comparison table with rating stars, price diff badges, and instant switch CTA.",
           previewComponent: <SimilarProducts20 data={similarProducts20Data as any} />
         }
       ] :
     category === 'recommended-products' ? [
         {
           id: 'recommended-products-1',
-          title: 'Recommended Products 1',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts1Data.title || "Recommended Products 1",
+          description: recommendedProducts1Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts1 data={recommendedProducts1Data as any} />
         },
         {
           id: 'recommended-products-2',
-          title: 'Recommended Products 2',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts2Data.title || "Recommended Products 2",
+          description: recommendedProducts2Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts2 data={recommendedProducts2Data as any} />
         },
         {
           id: 'recommended-products-3',
-          title: 'Recommended Products 3',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts3Data.title || "Recommended Products 3",
+          description: recommendedProducts3Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts3 data={recommendedProducts3Data as any} />
         },
         {
           id: 'recommended-products-4',
-          title: 'Recommended Products 4',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts4Data.title || "Recommended Products 4",
+          description: recommendedProducts4Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts4 data={recommendedProducts4Data as any} />
         },
         {
           id: 'recommended-products-5',
-          title: 'Recommended Products 5',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts5Data.title || "Recommended Products 5",
+          description: recommendedProducts5Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts5 data={recommendedProducts5Data as any} />
         },
         {
           id: 'recommended-products-6',
-          title: 'Recommended Products 6',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts6Data.title || "Recommended Products 6",
+          description: recommendedProducts6Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts6 data={recommendedProducts6Data as any} />
         },
         {
           id: 'recommended-products-7',
-          title: 'Recommended Products 7',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts7Data.title || "Recommended Products 7",
+          description: recommendedProducts7Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts7 data={recommendedProducts7Data as any} />
         },
         {
           id: 'recommended-products-8',
-          title: 'Recommended Products 8',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts8Data.title || "Recommended Products 8",
+          description: recommendedProducts8Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts8 data={recommendedProducts8Data as any} />
         },
         {
           id: 'recommended-products-9',
-          title: 'Recommended Products 9',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts9Data.title || "Recommended Products 9",
+          description: recommendedProducts9Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts9 data={recommendedProducts9Data as any} />
         },
         {
           id: 'recommended-products-10',
-          title: 'Recommended Products 10',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts10Data.title || "Recommended Products 10",
+          description: recommendedProducts10Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts10 data={recommendedProducts10Data as any} />
         },
         {
           id: 'recommended-products-11',
-          title: 'Recommended Products 11',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts11Data.title || "Recommended Products 11",
+          description: recommendedProducts11Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts11 data={recommendedProducts11Data as any} />
         },
         {
           id: 'recommended-products-12',
-          title: 'Recommended Products 12',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts12Data.title || "Recommended Products 12",
+          description: recommendedProducts12Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts12 data={recommendedProducts12Data as any} />
         },
         {
           id: 'recommended-products-13',
-          title: 'Recommended Products 13',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts13Data.title || "Recommended Products 13",
+          description: recommendedProducts13Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts13 data={recommendedProducts13Data as any} />
         },
         {
           id: 'recommended-products-14',
-          title: 'Recommended Products 14',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts14Data.title || "Recommended Products 14",
+          description: recommendedProducts14Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts14 data={recommendedProducts14Data as any} />
         },
         {
           id: 'recommended-products-15',
-          title: 'Recommended Products 15',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts15Data.title || "Recommended Products 15",
+          description: recommendedProducts15Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts15 data={recommendedProducts15Data as any} />
         },
         {
           id: 'recommended-products-16',
-          title: 'Recommended Products 16',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts16Data.title || "Recommended Products 16",
+          description: recommendedProducts16Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts16 data={recommendedProducts16Data as any} />
         },
         {
           id: 'recommended-products-17',
-          title: 'Recommended Products 17',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts17Data.title || "Recommended Products 17",
+          description: recommendedProducts17Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts17 data={recommendedProducts17Data as any} />
         },
         {
           id: 'recommended-products-18',
-          title: 'Recommended Products 18',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts18Data.title || "Recommended Products 18",
+          description: recommendedProducts18Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts18 data={recommendedProducts18Data as any} />
         },
         {
           id: 'recommended-products-19',
-          title: 'Recommended Products 19',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts19Data.title || "Recommended Products 19",
+          description: recommendedProducts19Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts19 data={recommendedProducts19Data as any} />
         },
         {
           id: 'recommended-products-20',
-          title: 'Recommended Products 20',
-          description: 'A dynamic section displaying personalized or contextual product recommendations.',
+          title: recommendedProducts20Data.title || "Recommended Products 20",
+          description: recommendedProducts20Data.description || "Personalized product recommendations.",
           previewComponent: <RecommendedProducts20 data={recommendedProducts20Data as any} />
         }
       ] :
@@ -7320,611 +7480,1128 @@ export function SectionLibraryGrid({ category }: GridProps) {
     category === 'review-summary' ? [
         {
           id: 'review-summary-1',
-          title: 'Review Summary 1',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary1Data.title || "Review Summary 1",
+          description: reviewSummary1Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary1 data={reviewSummary1Data as any} />
         },
         {
           id: 'review-summary-2',
-          title: 'Review Summary 2',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary2Data.title || "Review Summary 2",
+          description: reviewSummary2Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary2 data={reviewSummary2Data as any} />
         },
         {
           id: 'review-summary-3',
-          title: 'Review Summary 3',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary3Data.title || "Review Summary 3",
+          description: reviewSummary3Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary3 data={reviewSummary3Data as any} />
         },
         {
           id: 'review-summary-4',
-          title: 'Review Summary 4',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary4Data.title || "Review Summary 4",
+          description: reviewSummary4Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary4 data={reviewSummary4Data as any} />
         },
         {
           id: 'review-summary-5',
-          title: 'Review Summary 5',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary5Data.title || "Review Summary 5",
+          description: reviewSummary5Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary5 data={reviewSummary5Data as any} />
         },
         {
           id: 'review-summary-6',
-          title: 'Review Summary 6',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary6Data.title || "Review Summary 6",
+          description: reviewSummary6Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary6 data={reviewSummary6Data as any} />
         },
         {
           id: 'review-summary-7',
-          title: 'Review Summary 7',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary7Data.title || "Review Summary 7",
+          description: reviewSummary7Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary7 data={reviewSummary7Data as any} />
         },
         {
           id: 'review-summary-8',
-          title: 'Review Summary 8',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary8Data.title || "Review Summary 8",
+          description: reviewSummary8Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary8 data={reviewSummary8Data as any} />
         },
         {
           id: 'review-summary-9',
-          title: 'Review Summary 9',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary9Data.title || "Review Summary 9",
+          description: reviewSummary9Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary9 data={reviewSummary9Data as any} />
         },
         {
           id: 'review-summary-10',
-          title: 'Review Summary 10',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary10Data.title || "Review Summary 10",
+          description: reviewSummary10Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary10 data={reviewSummary10Data as any} />
         },
         {
           id: 'review-summary-11',
-          title: 'Review Summary 11',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary11Data.title || "Review Summary 11",
+          description: reviewSummary11Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary11 data={reviewSummary11Data as any} />
         },
         {
           id: 'review-summary-12',
-          title: 'Review Summary 12',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary12Data.title || "Review Summary 12",
+          description: reviewSummary12Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary12 data={reviewSummary12Data as any} />
         },
         {
           id: 'review-summary-13',
-          title: 'Review Summary 13',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary13Data.title || "Review Summary 13",
+          description: reviewSummary13Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary13 data={reviewSummary13Data as any} />
         },
         {
           id: 'review-summary-14',
-          title: 'Review Summary 14',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary14Data.title || "Review Summary 14",
+          description: reviewSummary14Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary14 data={reviewSummary14Data as any} />
         },
         {
           id: 'review-summary-15',
-          title: 'Review Summary 15',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary15Data.title || "Review Summary 15",
+          description: reviewSummary15Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary15 data={reviewSummary15Data as any} />
         },
         {
           id: 'review-summary-16',
-          title: 'Review Summary 16',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary16Data.title || "Review Summary 16",
+          description: reviewSummary16Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary16 data={reviewSummary16Data as any} />
         },
         {
           id: 'review-summary-17',
-          title: 'Review Summary 17',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary17Data.title || "Review Summary 17",
+          description: reviewSummary17Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary17 data={reviewSummary17Data as any} />
         },
         {
           id: 'review-summary-18',
-          title: 'Review Summary 18',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary18Data.title || "Review Summary 18",
+          description: reviewSummary18Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary18 data={reviewSummary18Data as any} />
         },
         {
           id: 'review-summary-19',
-          title: 'Review Summary 19',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary19Data.title || "Review Summary 19",
+          description: reviewSummary19Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary19 data={reviewSummary19Data as any} />
         },
         {
           id: 'review-summary-20',
-          title: 'Review Summary 20',
-          description: 'A statistical overview of customer sentiment including average rating, rating distribution, and review statistics.',
+          title: reviewSummary20Data.title || "Review Summary 20",
+          description: reviewSummary20Data.description || "Statistical review summary.",
           previewComponent: <ReviewSummary20 data={reviewSummary20Data as any} />
         }
       ] :
     category === 'customer-review-gallery' ? [
         {
           id: 'customer-review-gallery-1',
-          title: 'Customer Review Gallery 1',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Editorial Customer Gallery',
+          description: 'Customer photography is arranged in an asymmetric editorial grid, while selected images expand through a directional media mask reveal to disclose the associated review.',
           previewComponent: <CustomerReviewGallery1 data={customerReviewGallery1Data as any} />
         },
         {
           id: 'customer-review-gallery-2',
-          title: 'Customer Review Gallery 2',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Masonry Review Gallery',
+          description: 'A Pinterest-style multi-column masonry grid showcasing customer photos with verified buyer badges, hover scale effects, and quick preview drawer modals.',
           previewComponent: <CustomerReviewGallery2 data={customerReviewGallery2Data as any} />
         },
         {
           id: 'customer-review-gallery-3',
-          title: 'Customer Review Gallery 3',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Full-Bleed Customer Stories',
+          description: 'A full-bleed dark luxury cinematic showcase with smooth background image crossfades, floating customer metadata, and automated slide progress indicators.',
           previewComponent: <CustomerReviewGallery3 data={customerReviewGallery3Data as any} />
         },
         {
           id: 'customer-review-gallery-4',
-          title: 'Customer Review Gallery 4',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Horizontal UGC Rail',
+          description: 'An Instagram-style continuous horizontal review rail with interactive drag scrolling, video play badges, and quick shop popover triggers.',
           previewComponent: <CustomerReviewGallery4 data={customerReviewGallery4Data as any} />
         },
         {
           id: 'customer-review-gallery-5',
-          title: 'Customer Review Gallery 5',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Large Featured Review + Supporting Gallery',
+          description: 'A hero spotlight layout pairing one prominent lead customer review with a thumbnail sidebar, switching active media with layout animation morphs.',
           previewComponent: <CustomerReviewGallery5 data={customerReviewGallery5Data as any} />
         },
         {
           id: 'customer-review-gallery-6',
-          title: 'Customer Review Gallery 6',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Asymmetric Customer Gallery',
+          description: 'A dynamic bento layout featuring uneven tile spans, dark glassmorphism cards, clip-path diagonal reveals, and subtle tilt hover interactions.',
           previewComponent: <CustomerReviewGallery6 data={customerReviewGallery6Data as any} />
         },
         {
           id: 'customer-review-gallery-7',
-          title: 'Customer Review Gallery 7',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Magazine-Style Review Layout',
+          description: 'An elegant print magazine design featuring drop-caps, warm cream palette, serif typography callouts, and directional slide story transitions.',
           previewComponent: <CustomerReviewGallery7 data={customerReviewGallery7Data as any} />
         },
         {
           id: 'customer-review-gallery-8',
-          title: 'Customer Review Gallery 8',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Minimal Luxury Review Grid',
+          description: 'An ultra-clean monochrome review grid with generous whitespace, subtle bronze star accents, and delicate hover fade details.',
           previewComponent: <CustomerReviewGallery8 data={customerReviewGallery8Data as any} />
         },
         {
           id: 'customer-review-gallery-9',
-          title: 'Customer Review Gallery 9',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Layered Customer Story Cards',
+          description: 'An interactive 3D stacked deck of review cards where dragging or clicking displaces the top card with spring rotation physics to reveal the next story.',
           previewComponent: <CustomerReviewGallery9 data={customerReviewGallery9Data as any} />
         },
         {
           id: 'customer-review-gallery-10',
-          title: 'Customer Review Gallery 10',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Vertical Customer Story Feed',
+          description: 'A social media style vertical timeline feed displaying customer review stories with avatar headers, location tags, interactive galleries, and product pills.',
           previewComponent: <CustomerReviewGallery10 data={customerReviewGallery10Data as any} />
         },
         {
           id: 'customer-review-gallery-11',
-          title: 'Customer Review Gallery 11',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Split Media + Review Layout',
+          description: 'A 50/50 split container pairing a sticky high-resolution customer media canvas on the left with an interactive review quote accordion selector on the right.',
           previewComponent: <CustomerReviewGallery11 data={customerReviewGallery11Data as any} />
         },
         {
           id: 'customer-review-gallery-12',
-          title: 'Customer Review Gallery 12',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Fullscreen Media Showcase',
+          description: 'A responsive grid of customer media that expands into an immersive full-screen glassmorphic lightbox with metadata panels and keyboard navigation.',
           previewComponent: <CustomerReviewGallery12 data={customerReviewGallery12Data as any} />
         },
         {
           id: 'customer-review-gallery-13',
-          title: 'Customer Review Gallery 13',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Polaroid-Inspired Customer Gallery',
+          description: 'Casual scattered polaroid photo cards with handwritten typography, tape accents, tilt angles, and interactive drag-and-lift hover movements.',
           previewComponent: <CustomerReviewGallery13 data={customerReviewGallery13Data as any} />
         },
         {
           id: 'customer-review-gallery-14',
-          title: 'Customer Review Gallery 14',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Circular / Radial Customer Showcase',
+          description: 'A radial orbit layout placing customer avatar nodes around a central featured review canvas with orbiting pulse animations and smooth node switching.',
           previewComponent: <CustomerReviewGallery14 data={customerReviewGallery14Data as any} />
         },
         {
           id: 'customer-review-gallery-15',
-          title: 'Customer Review Gallery 15',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Stacked Review Media Cards',
+          description: 'A horizontal card sequence with depth scaling cards that slide laterally with spring physics during navigation.',
           previewComponent: <CustomerReviewGallery15 data={customerReviewGallery15Data as any} />
         },
         {
           id: 'customer-review-gallery-16',
-          title: 'Customer Review Gallery 16',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Horizontal Story Timeline',
+          description: 'A chronological customer journey gallery tracking product performance across time milestones with horizontal progress line animations.',
           previewComponent: <CustomerReviewGallery16 data={customerReviewGallery16Data as any} />
         },
         {
           id: 'customer-review-gallery-17',
-          title: 'Customer Review Gallery 17',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Immersive Video + Photo Gallery',
+          description: 'A video-first UGC showcase highlighting video reviews with custom play overlays, duration tags, and interactive video playback modals.',
           previewComponent: <CustomerReviewGallery17 data={customerReviewGallery17Data as any} />
         },
         {
           id: 'customer-review-gallery-18',
-          title: 'Customer Review Gallery 18',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Floating Customer Media Gallery',
+          description: 'A bento gallery of translucent glassmorphic review cards hovering over an animated mesh gradient background with cursor spotlight glow micro-interactions.',
           previewComponent: <CustomerReviewGallery18 data={customerReviewGallery18Data as any} />
         },
         {
           id: 'customer-review-gallery-19',
-          title: 'Customer Review Gallery 19',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Art-Directed Editorial UGC Layout',
+          description: 'A high-contrast fashion editorial layout with bold headline typography cutouts, image clip-path curtain reveals, and product tag callouts.',
           previewComponent: <CustomerReviewGallery19 data={customerReviewGallery19Data as any} />
         },
         {
           id: 'customer-review-gallery-20',
-          title: 'Customer Review Gallery 20',
-          description: 'A visual presentation of customer-submitted images, media, and visual review content.',
+          title: 'Premium Interactive Customer Showcase',
+          description: 'A comprehensive UGC section featuring media filters (All, Photo, Video, 5-Star), search bar, layout view toggles (Grid / Rail), and lightbox drawer.',
           previewComponent: <CustomerReviewGallery20 data={customerReviewGallery20Data as any} />
         }
       ] :
     category === 'questions-answers' ? [
         {
           id: 'questions-answers-1',
-          title: 'Questions & Answers 1',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Editorial Q&A Accordion',
+          description: 'A clean editorial accordion with razor-thin dividers, category badges, helpful count indicators, and smooth height expansion.',
           previewComponent: <QuestionsAnswers1 data={questionsAnswers1Data as any} />
         },
         {
           id: 'questions-answers-2',
-          title: 'Questions & Answers 2',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Split Question + Answer Layout',
+          description: 'A 2-column split viewport layout with interactive question items on the left and a dedicated high-impact answer reading canvas on the right.',
           previewComponent: <QuestionsAnswers2 data={questionsAnswers2Data as any} />
         },
         {
           id: 'questions-answers-3',
-          title: 'Questions & Answers 3',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Conversational Chat-Style Q&A',
+          description: 'A messaging thread UI where customer questions appear as chat bubbles and expert answers enter with directional speech bubble transitions.',
           previewComponent: <QuestionsAnswers3 data={questionsAnswers3Data as any} />
         },
         {
           id: 'questions-answers-4',
-          title: 'Questions & Answers 4',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Vertical Question Timeline',
+          description: 'A chronological vertical timeline stream connecting customer queries and official responses with path progression animations.',
           previewComponent: <QuestionsAnswers4 data={questionsAnswers4Data as any} />
         },
         {
           id: 'questions-answers-5',
-          title: 'Questions & Answers 5',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Large Question / Minimal Answer',
+          description: 'A high-contrast typography layout featuring oversized question headers that expand smoothly to reveal concise, direct answers.',
           previewComponent: <QuestionsAnswers5 data={questionsAnswers5Data as any} />
         },
         {
           id: 'questions-answers-6',
-          title: 'Questions & Answers 6',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Magazine Q&A Layout',
+          description: 'An elegant print magazine aesthetic on warm cream styling with drop-cap quotes, editorial serif fonts, and subtle column rules.',
           previewComponent: <QuestionsAnswers6 data={questionsAnswers6Data as any} />
         },
         {
           id: 'questions-answers-7',
-          title: 'Questions & Answers 7',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Two-Column Q&A Explorer',
+          description: 'A dual-column grid organizing product questions into distinct category tiles with smooth layout transitions on hover.',
           previewComponent: <QuestionsAnswers7 data={questionsAnswers7Data as any} />
         },
         {
           id: 'questions-answers-8',
-          title: 'Questions & Answers 8',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Stacked Question Cards',
+          description: 'Overlapping stacked question cards with subtle depth shadows that expand upward with spring displacement when selected.',
           previewComponent: <QuestionsAnswers8 data={questionsAnswers8Data as any} />
         },
         {
           id: 'questions-answers-9',
-          title: 'Questions & Answers 9',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Minimal Typography-First Q&A',
+          description: 'An ultra-clean monochrome design focusing on generous spacing, fine borders, underline hover indicators, and smooth text reveals.',
           previewComponent: <QuestionsAnswers9 data={questionsAnswers9Data as any} />
         },
         {
           id: 'questions-answers-10',
-          title: 'Questions & Answers 10',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Question Index + Answer Panel',
+          description: 'A sticky sidebar question index paired with a full-width answer reader panel featuring verified expert badges.',
           previewComponent: <QuestionsAnswers10 data={questionsAnswers10Data as any} />
         },
         {
           id: 'questions-answers-11',
-          title: 'Questions & Answers 11',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Featured Question + Supporting Questions',
+          description: 'A hero layout showcasing one prominent featured question at the top with a 2-column supporting question list below.',
           previewComponent: <QuestionsAnswers11 data={questionsAnswers11Data as any} />
         },
         {
           id: 'questions-answers-12',
-          title: 'Questions & Answers 12',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Asymmetric Q&A Grid',
+          description: 'A bento-box asymmetric grid of question tiles featuring neon category tags, glassmorphic accents, and spring panel movements.',
           previewComponent: <QuestionsAnswers12 data={questionsAnswers12Data as any} />
         },
         {
           id: 'questions-answers-13',
-          title: 'Questions & Answers 13',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Expandable Layered Q&A Cards',
+          description: 'Stacked file-folder style Q&A cards with subtle 3D tilt effects that expand downward smoothly when activated.',
           previewComponent: <QuestionsAnswers13 data={questionsAnswers13Data as any} />
         },
         {
           id: 'questions-answers-14',
-          title: 'Questions & Answers 14',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Horizontal Question Rail',
+          description: 'A drag-scrollable horizontal track of question cards with snap alignment and instant answer reveal overlays.',
           previewComponent: <QuestionsAnswers14 data={questionsAnswers14Data as any} />
         },
         {
           id: 'questions-answers-15',
-          title: 'Questions & Answers 15',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Sticky Question Navigation + Answer Content',
+          description: 'A top sticky pill navigation bar that smoothly scrolls and highlights active answer sections below.',
           previewComponent: <QuestionsAnswers15 data={questionsAnswers15Data as any} />
         },
         {
           id: 'questions-answers-16',
-          title: 'Questions & Answers 16',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Numbered Editorial Q&A',
+          description: 'Oversized bold numerals (01, 02, 03) anchoring editorial question blocks with smooth height expansion drawers.',
           previewComponent: <QuestionsAnswers16 data={questionsAnswers16Data as any} />
         },
         {
           id: 'questions-answers-17',
-          title: 'Questions & Answers 17',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Category-Based Q&A Explorer',
+          description: 'Tabbed category navigator filtering questions dynamically between Sizing, Materials, Care, and Shipping.',
           previewComponent: <QuestionsAnswers17 data={questionsAnswers17Data as any} />
         },
         {
           id: 'questions-answers-18',
-          title: 'Questions & Answers 18',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Floating Q&A Panels',
+          description: 'Translucent glassmorphic Q&A cards floating over a dynamic ambient gradient backdrop with soft particle motion.',
           previewComponent: <QuestionsAnswers18 data={questionsAnswers18Data as any} />
         },
         {
           id: 'questions-answers-19',
-          title: 'Questions & Answers 19',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Interactive Question Spotlight',
+          description: 'Focus-mode section where selecting or hovering a question dims out surrounding items to spotlight the active query.',
           previewComponent: <QuestionsAnswers19 data={questionsAnswers19Data as any} />
         },
         {
           id: 'questions-answers-20',
-          title: 'Questions & Answers 20',
-          description: 'An interactive section for customer questions, answers, and Q&A interaction.',
+          title: 'Premium Knowledge Showcase',
+          description: 'A comprehensive Q&A Knowledge Base featuring live search, helpfulness voting, category tags, and expandable detail cards.',
           previewComponent: <QuestionsAnswers20 data={questionsAnswers20Data as any} />
         }
       ] :
     category === 'product-faq' ? [
         {
           id: 'product-faq-1',
-          title: 'Product FAQ 1',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'Minimal Luxury FAQ',
+          description: 'An ultra-clean monochrome product FAQ featuring generous whitespace, fine hairline dividers, and delicate height expansion animation.',
           previewComponent: <ProductFaq1 data={productFaq1Data as any} />
         },
         {
           id: 'product-faq-2',
-          title: 'Product FAQ 2',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'Editorial Product FAQ',
+          description: 'High-fashion editorial layout featuring serif typography, drop-cap styling, and directional slide answers.',
           previewComponent: <ProductFaq2 data={productFaq2Data as any} />
         },
         {
           id: 'product-faq-3',
-          title: 'Product FAQ 3',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'Numbered FAQ List',
+          description: 'Sequential numbered design with oversized gold numerals (01, 02, 03) anchoring expandable technical product guidance.',
           previewComponent: <ProductFaq3 data={productFaq3Data as any} />
         },
         {
           id: 'product-faq-4',
-          title: 'Product FAQ 4',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'Two-Column Product FAQ',
+          description: 'Dual-column grid separating technical garment guidance into Sizing/Care on the left and Shipping/Warranty on the right.',
           previewComponent: <ProductFaq4 data={productFaq4Data as any} />
         },
         {
           id: 'product-faq-5',
-          title: 'Product FAQ 5',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'Split FAQ + Product Image',
+          description: 'Split-screen container pairing a high-resolution product photography canvas on the left with expandable FAQ panels on the right.',
           previewComponent: <ProductFaq5 data={productFaq5Data as any} />
         },
         {
           id: 'product-faq-6',
-          title: 'Product FAQ 6',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'Category-Based FAQ',
+          description: 'Tabbed category navigator filtering product FAQs into Sizing, Materials, Care, and Global Shipping panels.',
           previewComponent: <ProductFaq6 data={productFaq6Data as any} />
         },
         {
           id: 'product-faq-7',
-          title: 'Product FAQ 7',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'FAQ with Sticky Category Navigation',
+          description: 'Sticky sidebar index featuring smooth scroll jump links to detailed product guidance blocks.',
           previewComponent: <ProductFaq7 data={productFaq7Data as any} />
         },
         {
           id: 'product-faq-8',
-          title: 'Product FAQ 8',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'Large Typography FAQ',
+          description: 'High-contrast design with massive 3XL typography for key product questions and direct concise answers.',
           previewComponent: <ProductFaq8 data={productFaq8Data as any} />
         },
         {
           id: 'product-faq-9',
-          title: 'Product FAQ 9',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'Accordion Cards',
+          description: 'Elevated card accordions with subtle hover borders, category pills, and smooth height disclosure.',
           previewComponent: <ProductFaq9 data={productFaq9Data as any} />
         },
         {
           id: 'product-faq-10',
-          title: 'Product FAQ 10',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'FAQ Grid',
+          description: 'A 4-column structured grid highlighting key product care symbols, washing temperatures, and ironing guidelines.',
           previewComponent: <ProductFaq10 data={productFaq10Data as any} />
         },
         {
           id: 'product-faq-11',
-          title: 'Product FAQ 11',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'Featured Question + FAQ List',
+          description: 'Hero spotlight layout highlighting the #1 most critical sizing question at the top with a supporting list.',
           previewComponent: <ProductFaq11 data={productFaq11Data as any} />
         },
         {
           id: 'product-faq-12',
-          title: 'Product FAQ 12',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'Vertical FAQ Timeline',
+          description: 'A vertical timeline tracking product ownership milestones from unboxing care to 5-year maintenance.',
           previewComponent: <ProductFaq12 data={productFaq12Data as any} />
         },
         {
           id: 'product-faq-13',
-          title: 'Product FAQ 13',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'Product Image + Floating FAQ Panel',
+          description: 'Glassmorphic floating FAQ panels elevated over a high-resolution product photography canvas.',
           previewComponent: <ProductFaq13 data={productFaq13Data as any} />
         },
         {
           id: 'product-faq-14',
-          title: 'Product FAQ 14',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'Horizontal FAQ Navigator',
+          description: 'A continuous drag-scrollable horizontal track of product information cards with quick answer previews.',
           previewComponent: <ProductFaq14 data={productFaq14Data as any} />
         },
         {
           id: 'product-faq-15',
-          title: 'Product FAQ 15',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'Compact FAQ Rail',
+          description: 'A streamlined compact rail displaying technical product specifications in high visual density.',
           previewComponent: <ProductFaq15 data={productFaq15Data as any} />
         },
         {
           id: 'product-faq-16',
-          title: 'Product FAQ 16',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'FAQ with Visual Product Details',
+          description: 'Pairs technical answers directly with close-up macro imagery of stitching, zippers, and fabric weaves.',
           previewComponent: <ProductFaq16 data={productFaq16Data as any} />
         },
         {
           id: 'product-faq-17',
-          title: 'Product FAQ 17',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'Asymmetric Editorial FAQ',
+          description: 'Bento-style asymmetric editorial layout highlighting supply chain sustainability certifications.',
           previewComponent: <ProductFaq17 data={productFaq17Data as any} />
         },
         {
           id: 'product-faq-18',
-          title: 'Product FAQ 18',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'Layered FAQ Panels',
+          description: 'Physical-feeling overlapping layered panels detailing repair services, replacement parts, and recycling options.',
           previewComponent: <ProductFaq18 data={productFaq18Data as any} />
         },
         {
           id: 'product-faq-19',
-          title: 'Product FAQ 19',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'Interactive FAQ Explorer',
+          description: 'Focus-mode explorer where selecting an FAQ dims surrounding queries to spotlight active garment specs.',
           previewComponent: <ProductFaq19 data={productFaq19Data as any} />
         },
         {
           id: 'product-faq-20',
-          title: 'Product FAQ 20',
-          description: 'An expandable FAQ section presenting frequently asked product-specific questions and answers.',
+          title: 'Premium Product Knowledge Showcase',
+          description: 'Comprehensive Product Knowledge Hub featuring live search filter, care sheet downloads, and category tags.',
           previewComponent: <ProductFaq20 data={productFaq20Data as any} />
         }
       ] :
     category === 'brand-information' ? [
         {
           id: 'brand-information-1',
-          title: 'Brand Information 1',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Editorial Brand Story',
+          description: 'Long-form visual brand narrative featuring elegant serif quotes, multi-paragraph story flow, and directional image mask reveals.',
           previewComponent: <BrandInformation1 data={brandInformation1Data as any} />
         },
         {
           id: 'brand-information-2',
-          title: 'Brand Information 2',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Brand Heritage Timeline',
+          description: 'Interactive chronological timeline mapping historical brand milestones from 1928 founding to present day global expansion.',
           previewComponent: <BrandInformation2 data={brandInformation2Data as any} />
         },
         {
           id: 'brand-information-3',
-          title: 'Brand Information 3',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Brand Philosophy Statement',
+          description: 'High-contrast manifesto layout featuring oversized brand motto text, founder signature, and core philosophy pillars.',
           previewComponent: <BrandInformation3 data={brandInformation3Data as any} />
         },
         {
           id: 'brand-information-4',
-          title: 'Brand Information 4',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Founder Story Showcase',
+          description: 'Personal founder profile highlighting design vision, portrait photography, personal quote, and handwritten signature.',
           previewComponent: <BrandInformation4 data={brandInformation4Data as any} />
         },
         {
           id: 'brand-information-5',
-          title: 'Brand Information 5',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Brand Values Grid',
+          description: 'Structured 4-column grid displaying the core values of the brand with metrics and visual status badges.',
           previewComponent: <BrandInformation5 data={brandInformation5Data as any} />
         },
         {
           id: 'brand-information-6',
-          title: 'Brand Information 6',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Origin Story Map',
+          description: 'Geographical origin layout with studio coordinates (45.4642° N, 9.1900° E), regional history, and workshop imagery.',
           previewComponent: <BrandInformation6 data={brandInformation6Data as any} />
         },
         {
           id: 'brand-information-7',
-          title: 'Brand Information 7',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Craftsmanship Showcase',
+          description: 'Step-by-step visual narrative detailing fiber selection, hand-pattern cutting, double-needle stitching, and inspection.',
           previewComponent: <BrandInformation7 data={brandInformation7Data as any} />
         },
         {
           id: 'brand-information-8',
-          title: 'Brand Information 8',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Brand Manifesto',
+          description: 'Bold dark cinematic text-dominant layout declaring the brand\'s core beliefs in massive 5XL typography.',
           previewComponent: <BrandInformation8 data={brandInformation8Data as any} />
         },
         {
           id: 'brand-information-9',
-          title: 'Brand Information 9',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Brand Journey Timeline',
+          description: 'Drag-scrollable horizontal timeline track mapping brand expansion phases with archived imagery.',
           previewComponent: <BrandInformation9 data={brandInformation9Data as any} />
         },
         {
           id: 'brand-information-10',
-          title: 'Brand Information 10',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Mission + Vision Split',
+          description: 'Balanced 50/50 dual-panel layout separating the immediate Brand Mission from the 10-Year Future Vision.',
           previewComponent: <BrandInformation10 data={brandInformation10Data as any} />
         },
         {
           id: 'brand-information-11',
-          title: 'Brand Information 11',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Interactive Brand Milestones',
+          description: 'Year selector tabs (2016, 2019, 2022, 2025) that update the main hero milestone showcase canvas.',
           previewComponent: <BrandInformation11 data={brandInformation11Data as any} />
         },
         {
           id: 'brand-information-12',
-          title: 'Brand Information 12',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Layered Brand Story',
+          description: 'Overlapping 3D card layout organizing the brand story into Chapter 01 (Origin), Chapter 02 (Craft), and Chapter 03 (Future).',
           previewComponent: <BrandInformation12 data={brandInformation12Data as any} />
         },
         {
           id: 'brand-information-13',
-          title: 'Brand Information 13',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Magazine-Style Brand Profile',
+          description: 'Print magazine aesthetic on warm cream styling with drop-cap quotes, serif headers, and editor notes.',
           previewComponent: <BrandInformation13 data={brandInformation13Data as any} />
         },
         {
           id: 'brand-information-14',
-          title: 'Brand Information 14',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Brand Principles Cards',
+          description: 'Bento-box principles cards displaying brand commitments (Traceable Fiber, Fair Wages, Plastic Neutral) with metric badges.',
           previewComponent: <BrandInformation14 data={brandInformation14Data as any} />
         },
         {
           id: 'brand-information-15',
-          title: 'Brand Information 15',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Full-Bleed Brand Narrative',
+          description: 'Full-width dark cinematic background image with floating white typography and slow ambient zoom effect.',
           previewComponent: <BrandInformation15 data={brandInformation15Data as any} />
         },
         {
           id: 'brand-information-16',
-          title: 'Brand Information 16',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Brand Identity Explorer',
+          description: 'Interactive identity system showcasing Monogram, Color Tokens (Florentine Cream, Umber Brown, Tuscan Slate), and Fabric Standards.',
           previewComponent: <BrandInformation16 data={brandInformation16Data as any} />
         },
         {
           id: 'brand-information-17',
-          title: 'Brand Information 17',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Creative Process Showcase',
+          description: 'Behind-the-scenes gallery showing raw sketching, moodboards, fabric weaving, and final tailoring.',
           previewComponent: <BrandInformation17 data={brandInformation17Data as any} />
         },
         {
           id: 'brand-information-18',
-          title: 'Brand Information 18',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Heritage + Modernity Split',
+          description: '50/50 comparison layout pairing Historical Archives (1928) with Modern Sustainable Craft (2026).',
           previewComponent: <BrandInformation18 data={brandInformation18Data as any} />
         },
         {
           id: 'brand-information-19',
-          title: 'Brand Information 19',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Immersive Brand Documentary',
+          description: 'Documentary film poster style layout with director quote, film duration (12 mins), and chapter timestamps.',
           previewComponent: <BrandInformation19 data={brandInformation19Data as any} />
         },
         {
           id: 'brand-information-20',
-          title: 'Brand Information 20',
-          description: 'A storytelling section detailing the brand story, brand identity, brand information, and brand-specific content.',
+          title: 'Premium Brand Knowledge Showcase',
+          description: 'Comprehensive Brand Knowledge Base featuring search filter across history, sustainability reports, and press kits.',
           previewComponent: <BrandInformation20 data={brandInformation20Data as any} />
+        }
+      ] :
+    category === 'cart-items-section' ? [
+        {
+          id: 'cart-items-section-1',
+          title: cartItemsSection1Data.heading,
+          description: cartItemsSection1Data.description,
+          previewComponent: <CartItemsSection1 data={cartItemsSection1Data as any} />
+        },
+        {
+          id: 'cart-items-section-2',
+          title: cartItemsSection2Data.heading,
+          description: cartItemsSection2Data.description,
+          previewComponent: <CartItemsSection2 data={cartItemsSection2Data as any} />
+        },
+        {
+          id: 'cart-items-section-3',
+          title: cartItemsSection3Data.heading,
+          description: cartItemsSection3Data.description,
+          previewComponent: <CartItemsSection3 data={cartItemsSection3Data as any} />
+        },
+        {
+          id: 'cart-items-section-4',
+          title: cartItemsSection4Data.heading,
+          description: cartItemsSection4Data.description,
+          previewComponent: <CartItemsSection4 data={cartItemsSection4Data as any} />
+        },
+        {
+          id: 'cart-items-section-5',
+          title: cartItemsSection5Data.heading,
+          description: cartItemsSection5Data.description,
+          previewComponent: <CartItemsSection5 data={cartItemsSection5Data as any} />
+        },
+        {
+          id: 'cart-items-section-6',
+          title: cartItemsSection6Data.heading,
+          description: cartItemsSection6Data.description,
+          previewComponent: <CartItemsSection6 data={cartItemsSection6Data as any} />
+        },
+        {
+          id: 'cart-items-section-7',
+          title: cartItemsSection7Data.heading,
+          description: cartItemsSection7Data.description,
+          previewComponent: <CartItemsSection7 data={cartItemsSection7Data as any} />
+        },
+        {
+          id: 'cart-items-section-8',
+          title: cartItemsSection8Data.heading,
+          description: cartItemsSection8Data.description,
+          previewComponent: <CartItemsSection8 data={cartItemsSection8Data as any} />
+        },
+        {
+          id: 'cart-items-section-9',
+          title: cartItemsSection9Data.heading,
+          description: cartItemsSection9Data.description,
+          previewComponent: <CartItemsSection9 data={cartItemsSection9Data as any} />
+        },
+        {
+          id: 'cart-items-section-10',
+          title: cartItemsSection10Data.heading,
+          description: cartItemsSection10Data.description,
+          previewComponent: <CartItemsSection10 data={cartItemsSection10Data as any} />
+        },
+        {
+          id: 'cart-items-section-11',
+          title: cartItemsSection11Data.heading,
+          description: cartItemsSection11Data.description,
+          previewComponent: <CartItemsSection11 data={cartItemsSection11Data as any} />
+        },
+        {
+          id: 'cart-items-section-12',
+          title: cartItemsSection12Data.heading,
+          description: cartItemsSection12Data.description,
+          previewComponent: <CartItemsSection12 data={cartItemsSection12Data as any} />
+        },
+        {
+          id: 'cart-items-section-13',
+          title: cartItemsSection13Data.heading,
+          description: cartItemsSection13Data.description,
+          previewComponent: <CartItemsSection13 data={cartItemsSection13Data as any} />
+        },
+        {
+          id: 'cart-items-section-14',
+          title: cartItemsSection14Data.heading,
+          description: cartItemsSection14Data.description,
+          previewComponent: <CartItemsSection14 data={cartItemsSection14Data as any} />
+        },
+        {
+          id: 'cart-items-section-15',
+          title: cartItemsSection15Data.heading,
+          description: cartItemsSection15Data.description,
+          previewComponent: <CartItemsSection15 data={cartItemsSection15Data as any} />
+        },
+        {
+          id: 'cart-items-section-16',
+          title: cartItemsSection16Data.heading,
+          description: cartItemsSection16Data.description,
+          previewComponent: <CartItemsSection16 data={cartItemsSection16Data as any} />
+        },
+        {
+          id: 'cart-items-section-17',
+          title: cartItemsSection17Data.heading,
+          description: cartItemsSection17Data.description,
+          previewComponent: <CartItemsSection17 data={cartItemsSection17Data as any} />
+        },
+        {
+          id: 'cart-items-section-18',
+          title: cartItemsSection18Data.heading,
+          description: cartItemsSection18Data.description,
+          previewComponent: <CartItemsSection18 data={cartItemsSection18Data as any} />
+        },
+        {
+          id: 'cart-items-section-19',
+          title: cartItemsSection19Data.heading,
+          description: cartItemsSection19Data.description,
+          previewComponent: <CartItemsSection19 data={cartItemsSection19Data as any} />
+        },
+        {
+          id: 'cart-items-section-20',
+          title: cartItemsSection20Data.heading,
+          description: cartItemsSection20Data.description,
+          previewComponent: <CartItemsSection20 data={cartItemsSection20Data as any} />
+        }
+      ] :
+      category === 'cart-summary' ? [
+        {
+          id: 'cart-summary-1',
+          title: cartSummary1Data.heading,
+          description: cartSummary1Data.description,
+          previewComponent: <CartSummary1 data={cartSummary1Data as any} />
+        },
+        {
+          id: 'cart-summary-2',
+          title: cartSummary2Data.heading,
+          description: cartSummary2Data.description,
+          previewComponent: <CartSummary2 data={cartSummary2Data as any} />
+        },
+        {
+          id: 'cart-summary-3',
+          title: cartSummary3Data.heading,
+          description: cartSummary3Data.description,
+          previewComponent: <CartSummary3 data={cartSummary3Data as any} />
+        },
+        {
+          id: 'cart-summary-4',
+          title: cartSummary4Data.heading,
+          description: cartSummary4Data.description,
+          previewComponent: <CartSummary4 data={cartSummary4Data as any} />
+        },
+        {
+          id: 'cart-summary-5',
+          title: cartSummary5Data.heading,
+          description: cartSummary5Data.description,
+          previewComponent: <CartSummary5 data={cartSummary5Data as any} />
+        },
+        {
+          id: 'cart-summary-6',
+          title: cartSummary6Data.heading,
+          description: cartSummary6Data.description,
+          previewComponent: <CartSummary6 data={cartSummary6Data as any} />
+        },
+        {
+          id: 'cart-summary-7',
+          title: cartSummary7Data.heading,
+          description: cartSummary7Data.description,
+          previewComponent: <CartSummary7 data={cartSummary7Data as any} />
+        },
+        {
+          id: 'cart-summary-8',
+          title: cartSummary8Data.heading,
+          description: cartSummary8Data.description,
+          previewComponent: <CartSummary8 data={cartSummary8Data as any} />
+        },
+        {
+          id: 'cart-summary-9',
+          title: cartSummary9Data.heading,
+          description: cartSummary9Data.description,
+          previewComponent: <CartSummary9 data={cartSummary9Data as any} />
+        },
+        {
+          id: 'cart-summary-10',
+          title: cartSummary10Data.heading,
+          description: cartSummary10Data.description,
+          previewComponent: <CartSummary10 data={cartSummary10Data as any} />
+        },
+        {
+          id: 'cart-summary-11',
+          title: cartSummary11Data.heading,
+          description: cartSummary11Data.description,
+          previewComponent: <CartSummary11 data={cartSummary11Data as any} />
+        },
+        {
+          id: 'cart-summary-12',
+          title: cartSummary12Data.heading,
+          description: cartSummary12Data.description,
+          previewComponent: <CartSummary12 data={cartSummary12Data as any} />
+        },
+        {
+          id: 'cart-summary-13',
+          title: cartSummary13Data.heading,
+          description: cartSummary13Data.description,
+          previewComponent: <CartSummary13 data={cartSummary13Data as any} />
+        },
+        {
+          id: 'cart-summary-14',
+          title: cartSummary14Data.heading,
+          description: cartSummary14Data.description,
+          previewComponent: <CartSummary14 data={cartSummary14Data as any} />
+        },
+        {
+          id: 'cart-summary-15',
+          title: cartSummary15Data.heading,
+          description: cartSummary15Data.description,
+          previewComponent: <CartSummary15 data={cartSummary15Data as any} />
+        },
+        {
+          id: 'cart-summary-16',
+          title: cartSummary16Data.heading,
+          description: cartSummary16Data.description,
+          previewComponent: <CartSummary16 data={cartSummary16Data as any} />
+        },
+        {
+          id: 'cart-summary-17',
+          title: cartSummary17Data.heading,
+          description: cartSummary17Data.description,
+          previewComponent: <CartSummary17 data={cartSummary17Data as any} />
+        },
+        {
+          id: 'cart-summary-18',
+          title: cartSummary18Data.heading,
+          description: cartSummary18Data.description,
+          previewComponent: <CartSummary18 data={cartSummary18Data as any} />
+        },
+        {
+          id: 'cart-summary-19',
+          title: cartSummary19Data.heading,
+          description: cartSummary19Data.description,
+          previewComponent: <CartSummary19 data={cartSummary19Data as any} />
+        },
+        {
+          id: 'cart-summary-20',
+          title: cartSummary20Data.heading,
+          description: cartSummary20Data.description,
+          previewComponent: <CartSummary20 data={cartSummary20Data as any} />
+        }
+      ] :
+    category === 'cart-offers' ? [
+        {
+          id: 'cart-offers-1',
+          title: cartOffers1Data.heading,
+          description: cartOffers1Data.description,
+          previewComponent: <CartOffers1 data={cartOffers1Data as any} />
+        },
+        {
+          id: 'cart-offers-2',
+          title: cartOffers2Data.heading,
+          description: cartOffers2Data.description,
+          previewComponent: <CartOffers2 data={cartOffers2Data as any} />
+        },
+        {
+          id: 'cart-offers-3',
+          title: cartOffers3Data.heading,
+          description: cartOffers3Data.description,
+          previewComponent: <CartOffers3 data={cartOffers3Data as any} />
+        },
+        {
+          id: 'cart-offers-4',
+          title: cartOffers4Data.heading,
+          description: cartOffers4Data.description,
+          previewComponent: <CartOffers4 data={cartOffers4Data as any} />
+        },
+        {
+          id: 'cart-offers-5',
+          title: cartOffers5Data.heading,
+          description: cartOffers5Data.description,
+          previewComponent: <CartOffers5 data={cartOffers5Data as any} />
+        },
+        {
+          id: 'cart-offers-6',
+          title: cartOffers6Data.heading,
+          description: cartOffers6Data.description,
+          previewComponent: <CartOffers6 data={cartOffers6Data as any} />
+        },
+        {
+          id: 'cart-offers-7',
+          title: cartOffers7Data.heading,
+          description: cartOffers7Data.description,
+          previewComponent: <CartOffers7 data={cartOffers7Data as any} />
+        },
+        {
+          id: 'cart-offers-8',
+          title: cartOffers8Data.heading,
+          description: cartOffers8Data.description,
+          previewComponent: <CartOffers8 data={cartOffers8Data as any} />
+        },
+        {
+          id: 'cart-offers-9',
+          title: cartOffers9Data.heading,
+          description: cartOffers9Data.description,
+          previewComponent: <CartOffers9 data={cartOffers9Data as any} />
+        },
+        {
+          id: 'cart-offers-10',
+          title: cartOffers10Data.heading,
+          description: cartOffers10Data.description,
+          previewComponent: <CartOffers10 data={cartOffers10Data as any} />
+        },
+        {
+          id: 'cart-offers-11',
+          title: cartOffers11Data.heading,
+          description: cartOffers11Data.description,
+          previewComponent: <CartOffers11 data={cartOffers11Data as any} />
+        },
+        {
+          id: 'cart-offers-12',
+          title: cartOffers12Data.heading,
+          description: cartOffers12Data.description,
+          previewComponent: <CartOffers12 data={cartOffers12Data as any} />
+        },
+        {
+          id: 'cart-offers-13',
+          title: cartOffers13Data.heading,
+          description: cartOffers13Data.description,
+          previewComponent: <CartOffers13 data={cartOffers13Data as any} />
+        },
+        {
+          id: 'cart-offers-14',
+          title: cartOffers14Data.heading,
+          description: cartOffers14Data.description,
+          previewComponent: <CartOffers14 data={cartOffers14Data as any} />
+        },
+        {
+          id: 'cart-offers-15',
+          title: cartOffers15Data.heading,
+          description: cartOffers15Data.description,
+          previewComponent: <CartOffers15 data={cartOffers15Data as any} />
+        },
+        {
+          id: 'cart-offers-16',
+          title: cartOffers16Data.heading,
+          description: cartOffers16Data.description,
+          previewComponent: <CartOffers16 data={cartOffers16Data as any} />
+        },
+        {
+          id: 'cart-offers-17',
+          title: cartOffers17Data.heading,
+          description: cartOffers17Data.description,
+          previewComponent: <CartOffers17 data={cartOffers17Data as any} />
+        },
+        {
+          id: 'cart-offers-18',
+          title: cartOffers18Data.heading,
+          description: cartOffers18Data.description,
+          previewComponent: <CartOffers18 data={cartOffers18Data as any} />
+        },
+        {
+          id: 'cart-offers-19',
+          title: cartOffers19Data.heading,
+          description: cartOffers19Data.description,
+          previewComponent: <CartOffers19 data={cartOffers19Data as any} />
+        },
+        {
+          id: 'cart-offers-20',
+          title: cartOffers20Data.heading,
+          description: cartOffers20Data.description,
+          previewComponent: <CartOffers20 data={cartOffers20Data as any} />
+        }
+      ] :
+    category === 'coupon-discount-section' ? [
+        {
+          id: 'coupon-discount-section-1',
+          title: couponDiscountSection1Data.heading,
+          description: couponDiscountSection1Data.description,
+          previewComponent: <CouponDiscountSection1 data={couponDiscountSection1Data as any} />
+        },
+        {
+          id: 'coupon-discount-section-2',
+          title: couponDiscountSection2Data.heading,
+          description: couponDiscountSection2Data.description,
+          previewComponent: <CouponDiscountSection2 data={couponDiscountSection2Data as any} />
+        },
+        {
+          id: 'coupon-discount-section-3',
+          title: couponDiscountSection3Data.heading,
+          description: couponDiscountSection3Data.description,
+          previewComponent: <CouponDiscountSection3 data={couponDiscountSection3Data as any} />
+        },
+        {
+          id: 'coupon-discount-section-4',
+          title: couponDiscountSection4Data.heading,
+          description: couponDiscountSection4Data.description,
+          previewComponent: <CouponDiscountSection4 data={couponDiscountSection4Data as any} />
+        },
+        {
+          id: 'coupon-discount-section-5',
+          title: couponDiscountSection5Data.heading,
+          description: couponDiscountSection5Data.description,
+          previewComponent: <CouponDiscountSection5 data={couponDiscountSection5Data as any} />
+        },
+        {
+          id: 'coupon-discount-section-6',
+          title: couponDiscountSection6Data.heading,
+          description: couponDiscountSection6Data.description,
+          previewComponent: <CouponDiscountSection6 data={couponDiscountSection6Data as any} />
+        },
+        {
+          id: 'coupon-discount-section-7',
+          title: couponDiscountSection7Data.heading,
+          description: couponDiscountSection7Data.description,
+          previewComponent: <CouponDiscountSection7 data={couponDiscountSection7Data as any} />
+        },
+        {
+          id: 'coupon-discount-section-8',
+          title: couponDiscountSection8Data.heading,
+          description: couponDiscountSection8Data.description,
+          previewComponent: <CouponDiscountSection8 data={couponDiscountSection8Data as any} />
+        },
+        {
+          id: 'coupon-discount-section-9',
+          title: couponDiscountSection9Data.heading,
+          description: couponDiscountSection9Data.description,
+          previewComponent: <CouponDiscountSection9 data={couponDiscountSection9Data as any} />
+        },
+        {
+          id: 'coupon-discount-section-10',
+          title: couponDiscountSection10Data.heading,
+          description: couponDiscountSection10Data.description,
+          previewComponent: <CouponDiscountSection10 data={couponDiscountSection10Data as any} />
+        },
+        {
+          id: 'coupon-discount-section-11',
+          title: couponDiscountSection11Data.heading,
+          description: couponDiscountSection11Data.description,
+          previewComponent: <CouponDiscountSection11 data={couponDiscountSection11Data as any} />
+        },
+        {
+          id: 'coupon-discount-section-12',
+          title: couponDiscountSection12Data.heading,
+          description: couponDiscountSection12Data.description,
+          previewComponent: <CouponDiscountSection12 data={couponDiscountSection12Data as any} />
+        },
+        {
+          id: 'coupon-discount-section-13',
+          title: couponDiscountSection13Data.heading,
+          description: couponDiscountSection13Data.description,
+          previewComponent: <CouponDiscountSection13 data={couponDiscountSection13Data as any} />
+        },
+        {
+          id: 'coupon-discount-section-14',
+          title: couponDiscountSection14Data.heading,
+          description: couponDiscountSection14Data.description,
+          previewComponent: <CouponDiscountSection14 data={couponDiscountSection14Data as any} />
+        },
+        {
+          id: 'coupon-discount-section-15',
+          title: couponDiscountSection15Data.heading,
+          description: couponDiscountSection15Data.description,
+          previewComponent: <CouponDiscountSection15 data={couponDiscountSection15Data as any} />
+        },
+        {
+          id: 'coupon-discount-section-16',
+          title: couponDiscountSection16Data.heading,
+          description: couponDiscountSection16Data.description,
+          previewComponent: <CouponDiscountSection16 data={couponDiscountSection16Data as any} />
+        },
+        {
+          id: 'coupon-discount-section-17',
+          title: couponDiscountSection17Data.heading,
+          description: couponDiscountSection17Data.description,
+          previewComponent: <CouponDiscountSection17 data={couponDiscountSection17Data as any} />
+        },
+        {
+          id: 'coupon-discount-section-18',
+          title: couponDiscountSection18Data.heading,
+          description: couponDiscountSection18Data.description,
+          previewComponent: <CouponDiscountSection18 data={couponDiscountSection18Data as any} />
+        },
+        {
+          id: 'coupon-discount-section-19',
+          title: couponDiscountSection19Data.heading,
+          description: couponDiscountSection19Data.description,
+          previewComponent: <CouponDiscountSection19 data={couponDiscountSection19Data as any} />
+        },
+        {
+          id: 'coupon-discount-section-20',
+          title: couponDiscountSection20Data.heading,
+          description: couponDiscountSection20Data.description,
+          previewComponent: <CouponDiscountSection20 data={couponDiscountSection20Data as any} />
+        }
+      ] :
+    (
+      category === 'shipping-information' ||
+      category === 'coupon-discount-section' ||
+      category === 'shipping-information' ||
+      category === 'free-shipping-progress' ||
+      category === 'recommended-products' ||
+      category === 'frequently-bought-together' ||
+      category === 'recently-viewed-products' ||
+      category === 'empty-cart-section'
+    ) ? [
+        {
+          id: `${category}-1`,
+          title: category.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '),
+          description: `A visual presentation for ${category.split('-').join(' ')}.`,
+          previewComponent: (
+            <div className="p-16 border rounded-2xl bg-white shadow-sm flex flex-col items-center justify-center text-center my-6 max-w-4xl mx-auto">
+              <span className="px-3 py-1 rounded-full text-xs font-bold bg-gray-100 text-gray-700 uppercase tracking-widest mb-3">
+                CART SECTION
+              </span>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                {category.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
+              </h3>
+              <p className="text-sm text-gray-500 max-w-md">
+                Interactive component section for {category.split('-').join(' ')}.
+              </p>
+            </div>
+          )
         }
       ] : [];
   };
@@ -7935,9 +8612,11 @@ export function SectionLibraryGrid({ category }: GridProps) {
     activeCat = 'hero-banner';
   } else if (activeCat === 'product') {
     activeCat = 'product-gallery';
+  } else if (activeCat === 'cart') {
+    activeCat = 'cart-items-section';
   }
   
-  groups = [...homeCategories, ...productCategories].filter(g => g.id === activeCat);
+  groups = [...homeCategories, ...productCategories, ...cartCategories].filter(g => g.id === activeCat);
 
   const padNum = (num: number) => num.toString().padStart(2, '0');
 
@@ -7963,7 +8642,7 @@ export function SectionLibraryGrid({ category }: GridProps) {
                         <div>
                           <div className="flex items-baseline gap-3 mb-2">
                             <span className="text-2xl font-light text-gray-400 font-mono">{num}</span>
-                            <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide">{section.title}</h3>
+                            <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide">{section.title ? section.title.replace(/^\d+[\.\s-]*/, '') : ''}</h3>
                           </div>
                           <p className="text-gray-500 max-w-3xl">
                             {section.description}
@@ -7990,4 +8669,3 @@ export function SectionLibraryGrid({ category }: GridProps) {
 }
 
 // Force HMR reload 1790664817350
-// Force HMR reload 1790665112221\n// Cache bust 1790665804614\n// Cache bust 1790666530251\n// Cache bust sg11-20 1790666736421

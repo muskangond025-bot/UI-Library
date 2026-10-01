@@ -1,4 +1,34 @@
 {
-  "title": "Brand Information 5",
-  "description": "Placeholder content for Brand Information 5"
+  "id": 5,
+  "title": "Brand Values Grid",
+  "desc": "Structured 4-column grid displaying the core values of the brand with metrics and visual status badges.",
+  "eyebrow": "CORE VALUES",
+  "heading": "The Pillars of Our Maison",
+  "subtitle": "Uncompromising standards that guide every fabric choice, seam, and stitch.",
+  "values": [
+    {
+      "number": "01",
+      "title": "Ethical Sourcing",
+      "description": "100% certified organic wool and cashmere harvested under animal welfare standards.",
+      "metric": "100% Certified"
+    },
+    {
+      "number": "02",
+      "title": "Artisanal Dignity",
+      "description": "Fair living wages and safe studio environments guaranteed across all supplier ateliers.",
+      "metric": "3x Living Wage"
+    },
+    {
+      "number": "03",
+      "title": "Zero Waste",
+      "description": "Cutting scraps are shredded and spun into interior insulation batting.",
+      "metric": "0% Waste"
+    },
+    {
+      "number": "04",
+      "title": "Circular Repair",
+      "description": "Free lifetime repair guarantee on zippers, seams, and horn buttons.",
+      "metric": "Lifetime Care"
+    }
+  ]
 }

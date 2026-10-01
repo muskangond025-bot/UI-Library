@@ -1,4 +1,34 @@
 {
-  "title": "Brand Information 2",
-  "description": "Placeholder content for Brand Information 2"
+  "id": 2,
+  "title": "Brand Heritage Timeline",
+  "desc": "Interactive chronological timeline mapping historical brand milestones from 1928 founding to present day global expansion.",
+  "eyebrow": "HERITAGE & LEGACY",
+  "heading": "A Century of Craftsmanship",
+  "subtitle": "Trace our journey across ten decades of textile innovation and atelier mastery.",
+  "milestones": [
+    {
+      "year": "1928",
+      "title": "The Florentine Guild",
+      "description": "First weaving loom established in San Frediano, producing bespoke virgin wool for local tailoring houses.",
+      "location": "Florence, Italy"
+    },
+    {
+      "year": "1964",
+      "title": "Introduction of Cashmere",
+      "description": "Pioneered ethically sourced Mongolian cashmere spinning in Northern Italy.",
+      "location": "Biella, Italy"
+    },
+    {
+      "year": "1998",
+      "title": "Global Flagships",
+      "description": "Expanded to Paris, Tokyo, and New York while maintaining artisanal small-batch production.",
+      "location": "Paris, France"
+    },
+    {
+      "year": "2024",
+      "title": "Zero-Carbon Atelier",
+      "description": "Achieved 100% Gold Standard climate neutrality across all workshops and logistics.",
+      "location": "Global"
+    }
+  ]
 }

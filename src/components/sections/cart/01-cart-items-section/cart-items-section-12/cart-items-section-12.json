@@ -1,0 +1,20 @@
+{
+  "heading": "12. High-Fashion Magazine Layout",
+  "description": "Editorial magazine layout featuring oversized typographic title, serif metadata, and custom quote block alongside editorial product photography.",
+  "product": {
+    "name": "Aethelgard Cashmere & Leather Craft Item",
+    "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=800",
+    "variant": "Midnight Black / Size 50",
+    "quantity": 1,
+    "unitPrice": 1250,
+    "originalPrice": 1450,
+    "discount": "15% OFF",
+    "currency": "$",
+    "availability": "in-stock",
+    "badge": "MAGAZINE EDITORIAL",
+    "styleTag": "High Fashion / Magazine",
+    "descriptionText": "Handcrafted from 100% Mongolian cashmere and full-grain Italian leather hardware.",
+    "removeLabel": "Remove item",
+    "saveForLaterLabel": "Save for later"
+  }
+}

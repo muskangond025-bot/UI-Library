@@ -1,4 +1,27 @@
 {
-  "title": "Product FAQ 2",
-  "description": "Placeholder content for Product FAQ 2"
+  "title": "Editorial Product FAQ",
+  "description": "High-fashion editorial layout featuring serif typography, drop-cap styling, and directional slide answers.",
+  "eyebrow": "EDITORIAL DIRECTORY",
+  "heading": "Garment FAQ & Care Guide",
+  "subtitle": "Comprehensive answers on tailored fit, textile origin, and seasonal storage.",
+  "questions": [
+    {
+      "id": "faq-2-1",
+      "question": "How should the garment be stored during off-season summer months?",
+      "answer": "Store in a breathable cotton garment bag in a cool, dry place. Avoid plastic covers and use the included wide-shoulder wooden hanger to maintain shape.",
+      "category": "Storage & Care"
+    },
+    {
+      "id": "faq-2-2",
+      "question": "Is the lining hypoallergenic and safe for sensitive skin?",
+      "answer": "Yes, the interior lining is crafted from 100% hypoallergenic Bemberg cupro silk, engineered to glide smoothly without causing skin irritation.",
+      "category": "Comfort"
+    },
+    {
+      "id": "faq-2-3",
+      "question": "Can the storm collar attachment be detached for formal wear?",
+      "answer": "The storm collar features hidden interior horn buttons, allowing seamless detachment for a clean formal silhouette.",
+      "category": "Versatility"
+    }
+  ]
 }

@@ -1,4 +1,29 @@
 {
-  "title": "Review Summary 15",
-  "description": "Placeholder content for Review Summary 15"
+  "title": "Compact Product Rating Strip",
+  "description": "Ultra-sleek high-density rating strip with subtle number morphing and compact pill CTAs.",
+  "averageRating": 4.8,
+  "reviewCount": 324,
+  "recommendationPercentage": 94,
+  "verifiedReviewCount": 310,
+  "ratingDistribution": {
+    "1": 4,
+    "2": 6,
+    "3": 14,
+    "4": 52,
+    "5": 248
+  },
+  "attributes": [
+    {
+      "name": "Build Quality",
+      "score": "4.9 / 5"
+    },
+    {
+      "name": "Comfort & Fit",
+      "score": "4.8 / 5"
+    },
+    {
+      "name": "Battery Life",
+      "score": "4.7 / 5"
+    }
+  ]
 }

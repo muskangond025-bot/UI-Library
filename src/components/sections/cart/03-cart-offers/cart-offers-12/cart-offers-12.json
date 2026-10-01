@@ -1,0 +1,28 @@
+{
+  "heading": "12. Minimal Typography List Offers",
+  "description": "Clean monospaced list of available cart promotions with minimal rule dividers.",
+  "offers": [
+    {
+      "code": "FESTIVE20",
+      "title": "Flat 20% OFF",
+      "subtitle": "On orders above ₹2,999",
+      "discount": "20% OFF",
+      "badge": "POPULAR"
+    },
+    {
+      "code": "FREESHIP",
+      "title": "Free Express Shipping",
+      "subtitle": "Valid on all prepaid orders",
+      "discount": "FREE SHIP",
+      "badge": "AUTO-APPLIED"
+    },
+    {
+      "code": "BANK10",
+      "title": "10% Instant Bank Cashback",
+      "subtitle": "With HDFC & ICICI Cards",
+      "discount": "10% OFF",
+      "badge": "BANK OFFER"
+    }
+  ],
+  "styleTag": "Minimalist Mono"
+}

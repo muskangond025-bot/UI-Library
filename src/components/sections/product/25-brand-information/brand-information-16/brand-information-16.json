@@ -1,4 +1,28 @@
 {
-  "title": "Brand Information 16",
-  "description": "Placeholder content for Brand Information 16"
+  "id": 16,
+  "title": "Brand Identity Explorer",
+  "desc": "Interactive identity system showcasing Monogram, Color Tokens (Florentine Cream, Umber Brown, Tuscan Slate), and Fabric Standards.",
+  "eyebrow": "BRAND SYSTEM",
+  "heading": "The Visual & Tactile Identity",
+  "subtitle": "Explore the color swatches, monograms, and material signatures of our house.",
+  "identityElements": [
+    {
+      "category": "Color Palette",
+      "title": "Tuscan Slate & Cream",
+      "description": "Inspired by Florentine limestone and un-bleached virgin cashmere fibers.",
+      "specDetail": "#1E1E1E • #F5F2EB • #8C7A6B"
+    },
+    {
+      "category": "Typography",
+      "title": "Custom Serif & Mono",
+      "description": "High-contrast editorial serif paired with precision technical monospaced coordinates.",
+      "specDetail": "Playfair Display & JetBrains Mono"
+    },
+    {
+      "category": "Material Standard",
+      "title": "Grade-A 15.5 Micron Cashmere",
+      "description": "Selected exclusively from inner neck undercoat fibers for cloud-like lightness.",
+      "specDetail": "RWS & GOTS Certified"
+    }
+  ]
 }

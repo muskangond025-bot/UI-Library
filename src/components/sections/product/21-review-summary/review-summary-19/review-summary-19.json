@@ -1,4 +1,29 @@
 {
-  "title": "Review Summary 19",
-  "description": "Placeholder content for Review Summary 19"
+  "title": "Interactive Rating Breakdown",
+  "description": "Interactive score filter breakdown with real-time rating highlight states and sentiment tabs.",
+  "averageRating": 4.8,
+  "reviewCount": 324,
+  "recommendationPercentage": 94,
+  "verifiedReviewCount": 310,
+  "ratingDistribution": {
+    "1": 4,
+    "2": 6,
+    "3": 14,
+    "4": 52,
+    "5": 248
+  },
+  "attributes": [
+    {
+      "name": "Build Quality",
+      "score": "4.9 / 5"
+    },
+    {
+      "name": "Comfort & Fit",
+      "score": "4.8 / 5"
+    },
+    {
+      "name": "Battery Life",
+      "score": "4.7 / 5"
+    }
+  ]
 }

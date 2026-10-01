@@ -1,4 +1,33 @@
 {
-  "title": "Product FAQ 20",
-  "description": "Placeholder content for Product FAQ 20"
+  "title": "Premium Product Knowledge Showcase",
+  "description": "Comprehensive Product Knowledge Hub featuring live search filter, care sheet downloads, and category tags.",
+  "eyebrow": "KNOWLEDGE HUB",
+  "heading": "Master Product Knowledge Base",
+  "subtitle": "Search and inspect technical parameters, sizing guides, and care sheets.",
+  "questions": [
+    {
+      "id": "faq-20-1",
+      "question": "What UV protection factor (UPF) does the fabric weave offer?",
+      "answer": "Provides UPF 50+ maximum sun protection, blocking over 98% of harmful UVA and UVB rays naturally.",
+      "category": "Protection"
+    },
+    {
+      "id": "faq-20-2",
+      "question": "Is the fabric static-resistant during low humidity winters?",
+      "answer": "Woven with anti-static carbon filament conductive threading to eliminate static cling.",
+      "category": "Anti-Static"
+    },
+    {
+      "id": "faq-20-3",
+      "question": "What crease recovery angle (CRA) does the fabric achieve?",
+      "answer": "Achieves a 140° wrinkle recovery angle, ensuring garment recovers crisp drape without ironing.",
+      "category": "Crease Resistance"
+    },
+    {
+      "id": "faq-20-4",
+      "question": "How should the garment be disinfected or refreshed between wears?",
+      "answer": "Hang outdoors in shaded fresh air for 2 hours or use vertical steam to sanitize and eliminate odor naturally.",
+      "category": "Refreshing"
+    }
+  ]
 }

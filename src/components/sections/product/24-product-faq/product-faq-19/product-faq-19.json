@@ -1,4 +1,33 @@
 {
-  "title": "Product FAQ 19",
-  "description": "Placeholder content for Product FAQ 19"
+  "title": "Interactive FAQ Explorer",
+  "description": "Focus-mode explorer where selecting an FAQ dims surrounding queries to spotlight active garment specs.",
+  "eyebrow": "EXPLORER SPOTLIGHT",
+  "heading": "Durability Testing FAQ",
+  "subtitle": "Laboratory abrasion tests, tensile strength, and color fastness ratings.",
+  "questions": [
+    {
+      "id": "faq-19-1",
+      "question": "What Martindale rub count durability score was achieved?",
+      "answer": "Exceeds 50,000 Martindale rubs, classifying it for severe commercial-grade abrasion resistance.",
+      "category": "Durability"
+    },
+    {
+      "id": "faq-19-2",
+      "question": "What color fastness rating to light and washing was certified?",
+      "answer": "Certified Grade 4-5 on ISO gray scale, guaranteeing zero color fading under direct sunlight or washing.",
+      "category": "Color Fastness"
+    },
+    {
+      "id": "faq-19-3",
+      "question": "How does the fabric perform under tear strength testing?",
+      "answer": "Tensile strength certified to 450N warp and 400N weft resistance against tearing.",
+      "category": "Tensile Strength"
+    },
+    {
+      "id": "faq-19-4",
+      "question": "Is pilling resistance verified under ISO standards?",
+      "answer": "Achieves Grade 4 ISO 12945-2 anti-pilling rating, resisting surface fuzzing during daily wear.",
+      "category": "Anti-Pilling"
+    }
+  ]
 }

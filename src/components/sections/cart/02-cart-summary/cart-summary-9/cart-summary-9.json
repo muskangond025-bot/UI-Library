@@ -1,0 +1,20 @@
+{
+  "heading": "09. Multi-Layered Overlapping Summary",
+  "description": "Three-tiered visual depth composition layering background shadow card, detail breakdown card, and elevated total CTA card.",
+  "summary": {
+    "currency": "₹",
+    "subtotal": 5999,
+    "discount": 800,
+    "shipping": 0,
+    "shippingThreshold": 1000,
+    "tax": 540,
+    "savings": 800,
+    "total": 5739,
+    "coupon": {
+      "code": "SAVE20",
+      "applied": true
+    },
+    "checkoutLabel": "Proceed to Checkout",
+    "styleTag": "Multi-Layer Depth"
+  }
+}

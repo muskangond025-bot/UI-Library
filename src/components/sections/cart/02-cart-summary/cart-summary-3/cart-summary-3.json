@@ -1,0 +1,20 @@
+{
+  "heading": "03. Editorial Oversized Total Summary",
+  "description": "Serif typography-led layout where the grand total dominates as an editorial hero element above secondary charges.",
+  "summary": {
+    "currency": "₹",
+    "subtotal": 5999,
+    "discount": 800,
+    "shipping": 0,
+    "shippingThreshold": 1000,
+    "tax": 540,
+    "savings": 800,
+    "total": 5739,
+    "coupon": {
+      "code": "SAVE20",
+      "applied": true
+    },
+    "checkoutLabel": "Proceed to Checkout",
+    "styleTag": "Editorial Total"
+  }
+}

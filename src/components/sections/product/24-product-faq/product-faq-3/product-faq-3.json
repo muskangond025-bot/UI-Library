@@ -1,4 +1,27 @@
 {
-  "title": "Product FAQ 3",
-  "description": "Placeholder content for Product FAQ 3"
+  "title": "Numbered FAQ List",
+  "description": "Sequential numbered design with oversized gold numerals (01, 02, 03) anchoring expandable technical product guidance.",
+  "eyebrow": "SPECIFICATION DIRECTORY",
+  "heading": "Numbered Product FAQ",
+  "subtitle": "Numbered index of key technical specifications and care parameters.",
+  "questions": [
+    {
+      "id": "faq-3-1",
+      "question": "What weight capacity does the reinforced laptop pocket support?",
+      "answer": "The padded compartment is drop-tested to support devices up to 16 inches and weights up to 5kg with impact-absorbing EVA foam.",
+      "category": "Capacity"
+    },
+    {
+      "id": "faq-3-2",
+      "question": "What protective coating is applied to the canvas exterior?",
+      "answer": "Finished with a non-toxic fluorocarbon-free DWR coating that repels water, mud, and oil stains.",
+      "category": "Protection"
+    },
+    {
+      "id": "faq-3-3",
+      "question": "How does the anti-theft magnetic clasp function?",
+      "answer": "Fitted with a German-engineered Fidlock magnetic buckle that self-locks securely and releases only when pulled laterally.",
+      "category": "Security"
+    }
+  ]
 }

@@ -1,4 +1,31 @@
 {
-  "title": "Brand Information 11",
-  "description": "Placeholder content for Brand Information 11"
+  "id": 11,
+  "title": "Interactive Brand Milestones",
+  "desc": "Year selector tabs (2016, 2019, 2022, 2025) that update the main hero milestone showcase canvas.",
+  "eyebrow": "KEY MILESTONES",
+  "heading": "Interactive History Showcase",
+  "subtitle": "Select a milestone year to explore archived developments.",
+  "milestones": [
+    {
+      "year": "2016",
+      "title": "First Organic Cashmere Line",
+      "description": "Introduced un-dyed natural cashmere sweaters sourced from un-sheared Mongolian goats.",
+      "heroImage": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&q=80",
+      "impactMetric": "5,000kg Organic Wool"
+    },
+    {
+      "year": "2019",
+      "title": "Zero Plastic Packaging",
+      "description": "Replaced all synthetic shipping bags with 100% compostable cornstarch sleeves.",
+      "heroImage": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80",
+      "impactMetric": "0 Plastic Used"
+    },
+    {
+      "year": "2022",
+      "title": "Atelier Repair Guild",
+      "description": "Launched our free lifetime repair service across Europe and North America.",
+      "heroImage": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80",
+      "impactMetric": "1,200 Repairs Completed"
+    }
+  ]
 }

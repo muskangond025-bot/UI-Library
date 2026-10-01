@@ -1,4 +1,33 @@
 {
-  "title": "Product FAQ 16",
-  "description": "Placeholder content for Product FAQ 16"
+  "title": "FAQ with Visual Product Details",
+  "description": "Pairs technical answers directly with close-up macro imagery of stitching, zippers, and fabric weaves.",
+  "eyebrow": "MACRO DETAILS",
+  "heading": "Visual Hardware & Care FAQ",
+  "subtitle": "Inspect physical garment details alongside technical specifications.",
+  "questions": [
+    {
+      "id": "faq-16-1",
+      "question": "What machine stitch count per inch (SPI) is enforced?",
+      "answer": "Sewn with 12 stitches per inch using heavy-duty bonded nylon thread to prevent seam bursting.",
+      "category": "Craftsmanship"
+    },
+    {
+      "id": "faq-16-2",
+      "question": "What zipper mechanism is specified?",
+      "answer": "Custom YKK Excella two-way polished brass zipper with anti-snag interior guard tape.",
+      "category": "Zippers"
+    },
+    {
+      "id": "faq-16-3",
+      "question": "How is the hem reinforced against fraying?",
+      "answer": "Finished with a 4cm double-turn blind stitch hem reinforced with interior cotton stay tape.",
+      "category": "Hem Construction"
+    },
+    {
+      "id": "faq-16-4",
+      "question": "What button material is used?",
+      "answer": "Hand-carved genuine buffalo horn buttons dyed naturally with laser-engraved brand mark.",
+      "category": "Buttons"
+    }
+  ]
 }

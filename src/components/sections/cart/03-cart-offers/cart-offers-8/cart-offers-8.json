@@ -1,0 +1,28 @@
+{
+  "heading": "08. Free Gift with Purchase Offers",
+  "description": "Visual gift selector unlocking complimentary luxury gifts when cart reaches target total.",
+  "offers": [
+    {
+      "code": "FESTIVE20",
+      "title": "Flat 20% OFF",
+      "subtitle": "On orders above ₹2,999",
+      "discount": "20% OFF",
+      "badge": "POPULAR"
+    },
+    {
+      "code": "FREESHIP",
+      "title": "Free Express Shipping",
+      "subtitle": "Valid on all prepaid orders",
+      "discount": "FREE SHIP",
+      "badge": "AUTO-APPLIED"
+    },
+    {
+      "code": "BANK10",
+      "title": "10% Instant Bank Cashback",
+      "subtitle": "With HDFC & ICICI Cards",
+      "discount": "10% OFF",
+      "badge": "BANK OFFER"
+    }
+  ],
+  "styleTag": "Free Gift Unlock"
+}

@@ -1,0 +1,20 @@
+{
+  "heading": "13. Large Total Hero Summary",
+  "description": "Grand total figure presented as a massive headline display above compact secondary financial charges.",
+  "summary": {
+    "currency": "₹",
+    "subtotal": 5999,
+    "discount": 800,
+    "shipping": 0,
+    "shippingThreshold": 1000,
+    "tax": 540,
+    "savings": 800,
+    "total": 5739,
+    "coupon": {
+      "code": "SAVE20",
+      "applied": true
+    },
+    "checkoutLabel": "Proceed to Checkout",
+    "styleTag": "Hero Figure"
+  }
+}

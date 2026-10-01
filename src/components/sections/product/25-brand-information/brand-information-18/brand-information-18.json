@@ -1,4 +1,20 @@
 {
-  "title": "Brand Information 18",
-  "description": "Placeholder content for Brand Information 18"
+  "id": 18,
+  "title": "Heritage + Modernity Split",
+  "desc": "50/50 comparison layout pairing Historical Archives (1928) with Modern Sustainable Craft (2026).",
+  "eyebrow": "PAST & FUTURE",
+  "heading": "Heritage Meets Modernity",
+  "subtitle": "Respecting 95 years of history while pioneering circular fashion.",
+  "heritage": {
+    "year": "1928",
+    "title": "Historical Guild Archive",
+    "description": "Original hand-woven wool blankets created for Alpine travelers.",
+    "archiveImage": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&q=80"
+  },
+  "modernity": {
+    "year": "2026",
+    "title": "Circular Eco Atelier",
+    "description": "Closed-loop zero-waste tailoring using 100% solar energy.",
+    "modernImage": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80"
+  }
 }

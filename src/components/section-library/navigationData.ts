@@ -37,7 +37,7 @@ export const productCategories = [
   { id: 'product-features', label: 'Product Features', mappedId: 'product-features' },
   { id: 'what-s-included', label: "What's Included", mappedId: 'what-s-included' },
   { id: 'size-guide', label: 'Size Guide', mappedId: 'size-guide' },
-  { id: 'product-care', label: 'Product Care', mappedId: 'product-care' },
+  { id: 'product-card', label: 'Product Card', mappedId: 'product-card' },
   { id: 'warranty-information', label: 'Warranty Information', mappedId: 'warranty-information' },
   { id: 'shipping-delivery-information', label: 'Shipping & Delivery Information', mappedId: 'shipping-delivery-information' },
   { id: 'return-refund-information', label: 'Return & Refund Information', mappedId: 'return-refund-information' },
@@ -53,4 +53,17 @@ export const productCategories = [
   { id: 'questions-answers', label: 'Questions & Answers', mappedId: 'questions-answers' },
   { id: 'product-faq', label: 'Product FAQ', mappedId: 'product-faq' },
   { id: 'brand-information', label: 'Brand Information', mappedId: 'brand-information' },
+];
+
+export const cartCategories = [
+  { id: 'cart-items-section', label: 'Cart Items Section', mappedId: 'cart-items-section' },
+  { id: 'cart-summary', label: 'Cart Summary', mappedId: 'cart-summary' },
+  { id: 'cart-offers', label: 'Cart Offers', mappedId: 'cart-offers' },
+  { id: 'coupon-discount-section', label: 'Coupon / Discount Section', mappedId: 'coupon-discount-section' },
+  { id: 'shipping-information', label: 'Shipping Information', mappedId: 'shipping-information' },
+  { id: 'free-shipping-progress', label: 'Free Shipping Progress', mappedId: 'free-shipping-progress' },
+  { id: 'recommended-products', label: 'Recommended Products', mappedId: 'recommended-products' },
+  { id: 'frequently-bought-together', label: 'Frequently Bought Together', mappedId: 'frequently-bought-together' },
+  { id: 'recently-viewed-products', label: 'Recently Viewed Products', mappedId: 'recently-viewed-products' },
+  { id: 'empty-cart-section', label: 'Empty Cart Section', mappedId: 'empty-cart-section' },
 ];

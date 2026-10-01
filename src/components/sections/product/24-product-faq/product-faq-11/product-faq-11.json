@@ -1,4 +1,27 @@
 {
-  "title": "Product FAQ 11",
-  "description": "Placeholder content for Product FAQ 11"
+  "title": "Featured Question + FAQ List",
+  "description": "Hero spotlight layout highlighting the #1 most critical sizing question at the top with a supporting list.",
+  "eyebrow": "FEATURED SPOTLIGHT",
+  "heading": "Spotlight Product FAQ",
+  "subtitle": "Primary sizing query highlighted with supporting technical specifications.",
+  "questions": [
+    {
+      "id": "faq-11-1",
+      "question": "How should I choose between Sizing Option A and Sizing Option B?",
+      "answer": "If your measurements fall between sizes, select the smaller size for a trim tailored fit or the larger size for relaxed layering.",
+      "category": "Featured Sizing"
+    },
+    {
+      "id": "faq-11-2",
+      "question": "Is the coat heavy on the shoulders during extended wear?",
+      "answer": "Engineered with internal weight-distribution shoulder pads that disperse garment weight evenly across the collarbone.",
+      "category": "Ergonomics"
+    },
+    {
+      "id": "faq-11-3",
+      "question": "How does the storm flap protect against high wind chill?",
+      "answer": "Features a double-layer storm flap secured by heavy-duty magnetic snaps over the primary zip channel.",
+      "category": "Wind Protection"
+    }
+  ]
 }

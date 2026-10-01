@@ -1,4 +1,27 @@
 {
-  "title": "Product FAQ 13",
-  "description": "Placeholder content for Product FAQ 13"
+  "title": "Product Image + Floating FAQ Panel",
+  "description": "Glassmorphic floating FAQ panels elevated over a high-resolution product photography canvas.",
+  "eyebrow": "FLOATING GLASSMORPHISM",
+  "heading": "Visual Product Guidance",
+  "subtitle": "Translucent FAQ cards floating over close-up hardware details.",
+  "questions": [
+    {
+      "id": "faq-13-1",
+      "question": "What grade of full-grain leather is used for the zip pulls?",
+      "answer": "Vegetable-tanned full-grain Tuscan calf leather that develops a rich natural patina over time.",
+      "category": "Leather Specs"
+    },
+    {
+      "id": "faq-13-2",
+      "question": "Are the pocket linings brushed for thermal hand warmth?",
+      "answer": "Yes, side handwarmer pockets are lined with ultra-soft 180gsm brushed micro-fleece.",
+      "category": "Pocket Detail"
+    },
+    {
+      "id": "faq-13-3",
+      "question": "What metal alloy is used for the belt buckle?",
+      "answer": "Cast from solid aircraft-grade anodized aluminum for ultra-lightweight durability.",
+      "category": "Buckle Hardware"
+    }
+  ]
 }

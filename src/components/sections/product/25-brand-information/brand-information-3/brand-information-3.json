@@ -1,4 +1,23 @@
 {
-  "title": "Brand Information 3",
-  "description": "Placeholder content for Brand Information 3"
+  "id": 3,
+  "title": "Brand Philosophy Statement",
+  "desc": "High-contrast manifesto layout featuring oversized brand motto text, founder signature, and core philosophy pillars.",
+  "eyebrow": "OUR PHILOSOPHY",
+  "heading": "Form, Function & Integrity",
+  "subtitle": "Our guiding principles in design, material selection, and human relationships.",
+  "manifesto": "Purity of material. Restraint in design. Permanence in value.",
+  "philosophyPoints": [
+    {
+      "title": "Radical Material Purity",
+      "description": "Only 100% natural, biodegradable fibers are selected. No synthetic blends, no microplastics."
+    },
+    {
+      "title": "Slow Small-Batch Production",
+      "description": "We produce only to demand, eliminating overstock waste and protecting artisan dignity."
+    },
+    {
+      "title": "Lifetime Repair Pledge",
+      "description": "Every item is backed by our lifetime repair service to extend garment life indefinitely."
+    }
+  ]
 }

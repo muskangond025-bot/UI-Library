@@ -1,4 +1,136 @@
 {
-  "title": "Customer Review Gallery 1",
-  "description": "Placeholder content for Customer Review Gallery 1"
+  "title": "Editorial Customer Gallery",
+  "description": "Customer photography is arranged in an asymmetric editorial grid, while selected images expand through a directional media mask reveal to disclose the associated review.",
+  "eyebrow": "EDITORIAL PERSPECTIVE",
+  "heading": "The Community Gallery",
+  "subtitle": "Real stories and visual expressions from our valued clientele around the globe.",
+  "customers": [
+    {
+      "id": "c1",
+      "name": "Sophia Chen",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&q=80",
+      "mediaType": "image",
+      "media": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1200&q=80",
+      "reviewText": "The craftsmanship is unmatched. From the tailored silhouette to the buttery soft texture, it has quickly become my go-to piece for autumn.",
+      "rating": 5,
+      "verified": true,
+      "date": "2 days ago",
+      "location": "New York, NY",
+      "productName": "Silk Wool Cashmere Coat",
+      "productImage": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=400&q=80",
+      "productPrice": "$420.00",
+      "productLink": "#",
+      "tags": [
+        "Autumn Outfit",
+        "Style Guide",
+        "Verified Purchase"
+      ]
+    },
+    {
+      "id": "c2",
+      "name": "Marcus Vance",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&q=80",
+      "mediaType": "video",
+      "media": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&q=80",
+      "poster": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&q=80",
+      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-fashion-model-in-a-pink-coat-40911-large.mp4",
+      "duration": "0:24",
+      "reviewText": "Exceeded all expectations. The structure holds effortlessly throughout the day and the fabric feels incredibly premium.",
+      "rating": 5,
+      "verified": true,
+      "date": "1 week ago",
+      "location": "London, UK",
+      "productName": "Structured Travel Blazer",
+      "productImage": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=400&q=80",
+      "productPrice": "$310.00",
+      "productLink": "#",
+      "tags": [
+        "Workwear",
+        "Essential"
+      ]
+    },
+    {
+      "id": "c3",
+      "name": "Elena Rostova",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=300&q=80",
+      "mediaType": "image",
+      "media": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200&q=80",
+      "reviewText": "Draped beautifully! Wore it to an evening gala and received endless compliments. Absolutely timeless elegance.",
+      "rating": 5,
+      "verified": true,
+      "date": "3 weeks ago",
+      "location": "Paris, France",
+      "productName": "Architectural Pleated Gown",
+      "productImage": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=400&q=80",
+      "productPrice": "$580.00",
+      "productLink": "#",
+      "tags": [
+        "Evening Gala",
+        "Luxury Edit"
+      ]
+    },
+    {
+      "id": "c4",
+      "name": "Liam O'Connor",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&q=80",
+      "mediaType": "image",
+      "media": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=1200&q=80",
+      "reviewText": "Minimalist perfection. Clean stitching, comfortable movement, and durable materials that last season after season.",
+      "rating": 5,
+      "verified": true,
+      "date": "1 month ago",
+      "location": "Dublin, Ireland",
+      "productName": "Monochrome Canvas Boot",
+      "productImage": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80",
+      "productPrice": "$250.00",
+      "productLink": "#",
+      "tags": [
+        "Footwear",
+        "Streetwear"
+      ]
+    },
+    {
+      "id": "c5",
+      "name": "Aria Takahashi",
+      "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=300&q=80",
+      "mediaType": "video",
+      "media": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=1200&q=80",
+      "poster": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=1200&q=80",
+      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-woman-wearing-a-yellow-coat-walking-down-the-street-40912-large.mp4",
+      "duration": "0:18",
+      "reviewText": "The color in person is even richer than online. Lightweight yet warm. I've recommended it to all my colleagues!",
+      "rating": 5,
+      "verified": true,
+      "date": "1 month ago",
+      "location": "Tokyo, Japan",
+      "productName": "Merino Wool Knit Sweater",
+      "productImage": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&q=80",
+      "productPrice": "$190.00",
+      "productLink": "#",
+      "tags": [
+        "Knitwear",
+        "Winter Edit"
+      ]
+    },
+    {
+      "id": "c6",
+      "name": "David Kim",
+      "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=300&q=80",
+      "mediaType": "image",
+      "media": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=1200&q=80",
+      "reviewText": "Functional luxury at its best. Great pocket placement and sleek profile that pairs with casual or formal outfits.",
+      "rating": 5,
+      "verified": true,
+      "date": "2 months ago",
+      "location": "Seoul, South Korea",
+      "productName": "Minimalist Leather Backpack",
+      "productImage": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&q=80",
+      "productPrice": "$340.00",
+      "productLink": "#",
+      "tags": [
+        "Leather Goods",
+        "Everyday Carry"
+      ]
+    }
+  ]
 }
