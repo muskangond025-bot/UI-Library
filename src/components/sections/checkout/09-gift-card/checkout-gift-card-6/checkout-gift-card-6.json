@@ -1,0 +1,14 @@
+{
+  "id": "checkout-gift-card-06",
+  "title": "Gift Card Section — 06",
+  "description": "Placeholder for Gift Card Section variant 06",
+  "category": "checkout",
+  "subsection": "checkout-gift-card",
+  "variant": 6,
+  "section": {
+    "settings": {
+      "title": "Gift Card Section 06",
+      "description": "Placeholder structure for Gift Card Section variant 06"
+    }
+  }
+}

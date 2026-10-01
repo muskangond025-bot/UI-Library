@@ -1,0 +1,14 @@
+{
+  "id": "checkout-discount-coupon-03",
+  "title": "Discount / Coupon Section — 03",
+  "description": "Placeholder for Discount / Coupon Section variant 03",
+  "category": "checkout",
+  "subsection": "checkout-discount-coupon",
+  "variant": 3,
+  "section": {
+    "settings": {
+      "title": "Discount / Coupon Section 03",
+      "description": "Placeholder structure for Discount / Coupon Section variant 03"
+    }
+  }
+}

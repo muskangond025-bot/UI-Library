@@ -1,0 +1,14 @@
+{
+  "id": "delivery-options-09",
+  "title": "Delivery Options — 09",
+  "description": "Placeholder for Delivery Options variant 09",
+  "category": "checkout",
+  "subsection": "delivery-options",
+  "variant": 9,
+  "section": {
+    "settings": {
+      "title": "Delivery Options 09",
+      "description": "Placeholder structure for Delivery Options variant 09"
+    }
+  }
+}

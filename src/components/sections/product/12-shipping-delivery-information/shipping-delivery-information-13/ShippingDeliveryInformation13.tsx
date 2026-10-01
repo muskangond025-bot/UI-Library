@@ -1,39 +1,55 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { CheckCircle2, Truck, Package, Clock } from 'lucide-react';
+import { Box, Shield, Gift, CheckCircle2 } from 'lucide-react';
 
 export default function ShippingDeliveryInformation13({ data }: { data: any }) {
-  const events = [
-    { icon: CheckCircle2, title: "Order Confirmed", time: "10:24 AM", active: true },
-    { icon: Package, title: "Packed & Ready", time: "2:15 PM", active: true },
-    { icon: Truck, title: "Out for Delivery", time: "Today", active: true },
-    { icon: Clock, title: "Estimated Arrival", time: "4:00 PM", active: false }
+  const settings = data?.section?.settings || {};
+
+  const layers = [
+    { title: "01. Outer Eco-Armor", desc: "100% recycled heavy-gauge cardboard shield engineered to withstand 50kg external pressure." },
+    { title: "02. Shock Absorption", desc: "Custom molded paper pulp cradle cradles product body preventing internal shift." },
+    { title: "03. Moisture Lock", desc: "Hermetically sealed organic cotton sleeve protects against moisture during transit." },
+    { title: "04. Unboxing Elegance", desc: "Bespoke ribbon tab for effortless, scratch-free unboxing." }
   ];
 
   return (
-    <div className="p-8 min-h-[500px] rounded-3xl bg-zinc-50 flex items-center justify-center">
-      <div className="w-full max-w-md bg-white p-8 rounded-3xl shadow-[0_20px_50px_-12px_rgba(0,0,0,0.1)]">
-        <h2 className="text-2xl font-bold text-zinc-800 mb-8">Tracking Details</h2>
-        
-        <div className="relative">
-          {/* Vertical Line */}
-          <div className="absolute left-[19px] top-6 bottom-6 w-0.5 bg-zinc-100" />
-          
-          {events.map((event, i) => (
-            <motion.div 
-              key={i}
-              className="relative z-10 flex items-start mb-8 last:mb-0"
-              initial={{ opacity: 0, x: -20, filter: "blur(10px)" }}
-              whileInView={{ opacity: 1, x: 0, filter: "blur(0px)" }}
-              transition={{ delay: i * 0.15, duration: 0.5 }}
-              viewport={{ once: true, margin: "-10%" }}
+    <div className="w-full py-16 px-4 md:px-8 bg-slate-950 text-white rounded-3xl overflow-hidden relative border border-slate-800">
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center max-w-2xl mx-auto mb-14">
+          <span className="text-xs font-mono tracking-widest text-amber-400 uppercase bg-amber-500/10 border border-amber-500/20 px-3.5 py-1.5 rounded-full inline-block mb-3">
+            {settings.eyebrow || 'ECO-PROTECTION'}
+          </span>
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white mb-4">
+            {settings.title || 'Packaging & Protection Story'}
+          </h2>
+          <p className="text-slate-400 text-sm md:text-base">
+            {settings.description || 'Sustainable shock-proof materials engineered to protect delicate products during travel.'}
+          </p>
+        </div>
+
+        {/* Sequential Layer Reveal Pipeline */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {layers.map((layer, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 25 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: idx * 0.15 }}
+              className="bg-slate-900 border border-slate-800 p-8 rounded-3xl relative overflow-hidden flex flex-col justify-between hover:border-amber-500/50 transition-colors"
             >
-              <div className={`w-10 h-10 rounded-full flex items-center justify-center shrink-0 mr-4 shadow-sm ${event.active ? 'bg-zinc-900 text-white' : 'bg-white border-2 border-zinc-200 text-zinc-300'}`}>
-                <event.icon size={20} />
+              <div>
+                <div className="flex items-center gap-3 text-amber-400 mb-4">
+                  <Shield className="w-5 h-5" />
+                  <span className="text-xs font-mono font-bold tracking-wider uppercase">LAYER SECURITY</span>
+                </div>
+                <h3 className="text-xl font-bold text-white mb-2">{layer.title}</h3>
+                <p className="text-xs text-slate-400 leading-relaxed">{layer.desc}</p>
               </div>
-              <div className="pt-2">
-                <h4 className={`font-bold ${event.active ? 'text-zinc-800' : 'text-zinc-400'}`}>{event.title}</h4>
-                <p className="text-sm font-medium text-zinc-500">{event.time}</p>
+
+              <div className="pt-4 border-t border-slate-800/80 mt-6 flex items-center justify-between text-[11px] text-slate-500 font-mono">
+                <span>VERIFIED SUSTAINABLE</span>
+                <CheckCircle2 className="w-4 h-4 text-emerald-400" />
               </div>
             </motion.div>
           ))}

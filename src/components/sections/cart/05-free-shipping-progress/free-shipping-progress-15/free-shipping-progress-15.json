@@ -1,0 +1,14 @@
+{
+  "title": "Free Shipping Progress 15 — Ring + Content Split",
+  "description": "Ring chart on left, detailed info breakdown on right.",
+  "section": {
+    "settings": {
+      "currency": "₹",
+      "currentValue": 2400,
+      "threshold": 3000,
+      "remainingMessage": "Add ₹600 more to unlock FREE shipping",
+      "unlockedMessage": "🎉 Congratulations! You unlocked FREE Shipping!",
+      "achieved": false
+    }
+  }
+}

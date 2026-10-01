@@ -1,0 +1,14 @@
+{
+  "id": "checkout-order-summary-15",
+  "title": "Order Summary — 15",
+  "description": "Placeholder for Order Summary variant 15",
+  "category": "checkout",
+  "subsection": "checkout-order-summary",
+  "variant": 15,
+  "section": {
+    "settings": {
+      "title": "Order Summary 15",
+      "description": "Placeholder structure for Order Summary variant 15"
+    }
+  }
+}

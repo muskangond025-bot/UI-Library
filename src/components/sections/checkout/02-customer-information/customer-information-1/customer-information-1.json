@@ -1,0 +1,14 @@
+{
+  "id": "customer-information-01",
+  "title": "Customer Information — 01",
+  "description": "Placeholder for Customer Information variant 01",
+  "category": "checkout",
+  "subsection": "customer-information",
+  "variant": 1,
+  "section": {
+    "settings": {
+      "title": "Customer Information 01",
+      "description": "Placeholder structure for Customer Information variant 01"
+    }
+  }
+}

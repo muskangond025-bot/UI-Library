@@ -1,0 +1,14 @@
+{
+  "id": "checkout-header-02",
+  "title": "Checkout Header — 02",
+  "description": "Placeholder for Checkout Header variant 02",
+  "category": "checkout",
+  "subsection": "checkout-header",
+  "variant": 2,
+  "section": {
+    "settings": {
+      "title": "Checkout Header 02",
+      "description": "Placeholder structure for Checkout Header variant 02"
+    }
+  }
+}

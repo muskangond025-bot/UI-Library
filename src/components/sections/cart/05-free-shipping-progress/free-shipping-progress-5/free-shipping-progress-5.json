@@ -1,0 +1,14 @@
+{
+  "title": "Free Shipping Progress 05 — Threshold Split",
+  "description": "2-column split card comparing Current Cart Value against Target Threshold with a middle indicator bridge.",
+  "section": {
+    "settings": {
+      "currency": "₹",
+      "currentValue": 2400,
+      "threshold": 3000,
+      "remainingMessage": "Add ₹600 more to unlock FREE shipping",
+      "unlockedMessage": "🎉 Congratulations! You unlocked FREE Shipping!",
+      "achieved": false
+    }
+  }
+}

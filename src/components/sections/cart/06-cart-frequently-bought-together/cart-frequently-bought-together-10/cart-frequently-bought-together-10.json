@@ -1,0 +1,62 @@
+{
+  "title": "Suiting Trio Overlap Ensemble",
+  "subtitle": "Complete your wardrobe silhouette with curated complementary accents",
+  "description": "Interactive overlapping card deck with fan-out animations, color swatch previews, real-time bundle price calculations, and size selection.",
+  "products": [
+    {
+      "id": "item-1",
+      "name": "Architectural Wool Blazer",
+      "category": "Main Cart Item",
+      "price": 24900,
+      "originalPrice": 29900,
+      "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=800&q=80",
+      "badge": "In Your Cart",
+      "rating": 4.9,
+      "reviews": 142,
+      "size": "40R",
+      "color": "Midnight Navy",
+      "availableSizes": ["38R", "40R", "42R", "44R"],
+      "availableColors": [
+        { "name": "Midnight Navy", "hex": "#1e293b" },
+        { "name": "Charcoal Gray", "hex": "#334155" },
+        { "name": "Onyx Black", "hex": "#0f172a" }
+      ]
+    },
+    {
+      "id": "item-2",
+      "name": "Silk Pocket Square & Tie Set",
+      "category": "Recommended Pair",
+      "price": 4900,
+      "originalPrice": 6500,
+      "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=800&q=80",
+      "badge": "25% OFF PAIR",
+      "rating": 4.8,
+      "reviews": 98,
+      "size": "One Size",
+      "color": "Emerald Geometric",
+      "availableColors": [
+        { "name": "Emerald Geometric", "hex": "#047857" },
+        { "name": "Burgundy Paisley", "hex": "#881337" },
+        { "name": "Royal Gold Chevron", "hex": "#b45309" }
+      ]
+    },
+    {
+      "id": "item-3",
+      "name": "Handcrafted Brass Tie Bar",
+      "category": "Styling Accent",
+      "price": 2900,
+      "originalPrice": 3800,
+      "image": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=800&q=80",
+      "badge": "Bestseller Add-on",
+      "rating": 4.9,
+      "reviews": 215,
+      "size": "Standard 5cm",
+      "color": "Brushed Gold",
+      "availableColors": [
+        { "name": "Brushed Gold", "hex": "#d97706" },
+        { "name": "Antique Silver", "hex": "#94a3b8" },
+        { "name": "Matte Gunmetal", "hex": "#475569" }
+      ]
+    }
+  ]
+}

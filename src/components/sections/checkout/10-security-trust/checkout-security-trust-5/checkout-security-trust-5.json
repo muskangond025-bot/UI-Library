@@ -1,0 +1,14 @@
+{
+  "id": "checkout-security-trust-05",
+  "title": "Security / Trust Section — 05",
+  "description": "Placeholder for Security / Trust Section variant 05",
+  "category": "checkout",
+  "subsection": "checkout-security-trust",
+  "variant": 5,
+  "section": {
+    "settings": {
+      "title": "Security / Trust Section 05",
+      "description": "Placeholder structure for Security / Trust Section variant 05"
+    }
+  }
+}

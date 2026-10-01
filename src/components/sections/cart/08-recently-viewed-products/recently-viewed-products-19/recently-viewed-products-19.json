@@ -1,0 +1,57 @@
+{
+  "title": "Recently Viewed — Chronological Marquee",
+  "description": "Continuous marquee strip with hover-pause controls, keyboard accessibility, and reduced-motion support.",
+  "animation": "Controlled continuous marquee motion",
+  "section": {
+    "settings": {
+      "title": "Recently Viewed — Chronological Marquee",
+      "description": "Continuous marquee strip with hover-pause controls, keyboard accessibility, and reduced-motion support.",
+      "products": [
+        {
+          "id": "rv-1",
+          "name": "Minimalist Leather Sneakers",
+          "category": "Footwear",
+          "price": 12900,
+          "originalPrice": 15900,
+          "viewedTime": "10 mins ago",
+          "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80",
+          "rating": 4.8,
+          "badge": "Just Viewed"
+        },
+        {
+          "id": "rv-2",
+          "name": "Cashmere Knit Crewneck",
+          "category": "Apparel",
+          "price": 18500,
+          "originalPrice": 22000,
+          "viewedTime": "25 mins ago",
+          "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=800&q=80",
+          "rating": 4.9,
+          "badge": "High Interest"
+        },
+        {
+          "id": "rv-3",
+          "name": "Waterproof Commuter Backpack",
+          "category": "Accessories",
+          "price": 14200,
+          "originalPrice": 17500,
+          "viewedTime": "1 hour ago",
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+          "rating": 4.7,
+          "badge": "Low Stock"
+        },
+        {
+          "id": "rv-4",
+          "name": "Matte Ceramic Watch",
+          "category": "Timepieces",
+          "price": 32000,
+          "originalPrice": 38000,
+          "viewedTime": "2 hours ago",
+          "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+          "rating": 4.9,
+          "badge": "Trending"
+        }
+      ]
+    }
+  }
+}

@@ -1,70 +1,74 @@
-import React, { useState } from 'react';
-import { motion, useMotionValue, useTransform } from 'framer-motion';
-import { ChevronRight, Check } from 'lucide-react';
+import React from 'react';
+import { motion } from 'framer-motion';
+import { ShieldCheck, Award, Zap, HeartHandshake } from 'lucide-react';
 
 export default function ShippingDeliveryInformation15({ data }: { data: any }) {
-  const [isConfirmed, setIsConfirmed] = useState(false);
-  const x = useMotionValue(0);
-  const opacity = useTransform(x, [0, 200], [1, 0]);
-  const background = useTransform(x, [0, 250], ["#f1f5f9", "#10b981"]);
-  const color = useTransform(x, [0, 250], ["#0f172a", "#ffffff"]);
+  const settings = data?.section?.settings || {};
 
-  const handleDragEnd = (event: any, info: any) => {
-    if (info.offset.x > 200) {
-      setIsConfirmed(true);
-    }
-  };
+  const facts = [
+    { title: "100% On-Time Guarantee", desc: "Refunded shipping if delayed by 24h" },
+    { title: "Zero Hidden Surcharges", desc: "All duties calculated upfront" },
+    { title: "Eco-Linen Packaging", desc: "100% plastic-free recyclable materials" },
+    { title: "Doorstep OTP Verification", desc: "Safe photo & code verified handover" }
+  ];
 
   return (
-    <div className="p-8 min-h-[400px] rounded-3xl bg-slate-900 flex flex-col items-center justify-center">
-      <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold text-white mb-2">Secure Reception</h2>
-        <p className="text-slate-400">Swipe to simulate confirming delivery receipt.</p>
-      </div>
+    <div className="w-full py-16 px-4 md:px-8 bg-slate-950 text-white rounded-3xl overflow-hidden relative border border-slate-800">
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center max-w-2xl mx-auto mb-14">
+          <span className="text-xs font-mono tracking-widest text-emerald-400 uppercase bg-emerald-500/10 border border-emerald-500/20 px-3.5 py-1.5 rounded-full inline-block mb-3">
+            {settings.eyebrow || 'OUR COMMITMENT'}
+          </span>
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white mb-4">
+            {settings.title || 'The 100% Delivery Guarantee'}
+          </h2>
+          <p className="text-slate-400 text-sm md:text-base">
+            {settings.description || 'On-time delivery, damage-free arrival, and zero hidden surcharge pledge.'}
+          </p>
+        </div>
 
-      <div className="relative w-full max-w-sm h-20 rounded-full bg-slate-800 shadow-inner overflow-hidden border border-slate-700 p-2">
-        {/* Success State */}
-        <motion.div 
-          className="absolute inset-0 flex items-center justify-center font-bold text-lg text-emerald-400 z-0 tracking-wide"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: isConfirmed ? 1 : 0 }}
-        >
-          <Check className="mr-2" /> Delivery Confirmed
-        </motion.div>
-
-        {/* Draggable Button */}
-        {!isConfirmed && (
+        {/* Central Promise Badge & Surrounding Orbital Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          {/* Central Hero Promise Statement */}
           <motion.div
-            className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg cursor-grab active:cursor-grabbing relative z-20"
-            drag="x"
-            dragConstraints={{ left: 0, right: 280 }}
-            dragElastic={0.1}
-            onDragEnd={handleDragEnd}
-            style={{ x }}
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="lg:col-span-5 bg-gradient-to-br from-emerald-500/20 via-slate-900 to-slate-950 border-2 border-emerald-500 p-8 md:p-10 rounded-3xl text-center shadow-[0_0_40px_rgba(16,185,129,0.15)] flex flex-col items-center justify-center min-h-[320px]"
           >
-            <ChevronRight className="text-slate-900" size={28} />
+            <div className="w-16 h-16 rounded-full bg-emerald-500 text-slate-950 flex items-center justify-center mb-6 shadow-lg">
+              <Award className="w-8 h-8" />
+            </div>
+            <h3 className="text-2xl md:text-3xl font-extrabold text-white mb-3 leading-snug">
+              "Fast. Trackable. Carefully delivered."
+            </h3>
+            <p className="text-xs text-emerald-300/80 max-w-xs leading-relaxed">
+              Back by our unconditional replacement or instant refund pledge.
+            </p>
           </motion.div>
-        )}
-        
-        {/* Swipe Text */}
-        {!isConfirmed && (
-          <motion.div 
-            className="absolute inset-0 flex items-center justify-center pointer-events-none z-10 font-medium text-slate-400 tracking-wider pl-8"
-            style={{ opacity }}
-          >
-            SWIPE TO CONFIRM
-          </motion.div>
-        )}
+
+          {/* Surrounding Supporting Fact Cards */}
+          <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {facts.map((fact, idx) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: idx * 0.15 }}
+                className="bg-slate-900 border border-slate-800 p-6 rounded-2xl"
+              >
+                <div className="w-8 h-8 rounded-xl bg-slate-800 text-emerald-400 flex items-center justify-center mb-3">
+                  <ShieldCheck className="w-4 h-4" />
+                </div>
+                <h4 className="text-sm font-bold text-white mb-1">{fact.title}</h4>
+                <p className="text-xs text-slate-400">{fact.desc}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
       </div>
-      
-      {isConfirmed && (
-        <button 
-          onClick={() => { setIsConfirmed(false); x.set(0); }}
-          className="mt-8 text-sm text-slate-500 hover:text-white transition-colors"
-        >
-          Reset Simulation
-        </button>
-      )}
     </div>
   );
 }

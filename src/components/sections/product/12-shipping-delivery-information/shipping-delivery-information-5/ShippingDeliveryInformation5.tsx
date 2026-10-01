@@ -1,56 +1,84 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { ShoppingBag, Sparkles, CheckCircle2, ArrowRight } from 'lucide-react';
 
 export default function ShippingDeliveryInformation5({ data }: { data: any }) {
+  const settings = data?.section?.settings || {};
+  const freeShipping = settings.freeShipping || {
+    enabled: true,
+    threshold: "₹2,999",
+    currentAmount: "₹1,850",
+    progressPercentage: 62
+  };
 
   return (
-    <div className="p-8 min-h-[500px] rounded-3xl bg-indigo-950 flex flex-col items-center justify-center relative overflow-hidden">
-      <div className="text-center mb-16 relative z-10">
-        <h2 className="text-4xl font-bold text-white mb-4">Route Tracking</h2>
-        <p className="text-indigo-200">Watch your package travel the globe.</p>
-      </div>
+    <div className="w-full py-16 px-4 md:px-8 bg-slate-950 text-white rounded-3xl overflow-hidden relative border border-slate-800">
+      <div className="max-w-4xl mx-auto relative z-10">
+        <div className="text-center max-w-2xl mx-auto mb-12">
+          <span className="text-xs font-mono tracking-widest text-emerald-400 uppercase bg-emerald-500/10 border border-emerald-500/20 px-3.5 py-1.5 rounded-full inline-block mb-3">
+            {settings.eyebrow || 'EXCLUSIVE SAVINGS'}
+          </span>
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white mb-4">
+            {settings.title || 'Free Shipping Threshold'}
+          </h2>
+          <p className="text-slate-400 text-sm md:text-base">
+            {settings.description || 'Unlock complimentary express shipping on all orders over ₹2,999.'}
+          </p>
+        </div>
 
-      <div className="relative w-full max-w-2xl h-64 border-b border-indigo-500/30">
-        {/* Animated Arc */}
-        <svg className="absolute inset-0 w-full h-full" preserveAspectRatio="none">
-          <motion.path
-            d="M 10 250 Q 300 0 600 250"
-            fill="none"
-            stroke="url(#gradient)"
-            strokeWidth="4"
-            strokeDasharray="10 10"
-            initial={{ pathLength: 0 }}
-            whileInView={{ pathLength: 1 }}
-            viewport={{ once: true, margin: "0px" }}
-            transition={{ duration: 2, ease: "easeInOut" }}
-          />
-          <defs>
-            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" stopColor="#4f46e5" stopOpacity="0" />
-              <stop offset="50%" stopColor="#818cf8" stopOpacity="1" />
-              <stop offset="100%" stopColor="#6366f1" stopOpacity="0" />
-            </linearGradient>
-          </defs>
-        </svg>
+        {/* Central Threshold Visualizer Box */}
+        <div className="bg-slate-900 border border-slate-800 p-8 md:p-12 rounded-3xl shadow-2xl relative overflow-hidden">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-8">
+            <div>
+              <div className="inline-flex items-center gap-2 text-xs font-semibold text-emerald-400 uppercase tracking-widest mb-1">
+                <Sparkles className="w-4 h-4" />
+                <span>Threshold Milestone</span>
+              </div>
+              <h3 className="text-2xl md:text-3xl font-extrabold text-white">
+                Free Shipping over <span className="text-emerald-400">{freeShipping.threshold}</span>
+              </h3>
+            </div>
+            <div className="text-right">
+              <span className="text-xs text-slate-400 block mb-1">Current Cart Level</span>
+              <span className="text-xl font-bold text-slate-200">{freeShipping.currentAmount} / {freeShipping.threshold}</span>
+            </div>
+          </div>
 
-        {/* Animated Package */}
-        <motion.div 
-          className="absolute w-8 h-8 bg-white rounded-lg shadow-[0_0_20px_rgba(255,255,255,0.5)] flex items-center justify-center -translate-x-1/2 -translate-y-1/2"
-          initial={{ offsetDistance: "0%" } as any}
-          whileInView={{ offsetDistance: "100%" } as any}
-          viewport={{ once: true, margin: "0px" }}
-          transition={{ duration: 2, ease: "easeInOut" }}
-          style={{ 
-            offsetPath: "path('M 10 250 Q 300 0 600 250')",
-          } as any}
-        >
-          <div className="w-2 h-2 bg-indigo-500 rounded-full animate-ping" />
-        </motion.div>
-      </div>
-      
-      <div className="w-full max-w-2xl flex justify-between text-indigo-300 font-medium mt-4 px-4">
-        <span>Warehouse</span>
-        <span>Your Door</span>
+          {/* Progressive Progress Bar */}
+          <div className="relative w-full h-4 bg-slate-950 rounded-full border border-slate-800 overflow-hidden mb-6">
+            <motion.div
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-cyan-400 rounded-full"
+              initial={{ width: 0 }}
+              whileInView={{ width: `${freeShipping.progressPercentage}%` }}
+              viewport={{ once: true }}
+              transition={{ duration: 1.5, ease: "easeOut" }}
+            />
+          </div>
+
+          <div className="flex items-center justify-between text-xs text-slate-400">
+            <span>₹0 (Standard ₹99)</span>
+            <span className="text-emerald-400 font-semibold">{freeShipping.progressPercentage}% reached</span>
+            <span>{freeShipping.threshold} (Free Express)</span>
+          </div>
+
+          {/* Applicable Shipping Tier Badges */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8 pt-8 border-t border-slate-800/80">
+            <div className="flex items-start gap-3 bg-slate-950/60 p-4 rounded-2xl border border-slate-800">
+              <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
+              <div>
+                <h4 className="text-sm font-semibold text-white">Under Threshold</h4>
+                <p className="text-xs text-slate-400">Flat ₹99 standard ground shipping across India.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3 bg-slate-950/60 p-4 rounded-2xl border border-slate-800">
+              <Sparkles className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
+              <div>
+                <h4 className="text-sm font-semibold text-white">Over Threshold</h4>
+                <p className="text-xs text-slate-400">100% Free Priority Air Shipping automatically applied.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

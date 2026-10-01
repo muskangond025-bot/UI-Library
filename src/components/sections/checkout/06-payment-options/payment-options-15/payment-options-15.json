@@ -1,0 +1,14 @@
+{
+  "id": "payment-options-15",
+  "title": "Payment Options — 15",
+  "description": "Placeholder for Payment Options variant 15",
+  "category": "checkout",
+  "subsection": "payment-options",
+  "variant": 15,
+  "section": {
+    "settings": {
+      "title": "Payment Options 15",
+      "description": "Placeholder structure for Payment Options variant 15"
+    }
+  }
+}

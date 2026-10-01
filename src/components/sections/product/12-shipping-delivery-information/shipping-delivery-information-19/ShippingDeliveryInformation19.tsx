@@ -1,58 +1,81 @@
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Leaf, Zap, Plane } from 'lucide-react';
+import React from 'react';
+import { motion } from 'framer-motion';
+import { Truck, ShieldCheck, Zap, Globe, ArrowRight } from 'lucide-react';
 
 export default function ShippingDeliveryInformation19({ data }: { data: any }) {
-  const [activeTab, setActiveTab] = useState(0);
-
-  const tiers = [
-    { icon: Leaf, name: "Eco Standard", time: "5-7 Days", desc: "Carbon neutral ground shipping.", color: "bg-emerald-500" },
-    { icon: Zap, name: "Express", time: "2-3 Days", desc: "Fast priority air transit.", color: "bg-blue-500" },
-    { icon: Plane, name: "Overnight", time: "Next Day", desc: "Direct to door delivery by 10 AM.", color: "bg-purple-500" }
-  ];
+  const settings = data?.section?.settings || {};
 
   return (
-    <div className="p-8 min-h-[500px] rounded-3xl bg-zinc-100 flex items-center justify-center">
-      <div className="w-full max-w-4xl flex flex-col md:flex-row h-96 gap-4">
-        {tiers.map((tier, i) => {
-          const isActive = activeTab === i;
-          return (
-            <motion.div
-              key={i}
-              className={`relative rounded-3xl cursor-pointer overflow-hidden flex flex-col justify-end p-8 ${tier.color} text-white`}
-              animate={{ flex: isActive ? 3 : 1 }}
-              transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
-              onClick={() => setActiveTab(i)}
-            >
-              <div className="absolute inset-0 bg-black/10 mix-blend-multiply pointer-events-none" />
-              
-              <motion.div 
-                className="absolute top-8 left-8 p-3 bg-white/20 backdrop-blur-md rounded-2xl"
-                layout
-              >
-                <tier.icon size={24} />
-              </motion.div>
+    <div className="w-full py-20 px-6 md:px-16 bg-slate-950 text-white rounded-3xl overflow-hidden relative border border-slate-800">
+      <div className="max-w-7xl mx-auto">
+        {/* Editorial Top Headline Banner */}
+        <div className="flex flex-col lg:flex-row lg:items-end justify-between border-b border-slate-800 pb-12 mb-14 gap-8">
+          <div>
+            <span className="text-xs font-mono tracking-widest text-indigo-400 uppercase bg-indigo-500/10 border border-indigo-500/20 px-3.5 py-1.5 rounded-full inline-block mb-4">
+              {settings.eyebrow || 'FULL BLEED VIEW'}
+            </span>
+            <h2 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white max-w-3xl leading-none">
+              {settings.title || 'Full-Width Logistics Showcase'}
+            </h2>
+          </div>
+          <p className="text-slate-400 text-sm md:text-base max-w-md leading-relaxed">
+            {settings.description || 'Immersive full-screen editorial spread presenting complete shipping capabilities.'}
+          </p>
+        </div>
 
-              <div className="relative z-10 mt-auto">
-                <motion.h3 layout className="font-bold text-xl mb-1 whitespace-nowrap">{tier.name}</motion.h3>
-                <motion.div layout className="font-mono text-sm opacity-80 whitespace-nowrap">{tier.time}</motion.div>
-                
-                <AnimatePresence>
-                  {isActive && (
-                    <motion.p
-                      initial={{ opacity: 0, height: 0, marginTop: 0 }}
-                      animate={{ opacity: 1, height: "auto", marginTop: 16 }}
-                      exit={{ opacity: 0, height: 0, marginTop: 0 }}
-                      className="text-sm font-medium leading-relaxed"
-                    >
-                      {tier.desc}
-                    </motion.p>
-                  )}
-                </AnimatePresence>
+        {/* Cinematic Horizontal Progression Blocks */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <motion.div
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="p-8 rounded-3xl bg-slate-900 border border-slate-800 flex flex-col justify-between min-h-[260px] group hover:border-indigo-500 transition-colors"
+          >
+            <div>
+              <div className="w-12 h-12 rounded-2xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center mb-6">
+                <Truck className="w-6 h-6" />
               </div>
-            </motion.div>
-          );
-        })}
+              <h3 className="text-2xl font-bold text-white mb-2">Standard Delivery</h3>
+              <p className="text-xs text-slate-400 leading-relaxed">3–5 Business Days ground transit across India with live tracking SMS.</p>
+            </div>
+            <div className="text-xl font-bold text-emerald-400 mt-6 pt-4 border-t border-slate-800">₹99 Flat Rate</div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="p-8 rounded-3xl bg-slate-900 border border-slate-800 flex flex-col justify-between min-h-[260px] group hover:border-indigo-500 transition-colors"
+          >
+            <div>
+              <div className="w-12 h-12 rounded-2xl bg-amber-500/10 text-amber-400 flex items-center justify-center mb-6">
+                <Zap className="w-6 h-6" />
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-2">Priority Express</h3>
+              <p className="text-xs text-slate-400 leading-relaxed">1–2 Business Days expedited air freight for urgent orders.</p>
+            </div>
+            <div className="text-xl font-bold text-amber-400 mt-6 pt-4 border-t border-slate-800">₹199 Air SLA</div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className="p-8 rounded-3xl bg-slate-900 border border-slate-800 flex flex-col justify-between min-h-[260px] group hover:border-indigo-500 transition-colors"
+          >
+            <div>
+              <div className="w-12 h-12 rounded-2xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center mb-6">
+                <Globe className="w-6 h-6" />
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-2">Worldwide Air Hub</h3>
+              <p className="text-xs text-slate-400 leading-relaxed">4–7 Business Days customs-cleared global priority air shipment.</p>
+            </div>
+            <div className="text-xl font-bold text-cyan-400 mt-6 pt-4 border-t border-slate-800">₹1,499 Priority</div>
+          </motion.div>
+        </div>
       </div>
     </div>
   );

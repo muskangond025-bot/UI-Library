@@ -1,0 +1,14 @@
+{
+  "title": "Free Shipping Progress 09 — Target Destination Bulls-Eye",
+  "description": "Visual target destination with an animated pointer moving toward the zero shipping fee target center.",
+  "section": {
+    "settings": {
+      "currency": "₹",
+      "currentValue": 2400,
+      "threshold": 3000,
+      "remainingMessage": "Add ₹600 more to unlock FREE shipping",
+      "unlockedMessage": "🎉 Congratulations! You unlocked FREE Shipping!",
+      "achieved": false
+    }
+  }
+}

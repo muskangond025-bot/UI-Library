@@ -1,64 +1,93 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Package, Truck, Globe, MapPin } from 'lucide-react';
+import { CheckCircle2, Package, Truck, Home, Clock } from 'lucide-react';
 
 export default function ShippingDeliveryInformation1({ data }: { data: any }) {
-  const container = {
-    hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-      transition: { staggerChildren: 0.2 }
-    }
+  const settings = data?.section?.settings || {
+    eyebrow: "ORDER FULFILLMENT JOURNEY",
+    title: "Delivery Timeline & Process",
+    description: "Follow your order from our fulfillment warehouse directly to your doorstep in 4 clear stages.",
+    timelineSteps: [
+      { id: "01", stage: "Order Placed", time: "Instant Confirmation", desc: "Payment verified and order queued for warehouse pick." },
+      { id: "02", stage: "Processing & Packing", time: "12–24 Hours", desc: "Items quality inspected and securely eco-packed." },
+      { id: "03", stage: "In Transit", time: "2–4 Business Days", desc: "Handed to courier with active real-time GPS tracking." },
+      { id: "04", stage: "Delivered", time: "Estimated Day 5", desc: "Safe delivery with doorstep photo verification." }
+    ]
   };
 
-  const item = {
-    hidden: { opacity: 0, y: 20 },
-    show: { opacity: 1, y: 0 }
-  };
+  const icons = [CheckCircle2, Package, Truck, Home];
 
   return (
-    <div className="p-8 min-h-[500px] rounded-3xl bg-slate-900 text-white flex flex-col items-center justify-center overflow-hidden relative">
-      {/* Background ambient light */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-blue-500/20 rounded-full blur-[120px]" />
-      
-      <motion.div 
-        variants={container}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true, margin: "-10%" }}
-        className="w-full max-w-4xl relative z-10"
-      >
-        <div className="text-center mb-16">
-          <motion.h2 variants={item} className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400">
-            Global Shipping
-          </motion.h2>
-          <motion.p variants={item} className="text-slate-400 max-w-lg mx-auto">
-            Fast, reliable delivery to over 200 countries worldwide. Track your package every step of the way.
-          </motion.p>
+    <div className="w-full py-16 px-4 md:px-8 bg-slate-950 text-white rounded-3xl overflow-hidden relative border border-slate-800">
+      <div className="absolute top-0 right-1/4 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="max-w-6xl mx-auto relative z-10">
+        <div className="text-center max-w-2xl mx-auto mb-16">
+          <span className="text-xs font-mono tracking-widest text-blue-400 uppercase bg-blue-500/10 border border-blue-500/20 px-3.5 py-1.5 rounded-full inline-block mb-3">
+            {settings.eyebrow}
+          </span>
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white mb-4">
+            {settings.title}
+          </h2>
+          <p className="text-slate-400 text-sm md:text-base leading-relaxed">
+            {settings.description}
+          </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-          {[
-            { icon: Package, title: "Processing", desc: "1-2 Business Days" },
-            { icon: Truck, title: "Domestic", desc: "2-5 Business Days" },
-            { icon: Globe, title: "International", desc: "7-14 Business Days" },
-            { icon: MapPin, title: "Tracking", desc: "Real-time updates" }
-          ].map((feature, i) => (
-            <motion.div 
-              key={i}
-              variants={item}
-              className="bg-slate-800/50 backdrop-blur-xl border border-slate-700 p-6 rounded-2xl flex flex-col items-center text-center group hover:bg-slate-800 transition-colors cursor-pointer"
-              whileHover={{ y: -5 }}
-            >
-              <div className="w-14 h-14 bg-slate-700/50 rounded-xl flex items-center justify-center mb-4 text-blue-400 group-hover:text-blue-300 group-hover:scale-110 transition-all duration-300 shadow-[0_0_15px_rgba(59,130,246,0)] group-hover:shadow-[0_0_30px_rgba(59,130,246,0.3)]">
-                <feature.icon className="w-7 h-7" />
-              </div>
-              <h3 className="text-lg font-semibold text-slate-200 mb-1">{feature.title}</h3>
-              <p className="text-sm text-slate-500">{feature.desc}</p>
-            </motion.div>
-          ))}
+        {/* Visual Progressive Timeline Container */}
+        <div className="relative pt-4 pb-8">
+          {/* Animated Connecting Line for Desktop */}
+          <div className="hidden md:block absolute top-12 left-[10%] right-[10%] h-1 bg-slate-800 rounded-full z-0">
+            <motion.div
+              className="h-full bg-gradient-to-r from-blue-500 via-indigo-500 to-emerald-400 rounded-full"
+              initial={{ scaleX: 0 }}
+              whileInView={{ scaleX: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1.8, ease: "easeInOut" }}
+              style={{ transformOrigin: "left" }}
+            />
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-4 relative z-10">
+            {(settings.timelineSteps || settings.processSteps || [
+              { id: "01", stage: "Order Placed", time: "Instant Confirmation", desc: "Payment verified and order queued for pick." },
+              { id: "02", stage: "Processing & Packing", time: "12–24 Hours", desc: "Items quality inspected and securely packed." },
+              { id: "03", stage: "In Transit", time: "2–4 Business Days", desc: "Handed to courier with active real-time tracking." },
+              { id: "04", stage: "Delivered", time: "Estimated Day 5", desc: "Safe delivery with doorstep photo verification." }
+            ]).map((step: any, idx: number) => {
+              const StepIcon = icons[idx % icons.length];
+              return (
+                <motion.div
+                  key={step.id}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: idx * 0.3 }}
+                  className="flex flex-col items-center text-center group"
+                >
+                  <motion.div
+                    className="w-16 h-16 rounded-2xl bg-slate-900 border-2 border-slate-700 group-hover:border-blue-500 flex items-center justify-center text-blue-400 shadow-xl transition-all duration-300 mb-6 group-hover:scale-110 group-hover:bg-slate-800"
+                    whileHover={{ rotate: 5 }}
+                  >
+                    <StepIcon className="w-7 h-7" />
+                  </motion.div>
+
+                  <div className="inline-flex items-center gap-1.5 text-xs font-mono text-slate-400 mb-2 bg-slate-900/80 px-2.5 py-1 rounded-md border border-slate-800">
+                    <Clock className="w-3.5 h-3.5 text-blue-400" />
+                    <span>{step.time}</span>
+                  </div>
+
+                  <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-blue-300 transition-colors">
+                    {step.stage}
+                  </h3>
+                  <p className="text-xs text-slate-400 leading-relaxed max-w-xs">
+                    {step.desc}
+                  </p>
+                </motion.div>
+              );
+            })}
+          </div>
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 }

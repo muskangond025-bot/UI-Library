@@ -1,0 +1,14 @@
+{
+  "id": "shipping-address-19",
+  "title": "Shipping Address — 19",
+  "description": "Placeholder for Shipping Address variant 19",
+  "category": "checkout",
+  "subsection": "shipping-address",
+  "variant": 19,
+  "section": {
+    "settings": {
+      "title": "Shipping Address 19",
+      "description": "Placeholder structure for Shipping Address variant 19"
+    }
+  }
+}

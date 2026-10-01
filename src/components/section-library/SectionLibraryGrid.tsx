@@ -158,8 +158,491 @@ import { CartItemsSection19 } from '../sections/cart/01-cart-items-section/cart-
 import cartItemsSection19Data from '../sections/cart/01-cart-items-section/cart-items-section-19/cart-items-section-19.json';
 import { CartItemsSection20 } from '../sections/cart/01-cart-items-section/cart-items-section-20/CartItemsSection20';
 import cartItemsSection20Data from '../sections/cart/01-cart-items-section/cart-items-section-20/cart-items-section-20.json';
+import RecentlyViewedProducts1 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-1/RecentlyViewedProducts1';
+import recentlyViewedProducts1Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-1/recently-viewed-products-1.json';
+import RecentlyViewedProducts2 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-2/RecentlyViewedProducts2';
+import recentlyViewedProducts2Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-2/recently-viewed-products-2.json';
+import RecentlyViewedProducts3 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-3/RecentlyViewedProducts3';
+import recentlyViewedProducts3Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-3/recently-viewed-products-3.json';
+import RecentlyViewedProducts4 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-4/RecentlyViewedProducts4';
+import recentlyViewedProducts4Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-4/recently-viewed-products-4.json';
+import RecentlyViewedProducts5 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-5/RecentlyViewedProducts5';
+import recentlyViewedProducts5Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-5/recently-viewed-products-5.json';
+import RecentlyViewedProducts6 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-6/RecentlyViewedProducts6';
+import recentlyViewedProducts6Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-6/recently-viewed-products-6.json';
+import RecentlyViewedProducts7 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-7/RecentlyViewedProducts7';
+import recentlyViewedProducts7Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-7/recently-viewed-products-7.json';
+import RecentlyViewedProducts8 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-8/RecentlyViewedProducts8';
+import recentlyViewedProducts8Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-8/recently-viewed-products-8.json';
+import RecentlyViewedProducts9 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-9/RecentlyViewedProducts9';
+import recentlyViewedProducts9Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-9/recently-viewed-products-9.json';
+import RecentlyViewedProducts10 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-10/RecentlyViewedProducts10';
+import recentlyViewedProducts10Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-10/recently-viewed-products-10.json';
+import RecentlyViewedProducts11 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-11/RecentlyViewedProducts11';
+import recentlyViewedProducts11Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-11/recently-viewed-products-11.json';
+import RecentlyViewedProducts12 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-12/RecentlyViewedProducts12';
+import recentlyViewedProducts12Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-12/recently-viewed-products-12.json';
+import RecentlyViewedProducts13 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-13/RecentlyViewedProducts13';
+import recentlyViewedProducts13Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-13/recently-viewed-products-13.json';
+import RecentlyViewedProducts14 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-14/RecentlyViewedProducts14';
+import recentlyViewedProducts14Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-14/recently-viewed-products-14.json';
+import RecentlyViewedProducts15 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-15/RecentlyViewedProducts15';
+import recentlyViewedProducts15Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-15/recently-viewed-products-15.json';
+import RecentlyViewedProducts16 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-16/RecentlyViewedProducts16';
+import recentlyViewedProducts16Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-16/recently-viewed-products-16.json';
+import RecentlyViewedProducts17 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-17/RecentlyViewedProducts17';
+import recentlyViewedProducts17Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-17/recently-viewed-products-17.json';
+import RecentlyViewedProducts18 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-18/RecentlyViewedProducts18';
+import recentlyViewedProducts18Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-18/recently-viewed-products-18.json';
+import RecentlyViewedProducts19 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-19/RecentlyViewedProducts19';
+import recentlyViewedProducts19Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-19/recently-viewed-products-19.json';
+import RecentlyViewedProducts20 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-20/RecentlyViewedProducts20';
+import recentlyViewedProducts20Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-20/recently-viewed-products-20.json';
+
+import EmptyCartSection1 from '../sections/cart/09-empty-cart-section/empty-cart-section-1/EmptyCartSection1';
+import emptyCartSection1Data from '../sections/cart/09-empty-cart-section/empty-cart-section-1/empty-cart-section-1.json';
+import EmptyCartSection2 from '../sections/cart/09-empty-cart-section/empty-cart-section-2/EmptyCartSection2';
+import emptyCartSection2Data from '../sections/cart/09-empty-cart-section/empty-cart-section-2/empty-cart-section-2.json';
+import EmptyCartSection3 from '../sections/cart/09-empty-cart-section/empty-cart-section-3/EmptyCartSection3';
+import emptyCartSection3Data from '../sections/cart/09-empty-cart-section/empty-cart-section-3/empty-cart-section-3.json';
+import EmptyCartSection4 from '../sections/cart/09-empty-cart-section/empty-cart-section-4/EmptyCartSection4';
+import emptyCartSection4Data from '../sections/cart/09-empty-cart-section/empty-cart-section-4/empty-cart-section-4.json';
+import EmptyCartSection5 from '../sections/cart/09-empty-cart-section/empty-cart-section-5/EmptyCartSection5';
+import emptyCartSection5Data from '../sections/cart/09-empty-cart-section/empty-cart-section-5/empty-cart-section-5.json';
+import EmptyCartSection6 from '../sections/cart/09-empty-cart-section/empty-cart-section-6/EmptyCartSection6';
+import emptyCartSection6Data from '../sections/cart/09-empty-cart-section/empty-cart-section-6/empty-cart-section-6.json';
+import EmptyCartSection7 from '../sections/cart/09-empty-cart-section/empty-cart-section-7/EmptyCartSection7';
+import emptyCartSection7Data from '../sections/cart/09-empty-cart-section/empty-cart-section-7/empty-cart-section-7.json';
+import EmptyCartSection8 from '../sections/cart/09-empty-cart-section/empty-cart-section-8/EmptyCartSection8';
+import emptyCartSection8Data from '../sections/cart/09-empty-cart-section/empty-cart-section-8/empty-cart-section-8.json';
+import EmptyCartSection9 from '../sections/cart/09-empty-cart-section/empty-cart-section-9/EmptyCartSection9';
+import emptyCartSection9Data from '../sections/cart/09-empty-cart-section/empty-cart-section-9/empty-cart-section-9.json';
+import EmptyCartSection10 from '../sections/cart/09-empty-cart-section/empty-cart-section-10/EmptyCartSection10';
+import emptyCartSection10Data from '../sections/cart/09-empty-cart-section/empty-cart-section-10/empty-cart-section-10.json';
+import EmptyCartSection11 from '../sections/cart/09-empty-cart-section/empty-cart-section-11/EmptyCartSection11';
+import emptyCartSection11Data from '../sections/cart/09-empty-cart-section/empty-cart-section-11/empty-cart-section-11.json';
+import EmptyCartSection12 from '../sections/cart/09-empty-cart-section/empty-cart-section-12/EmptyCartSection12';
+import emptyCartSection12Data from '../sections/cart/09-empty-cart-section/empty-cart-section-12/empty-cart-section-12.json';
+import EmptyCartSection13 from '../sections/cart/09-empty-cart-section/empty-cart-section-13/EmptyCartSection13';
+import emptyCartSection13Data from '../sections/cart/09-empty-cart-section/empty-cart-section-13/empty-cart-section-13.json';
+import EmptyCartSection14 from '../sections/cart/09-empty-cart-section/empty-cart-section-14/EmptyCartSection14';
+import emptyCartSection14Data from '../sections/cart/09-empty-cart-section/empty-cart-section-14/empty-cart-section-14.json';
+import EmptyCartSection15 from '../sections/cart/09-empty-cart-section/empty-cart-section-15/EmptyCartSection15';
+import emptyCartSection15Data from '../sections/cart/09-empty-cart-section/empty-cart-section-15/empty-cart-section-15.json';
+import EmptyCartSection16 from '../sections/cart/09-empty-cart-section/empty-cart-section-16/EmptyCartSection16';
+import emptyCartSection16Data from '../sections/cart/09-empty-cart-section/empty-cart-section-16/empty-cart-section-16.json';
+import EmptyCartSection17 from '../sections/cart/09-empty-cart-section/empty-cart-section-17/EmptyCartSection17';
+import emptyCartSection17Data from '../sections/cart/09-empty-cart-section/empty-cart-section-17/empty-cart-section-17.json';
+import EmptyCartSection18 from '../sections/cart/09-empty-cart-section/empty-cart-section-18/EmptyCartSection18';
+import emptyCartSection18Data from '../sections/cart/09-empty-cart-section/empty-cart-section-18/empty-cart-section-18.json';
+import EmptyCartSection19 from '../sections/cart/09-empty-cart-section/empty-cart-section-19/EmptyCartSection19';
+import emptyCartSection19Data from '../sections/cart/09-empty-cart-section/empty-cart-section-19/empty-cart-section-19.json';
+import EmptyCartSection20 from '../sections/cart/09-empty-cart-section/empty-cart-section-20/EmptyCartSection20';
+import emptyCartSection20Data from '../sections/cart/09-empty-cart-section/empty-cart-section-20/empty-cart-section-20.json';
+
+import CheckoutHeader1 from '../sections/checkout/01-checkout-header/checkout-header-1/CheckoutHeader1';
+import checkoutheader1Data from '../sections/checkout/01-checkout-header/checkout-header-1/checkout-header-1.json';
+import CheckoutHeader2 from '../sections/checkout/01-checkout-header/checkout-header-2/CheckoutHeader2';
+import checkoutheader2Data from '../sections/checkout/01-checkout-header/checkout-header-2/checkout-header-2.json';
+import CheckoutHeader3 from '../sections/checkout/01-checkout-header/checkout-header-3/CheckoutHeader3';
+import checkoutheader3Data from '../sections/checkout/01-checkout-header/checkout-header-3/checkout-header-3.json';
+import CheckoutHeader4 from '../sections/checkout/01-checkout-header/checkout-header-4/CheckoutHeader4';
+import checkoutheader4Data from '../sections/checkout/01-checkout-header/checkout-header-4/checkout-header-4.json';
+import CheckoutHeader5 from '../sections/checkout/01-checkout-header/checkout-header-5/CheckoutHeader5';
+import checkoutheader5Data from '../sections/checkout/01-checkout-header/checkout-header-5/checkout-header-5.json';
+import CheckoutHeader6 from '../sections/checkout/01-checkout-header/checkout-header-6/CheckoutHeader6';
+import checkoutheader6Data from '../sections/checkout/01-checkout-header/checkout-header-6/checkout-header-6.json';
+import CheckoutHeader7 from '../sections/checkout/01-checkout-header/checkout-header-7/CheckoutHeader7';
+import checkoutheader7Data from '../sections/checkout/01-checkout-header/checkout-header-7/checkout-header-7.json';
+import CheckoutHeader8 from '../sections/checkout/01-checkout-header/checkout-header-8/CheckoutHeader8';
+import checkoutheader8Data from '../sections/checkout/01-checkout-header/checkout-header-8/checkout-header-8.json';
+import CheckoutHeader9 from '../sections/checkout/01-checkout-header/checkout-header-9/CheckoutHeader9';
+import checkoutheader9Data from '../sections/checkout/01-checkout-header/checkout-header-9/checkout-header-9.json';
+import CheckoutHeader10 from '../sections/checkout/01-checkout-header/checkout-header-10/CheckoutHeader10';
+import checkoutheader10Data from '../sections/checkout/01-checkout-header/checkout-header-10/checkout-header-10.json';
+import CheckoutHeader11 from '../sections/checkout/01-checkout-header/checkout-header-11/CheckoutHeader11';
+import checkoutheader11Data from '../sections/checkout/01-checkout-header/checkout-header-11/checkout-header-11.json';
+import CheckoutHeader12 from '../sections/checkout/01-checkout-header/checkout-header-12/CheckoutHeader12';
+import checkoutheader12Data from '../sections/checkout/01-checkout-header/checkout-header-12/checkout-header-12.json';
+import CheckoutHeader13 from '../sections/checkout/01-checkout-header/checkout-header-13/CheckoutHeader13';
+import checkoutheader13Data from '../sections/checkout/01-checkout-header/checkout-header-13/checkout-header-13.json';
+import CheckoutHeader14 from '../sections/checkout/01-checkout-header/checkout-header-14/CheckoutHeader14';
+import checkoutheader14Data from '../sections/checkout/01-checkout-header/checkout-header-14/checkout-header-14.json';
+import CheckoutHeader15 from '../sections/checkout/01-checkout-header/checkout-header-15/CheckoutHeader15';
+import checkoutheader15Data from '../sections/checkout/01-checkout-header/checkout-header-15/checkout-header-15.json';
+import CheckoutHeader16 from '../sections/checkout/01-checkout-header/checkout-header-16/CheckoutHeader16';
+import checkoutheader16Data from '../sections/checkout/01-checkout-header/checkout-header-16/checkout-header-16.json';
+import CheckoutHeader17 from '../sections/checkout/01-checkout-header/checkout-header-17/CheckoutHeader17';
+import checkoutheader17Data from '../sections/checkout/01-checkout-header/checkout-header-17/checkout-header-17.json';
+import CheckoutHeader18 from '../sections/checkout/01-checkout-header/checkout-header-18/CheckoutHeader18';
+import checkoutheader18Data from '../sections/checkout/01-checkout-header/checkout-header-18/checkout-header-18.json';
+import CheckoutHeader19 from '../sections/checkout/01-checkout-header/checkout-header-19/CheckoutHeader19';
+import checkoutheader19Data from '../sections/checkout/01-checkout-header/checkout-header-19/checkout-header-19.json';
+import CheckoutHeader20 from '../sections/checkout/01-checkout-header/checkout-header-20/CheckoutHeader20';
+import checkoutheader20Data from '../sections/checkout/01-checkout-header/checkout-header-20/checkout-header-20.json';
+import CustomerInformation1 from '../sections/checkout/02-customer-information/customer-information-1/CustomerInformation1';
+import customerinformation1Data from '../sections/checkout/02-customer-information/customer-information-1/customer-information-1.json';
+import CustomerInformation2 from '../sections/checkout/02-customer-information/customer-information-2/CustomerInformation2';
+import customerinformation2Data from '../sections/checkout/02-customer-information/customer-information-2/customer-information-2.json';
+import CustomerInformation3 from '../sections/checkout/02-customer-information/customer-information-3/CustomerInformation3';
+import customerinformation3Data from '../sections/checkout/02-customer-information/customer-information-3/customer-information-3.json';
+import CustomerInformation4 from '../sections/checkout/02-customer-information/customer-information-4/CustomerInformation4';
+import customerinformation4Data from '../sections/checkout/02-customer-information/customer-information-4/customer-information-4.json';
+import CustomerInformation5 from '../sections/checkout/02-customer-information/customer-information-5/CustomerInformation5';
+import customerinformation5Data from '../sections/checkout/02-customer-information/customer-information-5/customer-information-5.json';
+import CustomerInformation6 from '../sections/checkout/02-customer-information/customer-information-6/CustomerInformation6';
+import customerinformation6Data from '../sections/checkout/02-customer-information/customer-information-6/customer-information-6.json';
+import CustomerInformation7 from '../sections/checkout/02-customer-information/customer-information-7/CustomerInformation7';
+import customerinformation7Data from '../sections/checkout/02-customer-information/customer-information-7/customer-information-7.json';
+import CustomerInformation8 from '../sections/checkout/02-customer-information/customer-information-8/CustomerInformation8';
+import customerinformation8Data from '../sections/checkout/02-customer-information/customer-information-8/customer-information-8.json';
+import CustomerInformation9 from '../sections/checkout/02-customer-information/customer-information-9/CustomerInformation9';
+import customerinformation9Data from '../sections/checkout/02-customer-information/customer-information-9/customer-information-9.json';
+import CustomerInformation10 from '../sections/checkout/02-customer-information/customer-information-10/CustomerInformation10';
+import customerinformation10Data from '../sections/checkout/02-customer-information/customer-information-10/customer-information-10.json';
+import CustomerInformation11 from '../sections/checkout/02-customer-information/customer-information-11/CustomerInformation11';
+import customerinformation11Data from '../sections/checkout/02-customer-information/customer-information-11/customer-information-11.json';
+import CustomerInformation12 from '../sections/checkout/02-customer-information/customer-information-12/CustomerInformation12';
+import customerinformation12Data from '../sections/checkout/02-customer-information/customer-information-12/customer-information-12.json';
+import CustomerInformation13 from '../sections/checkout/02-customer-information/customer-information-13/CustomerInformation13';
+import customerinformation13Data from '../sections/checkout/02-customer-information/customer-information-13/customer-information-13.json';
+import CustomerInformation14 from '../sections/checkout/02-customer-information/customer-information-14/CustomerInformation14';
+import customerinformation14Data from '../sections/checkout/02-customer-information/customer-information-14/customer-information-14.json';
+import CustomerInformation15 from '../sections/checkout/02-customer-information/customer-information-15/CustomerInformation15';
+import customerinformation15Data from '../sections/checkout/02-customer-information/customer-information-15/customer-information-15.json';
+import CustomerInformation16 from '../sections/checkout/02-customer-information/customer-information-16/CustomerInformation16';
+import customerinformation16Data from '../sections/checkout/02-customer-information/customer-information-16/customer-information-16.json';
+import CustomerInformation17 from '../sections/checkout/02-customer-information/customer-information-17/CustomerInformation17';
+import customerinformation17Data from '../sections/checkout/02-customer-information/customer-information-17/customer-information-17.json';
+import CustomerInformation18 from '../sections/checkout/02-customer-information/customer-information-18/CustomerInformation18';
+import customerinformation18Data from '../sections/checkout/02-customer-information/customer-information-18/customer-information-18.json';
+import CustomerInformation19 from '../sections/checkout/02-customer-information/customer-information-19/CustomerInformation19';
+import customerinformation19Data from '../sections/checkout/02-customer-information/customer-information-19/customer-information-19.json';
+import CustomerInformation20 from '../sections/checkout/02-customer-information/customer-information-20/CustomerInformation20';
+import customerinformation20Data from '../sections/checkout/02-customer-information/customer-information-20/customer-information-20.json';
+import ShippingAddress1 from '../sections/checkout/03-shipping-address/shipping-address-1/ShippingAddress1';
+import shippingaddress1Data from '../sections/checkout/03-shipping-address/shipping-address-1/shipping-address-1.json';
+import ShippingAddress2 from '../sections/checkout/03-shipping-address/shipping-address-2/ShippingAddress2';
+import shippingaddress2Data from '../sections/checkout/03-shipping-address/shipping-address-2/shipping-address-2.json';
+import ShippingAddress3 from '../sections/checkout/03-shipping-address/shipping-address-3/ShippingAddress3';
+import shippingaddress3Data from '../sections/checkout/03-shipping-address/shipping-address-3/shipping-address-3.json';
+import ShippingAddress4 from '../sections/checkout/03-shipping-address/shipping-address-4/ShippingAddress4';
+import shippingaddress4Data from '../sections/checkout/03-shipping-address/shipping-address-4/shipping-address-4.json';
+import ShippingAddress5 from '../sections/checkout/03-shipping-address/shipping-address-5/ShippingAddress5';
+import shippingaddress5Data from '../sections/checkout/03-shipping-address/shipping-address-5/shipping-address-5.json';
+import ShippingAddress6 from '../sections/checkout/03-shipping-address/shipping-address-6/ShippingAddress6';
+import shippingaddress6Data from '../sections/checkout/03-shipping-address/shipping-address-6/shipping-address-6.json';
+import ShippingAddress7 from '../sections/checkout/03-shipping-address/shipping-address-7/ShippingAddress7';
+import shippingaddress7Data from '../sections/checkout/03-shipping-address/shipping-address-7/shipping-address-7.json';
+import ShippingAddress8 from '../sections/checkout/03-shipping-address/shipping-address-8/ShippingAddress8';
+import shippingaddress8Data from '../sections/checkout/03-shipping-address/shipping-address-8/shipping-address-8.json';
+import ShippingAddress9 from '../sections/checkout/03-shipping-address/shipping-address-9/ShippingAddress9';
+import shippingaddress9Data from '../sections/checkout/03-shipping-address/shipping-address-9/shipping-address-9.json';
+import ShippingAddress10 from '../sections/checkout/03-shipping-address/shipping-address-10/ShippingAddress10';
+import shippingaddress10Data from '../sections/checkout/03-shipping-address/shipping-address-10/shipping-address-10.json';
+import ShippingAddress11 from '../sections/checkout/03-shipping-address/shipping-address-11/ShippingAddress11';
+import shippingaddress11Data from '../sections/checkout/03-shipping-address/shipping-address-11/shipping-address-11.json';
+import ShippingAddress12 from '../sections/checkout/03-shipping-address/shipping-address-12/ShippingAddress12';
+import shippingaddress12Data from '../sections/checkout/03-shipping-address/shipping-address-12/shipping-address-12.json';
+import ShippingAddress13 from '../sections/checkout/03-shipping-address/shipping-address-13/ShippingAddress13';
+import shippingaddress13Data from '../sections/checkout/03-shipping-address/shipping-address-13/shipping-address-13.json';
+import ShippingAddress14 from '../sections/checkout/03-shipping-address/shipping-address-14/ShippingAddress14';
+import shippingaddress14Data from '../sections/checkout/03-shipping-address/shipping-address-14/shipping-address-14.json';
+import ShippingAddress15 from '../sections/checkout/03-shipping-address/shipping-address-15/ShippingAddress15';
+import shippingaddress15Data from '../sections/checkout/03-shipping-address/shipping-address-15/shipping-address-15.json';
+import ShippingAddress16 from '../sections/checkout/03-shipping-address/shipping-address-16/ShippingAddress16';
+import shippingaddress16Data from '../sections/checkout/03-shipping-address/shipping-address-16/shipping-address-16.json';
+import ShippingAddress17 from '../sections/checkout/03-shipping-address/shipping-address-17/ShippingAddress17';
+import shippingaddress17Data from '../sections/checkout/03-shipping-address/shipping-address-17/shipping-address-17.json';
+import ShippingAddress18 from '../sections/checkout/03-shipping-address/shipping-address-18/ShippingAddress18';
+import shippingaddress18Data from '../sections/checkout/03-shipping-address/shipping-address-18/shipping-address-18.json';
+import ShippingAddress19 from '../sections/checkout/03-shipping-address/shipping-address-19/ShippingAddress19';
+import shippingaddress19Data from '../sections/checkout/03-shipping-address/shipping-address-19/shipping-address-19.json';
+import ShippingAddress20 from '../sections/checkout/03-shipping-address/shipping-address-20/ShippingAddress20';
+import shippingaddress20Data from '../sections/checkout/03-shipping-address/shipping-address-20/shipping-address-20.json';
+import BillingAddress1 from '../sections/checkout/04-billing-address/billing-address-1/BillingAddress1';
+import billingaddress1Data from '../sections/checkout/04-billing-address/billing-address-1/billing-address-1.json';
+import BillingAddress2 from '../sections/checkout/04-billing-address/billing-address-2/BillingAddress2';
+import billingaddress2Data from '../sections/checkout/04-billing-address/billing-address-2/billing-address-2.json';
+import BillingAddress3 from '../sections/checkout/04-billing-address/billing-address-3/BillingAddress3';
+import billingaddress3Data from '../sections/checkout/04-billing-address/billing-address-3/billing-address-3.json';
+import BillingAddress4 from '../sections/checkout/04-billing-address/billing-address-4/BillingAddress4';
+import billingaddress4Data from '../sections/checkout/04-billing-address/billing-address-4/billing-address-4.json';
+import BillingAddress5 from '../sections/checkout/04-billing-address/billing-address-5/BillingAddress5';
+import billingaddress5Data from '../sections/checkout/04-billing-address/billing-address-5/billing-address-5.json';
+import BillingAddress6 from '../sections/checkout/04-billing-address/billing-address-6/BillingAddress6';
+import billingaddress6Data from '../sections/checkout/04-billing-address/billing-address-6/billing-address-6.json';
+import BillingAddress7 from '../sections/checkout/04-billing-address/billing-address-7/BillingAddress7';
+import billingaddress7Data from '../sections/checkout/04-billing-address/billing-address-7/billing-address-7.json';
+import BillingAddress8 from '../sections/checkout/04-billing-address/billing-address-8/BillingAddress8';
+import billingaddress8Data from '../sections/checkout/04-billing-address/billing-address-8/billing-address-8.json';
+import BillingAddress9 from '../sections/checkout/04-billing-address/billing-address-9/BillingAddress9';
+import billingaddress9Data from '../sections/checkout/04-billing-address/billing-address-9/billing-address-9.json';
+import BillingAddress10 from '../sections/checkout/04-billing-address/billing-address-10/BillingAddress10';
+import billingaddress10Data from '../sections/checkout/04-billing-address/billing-address-10/billing-address-10.json';
+import BillingAddress11 from '../sections/checkout/04-billing-address/billing-address-11/BillingAddress11';
+import billingaddress11Data from '../sections/checkout/04-billing-address/billing-address-11/billing-address-11.json';
+import BillingAddress12 from '../sections/checkout/04-billing-address/billing-address-12/BillingAddress12';
+import billingaddress12Data from '../sections/checkout/04-billing-address/billing-address-12/billing-address-12.json';
+import BillingAddress13 from '../sections/checkout/04-billing-address/billing-address-13/BillingAddress13';
+import billingaddress13Data from '../sections/checkout/04-billing-address/billing-address-13/billing-address-13.json';
+import BillingAddress14 from '../sections/checkout/04-billing-address/billing-address-14/BillingAddress14';
+import billingaddress14Data from '../sections/checkout/04-billing-address/billing-address-14/billing-address-14.json';
+import BillingAddress15 from '../sections/checkout/04-billing-address/billing-address-15/BillingAddress15';
+import billingaddress15Data from '../sections/checkout/04-billing-address/billing-address-15/billing-address-15.json';
+import BillingAddress16 from '../sections/checkout/04-billing-address/billing-address-16/BillingAddress16';
+import billingaddress16Data from '../sections/checkout/04-billing-address/billing-address-16/billing-address-16.json';
+import BillingAddress17 from '../sections/checkout/04-billing-address/billing-address-17/BillingAddress17';
+import billingaddress17Data from '../sections/checkout/04-billing-address/billing-address-17/billing-address-17.json';
+import BillingAddress18 from '../sections/checkout/04-billing-address/billing-address-18/BillingAddress18';
+import billingaddress18Data from '../sections/checkout/04-billing-address/billing-address-18/billing-address-18.json';
+import BillingAddress19 from '../sections/checkout/04-billing-address/billing-address-19/BillingAddress19';
+import billingaddress19Data from '../sections/checkout/04-billing-address/billing-address-19/billing-address-19.json';
+import BillingAddress20 from '../sections/checkout/04-billing-address/billing-address-20/BillingAddress20';
+import billingaddress20Data from '../sections/checkout/04-billing-address/billing-address-20/billing-address-20.json';
+import DeliveryOptions1 from '../sections/checkout/05-delivery-options/delivery-options-1/DeliveryOptions1';
+import deliveryoptions1Data from '../sections/checkout/05-delivery-options/delivery-options-1/delivery-options-1.json';
+import DeliveryOptions2 from '../sections/checkout/05-delivery-options/delivery-options-2/DeliveryOptions2';
+import deliveryoptions2Data from '../sections/checkout/05-delivery-options/delivery-options-2/delivery-options-2.json';
+import DeliveryOptions3 from '../sections/checkout/05-delivery-options/delivery-options-3/DeliveryOptions3';
+import deliveryoptions3Data from '../sections/checkout/05-delivery-options/delivery-options-3/delivery-options-3.json';
+import DeliveryOptions4 from '../sections/checkout/05-delivery-options/delivery-options-4/DeliveryOptions4';
+import deliveryoptions4Data from '../sections/checkout/05-delivery-options/delivery-options-4/delivery-options-4.json';
+import DeliveryOptions5 from '../sections/checkout/05-delivery-options/delivery-options-5/DeliveryOptions5';
+import deliveryoptions5Data from '../sections/checkout/05-delivery-options/delivery-options-5/delivery-options-5.json';
+import DeliveryOptions6 from '../sections/checkout/05-delivery-options/delivery-options-6/DeliveryOptions6';
+import deliveryoptions6Data from '../sections/checkout/05-delivery-options/delivery-options-6/delivery-options-6.json';
+import DeliveryOptions7 from '../sections/checkout/05-delivery-options/delivery-options-7/DeliveryOptions7';
+import deliveryoptions7Data from '../sections/checkout/05-delivery-options/delivery-options-7/delivery-options-7.json';
+import DeliveryOptions8 from '../sections/checkout/05-delivery-options/delivery-options-8/DeliveryOptions8';
+import deliveryoptions8Data from '../sections/checkout/05-delivery-options/delivery-options-8/delivery-options-8.json';
+import DeliveryOptions9 from '../sections/checkout/05-delivery-options/delivery-options-9/DeliveryOptions9';
+import deliveryoptions9Data from '../sections/checkout/05-delivery-options/delivery-options-9/delivery-options-9.json';
+import DeliveryOptions10 from '../sections/checkout/05-delivery-options/delivery-options-10/DeliveryOptions10';
+import deliveryoptions10Data from '../sections/checkout/05-delivery-options/delivery-options-10/delivery-options-10.json';
+import DeliveryOptions11 from '../sections/checkout/05-delivery-options/delivery-options-11/DeliveryOptions11';
+import deliveryoptions11Data from '../sections/checkout/05-delivery-options/delivery-options-11/delivery-options-11.json';
+import DeliveryOptions12 from '../sections/checkout/05-delivery-options/delivery-options-12/DeliveryOptions12';
+import deliveryoptions12Data from '../sections/checkout/05-delivery-options/delivery-options-12/delivery-options-12.json';
+import DeliveryOptions13 from '../sections/checkout/05-delivery-options/delivery-options-13/DeliveryOptions13';
+import deliveryoptions13Data from '../sections/checkout/05-delivery-options/delivery-options-13/delivery-options-13.json';
+import DeliveryOptions14 from '../sections/checkout/05-delivery-options/delivery-options-14/DeliveryOptions14';
+import deliveryoptions14Data from '../sections/checkout/05-delivery-options/delivery-options-14/delivery-options-14.json';
+import DeliveryOptions15 from '../sections/checkout/05-delivery-options/delivery-options-15/DeliveryOptions15';
+import deliveryoptions15Data from '../sections/checkout/05-delivery-options/delivery-options-15/delivery-options-15.json';
+import DeliveryOptions16 from '../sections/checkout/05-delivery-options/delivery-options-16/DeliveryOptions16';
+import deliveryoptions16Data from '../sections/checkout/05-delivery-options/delivery-options-16/delivery-options-16.json';
+import DeliveryOptions17 from '../sections/checkout/05-delivery-options/delivery-options-17/DeliveryOptions17';
+import deliveryoptions17Data from '../sections/checkout/05-delivery-options/delivery-options-17/delivery-options-17.json';
+import DeliveryOptions18 from '../sections/checkout/05-delivery-options/delivery-options-18/DeliveryOptions18';
+import deliveryoptions18Data from '../sections/checkout/05-delivery-options/delivery-options-18/delivery-options-18.json';
+import DeliveryOptions19 from '../sections/checkout/05-delivery-options/delivery-options-19/DeliveryOptions19';
+import deliveryoptions19Data from '../sections/checkout/05-delivery-options/delivery-options-19/delivery-options-19.json';
+import DeliveryOptions20 from '../sections/checkout/05-delivery-options/delivery-options-20/DeliveryOptions20';
+import deliveryoptions20Data from '../sections/checkout/05-delivery-options/delivery-options-20/delivery-options-20.json';
+import PaymentOptions1 from '../sections/checkout/06-payment-options/payment-options-1/PaymentOptions1';
+import paymentoptions1Data from '../sections/checkout/06-payment-options/payment-options-1/payment-options-1.json';
+import PaymentOptions2 from '../sections/checkout/06-payment-options/payment-options-2/PaymentOptions2';
+import paymentoptions2Data from '../sections/checkout/06-payment-options/payment-options-2/payment-options-2.json';
+import PaymentOptions3 from '../sections/checkout/06-payment-options/payment-options-3/PaymentOptions3';
+import paymentoptions3Data from '../sections/checkout/06-payment-options/payment-options-3/payment-options-3.json';
+import PaymentOptions4 from '../sections/checkout/06-payment-options/payment-options-4/PaymentOptions4';
+import paymentoptions4Data from '../sections/checkout/06-payment-options/payment-options-4/payment-options-4.json';
+import PaymentOptions5 from '../sections/checkout/06-payment-options/payment-options-5/PaymentOptions5';
+import paymentoptions5Data from '../sections/checkout/06-payment-options/payment-options-5/payment-options-5.json';
+import PaymentOptions6 from '../sections/checkout/06-payment-options/payment-options-6/PaymentOptions6';
+import paymentoptions6Data from '../sections/checkout/06-payment-options/payment-options-6/payment-options-6.json';
+import PaymentOptions7 from '../sections/checkout/06-payment-options/payment-options-7/PaymentOptions7';
+import paymentoptions7Data from '../sections/checkout/06-payment-options/payment-options-7/payment-options-7.json';
+import PaymentOptions8 from '../sections/checkout/06-payment-options/payment-options-8/PaymentOptions8';
+import paymentoptions8Data from '../sections/checkout/06-payment-options/payment-options-8/payment-options-8.json';
+import PaymentOptions9 from '../sections/checkout/06-payment-options/payment-options-9/PaymentOptions9';
+import paymentoptions9Data from '../sections/checkout/06-payment-options/payment-options-9/payment-options-9.json';
+import PaymentOptions10 from '../sections/checkout/06-payment-options/payment-options-10/PaymentOptions10';
+import paymentoptions10Data from '../sections/checkout/06-payment-options/payment-options-10/payment-options-10.json';
+import PaymentOptions11 from '../sections/checkout/06-payment-options/payment-options-11/PaymentOptions11';
+import paymentoptions11Data from '../sections/checkout/06-payment-options/payment-options-11/payment-options-11.json';
+import PaymentOptions12 from '../sections/checkout/06-payment-options/payment-options-12/PaymentOptions12';
+import paymentoptions12Data from '../sections/checkout/06-payment-options/payment-options-12/payment-options-12.json';
+import PaymentOptions13 from '../sections/checkout/06-payment-options/payment-options-13/PaymentOptions13';
+import paymentoptions13Data from '../sections/checkout/06-payment-options/payment-options-13/payment-options-13.json';
+import PaymentOptions14 from '../sections/checkout/06-payment-options/payment-options-14/PaymentOptions14';
+import paymentoptions14Data from '../sections/checkout/06-payment-options/payment-options-14/payment-options-14.json';
+import PaymentOptions15 from '../sections/checkout/06-payment-options/payment-options-15/PaymentOptions15';
+import paymentoptions15Data from '../sections/checkout/06-payment-options/payment-options-15/payment-options-15.json';
+import PaymentOptions16 from '../sections/checkout/06-payment-options/payment-options-16/PaymentOptions16';
+import paymentoptions16Data from '../sections/checkout/06-payment-options/payment-options-16/payment-options-16.json';
+import PaymentOptions17 from '../sections/checkout/06-payment-options/payment-options-17/PaymentOptions17';
+import paymentoptions17Data from '../sections/checkout/06-payment-options/payment-options-17/payment-options-17.json';
+import PaymentOptions18 from '../sections/checkout/06-payment-options/payment-options-18/PaymentOptions18';
+import paymentoptions18Data from '../sections/checkout/06-payment-options/payment-options-18/payment-options-18.json';
+import PaymentOptions19 from '../sections/checkout/06-payment-options/payment-options-19/PaymentOptions19';
+import paymentoptions19Data from '../sections/checkout/06-payment-options/payment-options-19/payment-options-19.json';
+import PaymentOptions20 from '../sections/checkout/06-payment-options/payment-options-20/PaymentOptions20';
+import paymentoptions20Data from '../sections/checkout/06-payment-options/payment-options-20/payment-options-20.json';
+import CheckoutOrderSummary1 from '../sections/checkout/07-order-summary/checkout-order-summary-1/CheckoutOrderSummary1';
+import checkoutordersummary1Data from '../sections/checkout/07-order-summary/checkout-order-summary-1/checkout-order-summary-1.json';
+import CheckoutOrderSummary2 from '../sections/checkout/07-order-summary/checkout-order-summary-2/CheckoutOrderSummary2';
+import checkoutordersummary2Data from '../sections/checkout/07-order-summary/checkout-order-summary-2/checkout-order-summary-2.json';
+import CheckoutOrderSummary3 from '../sections/checkout/07-order-summary/checkout-order-summary-3/CheckoutOrderSummary3';
+import checkoutordersummary3Data from '../sections/checkout/07-order-summary/checkout-order-summary-3/checkout-order-summary-3.json';
+import CheckoutOrderSummary4 from '../sections/checkout/07-order-summary/checkout-order-summary-4/CheckoutOrderSummary4';
+import checkoutordersummary4Data from '../sections/checkout/07-order-summary/checkout-order-summary-4/checkout-order-summary-4.json';
+import CheckoutOrderSummary5 from '../sections/checkout/07-order-summary/checkout-order-summary-5/CheckoutOrderSummary5';
+import checkoutordersummary5Data from '../sections/checkout/07-order-summary/checkout-order-summary-5/checkout-order-summary-5.json';
+import CheckoutOrderSummary6 from '../sections/checkout/07-order-summary/checkout-order-summary-6/CheckoutOrderSummary6';
+import checkoutordersummary6Data from '../sections/checkout/07-order-summary/checkout-order-summary-6/checkout-order-summary-6.json';
+import CheckoutOrderSummary7 from '../sections/checkout/07-order-summary/checkout-order-summary-7/CheckoutOrderSummary7';
+import checkoutordersummary7Data from '../sections/checkout/07-order-summary/checkout-order-summary-7/checkout-order-summary-7.json';
+import CheckoutOrderSummary8 from '../sections/checkout/07-order-summary/checkout-order-summary-8/CheckoutOrderSummary8';
+import checkoutordersummary8Data from '../sections/checkout/07-order-summary/checkout-order-summary-8/checkout-order-summary-8.json';
+import CheckoutOrderSummary9 from '../sections/checkout/07-order-summary/checkout-order-summary-9/CheckoutOrderSummary9';
+import checkoutordersummary9Data from '../sections/checkout/07-order-summary/checkout-order-summary-9/checkout-order-summary-9.json';
+import CheckoutOrderSummary10 from '../sections/checkout/07-order-summary/checkout-order-summary-10/CheckoutOrderSummary10';
+import checkoutordersummary10Data from '../sections/checkout/07-order-summary/checkout-order-summary-10/checkout-order-summary-10.json';
+import CheckoutOrderSummary11 from '../sections/checkout/07-order-summary/checkout-order-summary-11/CheckoutOrderSummary11';
+import checkoutordersummary11Data from '../sections/checkout/07-order-summary/checkout-order-summary-11/checkout-order-summary-11.json';
+import CheckoutOrderSummary12 from '../sections/checkout/07-order-summary/checkout-order-summary-12/CheckoutOrderSummary12';
+import checkoutordersummary12Data from '../sections/checkout/07-order-summary/checkout-order-summary-12/checkout-order-summary-12.json';
+import CheckoutOrderSummary13 from '../sections/checkout/07-order-summary/checkout-order-summary-13/CheckoutOrderSummary13';
+import checkoutordersummary13Data from '../sections/checkout/07-order-summary/checkout-order-summary-13/checkout-order-summary-13.json';
+import CheckoutOrderSummary14 from '../sections/checkout/07-order-summary/checkout-order-summary-14/CheckoutOrderSummary14';
+import checkoutordersummary14Data from '../sections/checkout/07-order-summary/checkout-order-summary-14/checkout-order-summary-14.json';
+import CheckoutOrderSummary15 from '../sections/checkout/07-order-summary/checkout-order-summary-15/CheckoutOrderSummary15';
+import checkoutordersummary15Data from '../sections/checkout/07-order-summary/checkout-order-summary-15/checkout-order-summary-15.json';
+import CheckoutOrderSummary16 from '../sections/checkout/07-order-summary/checkout-order-summary-16/CheckoutOrderSummary16';
+import checkoutordersummary16Data from '../sections/checkout/07-order-summary/checkout-order-summary-16/checkout-order-summary-16.json';
+import CheckoutOrderSummary17 from '../sections/checkout/07-order-summary/checkout-order-summary-17/CheckoutOrderSummary17';
+import checkoutordersummary17Data from '../sections/checkout/07-order-summary/checkout-order-summary-17/checkout-order-summary-17.json';
+import CheckoutOrderSummary18 from '../sections/checkout/07-order-summary/checkout-order-summary-18/CheckoutOrderSummary18';
+import checkoutordersummary18Data from '../sections/checkout/07-order-summary/checkout-order-summary-18/checkout-order-summary-18.json';
+import CheckoutOrderSummary19 from '../sections/checkout/07-order-summary/checkout-order-summary-19/CheckoutOrderSummary19';
+import checkoutordersummary19Data from '../sections/checkout/07-order-summary/checkout-order-summary-19/checkout-order-summary-19.json';
+import CheckoutOrderSummary20 from '../sections/checkout/07-order-summary/checkout-order-summary-20/CheckoutOrderSummary20';
+import checkoutordersummary20Data from '../sections/checkout/07-order-summary/checkout-order-summary-20/checkout-order-summary-20.json';
+import CheckoutDiscountCoupon1 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-1/CheckoutDiscountCoupon1';
+import checkoutdiscountcoupon1Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-1/checkout-discount-coupon-1.json';
+import CheckoutDiscountCoupon2 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-2/CheckoutDiscountCoupon2';
+import checkoutdiscountcoupon2Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-2/checkout-discount-coupon-2.json';
+import CheckoutDiscountCoupon3 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-3/CheckoutDiscountCoupon3';
+import checkoutdiscountcoupon3Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-3/checkout-discount-coupon-3.json';
+import CheckoutDiscountCoupon4 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-4/CheckoutDiscountCoupon4';
+import checkoutdiscountcoupon4Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-4/checkout-discount-coupon-4.json';
+import CheckoutDiscountCoupon5 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-5/CheckoutDiscountCoupon5';
+import checkoutdiscountcoupon5Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-5/checkout-discount-coupon-5.json';
+import CheckoutDiscountCoupon6 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-6/CheckoutDiscountCoupon6';
+import checkoutdiscountcoupon6Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-6/checkout-discount-coupon-6.json';
+import CheckoutDiscountCoupon7 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-7/CheckoutDiscountCoupon7';
+import checkoutdiscountcoupon7Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-7/checkout-discount-coupon-7.json';
+import CheckoutDiscountCoupon8 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-8/CheckoutDiscountCoupon8';
+import checkoutdiscountcoupon8Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-8/checkout-discount-coupon-8.json';
+import CheckoutDiscountCoupon9 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-9/CheckoutDiscountCoupon9';
+import checkoutdiscountcoupon9Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-9/checkout-discount-coupon-9.json';
+import CheckoutDiscountCoupon10 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-10/CheckoutDiscountCoupon10';
+import checkoutdiscountcoupon10Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-10/checkout-discount-coupon-10.json';
+import CheckoutDiscountCoupon11 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-11/CheckoutDiscountCoupon11';
+import checkoutdiscountcoupon11Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-11/checkout-discount-coupon-11.json';
+import CheckoutDiscountCoupon12 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-12/CheckoutDiscountCoupon12';
+import checkoutdiscountcoupon12Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-12/checkout-discount-coupon-12.json';
+import CheckoutDiscountCoupon13 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-13/CheckoutDiscountCoupon13';
+import checkoutdiscountcoupon13Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-13/checkout-discount-coupon-13.json';
+import CheckoutDiscountCoupon14 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-14/CheckoutDiscountCoupon14';
+import checkoutdiscountcoupon14Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-14/checkout-discount-coupon-14.json';
+import CheckoutDiscountCoupon15 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-15/CheckoutDiscountCoupon15';
+import checkoutdiscountcoupon15Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-15/checkout-discount-coupon-15.json';
+import CheckoutDiscountCoupon16 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-16/CheckoutDiscountCoupon16';
+import checkoutdiscountcoupon16Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-16/checkout-discount-coupon-16.json';
+import CheckoutDiscountCoupon17 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-17/CheckoutDiscountCoupon17';
+import checkoutdiscountcoupon17Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-17/checkout-discount-coupon-17.json';
+import CheckoutDiscountCoupon18 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-18/CheckoutDiscountCoupon18';
+import checkoutdiscountcoupon18Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-18/checkout-discount-coupon-18.json';
+import CheckoutDiscountCoupon19 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-19/CheckoutDiscountCoupon19';
+import checkoutdiscountcoupon19Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-19/checkout-discount-coupon-19.json';
+import CheckoutDiscountCoupon20 from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-20/CheckoutDiscountCoupon20';
+import checkoutdiscountcoupon20Data from '../sections/checkout/08-discount-coupon/checkout-discount-coupon-20/checkout-discount-coupon-20.json';
+import CheckoutGiftCard1 from '../sections/checkout/09-gift-card/checkout-gift-card-1/CheckoutGiftCard1';
+import checkoutgiftcard1Data from '../sections/checkout/09-gift-card/checkout-gift-card-1/checkout-gift-card-1.json';
+import CheckoutGiftCard2 from '../sections/checkout/09-gift-card/checkout-gift-card-2/CheckoutGiftCard2';
+import checkoutgiftcard2Data from '../sections/checkout/09-gift-card/checkout-gift-card-2/checkout-gift-card-2.json';
+import CheckoutGiftCard3 from '../sections/checkout/09-gift-card/checkout-gift-card-3/CheckoutGiftCard3';
+import checkoutgiftcard3Data from '../sections/checkout/09-gift-card/checkout-gift-card-3/checkout-gift-card-3.json';
+import CheckoutGiftCard4 from '../sections/checkout/09-gift-card/checkout-gift-card-4/CheckoutGiftCard4';
+import checkoutgiftcard4Data from '../sections/checkout/09-gift-card/checkout-gift-card-4/checkout-gift-card-4.json';
+import CheckoutGiftCard5 from '../sections/checkout/09-gift-card/checkout-gift-card-5/CheckoutGiftCard5';
+import checkoutgiftcard5Data from '../sections/checkout/09-gift-card/checkout-gift-card-5/checkout-gift-card-5.json';
+import CheckoutGiftCard6 from '../sections/checkout/09-gift-card/checkout-gift-card-6/CheckoutGiftCard6';
+import checkoutgiftcard6Data from '../sections/checkout/09-gift-card/checkout-gift-card-6/checkout-gift-card-6.json';
+import CheckoutGiftCard7 from '../sections/checkout/09-gift-card/checkout-gift-card-7/CheckoutGiftCard7';
+import checkoutgiftcard7Data from '../sections/checkout/09-gift-card/checkout-gift-card-7/checkout-gift-card-7.json';
+import CheckoutGiftCard8 from '../sections/checkout/09-gift-card/checkout-gift-card-8/CheckoutGiftCard8';
+import checkoutgiftcard8Data from '../sections/checkout/09-gift-card/checkout-gift-card-8/checkout-gift-card-8.json';
+import CheckoutGiftCard9 from '../sections/checkout/09-gift-card/checkout-gift-card-9/CheckoutGiftCard9';
+import checkoutgiftcard9Data from '../sections/checkout/09-gift-card/checkout-gift-card-9/checkout-gift-card-9.json';
+import CheckoutGiftCard10 from '../sections/checkout/09-gift-card/checkout-gift-card-10/CheckoutGiftCard10';
+import checkoutgiftcard10Data from '../sections/checkout/09-gift-card/checkout-gift-card-10/checkout-gift-card-10.json';
+import CheckoutGiftCard11 from '../sections/checkout/09-gift-card/checkout-gift-card-11/CheckoutGiftCard11';
+import checkoutgiftcard11Data from '../sections/checkout/09-gift-card/checkout-gift-card-11/checkout-gift-card-11.json';
+import CheckoutGiftCard12 from '../sections/checkout/09-gift-card/checkout-gift-card-12/CheckoutGiftCard12';
+import checkoutgiftcard12Data from '../sections/checkout/09-gift-card/checkout-gift-card-12/checkout-gift-card-12.json';
+import CheckoutGiftCard13 from '../sections/checkout/09-gift-card/checkout-gift-card-13/CheckoutGiftCard13';
+import checkoutgiftcard13Data from '../sections/checkout/09-gift-card/checkout-gift-card-13/checkout-gift-card-13.json';
+import CheckoutGiftCard14 from '../sections/checkout/09-gift-card/checkout-gift-card-14/CheckoutGiftCard14';
+import checkoutgiftcard14Data from '../sections/checkout/09-gift-card/checkout-gift-card-14/checkout-gift-card-14.json';
+import CheckoutGiftCard15 from '../sections/checkout/09-gift-card/checkout-gift-card-15/CheckoutGiftCard15';
+import checkoutgiftcard15Data from '../sections/checkout/09-gift-card/checkout-gift-card-15/checkout-gift-card-15.json';
+import CheckoutGiftCard16 from '../sections/checkout/09-gift-card/checkout-gift-card-16/CheckoutGiftCard16';
+import checkoutgiftcard16Data from '../sections/checkout/09-gift-card/checkout-gift-card-16/checkout-gift-card-16.json';
+import CheckoutGiftCard17 from '../sections/checkout/09-gift-card/checkout-gift-card-17/CheckoutGiftCard17';
+import checkoutgiftcard17Data from '../sections/checkout/09-gift-card/checkout-gift-card-17/checkout-gift-card-17.json';
+import CheckoutGiftCard18 from '../sections/checkout/09-gift-card/checkout-gift-card-18/CheckoutGiftCard18';
+import checkoutgiftcard18Data from '../sections/checkout/09-gift-card/checkout-gift-card-18/checkout-gift-card-18.json';
+import CheckoutGiftCard19 from '../sections/checkout/09-gift-card/checkout-gift-card-19/CheckoutGiftCard19';
+import checkoutgiftcard19Data from '../sections/checkout/09-gift-card/checkout-gift-card-19/checkout-gift-card-19.json';
+import CheckoutGiftCard20 from '../sections/checkout/09-gift-card/checkout-gift-card-20/CheckoutGiftCard20';
+import checkoutgiftcard20Data from '../sections/checkout/09-gift-card/checkout-gift-card-20/checkout-gift-card-20.json';
+import CheckoutSecurityTrust1 from '../sections/checkout/10-security-trust/checkout-security-trust-1/CheckoutSecurityTrust1';
+import checkoutsecuritytrust1Data from '../sections/checkout/10-security-trust/checkout-security-trust-1/checkout-security-trust-1.json';
+import CheckoutSecurityTrust2 from '../sections/checkout/10-security-trust/checkout-security-trust-2/CheckoutSecurityTrust2';
+import checkoutsecuritytrust2Data from '../sections/checkout/10-security-trust/checkout-security-trust-2/checkout-security-trust-2.json';
+import CheckoutSecurityTrust3 from '../sections/checkout/10-security-trust/checkout-security-trust-3/CheckoutSecurityTrust3';
+import checkoutsecuritytrust3Data from '../sections/checkout/10-security-trust/checkout-security-trust-3/checkout-security-trust-3.json';
+import CheckoutSecurityTrust4 from '../sections/checkout/10-security-trust/checkout-security-trust-4/CheckoutSecurityTrust4';
+import checkoutsecuritytrust4Data from '../sections/checkout/10-security-trust/checkout-security-trust-4/checkout-security-trust-4.json';
+import CheckoutSecurityTrust5 from '../sections/checkout/10-security-trust/checkout-security-trust-5/CheckoutSecurityTrust5';
+import checkoutsecuritytrust5Data from '../sections/checkout/10-security-trust/checkout-security-trust-5/checkout-security-trust-5.json';
+import CheckoutSecurityTrust6 from '../sections/checkout/10-security-trust/checkout-security-trust-6/CheckoutSecurityTrust6';
+import checkoutsecuritytrust6Data from '../sections/checkout/10-security-trust/checkout-security-trust-6/checkout-security-trust-6.json';
+import CheckoutSecurityTrust7 from '../sections/checkout/10-security-trust/checkout-security-trust-7/CheckoutSecurityTrust7';
+import checkoutsecuritytrust7Data from '../sections/checkout/10-security-trust/checkout-security-trust-7/checkout-security-trust-7.json';
+import CheckoutSecurityTrust8 from '../sections/checkout/10-security-trust/checkout-security-trust-8/CheckoutSecurityTrust8';
+import checkoutsecuritytrust8Data from '../sections/checkout/10-security-trust/checkout-security-trust-8/checkout-security-trust-8.json';
+import CheckoutSecurityTrust9 from '../sections/checkout/10-security-trust/checkout-security-trust-9/CheckoutSecurityTrust9';
+import checkoutsecuritytrust9Data from '../sections/checkout/10-security-trust/checkout-security-trust-9/checkout-security-trust-9.json';
+import CheckoutSecurityTrust10 from '../sections/checkout/10-security-trust/checkout-security-trust-10/CheckoutSecurityTrust10';
+import checkoutsecuritytrust10Data from '../sections/checkout/10-security-trust/checkout-security-trust-10/checkout-security-trust-10.json';
+import CheckoutSecurityTrust11 from '../sections/checkout/10-security-trust/checkout-security-trust-11/CheckoutSecurityTrust11';
+import checkoutsecuritytrust11Data from '../sections/checkout/10-security-trust/checkout-security-trust-11/checkout-security-trust-11.json';
+import CheckoutSecurityTrust12 from '../sections/checkout/10-security-trust/checkout-security-trust-12/CheckoutSecurityTrust12';
+import checkoutsecuritytrust12Data from '../sections/checkout/10-security-trust/checkout-security-trust-12/checkout-security-trust-12.json';
+import CheckoutSecurityTrust13 from '../sections/checkout/10-security-trust/checkout-security-trust-13/CheckoutSecurityTrust13';
+import checkoutsecuritytrust13Data from '../sections/checkout/10-security-trust/checkout-security-trust-13/checkout-security-trust-13.json';
+import CheckoutSecurityTrust14 from '../sections/checkout/10-security-trust/checkout-security-trust-14/CheckoutSecurityTrust14';
+import checkoutsecuritytrust14Data from '../sections/checkout/10-security-trust/checkout-security-trust-14/checkout-security-trust-14.json';
+import CheckoutSecurityTrust15 from '../sections/checkout/10-security-trust/checkout-security-trust-15/CheckoutSecurityTrust15';
+import checkoutsecuritytrust15Data from '../sections/checkout/10-security-trust/checkout-security-trust-15/checkout-security-trust-15.json';
+import CheckoutSecurityTrust16 from '../sections/checkout/10-security-trust/checkout-security-trust-16/CheckoutSecurityTrust16';
+import checkoutsecuritytrust16Data from '../sections/checkout/10-security-trust/checkout-security-trust-16/checkout-security-trust-16.json';
+import CheckoutSecurityTrust17 from '../sections/checkout/10-security-trust/checkout-security-trust-17/CheckoutSecurityTrust17';
+import checkoutsecuritytrust17Data from '../sections/checkout/10-security-trust/checkout-security-trust-17/checkout-security-trust-17.json';
+import CheckoutSecurityTrust18 from '../sections/checkout/10-security-trust/checkout-security-trust-18/CheckoutSecurityTrust18';
+import checkoutsecuritytrust18Data from '../sections/checkout/10-security-trust/checkout-security-trust-18/checkout-security-trust-18.json';
+import CheckoutSecurityTrust19 from '../sections/checkout/10-security-trust/checkout-security-trust-19/CheckoutSecurityTrust19';
+import checkoutsecuritytrust19Data from '../sections/checkout/10-security-trust/checkout-security-trust-19/checkout-security-trust-19.json';
+import CheckoutSecurityTrust20 from '../sections/checkout/10-security-trust/checkout-security-trust-20/CheckoutSecurityTrust20';
+import checkoutsecuritytrust20Data from '../sections/checkout/10-security-trust/checkout-security-trust-20/checkout-security-trust-20.json';
+
 import React from 'react';
-import { homeCategories, productCategories, cartCategories } from './navigationData';
+import { homeCategories, productCategories, cartCategories, checkoutCategories } from './navigationData';
 import { Code } from 'lucide-react';
 
 import { SectionLibraryCard } from './SectionLibraryCard';
@@ -1685,6 +2168,46 @@ import ShippingDeliveryInformation19 from '../sections/product/12-shipping-deliv
 import shippingDeliveryInformation19Data from '../sections/product/12-shipping-delivery-information/shipping-delivery-information-19/shipping-delivery-information-19.json';
 import ShippingDeliveryInformation20 from '../sections/product/12-shipping-delivery-information/shipping-delivery-information-20/ShippingDeliveryInformation20';
 import shippingDeliveryInformation20Data from '../sections/product/12-shipping-delivery-information/shipping-delivery-information-20/shipping-delivery-information-20.json';
+import FreeShippingProgress1 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-1/FreeShippingProgress1';
+import freeShippingProgress1Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-1/free-shipping-progress-1.json';
+import FreeShippingProgress2 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-2/FreeShippingProgress2';
+import freeShippingProgress2Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-2/free-shipping-progress-2.json';
+import FreeShippingProgress3 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-3/FreeShippingProgress3';
+import freeShippingProgress3Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-3/free-shipping-progress-3.json';
+import FreeShippingProgress4 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-4/FreeShippingProgress4';
+import freeShippingProgress4Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-4/free-shipping-progress-4.json';
+import FreeShippingProgress5 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-5/FreeShippingProgress5';
+import freeShippingProgress5Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-5/free-shipping-progress-5.json';
+import FreeShippingProgress6 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-6/FreeShippingProgress6';
+import freeShippingProgress6Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-6/free-shipping-progress-6.json';
+import FreeShippingProgress7 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-7/FreeShippingProgress7';
+import freeShippingProgress7Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-7/free-shipping-progress-7.json';
+import FreeShippingProgress8 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-8/FreeShippingProgress8';
+import freeShippingProgress8Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-8/free-shipping-progress-8.json';
+import FreeShippingProgress9 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-9/FreeShippingProgress9';
+import freeShippingProgress9Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-9/free-shipping-progress-9.json';
+import FreeShippingProgress10 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-10/FreeShippingProgress10';
+import freeShippingProgress10Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-10/free-shipping-progress-10.json';
+import FreeShippingProgress11 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-11/FreeShippingProgress11';
+import freeShippingProgress11Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-11/free-shipping-progress-11.json';
+import FreeShippingProgress12 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-12/FreeShippingProgress12';
+import freeShippingProgress12Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-12/free-shipping-progress-12.json';
+import FreeShippingProgress13 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-13/FreeShippingProgress13';
+import freeShippingProgress13Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-13/free-shipping-progress-13.json';
+import FreeShippingProgress14 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-14/FreeShippingProgress14';
+import freeShippingProgress14Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-14/free-shipping-progress-14.json';
+import FreeShippingProgress15 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-15/FreeShippingProgress15';
+import freeShippingProgress15Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-15/free-shipping-progress-15.json';
+import FreeShippingProgress16 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-16/FreeShippingProgress16';
+import freeShippingProgress16Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-16/free-shipping-progress-16.json';
+import FreeShippingProgress17 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-17/FreeShippingProgress17';
+import freeShippingProgress17Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-17/free-shipping-progress-17.json';
+import FreeShippingProgress18 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-18/FreeShippingProgress18';
+import freeShippingProgress18Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-18/free-shipping-progress-18.json';
+import FreeShippingProgress19 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-19/FreeShippingProgress19';
+import freeShippingProgress19Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-19/free-shipping-progress-19.json';
+import FreeShippingProgress20 from '../sections/cart/05-free-shipping-progress/free-shipping-progress-20/FreeShippingProgress20';
+import freeShippingProgress20Data from '../sections/cart/05-free-shipping-progress/free-shipping-progress-20/free-shipping-progress-20.json';
 import ReturnRefundInformation1 from '../sections/product/13-return-refund-information/return-refund-information-1/ReturnRefundInformation1';
 import returnRefundInformation1Data from '../sections/product/13-return-refund-information/return-refund-information-1/return-refund-information-1.json';
 import ReturnRefundInformation2 from '../sections/product/13-return-refund-information/return-refund-information-2/ReturnRefundInformation2';
@@ -1725,6 +2248,166 @@ import ReturnRefundInformation19 from '../sections/product/13-return-refund-info
 import returnRefundInformation19Data from '../sections/product/13-return-refund-information/return-refund-information-19/return-refund-information-19.json';
 import ReturnRefundInformation20 from '../sections/product/13-return-refund-information/return-refund-information-20/ReturnRefundInformation20';
 import returnRefundInformation20Data from '../sections/product/13-return-refund-information/return-refund-information-20/return-refund-information-20.json';
+import ProductFrequentlyBoughtTogether1 from '../sections/product/15-frequently-bought-together/frequently-bought-together-1/FrequentlyBoughtTogether1';
+import productFrequentlyBoughtTogether1Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-1/frequently-bought-together-1.json';
+import ProductFrequentlyBoughtTogether2 from '../sections/product/15-frequently-bought-together/frequently-bought-together-2/FrequentlyBoughtTogether2';
+import productFrequentlyBoughtTogether2Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-2/frequently-bought-together-2.json';
+import ProductFrequentlyBoughtTogether3 from '../sections/product/15-frequently-bought-together/frequently-bought-together-3/FrequentlyBoughtTogether3';
+import productFrequentlyBoughtTogether3Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-3/frequently-bought-together-3.json';
+import ProductFrequentlyBoughtTogether4 from '../sections/product/15-frequently-bought-together/frequently-bought-together-4/FrequentlyBoughtTogether4';
+import productFrequentlyBoughtTogether4Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-4/frequently-bought-together-4.json';
+import ProductFrequentlyBoughtTogether5 from '../sections/product/15-frequently-bought-together/frequently-bought-together-5/FrequentlyBoughtTogether5';
+import productFrequentlyBoughtTogether5Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-5/frequently-bought-together-5.json';
+import ProductFrequentlyBoughtTogether6 from '../sections/product/15-frequently-bought-together/frequently-bought-together-6/FrequentlyBoughtTogether6';
+import productFrequentlyBoughtTogether6Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-6/frequently-bought-together-6.json';
+import ProductFrequentlyBoughtTogether7 from '../sections/product/15-frequently-bought-together/frequently-bought-together-7/FrequentlyBoughtTogether7';
+import productFrequentlyBoughtTogether7Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-7/frequently-bought-together-7.json';
+import ProductFrequentlyBoughtTogether8 from '../sections/product/15-frequently-bought-together/frequently-bought-together-8/FrequentlyBoughtTogether8';
+import productFrequentlyBoughtTogether8Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-8/frequently-bought-together-8.json';
+import ProductFrequentlyBoughtTogether9 from '../sections/product/15-frequently-bought-together/frequently-bought-together-9/FrequentlyBoughtTogether9';
+import productFrequentlyBoughtTogether9Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-9/frequently-bought-together-9.json';
+import ProductFrequentlyBoughtTogether10 from '../sections/product/15-frequently-bought-together/frequently-bought-together-10/FrequentlyBoughtTogether10';
+import productFrequentlyBoughtTogether10Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-10/frequently-bought-together-10.json';
+import ProductFrequentlyBoughtTogether11 from '../sections/product/15-frequently-bought-together/frequently-bought-together-11/FrequentlyBoughtTogether11';
+import productFrequentlyBoughtTogether11Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-11/frequently-bought-together-11.json';
+import ProductFrequentlyBoughtTogether12 from '../sections/product/15-frequently-bought-together/frequently-bought-together-12/FrequentlyBoughtTogether12';
+import productFrequentlyBoughtTogether12Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-12/frequently-bought-together-12.json';
+import ProductFrequentlyBoughtTogether13 from '../sections/product/15-frequently-bought-together/frequently-bought-together-13/FrequentlyBoughtTogether13';
+import productFrequentlyBoughtTogether13Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-13/frequently-bought-together-13.json';
+import ProductFrequentlyBoughtTogether14 from '../sections/product/15-frequently-bought-together/frequently-bought-together-14/FrequentlyBoughtTogether14';
+import productFrequentlyBoughtTogether14Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-14/frequently-bought-together-14.json';
+import ProductFrequentlyBoughtTogether15 from '../sections/product/15-frequently-bought-together/frequently-bought-together-15/FrequentlyBoughtTogether15';
+import productFrequentlyBoughtTogether15Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-15/frequently-bought-together-15.json';
+import ProductFrequentlyBoughtTogether16 from '../sections/product/15-frequently-bought-together/frequently-bought-together-16/FrequentlyBoughtTogether16';
+import productFrequentlyBoughtTogether16Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-16/frequently-bought-together-16.json';
+import ProductFrequentlyBoughtTogether17 from '../sections/product/15-frequently-bought-together/frequently-bought-together-17/FrequentlyBoughtTogether17';
+import productFrequentlyBoughtTogether17Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-17/frequently-bought-together-17.json';
+import ProductFrequentlyBoughtTogether18 from '../sections/product/15-frequently-bought-together/frequently-bought-together-18/FrequentlyBoughtTogether18';
+import productFrequentlyBoughtTogether18Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-18/frequently-bought-together-18.json';
+import ProductFrequentlyBoughtTogether19 from '../sections/product/15-frequently-bought-together/frequently-bought-together-19/FrequentlyBoughtTogether19';
+import productFrequentlyBoughtTogether19Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-19/frequently-bought-together-19.json';
+import ProductFrequentlyBoughtTogether20 from '../sections/product/15-frequently-bought-together/frequently-bought-together-20/FrequentlyBoughtTogether20';
+import productFrequentlyBoughtTogether20Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-20/frequently-bought-together-20.json';
+import CartFrequentlyBoughtTogether1 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-1/CartFrequentlyBoughtTogether1';
+import cartFrequentlyBoughtTogether1Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-1/cart-frequently-bought-together-1.json';
+import CartFrequentlyBoughtTogether2 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-2/CartFrequentlyBoughtTogether2';
+import cartFrequentlyBoughtTogether2Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-2/cart-frequently-bought-together-2.json';
+import CartFrequentlyBoughtTogether3 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-3/CartFrequentlyBoughtTogether3';
+import cartFrequentlyBoughtTogether3Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-3/cart-frequently-bought-together-3.json';
+import CartFrequentlyBoughtTogether4 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-4/CartFrequentlyBoughtTogether4';
+import cartFrequentlyBoughtTogether4Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-4/cart-frequently-bought-together-4.json';
+import CartFrequentlyBoughtTogether5 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-5/CartFrequentlyBoughtTogether5';
+import cartFrequentlyBoughtTogether5Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-5/cart-frequently-bought-together-5.json';
+import CartFrequentlyBoughtTogether6 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-6/CartFrequentlyBoughtTogether6';
+import cartFrequentlyBoughtTogether6Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-6/cart-frequently-bought-together-6.json';
+import CartFrequentlyBoughtTogether7 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-7/CartFrequentlyBoughtTogether7';
+import cartFrequentlyBoughtTogether7Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-7/cart-frequently-bought-together-7.json';
+import CartFrequentlyBoughtTogether8 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-8/CartFrequentlyBoughtTogether8';
+import cartFrequentlyBoughtTogether8Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-8/cart-frequently-bought-together-8.json';
+import CartFrequentlyBoughtTogether9 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-9/CartFrequentlyBoughtTogether9';
+import cartFrequentlyBoughtTogether9Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-9/cart-frequently-bought-together-9.json';
+import CartFrequentlyBoughtTogether10 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-10/CartFrequentlyBoughtTogether10';
+import cartFrequentlyBoughtTogether10Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-10/cart-frequently-bought-together-10.json';
+import CartFrequentlyBoughtTogether11 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-11/CartFrequentlyBoughtTogether11';
+import cartFrequentlyBoughtTogether11Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-11/cart-frequently-bought-together-11.json';
+import CartFrequentlyBoughtTogether12 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-12/CartFrequentlyBoughtTogether12';
+import cartFrequentlyBoughtTogether12Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-12/cart-frequently-bought-together-12.json';
+import CartFrequentlyBoughtTogether13 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-13/CartFrequentlyBoughtTogether13';
+import cartFrequentlyBoughtTogether13Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-13/cart-frequently-bought-together-13.json';
+import CartFrequentlyBoughtTogether14 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-14/CartFrequentlyBoughtTogether14';
+import cartFrequentlyBoughtTogether14Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-14/cart-frequently-bought-together-14.json';
+import CartFrequentlyBoughtTogether15 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-15/CartFrequentlyBoughtTogether15';
+import cartFrequentlyBoughtTogether15Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-15/cart-frequently-bought-together-15.json';
+import CartFrequentlyBoughtTogether16 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-16/CartFrequentlyBoughtTogether16';
+import cartFrequentlyBoughtTogether16Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-16/cart-frequently-bought-together-16.json';
+import CartFrequentlyBoughtTogether17 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-17/CartFrequentlyBoughtTogether17';
+import cartFrequentlyBoughtTogether17Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-17/cart-frequently-bought-together-17.json';
+import CartFrequentlyBoughtTogether18 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-18/CartFrequentlyBoughtTogether18';
+import cartFrequentlyBoughtTogether18Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-18/cart-frequently-bought-together-18.json';
+import CartFrequentlyBoughtTogether19 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-19/CartFrequentlyBoughtTogether19';
+import cartFrequentlyBoughtTogether19Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-19/cart-frequently-bought-together-19.json';
+import CartFrequentlyBoughtTogether20 from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-20/CartFrequentlyBoughtTogether20';
+import cartFrequentlyBoughtTogether20Data from '../sections/cart/06-cart-frequently-bought-together/cart-frequently-bought-together-20/cart-frequently-bought-together-20.json';
+import ProductRecommendedProducts1 from '../sections/product/19-recommended-products/product-recommended-products-1/ProductRecommendedProducts1';
+import productRecommendedProducts1Data from '../sections/product/19-recommended-products/product-recommended-products-1/product-recommended-products-1.json';
+import ProductRecommendedProducts2 from '../sections/product/19-recommended-products/product-recommended-products-2/ProductRecommendedProducts2';
+import productRecommendedProducts2Data from '../sections/product/19-recommended-products/product-recommended-products-2/product-recommended-products-2.json';
+import ProductRecommendedProducts3 from '../sections/product/19-recommended-products/product-recommended-products-3/ProductRecommendedProducts3';
+import productRecommendedProducts3Data from '../sections/product/19-recommended-products/product-recommended-products-3/product-recommended-products-3.json';
+import ProductRecommendedProducts4 from '../sections/product/19-recommended-products/product-recommended-products-4/ProductRecommendedProducts4';
+import productRecommendedProducts4Data from '../sections/product/19-recommended-products/product-recommended-products-4/product-recommended-products-4.json';
+import ProductRecommendedProducts5 from '../sections/product/19-recommended-products/product-recommended-products-5/ProductRecommendedProducts5';
+import productRecommendedProducts5Data from '../sections/product/19-recommended-products/product-recommended-products-5/product-recommended-products-5.json';
+import ProductRecommendedProducts6 from '../sections/product/19-recommended-products/product-recommended-products-6/ProductRecommendedProducts6';
+import productRecommendedProducts6Data from '../sections/product/19-recommended-products/product-recommended-products-6/product-recommended-products-6.json';
+import ProductRecommendedProducts7 from '../sections/product/19-recommended-products/product-recommended-products-7/ProductRecommendedProducts7';
+import productRecommendedProducts7Data from '../sections/product/19-recommended-products/product-recommended-products-7/product-recommended-products-7.json';
+import ProductRecommendedProducts8 from '../sections/product/19-recommended-products/product-recommended-products-8/ProductRecommendedProducts8';
+import productRecommendedProducts8Data from '../sections/product/19-recommended-products/product-recommended-products-8/product-recommended-products-8.json';
+import ProductRecommendedProducts9 from '../sections/product/19-recommended-products/product-recommended-products-9/ProductRecommendedProducts9';
+import productRecommendedProducts9Data from '../sections/product/19-recommended-products/product-recommended-products-9/product-recommended-products-9.json';
+import ProductRecommendedProducts10 from '../sections/product/19-recommended-products/product-recommended-products-10/ProductRecommendedProducts10';
+import productRecommendedProducts10Data from '../sections/product/19-recommended-products/product-recommended-products-10/product-recommended-products-10.json';
+import ProductRecommendedProducts11 from '../sections/product/19-recommended-products/product-recommended-products-11/ProductRecommendedProducts11';
+import productRecommendedProducts11Data from '../sections/product/19-recommended-products/product-recommended-products-11/product-recommended-products-11.json';
+import ProductRecommendedProducts12 from '../sections/product/19-recommended-products/product-recommended-products-12/ProductRecommendedProducts12';
+import productRecommendedProducts12Data from '../sections/product/19-recommended-products/product-recommended-products-12/product-recommended-products-12.json';
+import ProductRecommendedProducts13 from '../sections/product/19-recommended-products/product-recommended-products-13/ProductRecommendedProducts13';
+import productRecommendedProducts13Data from '../sections/product/19-recommended-products/product-recommended-products-13/product-recommended-products-13.json';
+import ProductRecommendedProducts14 from '../sections/product/19-recommended-products/product-recommended-products-14/ProductRecommendedProducts14';
+import productRecommendedProducts14Data from '../sections/product/19-recommended-products/product-recommended-products-14/product-recommended-products-14.json';
+import ProductRecommendedProducts15 from '../sections/product/19-recommended-products/product-recommended-products-15/ProductRecommendedProducts15';
+import productRecommendedProducts15Data from '../sections/product/19-recommended-products/product-recommended-products-15/product-recommended-products-15.json';
+import ProductRecommendedProducts16 from '../sections/product/19-recommended-products/product-recommended-products-16/ProductRecommendedProducts16';
+import productRecommendedProducts16Data from '../sections/product/19-recommended-products/product-recommended-products-16/product-recommended-products-16.json';
+import ProductRecommendedProducts17 from '../sections/product/19-recommended-products/product-recommended-products-17/ProductRecommendedProducts17';
+import productRecommendedProducts17Data from '../sections/product/19-recommended-products/product-recommended-products-17/product-recommended-products-17.json';
+import ProductRecommendedProducts18 from '../sections/product/19-recommended-products/product-recommended-products-18/ProductRecommendedProducts18';
+import productRecommendedProducts18Data from '../sections/product/19-recommended-products/product-recommended-products-18/product-recommended-products-18.json';
+import ProductRecommendedProducts19 from '../sections/product/19-recommended-products/product-recommended-products-19/ProductRecommendedProducts19';
+import productRecommendedProducts19Data from '../sections/product/19-recommended-products/product-recommended-products-19/product-recommended-products-19.json';
+import ProductRecommendedProducts20 from '../sections/product/19-recommended-products/product-recommended-products-20/ProductRecommendedProducts20';
+import productRecommendedProducts20Data from '../sections/product/19-recommended-products/product-recommended-products-20/product-recommended-products-20.json';
+import CartRecommendedProducts1 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-1/CartRecommendedProducts1';
+import cartRecommendedProducts1Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-1/cart-recommended-products-1.json';
+import CartRecommendedProducts2 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-2/CartRecommendedProducts2';
+import cartRecommendedProducts2Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-2/cart-recommended-products-2.json';
+import CartRecommendedProducts3 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-3/CartRecommendedProducts3';
+import cartRecommendedProducts3Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-3/cart-recommended-products-3.json';
+import CartRecommendedProducts4 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-4/CartRecommendedProducts4';
+import cartRecommendedProducts4Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-4/cart-recommended-products-4.json';
+import CartRecommendedProducts5 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-5/CartRecommendedProducts5';
+import cartRecommendedProducts5Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-5/cart-recommended-products-5.json';
+import CartRecommendedProducts6 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-6/CartRecommendedProducts6';
+import cartRecommendedProducts6Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-6/cart-recommended-products-6.json';
+import CartRecommendedProducts7 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-7/CartRecommendedProducts7';
+import cartRecommendedProducts7Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-7/cart-recommended-products-7.json';
+import CartRecommendedProducts8 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-8/CartRecommendedProducts8';
+import cartRecommendedProducts8Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-8/cart-recommended-products-8.json';
+import CartRecommendedProducts9 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-9/CartRecommendedProducts9';
+import cartRecommendedProducts9Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-9/cart-recommended-products-9.json';
+import CartRecommendedProducts10 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-10/CartRecommendedProducts10';
+import cartRecommendedProducts10Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-10/cart-recommended-products-10.json';
+import CartRecommendedProducts11 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-11/CartRecommendedProducts11';
+import cartRecommendedProducts11Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-11/cart-recommended-products-11.json';
+import CartRecommendedProducts12 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-12/CartRecommendedProducts12';
+import cartRecommendedProducts12Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-12/cart-recommended-products-12.json';
+import CartRecommendedProducts13 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-13/CartRecommendedProducts13';
+import cartRecommendedProducts13Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-13/cart-recommended-products-13.json';
+import CartRecommendedProducts14 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-14/CartRecommendedProducts14';
+import cartRecommendedProducts14Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-14/cart-recommended-products-14.json';
+import CartRecommendedProducts15 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-15/CartRecommendedProducts15';
+import cartRecommendedProducts15Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-15/cart-recommended-products-15.json';
+import CartRecommendedProducts16 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-16/CartRecommendedProducts16';
+import cartRecommendedProducts16Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-16/cart-recommended-products-16.json';
+import CartRecommendedProducts17 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-17/CartRecommendedProducts17';
+import cartRecommendedProducts17Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-17/cart-recommended-products-17.json';
+import CartRecommendedProducts18 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-18/CartRecommendedProducts18';
+import cartRecommendedProducts18Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-18/cart-recommended-products-18.json';
+import CartRecommendedProducts19 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-19/CartRecommendedProducts19';
+import cartRecommendedProducts19Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-19/cart-recommended-products-19.json';
+import CartRecommendedProducts20 from '../sections/cart/07-cart-recommended-products/cart-recommended-products-20/CartRecommendedProducts20';
+import cartRecommendedProducts20Data from '../sections/cart/07-cart-recommended-products/cart-recommended-products-20/cart-recommended-products-20.json';
 import PaymentInformation1 from '../sections/product/14-payment-information/payment-information-1/PaymentInformation1';
 import paymentInformation1Data from '../sections/product/14-payment-information/payment-information-1/payment-information-1.json';
 import PaymentInformation2 from '../sections/product/14-payment-information/payment-information-2/PaymentInformation2';
@@ -1765,46 +2448,6 @@ import PaymentInformation19 from '../sections/product/14-payment-information/pay
 import paymentInformation19Data from '../sections/product/14-payment-information/payment-information-19/payment-information-19.json';
 import PaymentInformation20 from '../sections/product/14-payment-information/payment-information-20/PaymentInformation20';
 import paymentInformation20Data from '../sections/product/14-payment-information/payment-information-20/payment-information-20.json';
-import FrequentlyBoughtTogether1 from '../sections/product/15-frequently-bought-together/frequently-bought-together-1/FrequentlyBoughtTogether1';
-import frequentlyBoughtTogether1Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-1/frequently-bought-together-1.json';
-import FrequentlyBoughtTogether2 from '../sections/product/15-frequently-bought-together/frequently-bought-together-2/FrequentlyBoughtTogether2';
-import frequentlyBoughtTogether2Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-2/frequently-bought-together-2.json';
-import FrequentlyBoughtTogether3 from '../sections/product/15-frequently-bought-together/frequently-bought-together-3/FrequentlyBoughtTogether3';
-import frequentlyBoughtTogether3Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-3/frequently-bought-together-3.json';
-import FrequentlyBoughtTogether4 from '../sections/product/15-frequently-bought-together/frequently-bought-together-4/FrequentlyBoughtTogether4';
-import frequentlyBoughtTogether4Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-4/frequently-bought-together-4.json';
-import FrequentlyBoughtTogether5 from '../sections/product/15-frequently-bought-together/frequently-bought-together-5/FrequentlyBoughtTogether5';
-import frequentlyBoughtTogether5Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-5/frequently-bought-together-5.json';
-import FrequentlyBoughtTogether6 from '../sections/product/15-frequently-bought-together/frequently-bought-together-6/FrequentlyBoughtTogether6';
-import frequentlyBoughtTogether6Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-6/frequently-bought-together-6.json';
-import FrequentlyBoughtTogether7 from '../sections/product/15-frequently-bought-together/frequently-bought-together-7/FrequentlyBoughtTogether7';
-import frequentlyBoughtTogether7Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-7/frequently-bought-together-7.json';
-import FrequentlyBoughtTogether8 from '../sections/product/15-frequently-bought-together/frequently-bought-together-8/FrequentlyBoughtTogether8';
-import frequentlyBoughtTogether8Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-8/frequently-bought-together-8.json';
-import FrequentlyBoughtTogether9 from '../sections/product/15-frequently-bought-together/frequently-bought-together-9/FrequentlyBoughtTogether9';
-import frequentlyBoughtTogether9Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-9/frequently-bought-together-9.json';
-import FrequentlyBoughtTogether10 from '../sections/product/15-frequently-bought-together/frequently-bought-together-10/FrequentlyBoughtTogether10';
-import frequentlyBoughtTogether10Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-10/frequently-bought-together-10.json';
-import FrequentlyBoughtTogether11 from '../sections/product/15-frequently-bought-together/frequently-bought-together-11/FrequentlyBoughtTogether11';
-import frequentlyBoughtTogether11Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-11/frequently-bought-together-11.json';
-import FrequentlyBoughtTogether12 from '../sections/product/15-frequently-bought-together/frequently-bought-together-12/FrequentlyBoughtTogether12';
-import frequentlyBoughtTogether12Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-12/frequently-bought-together-12.json';
-import FrequentlyBoughtTogether13 from '../sections/product/15-frequently-bought-together/frequently-bought-together-13/FrequentlyBoughtTogether13';
-import frequentlyBoughtTogether13Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-13/frequently-bought-together-13.json';
-import FrequentlyBoughtTogether14 from '../sections/product/15-frequently-bought-together/frequently-bought-together-14/FrequentlyBoughtTogether14';
-import frequentlyBoughtTogether14Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-14/frequently-bought-together-14.json';
-import FrequentlyBoughtTogether15 from '../sections/product/15-frequently-bought-together/frequently-bought-together-15/FrequentlyBoughtTogether15';
-import frequentlyBoughtTogether15Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-15/frequently-bought-together-15.json';
-import FrequentlyBoughtTogether16 from '../sections/product/15-frequently-bought-together/frequently-bought-together-16/FrequentlyBoughtTogether16';
-import frequentlyBoughtTogether16Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-16/frequently-bought-together-16.json';
-import FrequentlyBoughtTogether17 from '../sections/product/15-frequently-bought-together/frequently-bought-together-17/FrequentlyBoughtTogether17';
-import frequentlyBoughtTogether17Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-17/frequently-bought-together-17.json';
-import FrequentlyBoughtTogether18 from '../sections/product/15-frequently-bought-together/frequently-bought-together-18/FrequentlyBoughtTogether18';
-import frequentlyBoughtTogether18Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-18/frequently-bought-together-18.json';
-import FrequentlyBoughtTogether19 from '../sections/product/15-frequently-bought-together/frequently-bought-together-19/FrequentlyBoughtTogether19';
-import frequentlyBoughtTogether19Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-19/frequently-bought-together-19.json';
-import FrequentlyBoughtTogether20 from '../sections/product/15-frequently-bought-together/frequently-bought-together-20/FrequentlyBoughtTogether20';
-import frequentlyBoughtTogether20Data from '../sections/product/15-frequently-bought-together/frequently-bought-together-20/frequently-bought-together-20.json';
 import ProductBundles1 from '../sections/product/16-product-bundles/product-bundles-1/ProductBundles1';
 import productBundles1Data from '../sections/product/16-product-bundles/product-bundles-1/product-bundles-1.json';
 import ProductBundles2 from '../sections/product/16-product-bundles/product-bundles-2/ProductBundles2';
@@ -1925,46 +2568,6 @@ import SimilarProducts19 from '../sections/product/18-similar-products/similar-p
 import similarProducts19Data from '../sections/product/18-similar-products/similar-products-19/similar-products-19.json';
 import SimilarProducts20 from '../sections/product/18-similar-products/similar-products-20/SimilarProducts20';
 import similarProducts20Data from '../sections/product/18-similar-products/similar-products-20/similar-products-20.json';
-import RecommendedProducts1 from '../sections/product/19-recommended-products/recommended-products-1/RecommendedProducts1';
-import recommendedProducts1Data from '../sections/product/19-recommended-products/recommended-products-1/recommended-products-1.json';
-import RecommendedProducts2 from '../sections/product/19-recommended-products/recommended-products-2/RecommendedProducts2';
-import recommendedProducts2Data from '../sections/product/19-recommended-products/recommended-products-2/recommended-products-2.json';
-import RecommendedProducts3 from '../sections/product/19-recommended-products/recommended-products-3/RecommendedProducts3';
-import recommendedProducts3Data from '../sections/product/19-recommended-products/recommended-products-3/recommended-products-3.json';
-import RecommendedProducts4 from '../sections/product/19-recommended-products/recommended-products-4/RecommendedProducts4';
-import recommendedProducts4Data from '../sections/product/19-recommended-products/recommended-products-4/recommended-products-4.json';
-import RecommendedProducts5 from '../sections/product/19-recommended-products/recommended-products-5/RecommendedProducts5';
-import recommendedProducts5Data from '../sections/product/19-recommended-products/recommended-products-5/recommended-products-5.json';
-import RecommendedProducts6 from '../sections/product/19-recommended-products/recommended-products-6/RecommendedProducts6';
-import recommendedProducts6Data from '../sections/product/19-recommended-products/recommended-products-6/recommended-products-6.json';
-import RecommendedProducts7 from '../sections/product/19-recommended-products/recommended-products-7/RecommendedProducts7';
-import recommendedProducts7Data from '../sections/product/19-recommended-products/recommended-products-7/recommended-products-7.json';
-import RecommendedProducts8 from '../sections/product/19-recommended-products/recommended-products-8/RecommendedProducts8';
-import recommendedProducts8Data from '../sections/product/19-recommended-products/recommended-products-8/recommended-products-8.json';
-import RecommendedProducts9 from '../sections/product/19-recommended-products/recommended-products-9/RecommendedProducts9';
-import recommendedProducts9Data from '../sections/product/19-recommended-products/recommended-products-9/recommended-products-9.json';
-import RecommendedProducts10 from '../sections/product/19-recommended-products/recommended-products-10/RecommendedProducts10';
-import recommendedProducts10Data from '../sections/product/19-recommended-products/recommended-products-10/recommended-products-10.json';
-import RecommendedProducts11 from '../sections/product/19-recommended-products/recommended-products-11/RecommendedProducts11';
-import recommendedProducts11Data from '../sections/product/19-recommended-products/recommended-products-11/recommended-products-11.json';
-import RecommendedProducts12 from '../sections/product/19-recommended-products/recommended-products-12/RecommendedProducts12';
-import recommendedProducts12Data from '../sections/product/19-recommended-products/recommended-products-12/recommended-products-12.json';
-import RecommendedProducts13 from '../sections/product/19-recommended-products/recommended-products-13/RecommendedProducts13';
-import recommendedProducts13Data from '../sections/product/19-recommended-products/recommended-products-13/recommended-products-13.json';
-import RecommendedProducts14 from '../sections/product/19-recommended-products/recommended-products-14/RecommendedProducts14';
-import recommendedProducts14Data from '../sections/product/19-recommended-products/recommended-products-14/recommended-products-14.json';
-import RecommendedProducts15 from '../sections/product/19-recommended-products/recommended-products-15/RecommendedProducts15';
-import recommendedProducts15Data from '../sections/product/19-recommended-products/recommended-products-15/recommended-products-15.json';
-import RecommendedProducts16 from '../sections/product/19-recommended-products/recommended-products-16/RecommendedProducts16';
-import recommendedProducts16Data from '../sections/product/19-recommended-products/recommended-products-16/recommended-products-16.json';
-import RecommendedProducts17 from '../sections/product/19-recommended-products/recommended-products-17/RecommendedProducts17';
-import recommendedProducts17Data from '../sections/product/19-recommended-products/recommended-products-17/recommended-products-17.json';
-import RecommendedProducts18 from '../sections/product/19-recommended-products/recommended-products-18/RecommendedProducts18';
-import recommendedProducts18Data from '../sections/product/19-recommended-products/recommended-products-18/recommended-products-18.json';
-import RecommendedProducts19 from '../sections/product/19-recommended-products/recommended-products-19/RecommendedProducts19';
-import recommendedProducts19Data from '../sections/product/19-recommended-products/recommended-products-19/recommended-products-19.json';
-import RecommendedProducts20 from '../sections/product/19-recommended-products/recommended-products-20/RecommendedProducts20';
-import recommendedProducts20Data from '../sections/product/19-recommended-products/recommended-products-20/recommended-products-20.json';
 import CustomerReviews1 from '../sections/product/20-customer-reviews/customer-reviews-1/CustomerReviews1';
 import customerReviews1Data from '../sections/product/20-customer-reviews/customer-reviews-1/customer-reviews-1.json';
 import CustomerReviews2 from '../sections/product/20-customer-reviews/customer-reviews-2/CustomerReviews2';
@@ -2945,7 +3548,28 @@ export function SectionLibraryGrid({ category }: GridProps) {
   ];
 
   const getSectionsForCategory = (category: string) => {
-    return category === 'shipping-delivery-information' ? [{ id: 'shipping-delivery-information-1', title: 'GLASS ICON GRID', description: 'A futuristic global shipping grid using ReactBits style glass icons that pop with a glow on hover.', previewComponent: <ShippingDeliveryInformation1 data={shippingDeliveryInformation1Data} /> }, { id: 'shipping-delivery-information-2', title: 'PORTAL REVEAL HERO', description: 'A stunning portal animation where the screen parts open to reveal a full-bleed background image with express delivery details.', previewComponent: <ShippingDeliveryInformation2 data={shippingDeliveryInformation2Data} /> }, { id: 'shipping-delivery-information-3', title: 'INFINITE MARQUEE TAPE', description: 'A diagonal, brutalist infinite scrolling ticker tape delivering shipping highlights on an endless loop.', previewComponent: <ShippingDeliveryInformation3 data={shippingDeliveryInformation3Data} /> }, { id: 'shipping-delivery-information-4', title: 'TYPOGRAPHIC DESTINATIONS', description: 'A minimalist TypeUI-inspired destination selector featuring massive typography and sleek cross-fade state transitions.', previewComponent: <ShippingDeliveryInformation4 data={shippingDeliveryInformation4Data} /> }, { id: 'shipping-delivery-information-5', title: 'ANIMATED ROUTE ARC', description: 'A visual route tracker that literally draws an arc connecting the warehouse to your door as you scroll down.', previewComponent: <ShippingDeliveryInformation5 data={shippingDeliveryInformation5Data} /> }, { id: 'shipping-delivery-information-6', title: '3D BOX UNBOXING', description: 'An interactive unboxing experience. Hover over the card to pop open the top flaps of the 3D box.', previewComponent: <ShippingDeliveryInformation6 data={shippingDeliveryInformation6Data} /> }, { id: 'shipping-delivery-information-7', title: 'STEPPER TIMELINE', description: 'An elegant step-by-step delivery journey that connects each phase with an animated blue progress line.', previewComponent: <ShippingDeliveryInformation7 data={shippingDeliveryInformation7Data} /> }, { id: 'shipping-delivery-information-8', title: 'ESTIMATOR CALCULATOR', description: 'An interactive shipping estimator tool featuring input animations and a delayed celebration toast on success.', previewComponent: <ShippingDeliveryInformation8 data={shippingDeliveryInformation8Data} /> }, { id: 'shipping-delivery-information-9', title: 'DRIVING TRUCK TOY', description: 'A playful hover micro-interaction where a delivery truck hits the gas and bumps along an animated road.', previewComponent: <ShippingDeliveryInformation9 data={shippingDeliveryInformation9Data} /> }, { id: 'shipping-delivery-information-10', title: 'PACKING SLIP RECEIPT', description: 'A skeuomorphic design featuring a printed packing slip that physically slides out of an envelope when in view.', previewComponent: <ShippingDeliveryInformation10 data={shippingDeliveryInformation10Data} /> }, { id: "shipping-delivery-information-11", title: "SCROLL-LINKED PROGRESS MAP", description: "A dotted map where scroll-linked progress fills the path connecting global nodes.", previewComponent: <ShippingDeliveryInformation11 data={shippingDeliveryInformation11Data as any} /> }, { id: "shipping-delivery-information-12", title: "3D INTERACTIVE CARD FLIP", description: "A shipping label that can be flipped in 3D to reveal the return policy on the back.", previewComponent: <ShippingDeliveryInformation12 data={shippingDeliveryInformation12Data as any} /> }, { id: "shipping-delivery-information-13", title: "STAGGERED TRACKING LIST", description: "A list of tracking events that enters with a staggered blur and slide animation.", previewComponent: <ShippingDeliveryInformation13 data={shippingDeliveryInformation13Data as any} /> }, { id: "shipping-delivery-information-14", title: "FLOATING ACTION BUTTON EXPAND", description: "A circular shipping icon that elegantly expands into a full delivery details panel when clicked.", previewComponent: <ShippingDeliveryInformation14 data={shippingDeliveryInformation14Data as any} /> }, { id: "shipping-delivery-information-15", title: "SWIPE-TO-CONFIRM DELIVERY", description: "An interactive slider simulation for swipe to receive or confirm delivery.", previewComponent: <ShippingDeliveryInformation15 data={shippingDeliveryInformation15Data as any} /> }, { id: "shipping-delivery-information-16", title: "CURSOR-BASED SPOTLIGHT REVEAL", description: "A dark card where the users cursor acts as a flashlight to reveal a classified map underneath.", previewComponent: <ShippingDeliveryInformation16 data={shippingDeliveryInformation16Data as any} /> }, { id: "shipping-delivery-information-17", title: "DYNAMIC SKELETON LOADER", description: "A beautiful skeleton loader that morphs directly into a delivery manifest layout.", previewComponent: <ShippingDeliveryInformation17 data={shippingDeliveryInformation17Data as any} /> }, { id: "shipping-delivery-information-18", title: "PARALLAX LAYERS DELIVERY VAN", description: "A multi-layered parallax scrolling effect of a delivery van driving through a city.", previewComponent: <ShippingDeliveryInformation18 data={shippingDeliveryInformation18Data as any} /> }, { id: "shipping-delivery-information-19", title: "HORIZONTAL ACCORDION", description: "Expanding horizontal accordion columns to beautifully display different shipping tiers.", previewComponent: <ShippingDeliveryInformation19 data={shippingDeliveryInformation19Data as any} /> }, { id: "shipping-delivery-information-20", title: "SCROLL SCRUBBER OR DRAGGABLE INDICATOR", description: "A vertical timeline with a draggable progress indicator to see different shipping phases.", previewComponent: <ShippingDeliveryInformation20 data={shippingDeliveryInformation20Data as any} /> }] : category === 'hero' 
+    return category === 'free-shipping-progress' ? [
+      { id: 'free-shipping-progress-1', title: "Editorial Typography Statement", description: "No card container box. Oversized typography hero statement placing focus on the exact remaining amount with a minimal underline progress line.", previewComponent: <FreeShippingProgress1 data={freeShippingProgress1Data} /> },
+      { id: 'free-shipping-progress-2', title: "Radial Donut Threshold Gauge", description: "Large circular donut progress gauge centered visually with percentage readout inside and remaining details below.", previewComponent: <FreeShippingProgress2 data={freeShippingProgress2Data} /> },
+      { id: 'free-shipping-progress-3', title: "Milestone Roadmap Journey", description: "Horizontal roadmap timeline with milestone nodes connecting cart total to destination.", previewComponent: <FreeShippingProgress3 data={freeShippingProgress3Data} /> },
+      { id: 'free-shipping-progress-4', title: "Vertical Process Flow Column", description: "Vertical process column connecting Cart Value down to Free Shipping Target.", previewComponent: <FreeShippingProgress4 data={freeShippingProgress4Data} /> },
+      { id: 'free-shipping-progress-5', title: "Threshold Split Comparison", description: "2-column split card comparing Current Cart Value against Target Threshold with a middle indicator bridge.", previewComponent: <FreeShippingProgress5 data={freeShippingProgress5Data} /> },
+      { id: 'free-shipping-progress-6', title: "Segmented Block Track Meter", description: "Discrete block segments that illuminate step-by-step.", previewComponent: <FreeShippingProgress6 data={freeShippingProgress6Data} /> },
+      { id: 'free-shipping-progress-7', title: "Shopping Bag Fill Graphic", description: "Vector Shopping Bag illustration filling with liquid color as threshold increases.", previewComponent: <FreeShippingProgress7 data={freeShippingProgress7Data} /> },
+      { id: 'free-shipping-progress-8', title: "Package Box Level Indicator", description: "Delivery box visual filling up progressively.", previewComponent: <FreeShippingProgress8 data={freeShippingProgress8Data} /> },
+      { id: 'free-shipping-progress-9', title: "Target Destination Bulls-Eye", description: "Visual target destination with an animated pointer moving toward the zero shipping fee target center.", previewComponent: <FreeShippingProgress9 data={freeShippingProgress9Data} /> },
+      { id: 'free-shipping-progress-10', title: "Countdown Distance Counter", description: "Digital timer aesthetic focusing on exact distance remaining.", previewComponent: <FreeShippingProgress10 data={freeShippingProgress10Data} /> },
+      { id: 'free-shipping-progress-11', title: "Multi-Tier Benefit Ladder", description: "3-tier step ladder showing active level highlight.", previewComponent: <FreeShippingProgress11 data={freeShippingProgress11Data} /> },
+      { id: 'free-shipping-progress-12', title: "Asymmetric Editorial Layout", description: "Asymmetric off-center composition with massive metric left and stacked progress right.", previewComponent: <FreeShippingProgress12 data={freeShippingProgress12Data} /> },
+      { id: 'free-shipping-progress-13', title: "Full-Width Commerce Status Strip", description: "Edge-to-edge commerce status strip across the page.", previewComponent: <FreeShippingProgress13 data={freeShippingProgress13Data} /> },
+      { id: 'free-shipping-progress-14', title: "Vertical Thermometer Meter", description: "Vertical progress gauge rising upward.", previewComponent: <FreeShippingProgress14 data={freeShippingProgress14Data} /> },
+      { id: 'free-shipping-progress-15', title: "Ring + Content Split Layout", description: "Ring chart on left, detailed info breakdown on right.", previewComponent: <FreeShippingProgress15 data={freeShippingProgress15Data} /> },
+      { id: 'free-shipping-progress-16', title: "Interactive Benefit Reveal", description: "Milestones reveal perks upon progression.", previewComponent: <FreeShippingProgress16 data={freeShippingProgress16Data} /> },
+      { id: 'free-shipping-progress-17', title: "Minimal Cart Sidebar Micro Pill", description: "Ultra-compact status pill for cart sidebar.", previewComponent: <FreeShippingProgress17 data={freeShippingProgress17Data} /> },
+      { id: 'free-shipping-progress-18', title: "Achievement State Transformation", description: "Focuses on the transformation between LOCKED and UNLOCKED states.", previewComponent: <FreeShippingProgress18 data={freeShippingProgress18Data} /> },
+      { id: 'free-shipping-progress-19', title: "Visual Route Path Journey", description: "Winding SVG path with delivery van traveling along the path.", previewComponent: <FreeShippingProgress19 data={freeShippingProgress19Data} /> },
+      { id: 'free-shipping-progress-20', title: "Experimental Award Glassmorphic", description: "Unconventional award-level glassmorphic card featuring dimensional motion & liquid wave physics.", previewComponent: <FreeShippingProgress20 data={freeShippingProgress20Data} /> }
+    ] : (category === 'shipping-delivery-information' || category === 'shipping-information') ? [{ id: 'shipping-delivery-information-1', title: 'GLASS ICON GRID', description: 'A futuristic global shipping grid using ReactBits style glass icons that pop with a glow on hover.', previewComponent: <ShippingDeliveryInformation1 data={shippingDeliveryInformation1Data} /> }, { id: 'shipping-delivery-information-2', title: 'PORTAL REVEAL HERO', description: 'A stunning portal animation where the screen parts open to reveal a full-bleed background image with express delivery details.', previewComponent: <ShippingDeliveryInformation2 data={shippingDeliveryInformation2Data} /> }, { id: 'shipping-delivery-information-3', title: 'INFINITE MARQUEE TAPE', description: 'A diagonal, brutalist infinite scrolling ticker tape delivering shipping highlights on an endless loop.', previewComponent: <ShippingDeliveryInformation3 data={shippingDeliveryInformation3Data} /> }, { id: 'shipping-delivery-information-4', title: 'TYPOGRAPHIC DESTINATIONS', description: 'A minimalist TypeUI-inspired destination selector featuring massive typography and sleek cross-fade state transitions.', previewComponent: <ShippingDeliveryInformation4 data={shippingDeliveryInformation4Data} /> }, { id: 'shipping-delivery-information-5', title: 'ANIMATED ROUTE ARC', description: 'A visual route tracker that literally draws an arc connecting the warehouse to your door as you scroll down.', previewComponent: <ShippingDeliveryInformation5 data={shippingDeliveryInformation5Data} /> }, { id: 'shipping-delivery-information-6', title: '3D BOX UNBOXING', description: 'An interactive unboxing experience. Hover over the card to pop open the top flaps of the 3D box.', previewComponent: <ShippingDeliveryInformation6 data={shippingDeliveryInformation6Data} /> }, { id: 'shipping-delivery-information-7', title: 'STEPPER TIMELINE', description: 'An elegant step-by-step delivery journey that connects each phase with an animated blue progress line.', previewComponent: <ShippingDeliveryInformation7 data={shippingDeliveryInformation7Data} /> }, { id: 'shipping-delivery-information-8', title: 'ESTIMATOR CALCULATOR', description: 'An interactive shipping estimator tool featuring input animations and a delayed celebration toast on success.', previewComponent: <ShippingDeliveryInformation8 data={shippingDeliveryInformation8Data} /> }, { id: 'shipping-delivery-information-9', title: 'DRIVING TRUCK TOY', description: 'A playful hover micro-interaction where a delivery truck hits the gas and bumps along an animated road.', previewComponent: <ShippingDeliveryInformation9 data={shippingDeliveryInformation9Data} /> }, { id: 'shipping-delivery-information-10', title: 'PACKING SLIP RECEIPT', description: 'A skeuomorphic design featuring a printed packing slip that physically slides out of an envelope when in view.', previewComponent: <ShippingDeliveryInformation10 data={shippingDeliveryInformation10Data} /> }, { id: "shipping-delivery-information-11", title: "SCROLL-LINKED PROGRESS MAP", description: "A dotted map where scroll-linked progress fills the path connecting global nodes.", previewComponent: <ShippingDeliveryInformation11 data={shippingDeliveryInformation11Data as any} /> }, { id: "shipping-delivery-information-12", title: "3D INTERACTIVE CARD FLIP", description: "A shipping label that can be flipped in 3D to reveal the return policy on the back.", previewComponent: <ShippingDeliveryInformation12 data={shippingDeliveryInformation12Data as any} /> }, { id: "shipping-delivery-information-13", title: "STAGGERED TRACKING LIST", description: "A list of tracking events that enters with a staggered blur and slide animation.", previewComponent: <ShippingDeliveryInformation13 data={shippingDeliveryInformation13Data as any} /> }, { id: "shipping-delivery-information-14", title: "FLOATING ACTION BUTTON EXPAND", description: "A circular shipping icon that elegantly expands into a full delivery details panel when clicked.", previewComponent: <ShippingDeliveryInformation14 data={shippingDeliveryInformation14Data as any} /> }, { id: "shipping-delivery-information-15", title: "SWIPE-TO-CONFIRM DELIVERY", description: "An interactive slider simulation for swipe to receive or confirm delivery.", previewComponent: <ShippingDeliveryInformation15 data={shippingDeliveryInformation15Data as any} /> }, { id: "shipping-delivery-information-16", title: "CURSOR-BASED SPOTLIGHT REVEAL", description: "A dark card where the users cursor acts as a flashlight to reveal a classified map underneath.", previewComponent: <ShippingDeliveryInformation16 data={shippingDeliveryInformation16Data as any} /> }, { id: "shipping-delivery-information-17", title: "DYNAMIC SKELETON LOADER", description: "A beautiful skeleton loader that morphs directly into a delivery manifest layout.", previewComponent: <ShippingDeliveryInformation17 data={shippingDeliveryInformation17Data as any} /> }, { id: "shipping-delivery-information-18", title: "PARALLAX LAYERS DELIVERY VAN", description: "A multi-layered parallax scrolling effect of a delivery van driving through a city.", previewComponent: <ShippingDeliveryInformation18 data={shippingDeliveryInformation18Data as any} /> }, { id: "shipping-delivery-information-19", title: "HORIZONTAL ACCORDION", description: "Expanding horizontal accordion columns to beautifully display different shipping tiers.", previewComponent: <ShippingDeliveryInformation19 data={shippingDeliveryInformation19Data as any} /> }, { id: "shipping-delivery-information-20", title: "SCROLL SCRUBBER OR DRAGGABLE INDICATOR", description: "A vertical timeline with a draggable progress indicator to see different shipping phases.", previewComponent: <ShippingDeliveryInformation20 data={shippingDeliveryInformation20Data as any} /> }] : category === 'hero' 
     ? [...baseHeroSections, ...placeholderHeroSections] 
     : category === 'promotional'
     ? [...basePromotionalSections, ...placeholderPromotionalSections]
@@ -6742,7 +7366,7 @@ export function SectionLibraryGrid({ category }: GridProps) {
           previewComponent: <WarrantyInformation20 data={warrantyInformation20Data as any} />
         }
       ] :
-    category === 'shipping-delivery-information' ? [
+    (category === 'shipping-delivery-information' || category === 'shipping-information') ? [
         {
           id: 'shipping-delivery-information-1',
           title: 'GLASS ICON GRID',
@@ -6805,1805 +7429,383 @@ export function SectionLibraryGrid({ category }: GridProps) {
         },
         {
           id: 'shipping-delivery-information-11',
-          title: 'Shipping & Delivery Information 11',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: shippingDeliveryInformation11Data.title || 'PREMIUM SHIPPING TABLE',
+          description: shippingDeliveryInformation11Data.description || 'A refined editorial data table comparing method, transit window, fee structure, and tracking type.',
           previewComponent: <ShippingDeliveryInformation11 data={shippingDeliveryInformation11Data as any} />
         },
         {
           id: 'shipping-delivery-information-12',
-          title: 'Shipping & Delivery Information 12',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: shippingDeliveryInformation12Data.title || 'Shipping Information 12',
+          description: shippingDeliveryInformation12Data.description || 'Shipping Information 12 details.',
           previewComponent: <ShippingDeliveryInformation12 data={shippingDeliveryInformation12Data as any} />
         },
         {
           id: 'shipping-delivery-information-13',
-          title: 'Shipping & Delivery Information 13',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: shippingDeliveryInformation13Data.title || 'Shipping Information 13',
+          description: shippingDeliveryInformation13Data.description || 'Shipping Information 13 details.',
           previewComponent: <ShippingDeliveryInformation13 data={shippingDeliveryInformation13Data as any} />
         },
         {
           id: 'shipping-delivery-information-14',
-          title: 'Shipping & Delivery Information 14',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: shippingDeliveryInformation14Data.title || 'Shipping Information 14',
+          description: shippingDeliveryInformation14Data.description || 'Shipping Information 14 details.',
           previewComponent: <ShippingDeliveryInformation14 data={shippingDeliveryInformation14Data as any} />
         },
         {
           id: 'shipping-delivery-information-15',
-          title: 'Shipping & Delivery Information 15',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: shippingDeliveryInformation15Data.title || 'Shipping Information 15',
+          description: shippingDeliveryInformation15Data.description || 'Shipping Information 15 details.',
           previewComponent: <ShippingDeliveryInformation15 data={shippingDeliveryInformation15Data as any} />
         },
         {
           id: 'shipping-delivery-information-16',
-          title: 'Shipping & Delivery Information 16',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: shippingDeliveryInformation16Data.title || 'Shipping Information 16',
+          description: shippingDeliveryInformation16Data.description || 'Shipping Information 16 details.',
           previewComponent: <ShippingDeliveryInformation16 data={shippingDeliveryInformation16Data as any} />
         },
         {
           id: 'shipping-delivery-information-17',
-          title: 'Shipping & Delivery Information 17',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: shippingDeliveryInformation17Data.title || 'Shipping Information 17',
+          description: shippingDeliveryInformation17Data.description || 'Shipping Information 17 details.',
           previewComponent: <ShippingDeliveryInformation17 data={shippingDeliveryInformation17Data as any} />
         },
         {
           id: 'shipping-delivery-information-18',
-          title: 'Shipping & Delivery Information 18',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: shippingDeliveryInformation18Data.title || 'Shipping Information 18',
+          description: shippingDeliveryInformation18Data.description || 'Shipping Information 18 details.',
           previewComponent: <ShippingDeliveryInformation18 data={shippingDeliveryInformation18Data as any} />
         },
         {
           id: 'shipping-delivery-information-19',
-          title: 'Shipping & Delivery Information 19',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: shippingDeliveryInformation19Data.title || 'Shipping Information 19',
+          description: shippingDeliveryInformation19Data.description || 'Shipping Information 19 details.',
           previewComponent: <ShippingDeliveryInformation19 data={shippingDeliveryInformation19Data as any} />
         },
         {
           id: 'shipping-delivery-information-20',
-          title: 'Shipping & Delivery Information 20',
-          description: 'Clear presentation of shipping methods, delivery estimates, and related delivery information.',
+          title: shippingDeliveryInformation20Data.title || 'Shipping Information 20',
+          description: shippingDeliveryInformation20Data.description || 'Shipping Information 20 details.',
           previewComponent: <ShippingDeliveryInformation20 data={shippingDeliveryInformation20Data as any} />
         }
       ] :
     category === 'return-refund-information' ? [{ id: "return-refund-information-1", title: "INFINITE RETURN CAROUSEL", description: "An infinite scrolling marquee of return perks highlighting seamless returns.", previewComponent: <ReturnRefundInformation1 data={returnRefundInformation1Data as any} /> }, { id: "return-refund-information-2", title: "GLASSMORPHISM RETURN PORTAL", description: "A 3D glass card layout where hovering tilts the glass and reveals return instructions.", previewComponent: <ReturnRefundInformation2 data={returnRefundInformation2Data as any} /> }, { id: "return-refund-information-3", title: "PORTAL REVEAL HERO", description: "A hero section where you click Initiate Return and the screen parts in half to reveal content.", previewComponent: <ReturnRefundInformation3 data={returnRefundInformation3Data as any} /> }, { id: "return-refund-information-4", title: "BRUTALIST RETURN POLICY", description: "Huge, striking typography that cross-fades between different policy highlights.", previewComponent: <ReturnRefundInformation4 data={returnRefundInformation4Data as any} /> }, { id: "return-refund-information-5", title: "INTERACTIVE REFUND SLIDER", description: "A Swipe to Refund physical slider that turns green when dragged all the way.", previewComponent: <ReturnRefundInformation5 data={returnRefundInformation5Data as any} /> }, { id: "return-refund-information-6", title: "3D BOX RE-PACKING", description: "A reverse unboxing animation where hovering makes a 3D cardboard box close and tape itself shut.", previewComponent: <ReturnRefundInformation6 data={returnRefundInformation6Data as any} /> }, { id: "return-refund-information-7", title: "STAGGERED POLICY REVEAL", description: "A timeline of the return process that animates sequentially as you scroll into view.", previewComponent: <ReturnRefundInformation7 data={returnRefundInformation7Data as any} /> }, { id: "return-refund-information-8", title: "CURSOR FOLLOW SPOTLIGHT", description: "A dark-mode return policy card where the users cursor acts as a spotlight.", previewComponent: <ReturnRefundInformation8 data={returnRefundInformation8Data as any} /> }, { id: "return-refund-information-9", title: "ANIMATED RECEIPT SHREDDER", description: "A playful animation where clicking drops a receipt into a shredder to void an order.", previewComponent: <ReturnRefundInformation9 data={returnRefundInformation9Data as any} /> }, { id: "return-refund-information-10", title: "PARALLAX REFUND JOURNEY", description: "A parallax infinite loop showing a package traveling back from a house to a warehouse.", previewComponent: <ReturnRefundInformation10 data={returnRefundInformation10Data as any} /> }, { id: "return-refund-information-11", title: "GRID TO DETAILS MORPH", description: "A grid of return reasons that seamlessly morphs into a detailed policy card when clicked.", previewComponent: <ReturnRefundInformation11 data={returnRefundInformation11Data as any} /> }, { id: "return-refund-information-12", title: "ORGANIC BLOB BACKGROUND", description: "A soft, organic blob background that slowly morphs behind a glassmorphism policy card.", previewComponent: <ReturnRefundInformation12 data={returnRefundInformation12Data as any} /> }, { id: "return-refund-information-13", title: "DRAG TO RETURN", description: "An interactive drag-and-drop zone where you drag an item into a box to reveal the policy.", previewComponent: <ReturnRefundInformation13 data={returnRefundInformation13Data as any} /> }, { id: "return-refund-information-14", title: "TERMINAL AUTOTYPING", description: "A strict terminal interface that types out the automated refund policy.", previewComponent: <ReturnRefundInformation14 data={returnRefundInformation14Data as any} /> }, { id: "return-refund-information-15", title: "3D ORIGAMI ACCORDION", description: "A 3D origami-style accordion that physically unfolds down the screen.", previewComponent: <ReturnRefundInformation15 data={returnRefundInformation15Data as any} /> }, { id: "return-refund-information-16", title: "DATA VIZ POLICY", description: "Animated 3D bars showcasing 100% Refunds and 0% Restocking Fees.", previewComponent: <ReturnRefundInformation16 data={returnRefundInformation16Data as any} /> }, { id: "return-refund-information-17", title: "MAGNETIC HOVER REVEAL", description: "A magnetic button that sticks to the cursor and unlocks the policy when clicked.", previewComponent: <ReturnRefundInformation17 data={returnRefundInformation17Data as any} /> }, { id: "return-refund-information-18", title: "MULTI-LAYER TEXT MASK", description: "Huge text masking a visual journey, expanding to show full refund details.", previewComponent: <ReturnRefundInformation18 data={returnRefundInformation18Data as any} /> }, { id: "return-refund-information-19", title: "CYBERPUNK NEON GLOW", description: "A futuristic glowing neon outline that traces the borders of the return policy.", previewComponent: <ReturnRefundInformation19 data={returnRefundInformation19Data as any} /> }, { id: "return-refund-information-20", title: "SCRATCH CARD SIMULATOR", description: "A fun simulation where clicking reveals the hidden return policy underneath a coating.", previewComponent: <ReturnRefundInformation20 data={returnRefundInformation20Data as any} /> }] :
     category === 'payment-information' ? [{ id: "payment-information-1", title: "3D CREDIT CARD FLIP", description: "A realistic 3D credit card that flips over when you hover to show the CVC and security details.", previewComponent: <PaymentInformation1 data={paymentInformation1Data as any} /> }, { id: "payment-information-2", title: "INFINITE PAYMENT MARQUEE", description: "An infinite scrolling banner of accepted payment methods using glassmorphism logos.", previewComponent: <PaymentInformation2 data={paymentInformation2Data as any} /> }, { id: "payment-information-3", title: "INTERACTIVE RECEIPT PRINTER", description: "A terminal that literally prints out a sample encrypted, secure payment confirmation.", previewComponent: <PaymentInformation3 data={paymentInformation3Data as any} /> }, { id: "payment-information-4", title: "BIOMETRIC SCAN SIMULATOR", description: "A payment security component that simulates a fingerprint scan with laser animations.", previewComponent: <PaymentInformation4 data={paymentInformation4Data as any} /> }, { id: "payment-information-5", title: "CARD STACKING ACCORDION", description: "A vertical stack of different payment methods that fan out when you hover.", previewComponent: <PaymentInformation5 data={paymentInformation5Data as any} /> }, { id: "payment-information-6", title: "NFC TAP ANIMATION", description: "A mobile phone hovering over a terminal, simulating an NFC tap to pay.", previewComponent: <PaymentInformation6 data={paymentInformation6Data as any} /> }, { id: "payment-information-7", title: "SECURE VAULT LOCK", description: "A giant 3D vault padlock that snaps shut and glows green to signify bank-grade encryption.", previewComponent: <PaymentInformation7 data={paymentInformation7Data as any} /> }, { id: "payment-information-8", title: "INTERACTIVE SPLIT PAYMENT", description: "A custom slider that lets the user visually split a payment between multiple cards.", previewComponent: <PaymentInformation8 data={paymentInformation8Data as any} /> }, { id: "payment-information-9", title: "CYBERPUNK PAYMENT TERMINAL", description: "A dark mode terminal with a loading bar and hex codes that resolves into PAYMENT SECURED.", previewComponent: <PaymentInformation9 data={paymentInformation9Data as any} /> }, { id: "payment-information-10", title: "PORTAL REVEAL GATEWAY", description: "A huge vault door that slides open to reveal your secure payment gateway.", previewComponent: <PaymentInformation10 data={paymentInformation10Data as any} /> }, { id: "payment-information-11", title: paymentInformation11Data.title || "", description: paymentInformation11Data.description || "", previewComponent: <PaymentInformation11 data={paymentInformation11Data as any} /> }, { id: "payment-information-12", title: paymentInformation12Data.title || "", description: paymentInformation12Data.description || "", previewComponent: <PaymentInformation12 data={paymentInformation12Data as any} /> }, { id: "payment-information-13", title: paymentInformation13Data.title || "", description: paymentInformation13Data.description || "", previewComponent: <PaymentInformation13 data={paymentInformation13Data as any} /> }, { id: "payment-information-14", title: paymentInformation14Data.title || "", description: paymentInformation14Data.description || "", previewComponent: <PaymentInformation14 data={paymentInformation14Data as any} /> }, { id: "payment-information-15", title: paymentInformation15Data.title || "", description: paymentInformation15Data.description || "", previewComponent: <PaymentInformation15 data={paymentInformation15Data as any} /> }, { id: "payment-information-16", title: paymentInformation16Data.title || "", description: paymentInformation16Data.description || "", previewComponent: <PaymentInformation16 data={paymentInformation16Data as any} /> }, { id: "payment-information-17", title: paymentInformation17Data.title || "", description: paymentInformation17Data.description || "", previewComponent: <PaymentInformation17 data={paymentInformation17Data as any} /> }, { id: "payment-information-18", title: paymentInformation18Data.title || "", description: paymentInformation18Data.description || "", previewComponent: <PaymentInformation18 data={paymentInformation18Data as any} /> }, { id: "payment-information-19", title: paymentInformation19Data.title || "", description: paymentInformation19Data.description || "", previewComponent: <PaymentInformation19 data={paymentInformation19Data as any} /> }, { id: "payment-information-20", title: paymentInformation20Data.title || "", description: paymentInformation20Data.description || "", previewComponent: <PaymentInformation20 data={paymentInformation20Data as any} /> }] :
-    category === 'frequently-bought-together' ? [{ id: "frequently-bought-together-1", title: frequentlyBoughtTogether1Data.title || "", description: frequentlyBoughtTogether1Data.description || "", previewComponent: <FrequentlyBoughtTogether1 data={frequentlyBoughtTogether1Data as any} /> }, { id: "frequently-bought-together-2", title: frequentlyBoughtTogether2Data.title || "", description: frequentlyBoughtTogether2Data.description || "", previewComponent: <FrequentlyBoughtTogether2 data={frequentlyBoughtTogether2Data as any} /> }, { id: "frequently-bought-together-3", title: frequentlyBoughtTogether3Data.title || "", description: frequentlyBoughtTogether3Data.description || "", previewComponent: <FrequentlyBoughtTogether3 data={frequentlyBoughtTogether3Data as any} /> }, { id: "frequently-bought-together-4", title: frequentlyBoughtTogether4Data.title || "", description: frequentlyBoughtTogether4Data.description || "", previewComponent: <FrequentlyBoughtTogether4 data={frequentlyBoughtTogether4Data as any} /> }, { id: "frequently-bought-together-5", title: frequentlyBoughtTogether5Data.title || "", description: frequentlyBoughtTogether5Data.description || "", previewComponent: <FrequentlyBoughtTogether5 data={frequentlyBoughtTogether5Data as any} /> }, { id: "frequently-bought-together-6", title: frequentlyBoughtTogether6Data.title || "", description: frequentlyBoughtTogether6Data.description || "", previewComponent: <FrequentlyBoughtTogether6 data={frequentlyBoughtTogether6Data as any} /> }, { id: "frequently-bought-together-7", title: frequentlyBoughtTogether7Data.title || "", description: frequentlyBoughtTogether7Data.description || "", previewComponent: <FrequentlyBoughtTogether7 data={frequentlyBoughtTogether7Data as any} /> }, { id: "frequently-bought-together-8", title: frequentlyBoughtTogether8Data.title || "", description: frequentlyBoughtTogether8Data.description || "", previewComponent: <FrequentlyBoughtTogether8 data={frequentlyBoughtTogether8Data as any} /> }, { id: "frequently-bought-together-9", title: frequentlyBoughtTogether9Data.title || "", description: frequentlyBoughtTogether9Data.description || "", previewComponent: <FrequentlyBoughtTogether9 data={frequentlyBoughtTogether9Data as any} /> }, { id: "frequently-bought-together-10", title: frequentlyBoughtTogether10Data.title || "", description: frequentlyBoughtTogether10Data.description || "", previewComponent: <FrequentlyBoughtTogether10 data={frequentlyBoughtTogether10Data as any} /> }, { id: "frequently-bought-together-11", title: frequentlyBoughtTogether11Data.title || "", description: frequentlyBoughtTogether11Data.description || "", previewComponent: <FrequentlyBoughtTogether11 data={frequentlyBoughtTogether11Data as any} /> }, { id: "frequently-bought-together-12", title: frequentlyBoughtTogether12Data.title || "", description: frequentlyBoughtTogether12Data.description || "", previewComponent: <FrequentlyBoughtTogether12 data={frequentlyBoughtTogether12Data as any} /> }, { id: "frequently-bought-together-13", title: frequentlyBoughtTogether13Data.title || "", description: frequentlyBoughtTogether13Data.description || "", previewComponent: <FrequentlyBoughtTogether13 data={frequentlyBoughtTogether13Data as any} /> }, { id: "frequently-bought-together-14", title: frequentlyBoughtTogether14Data.title || "", description: frequentlyBoughtTogether14Data.description || "", previewComponent: <FrequentlyBoughtTogether14 data={frequentlyBoughtTogether14Data as any} /> }, { id: "frequently-bought-together-15", title: frequentlyBoughtTogether15Data.title || "", description: frequentlyBoughtTogether15Data.description || "", previewComponent: <FrequentlyBoughtTogether15 data={frequentlyBoughtTogether15Data as any} /> }, { id: "frequently-bought-together-16", title: frequentlyBoughtTogether16Data.title || "", description: frequentlyBoughtTogether16Data.description || "", previewComponent: <FrequentlyBoughtTogether16 data={frequentlyBoughtTogether16Data as any} /> }, { id: "frequently-bought-together-17", title: frequentlyBoughtTogether17Data.title || "", description: frequentlyBoughtTogether17Data.description || "", previewComponent: <FrequentlyBoughtTogether17 data={frequentlyBoughtTogether17Data as any} /> }, { id: "frequently-bought-together-18", title: frequentlyBoughtTogether18Data.title || "", description: frequentlyBoughtTogether18Data.description || "", previewComponent: <FrequentlyBoughtTogether18 data={frequentlyBoughtTogether18Data as any} /> }, { id: "frequently-bought-together-19", title: frequentlyBoughtTogether19Data.title || "", description: frequentlyBoughtTogether19Data.description || "", previewComponent: <FrequentlyBoughtTogether19 data={frequentlyBoughtTogether19Data as any} /> }, { id: "frequently-bought-together-20", title: frequentlyBoughtTogether20Data.title || "", description: frequentlyBoughtTogether20Data.description || "", previewComponent: <FrequentlyBoughtTogether20 data={frequentlyBoughtTogether20Data as any} /> }] :
-    category === 'product-bundles' ? [
-        {
-          id: 'product-bundles-1',
-          title: productBundles1Data.title || "01. GLASSMORPHISM CREATOR STUDIO BUNDLE",
-          description: productBundles1Data.description || "Frosted acrylic glass card stack with active add-on selection, dynamic price calculations, and live savings badge.",
-          previewComponent: <ProductBundles1 data={productBundles1Data as any} />
-        },
-        {
-          id: 'product-bundles-2',
-          title: productBundles2Data.title || "02. INFINITE REEL TIER SLIDER BUNDLE",
-          description: productBundles2Data.description || "Horizontal sliding card reel for 3 bundle tiers with spring-damped drag and tap selection.",
-          previewComponent: <ProductBundles2 data={productBundles2Data as any} />
-        },
-        {
-          id: 'product-bundles-3',
-          title: productBundles3Data.title || "03. 3D FLOATING ECOSYSTEM UNCOVER BUNDLE",
-          description: productBundles3Data.description || "Layered 3D card layout where clicking Uncover Bundle triggers a smooth curtain reveal animation.",
-          previewComponent: <ProductBundles3 data={productBundles3Data as any} />
-        },
-        {
-          id: 'product-bundles-4',
-          title: productBundles4Data.title || "04. MODULAR SMART SECURITY SYSTEM",
-          description: productBundles4Data.description || "Interactive hub-and-spoke layout with base station and smart camera attachments.",
-          previewComponent: <ProductBundles4 data={productBundles4Data as any} />
-        },
-        {
-          id: 'product-bundles-5',
-          title: productBundles5Data.title || "05. MINIMALIST SNEAKER & HOODIE FIT SET",
-          description: productBundles5Data.description || "Clean Scandinavian aesthetic sneaker and matching hoodie bundle set.",
-          previewComponent: <ProductBundles5 data={productBundles5Data as any} />
-        },
-        {
-          id: 'product-bundles-6',
-          title: productBundles6Data.title || "06. CYBERPUNK PRO BATTLESTATION PACK",
-          description: productBundles6Data.description || "Futuristic neon cyan/magenta matrix style RGB gaming setup bundle.",
-          previewComponent: <ProductBundles6 data={productBundles6Data as any} />
-        },
-        {
-          id: 'product-bundles-7',
-          title: productBundles7Data.title || "07. RETRO ANALOG FILM CAMERA BUNDLE",
-          description: productBundles7Data.description || "Classic analog instant camera with leather case and 3-pack film accessories.",
-          previewComponent: <ProductBundles7 data={productBundles7Data as any} />
-        },
-        {
-          id: 'product-bundles-8',
-          title: productBundles8Data.title || "08. NEUMORPHIC AUDIOPHILE LISTENING SUITE",
-          description: productBundles8Data.description || "Soft-shadow tactile container with wireless ANC headphones and aluminum stand.",
-          previewComponent: <ProductBundles8 data={productBundles8Data as any} />
-        },
-        {
-          id: 'product-bundles-9',
-          title: productBundles9Data.title || "09. LUXURY TIMEPIECE GIFT PACK",
-          description: productBundles9Data.description || "Luxury leather timepiece with extra Italian calfskin strap gift pack.",
-          previewComponent: <ProductBundles9 data={productBundles9Data as any} />
-        },
-        {
-          id: 'product-bundles-10',
-          title: productBundles10Data.title || "10. 360-DEGREE INTERACTIVE TECH SUITE",
-          description: productBundles10Data.description || "Interactive 360 product view rotator for core item in bundle with floating accessory cards.",
-          previewComponent: <ProductBundles10 data={productBundles10Data as any} />
-        },
-        {
-          id: 'product-bundles-11',
-          title: productBundles11Data.title || "11. CURSOR SPOTLIGHT REACTIVE BUNDLE",
-          description: productBundles11Data.description || "Dark mode spotlight glow effect following user cursor with audio setup bundle.",
-          previewComponent: <ProductBundles11 data={productBundles11Data as any} />
-        },
-        {
-          id: 'product-bundles-12',
-          title: productBundles12Data.title || "12. HAPTIC ERROR ACTION CAM BUNDLE",
-          description: productBundles12Data.description || "Waterproof Action Cam with checkable kit accessories and haptic error feedback.",
-          previewComponent: <ProductBundles12 data={productBundles12Data as any} />
-        },
-        {
-          id: 'product-bundles-13',
-          title: productBundles13Data.title || "13. 3D PARALLAX TILT WORKSTATION BUNDLE",
-          description: productBundles13Data.description || "3D mouse parallax tilt card featuring Ergonomic Desk and Dual Monitor Arm.",
-          previewComponent: <ProductBundles13 data={productBundles13Data as any} />
-        },
-        {
-          id: 'product-bundles-14',
-          title: productBundles14Data.title || "14. SHARED-ELEMENT QUICK VIEW BUNDLE",
-          description: productBundles14Data.description || "Compact bundle preview card expanding into a full-bleed modal preview overlay.",
-          previewComponent: <ProductBundles14 data={productBundles14Data as any} />
-        },
-        {
-          id: 'product-bundles-15',
-          title: productBundles15Data.title || "15. PULSATING SOUND AURA MUSIC SUITE",
-          description: productBundles15Data.description || "Studio Monitors and Audio Interface with animated audio waveform visualizer.",
-          previewComponent: <ProductBundles15 data={productBundles15Data as any} />
-        },
-        {
-          id: 'product-bundles-16',
-          title: productBundles16Data.title || "16. MULTI-STEP CUSTOM BUNDLE WIZARD",
-          description: productBundles16Data.description || "Step-by-step interactive bundle builder wizard (Core -> Accessories -> Protection).",
-          previewComponent: <ProductBundles16 data={productBundles16Data as any} />
-        },
-        {
-          id: 'product-bundles-17',
-          title: productBundles17Data.title || "17. DYNAMIC LIGHT & DARK MODE BUNDLE",
-          description: productBundles17Data.description || "In-card theme toggle (Light / Dark) for multi-device tablet ecosystem.",
-          previewComponent: <ProductBundles17 data={productBundles17Data as any} />
-        },
-        {
-          id: 'product-bundles-18',
-          title: productBundles18Data.title || "18. SKELETON SHIMMER DATA LOADER BUNDLE",
-          description: productBundles18Data.description || "Interactive skeleton shimmer preview loading state transitioning into real bundle products.",
-          previewComponent: <ProductBundles18 data={productBundles18Data as any} />
-        },
-        {
-          id: 'product-bundles-19',
-          title: productBundles19Data.title || "19. ORGANIC SVG BLOB ECO WORKSTATION",
-          description: productBundles19Data.description || "Continuous rotating background gradient blobs with eco-friendly bamboo workstation accessories.",
-          previewComponent: <ProductBundles19 data={productBundles19Data as any} />
-        },
-        {
-          id: 'product-bundles-20',
-          title: productBundles20Data.title || "20. ULTIMATE ALL-IN-ONE ENTERPRISE SUITE",
-          description: productBundles20Data.description || "Multi-card grid layout with savings countdown timer, verified review stars, and instant checkout CTA.",
-          previewComponent: <ProductBundles20 data={productBundles20Data as any} />
-        }
-      ] :
-    category === 'related-products' ? [
-        {
-          id: 'related-products-1',
-          title: relatedProducts1Data.title || "GLASSMORPHISM CAROUSEL RAIL",
-          description: relatedProducts1Data.description || "Dark frosted glass card carousel with specular highlights, smooth scroll, and active item toasts.",
-          previewComponent: <RelatedProducts1 data={relatedProducts1Data as any} />
-        },
-        {
-          id: 'related-products-2',
-          title: relatedProducts2Data.title || "INTERACTIVE TABBED CATEGORY REEL",
-          description: relatedProducts2Data.description || "Top tab category switcher with smooth spring sliders between companion tech packs.",
-          previewComponent: <RelatedProducts2 data={relatedProducts2Data as any} />
-        },
-        {
-          id: 'related-products-3',
-          title: relatedProducts3Data.title || "3D CURTAIN UNCOVER HERO SPLIT",
-          description: relatedProducts3Data.description || "Interactive uncover curtain reveal button unleashing 3D companion equipment.",
-          previewComponent: <RelatedProducts3 data={relatedProducts3Data as any} />
-        },
-        {
-          id: 'related-products-4',
-          title: relatedProducts4Data.title || "BENTO GRID RECOMMENDATION SHOWCASE",
-          description: relatedProducts4Data.description || "High-contrast bento grid layout displaying related accessories with rating stars.",
-          previewComponent: <RelatedProducts4 data={relatedProducts4Data as any} />
-        },
-        {
-          id: 'related-products-5',
-          title: relatedProducts5Data.title || "MINIMALIST SCANDINAVIAN LIGHT GRID",
-          description: relatedProducts5Data.description || "Clean Scandinavian white/beige design for fashion & footwear recommendations.",
-          previewComponent: <RelatedProducts5 data={relatedProducts5Data as any} />
-        },
-        {
-          id: 'related-products-6',
-          title: relatedProducts6Data.title || "CYBER MATRIX GAMING ACCESSORIES SLIDER",
-          description: relatedProducts6Data.description || "Dark futuristic gaming grid with glowing neon borders and hardware specs breakdown.",
-          previewComponent: <RelatedProducts6 data={relatedProducts6Data as any} />
-        },
-        {
-          id: 'related-products-7',
-          title: relatedProducts7Data.title || "SPLIT-SCREEN HERO INSPECTOR & RAIL",
-          description: relatedProducts7Data.description || "Left sticky main hero inspector paired with right side-scroll selection cards.",
-          previewComponent: <RelatedProducts7 data={relatedProducts7Data as any} />
-        },
-        {
-          id: 'related-products-8',
-          title: relatedProducts8Data.title || "NEUMORPHIC SOFT TACTILE AUDIO CARDS",
-          description: relatedProducts8Data.description || "Soft tactile neumorphic shadows with metallic highlights for audio accessories.",
-          previewComponent: <RelatedProducts8 data={relatedProducts8Data as any} />
-        },
-        {
-          id: 'related-products-9',
-          title: relatedProducts9Data.title || "EXPANDABLE SPEC ACCORDION REEL",
-          description: relatedProducts9Data.description || "Cards with expandable technical specifications accordion drawer.",
-          previewComponent: <RelatedProducts9 data={relatedProducts9Data as any} />
-        },
-        {
-          id: 'related-products-10',
-          title: relatedProducts10Data.title || "360-DEGREE INTERACTIVE LENS ROTATOR",
-          description: relatedProducts10Data.description || "Embedded 360 range slider for inspecting related camera lenses.",
-          previewComponent: <RelatedProducts10 data={relatedProducts10Data as any} />
-        },
-        {
-          id: 'related-products-11',
-          title: relatedProducts11Data.title || "CURSOR SPOTLIGHT GLOW GRID",
-          description: relatedProducts11Data.description || "Interactive cursor tracking spotlight glow background effect across slate cards.",
-          previewComponent: <RelatedProducts11 data={relatedProducts11Data as any} />
-        },
-        {
-          id: 'related-products-12',
-          title: relatedProducts12Data.title || "HAPTIC ERROR CHECKBOX ACCESSORY MATRIX",
-          description: relatedProducts12Data.description || "Action camera accessories rail with checkbox selections and haptic error feedback.",
-          previewComponent: <RelatedProducts12 data={relatedProducts12Data as any} />
-        },
-        {
-          id: 'related-products-13',
-          title: relatedProducts13Data.title || "3D MOUSE PARALLAX TILT CARDS",
-          description: relatedProducts13Data.description || "3D parallax tilt cards that rotate dynamically on mouse hover.",
-          previewComponent: <RelatedProducts13 data={relatedProducts13Data as any} />
-        },
-        {
-          id: 'related-products-14',
-          title: relatedProducts14Data.title || "SHARED-ELEMENT QUICK VIEW MODAL RAIL",
-          description: relatedProducts14Data.description || "Full-bleed quick view modal preview overlay trigger on card click.",
-          previewComponent: <RelatedProducts14 data={relatedProducts14Data as any} />
-        },
-        {
-          id: 'related-products-15',
-          title: relatedProducts15Data.title || "PULSATING SOUND AURA MUSIC SUITE",
-          description: relatedProducts15Data.description || "Music production accessories with animated audio visualizer pulses.",
-          previewComponent: <RelatedProducts15 data={relatedProducts15Data as any} />
-        },
-        {
-          id: 'related-products-16',
-          title: relatedProducts16Data.title || "MULTI-STEP RECOMMENDATION BUILDER WIZARD",
-          description: relatedProducts16Data.description || "Step-by-step recommendation flow (Step 1: Pick Case -> Step 2: Pick Strap).",
-          previewComponent: <RelatedProducts16 data={relatedProducts16Data as any} />
-        },
-        {
-          id: 'related-products-17',
-          title: relatedProducts17Data.title || "DYNAMIC LIGHT & DARK MODE SWITCHER RAIL",
-          description: relatedProducts17Data.description || "In-card theme toggle allowing real-time light/dark mode switching.",
-          previewComponent: <RelatedProducts17 data={relatedProducts17Data as any} />
-        },
-        {
-          id: 'related-products-18',
-          title: relatedProducts18Data.title || "SKELETON-TO-DATA SHIMMER LOADER REEL",
-          description: relatedProducts18Data.description || "Shimmering skeleton loader demo transitioning into real related items.",
-          previewComponent: <RelatedProducts18 data={relatedProducts18Data as any} />
-        },
-        {
-          id: 'related-products-19',
-          title: relatedProducts19Data.title || "ORGANIC SVG BLOB ECO RECOMMENDATIONS",
-          description: relatedProducts19Data.description || "Rotating gradient SVG blobs with eco-friendly bamboo desk accessories.",
-          previewComponent: <RelatedProducts19 data={relatedProducts19Data as any} />
-        },
-        {
-          id: 'related-products-20',
-          title: relatedProducts20Data.title || "ENTERPRISE COMPARISON TABLE & RECOMMENDATIONS",
-          description: relatedProducts20Data.description || "High-converting recommendation grid with verified review badges and instant checkout CTAs.",
-          previewComponent: <RelatedProducts20 data={relatedProducts20Data as any} />
-        }
-      ] :
-    category === 'similar-products' ? [
-        {
-          id: 'similar-products-1',
-          title: similarProducts1Data.title || "GLASSMORPHISM ALTERNATIVE CAROUSEL",
-          description: similarProducts1Data.description || "Dark frosted glass card carousel with specular highlights and model comparison tags.",
-          previewComponent: <SimilarProducts1 data={similarProducts1Data as any} />
-        },
-        {
-          id: 'similar-products-2',
-          title: similarProducts2Data.title || "INFINITE REEL ALTERNATIVE DECK",
-          description: similarProducts2Data.description || "Swipeable deck carousel for alternative product models with smooth spring sliders.",
-          previewComponent: <SimilarProducts2 data={similarProducts2Data as any} />
-        },
-        {
-          id: 'similar-products-3',
-          title: similarProducts3Data.title || "3D UNCOVER REVEAL ALTERNATIVES",
-          description: similarProducts3Data.description || "Curtain reveal trigger unveiling 3D-elevated similar models with side-by-side spec badges.",
-          previewComponent: <SimilarProducts3 data={similarProducts3Data as any} />
-        },
-        {
-          id: 'similar-products-4',
-          title: similarProducts4Data.title || "BENTO GRID COMPARISON MATRIX",
-          description: similarProducts4Data.description || "Bento grid layout comparing the current product against 3 alternative options.",
-          previewComponent: <SimilarProducts4 data={similarProducts4Data as any} />
-        },
-        {
-          id: 'similar-products-5',
-          title: similarProducts5Data.title || "SCANDINAVIAN LIGHT APPAREL ALTERNATIVES",
-          description: similarProducts5Data.description || "Clean white/beige design showing alternative sweater/jacket colors and fits.",
-          previewComponent: <SimilarProducts5 data={similarProducts5Data as any} />
-        },
-        {
-          id: 'similar-products-6',
-          title: similarProducts6Data.title || "CYBER MATRIX GAMING ALTERNATIVES",
-          description: similarProducts6Data.description || "Cyber gaming grid with RGB neon borders and benchmark comparison meters.",
-          previewComponent: <SimilarProducts6 data={similarProducts6Data as any} />
-        },
-        {
-          id: 'similar-products-7',
-          title: similarProducts7Data.title || "SPLIT HERO COMPARISON INSPECTOR",
-          description: similarProducts7Data.description || "Left sticky active product paired with right interactive list of similar alternatives.",
-          previewComponent: <SimilarProducts7 data={similarProducts7Data as any} />
-        },
-        {
-          id: 'similar-products-8',
-          title: similarProducts8Data.title || "NEUMORPHIC SOFT TACTILE AUDIO ALTERNATIVES",
-          description: similarProducts8Data.description || "Tactile soft shadow cards comparing noise-canceling headphones.",
-          previewComponent: <SimilarProducts8 data={similarProducts8Data as any} />
-        },
-        {
-          id: 'similar-products-9',
-          title: similarProducts9Data.title || "EXPANDABLE SPEC ACCORDION COMPARISON",
-          description: similarProducts9Data.description || "Accordion drawers inside each alternative card to compare battery, size, & price.",
-          previewComponent: <SimilarProducts9 data={similarProducts9Data as any} />
-        },
-        {
-          id: 'similar-products-10',
-          title: similarProducts10Data.title || "360-DEGREE INTERACTIVE LENS ALTERNATIVES",
-          description: similarProducts10Data.description || "360 viewer comparing alternative camera lens focal lengths.",
-          previewComponent: <SimilarProducts10 data={similarProducts10Data as any} />
-        },
-        {
-          id: 'similar-products-11',
-          title: similarProducts11Data.title || "CURSOR SPOTLIGHT GLOW ALTERNATIVES",
-          description: similarProducts11Data.description || "Interactive cursor spotlight tracking across alternative product cards.",
-          previewComponent: <SimilarProducts11 data={similarProducts11Data as any} />
-        },
-        {
-          id: 'similar-products-12',
-          title: similarProducts12Data.title || "HAPTIC ERROR FEATURE MATRIX",
-          description: similarProducts12Data.description || "Alternative action cameras with feature comparison checks and error feedback.",
-          previewComponent: <SimilarProducts12 data={similarProducts12Data as any} />
-        },
-        {
-          id: 'similar-products-13',
-          title: similarProducts13Data.title || "3D MOUSE PARALLAX TILT ALTERNATIVES",
-          description: similarProducts13Data.description || "3D parallax tilt cards rotating on mouse position.",
-          previewComponent: <SimilarProducts13 data={similarProducts13Data as any} />
-        },
-        {
-          id: 'similar-products-14',
-          title: similarProducts14Data.title || "SHARED-ELEMENT QUICK VIEW MODAL REEL",
-          description: similarProducts14Data.description || "Quick view modal popover comparing alternative apparel items.",
-          previewComponent: <SimilarProducts14 data={similarProducts14Data as any} />
-        },
-        {
-          id: 'similar-products-15',
-          title: similarProducts15Data.title || "PULSATING SOUND AURA AUDIO ALTERNATIVES",
-          description: similarProducts15Data.description || "Audio interface alternatives with sound wave visualizer pulses.",
-          previewComponent: <SimilarProducts15 data={similarProducts15Data as any} />
-        },
-        {
-          id: 'similar-products-16',
-          title: similarProducts16Data.title || "MULTI-STEP ALTERNATIVE FINDER WIZARD",
-          description: similarProducts16Data.description || "Step wizard to filter similar products by budget, style, and features.",
-          previewComponent: <SimilarProducts16 data={similarProducts16Data as any} />
-        },
-        {
-          id: 'similar-products-17',
-          title: similarProducts17Data.title || "DYNAMIC LIGHT & DARK MODE SWITCHER",
-          description: similarProducts17Data.description || "Theme switcher toggle between Dark & Light mode for tablet alternatives.",
-          previewComponent: <SimilarProducts17 data={similarProducts17Data as any} />
-        },
-        {
-          id: 'similar-products-18',
-          title: similarProducts18Data.title || "SKELETON SHIMMER DATA LOADER GRID",
-          description: similarProducts18Data.description || "Shimmering skeleton loader demo transitioning into real alternative items.",
-          previewComponent: <SimilarProducts18 data={similarProducts18Data as any} />
-        },
-        {
-          id: 'similar-products-19',
-          title: similarProducts19Data.title || "ORGANIC SVG BLOB ECO ALTERNATIVES",
-          description: similarProducts19Data.description || "Gradient SVG blobs with eco-friendly bamboo desk alternatives.",
-          previewComponent: <SimilarProducts19 data={similarProducts19Data as any} />
-        },
-        {
-          id: 'similar-products-20',
-          title: similarProducts20Data.title || "ULTIMATE ENTERPRISE COMPARISON SUITE",
-          description: similarProducts20Data.description || "Multi-card comparison table with rating stars, price diff badges, and instant switch CTA.",
-          previewComponent: <SimilarProducts20 data={similarProducts20Data as any} />
-        }
-      ] :
-    category === 'recommended-products' ? [
-        {
-          id: 'recommended-products-1',
-          title: recommendedProducts1Data.title || "Recommended Products 1",
-          description: recommendedProducts1Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts1 data={recommendedProducts1Data as any} />
-        },
-        {
-          id: 'recommended-products-2',
-          title: recommendedProducts2Data.title || "Recommended Products 2",
-          description: recommendedProducts2Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts2 data={recommendedProducts2Data as any} />
-        },
-        {
-          id: 'recommended-products-3',
-          title: recommendedProducts3Data.title || "Recommended Products 3",
-          description: recommendedProducts3Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts3 data={recommendedProducts3Data as any} />
-        },
-        {
-          id: 'recommended-products-4',
-          title: recommendedProducts4Data.title || "Recommended Products 4",
-          description: recommendedProducts4Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts4 data={recommendedProducts4Data as any} />
-        },
-        {
-          id: 'recommended-products-5',
-          title: recommendedProducts5Data.title || "Recommended Products 5",
-          description: recommendedProducts5Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts5 data={recommendedProducts5Data as any} />
-        },
-        {
-          id: 'recommended-products-6',
-          title: recommendedProducts6Data.title || "Recommended Products 6",
-          description: recommendedProducts6Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts6 data={recommendedProducts6Data as any} />
-        },
-        {
-          id: 'recommended-products-7',
-          title: recommendedProducts7Data.title || "Recommended Products 7",
-          description: recommendedProducts7Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts7 data={recommendedProducts7Data as any} />
-        },
-        {
-          id: 'recommended-products-8',
-          title: recommendedProducts8Data.title || "Recommended Products 8",
-          description: recommendedProducts8Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts8 data={recommendedProducts8Data as any} />
-        },
-        {
-          id: 'recommended-products-9',
-          title: recommendedProducts9Data.title || "Recommended Products 9",
-          description: recommendedProducts9Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts9 data={recommendedProducts9Data as any} />
-        },
-        {
-          id: 'recommended-products-10',
-          title: recommendedProducts10Data.title || "Recommended Products 10",
-          description: recommendedProducts10Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts10 data={recommendedProducts10Data as any} />
-        },
-        {
-          id: 'recommended-products-11',
-          title: recommendedProducts11Data.title || "Recommended Products 11",
-          description: recommendedProducts11Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts11 data={recommendedProducts11Data as any} />
-        },
-        {
-          id: 'recommended-products-12',
-          title: recommendedProducts12Data.title || "Recommended Products 12",
-          description: recommendedProducts12Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts12 data={recommendedProducts12Data as any} />
-        },
-        {
-          id: 'recommended-products-13',
-          title: recommendedProducts13Data.title || "Recommended Products 13",
-          description: recommendedProducts13Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts13 data={recommendedProducts13Data as any} />
-        },
-        {
-          id: 'recommended-products-14',
-          title: recommendedProducts14Data.title || "Recommended Products 14",
-          description: recommendedProducts14Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts14 data={recommendedProducts14Data as any} />
-        },
-        {
-          id: 'recommended-products-15',
-          title: recommendedProducts15Data.title || "Recommended Products 15",
-          description: recommendedProducts15Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts15 data={recommendedProducts15Data as any} />
-        },
-        {
-          id: 'recommended-products-16',
-          title: recommendedProducts16Data.title || "Recommended Products 16",
-          description: recommendedProducts16Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts16 data={recommendedProducts16Data as any} />
-        },
-        {
-          id: 'recommended-products-17',
-          title: recommendedProducts17Data.title || "Recommended Products 17",
-          description: recommendedProducts17Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts17 data={recommendedProducts17Data as any} />
-        },
-        {
-          id: 'recommended-products-18',
-          title: recommendedProducts18Data.title || "Recommended Products 18",
-          description: recommendedProducts18Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts18 data={recommendedProducts18Data as any} />
-        },
-        {
-          id: 'recommended-products-19',
-          title: recommendedProducts19Data.title || "Recommended Products 19",
-          description: recommendedProducts19Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts19 data={recommendedProducts19Data as any} />
-        },
-        {
-          id: 'recommended-products-20',
-          title: recommendedProducts20Data.title || "Recommended Products 20",
-          description: recommendedProducts20Data.description || "Personalized product recommendations.",
-          previewComponent: <RecommendedProducts20 data={recommendedProducts20Data as any} />
-        }
-      ] :
-    category === 'customer-reviews' ? [
-        {
-          id: 'customer-reviews-1',
-          title: 'Customer Reviews 1',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews1 data={customerReviews1Data as any} />
-        },
-        {
-          id: 'customer-reviews-2',
-          title: 'Customer Reviews 2',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews2 data={customerReviews2Data as any} />
-        },
-        {
-          id: 'customer-reviews-3',
-          title: 'Customer Reviews 3',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews3 data={customerReviews3Data as any} />
-        },
-        {
-          id: 'customer-reviews-4',
-          title: 'Customer Reviews 4',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews4 data={customerReviews4Data as any} />
-        },
-        {
-          id: 'customer-reviews-5',
-          title: 'Customer Reviews 5',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews5 data={customerReviews5Data as any} />
-        },
-        {
-          id: 'customer-reviews-6',
-          title: 'Customer Reviews 6',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews6 data={customerReviews6Data as any} />
-        },
-        {
-          id: 'customer-reviews-7',
-          title: 'Customer Reviews 7',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews7 data={customerReviews7Data as any} />
-        },
-        {
-          id: 'customer-reviews-8',
-          title: 'Customer Reviews 8',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews8 data={customerReviews8Data as any} />
-        },
-        {
-          id: 'customer-reviews-9',
-          title: 'Customer Reviews 9',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews9 data={customerReviews9Data as any} />
-        },
-        {
-          id: 'customer-reviews-10',
-          title: 'Customer Reviews 10',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews10 data={customerReviews10Data as any} />
-        },
-        {
-          id: 'customer-reviews-11',
-          title: 'Customer Reviews 11',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews11 data={customerReviews11Data as any} />
-        },
-        {
-          id: 'customer-reviews-12',
-          title: 'Customer Reviews 12',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews12 data={customerReviews12Data as any} />
-        },
-        {
-          id: 'customer-reviews-13',
-          title: 'Customer Reviews 13',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews13 data={customerReviews13Data as any} />
-        },
-        {
-          id: 'customer-reviews-14',
-          title: 'Customer Reviews 14',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews14 data={customerReviews14Data as any} />
-        },
-        {
-          id: 'customer-reviews-15',
-          title: 'Customer Reviews 15',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews15 data={customerReviews15Data as any} />
-        },
-        {
-          id: 'customer-reviews-16',
-          title: 'Customer Reviews 16',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews16 data={customerReviews16Data as any} />
-        },
-        {
-          id: 'customer-reviews-17',
-          title: 'Customer Reviews 17',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews17 data={customerReviews17Data as any} />
-        },
-        {
-          id: 'customer-reviews-18',
-          title: 'Customer Reviews 18',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews18 data={customerReviews18Data as any} />
-        },
-        {
-          id: 'customer-reviews-19',
-          title: 'Customer Reviews 19',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews19 data={customerReviews19Data as any} />
-        },
-        {
-          id: 'customer-reviews-20',
-          title: 'Customer Reviews 20',
-          description: 'A collection of individual customer reviews, review cards, and customer feedback.',
-          previewComponent: <CustomerReviews20 data={customerReviews20Data as any} />
-        }
-      ] :
-    category === 'review-summary' ? [
-        {
-          id: 'review-summary-1',
-          title: reviewSummary1Data.title || "Review Summary 1",
-          description: reviewSummary1Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary1 data={reviewSummary1Data as any} />
-        },
-        {
-          id: 'review-summary-2',
-          title: reviewSummary2Data.title || "Review Summary 2",
-          description: reviewSummary2Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary2 data={reviewSummary2Data as any} />
-        },
-        {
-          id: 'review-summary-3',
-          title: reviewSummary3Data.title || "Review Summary 3",
-          description: reviewSummary3Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary3 data={reviewSummary3Data as any} />
-        },
-        {
-          id: 'review-summary-4',
-          title: reviewSummary4Data.title || "Review Summary 4",
-          description: reviewSummary4Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary4 data={reviewSummary4Data as any} />
-        },
-        {
-          id: 'review-summary-5',
-          title: reviewSummary5Data.title || "Review Summary 5",
-          description: reviewSummary5Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary5 data={reviewSummary5Data as any} />
-        },
-        {
-          id: 'review-summary-6',
-          title: reviewSummary6Data.title || "Review Summary 6",
-          description: reviewSummary6Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary6 data={reviewSummary6Data as any} />
-        },
-        {
-          id: 'review-summary-7',
-          title: reviewSummary7Data.title || "Review Summary 7",
-          description: reviewSummary7Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary7 data={reviewSummary7Data as any} />
-        },
-        {
-          id: 'review-summary-8',
-          title: reviewSummary8Data.title || "Review Summary 8",
-          description: reviewSummary8Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary8 data={reviewSummary8Data as any} />
-        },
-        {
-          id: 'review-summary-9',
-          title: reviewSummary9Data.title || "Review Summary 9",
-          description: reviewSummary9Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary9 data={reviewSummary9Data as any} />
-        },
-        {
-          id: 'review-summary-10',
-          title: reviewSummary10Data.title || "Review Summary 10",
-          description: reviewSummary10Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary10 data={reviewSummary10Data as any} />
-        },
-        {
-          id: 'review-summary-11',
-          title: reviewSummary11Data.title || "Review Summary 11",
-          description: reviewSummary11Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary11 data={reviewSummary11Data as any} />
-        },
-        {
-          id: 'review-summary-12',
-          title: reviewSummary12Data.title || "Review Summary 12",
-          description: reviewSummary12Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary12 data={reviewSummary12Data as any} />
-        },
-        {
-          id: 'review-summary-13',
-          title: reviewSummary13Data.title || "Review Summary 13",
-          description: reviewSummary13Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary13 data={reviewSummary13Data as any} />
-        },
-        {
-          id: 'review-summary-14',
-          title: reviewSummary14Data.title || "Review Summary 14",
-          description: reviewSummary14Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary14 data={reviewSummary14Data as any} />
-        },
-        {
-          id: 'review-summary-15',
-          title: reviewSummary15Data.title || "Review Summary 15",
-          description: reviewSummary15Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary15 data={reviewSummary15Data as any} />
-        },
-        {
-          id: 'review-summary-16',
-          title: reviewSummary16Data.title || "Review Summary 16",
-          description: reviewSummary16Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary16 data={reviewSummary16Data as any} />
-        },
-        {
-          id: 'review-summary-17',
-          title: reviewSummary17Data.title || "Review Summary 17",
-          description: reviewSummary17Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary17 data={reviewSummary17Data as any} />
-        },
-        {
-          id: 'review-summary-18',
-          title: reviewSummary18Data.title || "Review Summary 18",
-          description: reviewSummary18Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary18 data={reviewSummary18Data as any} />
-        },
-        {
-          id: 'review-summary-19',
-          title: reviewSummary19Data.title || "Review Summary 19",
-          description: reviewSummary19Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary19 data={reviewSummary19Data as any} />
-        },
-        {
-          id: 'review-summary-20',
-          title: reviewSummary20Data.title || "Review Summary 20",
-          description: reviewSummary20Data.description || "Statistical review summary.",
-          previewComponent: <ReviewSummary20 data={reviewSummary20Data as any} />
-        }
-      ] :
-    category === 'customer-review-gallery' ? [
-        {
-          id: 'customer-review-gallery-1',
-          title: 'Editorial Customer Gallery',
-          description: 'Customer photography is arranged in an asymmetric editorial grid, while selected images expand through a directional media mask reveal to disclose the associated review.',
-          previewComponent: <CustomerReviewGallery1 data={customerReviewGallery1Data as any} />
-        },
-        {
-          id: 'customer-review-gallery-2',
-          title: 'Masonry Review Gallery',
-          description: 'A Pinterest-style multi-column masonry grid showcasing customer photos with verified buyer badges, hover scale effects, and quick preview drawer modals.',
-          previewComponent: <CustomerReviewGallery2 data={customerReviewGallery2Data as any} />
-        },
-        {
-          id: 'customer-review-gallery-3',
-          title: 'Full-Bleed Customer Stories',
-          description: 'A full-bleed dark luxury cinematic showcase with smooth background image crossfades, floating customer metadata, and automated slide progress indicators.',
-          previewComponent: <CustomerReviewGallery3 data={customerReviewGallery3Data as any} />
-        },
-        {
-          id: 'customer-review-gallery-4',
-          title: 'Horizontal UGC Rail',
-          description: 'An Instagram-style continuous horizontal review rail with interactive drag scrolling, video play badges, and quick shop popover triggers.',
-          previewComponent: <CustomerReviewGallery4 data={customerReviewGallery4Data as any} />
-        },
-        {
-          id: 'customer-review-gallery-5',
-          title: 'Large Featured Review + Supporting Gallery',
-          description: 'A hero spotlight layout pairing one prominent lead customer review with a thumbnail sidebar, switching active media with layout animation morphs.',
-          previewComponent: <CustomerReviewGallery5 data={customerReviewGallery5Data as any} />
-        },
-        {
-          id: 'customer-review-gallery-6',
-          title: 'Asymmetric Customer Gallery',
-          description: 'A dynamic bento layout featuring uneven tile spans, dark glassmorphism cards, clip-path diagonal reveals, and subtle tilt hover interactions.',
-          previewComponent: <CustomerReviewGallery6 data={customerReviewGallery6Data as any} />
-        },
-        {
-          id: 'customer-review-gallery-7',
-          title: 'Magazine-Style Review Layout',
-          description: 'An elegant print magazine design featuring drop-caps, warm cream palette, serif typography callouts, and directional slide story transitions.',
-          previewComponent: <CustomerReviewGallery7 data={customerReviewGallery7Data as any} />
-        },
-        {
-          id: 'customer-review-gallery-8',
-          title: 'Minimal Luxury Review Grid',
-          description: 'An ultra-clean monochrome review grid with generous whitespace, subtle bronze star accents, and delicate hover fade details.',
-          previewComponent: <CustomerReviewGallery8 data={customerReviewGallery8Data as any} />
-        },
-        {
-          id: 'customer-review-gallery-9',
-          title: 'Layered Customer Story Cards',
-          description: 'An interactive 3D stacked deck of review cards where dragging or clicking displaces the top card with spring rotation physics to reveal the next story.',
-          previewComponent: <CustomerReviewGallery9 data={customerReviewGallery9Data as any} />
-        },
-        {
-          id: 'customer-review-gallery-10',
-          title: 'Vertical Customer Story Feed',
-          description: 'A social media style vertical timeline feed displaying customer review stories with avatar headers, location tags, interactive galleries, and product pills.',
-          previewComponent: <CustomerReviewGallery10 data={customerReviewGallery10Data as any} />
-        },
-        {
-          id: 'customer-review-gallery-11',
-          title: 'Split Media + Review Layout',
-          description: 'A 50/50 split container pairing a sticky high-resolution customer media canvas on the left with an interactive review quote accordion selector on the right.',
-          previewComponent: <CustomerReviewGallery11 data={customerReviewGallery11Data as any} />
-        },
-        {
-          id: 'customer-review-gallery-12',
-          title: 'Fullscreen Media Showcase',
-          description: 'A responsive grid of customer media that expands into an immersive full-screen glassmorphic lightbox with metadata panels and keyboard navigation.',
-          previewComponent: <CustomerReviewGallery12 data={customerReviewGallery12Data as any} />
-        },
-        {
-          id: 'customer-review-gallery-13',
-          title: 'Polaroid-Inspired Customer Gallery',
-          description: 'Casual scattered polaroid photo cards with handwritten typography, tape accents, tilt angles, and interactive drag-and-lift hover movements.',
-          previewComponent: <CustomerReviewGallery13 data={customerReviewGallery13Data as any} />
-        },
-        {
-          id: 'customer-review-gallery-14',
-          title: 'Circular / Radial Customer Showcase',
-          description: 'A radial orbit layout placing customer avatar nodes around a central featured review canvas with orbiting pulse animations and smooth node switching.',
-          previewComponent: <CustomerReviewGallery14 data={customerReviewGallery14Data as any} />
-        },
-        {
-          id: 'customer-review-gallery-15',
-          title: 'Stacked Review Media Cards',
-          description: 'A horizontal card sequence with depth scaling cards that slide laterally with spring physics during navigation.',
-          previewComponent: <CustomerReviewGallery15 data={customerReviewGallery15Data as any} />
-        },
-        {
-          id: 'customer-review-gallery-16',
-          title: 'Horizontal Story Timeline',
-          description: 'A chronological customer journey gallery tracking product performance across time milestones with horizontal progress line animations.',
-          previewComponent: <CustomerReviewGallery16 data={customerReviewGallery16Data as any} />
-        },
-        {
-          id: 'customer-review-gallery-17',
-          title: 'Immersive Video + Photo Gallery',
-          description: 'A video-first UGC showcase highlighting video reviews with custom play overlays, duration tags, and interactive video playback modals.',
-          previewComponent: <CustomerReviewGallery17 data={customerReviewGallery17Data as any} />
-        },
-        {
-          id: 'customer-review-gallery-18',
-          title: 'Floating Customer Media Gallery',
-          description: 'A bento gallery of translucent glassmorphic review cards hovering over an animated mesh gradient background with cursor spotlight glow micro-interactions.',
-          previewComponent: <CustomerReviewGallery18 data={customerReviewGallery18Data as any} />
-        },
-        {
-          id: 'customer-review-gallery-19',
-          title: 'Art-Directed Editorial UGC Layout',
-          description: 'A high-contrast fashion editorial layout with bold headline typography cutouts, image clip-path curtain reveals, and product tag callouts.',
-          previewComponent: <CustomerReviewGallery19 data={customerReviewGallery19Data as any} />
-        },
-        {
-          id: 'customer-review-gallery-20',
-          title: 'Premium Interactive Customer Showcase',
-          description: 'A comprehensive UGC section featuring media filters (All, Photo, Video, 5-Star), search bar, layout view toggles (Grid / Rail), and lightbox drawer.',
-          previewComponent: <CustomerReviewGallery20 data={customerReviewGallery20Data as any} />
-        }
-      ] :
-    category === 'questions-answers' ? [
-        {
-          id: 'questions-answers-1',
-          title: 'Editorial Q&A Accordion',
-          description: 'A clean editorial accordion with razor-thin dividers, category badges, helpful count indicators, and smooth height expansion.',
-          previewComponent: <QuestionsAnswers1 data={questionsAnswers1Data as any} />
-        },
-        {
-          id: 'questions-answers-2',
-          title: 'Split Question + Answer Layout',
-          description: 'A 2-column split viewport layout with interactive question items on the left and a dedicated high-impact answer reading canvas on the right.',
-          previewComponent: <QuestionsAnswers2 data={questionsAnswers2Data as any} />
-        },
-        {
-          id: 'questions-answers-3',
-          title: 'Conversational Chat-Style Q&A',
-          description: 'A messaging thread UI where customer questions appear as chat bubbles and expert answers enter with directional speech bubble transitions.',
-          previewComponent: <QuestionsAnswers3 data={questionsAnswers3Data as any} />
-        },
-        {
-          id: 'questions-answers-4',
-          title: 'Vertical Question Timeline',
-          description: 'A chronological vertical timeline stream connecting customer queries and official responses with path progression animations.',
-          previewComponent: <QuestionsAnswers4 data={questionsAnswers4Data as any} />
-        },
-        {
-          id: 'questions-answers-5',
-          title: 'Large Question / Minimal Answer',
-          description: 'A high-contrast typography layout featuring oversized question headers that expand smoothly to reveal concise, direct answers.',
-          previewComponent: <QuestionsAnswers5 data={questionsAnswers5Data as any} />
-        },
-        {
-          id: 'questions-answers-6',
-          title: 'Magazine Q&A Layout',
-          description: 'An elegant print magazine aesthetic on warm cream styling with drop-cap quotes, editorial serif fonts, and subtle column rules.',
-          previewComponent: <QuestionsAnswers6 data={questionsAnswers6Data as any} />
-        },
-        {
-          id: 'questions-answers-7',
-          title: 'Two-Column Q&A Explorer',
-          description: 'A dual-column grid organizing product questions into distinct category tiles with smooth layout transitions on hover.',
-          previewComponent: <QuestionsAnswers7 data={questionsAnswers7Data as any} />
-        },
-        {
-          id: 'questions-answers-8',
-          title: 'Stacked Question Cards',
-          description: 'Overlapping stacked question cards with subtle depth shadows that expand upward with spring displacement when selected.',
-          previewComponent: <QuestionsAnswers8 data={questionsAnswers8Data as any} />
-        },
-        {
-          id: 'questions-answers-9',
-          title: 'Minimal Typography-First Q&A',
-          description: 'An ultra-clean monochrome design focusing on generous spacing, fine borders, underline hover indicators, and smooth text reveals.',
-          previewComponent: <QuestionsAnswers9 data={questionsAnswers9Data as any} />
-        },
-        {
-          id: 'questions-answers-10',
-          title: 'Question Index + Answer Panel',
-          description: 'A sticky sidebar question index paired with a full-width answer reader panel featuring verified expert badges.',
-          previewComponent: <QuestionsAnswers10 data={questionsAnswers10Data as any} />
-        },
-        {
-          id: 'questions-answers-11',
-          title: 'Featured Question + Supporting Questions',
-          description: 'A hero layout showcasing one prominent featured question at the top with a 2-column supporting question list below.',
-          previewComponent: <QuestionsAnswers11 data={questionsAnswers11Data as any} />
-        },
-        {
-          id: 'questions-answers-12',
-          title: 'Asymmetric Q&A Grid',
-          description: 'A bento-box asymmetric grid of question tiles featuring neon category tags, glassmorphic accents, and spring panel movements.',
-          previewComponent: <QuestionsAnswers12 data={questionsAnswers12Data as any} />
-        },
-        {
-          id: 'questions-answers-13',
-          title: 'Expandable Layered Q&A Cards',
-          description: 'Stacked file-folder style Q&A cards with subtle 3D tilt effects that expand downward smoothly when activated.',
-          previewComponent: <QuestionsAnswers13 data={questionsAnswers13Data as any} />
-        },
-        {
-          id: 'questions-answers-14',
-          title: 'Horizontal Question Rail',
-          description: 'A drag-scrollable horizontal track of question cards with snap alignment and instant answer reveal overlays.',
-          previewComponent: <QuestionsAnswers14 data={questionsAnswers14Data as any} />
-        },
-        {
-          id: 'questions-answers-15',
-          title: 'Sticky Question Navigation + Answer Content',
-          description: 'A top sticky pill navigation bar that smoothly scrolls and highlights active answer sections below.',
-          previewComponent: <QuestionsAnswers15 data={questionsAnswers15Data as any} />
-        },
-        {
-          id: 'questions-answers-16',
-          title: 'Numbered Editorial Q&A',
-          description: 'Oversized bold numerals (01, 02, 03) anchoring editorial question blocks with smooth height expansion drawers.',
-          previewComponent: <QuestionsAnswers16 data={questionsAnswers16Data as any} />
-        },
-        {
-          id: 'questions-answers-17',
-          title: 'Category-Based Q&A Explorer',
-          description: 'Tabbed category navigator filtering questions dynamically between Sizing, Materials, Care, and Shipping.',
-          previewComponent: <QuestionsAnswers17 data={questionsAnswers17Data as any} />
-        },
-        {
-          id: 'questions-answers-18',
-          title: 'Floating Q&A Panels',
-          description: 'Translucent glassmorphic Q&A cards floating over a dynamic ambient gradient backdrop with soft particle motion.',
-          previewComponent: <QuestionsAnswers18 data={questionsAnswers18Data as any} />
-        },
-        {
-          id: 'questions-answers-19',
-          title: 'Interactive Question Spotlight',
-          description: 'Focus-mode section where selecting or hovering a question dims out surrounding items to spotlight the active query.',
-          previewComponent: <QuestionsAnswers19 data={questionsAnswers19Data as any} />
-        },
-        {
-          id: 'questions-answers-20',
-          title: 'Premium Knowledge Showcase',
-          description: 'A comprehensive Q&A Knowledge Base featuring live search, helpfulness voting, category tags, and expandable detail cards.',
-          previewComponent: <QuestionsAnswers20 data={questionsAnswers20Data as any} />
-        }
-      ] :
-    category === 'product-faq' ? [
-        {
-          id: 'product-faq-1',
-          title: 'Minimal Luxury FAQ',
-          description: 'An ultra-clean monochrome product FAQ featuring generous whitespace, fine hairline dividers, and delicate height expansion animation.',
-          previewComponent: <ProductFaq1 data={productFaq1Data as any} />
-        },
-        {
-          id: 'product-faq-2',
-          title: 'Editorial Product FAQ',
-          description: 'High-fashion editorial layout featuring serif typography, drop-cap styling, and directional slide answers.',
-          previewComponent: <ProductFaq2 data={productFaq2Data as any} />
-        },
-        {
-          id: 'product-faq-3',
-          title: 'Numbered FAQ List',
-          description: 'Sequential numbered design with oversized gold numerals (01, 02, 03) anchoring expandable technical product guidance.',
-          previewComponent: <ProductFaq3 data={productFaq3Data as any} />
-        },
-        {
-          id: 'product-faq-4',
-          title: 'Two-Column Product FAQ',
-          description: 'Dual-column grid separating technical garment guidance into Sizing/Care on the left and Shipping/Warranty on the right.',
-          previewComponent: <ProductFaq4 data={productFaq4Data as any} />
-        },
-        {
-          id: 'product-faq-5',
-          title: 'Split FAQ + Product Image',
-          description: 'Split-screen container pairing a high-resolution product photography canvas on the left with expandable FAQ panels on the right.',
-          previewComponent: <ProductFaq5 data={productFaq5Data as any} />
-        },
-        {
-          id: 'product-faq-6',
-          title: 'Category-Based FAQ',
-          description: 'Tabbed category navigator filtering product FAQs into Sizing, Materials, Care, and Global Shipping panels.',
-          previewComponent: <ProductFaq6 data={productFaq6Data as any} />
-        },
-        {
-          id: 'product-faq-7',
-          title: 'FAQ with Sticky Category Navigation',
-          description: 'Sticky sidebar index featuring smooth scroll jump links to detailed product guidance blocks.',
-          previewComponent: <ProductFaq7 data={productFaq7Data as any} />
-        },
-        {
-          id: 'product-faq-8',
-          title: 'Large Typography FAQ',
-          description: 'High-contrast design with massive 3XL typography for key product questions and direct concise answers.',
-          previewComponent: <ProductFaq8 data={productFaq8Data as any} />
-        },
-        {
-          id: 'product-faq-9',
-          title: 'Accordion Cards',
-          description: 'Elevated card accordions with subtle hover borders, category pills, and smooth height disclosure.',
-          previewComponent: <ProductFaq9 data={productFaq9Data as any} />
-        },
-        {
-          id: 'product-faq-10',
-          title: 'FAQ Grid',
-          description: 'A 4-column structured grid highlighting key product care symbols, washing temperatures, and ironing guidelines.',
-          previewComponent: <ProductFaq10 data={productFaq10Data as any} />
-        },
-        {
-          id: 'product-faq-11',
-          title: 'Featured Question + FAQ List',
-          description: 'Hero spotlight layout highlighting the #1 most critical sizing question at the top with a supporting list.',
-          previewComponent: <ProductFaq11 data={productFaq11Data as any} />
-        },
-        {
-          id: 'product-faq-12',
-          title: 'Vertical FAQ Timeline',
-          description: 'A vertical timeline tracking product ownership milestones from unboxing care to 5-year maintenance.',
-          previewComponent: <ProductFaq12 data={productFaq12Data as any} />
-        },
-        {
-          id: 'product-faq-13',
-          title: 'Product Image + Floating FAQ Panel',
-          description: 'Glassmorphic floating FAQ panels elevated over a high-resolution product photography canvas.',
-          previewComponent: <ProductFaq13 data={productFaq13Data as any} />
-        },
-        {
-          id: 'product-faq-14',
-          title: 'Horizontal FAQ Navigator',
-          description: 'A continuous drag-scrollable horizontal track of product information cards with quick answer previews.',
-          previewComponent: <ProductFaq14 data={productFaq14Data as any} />
-        },
-        {
-          id: 'product-faq-15',
-          title: 'Compact FAQ Rail',
-          description: 'A streamlined compact rail displaying technical product specifications in high visual density.',
-          previewComponent: <ProductFaq15 data={productFaq15Data as any} />
-        },
-        {
-          id: 'product-faq-16',
-          title: 'FAQ with Visual Product Details',
-          description: 'Pairs technical answers directly with close-up macro imagery of stitching, zippers, and fabric weaves.',
-          previewComponent: <ProductFaq16 data={productFaq16Data as any} />
-        },
-        {
-          id: 'product-faq-17',
-          title: 'Asymmetric Editorial FAQ',
-          description: 'Bento-style asymmetric editorial layout highlighting supply chain sustainability certifications.',
-          previewComponent: <ProductFaq17 data={productFaq17Data as any} />
-        },
-        {
-          id: 'product-faq-18',
-          title: 'Layered FAQ Panels',
-          description: 'Physical-feeling overlapping layered panels detailing repair services, replacement parts, and recycling options.',
-          previewComponent: <ProductFaq18 data={productFaq18Data as any} />
-        },
-        {
-          id: 'product-faq-19',
-          title: 'Interactive FAQ Explorer',
-          description: 'Focus-mode explorer where selecting an FAQ dims surrounding queries to spotlight active garment specs.',
-          previewComponent: <ProductFaq19 data={productFaq19Data as any} />
-        },
-        {
-          id: 'product-faq-20',
-          title: 'Premium Product Knowledge Showcase',
-          description: 'Comprehensive Product Knowledge Hub featuring live search filter, care sheet downloads, and category tags.',
-          previewComponent: <ProductFaq20 data={productFaq20Data as any} />
-        }
-      ] :
-    category === 'brand-information' ? [
-        {
-          id: 'brand-information-1',
-          title: 'Editorial Brand Story',
-          description: 'Long-form visual brand narrative featuring elegant serif quotes, multi-paragraph story flow, and directional image mask reveals.',
-          previewComponent: <BrandInformation1 data={brandInformation1Data as any} />
-        },
-        {
-          id: 'brand-information-2',
-          title: 'Brand Heritage Timeline',
-          description: 'Interactive chronological timeline mapping historical brand milestones from 1928 founding to present day global expansion.',
-          previewComponent: <BrandInformation2 data={brandInformation2Data as any} />
-        },
-        {
-          id: 'brand-information-3',
-          title: 'Brand Philosophy Statement',
-          description: 'High-contrast manifesto layout featuring oversized brand motto text, founder signature, and core philosophy pillars.',
-          previewComponent: <BrandInformation3 data={brandInformation3Data as any} />
-        },
-        {
-          id: 'brand-information-4',
-          title: 'Founder Story Showcase',
-          description: 'Personal founder profile highlighting design vision, portrait photography, personal quote, and handwritten signature.',
-          previewComponent: <BrandInformation4 data={brandInformation4Data as any} />
-        },
-        {
-          id: 'brand-information-5',
-          title: 'Brand Values Grid',
-          description: 'Structured 4-column grid displaying the core values of the brand with metrics and visual status badges.',
-          previewComponent: <BrandInformation5 data={brandInformation5Data as any} />
-        },
-        {
-          id: 'brand-information-6',
-          title: 'Origin Story Map',
-          description: 'Geographical origin layout with studio coordinates (45.4642° N, 9.1900° E), regional history, and workshop imagery.',
-          previewComponent: <BrandInformation6 data={brandInformation6Data as any} />
-        },
-        {
-          id: 'brand-information-7',
-          title: 'Craftsmanship Showcase',
-          description: 'Step-by-step visual narrative detailing fiber selection, hand-pattern cutting, double-needle stitching, and inspection.',
-          previewComponent: <BrandInformation7 data={brandInformation7Data as any} />
-        },
-        {
-          id: 'brand-information-8',
-          title: 'Brand Manifesto',
-          description: 'Bold dark cinematic text-dominant layout declaring the brand\'s core beliefs in massive 5XL typography.',
-          previewComponent: <BrandInformation8 data={brandInformation8Data as any} />
-        },
-        {
-          id: 'brand-information-9',
-          title: 'Brand Journey Timeline',
-          description: 'Drag-scrollable horizontal timeline track mapping brand expansion phases with archived imagery.',
-          previewComponent: <BrandInformation9 data={brandInformation9Data as any} />
-        },
-        {
-          id: 'brand-information-10',
-          title: 'Mission + Vision Split',
-          description: 'Balanced 50/50 dual-panel layout separating the immediate Brand Mission from the 10-Year Future Vision.',
-          previewComponent: <BrandInformation10 data={brandInformation10Data as any} />
-        },
-        {
-          id: 'brand-information-11',
-          title: 'Interactive Brand Milestones',
-          description: 'Year selector tabs (2016, 2019, 2022, 2025) that update the main hero milestone showcase canvas.',
-          previewComponent: <BrandInformation11 data={brandInformation11Data as any} />
-        },
-        {
-          id: 'brand-information-12',
-          title: 'Layered Brand Story',
-          description: 'Overlapping 3D card layout organizing the brand story into Chapter 01 (Origin), Chapter 02 (Craft), and Chapter 03 (Future).',
-          previewComponent: <BrandInformation12 data={brandInformation12Data as any} />
-        },
-        {
-          id: 'brand-information-13',
-          title: 'Magazine-Style Brand Profile',
-          description: 'Print magazine aesthetic on warm cream styling with drop-cap quotes, serif headers, and editor notes.',
-          previewComponent: <BrandInformation13 data={brandInformation13Data as any} />
-        },
-        {
-          id: 'brand-information-14',
-          title: 'Brand Principles Cards',
-          description: 'Bento-box principles cards displaying brand commitments (Traceable Fiber, Fair Wages, Plastic Neutral) with metric badges.',
-          previewComponent: <BrandInformation14 data={brandInformation14Data as any} />
-        },
-        {
-          id: 'brand-information-15',
-          title: 'Full-Bleed Brand Narrative',
-          description: 'Full-width dark cinematic background image with floating white typography and slow ambient zoom effect.',
-          previewComponent: <BrandInformation15 data={brandInformation15Data as any} />
-        },
-        {
-          id: 'brand-information-16',
-          title: 'Brand Identity Explorer',
-          description: 'Interactive identity system showcasing Monogram, Color Tokens (Florentine Cream, Umber Brown, Tuscan Slate), and Fabric Standards.',
-          previewComponent: <BrandInformation16 data={brandInformation16Data as any} />
-        },
-        {
-          id: 'brand-information-17',
-          title: 'Creative Process Showcase',
-          description: 'Behind-the-scenes gallery showing raw sketching, moodboards, fabric weaving, and final tailoring.',
-          previewComponent: <BrandInformation17 data={brandInformation17Data as any} />
-        },
-        {
-          id: 'brand-information-18',
-          title: 'Heritage + Modernity Split',
-          description: '50/50 comparison layout pairing Historical Archives (1928) with Modern Sustainable Craft (2026).',
-          previewComponent: <BrandInformation18 data={brandInformation18Data as any} />
-        },
-        {
-          id: 'brand-information-19',
-          title: 'Immersive Brand Documentary',
-          description: 'Documentary film poster style layout with director quote, film duration (12 mins), and chapter timestamps.',
-          previewComponent: <BrandInformation19 data={brandInformation19Data as any} />
-        },
-        {
-          id: 'brand-information-20',
-          title: 'Premium Brand Knowledge Showcase',
-          description: 'Comprehensive Brand Knowledge Base featuring search filter across history, sustainability reports, and press kits.',
-          previewComponent: <BrandInformation20 data={brandInformation20Data as any} />
-        }
-      ] :
-    category === 'cart-items-section' ? [
-        {
-          id: 'cart-items-section-1',
-          title: cartItemsSection1Data.heading,
-          description: cartItemsSection1Data.description,
-          previewComponent: <CartItemsSection1 data={cartItemsSection1Data as any} />
-        },
-        {
-          id: 'cart-items-section-2',
-          title: cartItemsSection2Data.heading,
-          description: cartItemsSection2Data.description,
-          previewComponent: <CartItemsSection2 data={cartItemsSection2Data as any} />
-        },
-        {
-          id: 'cart-items-section-3',
-          title: cartItemsSection3Data.heading,
-          description: cartItemsSection3Data.description,
-          previewComponent: <CartItemsSection3 data={cartItemsSection3Data as any} />
-        },
-        {
-          id: 'cart-items-section-4',
-          title: cartItemsSection4Data.heading,
-          description: cartItemsSection4Data.description,
-          previewComponent: <CartItemsSection4 data={cartItemsSection4Data as any} />
-        },
-        {
-          id: 'cart-items-section-5',
-          title: cartItemsSection5Data.heading,
-          description: cartItemsSection5Data.description,
-          previewComponent: <CartItemsSection5 data={cartItemsSection5Data as any} />
-        },
-        {
-          id: 'cart-items-section-6',
-          title: cartItemsSection6Data.heading,
-          description: cartItemsSection6Data.description,
-          previewComponent: <CartItemsSection6 data={cartItemsSection6Data as any} />
-        },
-        {
-          id: 'cart-items-section-7',
-          title: cartItemsSection7Data.heading,
-          description: cartItemsSection7Data.description,
-          previewComponent: <CartItemsSection7 data={cartItemsSection7Data as any} />
-        },
-        {
-          id: 'cart-items-section-8',
-          title: cartItemsSection8Data.heading,
-          description: cartItemsSection8Data.description,
-          previewComponent: <CartItemsSection8 data={cartItemsSection8Data as any} />
-        },
-        {
-          id: 'cart-items-section-9',
-          title: cartItemsSection9Data.heading,
-          description: cartItemsSection9Data.description,
-          previewComponent: <CartItemsSection9 data={cartItemsSection9Data as any} />
-        },
-        {
-          id: 'cart-items-section-10',
-          title: cartItemsSection10Data.heading,
-          description: cartItemsSection10Data.description,
-          previewComponent: <CartItemsSection10 data={cartItemsSection10Data as any} />
-        },
-        {
-          id: 'cart-items-section-11',
-          title: cartItemsSection11Data.heading,
-          description: cartItemsSection11Data.description,
-          previewComponent: <CartItemsSection11 data={cartItemsSection11Data as any} />
-        },
-        {
-          id: 'cart-items-section-12',
-          title: cartItemsSection12Data.heading,
-          description: cartItemsSection12Data.description,
-          previewComponent: <CartItemsSection12 data={cartItemsSection12Data as any} />
-        },
-        {
-          id: 'cart-items-section-13',
-          title: cartItemsSection13Data.heading,
-          description: cartItemsSection13Data.description,
-          previewComponent: <CartItemsSection13 data={cartItemsSection13Data as any} />
-        },
-        {
-          id: 'cart-items-section-14',
-          title: cartItemsSection14Data.heading,
-          description: cartItemsSection14Data.description,
-          previewComponent: <CartItemsSection14 data={cartItemsSection14Data as any} />
-        },
-        {
-          id: 'cart-items-section-15',
-          title: cartItemsSection15Data.heading,
-          description: cartItemsSection15Data.description,
-          previewComponent: <CartItemsSection15 data={cartItemsSection15Data as any} />
-        },
-        {
-          id: 'cart-items-section-16',
-          title: cartItemsSection16Data.heading,
-          description: cartItemsSection16Data.description,
-          previewComponent: <CartItemsSection16 data={cartItemsSection16Data as any} />
-        },
-        {
-          id: 'cart-items-section-17',
-          title: cartItemsSection17Data.heading,
-          description: cartItemsSection17Data.description,
-          previewComponent: <CartItemsSection17 data={cartItemsSection17Data as any} />
-        },
-        {
-          id: 'cart-items-section-18',
-          title: cartItemsSection18Data.heading,
-          description: cartItemsSection18Data.description,
-          previewComponent: <CartItemsSection18 data={cartItemsSection18Data as any} />
-        },
-        {
-          id: 'cart-items-section-19',
-          title: cartItemsSection19Data.heading,
-          description: cartItemsSection19Data.description,
-          previewComponent: <CartItemsSection19 data={cartItemsSection19Data as any} />
-        },
-        {
-          id: 'cart-items-section-20',
-          title: cartItemsSection20Data.heading,
-          description: cartItemsSection20Data.description,
-          previewComponent: <CartItemsSection20 data={cartItemsSection20Data as any} />
-        }
-      ] :
-      category === 'cart-summary' ? [
-        {
-          id: 'cart-summary-1',
-          title: cartSummary1Data.heading,
-          description: cartSummary1Data.description,
-          previewComponent: <CartSummary1 data={cartSummary1Data as any} />
-        },
-        {
-          id: 'cart-summary-2',
-          title: cartSummary2Data.heading,
-          description: cartSummary2Data.description,
-          previewComponent: <CartSummary2 data={cartSummary2Data as any} />
-        },
-        {
-          id: 'cart-summary-3',
-          title: cartSummary3Data.heading,
-          description: cartSummary3Data.description,
-          previewComponent: <CartSummary3 data={cartSummary3Data as any} />
-        },
-        {
-          id: 'cart-summary-4',
-          title: cartSummary4Data.heading,
-          description: cartSummary4Data.description,
-          previewComponent: <CartSummary4 data={cartSummary4Data as any} />
-        },
-        {
-          id: 'cart-summary-5',
-          title: cartSummary5Data.heading,
-          description: cartSummary5Data.description,
-          previewComponent: <CartSummary5 data={cartSummary5Data as any} />
-        },
-        {
-          id: 'cart-summary-6',
-          title: cartSummary6Data.heading,
-          description: cartSummary6Data.description,
-          previewComponent: <CartSummary6 data={cartSummary6Data as any} />
-        },
-        {
-          id: 'cart-summary-7',
-          title: cartSummary7Data.heading,
-          description: cartSummary7Data.description,
-          previewComponent: <CartSummary7 data={cartSummary7Data as any} />
-        },
-        {
-          id: 'cart-summary-8',
-          title: cartSummary8Data.heading,
-          description: cartSummary8Data.description,
-          previewComponent: <CartSummary8 data={cartSummary8Data as any} />
-        },
-        {
-          id: 'cart-summary-9',
-          title: cartSummary9Data.heading,
-          description: cartSummary9Data.description,
-          previewComponent: <CartSummary9 data={cartSummary9Data as any} />
-        },
-        {
-          id: 'cart-summary-10',
-          title: cartSummary10Data.heading,
-          description: cartSummary10Data.description,
-          previewComponent: <CartSummary10 data={cartSummary10Data as any} />
-        },
-        {
-          id: 'cart-summary-11',
-          title: cartSummary11Data.heading,
-          description: cartSummary11Data.description,
-          previewComponent: <CartSummary11 data={cartSummary11Data as any} />
-        },
-        {
-          id: 'cart-summary-12',
-          title: cartSummary12Data.heading,
-          description: cartSummary12Data.description,
-          previewComponent: <CartSummary12 data={cartSummary12Data as any} />
-        },
-        {
-          id: 'cart-summary-13',
-          title: cartSummary13Data.heading,
-          description: cartSummary13Data.description,
-          previewComponent: <CartSummary13 data={cartSummary13Data as any} />
-        },
-        {
-          id: 'cart-summary-14',
-          title: cartSummary14Data.heading,
-          description: cartSummary14Data.description,
-          previewComponent: <CartSummary14 data={cartSummary14Data as any} />
-        },
-        {
-          id: 'cart-summary-15',
-          title: cartSummary15Data.heading,
-          description: cartSummary15Data.description,
-          previewComponent: <CartSummary15 data={cartSummary15Data as any} />
-        },
-        {
-          id: 'cart-summary-16',
-          title: cartSummary16Data.heading,
-          description: cartSummary16Data.description,
-          previewComponent: <CartSummary16 data={cartSummary16Data as any} />
-        },
-        {
-          id: 'cart-summary-17',
-          title: cartSummary17Data.heading,
-          description: cartSummary17Data.description,
-          previewComponent: <CartSummary17 data={cartSummary17Data as any} />
-        },
-        {
-          id: 'cart-summary-18',
-          title: cartSummary18Data.heading,
-          description: cartSummary18Data.description,
-          previewComponent: <CartSummary18 data={cartSummary18Data as any} />
-        },
-        {
-          id: 'cart-summary-19',
-          title: cartSummary19Data.heading,
-          description: cartSummary19Data.description,
-          previewComponent: <CartSummary19 data={cartSummary19Data as any} />
-        },
-        {
-          id: 'cart-summary-20',
-          title: cartSummary20Data.heading,
-          description: cartSummary20Data.description,
-          previewComponent: <CartSummary20 data={cartSummary20Data as any} />
-        }
-      ] :
-    category === 'cart-offers' ? [
-        {
-          id: 'cart-offers-1',
-          title: cartOffers1Data.heading,
-          description: cartOffers1Data.description,
-          previewComponent: <CartOffers1 data={cartOffers1Data as any} />
-        },
-        {
-          id: 'cart-offers-2',
-          title: cartOffers2Data.heading,
-          description: cartOffers2Data.description,
-          previewComponent: <CartOffers2 data={cartOffers2Data as any} />
-        },
-        {
-          id: 'cart-offers-3',
-          title: cartOffers3Data.heading,
-          description: cartOffers3Data.description,
-          previewComponent: <CartOffers3 data={cartOffers3Data as any} />
-        },
-        {
-          id: 'cart-offers-4',
-          title: cartOffers4Data.heading,
-          description: cartOffers4Data.description,
-          previewComponent: <CartOffers4 data={cartOffers4Data as any} />
-        },
-        {
-          id: 'cart-offers-5',
-          title: cartOffers5Data.heading,
-          description: cartOffers5Data.description,
-          previewComponent: <CartOffers5 data={cartOffers5Data as any} />
-        },
-        {
-          id: 'cart-offers-6',
-          title: cartOffers6Data.heading,
-          description: cartOffers6Data.description,
-          previewComponent: <CartOffers6 data={cartOffers6Data as any} />
-        },
-        {
-          id: 'cart-offers-7',
-          title: cartOffers7Data.heading,
-          description: cartOffers7Data.description,
-          previewComponent: <CartOffers7 data={cartOffers7Data as any} />
-        },
-        {
-          id: 'cart-offers-8',
-          title: cartOffers8Data.heading,
-          description: cartOffers8Data.description,
-          previewComponent: <CartOffers8 data={cartOffers8Data as any} />
-        },
-        {
-          id: 'cart-offers-9',
-          title: cartOffers9Data.heading,
-          description: cartOffers9Data.description,
-          previewComponent: <CartOffers9 data={cartOffers9Data as any} />
-        },
-        {
-          id: 'cart-offers-10',
-          title: cartOffers10Data.heading,
-          description: cartOffers10Data.description,
-          previewComponent: <CartOffers10 data={cartOffers10Data as any} />
-        },
-        {
-          id: 'cart-offers-11',
-          title: cartOffers11Data.heading,
-          description: cartOffers11Data.description,
-          previewComponent: <CartOffers11 data={cartOffers11Data as any} />
-        },
-        {
-          id: 'cart-offers-12',
-          title: cartOffers12Data.heading,
-          description: cartOffers12Data.description,
-          previewComponent: <CartOffers12 data={cartOffers12Data as any} />
-        },
-        {
-          id: 'cart-offers-13',
-          title: cartOffers13Data.heading,
-          description: cartOffers13Data.description,
-          previewComponent: <CartOffers13 data={cartOffers13Data as any} />
-        },
-        {
-          id: 'cart-offers-14',
-          title: cartOffers14Data.heading,
-          description: cartOffers14Data.description,
-          previewComponent: <CartOffers14 data={cartOffers14Data as any} />
-        },
-        {
-          id: 'cart-offers-15',
-          title: cartOffers15Data.heading,
-          description: cartOffers15Data.description,
-          previewComponent: <CartOffers15 data={cartOffers15Data as any} />
-        },
-        {
-          id: 'cart-offers-16',
-          title: cartOffers16Data.heading,
-          description: cartOffers16Data.description,
-          previewComponent: <CartOffers16 data={cartOffers16Data as any} />
-        },
-        {
-          id: 'cart-offers-17',
-          title: cartOffers17Data.heading,
-          description: cartOffers17Data.description,
-          previewComponent: <CartOffers17 data={cartOffers17Data as any} />
-        },
-        {
-          id: 'cart-offers-18',
-          title: cartOffers18Data.heading,
-          description: cartOffers18Data.description,
-          previewComponent: <CartOffers18 data={cartOffers18Data as any} />
-        },
-        {
-          id: 'cart-offers-19',
-          title: cartOffers19Data.heading,
-          description: cartOffers19Data.description,
-          previewComponent: <CartOffers19 data={cartOffers19Data as any} />
-        },
-        {
-          id: 'cart-offers-20',
-          title: cartOffers20Data.heading,
-          description: cartOffers20Data.description,
-          previewComponent: <CartOffers20 data={cartOffers20Data as any} />
-        }
-      ] :
-    category === 'coupon-discount-section' ? [
-        {
-          id: 'coupon-discount-section-1',
-          title: couponDiscountSection1Data.heading,
-          description: couponDiscountSection1Data.description,
-          previewComponent: <CouponDiscountSection1 data={couponDiscountSection1Data as any} />
-        },
-        {
-          id: 'coupon-discount-section-2',
-          title: couponDiscountSection2Data.heading,
-          description: couponDiscountSection2Data.description,
-          previewComponent: <CouponDiscountSection2 data={couponDiscountSection2Data as any} />
-        },
-        {
-          id: 'coupon-discount-section-3',
-          title: couponDiscountSection3Data.heading,
-          description: couponDiscountSection3Data.description,
-          previewComponent: <CouponDiscountSection3 data={couponDiscountSection3Data as any} />
-        },
-        {
-          id: 'coupon-discount-section-4',
-          title: couponDiscountSection4Data.heading,
-          description: couponDiscountSection4Data.description,
-          previewComponent: <CouponDiscountSection4 data={couponDiscountSection4Data as any} />
-        },
-        {
-          id: 'coupon-discount-section-5',
-          title: couponDiscountSection5Data.heading,
-          description: couponDiscountSection5Data.description,
-          previewComponent: <CouponDiscountSection5 data={couponDiscountSection5Data as any} />
-        },
-        {
-          id: 'coupon-discount-section-6',
-          title: couponDiscountSection6Data.heading,
-          description: couponDiscountSection6Data.description,
-          previewComponent: <CouponDiscountSection6 data={couponDiscountSection6Data as any} />
-        },
-        {
-          id: 'coupon-discount-section-7',
-          title: couponDiscountSection7Data.heading,
-          description: couponDiscountSection7Data.description,
-          previewComponent: <CouponDiscountSection7 data={couponDiscountSection7Data as any} />
-        },
-        {
-          id: 'coupon-discount-section-8',
-          title: couponDiscountSection8Data.heading,
-          description: couponDiscountSection8Data.description,
-          previewComponent: <CouponDiscountSection8 data={couponDiscountSection8Data as any} />
-        },
-        {
-          id: 'coupon-discount-section-9',
-          title: couponDiscountSection9Data.heading,
-          description: couponDiscountSection9Data.description,
-          previewComponent: <CouponDiscountSection9 data={couponDiscountSection9Data as any} />
-        },
-        {
-          id: 'coupon-discount-section-10',
-          title: couponDiscountSection10Data.heading,
-          description: couponDiscountSection10Data.description,
-          previewComponent: <CouponDiscountSection10 data={couponDiscountSection10Data as any} />
-        },
-        {
-          id: 'coupon-discount-section-11',
-          title: couponDiscountSection11Data.heading,
-          description: couponDiscountSection11Data.description,
-          previewComponent: <CouponDiscountSection11 data={couponDiscountSection11Data as any} />
-        },
-        {
-          id: 'coupon-discount-section-12',
-          title: couponDiscountSection12Data.heading,
-          description: couponDiscountSection12Data.description,
-          previewComponent: <CouponDiscountSection12 data={couponDiscountSection12Data as any} />
-        },
-        {
-          id: 'coupon-discount-section-13',
-          title: couponDiscountSection13Data.heading,
-          description: couponDiscountSection13Data.description,
-          previewComponent: <CouponDiscountSection13 data={couponDiscountSection13Data as any} />
-        },
-        {
-          id: 'coupon-discount-section-14',
-          title: couponDiscountSection14Data.heading,
-          description: couponDiscountSection14Data.description,
-          previewComponent: <CouponDiscountSection14 data={couponDiscountSection14Data as any} />
-        },
-        {
-          id: 'coupon-discount-section-15',
-          title: couponDiscountSection15Data.heading,
-          description: couponDiscountSection15Data.description,
-          previewComponent: <CouponDiscountSection15 data={couponDiscountSection15Data as any} />
-        },
-        {
-          id: 'coupon-discount-section-16',
-          title: couponDiscountSection16Data.heading,
-          description: couponDiscountSection16Data.description,
-          previewComponent: <CouponDiscountSection16 data={couponDiscountSection16Data as any} />
-        },
-        {
-          id: 'coupon-discount-section-17',
-          title: couponDiscountSection17Data.heading,
-          description: couponDiscountSection17Data.description,
-          previewComponent: <CouponDiscountSection17 data={couponDiscountSection17Data as any} />
-        },
-        {
-          id: 'coupon-discount-section-18',
-          title: couponDiscountSection18Data.heading,
-          description: couponDiscountSection18Data.description,
-          previewComponent: <CouponDiscountSection18 data={couponDiscountSection18Data as any} />
-        },
-        {
-          id: 'coupon-discount-section-19',
-          title: couponDiscountSection19Data.heading,
-          description: couponDiscountSection19Data.description,
-          previewComponent: <CouponDiscountSection19 data={couponDiscountSection19Data as any} />
-        },
-        {
-          id: 'coupon-discount-section-20',
-          title: couponDiscountSection20Data.heading,
-          description: couponDiscountSection20Data.description,
-          previewComponent: <CouponDiscountSection20 data={couponDiscountSection20Data as any} />
-        }
-      ] :
-    (
-      category === 'shipping-information' ||
-      category === 'coupon-discount-section' ||
-      category === 'shipping-information' ||
-      category === 'free-shipping-progress' ||
-      category === 'recommended-products' ||
-      category === 'frequently-bought-together' ||
-      category === 'recently-viewed-products' ||
-      category === 'empty-cart-section'
-    ) ? [
-        {
-          id: `${category}-1`,
-          title: category.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '),
-          description: `A visual presentation for ${category.split('-').join(' ')}.`,
-          previewComponent: (
-            <div className="p-16 border rounded-2xl bg-white shadow-sm flex flex-col items-center justify-center text-center my-6 max-w-4xl mx-auto">
-              <span className="px-3 py-1 rounded-full text-xs font-bold bg-gray-100 text-gray-700 uppercase tracking-widest mb-3">
-                CART SECTION
-              </span>
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                {category.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
-              </h3>
-              <p className="text-sm text-gray-500 max-w-md">
-                Interactive component section for {category.split('-').join(' ')}.
-              </p>
-            </div>
-          )
-        }
-      ] : [];
+    category === 'product-frequently-bought-together' ? [
+      { id: 'product-frequently-bought-together-1', title: productFrequentlyBoughtTogether1Data.title || 'Product Frequently Bought Together 1', description: productFrequentlyBoughtTogether1Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether1 data={productFrequentlyBoughtTogether1Data as any} /> },
+      { id: 'product-frequently-bought-together-2', title: productFrequentlyBoughtTogether2Data.title || 'Product Frequently Bought Together 2', description: productFrequentlyBoughtTogether2Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether2 data={productFrequentlyBoughtTogether2Data as any} /> },
+      { id: 'product-frequently-bought-together-3', title: productFrequentlyBoughtTogether3Data.title || 'Product Frequently Bought Together 3', description: productFrequentlyBoughtTogether3Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether3 data={productFrequentlyBoughtTogether3Data as any} /> },
+      { id: 'product-frequently-bought-together-4', title: productFrequentlyBoughtTogether4Data.title || 'Product Frequently Bought Together 4', description: productFrequentlyBoughtTogether4Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether4 data={productFrequentlyBoughtTogether4Data as any} /> },
+      { id: 'product-frequently-bought-together-5', title: productFrequentlyBoughtTogether5Data.title || 'Product Frequently Bought Together 5', description: productFrequentlyBoughtTogether5Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether5 data={productFrequentlyBoughtTogether5Data as any} /> },
+      { id: 'product-frequently-bought-together-6', title: productFrequentlyBoughtTogether6Data.title || 'Product Frequently Bought Together 6', description: productFrequentlyBoughtTogether6Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether6 data={productFrequentlyBoughtTogether6Data as any} /> },
+      { id: 'product-frequently-bought-together-7', title: productFrequentlyBoughtTogether7Data.title || 'Product Frequently Bought Together 7', description: productFrequentlyBoughtTogether7Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether7 data={productFrequentlyBoughtTogether7Data as any} /> },
+      { id: 'product-frequently-bought-together-8', title: productFrequentlyBoughtTogether8Data.title || 'Product Frequently Bought Together 8', description: productFrequentlyBoughtTogether8Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether8 data={productFrequentlyBoughtTogether8Data as any} /> },
+      { id: 'product-frequently-bought-together-9', title: productFrequentlyBoughtTogether9Data.title || 'Product Frequently Bought Together 9', description: productFrequentlyBoughtTogether9Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether9 data={productFrequentlyBoughtTogether9Data as any} /> },
+      { id: 'product-frequently-bought-together-10', title: productFrequentlyBoughtTogether10Data.title || 'Product Frequently Bought Together 10', description: productFrequentlyBoughtTogether10Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether10 data={productFrequentlyBoughtTogether10Data as any} /> },
+      { id: 'product-frequently-bought-together-11', title: productFrequentlyBoughtTogether11Data.title || 'Product Frequently Bought Together 11', description: productFrequentlyBoughtTogether11Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether11 data={productFrequentlyBoughtTogether11Data as any} /> },
+      { id: 'product-frequently-bought-together-12', title: productFrequentlyBoughtTogether12Data.title || 'Product Frequently Bought Together 12', description: productFrequentlyBoughtTogether12Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether12 data={productFrequentlyBoughtTogether12Data as any} /> },
+      { id: 'product-frequently-bought-together-13', title: productFrequentlyBoughtTogether13Data.title || 'Product Frequently Bought Together 13', description: productFrequentlyBoughtTogether13Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether13 data={productFrequentlyBoughtTogether13Data as any} /> },
+      { id: 'product-frequently-bought-together-14', title: productFrequentlyBoughtTogether14Data.title || 'Product Frequently Bought Together 14', description: productFrequentlyBoughtTogether14Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether14 data={productFrequentlyBoughtTogether14Data as any} /> },
+      { id: 'product-frequently-bought-together-15', title: productFrequentlyBoughtTogether15Data.title || 'Product Frequently Bought Together 15', description: productFrequentlyBoughtTogether15Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether15 data={productFrequentlyBoughtTogether15Data as any} /> },
+      { id: 'product-frequently-bought-together-16', title: productFrequentlyBoughtTogether16Data.title || 'Product Frequently Bought Together 16', description: productFrequentlyBoughtTogether16Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether16 data={productFrequentlyBoughtTogether16Data as any} /> },
+      { id: 'product-frequently-bought-together-17', title: productFrequentlyBoughtTogether17Data.title || 'Product Frequently Bought Together 17', description: productFrequentlyBoughtTogether17Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether17 data={productFrequentlyBoughtTogether17Data as any} /> },
+      { id: 'product-frequently-bought-together-18', title: productFrequentlyBoughtTogether18Data.title || 'Product Frequently Bought Together 18', description: productFrequentlyBoughtTogether18Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether18 data={productFrequentlyBoughtTogether18Data as any} /> },
+      { id: 'product-frequently-bought-together-19', title: productFrequentlyBoughtTogether19Data.title || 'Product Frequently Bought Together 19', description: productFrequentlyBoughtTogether19Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether19 data={productFrequentlyBoughtTogether19Data as any} /> },
+      { id: 'product-frequently-bought-together-20', title: productFrequentlyBoughtTogether20Data.title || 'Product Frequently Bought Together 20', description: productFrequentlyBoughtTogether20Data.description || 'Product page bundle composition', previewComponent: <ProductFrequentlyBoughtTogether20 data={productFrequentlyBoughtTogether20Data as any} /> }
+    ] : (category === 'cart-frequently-bought-together' || category === 'frequently-bought-together') ? [
+      { id: 'cart-frequently-bought-together-1', title: cartFrequentlyBoughtTogether1Data.title || 'Cart Frequently Bought Together 1', description: cartFrequentlyBoughtTogether1Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether1 data={cartFrequentlyBoughtTogether1Data as any} /> },
+      { id: 'cart-frequently-bought-together-2', title: cartFrequentlyBoughtTogether2Data.title || 'Cart Frequently Bought Together 2', description: cartFrequentlyBoughtTogether2Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether2 data={cartFrequentlyBoughtTogether2Data as any} /> },
+      { id: 'cart-frequently-bought-together-3', title: cartFrequentlyBoughtTogether3Data.title || 'Cart Frequently Bought Together 3', description: cartFrequentlyBoughtTogether3Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether3 data={cartFrequentlyBoughtTogether3Data as any} /> },
+      { id: 'cart-frequently-bought-together-4', title: cartFrequentlyBoughtTogether4Data.title || 'Cart Frequently Bought Together 4', description: cartFrequentlyBoughtTogether4Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether4 data={cartFrequentlyBoughtTogether4Data as any} /> },
+      { id: 'cart-frequently-bought-together-5', title: cartFrequentlyBoughtTogether5Data.title || 'Cart Frequently Bought Together 5', description: cartFrequentlyBoughtTogether5Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether5 data={cartFrequentlyBoughtTogether5Data as any} /> },
+      { id: 'cart-frequently-bought-together-6', title: cartFrequentlyBoughtTogether6Data.title || 'Cart Frequently Bought Together 6', description: cartFrequentlyBoughtTogether6Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether6 data={cartFrequentlyBoughtTogether6Data as any} /> },
+      { id: 'cart-frequently-bought-together-7', title: cartFrequentlyBoughtTogether7Data.title || 'Cart Frequently Bought Together 7', description: cartFrequentlyBoughtTogether7Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether7 data={cartFrequentlyBoughtTogether7Data as any} /> },
+      { id: 'cart-frequently-bought-together-8', title: cartFrequentlyBoughtTogether8Data.title || 'Cart Frequently Bought Together 8', description: cartFrequentlyBoughtTogether8Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether8 data={cartFrequentlyBoughtTogether8Data as any} /> },
+      { id: 'cart-frequently-bought-together-9', title: cartFrequentlyBoughtTogether9Data.title || 'Cart Frequently Bought Together 9', description: cartFrequentlyBoughtTogether9Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether9 data={cartFrequentlyBoughtTogether9Data as any} /> },
+      { id: 'cart-frequently-bought-together-10', title: cartFrequentlyBoughtTogether10Data.title || 'Cart Frequently Bought Together 10', description: cartFrequentlyBoughtTogether10Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether10 data={cartFrequentlyBoughtTogether10Data as any} /> },
+      { id: 'cart-frequently-bought-together-11', title: cartFrequentlyBoughtTogether11Data.title || 'Cart Frequently Bought Together 11', description: cartFrequentlyBoughtTogether11Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether11 data={cartFrequentlyBoughtTogether11Data as any} /> },
+      { id: 'cart-frequently-bought-together-12', title: cartFrequentlyBoughtTogether12Data.title || 'Cart Frequently Bought Together 12', description: cartFrequentlyBoughtTogether12Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether12 data={cartFrequentlyBoughtTogether12Data as any} /> },
+      { id: 'cart-frequently-bought-together-13', title: cartFrequentlyBoughtTogether13Data.title || 'Cart Frequently Bought Together 13', description: cartFrequentlyBoughtTogether13Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether13 data={cartFrequentlyBoughtTogether13Data as any} /> },
+      { id: 'cart-frequently-bought-together-14', title: cartFrequentlyBoughtTogether14Data.title || 'Cart Frequently Bought Together 14', description: cartFrequentlyBoughtTogether14Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether14 data={cartFrequentlyBoughtTogether14Data as any} /> },
+      { id: 'cart-frequently-bought-together-15', title: cartFrequentlyBoughtTogether15Data.title || 'Cart Frequently Bought Together 15', description: cartFrequentlyBoughtTogether15Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether15 data={cartFrequentlyBoughtTogether15Data as any} /> },
+      { id: 'cart-frequently-bought-together-16', title: cartFrequentlyBoughtTogether16Data.title || 'Cart Frequently Bought Together 16', description: cartFrequentlyBoughtTogether16Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether16 data={cartFrequentlyBoughtTogether16Data as any} /> },
+      { id: 'cart-frequently-bought-together-17', title: cartFrequentlyBoughtTogether17Data.title || 'Cart Frequently Bought Together 17', description: cartFrequentlyBoughtTogether17Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether17 data={cartFrequentlyBoughtTogether17Data as any} /> },
+      { id: 'cart-frequently-bought-together-18', title: cartFrequentlyBoughtTogether18Data.title || 'Cart Frequently Bought Together 18', description: cartFrequentlyBoughtTogether18Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether18 data={cartFrequentlyBoughtTogether18Data as any} /> },
+      { id: 'cart-frequently-bought-together-19', title: cartFrequentlyBoughtTogether19Data.title || 'Cart Frequently Bought Together 19', description: cartFrequentlyBoughtTogether19Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether19 data={cartFrequentlyBoughtTogether19Data as any} /> },
+      { id: 'cart-frequently-bought-together-20', title: cartFrequentlyBoughtTogether20Data.title || 'Cart Frequently Bought Together 20', description: cartFrequentlyBoughtTogether20Data.description || 'Cart add-on bundle composition', previewComponent: <CartFrequentlyBoughtTogether20 data={cartFrequentlyBoughtTogether20Data as any} /> }
+    ] : (category === 'cart-recommended-products' || category === 'recommended-products') ? [
+      { id: 'cart-recommended-products-1', title: cartRecommendedProducts1Data.title || 'Cart Recommended Products 1', description: cartRecommendedProducts1Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts1 data={cartRecommendedProducts1Data as any} /> },
+      { id: 'cart-recommended-products-2', title: cartRecommendedProducts2Data.title || 'Cart Recommended Products 2', description: cartRecommendedProducts2Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts2 data={cartRecommendedProducts2Data as any} /> },
+      { id: 'cart-recommended-products-3', title: cartRecommendedProducts3Data.title || 'Cart Recommended Products 3', description: cartRecommendedProducts3Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts3 data={cartRecommendedProducts3Data as any} /> },
+      { id: 'cart-recommended-products-4', title: cartRecommendedProducts4Data.title || 'Cart Recommended Products 4', description: cartRecommendedProducts4Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts4 data={cartRecommendedProducts4Data as any} /> },
+      { id: 'cart-recommended-products-5', title: cartRecommendedProducts5Data.title || 'Cart Recommended Products 5', description: cartRecommendedProducts5Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts5 data={cartRecommendedProducts5Data as any} /> },
+      { id: 'cart-recommended-products-6', title: cartRecommendedProducts6Data.title || 'Cart Recommended Products 6', description: cartRecommendedProducts6Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts6 data={cartRecommendedProducts6Data as any} /> },
+      { id: 'cart-recommended-products-7', title: cartRecommendedProducts7Data.title || 'Cart Recommended Products 7', description: cartRecommendedProducts7Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts7 data={cartRecommendedProducts7Data as any} /> },
+      { id: 'cart-recommended-products-8', title: cartRecommendedProducts8Data.title || 'Cart Recommended Products 8', description: cartRecommendedProducts8Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts8 data={cartRecommendedProducts8Data as any} /> },
+      { id: 'cart-recommended-products-9', title: cartRecommendedProducts9Data.title || 'Cart Recommended Products 9', description: cartRecommendedProducts9Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts9 data={cartRecommendedProducts9Data as any} /> },
+      { id: 'cart-recommended-products-10', title: cartRecommendedProducts10Data.title || 'Cart Recommended Products 10', description: cartRecommendedProducts10Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts10 data={cartRecommendedProducts10Data as any} /> },
+      { id: 'cart-recommended-products-11', title: cartRecommendedProducts11Data.title || 'Cart Recommended Products 11', description: cartRecommendedProducts11Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts11 data={cartRecommendedProducts11Data as any} /> },
+      { id: 'cart-recommended-products-12', title: cartRecommendedProducts12Data.title || 'Cart Recommended Products 12', description: cartRecommendedProducts12Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts12 data={cartRecommendedProducts12Data as any} /> },
+      { id: 'cart-recommended-products-13', title: cartRecommendedProducts13Data.title || 'Cart Recommended Products 13', description: cartRecommendedProducts13Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts13 data={cartRecommendedProducts13Data as any} /> },
+      { id: 'cart-recommended-products-14', title: cartRecommendedProducts14Data.title || 'Cart Recommended Products 14', description: cartRecommendedProducts14Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts14 data={cartRecommendedProducts14Data as any} /> },
+      { id: 'cart-recommended-products-15', title: cartRecommendedProducts15Data.title || 'Cart Recommended Products 15', description: cartRecommendedProducts15Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts15 data={cartRecommendedProducts15Data as any} /> },
+      { id: 'cart-recommended-products-16', title: cartRecommendedProducts16Data.title || 'Cart Recommended Products 16', description: cartRecommendedProducts16Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts16 data={cartRecommendedProducts16Data as any} /> },
+      { id: 'cart-recommended-products-17', title: cartRecommendedProducts17Data.title || 'Cart Recommended Products 17', description: cartRecommendedProducts17Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts17 data={cartRecommendedProducts17Data as any} /> },
+      { id: 'cart-recommended-products-18', title: cartRecommendedProducts18Data.title || 'Cart Recommended Products 18', description: cartRecommendedProducts18Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts18 data={cartRecommendedProducts18Data as any} /> },
+      { id: 'cart-recommended-products-19', title: cartRecommendedProducts19Data.title || 'Cart Recommended Products 19', description: cartRecommendedProducts19Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts19 data={cartRecommendedProducts19Data as any} /> },
+      { id: 'cart-recommended-products-20', title: cartRecommendedProducts20Data.title || 'Cart Recommended Products 20', description: cartRecommendedProducts20Data.description || 'Cart add-on recommendation', previewComponent: <CartRecommendedProducts20 data={cartRecommendedProducts20Data as any} /> }
+    ] :     category === 'recently-viewed-products' ? [
+      { id: 'recently-viewed-products-1', title: recentlyViewedProducts1Data.title || 'Recently Viewed Products 1', description: recentlyViewedProducts1Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts1 data={recentlyViewedProducts1Data as any} /> },
+      { id: 'recently-viewed-products-2', title: recentlyViewedProducts2Data.title || 'Recently Viewed Products 2', description: recentlyViewedProducts2Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts2 data={recentlyViewedProducts2Data as any} /> },
+      { id: 'recently-viewed-products-3', title: recentlyViewedProducts3Data.title || 'Recently Viewed Products 3', description: recentlyViewedProducts3Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts3 data={recentlyViewedProducts3Data as any} /> },
+      { id: 'recently-viewed-products-4', title: recentlyViewedProducts4Data.title || 'Recently Viewed Products 4', description: recentlyViewedProducts4Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts4 data={recentlyViewedProducts4Data as any} /> },
+      { id: 'recently-viewed-products-5', title: recentlyViewedProducts5Data.title || 'Recently Viewed Products 5', description: recentlyViewedProducts5Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts5 data={recentlyViewedProducts5Data as any} /> },
+      { id: 'recently-viewed-products-6', title: recentlyViewedProducts6Data.title || 'Recently Viewed Products 6', description: recentlyViewedProducts6Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts6 data={recentlyViewedProducts6Data as any} /> },
+      { id: 'recently-viewed-products-7', title: recentlyViewedProducts7Data.title || 'Recently Viewed Products 7', description: recentlyViewedProducts7Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts7 data={recentlyViewedProducts7Data as any} /> },
+      { id: 'recently-viewed-products-8', title: recentlyViewedProducts8Data.title || 'Recently Viewed Products 8', description: recentlyViewedProducts8Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts8 data={recentlyViewedProducts8Data as any} /> },
+      { id: 'recently-viewed-products-9', title: recentlyViewedProducts9Data.title || 'Recently Viewed Products 9', description: recentlyViewedProducts9Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts9 data={recentlyViewedProducts9Data as any} /> },
+      { id: 'recently-viewed-products-10', title: recentlyViewedProducts10Data.title || 'Recently Viewed Products 10', description: recentlyViewedProducts10Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts10 data={recentlyViewedProducts10Data as any} /> },
+      { id: 'recently-viewed-products-11', title: recentlyViewedProducts11Data.title || 'Recently Viewed Products 11', description: recentlyViewedProducts11Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts11 data={recentlyViewedProducts11Data as any} /> },
+      { id: 'recently-viewed-products-12', title: recentlyViewedProducts12Data.title || 'Recently Viewed Products 12', description: recentlyViewedProducts12Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts12 data={recentlyViewedProducts12Data as any} /> },
+      { id: 'recently-viewed-products-13', title: recentlyViewedProducts13Data.title || 'Recently Viewed Products 13', description: recentlyViewedProducts13Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts13 data={recentlyViewedProducts13Data as any} /> },
+      { id: 'recently-viewed-products-14', title: recentlyViewedProducts14Data.title || 'Recently Viewed Products 14', description: recentlyViewedProducts14Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts14 data={recentlyViewedProducts14Data as any} /> },
+      { id: 'recently-viewed-products-15', title: recentlyViewedProducts15Data.title || 'Recently Viewed Products 15', description: recentlyViewedProducts15Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts15 data={recentlyViewedProducts15Data as any} /> },
+      { id: 'recently-viewed-products-16', title: recentlyViewedProducts16Data.title || 'Recently Viewed Products 16', description: recentlyViewedProducts16Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts16 data={recentlyViewedProducts16Data as any} /> },
+      { id: 'recently-viewed-products-17', title: recentlyViewedProducts17Data.title || 'Recently Viewed Products 17', description: recentlyViewedProducts17Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts17 data={recentlyViewedProducts17Data as any} /> },
+      { id: 'recently-viewed-products-18', title: recentlyViewedProducts18Data.title || 'Recently Viewed Products 18', description: recentlyViewedProducts18Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts18 data={recentlyViewedProducts18Data as any} /> },
+      { id: 'recently-viewed-products-19', title: recentlyViewedProducts19Data.title || 'Recently Viewed Products 19', description: recentlyViewedProducts19Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts19 data={recentlyViewedProducts19Data as any} /> },
+      { id: 'recently-viewed-products-20', title: recentlyViewedProducts20Data.title || 'Recently Viewed Products 20', description: recentlyViewedProducts20Data.description || 'Recently viewed items display', previewComponent: <RecentlyViewedProducts20 data={recentlyViewedProducts20Data as any} /> }
+    ] :     category === 'empty-cart-section' ? [
+      { id: 'empty-cart-section-1', title: emptyCartSection1Data.title || 'Empty Cart Section 1', description: emptyCartSection1Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection1 data={emptyCartSection1Data as any} /> },
+      { id: 'empty-cart-section-2', title: emptyCartSection2Data.title || 'Empty Cart Section 2', description: emptyCartSection2Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection2 data={emptyCartSection2Data as any} /> },
+      { id: 'empty-cart-section-3', title: emptyCartSection3Data.title || 'Empty Cart Section 3', description: emptyCartSection3Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection3 data={emptyCartSection3Data as any} /> },
+      { id: 'empty-cart-section-4', title: emptyCartSection4Data.title || 'Empty Cart Section 4', description: emptyCartSection4Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection4 data={emptyCartSection4Data as any} /> },
+      { id: 'empty-cart-section-5', title: emptyCartSection5Data.title || 'Empty Cart Section 5', description: emptyCartSection5Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection5 data={emptyCartSection5Data as any} /> },
+      { id: 'empty-cart-section-6', title: emptyCartSection6Data.title || 'Empty Cart Section 6', description: emptyCartSection6Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection6 data={emptyCartSection6Data as any} /> },
+      { id: 'empty-cart-section-7', title: emptyCartSection7Data.title || 'Empty Cart Section 7', description: emptyCartSection7Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection7 data={emptyCartSection7Data as any} /> },
+      { id: 'empty-cart-section-8', title: emptyCartSection8Data.title || 'Empty Cart Section 8', description: emptyCartSection8Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection8 data={emptyCartSection8Data as any} /> },
+      { id: 'empty-cart-section-9', title: emptyCartSection9Data.title || 'Empty Cart Section 9', description: emptyCartSection9Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection9 data={emptyCartSection9Data as any} /> },
+      { id: 'empty-cart-section-10', title: emptyCartSection10Data.title || 'Empty Cart Section 10', description: emptyCartSection10Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection10 data={emptyCartSection10Data as any} /> },
+      { id: 'empty-cart-section-11', title: emptyCartSection11Data.title || 'Empty Cart Section 11', description: emptyCartSection11Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection11 data={emptyCartSection11Data as any} /> },
+      { id: 'empty-cart-section-12', title: emptyCartSection12Data.title || 'Empty Cart Section 12', description: emptyCartSection12Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection12 data={emptyCartSection12Data as any} /> },
+      { id: 'empty-cart-section-13', title: emptyCartSection13Data.title || 'Empty Cart Section 13', description: emptyCartSection13Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection13 data={emptyCartSection13Data as any} /> },
+      { id: 'empty-cart-section-14', title: emptyCartSection14Data.title || 'Empty Cart Section 14', description: emptyCartSection14Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection14 data={emptyCartSection14Data as any} /> },
+      { id: 'empty-cart-section-15', title: emptyCartSection15Data.title || 'Empty Cart Section 15', description: emptyCartSection15Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection15 data={emptyCartSection15Data as any} /> },
+      { id: 'empty-cart-section-16', title: emptyCartSection16Data.title || 'Empty Cart Section 16', description: emptyCartSection16Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection16 data={emptyCartSection16Data as any} /> },
+      { id: 'empty-cart-section-17', title: emptyCartSection17Data.title || 'Empty Cart Section 17', description: emptyCartSection17Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection17 data={emptyCartSection17Data as any} /> },
+      { id: 'empty-cart-section-18', title: emptyCartSection18Data.title || 'Empty Cart Section 18', description: emptyCartSection18Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection18 data={emptyCartSection18Data as any} /> },
+      { id: 'empty-cart-section-19', title: emptyCartSection19Data.title || 'Empty Cart Section 19', description: emptyCartSection19Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection19 data={emptyCartSection19Data as any} /> },
+      { id: 'empty-cart-section-20', title: emptyCartSection20Data.title || 'Empty Cart Section 20', description: emptyCartSection20Data.description || 'Empty cart layout composition', previewComponent: <EmptyCartSection20 data={emptyCartSection20Data as any} /> }
+    ] :     category === 'checkout-header' ? [
+      { id: 'checkout-header-1', title: checkoutheader1Data.title || 'Checkout Header 01', description: checkoutheader1Data.description || 'Placeholder for Checkout Header variant 01', previewComponent: <CheckoutHeader1 data={checkoutheader1Data as any} /> },
+      { id: 'checkout-header-2', title: checkoutheader2Data.title || 'Checkout Header 02', description: checkoutheader2Data.description || 'Placeholder for Checkout Header variant 02', previewComponent: <CheckoutHeader2 data={checkoutheader2Data as any} /> },
+      { id: 'checkout-header-3', title: checkoutheader3Data.title || 'Checkout Header 03', description: checkoutheader3Data.description || 'Placeholder for Checkout Header variant 03', previewComponent: <CheckoutHeader3 data={checkoutheader3Data as any} /> },
+      { id: 'checkout-header-4', title: checkoutheader4Data.title || 'Checkout Header 04', description: checkoutheader4Data.description || 'Placeholder for Checkout Header variant 04', previewComponent: <CheckoutHeader4 data={checkoutheader4Data as any} /> },
+      { id: 'checkout-header-5', title: checkoutheader5Data.title || 'Checkout Header 05', description: checkoutheader5Data.description || 'Placeholder for Checkout Header variant 05', previewComponent: <CheckoutHeader5 data={checkoutheader5Data as any} /> },
+      { id: 'checkout-header-6', title: checkoutheader6Data.title || 'Checkout Header 06', description: checkoutheader6Data.description || 'Placeholder for Checkout Header variant 06', previewComponent: <CheckoutHeader6 data={checkoutheader6Data as any} /> },
+      { id: 'checkout-header-7', title: checkoutheader7Data.title || 'Checkout Header 07', description: checkoutheader7Data.description || 'Placeholder for Checkout Header variant 07', previewComponent: <CheckoutHeader7 data={checkoutheader7Data as any} /> },
+      { id: 'checkout-header-8', title: checkoutheader8Data.title || 'Checkout Header 08', description: checkoutheader8Data.description || 'Placeholder for Checkout Header variant 08', previewComponent: <CheckoutHeader8 data={checkoutheader8Data as any} /> },
+      { id: 'checkout-header-9', title: checkoutheader9Data.title || 'Checkout Header 09', description: checkoutheader9Data.description || 'Placeholder for Checkout Header variant 09', previewComponent: <CheckoutHeader9 data={checkoutheader9Data as any} /> },
+      { id: 'checkout-header-10', title: checkoutheader10Data.title || 'Checkout Header 10', description: checkoutheader10Data.description || 'Placeholder for Checkout Header variant 10', previewComponent: <CheckoutHeader10 data={checkoutheader10Data as any} /> },
+      { id: 'checkout-header-11', title: checkoutheader11Data.title || 'Checkout Header 11', description: checkoutheader11Data.description || 'Placeholder for Checkout Header variant 11', previewComponent: <CheckoutHeader11 data={checkoutheader11Data as any} /> },
+      { id: 'checkout-header-12', title: checkoutheader12Data.title || 'Checkout Header 12', description: checkoutheader12Data.description || 'Placeholder for Checkout Header variant 12', previewComponent: <CheckoutHeader12 data={checkoutheader12Data as any} /> },
+      { id: 'checkout-header-13', title: checkoutheader13Data.title || 'Checkout Header 13', description: checkoutheader13Data.description || 'Placeholder for Checkout Header variant 13', previewComponent: <CheckoutHeader13 data={checkoutheader13Data as any} /> },
+      { id: 'checkout-header-14', title: checkoutheader14Data.title || 'Checkout Header 14', description: checkoutheader14Data.description || 'Placeholder for Checkout Header variant 14', previewComponent: <CheckoutHeader14 data={checkoutheader14Data as any} /> },
+      { id: 'checkout-header-15', title: checkoutheader15Data.title || 'Checkout Header 15', description: checkoutheader15Data.description || 'Placeholder for Checkout Header variant 15', previewComponent: <CheckoutHeader15 data={checkoutheader15Data as any} /> },
+      { id: 'checkout-header-16', title: checkoutheader16Data.title || 'Checkout Header 16', description: checkoutheader16Data.description || 'Placeholder for Checkout Header variant 16', previewComponent: <CheckoutHeader16 data={checkoutheader16Data as any} /> },
+      { id: 'checkout-header-17', title: checkoutheader17Data.title || 'Checkout Header 17', description: checkoutheader17Data.description || 'Placeholder for Checkout Header variant 17', previewComponent: <CheckoutHeader17 data={checkoutheader17Data as any} /> },
+      { id: 'checkout-header-18', title: checkoutheader18Data.title || 'Checkout Header 18', description: checkoutheader18Data.description || 'Placeholder for Checkout Header variant 18', previewComponent: <CheckoutHeader18 data={checkoutheader18Data as any} /> },
+      { id: 'checkout-header-19', title: checkoutheader19Data.title || 'Checkout Header 19', description: checkoutheader19Data.description || 'Placeholder for Checkout Header variant 19', previewComponent: <CheckoutHeader19 data={checkoutheader19Data as any} /> },
+      { id: 'checkout-header-20', title: checkoutheader20Data.title || 'Checkout Header 20', description: checkoutheader20Data.description || 'Placeholder for Checkout Header variant 20', previewComponent: <CheckoutHeader20 data={checkoutheader20Data as any} /> }
+    ] :     category === 'customer-information' ? [
+      { id: 'customer-information-1', title: customerinformation1Data.title || 'Customer Information 01', description: customerinformation1Data.description || 'Placeholder for Customer Information variant 01', previewComponent: <CustomerInformation1 data={customerinformation1Data as any} /> },
+      { id: 'customer-information-2', title: customerinformation2Data.title || 'Customer Information 02', description: customerinformation2Data.description || 'Placeholder for Customer Information variant 02', previewComponent: <CustomerInformation2 data={customerinformation2Data as any} /> },
+      { id: 'customer-information-3', title: customerinformation3Data.title || 'Customer Information 03', description: customerinformation3Data.description || 'Placeholder for Customer Information variant 03', previewComponent: <CustomerInformation3 data={customerinformation3Data as any} /> },
+      { id: 'customer-information-4', title: customerinformation4Data.title || 'Customer Information 04', description: customerinformation4Data.description || 'Placeholder for Customer Information variant 04', previewComponent: <CustomerInformation4 data={customerinformation4Data as any} /> },
+      { id: 'customer-information-5', title: customerinformation5Data.title || 'Customer Information 05', description: customerinformation5Data.description || 'Placeholder for Customer Information variant 05', previewComponent: <CustomerInformation5 data={customerinformation5Data as any} /> },
+      { id: 'customer-information-6', title: customerinformation6Data.title || 'Customer Information 06', description: customerinformation6Data.description || 'Placeholder for Customer Information variant 06', previewComponent: <CustomerInformation6 data={customerinformation6Data as any} /> },
+      { id: 'customer-information-7', title: customerinformation7Data.title || 'Customer Information 07', description: customerinformation7Data.description || 'Placeholder for Customer Information variant 07', previewComponent: <CustomerInformation7 data={customerinformation7Data as any} /> },
+      { id: 'customer-information-8', title: customerinformation8Data.title || 'Customer Information 08', description: customerinformation8Data.description || 'Placeholder for Customer Information variant 08', previewComponent: <CustomerInformation8 data={customerinformation8Data as any} /> },
+      { id: 'customer-information-9', title: customerinformation9Data.title || 'Customer Information 09', description: customerinformation9Data.description || 'Placeholder for Customer Information variant 09', previewComponent: <CustomerInformation9 data={customerinformation9Data as any} /> },
+      { id: 'customer-information-10', title: customerinformation10Data.title || 'Customer Information 10', description: customerinformation10Data.description || 'Placeholder for Customer Information variant 10', previewComponent: <CustomerInformation10 data={customerinformation10Data as any} /> },
+      { id: 'customer-information-11', title: customerinformation11Data.title || 'Customer Information 11', description: customerinformation11Data.description || 'Placeholder for Customer Information variant 11', previewComponent: <CustomerInformation11 data={customerinformation11Data as any} /> },
+      { id: 'customer-information-12', title: customerinformation12Data.title || 'Customer Information 12', description: customerinformation12Data.description || 'Placeholder for Customer Information variant 12', previewComponent: <CustomerInformation12 data={customerinformation12Data as any} /> },
+      { id: 'customer-information-13', title: customerinformation13Data.title || 'Customer Information 13', description: customerinformation13Data.description || 'Placeholder for Customer Information variant 13', previewComponent: <CustomerInformation13 data={customerinformation13Data as any} /> },
+      { id: 'customer-information-14', title: customerinformation14Data.title || 'Customer Information 14', description: customerinformation14Data.description || 'Placeholder for Customer Information variant 14', previewComponent: <CustomerInformation14 data={customerinformation14Data as any} /> },
+      { id: 'customer-information-15', title: customerinformation15Data.title || 'Customer Information 15', description: customerinformation15Data.description || 'Placeholder for Customer Information variant 15', previewComponent: <CustomerInformation15 data={customerinformation15Data as any} /> },
+      { id: 'customer-information-16', title: customerinformation16Data.title || 'Customer Information 16', description: customerinformation16Data.description || 'Placeholder for Customer Information variant 16', previewComponent: <CustomerInformation16 data={customerinformation16Data as any} /> },
+      { id: 'customer-information-17', title: customerinformation17Data.title || 'Customer Information 17', description: customerinformation17Data.description || 'Placeholder for Customer Information variant 17', previewComponent: <CustomerInformation17 data={customerinformation17Data as any} /> },
+      { id: 'customer-information-18', title: customerinformation18Data.title || 'Customer Information 18', description: customerinformation18Data.description || 'Placeholder for Customer Information variant 18', previewComponent: <CustomerInformation18 data={customerinformation18Data as any} /> },
+      { id: 'customer-information-19', title: customerinformation19Data.title || 'Customer Information 19', description: customerinformation19Data.description || 'Placeholder for Customer Information variant 19', previewComponent: <CustomerInformation19 data={customerinformation19Data as any} /> },
+      { id: 'customer-information-20', title: customerinformation20Data.title || 'Customer Information 20', description: customerinformation20Data.description || 'Placeholder for Customer Information variant 20', previewComponent: <CustomerInformation20 data={customerinformation20Data as any} /> }
+    ] :     category === 'shipping-address' ? [
+      { id: 'shipping-address-1', title: shippingaddress1Data.title || 'Shipping Address 01', description: shippingaddress1Data.description || 'Placeholder for Shipping Address variant 01', previewComponent: <ShippingAddress1 data={shippingaddress1Data as any} /> },
+      { id: 'shipping-address-2', title: shippingaddress2Data.title || 'Shipping Address 02', description: shippingaddress2Data.description || 'Placeholder for Shipping Address variant 02', previewComponent: <ShippingAddress2 data={shippingaddress2Data as any} /> },
+      { id: 'shipping-address-3', title: shippingaddress3Data.title || 'Shipping Address 03', description: shippingaddress3Data.description || 'Placeholder for Shipping Address variant 03', previewComponent: <ShippingAddress3 data={shippingaddress3Data as any} /> },
+      { id: 'shipping-address-4', title: shippingaddress4Data.title || 'Shipping Address 04', description: shippingaddress4Data.description || 'Placeholder for Shipping Address variant 04', previewComponent: <ShippingAddress4 data={shippingaddress4Data as any} /> },
+      { id: 'shipping-address-5', title: shippingaddress5Data.title || 'Shipping Address 05', description: shippingaddress5Data.description || 'Placeholder for Shipping Address variant 05', previewComponent: <ShippingAddress5 data={shippingaddress5Data as any} /> },
+      { id: 'shipping-address-6', title: shippingaddress6Data.title || 'Shipping Address 06', description: shippingaddress6Data.description || 'Placeholder for Shipping Address variant 06', previewComponent: <ShippingAddress6 data={shippingaddress6Data as any} /> },
+      { id: 'shipping-address-7', title: shippingaddress7Data.title || 'Shipping Address 07', description: shippingaddress7Data.description || 'Placeholder for Shipping Address variant 07', previewComponent: <ShippingAddress7 data={shippingaddress7Data as any} /> },
+      { id: 'shipping-address-8', title: shippingaddress8Data.title || 'Shipping Address 08', description: shippingaddress8Data.description || 'Placeholder for Shipping Address variant 08', previewComponent: <ShippingAddress8 data={shippingaddress8Data as any} /> },
+      { id: 'shipping-address-9', title: shippingaddress9Data.title || 'Shipping Address 09', description: shippingaddress9Data.description || 'Placeholder for Shipping Address variant 09', previewComponent: <ShippingAddress9 data={shippingaddress9Data as any} /> },
+      { id: 'shipping-address-10', title: shippingaddress10Data.title || 'Shipping Address 10', description: shippingaddress10Data.description || 'Placeholder for Shipping Address variant 10', previewComponent: <ShippingAddress10 data={shippingaddress10Data as any} /> },
+      { id: 'shipping-address-11', title: shippingaddress11Data.title || 'Shipping Address 11', description: shippingaddress11Data.description || 'Placeholder for Shipping Address variant 11', previewComponent: <ShippingAddress11 data={shippingaddress11Data as any} /> },
+      { id: 'shipping-address-12', title: shippingaddress12Data.title || 'Shipping Address 12', description: shippingaddress12Data.description || 'Placeholder for Shipping Address variant 12', previewComponent: <ShippingAddress12 data={shippingaddress12Data as any} /> },
+      { id: 'shipping-address-13', title: shippingaddress13Data.title || 'Shipping Address 13', description: shippingaddress13Data.description || 'Placeholder for Shipping Address variant 13', previewComponent: <ShippingAddress13 data={shippingaddress13Data as any} /> },
+      { id: 'shipping-address-14', title: shippingaddress14Data.title || 'Shipping Address 14', description: shippingaddress14Data.description || 'Placeholder for Shipping Address variant 14', previewComponent: <ShippingAddress14 data={shippingaddress14Data as any} /> },
+      { id: 'shipping-address-15', title: shippingaddress15Data.title || 'Shipping Address 15', description: shippingaddress15Data.description || 'Placeholder for Shipping Address variant 15', previewComponent: <ShippingAddress15 data={shippingaddress15Data as any} /> },
+      { id: 'shipping-address-16', title: shippingaddress16Data.title || 'Shipping Address 16', description: shippingaddress16Data.description || 'Placeholder for Shipping Address variant 16', previewComponent: <ShippingAddress16 data={shippingaddress16Data as any} /> },
+      { id: 'shipping-address-17', title: shippingaddress17Data.title || 'Shipping Address 17', description: shippingaddress17Data.description || 'Placeholder for Shipping Address variant 17', previewComponent: <ShippingAddress17 data={shippingaddress17Data as any} /> },
+      { id: 'shipping-address-18', title: shippingaddress18Data.title || 'Shipping Address 18', description: shippingaddress18Data.description || 'Placeholder for Shipping Address variant 18', previewComponent: <ShippingAddress18 data={shippingaddress18Data as any} /> },
+      { id: 'shipping-address-19', title: shippingaddress19Data.title || 'Shipping Address 19', description: shippingaddress19Data.description || 'Placeholder for Shipping Address variant 19', previewComponent: <ShippingAddress19 data={shippingaddress19Data as any} /> },
+      { id: 'shipping-address-20', title: shippingaddress20Data.title || 'Shipping Address 20', description: shippingaddress20Data.description || 'Placeholder for Shipping Address variant 20', previewComponent: <ShippingAddress20 data={shippingaddress20Data as any} /> }
+    ] :     category === 'billing-address' ? [
+      { id: 'billing-address-1', title: billingaddress1Data.title || 'Billing Address 01', description: billingaddress1Data.description || 'Placeholder for Billing Address variant 01', previewComponent: <BillingAddress1 data={billingaddress1Data as any} /> },
+      { id: 'billing-address-2', title: billingaddress2Data.title || 'Billing Address 02', description: billingaddress2Data.description || 'Placeholder for Billing Address variant 02', previewComponent: <BillingAddress2 data={billingaddress2Data as any} /> },
+      { id: 'billing-address-3', title: billingaddress3Data.title || 'Billing Address 03', description: billingaddress3Data.description || 'Placeholder for Billing Address variant 03', previewComponent: <BillingAddress3 data={billingaddress3Data as any} /> },
+      { id: 'billing-address-4', title: billingaddress4Data.title || 'Billing Address 04', description: billingaddress4Data.description || 'Placeholder for Billing Address variant 04', previewComponent: <BillingAddress4 data={billingaddress4Data as any} /> },
+      { id: 'billing-address-5', title: billingaddress5Data.title || 'Billing Address 05', description: billingaddress5Data.description || 'Placeholder for Billing Address variant 05', previewComponent: <BillingAddress5 data={billingaddress5Data as any} /> },
+      { id: 'billing-address-6', title: billingaddress6Data.title || 'Billing Address 06', description: billingaddress6Data.description || 'Placeholder for Billing Address variant 06', previewComponent: <BillingAddress6 data={billingaddress6Data as any} /> },
+      { id: 'billing-address-7', title: billingaddress7Data.title || 'Billing Address 07', description: billingaddress7Data.description || 'Placeholder for Billing Address variant 07', previewComponent: <BillingAddress7 data={billingaddress7Data as any} /> },
+      { id: 'billing-address-8', title: billingaddress8Data.title || 'Billing Address 08', description: billingaddress8Data.description || 'Placeholder for Billing Address variant 08', previewComponent: <BillingAddress8 data={billingaddress8Data as any} /> },
+      { id: 'billing-address-9', title: billingaddress9Data.title || 'Billing Address 09', description: billingaddress9Data.description || 'Placeholder for Billing Address variant 09', previewComponent: <BillingAddress9 data={billingaddress9Data as any} /> },
+      { id: 'billing-address-10', title: billingaddress10Data.title || 'Billing Address 10', description: billingaddress10Data.description || 'Placeholder for Billing Address variant 10', previewComponent: <BillingAddress10 data={billingaddress10Data as any} /> },
+      { id: 'billing-address-11', title: billingaddress11Data.title || 'Billing Address 11', description: billingaddress11Data.description || 'Placeholder for Billing Address variant 11', previewComponent: <BillingAddress11 data={billingaddress11Data as any} /> },
+      { id: 'billing-address-12', title: billingaddress12Data.title || 'Billing Address 12', description: billingaddress12Data.description || 'Placeholder for Billing Address variant 12', previewComponent: <BillingAddress12 data={billingaddress12Data as any} /> },
+      { id: 'billing-address-13', title: billingaddress13Data.title || 'Billing Address 13', description: billingaddress13Data.description || 'Placeholder for Billing Address variant 13', previewComponent: <BillingAddress13 data={billingaddress13Data as any} /> },
+      { id: 'billing-address-14', title: billingaddress14Data.title || 'Billing Address 14', description: billingaddress14Data.description || 'Placeholder for Billing Address variant 14', previewComponent: <BillingAddress14 data={billingaddress14Data as any} /> },
+      { id: 'billing-address-15', title: billingaddress15Data.title || 'Billing Address 15', description: billingaddress15Data.description || 'Placeholder for Billing Address variant 15', previewComponent: <BillingAddress15 data={billingaddress15Data as any} /> },
+      { id: 'billing-address-16', title: billingaddress16Data.title || 'Billing Address 16', description: billingaddress16Data.description || 'Placeholder for Billing Address variant 16', previewComponent: <BillingAddress16 data={billingaddress16Data as any} /> },
+      { id: 'billing-address-17', title: billingaddress17Data.title || 'Billing Address 17', description: billingaddress17Data.description || 'Placeholder for Billing Address variant 17', previewComponent: <BillingAddress17 data={billingaddress17Data as any} /> },
+      { id: 'billing-address-18', title: billingaddress18Data.title || 'Billing Address 18', description: billingaddress18Data.description || 'Placeholder for Billing Address variant 18', previewComponent: <BillingAddress18 data={billingaddress18Data as any} /> },
+      { id: 'billing-address-19', title: billingaddress19Data.title || 'Billing Address 19', description: billingaddress19Data.description || 'Placeholder for Billing Address variant 19', previewComponent: <BillingAddress19 data={billingaddress19Data as any} /> },
+      { id: 'billing-address-20', title: billingaddress20Data.title || 'Billing Address 20', description: billingaddress20Data.description || 'Placeholder for Billing Address variant 20', previewComponent: <BillingAddress20 data={billingaddress20Data as any} /> }
+    ] :     category === 'delivery-options' ? [
+      { id: 'delivery-options-1', title: deliveryoptions1Data.title || 'Delivery Options 01', description: deliveryoptions1Data.description || 'Placeholder for Delivery Options variant 01', previewComponent: <DeliveryOptions1 data={deliveryoptions1Data as any} /> },
+      { id: 'delivery-options-2', title: deliveryoptions2Data.title || 'Delivery Options 02', description: deliveryoptions2Data.description || 'Placeholder for Delivery Options variant 02', previewComponent: <DeliveryOptions2 data={deliveryoptions2Data as any} /> },
+      { id: 'delivery-options-3', title: deliveryoptions3Data.title || 'Delivery Options 03', description: deliveryoptions3Data.description || 'Placeholder for Delivery Options variant 03', previewComponent: <DeliveryOptions3 data={deliveryoptions3Data as any} /> },
+      { id: 'delivery-options-4', title: deliveryoptions4Data.title || 'Delivery Options 04', description: deliveryoptions4Data.description || 'Placeholder for Delivery Options variant 04', previewComponent: <DeliveryOptions4 data={deliveryoptions4Data as any} /> },
+      { id: 'delivery-options-5', title: deliveryoptions5Data.title || 'Delivery Options 05', description: deliveryoptions5Data.description || 'Placeholder for Delivery Options variant 05', previewComponent: <DeliveryOptions5 data={deliveryoptions5Data as any} /> },
+      { id: 'delivery-options-6', title: deliveryoptions6Data.title || 'Delivery Options 06', description: deliveryoptions6Data.description || 'Placeholder for Delivery Options variant 06', previewComponent: <DeliveryOptions6 data={deliveryoptions6Data as any} /> },
+      { id: 'delivery-options-7', title: deliveryoptions7Data.title || 'Delivery Options 07', description: deliveryoptions7Data.description || 'Placeholder for Delivery Options variant 07', previewComponent: <DeliveryOptions7 data={deliveryoptions7Data as any} /> },
+      { id: 'delivery-options-8', title: deliveryoptions8Data.title || 'Delivery Options 08', description: deliveryoptions8Data.description || 'Placeholder for Delivery Options variant 08', previewComponent: <DeliveryOptions8 data={deliveryoptions8Data as any} /> },
+      { id: 'delivery-options-9', title: deliveryoptions9Data.title || 'Delivery Options 09', description: deliveryoptions9Data.description || 'Placeholder for Delivery Options variant 09', previewComponent: <DeliveryOptions9 data={deliveryoptions9Data as any} /> },
+      { id: 'delivery-options-10', title: deliveryoptions10Data.title || 'Delivery Options 10', description: deliveryoptions10Data.description || 'Placeholder for Delivery Options variant 10', previewComponent: <DeliveryOptions10 data={deliveryoptions10Data as any} /> },
+      { id: 'delivery-options-11', title: deliveryoptions11Data.title || 'Delivery Options 11', description: deliveryoptions11Data.description || 'Placeholder for Delivery Options variant 11', previewComponent: <DeliveryOptions11 data={deliveryoptions11Data as any} /> },
+      { id: 'delivery-options-12', title: deliveryoptions12Data.title || 'Delivery Options 12', description: deliveryoptions12Data.description || 'Placeholder for Delivery Options variant 12', previewComponent: <DeliveryOptions12 data={deliveryoptions12Data as any} /> },
+      { id: 'delivery-options-13', title: deliveryoptions13Data.title || 'Delivery Options 13', description: deliveryoptions13Data.description || 'Placeholder for Delivery Options variant 13', previewComponent: <DeliveryOptions13 data={deliveryoptions13Data as any} /> },
+      { id: 'delivery-options-14', title: deliveryoptions14Data.title || 'Delivery Options 14', description: deliveryoptions14Data.description || 'Placeholder for Delivery Options variant 14', previewComponent: <DeliveryOptions14 data={deliveryoptions14Data as any} /> },
+      { id: 'delivery-options-15', title: deliveryoptions15Data.title || 'Delivery Options 15', description: deliveryoptions15Data.description || 'Placeholder for Delivery Options variant 15', previewComponent: <DeliveryOptions15 data={deliveryoptions15Data as any} /> },
+      { id: 'delivery-options-16', title: deliveryoptions16Data.title || 'Delivery Options 16', description: deliveryoptions16Data.description || 'Placeholder for Delivery Options variant 16', previewComponent: <DeliveryOptions16 data={deliveryoptions16Data as any} /> },
+      { id: 'delivery-options-17', title: deliveryoptions17Data.title || 'Delivery Options 17', description: deliveryoptions17Data.description || 'Placeholder for Delivery Options variant 17', previewComponent: <DeliveryOptions17 data={deliveryoptions17Data as any} /> },
+      { id: 'delivery-options-18', title: deliveryoptions18Data.title || 'Delivery Options 18', description: deliveryoptions18Data.description || 'Placeholder for Delivery Options variant 18', previewComponent: <DeliveryOptions18 data={deliveryoptions18Data as any} /> },
+      { id: 'delivery-options-19', title: deliveryoptions19Data.title || 'Delivery Options 19', description: deliveryoptions19Data.description || 'Placeholder for Delivery Options variant 19', previewComponent: <DeliveryOptions19 data={deliveryoptions19Data as any} /> },
+      { id: 'delivery-options-20', title: deliveryoptions20Data.title || 'Delivery Options 20', description: deliveryoptions20Data.description || 'Placeholder for Delivery Options variant 20', previewComponent: <DeliveryOptions20 data={deliveryoptions20Data as any} /> }
+    ] :     category === 'payment-options' ? [
+      { id: 'payment-options-1', title: paymentoptions1Data.title || 'Payment Options 01', description: paymentoptions1Data.description || 'Placeholder for Payment Options variant 01', previewComponent: <PaymentOptions1 data={paymentoptions1Data as any} /> },
+      { id: 'payment-options-2', title: paymentoptions2Data.title || 'Payment Options 02', description: paymentoptions2Data.description || 'Placeholder for Payment Options variant 02', previewComponent: <PaymentOptions2 data={paymentoptions2Data as any} /> },
+      { id: 'payment-options-3', title: paymentoptions3Data.title || 'Payment Options 03', description: paymentoptions3Data.description || 'Placeholder for Payment Options variant 03', previewComponent: <PaymentOptions3 data={paymentoptions3Data as any} /> },
+      { id: 'payment-options-4', title: paymentoptions4Data.title || 'Payment Options 04', description: paymentoptions4Data.description || 'Placeholder for Payment Options variant 04', previewComponent: <PaymentOptions4 data={paymentoptions4Data as any} /> },
+      { id: 'payment-options-5', title: paymentoptions5Data.title || 'Payment Options 05', description: paymentoptions5Data.description || 'Placeholder for Payment Options variant 05', previewComponent: <PaymentOptions5 data={paymentoptions5Data as any} /> },
+      { id: 'payment-options-6', title: paymentoptions6Data.title || 'Payment Options 06', description: paymentoptions6Data.description || 'Placeholder for Payment Options variant 06', previewComponent: <PaymentOptions6 data={paymentoptions6Data as any} /> },
+      { id: 'payment-options-7', title: paymentoptions7Data.title || 'Payment Options 07', description: paymentoptions7Data.description || 'Placeholder for Payment Options variant 07', previewComponent: <PaymentOptions7 data={paymentoptions7Data as any} /> },
+      { id: 'payment-options-8', title: paymentoptions8Data.title || 'Payment Options 08', description: paymentoptions8Data.description || 'Placeholder for Payment Options variant 08', previewComponent: <PaymentOptions8 data={paymentoptions8Data as any} /> },
+      { id: 'payment-options-9', title: paymentoptions9Data.title || 'Payment Options 09', description: paymentoptions9Data.description || 'Placeholder for Payment Options variant 09', previewComponent: <PaymentOptions9 data={paymentoptions9Data as any} /> },
+      { id: 'payment-options-10', title: paymentoptions10Data.title || 'Payment Options 10', description: paymentoptions10Data.description || 'Placeholder for Payment Options variant 10', previewComponent: <PaymentOptions10 data={paymentoptions10Data as any} /> },
+      { id: 'payment-options-11', title: paymentoptions11Data.title || 'Payment Options 11', description: paymentoptions11Data.description || 'Placeholder for Payment Options variant 11', previewComponent: <PaymentOptions11 data={paymentoptions11Data as any} /> },
+      { id: 'payment-options-12', title: paymentoptions12Data.title || 'Payment Options 12', description: paymentoptions12Data.description || 'Placeholder for Payment Options variant 12', previewComponent: <PaymentOptions12 data={paymentoptions12Data as any} /> },
+      { id: 'payment-options-13', title: paymentoptions13Data.title || 'Payment Options 13', description: paymentoptions13Data.description || 'Placeholder for Payment Options variant 13', previewComponent: <PaymentOptions13 data={paymentoptions13Data as any} /> },
+      { id: 'payment-options-14', title: paymentoptions14Data.title || 'Payment Options 14', description: paymentoptions14Data.description || 'Placeholder for Payment Options variant 14', previewComponent: <PaymentOptions14 data={paymentoptions14Data as any} /> },
+      { id: 'payment-options-15', title: paymentoptions15Data.title || 'Payment Options 15', description: paymentoptions15Data.description || 'Placeholder for Payment Options variant 15', previewComponent: <PaymentOptions15 data={paymentoptions15Data as any} /> },
+      { id: 'payment-options-16', title: paymentoptions16Data.title || 'Payment Options 16', description: paymentoptions16Data.description || 'Placeholder for Payment Options variant 16', previewComponent: <PaymentOptions16 data={paymentoptions16Data as any} /> },
+      { id: 'payment-options-17', title: paymentoptions17Data.title || 'Payment Options 17', description: paymentoptions17Data.description || 'Placeholder for Payment Options variant 17', previewComponent: <PaymentOptions17 data={paymentoptions17Data as any} /> },
+      { id: 'payment-options-18', title: paymentoptions18Data.title || 'Payment Options 18', description: paymentoptions18Data.description || 'Placeholder for Payment Options variant 18', previewComponent: <PaymentOptions18 data={paymentoptions18Data as any} /> },
+      { id: 'payment-options-19', title: paymentoptions19Data.title || 'Payment Options 19', description: paymentoptions19Data.description || 'Placeholder for Payment Options variant 19', previewComponent: <PaymentOptions19 data={paymentoptions19Data as any} /> },
+      { id: 'payment-options-20', title: paymentoptions20Data.title || 'Payment Options 20', description: paymentoptions20Data.description || 'Placeholder for Payment Options variant 20', previewComponent: <PaymentOptions20 data={paymentoptions20Data as any} /> }
+    ] :     category === 'checkout-order-summary' ? [
+      { id: 'checkout-order-summary-1', title: checkoutordersummary1Data.title || 'Order Summary 01', description: checkoutordersummary1Data.description || 'Placeholder for Order Summary variant 01', previewComponent: <CheckoutOrderSummary1 data={checkoutordersummary1Data as any} /> },
+      { id: 'checkout-order-summary-2', title: checkoutordersummary2Data.title || 'Order Summary 02', description: checkoutordersummary2Data.description || 'Placeholder for Order Summary variant 02', previewComponent: <CheckoutOrderSummary2 data={checkoutordersummary2Data as any} /> },
+      { id: 'checkout-order-summary-3', title: checkoutordersummary3Data.title || 'Order Summary 03', description: checkoutordersummary3Data.description || 'Placeholder for Order Summary variant 03', previewComponent: <CheckoutOrderSummary3 data={checkoutordersummary3Data as any} /> },
+      { id: 'checkout-order-summary-4', title: checkoutordersummary4Data.title || 'Order Summary 04', description: checkoutordersummary4Data.description || 'Placeholder for Order Summary variant 04', previewComponent: <CheckoutOrderSummary4 data={checkoutordersummary4Data as any} /> },
+      { id: 'checkout-order-summary-5', title: checkoutordersummary5Data.title || 'Order Summary 05', description: checkoutordersummary5Data.description || 'Placeholder for Order Summary variant 05', previewComponent: <CheckoutOrderSummary5 data={checkoutordersummary5Data as any} /> },
+      { id: 'checkout-order-summary-6', title: checkoutordersummary6Data.title || 'Order Summary 06', description: checkoutordersummary6Data.description || 'Placeholder for Order Summary variant 06', previewComponent: <CheckoutOrderSummary6 data={checkoutordersummary6Data as any} /> },
+      { id: 'checkout-order-summary-7', title: checkoutordersummary7Data.title || 'Order Summary 07', description: checkoutordersummary7Data.description || 'Placeholder for Order Summary variant 07', previewComponent: <CheckoutOrderSummary7 data={checkoutordersummary7Data as any} /> },
+      { id: 'checkout-order-summary-8', title: checkoutordersummary8Data.title || 'Order Summary 08', description: checkoutordersummary8Data.description || 'Placeholder for Order Summary variant 08', previewComponent: <CheckoutOrderSummary8 data={checkoutordersummary8Data as any} /> },
+      { id: 'checkout-order-summary-9', title: checkoutordersummary9Data.title || 'Order Summary 09', description: checkoutordersummary9Data.description || 'Placeholder for Order Summary variant 09', previewComponent: <CheckoutOrderSummary9 data={checkoutordersummary9Data as any} /> },
+      { id: 'checkout-order-summary-10', title: checkoutordersummary10Data.title || 'Order Summary 10', description: checkoutordersummary10Data.description || 'Placeholder for Order Summary variant 10', previewComponent: <CheckoutOrderSummary10 data={checkoutordersummary10Data as any} /> },
+      { id: 'checkout-order-summary-11', title: checkoutordersummary11Data.title || 'Order Summary 11', description: checkoutordersummary11Data.description || 'Placeholder for Order Summary variant 11', previewComponent: <CheckoutOrderSummary11 data={checkoutordersummary11Data as any} /> },
+      { id: 'checkout-order-summary-12', title: checkoutordersummary12Data.title || 'Order Summary 12', description: checkoutordersummary12Data.description || 'Placeholder for Order Summary variant 12', previewComponent: <CheckoutOrderSummary12 data={checkoutordersummary12Data as any} /> },
+      { id: 'checkout-order-summary-13', title: checkoutordersummary13Data.title || 'Order Summary 13', description: checkoutordersummary13Data.description || 'Placeholder for Order Summary variant 13', previewComponent: <CheckoutOrderSummary13 data={checkoutordersummary13Data as any} /> },
+      { id: 'checkout-order-summary-14', title: checkoutordersummary14Data.title || 'Order Summary 14', description: checkoutordersummary14Data.description || 'Placeholder for Order Summary variant 14', previewComponent: <CheckoutOrderSummary14 data={checkoutordersummary14Data as any} /> },
+      { id: 'checkout-order-summary-15', title: checkoutordersummary15Data.title || 'Order Summary 15', description: checkoutordersummary15Data.description || 'Placeholder for Order Summary variant 15', previewComponent: <CheckoutOrderSummary15 data={checkoutordersummary15Data as any} /> },
+      { id: 'checkout-order-summary-16', title: checkoutordersummary16Data.title || 'Order Summary 16', description: checkoutordersummary16Data.description || 'Placeholder for Order Summary variant 16', previewComponent: <CheckoutOrderSummary16 data={checkoutordersummary16Data as any} /> },
+      { id: 'checkout-order-summary-17', title: checkoutordersummary17Data.title || 'Order Summary 17', description: checkoutordersummary17Data.description || 'Placeholder for Order Summary variant 17', previewComponent: <CheckoutOrderSummary17 data={checkoutordersummary17Data as any} /> },
+      { id: 'checkout-order-summary-18', title: checkoutordersummary18Data.title || 'Order Summary 18', description: checkoutordersummary18Data.description || 'Placeholder for Order Summary variant 18', previewComponent: <CheckoutOrderSummary18 data={checkoutordersummary18Data as any} /> },
+      { id: 'checkout-order-summary-19', title: checkoutordersummary19Data.title || 'Order Summary 19', description: checkoutordersummary19Data.description || 'Placeholder for Order Summary variant 19', previewComponent: <CheckoutOrderSummary19 data={checkoutordersummary19Data as any} /> },
+      { id: 'checkout-order-summary-20', title: checkoutordersummary20Data.title || 'Order Summary 20', description: checkoutordersummary20Data.description || 'Placeholder for Order Summary variant 20', previewComponent: <CheckoutOrderSummary20 data={checkoutordersummary20Data as any} /> }
+    ] :     category === 'checkout-discount-coupon' ? [
+      { id: 'checkout-discount-coupon-1', title: checkoutdiscountcoupon1Data.title || 'Discount / Coupon Section 01', description: checkoutdiscountcoupon1Data.description || 'Placeholder for Discount / Coupon Section variant 01', previewComponent: <CheckoutDiscountCoupon1 data={checkoutdiscountcoupon1Data as any} /> },
+      { id: 'checkout-discount-coupon-2', title: checkoutdiscountcoupon2Data.title || 'Discount / Coupon Section 02', description: checkoutdiscountcoupon2Data.description || 'Placeholder for Discount / Coupon Section variant 02', previewComponent: <CheckoutDiscountCoupon2 data={checkoutdiscountcoupon2Data as any} /> },
+      { id: 'checkout-discount-coupon-3', title: checkoutdiscountcoupon3Data.title || 'Discount / Coupon Section 03', description: checkoutdiscountcoupon3Data.description || 'Placeholder for Discount / Coupon Section variant 03', previewComponent: <CheckoutDiscountCoupon3 data={checkoutdiscountcoupon3Data as any} /> },
+      { id: 'checkout-discount-coupon-4', title: checkoutdiscountcoupon4Data.title || 'Discount / Coupon Section 04', description: checkoutdiscountcoupon4Data.description || 'Placeholder for Discount / Coupon Section variant 04', previewComponent: <CheckoutDiscountCoupon4 data={checkoutdiscountcoupon4Data as any} /> },
+      { id: 'checkout-discount-coupon-5', title: checkoutdiscountcoupon5Data.title || 'Discount / Coupon Section 05', description: checkoutdiscountcoupon5Data.description || 'Placeholder for Discount / Coupon Section variant 05', previewComponent: <CheckoutDiscountCoupon5 data={checkoutdiscountcoupon5Data as any} /> },
+      { id: 'checkout-discount-coupon-6', title: checkoutdiscountcoupon6Data.title || 'Discount / Coupon Section 06', description: checkoutdiscountcoupon6Data.description || 'Placeholder for Discount / Coupon Section variant 06', previewComponent: <CheckoutDiscountCoupon6 data={checkoutdiscountcoupon6Data as any} /> },
+      { id: 'checkout-discount-coupon-7', title: checkoutdiscountcoupon7Data.title || 'Discount / Coupon Section 07', description: checkoutdiscountcoupon7Data.description || 'Placeholder for Discount / Coupon Section variant 07', previewComponent: <CheckoutDiscountCoupon7 data={checkoutdiscountcoupon7Data as any} /> },
+      { id: 'checkout-discount-coupon-8', title: checkoutdiscountcoupon8Data.title || 'Discount / Coupon Section 08', description: checkoutdiscountcoupon8Data.description || 'Placeholder for Discount / Coupon Section variant 08', previewComponent: <CheckoutDiscountCoupon8 data={checkoutdiscountcoupon8Data as any} /> },
+      { id: 'checkout-discount-coupon-9', title: checkoutdiscountcoupon9Data.title || 'Discount / Coupon Section 09', description: checkoutdiscountcoupon9Data.description || 'Placeholder for Discount / Coupon Section variant 09', previewComponent: <CheckoutDiscountCoupon9 data={checkoutdiscountcoupon9Data as any} /> },
+      { id: 'checkout-discount-coupon-10', title: checkoutdiscountcoupon10Data.title || 'Discount / Coupon Section 10', description: checkoutdiscountcoupon10Data.description || 'Placeholder for Discount / Coupon Section variant 10', previewComponent: <CheckoutDiscountCoupon10 data={checkoutdiscountcoupon10Data as any} /> },
+      { id: 'checkout-discount-coupon-11', title: checkoutdiscountcoupon11Data.title || 'Discount / Coupon Section 11', description: checkoutdiscountcoupon11Data.description || 'Placeholder for Discount / Coupon Section variant 11', previewComponent: <CheckoutDiscountCoupon11 data={checkoutdiscountcoupon11Data as any} /> },
+      { id: 'checkout-discount-coupon-12', title: checkoutdiscountcoupon12Data.title || 'Discount / Coupon Section 12', description: checkoutdiscountcoupon12Data.description || 'Placeholder for Discount / Coupon Section variant 12', previewComponent: <CheckoutDiscountCoupon12 data={checkoutdiscountcoupon12Data as any} /> },
+      { id: 'checkout-discount-coupon-13', title: checkoutdiscountcoupon13Data.title || 'Discount / Coupon Section 13', description: checkoutdiscountcoupon13Data.description || 'Placeholder for Discount / Coupon Section variant 13', previewComponent: <CheckoutDiscountCoupon13 data={checkoutdiscountcoupon13Data as any} /> },
+      { id: 'checkout-discount-coupon-14', title: checkoutdiscountcoupon14Data.title || 'Discount / Coupon Section 14', description: checkoutdiscountcoupon14Data.description || 'Placeholder for Discount / Coupon Section variant 14', previewComponent: <CheckoutDiscountCoupon14 data={checkoutdiscountcoupon14Data as any} /> },
+      { id: 'checkout-discount-coupon-15', title: checkoutdiscountcoupon15Data.title || 'Discount / Coupon Section 15', description: checkoutdiscountcoupon15Data.description || 'Placeholder for Discount / Coupon Section variant 15', previewComponent: <CheckoutDiscountCoupon15 data={checkoutdiscountcoupon15Data as any} /> },
+      { id: 'checkout-discount-coupon-16', title: checkoutdiscountcoupon16Data.title || 'Discount / Coupon Section 16', description: checkoutdiscountcoupon16Data.description || 'Placeholder for Discount / Coupon Section variant 16', previewComponent: <CheckoutDiscountCoupon16 data={checkoutdiscountcoupon16Data as any} /> },
+      { id: 'checkout-discount-coupon-17', title: checkoutdiscountcoupon17Data.title || 'Discount / Coupon Section 17', description: checkoutdiscountcoupon17Data.description || 'Placeholder for Discount / Coupon Section variant 17', previewComponent: <CheckoutDiscountCoupon17 data={checkoutdiscountcoupon17Data as any} /> },
+      { id: 'checkout-discount-coupon-18', title: checkoutdiscountcoupon18Data.title || 'Discount / Coupon Section 18', description: checkoutdiscountcoupon18Data.description || 'Placeholder for Discount / Coupon Section variant 18', previewComponent: <CheckoutDiscountCoupon18 data={checkoutdiscountcoupon18Data as any} /> },
+      { id: 'checkout-discount-coupon-19', title: checkoutdiscountcoupon19Data.title || 'Discount / Coupon Section 19', description: checkoutdiscountcoupon19Data.description || 'Placeholder for Discount / Coupon Section variant 19', previewComponent: <CheckoutDiscountCoupon19 data={checkoutdiscountcoupon19Data as any} /> },
+      { id: 'checkout-discount-coupon-20', title: checkoutdiscountcoupon20Data.title || 'Discount / Coupon Section 20', description: checkoutdiscountcoupon20Data.description || 'Placeholder for Discount / Coupon Section variant 20', previewComponent: <CheckoutDiscountCoupon20 data={checkoutdiscountcoupon20Data as any} /> }
+    ] :     category === 'checkout-gift-card' ? [
+      { id: 'checkout-gift-card-1', title: checkoutgiftcard1Data.title || 'Gift Card Section 01', description: checkoutgiftcard1Data.description || 'Placeholder for Gift Card Section variant 01', previewComponent: <CheckoutGiftCard1 data={checkoutgiftcard1Data as any} /> },
+      { id: 'checkout-gift-card-2', title: checkoutgiftcard2Data.title || 'Gift Card Section 02', description: checkoutgiftcard2Data.description || 'Placeholder for Gift Card Section variant 02', previewComponent: <CheckoutGiftCard2 data={checkoutgiftcard2Data as any} /> },
+      { id: 'checkout-gift-card-3', title: checkoutgiftcard3Data.title || 'Gift Card Section 03', description: checkoutgiftcard3Data.description || 'Placeholder for Gift Card Section variant 03', previewComponent: <CheckoutGiftCard3 data={checkoutgiftcard3Data as any} /> },
+      { id: 'checkout-gift-card-4', title: checkoutgiftcard4Data.title || 'Gift Card Section 04', description: checkoutgiftcard4Data.description || 'Placeholder for Gift Card Section variant 04', previewComponent: <CheckoutGiftCard4 data={checkoutgiftcard4Data as any} /> },
+      { id: 'checkout-gift-card-5', title: checkoutgiftcard5Data.title || 'Gift Card Section 05', description: checkoutgiftcard5Data.description || 'Placeholder for Gift Card Section variant 05', previewComponent: <CheckoutGiftCard5 data={checkoutgiftcard5Data as any} /> },
+      { id: 'checkout-gift-card-6', title: checkoutgiftcard6Data.title || 'Gift Card Section 06', description: checkoutgiftcard6Data.description || 'Placeholder for Gift Card Section variant 06', previewComponent: <CheckoutGiftCard6 data={checkoutgiftcard6Data as any} /> },
+      { id: 'checkout-gift-card-7', title: checkoutgiftcard7Data.title || 'Gift Card Section 07', description: checkoutgiftcard7Data.description || 'Placeholder for Gift Card Section variant 07', previewComponent: <CheckoutGiftCard7 data={checkoutgiftcard7Data as any} /> },
+      { id: 'checkout-gift-card-8', title: checkoutgiftcard8Data.title || 'Gift Card Section 08', description: checkoutgiftcard8Data.description || 'Placeholder for Gift Card Section variant 08', previewComponent: <CheckoutGiftCard8 data={checkoutgiftcard8Data as any} /> },
+      { id: 'checkout-gift-card-9', title: checkoutgiftcard9Data.title || 'Gift Card Section 09', description: checkoutgiftcard9Data.description || 'Placeholder for Gift Card Section variant 09', previewComponent: <CheckoutGiftCard9 data={checkoutgiftcard9Data as any} /> },
+      { id: 'checkout-gift-card-10', title: checkoutgiftcard10Data.title || 'Gift Card Section 10', description: checkoutgiftcard10Data.description || 'Placeholder for Gift Card Section variant 10', previewComponent: <CheckoutGiftCard10 data={checkoutgiftcard10Data as any} /> },
+      { id: 'checkout-gift-card-11', title: checkoutgiftcard11Data.title || 'Gift Card Section 11', description: checkoutgiftcard11Data.description || 'Placeholder for Gift Card Section variant 11', previewComponent: <CheckoutGiftCard11 data={checkoutgiftcard11Data as any} /> },
+      { id: 'checkout-gift-card-12', title: checkoutgiftcard12Data.title || 'Gift Card Section 12', description: checkoutgiftcard12Data.description || 'Placeholder for Gift Card Section variant 12', previewComponent: <CheckoutGiftCard12 data={checkoutgiftcard12Data as any} /> },
+      { id: 'checkout-gift-card-13', title: checkoutgiftcard13Data.title || 'Gift Card Section 13', description: checkoutgiftcard13Data.description || 'Placeholder for Gift Card Section variant 13', previewComponent: <CheckoutGiftCard13 data={checkoutgiftcard13Data as any} /> },
+      { id: 'checkout-gift-card-14', title: checkoutgiftcard14Data.title || 'Gift Card Section 14', description: checkoutgiftcard14Data.description || 'Placeholder for Gift Card Section variant 14', previewComponent: <CheckoutGiftCard14 data={checkoutgiftcard14Data as any} /> },
+      { id: 'checkout-gift-card-15', title: checkoutgiftcard15Data.title || 'Gift Card Section 15', description: checkoutgiftcard15Data.description || 'Placeholder for Gift Card Section variant 15', previewComponent: <CheckoutGiftCard15 data={checkoutgiftcard15Data as any} /> },
+      { id: 'checkout-gift-card-16', title: checkoutgiftcard16Data.title || 'Gift Card Section 16', description: checkoutgiftcard16Data.description || 'Placeholder for Gift Card Section variant 16', previewComponent: <CheckoutGiftCard16 data={checkoutgiftcard16Data as any} /> },
+      { id: 'checkout-gift-card-17', title: checkoutgiftcard17Data.title || 'Gift Card Section 17', description: checkoutgiftcard17Data.description || 'Placeholder for Gift Card Section variant 17', previewComponent: <CheckoutGiftCard17 data={checkoutgiftcard17Data as any} /> },
+      { id: 'checkout-gift-card-18', title: checkoutgiftcard18Data.title || 'Gift Card Section 18', description: checkoutgiftcard18Data.description || 'Placeholder for Gift Card Section variant 18', previewComponent: <CheckoutGiftCard18 data={checkoutgiftcard18Data as any} /> },
+      { id: 'checkout-gift-card-19', title: checkoutgiftcard19Data.title || 'Gift Card Section 19', description: checkoutgiftcard19Data.description || 'Placeholder for Gift Card Section variant 19', previewComponent: <CheckoutGiftCard19 data={checkoutgiftcard19Data as any} /> },
+      { id: 'checkout-gift-card-20', title: checkoutgiftcard20Data.title || 'Gift Card Section 20', description: checkoutgiftcard20Data.description || 'Placeholder for Gift Card Section variant 20', previewComponent: <CheckoutGiftCard20 data={checkoutgiftcard20Data as any} /> }
+    ] :     category === 'checkout-security-trust' ? [
+      { id: 'checkout-security-trust-1', title: checkoutsecuritytrust1Data.title || 'Security / Trust Section 01', description: checkoutsecuritytrust1Data.description || 'Placeholder for Security / Trust Section variant 01', previewComponent: <CheckoutSecurityTrust1 data={checkoutsecuritytrust1Data as any} /> },
+      { id: 'checkout-security-trust-2', title: checkoutsecuritytrust2Data.title || 'Security / Trust Section 02', description: checkoutsecuritytrust2Data.description || 'Placeholder for Security / Trust Section variant 02', previewComponent: <CheckoutSecurityTrust2 data={checkoutsecuritytrust2Data as any} /> },
+      { id: 'checkout-security-trust-3', title: checkoutsecuritytrust3Data.title || 'Security / Trust Section 03', description: checkoutsecuritytrust3Data.description || 'Placeholder for Security / Trust Section variant 03', previewComponent: <CheckoutSecurityTrust3 data={checkoutsecuritytrust3Data as any} /> },
+      { id: 'checkout-security-trust-4', title: checkoutsecuritytrust4Data.title || 'Security / Trust Section 04', description: checkoutsecuritytrust4Data.description || 'Placeholder for Security / Trust Section variant 04', previewComponent: <CheckoutSecurityTrust4 data={checkoutsecuritytrust4Data as any} /> },
+      { id: 'checkout-security-trust-5', title: checkoutsecuritytrust5Data.title || 'Security / Trust Section 05', description: checkoutsecuritytrust5Data.description || 'Placeholder for Security / Trust Section variant 05', previewComponent: <CheckoutSecurityTrust5 data={checkoutsecuritytrust5Data as any} /> },
+      { id: 'checkout-security-trust-6', title: checkoutsecuritytrust6Data.title || 'Security / Trust Section 06', description: checkoutsecuritytrust6Data.description || 'Placeholder for Security / Trust Section variant 06', previewComponent: <CheckoutSecurityTrust6 data={checkoutsecuritytrust6Data as any} /> },
+      { id: 'checkout-security-trust-7', title: checkoutsecuritytrust7Data.title || 'Security / Trust Section 07', description: checkoutsecuritytrust7Data.description || 'Placeholder for Security / Trust Section variant 07', previewComponent: <CheckoutSecurityTrust7 data={checkoutsecuritytrust7Data as any} /> },
+      { id: 'checkout-security-trust-8', title: checkoutsecuritytrust8Data.title || 'Security / Trust Section 08', description: checkoutsecuritytrust8Data.description || 'Placeholder for Security / Trust Section variant 08', previewComponent: <CheckoutSecurityTrust8 data={checkoutsecuritytrust8Data as any} /> },
+      { id: 'checkout-security-trust-9', title: checkoutsecuritytrust9Data.title || 'Security / Trust Section 09', description: checkoutsecuritytrust9Data.description || 'Placeholder for Security / Trust Section variant 09', previewComponent: <CheckoutSecurityTrust9 data={checkoutsecuritytrust9Data as any} /> },
+      { id: 'checkout-security-trust-10', title: checkoutsecuritytrust10Data.title || 'Security / Trust Section 10', description: checkoutsecuritytrust10Data.description || 'Placeholder for Security / Trust Section variant 10', previewComponent: <CheckoutSecurityTrust10 data={checkoutsecuritytrust10Data as any} /> },
+      { id: 'checkout-security-trust-11', title: checkoutsecuritytrust11Data.title || 'Security / Trust Section 11', description: checkoutsecuritytrust11Data.description || 'Placeholder for Security / Trust Section variant 11', previewComponent: <CheckoutSecurityTrust11 data={checkoutsecuritytrust11Data as any} /> },
+      { id: 'checkout-security-trust-12', title: checkoutsecuritytrust12Data.title || 'Security / Trust Section 12', description: checkoutsecuritytrust12Data.description || 'Placeholder for Security / Trust Section variant 12', previewComponent: <CheckoutSecurityTrust12 data={checkoutsecuritytrust12Data as any} /> },
+      { id: 'checkout-security-trust-13', title: checkoutsecuritytrust13Data.title || 'Security / Trust Section 13', description: checkoutsecuritytrust13Data.description || 'Placeholder for Security / Trust Section variant 13', previewComponent: <CheckoutSecurityTrust13 data={checkoutsecuritytrust13Data as any} /> },
+      { id: 'checkout-security-trust-14', title: checkoutsecuritytrust14Data.title || 'Security / Trust Section 14', description: checkoutsecuritytrust14Data.description || 'Placeholder for Security / Trust Section variant 14', previewComponent: <CheckoutSecurityTrust14 data={checkoutsecuritytrust14Data as any} /> },
+      { id: 'checkout-security-trust-15', title: checkoutsecuritytrust15Data.title || 'Security / Trust Section 15', description: checkoutsecuritytrust15Data.description || 'Placeholder for Security / Trust Section variant 15', previewComponent: <CheckoutSecurityTrust15 data={checkoutsecuritytrust15Data as any} /> },
+      { id: 'checkout-security-trust-16', title: checkoutsecuritytrust16Data.title || 'Security / Trust Section 16', description: checkoutsecuritytrust16Data.description || 'Placeholder for Security / Trust Section variant 16', previewComponent: <CheckoutSecurityTrust16 data={checkoutsecuritytrust16Data as any} /> },
+      { id: 'checkout-security-trust-17', title: checkoutsecuritytrust17Data.title || 'Security / Trust Section 17', description: checkoutsecuritytrust17Data.description || 'Placeholder for Security / Trust Section variant 17', previewComponent: <CheckoutSecurityTrust17 data={checkoutsecuritytrust17Data as any} /> },
+      { id: 'checkout-security-trust-18', title: checkoutsecuritytrust18Data.title || 'Security / Trust Section 18', description: checkoutsecuritytrust18Data.description || 'Placeholder for Security / Trust Section variant 18', previewComponent: <CheckoutSecurityTrust18 data={checkoutsecuritytrust18Data as any} /> },
+      { id: 'checkout-security-trust-19', title: checkoutsecuritytrust19Data.title || 'Security / Trust Section 19', description: checkoutsecuritytrust19Data.description || 'Placeholder for Security / Trust Section variant 19', previewComponent: <CheckoutSecurityTrust19 data={checkoutsecuritytrust19Data as any} /> },
+      { id: 'checkout-security-trust-20', title: checkoutsecuritytrust20Data.title || 'Security / Trust Section 20', description: checkoutsecuritytrust20Data.description || 'Placeholder for Security / Trust Section variant 20', previewComponent: <CheckoutSecurityTrust20 data={checkoutsecuritytrust20Data as any} /> }
+    ] : [];
   };
 
   let activeCat = category;
@@ -8614,9 +7816,15 @@ export function SectionLibraryGrid({ category }: GridProps) {
     activeCat = 'product-gallery';
   } else if (activeCat === 'cart') {
     activeCat = 'cart-items-section';
+  } else if (activeCat === 'checkout') {
+    activeCat = 'checkout-header';
+  } else if (activeCat === 'frequently-bought-together') {
+    activeCat = 'cart-frequently-bought-together';
+  } else if (activeCat === 'recommended-products') {
+    activeCat = 'cart-recommended-products';
   }
   
-  groups = [...homeCategories, ...productCategories, ...cartCategories].filter(g => g.id === activeCat);
+  groups = [...homeCategories, ...productCategories, ...cartCategories, ...checkoutCategories].filter(g => g.id === activeCat);
 
   const padNum = (num: number) => num.toString().padStart(2, '0');
 
@@ -8668,4 +7876,4 @@ export function SectionLibraryGrid({ category }: GridProps) {
   );
 }
 
-// Force HMR reload 1790664817350
+// Force HMR reload 1790666000000

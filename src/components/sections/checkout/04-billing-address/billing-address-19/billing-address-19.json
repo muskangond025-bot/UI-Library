@@ -1,0 +1,14 @@
+{
+  "id": "billing-address-19",
+  "title": "Billing Address — 19",
+  "description": "Placeholder for Billing Address variant 19",
+  "category": "checkout",
+  "subsection": "billing-address",
+  "variant": 19,
+  "section": {
+    "settings": {
+      "title": "Billing Address 19",
+      "description": "Placeholder structure for Billing Address variant 19"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Cart Frequently Bought Together 05 — Outfit Complete The Set",
+  "description": "Coordinated set composition (Cart Item + Top + Accessory + Footwear).",
+  "section": {
+    "settings": {
+      "title": "Outfit Complete The Set",
+      "description": "Coordinated set composition (Cart Item + Top + Accessory + Footwear).",
+      "cartItem": {
+        "name": "Navy Tailored Blazer",
+        "price": "₹8,999"
+      },
+      "bundleItems": [
+        {
+          "id": 1,
+          "name": "Silk Pocket Square",
+          "price": 499,
+          "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=400&auto=format&fit=crop&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Silver Metal Tie Bar",
+          "price": 349,
+          "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400&auto=format&fit=crop&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Leather Care Cream",
+          "price": 299,
+          "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=400&auto=format&fit=crop&q=80"
+        }
+      ],
+      "bundleSavings": "Save ₹200 on bundle"
+    }
+  }
+}

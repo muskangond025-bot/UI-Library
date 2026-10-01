@@ -1,0 +1,14 @@
+{
+  "title": "Free Shipping Progress 16 — Interactive Benefit Reveal",
+  "description": "Milestones reveal perks upon progression.",
+  "section": {
+    "settings": {
+      "currency": "₹",
+      "currentValue": 2400,
+      "threshold": 3000,
+      "remainingMessage": "Add ₹600 more to unlock FREE shipping",
+      "unlockedMessage": "🎉 Congratulations! You unlocked FREE Shipping!",
+      "achieved": false
+    }
+  }
+}

@@ -1,64 +1,42 @@
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { Plus, Check, Sparkles } from 'lucide-react';
+import { Plus, Check } from 'lucide-react';
 
 export default function RecommendedProducts12({ data }: { data?: any }) {
-  const [selectedId, setSelectedId] = useState<number | null>(null);
-
-  const items = [
-    { id: 1, title: "Artisan Ceramic Pour-Over", price: "$65", aspect: "aspect-[4/5]", image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&auto=format&fit=crop&q=80" },
-    { id: 2, title: "Precision Goose-Neck Kettle", price: "$120", aspect: "aspect-[4/3]", image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&auto=format&fit=crop&q=80" },
-    { id: 3, title: "Manual Burr Coffee Grinder", price: "$85", aspect: "aspect-[1/1]", image: "https://images.unsplash.com/photo-1589396575653-c09c794ff6a6?w=800&auto=format&fit=crop&q=80" },
-    { id: 4, title: "Insulated Double-Wall Server", price: "$45", aspect: "aspect-[4/5]", image: "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?w=800&auto=format&fit=crop&q=80" }
-  ];
+  const [addedIds, setAddedIds] = useState<number[]>([]);
 
   return (
-    <section className="w-full min-h-[640px] bg-stone-950 text-stone-100 p-6 md:p-12 rounded-3xl border border-stone-800 relative select-none flex flex-col justify-between font-serif">
-      {/* Header */}
-      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border-b border-stone-800 pb-6">
-        <div>
-          <span className="px-3 py-1 bg-amber-500/10 border border-amber-500/30 text-amber-400 rounded text-xs font-mono font-bold uppercase tracking-wider mb-2 flex items-center gap-1.5 w-fit">
-            <Sparkles size={14} /> PICKED FOR YOU
-          </span>
-          <h2 className="text-3xl md:text-5xl font-light text-white">Masonry Recommendation Flow</h2>
-        </div>
-        <p className="text-xs text-stone-400 max-w-xs font-sans">
-          Responsive masonry gallery flow with cursor-responsive micro-tilt animations.
-        </p>
-      </div>
-
-      {/* Masonry Columns */}
-      <div className="columns-1 sm:columns-2 lg:columns-4 gap-6 my-8 space-y-6 font-sans">
-        {items.map((item) => (
-          <motion.div
-            key={item.id}
-            whileHover={{ y: -6 }}
-            className="break-inside-avoid bg-stone-900 border border-stone-800 hover:border-amber-500/40 rounded-2xl p-4 relative group shadow-xl flex flex-col justify-between"
-          >
-            <div className={`relative w-full ${item.aspect} rounded-xl overflow-hidden bg-stone-950 mb-3`}>
-              <img src={item.image} alt={item.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
-              <button
-                onClick={() => {
-                  setSelectedId(item.id);
-                  setTimeout(() => setSelectedId(null), 1800);
-                }}
-                className="absolute bottom-3 right-3 w-10 h-10 rounded-full bg-amber-400 hover:bg-amber-300 text-stone-950 flex items-center justify-center font-bold shadow-lg transition-transform active:scale-95"
-              >
-                {selectedId === item.id ? <Check size={18} className="stroke-[3]" /> : <Plus size={18} className="stroke-[3]" />}
-              </button>
-            </div>
-
+    <div className="w-full py-8 px-6 bg-slate-50 border border-slate-200 rounded-3xl font-sans my-4">
+      <h4 className="text-xs font-mono font-bold uppercase text-slate-500 mb-4">12 / ASYMMETRIC CART RECOMMENDATION</h4>
+      
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
+        {/* Left 2/3 Featured */}
+        <div className="md:col-span-8 bg-white border border-slate-200 rounded-2xl p-4 flex items-center justify-between gap-4 shadow-sm">
+          <div className="flex items-center gap-3">
+            <img src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=300" className="w-16 h-16 rounded-xl object-cover" />
             <div>
-              <h3 className="font-serif text-base text-white">{item.title}</h3>
-              <span className="text-lg font-serif font-light text-amber-400 mt-1 block">{item.price}</span>
+              <span className="text-[10px] bg-indigo-100 text-indigo-700 font-bold px-2 py-0.5 rounded">ASYMMETRIC HERO</span>
+              <h5 className="text-sm font-bold text-slate-900 mt-1">Silk Pocket Square</h5>
+              <span className="text-xs font-mono font-bold text-emerald-600">₹499</span>
             </div>
-          </motion.div>
-        ))}
-      </div>
+          </div>
+          <button 
+            onClick={() => setAddedIds(prev => prev.includes(1) ? prev.filter(x => x !== 1) : [...prev, 1])}
+            className={`px-4 py-2 rounded-xl text-xs font-bold ${addedIds.includes(1) ? 'bg-emerald-500 text-white' : 'bg-slate-900 text-white'}`}
+          >
+            {addedIds.includes(1) ? "✓ Added" : "+ Add"}
+          </button>
+        </div>
 
-      <div className="text-xs text-stone-500 font-mono border-t border-stone-800 pt-4 text-center">
-        Cursor-responsive movement with dynamic aspect ratio masonry flow
+        {/* Right 1/3 Stacked */}
+        <div className="md:col-span-4 flex flex-col gap-2">
+          {["Tie Bar ₹349", "Leather Cream ₹299"].map((txt, idx) => (
+            <div key={idx} className="bg-white border border-slate-200 p-2.5 rounded-xl flex items-center justify-between text-xs font-bold text-slate-800">
+              <span>{txt}</span>
+              <button className="text-emerald-600 hover:underline text-[11px]">+ Add</button>
+            </div>
+          ))}
+        </div>
       </div>
-    </section>
+    </div>
   );
 }

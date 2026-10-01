@@ -1,4 +1,115 @@
 {
-  "title": "Shipping & Delivery Information 7",
-  "description": "Placeholder content for Shipping & Delivery Information 7"
+  "title": "Shipping Information 07 — Delivery Map Experience",
+  "description": "A visual vector-map inspired layout representing global coverage and transit hubs with route path reveal animations.",
+  "section": {
+    "settings": {
+      "eyebrow": "LOGISTICS ROUTE",
+      "title": "Delivery Map and Hub Network",
+      "description": "Visualizing active courier flight routes and regional distribution centers worldwide.",
+      "freeShipping": {
+        "enabled": true,
+        "threshold": "₹2,999",
+        "currentAmount": "₹1,850",
+        "progressPercentage": 62
+      },
+      "methods": [
+        {
+          "id": "std",
+          "name": "Standard Ground",
+          "deliveryTime": "3–5 Business Days",
+          "shippingFee": "₹99",
+          "description": "Reliable nationwide courier shipping with doorstep tracking.",
+          "tracking": true,
+          "badge": "Popular"
+        },
+        {
+          "id": "exp",
+          "name": "Express Air Delivery",
+          "deliveryTime": "1–2 Business Days",
+          "shippingFee": "₹199",
+          "description": "Priority air dispatch for time-sensitive deliveries.",
+          "tracking": true,
+          "badge": "Fastest"
+        },
+        {
+          "id": "nxt",
+          "name": "Same Day / Next Day",
+          "deliveryTime": "Within 24 Hours",
+          "shippingFee": "₹299",
+          "description": "Dedicated courier dispatch in select metro zones.",
+          "tracking": true,
+          "badge": "VIP"
+        }
+      ],
+      "zones": [
+        {
+          "region": "Domestic Metro",
+          "time": "1–2 Days",
+          "rate": "Free over ₹2,999",
+          "couriers": [
+            "BlueDart",
+            "Delhivery"
+          ]
+        },
+        {
+          "region": "Regional and Rural",
+          "time": "3–5 Days",
+          "rate": "₹99 Flat Rate",
+          "couriers": [
+            "India Post",
+            "DTDC"
+          ]
+        },
+        {
+          "region": "International Priority",
+          "time": "4–7 Days",
+          "rate": "₹1,499 Flat Rate",
+          "couriers": [
+            "DHL Express",
+            "FedEx"
+          ]
+        }
+      ],
+      "processSteps": [
+        {
+          "step": "01",
+          "name": "Quality Check and Pack",
+          "time": "Day 1",
+          "icon": "Package"
+        },
+        {
+          "step": "02",
+          "name": "Courier Dispatch",
+          "time": "Day 1",
+          "icon": "Truck"
+        },
+        {
+          "step": "03",
+          "name": "Air / Surface Transit",
+          "time": "Days 2-4",
+          "icon": "Plane"
+        },
+        {
+          "step": "04",
+          "name": "Doorstep Delivery",
+          "time": "Day 5",
+          "icon": "Home"
+        }
+      ],
+      "faqItems": [
+        {
+          "question": "How long does standard delivery take?",
+          "answer": "Standard delivery typically takes 3 to 5 business days depending on your delivery pincode."
+        },
+        {
+          "question": "Is tracking available for all shipments?",
+          "answer": "Yes, every order includes a SMS and Email tracking link active from dispatch."
+        },
+        {
+          "question": "What happens if I am not available during delivery?",
+          "answer": "Our courier partner will attempt delivery up to 3 times or contact you via call."
+        }
+      ]
+    }
+  }
 }

@@ -1,58 +1,83 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
+import { Truck, Clock, DollarSign, ShieldCheck, MapPin } from 'lucide-react';
 
 export default function ShippingDeliveryInformation16({ data }: { data: any }) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseMove = (e: React.MouseEvent) => {
-    if (containerRef.current) {
-      const rect = containerRef.current.getBoundingClientRect();
-      setMousePosition({
-        x: e.clientX - rect.left,
-        y: e.clientY - rect.top,
-      });
-    }
-  };
+  const settings = data?.section?.settings || {};
 
   return (
-    <div className="p-8 min-h-[500px] rounded-3xl bg-zinc-950 flex flex-col items-center justify-center relative">
-      <h2 className="text-3xl font-bold text-white mb-2 z-20 pointer-events-none">X-Ray Logistics</h2>
-      <p className="text-zinc-500 mb-8 z-20 pointer-events-none">Hover to reveal the hidden route network.</p>
-
-      <div 
-        ref={containerRef}
-        className="relative w-full max-w-2xl h-64 bg-zinc-900 rounded-3xl overflow-hidden cursor-crosshair border border-zinc-800"
-        onMouseMove={handleMouseMove}
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
-      >
-        {/* Dark Top Layer */}
-        <div className="absolute inset-0 bg-zinc-900 flex items-center justify-center z-10 pointer-events-none">
-          <span className="text-zinc-800 font-bold text-xl tracking-widest uppercase">Classified Map</span>
+    <div className="w-full py-12 px-4 md:px-8 bg-slate-950 text-white rounded-3xl overflow-hidden relative border border-slate-800">
+      <div className="max-w-4xl mx-auto">
+        <div className="text-center max-w-xl mx-auto mb-10">
+          <span className="text-xs font-mono tracking-widest text-emerald-400 uppercase bg-emerald-500/10 border border-emerald-500/20 px-3.5 py-1.5 rounded-full inline-block mb-2">
+            {settings.eyebrow || 'MOBILE OPTIMIZED'}
+          </span>
+          <h2 className="text-2xl md:text-4xl font-bold tracking-tight text-white mb-2">
+            {settings.title || 'Mobile-First Logistics Card'}
+          </h2>
+          <p className="text-slate-400 text-xs md:text-sm">
+            {settings.description || 'Compact, high-contrast mobile view designed for effortless thumb scrolling.'}
+          </p>
         </div>
 
-        {/* Hidden Map Layer exposed by mask */}
-        <motion.div 
-          className="absolute inset-0 z-20 pointer-events-none bg-[url('https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=2074&auto=format&fit=crop')] bg-cover bg-center"
-          animate={{
-            WebkitMaskImage: isHovered 
-              ? `radial-gradient(150px circle at ${mousePosition.x}px ${mousePosition.y}px, black 20%, transparent 100%)`
-              : `radial-gradient(0px circle at ${mousePosition.x}px ${mousePosition.y}px, black 20%, transparent 100%)`
-          }}
-          transition={{ type: "tween", ease: "backOut", duration: 0.1 }}
-        >
-          {/* Overlay to make it look like night vision/xray */}
-          <div className="absolute inset-0 bg-blue-600/30 mix-blend-color" />
-          
-          {/* Fake route lines drawn on top */}
-          <svg className="absolute inset-0 w-full h-full p-8" preserveAspectRatio="none">
-             <path d="M 50 100 Q 200 200 400 50 T 700 150" fill="none" stroke="#fff" strokeWidth="4" strokeDasharray="5 5" />
-             <circle cx="50" cy="100" r="8" fill="#fff" />
-             <circle cx="700" cy="150" r="8" fill="#fff" />
-          </svg>
-        </motion.div>
+        {/* Mobile Stacked Card Layout -> Intelligent Desktop Flex */}
+        <div className="space-y-3 md:space-y-4">
+          <motion.div
+            initial={{ opacity: 0, y: 15 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="p-5 bg-slate-900 border border-slate-800 rounded-2xl flex items-center justify-between"
+          >
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center shrink-0">
+                <Clock className="w-5 h-5" />
+              </div>
+              <div>
+                <span className="text-[11px] font-mono text-slate-400 block">ESTIMATED SLA</span>
+                <span className="text-base font-bold text-white">3–5 Business Days</span>
+              </div>
+            </div>
+            <span className="text-xs font-semibold bg-slate-800 px-2.5 py-1 rounded-md text-slate-300">Standard</span>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 15 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+            className="p-5 bg-slate-900 border border-slate-800 rounded-2xl flex items-center justify-between"
+          >
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center shrink-0">
+                <DollarSign className="w-5 h-5" />
+              </div>
+              <div>
+                <span className="text-[11px] font-mono text-slate-400 block">SHIPPING FEE</span>
+                <span className="text-base font-bold text-emerald-400">₹99 <span className="text-xs font-normal text-slate-400">(Free &gt; ₹2,999)</span></span>
+              </div>
+            </div>
+            <span className="text-xs font-semibold bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 px-2.5 py-1 rounded-md">Threshold Eligible</span>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 15 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+            className="p-5 bg-slate-900 border border-slate-800 rounded-2xl flex items-center justify-between"
+          >
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center shrink-0">
+                <MapPin className="w-5 h-5" />
+              </div>
+              <div>
+                <span className="text-[11px] font-mono text-slate-400 block">TRACKING GUARANTEE</span>
+                <span className="text-base font-bold text-white">Live SMS & WhatsApp Alerts</span>
+              </div>
+            </div>
+            <span className="text-xs font-semibold bg-purple-500/10 border border-purple-500/30 text-purple-300 px-2.5 py-1 rounded-md">Active</span>
+          </motion.div>
+        </div>
       </div>
     </div>
   );

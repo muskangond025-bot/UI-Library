@@ -1,4 +1,48 @@
 {
-  "title": "Editorial Recommendation Rail",
-  "description": "Curated products move through an editorial horizontal rail with continuous drift motion and minimal metadata."
+  "title": "Cart Recommended Products 01 — Compact Horizontal Recommendation Rail",
+  "description": "Mini horizontal add-on strip designed to sit right beneath cart items with instant 1-click + Add pill buttons.",
+  "section": {
+    "settings": {
+      "title": "Compact Horizontal Recommendation Rail",
+      "description": "Mini horizontal add-on strip designed to sit right beneath cart items with instant 1-click + Add pill buttons.",
+      "cartItem": {
+        "name": "Navy Tailored Blazer",
+        "price": "₹8,999"
+      },
+      "threshold": {
+        "remaining": "₹499",
+        "message": "Add ₹499 more for Free Express Delivery"
+      },
+      "recommendations": [
+        {
+          "id": 1,
+          "name": "Silk Pocket Square",
+          "price": "₹499",
+          "category": "Accessories",
+          "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=400&auto=format&fit=crop&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Silver Metal Tie Bar",
+          "price": "₹349",
+          "category": "Accessories",
+          "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400&auto=format&fit=crop&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Leather Care Cream",
+          "price": "₹299",
+          "category": "Care",
+          "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=400&auto=format&fit=crop&q=80"
+        },
+        {
+          "id": 4,
+          "name": "Premium Socks 3-Pack",
+          "price": "₹399",
+          "category": "Apparel",
+          "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=400&auto=format&fit=crop&q=80"
+        }
+      ]
+    }
+  }
 }

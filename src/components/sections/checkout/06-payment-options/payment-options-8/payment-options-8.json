@@ -1,0 +1,14 @@
+{
+  "id": "payment-options-08",
+  "title": "Payment Options — 08",
+  "description": "Placeholder for Payment Options variant 08",
+  "category": "checkout",
+  "subsection": "payment-options",
+  "variant": 8,
+  "section": {
+    "settings": {
+      "title": "Payment Options 08",
+      "description": "Placeholder structure for Payment Options variant 08"
+    }
+  }
+}
