@@ -1,14 +1,14 @@
 {
   "id": "customer-information-12",
-  "title": "Customer Information — 12",
-  "description": "Placeholder for Customer Information variant 12",
+  "title": "Magazine Style Customer Section",
+  "description": "Bold editorial layout with oversized numeric watermark typography and subtle background motion.",
   "category": "checkout",
   "subsection": "customer-information",
   "variant": 12,
   "section": {
     "settings": {
-      "title": "Customer Information 12",
-      "description": "Placeholder structure for Customer Information variant 12"
+      "title": "Magazine Style Customer Section",
+      "description": "Bold editorial layout with oversized numeric watermark typography and subtle background motion."
     }
   }
 }

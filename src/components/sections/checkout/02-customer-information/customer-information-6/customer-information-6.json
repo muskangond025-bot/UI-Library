@@ -1,14 +1,14 @@
 {
   "id": "customer-information-06",
-  "title": "Customer Information — 06",
-  "description": "Placeholder for Customer Information variant 06",
+  "title": "Full-Width Grid Editorial Form",
+  "description": "Spacious full-width checkout layout featuring sequential column grid reveals and editorial typography.",
   "category": "checkout",
   "subsection": "customer-information",
   "variant": 6,
   "section": {
     "settings": {
-      "title": "Customer Information 06",
-      "description": "Placeholder structure for Customer Information variant 06"
+      "title": "Full-Width Grid Editorial Form",
+      "description": "Spacious full-width checkout layout featuring sequential column grid reveals and editorial typography."
     }
   }
 }

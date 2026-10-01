@@ -1,14 +1,14 @@
 {
   "id": "customer-information-09",
-  "title": "Customer Information — 09",
-  "description": "Placeholder for Customer Information variant 09",
+  "title": "Asymmetric Grid Customer Section",
+  "description": "Editorial asymmetric layout with staggered block entries and off-axis element alignment.",
   "category": "checkout",
   "subsection": "customer-information",
   "variant": 9,
   "section": {
     "settings": {
-      "title": "Customer Information 09",
-      "description": "Placeholder structure for Customer Information variant 09"
+      "title": "Asymmetric Grid Customer Section",
+      "description": "Editorial asymmetric layout with staggered block entries and off-axis element alignment."
     }
   }
 }

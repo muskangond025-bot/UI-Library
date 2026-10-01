@@ -1,17 +1,96 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
+import { Mail, User, Phone, ArrowRight } from 'lucide-react';
 
 export function CustomerInformation11({ data }: { data?: any }) {
+  const [email, setEmail] = useState('olivia.williams@example.com');
+  const [name, setName] = useState('Olivia Williams');
+  const [phone, setPhone] = useState('+1 (555) 123-4567');
+
   return (
-    <div className="w-full py-16 px-6 bg-slate-900 border border-slate-800 rounded-2xl text-center font-sans text-white my-4">
-      <span className="text-xs font-mono font-bold text-indigo-400 uppercase tracking-widest block mb-2">
-        CUSTOMER INFORMATION // VARIANT 11
-      </span>
-      <h3 className="text-lg sm:text-xl font-bold text-white mb-2">
-        Customer Information — Variant 11 Placeholder
-      </h3>
-      <p className="text-xs text-slate-400 max-w-md mx-auto">
-        Placeholder for Customer Information variant 11. Premium interactive design will be inserted here.
-      </p>
+    <div className="w-full max-w-4xl mx-auto py-10 px-4 sm:px-6 font-sans">
+      <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-10 text-slate-100 shadow-2xl">
+        <h2 className="text-xl font-bold text-white mb-8 border-b border-slate-800 pb-4">
+          Timeline Customer Entry
+        </h2>
+
+        {/* Vertical Timeline Structure */}
+        <div className="relative pl-6 sm:pl-10 space-y-8">
+          {/* Animated Path Line */}
+          <div className="absolute left-2.5 sm:left-4 top-2 bottom-4 w-0.5 bg-slate-800">
+            <motion.div
+              initial={{ height: '0%' }}
+              whileInView={{ height: '100%' }}
+              viewport={{ once: true }}
+              transition={{ duration: 1, ease: "easeInOut" }}
+              className="w-full bg-teal-400"
+            />
+          </div>
+
+          {/* Timeline Step 1 */}
+          <div className="relative">
+            <div className="absolute -left-6 sm:-left-10 top-1 w-5 h-5 rounded-full bg-slate-900 border-2 border-teal-400 flex items-center justify-center">
+              <div className="w-1.5 h-1.5 rounded-full bg-teal-400" />
+            </div>
+            <div>
+              <label className="block text-xs font-mono uppercase text-teal-400 font-semibold mb-2">01. Customer Full Name</label>
+              <div className="relative">
+                <input
+                  type="text"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 pl-11 text-sm text-slate-100 focus:outline-none focus:border-teal-400 transition"
+                />
+                <User className="w-4 h-4 text-slate-500 absolute left-4 top-3.5" />
+              </div>
+            </div>
+          </div>
+
+          {/* Timeline Step 2 */}
+          <div className="relative">
+            <div className="absolute -left-6 sm:-left-10 top-1 w-5 h-5 rounded-full bg-slate-900 border-2 border-teal-400 flex items-center justify-center">
+              <div className="w-1.5 h-1.5 rounded-full bg-teal-400" />
+            </div>
+            <div>
+              <label className="block text-xs font-mono uppercase text-teal-400 font-semibold mb-2">02. Email for Order Receipts</label>
+              <div className="relative">
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 pl-11 text-sm text-slate-100 focus:outline-none focus:border-teal-400 transition"
+                />
+                <Mail className="w-4 h-4 text-slate-500 absolute left-4 top-3.5" />
+              </div>
+            </div>
+          </div>
+
+          {/* Timeline Step 3 */}
+          <div className="relative">
+            <div className="absolute -left-6 sm:-left-10 top-1 w-5 h-5 rounded-full bg-slate-900 border-2 border-teal-400 flex items-center justify-center">
+              <div className="w-1.5 h-1.5 rounded-full bg-teal-400" />
+            </div>
+            <div>
+              <label className="block text-xs font-mono uppercase text-teal-400 font-semibold mb-2">03. Mobile Contact Phone</label>
+              <div className="relative">
+                <input
+                  type="tel"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 pl-11 text-sm text-slate-100 focus:outline-none focus:border-teal-400 transition"
+                />
+                <Phone className="w-4 h-4 text-slate-500 absolute left-4 top-3.5" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-8 pt-6 border-t border-slate-800 flex justify-end">
+          <button className="px-6 py-3 bg-teal-400 hover:bg-teal-300 text-slate-950 font-bold text-xs rounded-xl transition flex items-center gap-2">
+            Proceed to Delivery Step <ArrowRight className="w-4 h-4" />
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

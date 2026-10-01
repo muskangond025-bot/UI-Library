@@ -1,14 +1,14 @@
 {
   "id": "customer-information-08",
-  "title": "Customer Information — 08",
-  "description": "Placeholder for Customer Information variant 08",
+  "title": "Luxury Dark Mode Customer Form",
+  "description": "Luxury dark layout with gold/cyan accent borders and an animated ambient light sweep.",
   "category": "checkout",
   "subsection": "customer-information",
   "variant": 8,
   "section": {
     "settings": {
-      "title": "Customer Information 08",
-      "description": "Placeholder structure for Customer Information variant 08"
+      "title": "Luxury Dark Mode Customer Form",
+      "description": "Luxury dark layout with gold/cyan accent borders and an animated ambient light sweep."
     }
   }
 }

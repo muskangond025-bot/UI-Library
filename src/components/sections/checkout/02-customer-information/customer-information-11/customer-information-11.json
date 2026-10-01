@@ -1,14 +1,14 @@
 {
   "id": "customer-information-11",
-  "title": "Customer Information — 11",
-  "description": "Placeholder for Customer Information variant 11",
+  "title": "Vertical Timeline Customer Form",
+  "description": "Sequential timeline form layout with SVG path drawing along step milestones.",
   "category": "checkout",
   "subsection": "customer-information",
   "variant": 11,
   "section": {
     "settings": {
-      "title": "Customer Information 11",
-      "description": "Placeholder structure for Customer Information variant 11"
+      "title": "Vertical Timeline Customer Form",
+      "description": "Sequential timeline form layout with SVG path drawing along step milestones."
     }
   }
 }

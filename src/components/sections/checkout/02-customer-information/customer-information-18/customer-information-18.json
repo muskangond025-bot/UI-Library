@@ -1,14 +1,14 @@
 {
   "id": "customer-information-18",
-  "title": "Customer Information — 18",
-  "description": "Placeholder for Customer Information variant 18",
+  "title": "Side Profile & Perks Customer Section",
+  "description": "Split customer form with floating membership perks card and parallax side panel motion.",
   "category": "checkout",
   "subsection": "customer-information",
   "variant": 18,
   "section": {
     "settings": {
-      "title": "Customer Information 18",
-      "description": "Placeholder structure for Customer Information variant 18"
+      "title": "Side Profile & Perks Customer Section",
+      "description": "Split customer form with floating membership perks card and parallax side panel motion."
     }
   }
 }

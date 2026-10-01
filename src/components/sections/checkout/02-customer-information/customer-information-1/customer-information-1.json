@@ -1,14 +1,14 @@
 {
   "id": "customer-information-01",
-  "title": "Customer Information — 01",
-  "description": "Placeholder for Customer Information variant 01",
+  "title": "Minimal Editorial Customer Form",
+  "description": "Minimal editorial layout featuring bold headline typography and staggered field reveal transitions.",
   "category": "checkout",
   "subsection": "customer-information",
   "variant": 1,
   "section": {
     "settings": {
-      "title": "Customer Information 01",
-      "description": "Placeholder structure for Customer Information variant 01"
+      "title": "Minimal Editorial Customer Form",
+      "description": "Minimal editorial layout featuring bold headline typography and staggered field reveal transitions."
     }
   }
 }

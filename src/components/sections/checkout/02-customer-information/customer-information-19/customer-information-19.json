@@ -1,14 +1,14 @@
 {
   "id": "customer-information-19",
-  "title": "Customer Information — 19",
-  "description": "Placeholder for Customer Information variant 19",
+  "title": "Minimal Monochrome Customer Form",
+  "description": "Architectural monochrome layout featuring animated line-drawing dividers and high-contrast typography.",
   "category": "checkout",
   "subsection": "customer-information",
   "variant": 19,
   "section": {
     "settings": {
-      "title": "Customer Information 19",
-      "description": "Placeholder structure for Customer Information variant 19"
+      "title": "Minimal Monochrome Customer Form",
+      "description": "Architectural monochrome layout featuring animated line-drawing dividers and high-contrast typography."
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "id": "customer-information-07",
-  "title": "Customer Information — 07",
-  "description": "Placeholder for Customer Information variant 07",
+  "title": "Compact High-Density Customer Form",
+  "description": "Space-efficient ecommerce customer section with animated focus outline indicators.",
   "category": "checkout",
   "subsection": "customer-information",
   "variant": 7,
   "section": {
     "settings": {
-      "title": "Customer Information 07",
-      "description": "Placeholder structure for Customer Information variant 07"
+      "title": "Compact High-Density Customer Form",
+      "description": "Space-efficient ecommerce customer section with animated focus outline indicators."
     }
   }
 }
