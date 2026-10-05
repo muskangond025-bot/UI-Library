@@ -1,14 +1,14 @@
 {
   "id": "payment-options-09",
-  "title": "Payment Options — 09",
-  "description": "Placeholder for Payment Options variant 09",
+  "title": "Floating Payment Cards",
+  "description": "Payment methods appear as layered floating depth cards with interactive elevation animations.",
   "category": "checkout",
   "subsection": "payment-options",
   "variant": 9,
   "section": {
     "settings": {
-      "title": "Payment Options 09",
-      "description": "Placeholder structure for Payment Options variant 09"
+      "title": "Floating Payment Cards",
+      "description": "Payment methods appear as layered floating depth cards with interactive elevation animations."
     }
   }
 }

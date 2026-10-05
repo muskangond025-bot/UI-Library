@@ -1,14 +1,14 @@
 {
   "id": "payment-options-05",
-  "title": "Payment Options — 05",
-  "description": "Placeholder for Payment Options variant 05",
+  "title": "Split Payment Interface",
+  "description": "Production-quality Payment Option variant 5 with distinct visual identity and non-static motion.",
   "category": "checkout",
   "subsection": "payment-options",
   "variant": 5,
   "section": {
     "settings": {
-      "title": "Payment Options 05",
-      "description": "Placeholder structure for Payment Options variant 05"
+      "title": "Split Payment Interface",
+      "description": "Production-quality Payment Option variant 5 with distinct visual identity and non-static motion."
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "id": "checkout-discount-coupon-08",
-  "title": "Discount / Coupon Section — 08",
-  "description": "Placeholder for Discount / Coupon Section variant 08",
+  "title": "Premium Dark Coupon — Glowing Border Accent",
+  "description": "Luxury dark mode coupon box featuring gold subtle borders and controlled glow hover interactions.",
   "category": "checkout",
   "subsection": "checkout-discount-coupon",
   "variant": 8,
   "section": {
     "settings": {
-      "title": "Discount / Coupon Section 08",
-      "description": "Placeholder structure for Discount / Coupon Section variant 08"
+      "title": "Premium Dark Coupon — Glowing Border Accent",
+      "description": "Luxury dark mode coupon box featuring gold subtle borders and controlled glow hover interactions."
     }
   }
 }

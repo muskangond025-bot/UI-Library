@@ -1,14 +1,14 @@
 {
   "id": "payment-options-17",
-  "title": "Payment Options — 17",
-  "description": "Placeholder for Payment Options variant 17",
+  "title": "Bottom Sheet Payment Panel",
+  "description": "Slide-up payment panel structure optimized for desktop modal and mobile bottom sheet interaction.",
   "category": "checkout",
   "subsection": "payment-options",
   "variant": 17,
   "section": {
     "settings": {
-      "title": "Payment Options 17",
-      "description": "Placeholder structure for Payment Options variant 17"
+      "title": "Bottom Sheet Payment Panel",
+      "description": "Slide-up payment panel structure optimized for desktop modal and mobile bottom sheet interaction."
     }
   }
 }

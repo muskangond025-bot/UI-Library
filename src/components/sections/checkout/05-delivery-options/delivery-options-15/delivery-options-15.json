@@ -1,14 +1,14 @@
 {
   "id": "delivery-options-15",
-  "title": "Delivery Options — 15",
-  "description": "Placeholder for Delivery Options variant 15",
+  "title": "3D Perspective Shipping Tier Card",
+  "description": "Layered perspective shipping speed composition with mouse-driven 3D tilt rotation.",
   "category": "checkout",
   "subsection": "delivery-options",
   "variant": 15,
   "section": {
     "settings": {
-      "title": "Delivery Options 15",
-      "description": "Placeholder structure for Delivery Options variant 15"
+      "title": "3D Perspective Shipping Tier Card",
+      "description": "Layered perspective shipping speed composition with mouse-driven 3D tilt rotation."
     }
   }
 }

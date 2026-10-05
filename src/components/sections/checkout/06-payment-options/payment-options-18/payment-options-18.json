@@ -1,14 +1,14 @@
 {
   "id": "payment-options-18",
-  "title": "Payment Options — 18",
-  "description": "Placeholder for Payment Options variant 18",
+  "title": "3D Perspective Payment Cards",
+  "description": "Perspective card depth interaction with controlled tilt response.",
   "category": "checkout",
   "subsection": "payment-options",
   "variant": 18,
   "section": {
     "settings": {
-      "title": "Payment Options 18",
-      "description": "Placeholder structure for Payment Options variant 18"
+      "title": "3D Perspective Payment Cards",
+      "description": "Perspective card depth interaction with controlled tilt response."
     }
   }
 }

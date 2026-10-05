@@ -1,14 +1,14 @@
 {
   "id": "billing-address-12",
-  "title": "Billing Address — 12",
-  "description": "Placeholder for Billing Address variant 12",
+  "title": "Magazine Editorial Billing Section",
+  "description": "Bold magazine layout with oversized INVOICE watermark typography and subtle background drifting motion.",
   "category": "checkout",
   "subsection": "billing-address",
   "variant": 12,
   "section": {
     "settings": {
-      "title": "Billing Address 12",
-      "description": "Placeholder structure for Billing Address variant 12"
+      "title": "Magazine Editorial Billing Section",
+      "description": "Bold magazine layout with oversized INVOICE watermark typography and subtle background drifting motion."
     }
   }
 }

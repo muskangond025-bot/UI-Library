@@ -1,14 +1,14 @@
 {
   "id": "payment-options-13",
-  "title": "Payment Options — 13",
-  "description": "Placeholder for Payment Options variant 13",
+  "title": "Card + Form Dual Experience",
+  "description": "Dual-pane card preview alongside payment input form with live text syncing.",
   "category": "checkout",
   "subsection": "payment-options",
   "variant": 13,
   "section": {
     "settings": {
-      "title": "Payment Options 13",
-      "description": "Placeholder structure for Payment Options variant 13"
+      "title": "Card + Form Dual Experience",
+      "description": "Dual-pane card preview alongside payment input form with live text syncing."
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "id": "payment-options-19",
-  "title": "Payment Options — 19",
-  "description": "Placeholder for Payment Options variant 19",
+  "title": "Editorial Fintech",
+  "description": "Oversized typography with clean editorial grid structure.",
   "category": "checkout",
   "subsection": "payment-options",
   "variant": 19,
   "section": {
     "settings": {
-      "title": "Payment Options 19",
-      "description": "Placeholder structure for Payment Options variant 19"
+      "title": "Editorial Fintech",
+      "description": "Oversized typography with clean editorial grid structure."
     }
   }
 }

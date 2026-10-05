@@ -1,0 +1,14 @@
+{
+  "id": "order-success-5",
+  "name": "DELIVERY FOCUSED — ESTIMATED DATE TRANSITION",
+  "description": "Oversized estimated arrival date window transition as primary hero element.",
+  "category": "order-success",
+  "componentName": "OrderSuccess5",
+  "meta": {
+    "id": "order-success-5",
+    "name": "DELIVERY FOCUSED — ESTIMATED DATE TRANSITION",
+    "description": "Oversized estimated arrival date window transition as primary hero element.",
+    "category": "order-success",
+    "componentName": "OrderSuccess5"
+  }
+}

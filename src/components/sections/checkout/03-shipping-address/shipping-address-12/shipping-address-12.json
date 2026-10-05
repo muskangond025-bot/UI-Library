@@ -1,14 +1,14 @@
 {
   "id": "shipping-address-12",
-  "title": "Shipping Address — 12",
-  "description": "Placeholder for Shipping Address variant 12",
+  "title": "Magazine Logistics & Destination Watermark",
+  "description": "Editorial magazine shipping section with oversized destination watermark typography and carrier selection badges.",
   "category": "checkout",
   "subsection": "shipping-address",
   "variant": 12,
   "section": {
     "settings": {
-      "title": "Shipping Address 12",
-      "description": "Placeholder structure for Shipping Address variant 12"
+      "title": "Magazine Logistics & Destination Watermark",
+      "description": "Editorial magazine shipping section with oversized destination watermark typography and carrier selection badges."
     }
   }
 }

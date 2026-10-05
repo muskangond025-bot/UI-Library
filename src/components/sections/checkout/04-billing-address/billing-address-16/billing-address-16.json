@@ -1,14 +1,14 @@
 {
   "id": "billing-address-16",
-  "title": "Billing Address — 16",
-  "description": "Placeholder for Billing Address variant 16",
+  "title": "Icon-Led Financial Billing Form",
+  "description": "Financial icon-anchored form layout where group icons scale and rotate upon field focus.",
   "category": "checkout",
   "subsection": "billing-address",
   "variant": 16,
   "section": {
     "settings": {
-      "title": "Billing Address 16",
-      "description": "Placeholder structure for Billing Address variant 16"
+      "title": "Icon-Led Financial Billing Form",
+      "description": "Financial icon-anchored form layout where group icons scale and rotate upon field focus."
     }
   }
 }

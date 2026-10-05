@@ -1,14 +1,14 @@
 {
   "id": "checkout-gift-card-20",
-  "title": "Gift Card Section — 20",
-  "description": "Placeholder for Gift Card Section variant 20",
+  "title": "Award-Style Gift Card — Ambient Glassmorphic Masterpiece",
+  "description": "Ultimate Gift Card experience combining dark glassmorphism, ambient light glow, 3D tilt, and live balance calculation.",
   "category": "checkout",
   "subsection": "checkout-gift-card",
   "variant": 20,
   "section": {
     "settings": {
-      "title": "Gift Card Section 20",
-      "description": "Placeholder structure for Gift Card Section variant 20"
+      "title": "Award-Style Gift Card — Ambient Glassmorphic Masterpiece",
+      "description": "Ultimate Gift Card experience combining dark glassmorphism, ambient light glow, 3D tilt, and live balance calculation."
     }
   }
 }

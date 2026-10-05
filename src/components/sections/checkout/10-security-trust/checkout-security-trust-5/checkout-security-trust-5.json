@@ -1,14 +1,14 @@
 {
   "id": "checkout-security-trust-05",
-  "title": "Security / Trust Section — 05",
-  "description": "Placeholder for Security / Trust Section variant 05",
+  "title": "Interactive Security Accordion — Layout Height Transition",
+  "description": "Collapsible trust drawer expanding into SSL encryption specs, PCI Level 1 Compliance, and Fraud Guard protection.",
   "category": "checkout",
   "subsection": "checkout-security-trust",
   "variant": 5,
   "section": {
     "settings": {
-      "title": "Security / Trust Section 05",
-      "description": "Placeholder structure for Security / Trust Section variant 05"
+      "title": "Interactive Security Accordion — Layout Height Transition",
+      "description": "Collapsible trust drawer expanding into SSL encryption specs, PCI Level 1 Compliance, and Fraud Guard protection."
     }
   }
 }

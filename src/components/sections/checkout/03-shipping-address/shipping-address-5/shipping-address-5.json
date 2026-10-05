@@ -1,14 +1,14 @@
 {
   "id": "shipping-address-05",
-  "title": "Shipping Address — 05",
-  "description": "Placeholder for Shipping Address variant 05",
+  "title": "Destination Package Label Stack",
+  "description": "Ecommerce shipping label stack layout featuring stylized package barcode vector and stacked depth entries.",
   "category": "checkout",
   "subsection": "shipping-address",
   "variant": 5,
   "section": {
     "settings": {
-      "title": "Shipping Address 05",
-      "description": "Placeholder structure for Shipping Address variant 05"
+      "title": "Destination Package Label Stack",
+      "description": "Ecommerce shipping label stack layout featuring stylized package barcode vector and stacked depth entries."
     }
   }
 }

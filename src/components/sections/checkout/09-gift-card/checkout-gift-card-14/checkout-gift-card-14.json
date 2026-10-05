@@ -1,14 +1,14 @@
 {
   "id": "checkout-gift-card-14",
-  "title": "Gift Card Section — 14",
-  "description": "Placeholder for Gift Card Section variant 14",
+  "title": "Expandable Gift Card — Accordion Layout Transition",
+  "description": "Collapsible promo bar ('Have a Gift Card?') expanding into code, PIN, and balance inputs with height transition.",
   "category": "checkout",
   "subsection": "checkout-gift-card",
   "variant": 14,
   "section": {
     "settings": {
-      "title": "Gift Card Section 14",
-      "description": "Placeholder structure for Gift Card Section variant 14"
+      "title": "Expandable Gift Card — Accordion Layout Transition",
+      "description": "Collapsible promo bar ('Have a Gift Card?') expanding into code, PIN, and balance inputs with height transition."
     }
   }
 }

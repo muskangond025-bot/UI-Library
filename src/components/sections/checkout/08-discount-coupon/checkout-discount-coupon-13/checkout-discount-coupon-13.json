@@ -1,14 +1,14 @@
 {
   "id": "checkout-discount-coupon-13",
-  "title": "Discount / Coupon Section — 13",
-  "description": "Placeholder for Discount / Coupon Section variant 13",
+  "title": "Receipt Savings — Animated Price Row Insertion",
+  "description": "Digital receipt savings breakdown with animated insertion of applied discount line items.",
   "category": "checkout",
   "subsection": "checkout-discount-coupon",
   "variant": 13,
   "section": {
     "settings": {
-      "title": "Discount / Coupon Section 13",
-      "description": "Placeholder structure for Discount / Coupon Section variant 13"
+      "title": "Receipt Savings — Animated Price Row Insertion",
+      "description": "Digital receipt savings breakdown with animated insertion of applied discount line items."
     }
   }
 }

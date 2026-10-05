@@ -1,14 +1,14 @@
 {
   "id": "checkout-order-summary-17",
-  "title": "Order Summary — 17",
-  "description": "Placeholder for Order Summary variant 17",
+  "title": "Asymmetric Grid Summary — Independent Grid Item Reveal",
+  "description": "Editorial asymmetric grid composition balancing unequal visual weights for items, pricing breakdown, and grand total.",
   "category": "checkout",
   "subsection": "checkout-order-summary",
   "variant": 17,
   "section": {
     "settings": {
-      "title": "Order Summary 17",
-      "description": "Placeholder structure for Order Summary variant 17"
+      "title": "Asymmetric Grid Summary — Independent Grid Item Reveal",
+      "description": "Editorial asymmetric grid composition balancing unequal visual weights for items, pricing breakdown, and grand total."
     }
   }
 }

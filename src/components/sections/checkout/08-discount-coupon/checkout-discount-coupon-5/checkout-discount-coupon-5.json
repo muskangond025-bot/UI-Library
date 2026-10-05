@@ -1,14 +1,14 @@
 {
   "id": "checkout-discount-coupon-05",
-  "title": "Discount / Coupon Section — 05",
-  "description": "Placeholder for Discount / Coupon Section variant 05",
+  "title": "Savings-First Design — Animated Savings Counter",
+  "description": "Hero savings display highlighting total discount amount ($50.00 SAVED) with animated count-in transition.",
   "category": "checkout",
   "subsection": "checkout-discount-coupon",
   "variant": 5,
   "section": {
     "settings": {
-      "title": "Discount / Coupon Section 05",
-      "description": "Placeholder structure for Discount / Coupon Section variant 05"
+      "title": "Savings-First Design — Animated Savings Counter",
+      "description": "Hero savings display highlighting total discount amount ($50.00 SAVED) with animated count-in transition."
     }
   }
 }

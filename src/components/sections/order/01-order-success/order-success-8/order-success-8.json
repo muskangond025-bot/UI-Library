@@ -1,0 +1,14 @@
+{
+  "id": "order-success-8",
+  "name": "ORDER RECEIPT — VERTICAL RECEIPT REVEAL",
+  "description": "Digital receipt layout revealing vertically with itemized total and confirmation stamp.",
+  "category": "order-success",
+  "componentName": "OrderSuccess8",
+  "meta": {
+    "id": "order-success-8",
+    "name": "ORDER RECEIPT — VERTICAL RECEIPT REVEAL",
+    "description": "Digital receipt layout revealing vertically with itemized total and confirmation stamp.",
+    "category": "order-success",
+    "componentName": "OrderSuccess8"
+  }
+}

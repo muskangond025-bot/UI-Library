@@ -1,14 +1,14 @@
 {
   "id": "checkout-order-summary-04",
-  "title": "Order Summary — 04",
-  "description": "Placeholder for Order Summary variant 04",
+  "title": "Split Product + Total — Independent Dual Panel Reveal",
+  "description": "Dual-column split layout separating detailed item gallery from a highlighted indigo summary card.",
   "category": "checkout",
   "subsection": "checkout-order-summary",
   "variant": 4,
   "section": {
     "settings": {
-      "title": "Order Summary 04",
-      "description": "Placeholder structure for Order Summary variant 04"
+      "title": "Split Product + Total — Independent Dual Panel Reveal",
+      "description": "Dual-column split layout separating detailed item gallery from a highlighted indigo summary card."
     }
   }
 }

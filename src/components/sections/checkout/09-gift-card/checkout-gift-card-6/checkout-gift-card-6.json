@@ -1,14 +1,14 @@
 {
   "id": "checkout-gift-card-06",
-  "title": "Gift Card Section — 06",
-  "description": "Placeholder for Gift Card Section variant 06",
+  "title": "Split Gift Experience — Opposite Panel Entrance",
+  "description": "Dual-column layout featuring a gold-foil gift card visual on left and code/PIN form on right entering from opposite sides.",
   "category": "checkout",
   "subsection": "checkout-gift-card",
   "variant": 6,
   "section": {
     "settings": {
-      "title": "Gift Card Section 06",
-      "description": "Placeholder structure for Gift Card Section variant 06"
+      "title": "Split Gift Experience — Opposite Panel Entrance",
+      "description": "Dual-column layout featuring a gold-foil gift card visual on left and code/PIN form on right entering from opposite sides."
     }
   }
 }

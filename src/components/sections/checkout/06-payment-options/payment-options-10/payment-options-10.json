@@ -1,14 +1,14 @@
 {
   "id": "payment-options-10",
-  "title": "Payment Options — 10",
-  "description": "Placeholder for Payment Options variant 10",
+  "title": "Security-First Payment",
+  "description": "Security-focused payment layout with SSL shield badge drawing animations and encryption indicators.",
   "category": "checkout",
   "subsection": "payment-options",
   "variant": 10,
   "section": {
     "settings": {
-      "title": "Payment Options 10",
-      "description": "Placeholder structure for Payment Options variant 10"
+      "title": "Security-First Payment",
+      "description": "Security-focused payment layout with SSL shield badge drawing animations and encryption indicators."
     }
   }
 }

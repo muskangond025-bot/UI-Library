@@ -1,14 +1,14 @@
 {
   "id": "checkout-order-summary-11",
-  "title": "Order Summary — 11",
-  "description": "Placeholder for Order Summary variant 11",
+  "title": "Price-First Summary — Animated Calculation Sequence",
+  "description": "Financial-focused summary making subtotal, savings discount, tax, shipping, and grand total visually dominant.",
   "category": "checkout",
   "subsection": "checkout-order-summary",
   "variant": 11,
   "section": {
     "settings": {
-      "title": "Order Summary 11",
-      "description": "Placeholder structure for Order Summary variant 11"
+      "title": "Price-First Summary — Animated Calculation Sequence",
+      "description": "Financial-focused summary making subtotal, savings discount, tax, shipping, and grand total visually dominant."
     }
   }
 }

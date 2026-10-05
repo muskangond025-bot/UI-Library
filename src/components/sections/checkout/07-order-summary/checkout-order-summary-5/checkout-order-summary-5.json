@@ -1,14 +1,14 @@
 {
   "id": "checkout-order-summary-05",
-  "title": "Order Summary — 05",
-  "description": "Placeholder for Order Summary variant 05",
+  "title": "Product Stack — Layered Card Unstack Reveal",
+  "description": "Visual card-stack order summary where overlapping product cards unstack into a structured order overview.",
   "category": "checkout",
   "subsection": "checkout-order-summary",
   "variant": 5,
   "section": {
     "settings": {
-      "title": "Order Summary 05",
-      "description": "Placeholder structure for Order Summary variant 05"
+      "title": "Product Stack — Layered Card Unstack Reveal",
+      "description": "Visual card-stack order summary where overlapping product cards unstack into a structured order overview."
     }
   }
 }

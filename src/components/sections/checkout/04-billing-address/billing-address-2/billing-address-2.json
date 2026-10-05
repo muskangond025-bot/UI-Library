@@ -1,14 +1,14 @@
 {
   "id": "billing-address-02",
-  "title": "Billing Address — 02",
-  "description": "Placeholder for Billing Address variant 02",
+  "title": "Payment Identity Card — Layered Depth",
+  "description": "Financial billing card composition combining payment card brand context with layered depth card entrance.",
   "category": "checkout",
   "subsection": "billing-address",
   "variant": 2,
   "section": {
     "settings": {
-      "title": "Billing Address 02",
-      "description": "Placeholder structure for Billing Address variant 02"
+      "title": "Payment Identity Card — Layered Depth",
+      "description": "Financial billing card composition combining payment card brand context with layered depth card entrance."
     }
   }
 }

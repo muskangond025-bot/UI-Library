@@ -1,3 +1,649 @@
+import { AccountAddressBook1 } from '../sections/account/03-address-book/account-address-book-01';
+import accountAddressBook01Data from '../sections/account/03-address-book/account-address-book-01.json';
+import { AccountAddressBook2 } from '../sections/account/03-address-book/account-address-book-02';
+import accountAddressBook02Data from '../sections/account/03-address-book/account-address-book-02.json';
+import { AccountAddressBook3 } from '../sections/account/03-address-book/account-address-book-03';
+import accountAddressBook03Data from '../sections/account/03-address-book/account-address-book-03.json';
+import { AccountAddressBook4 } from '../sections/account/03-address-book/account-address-book-04';
+import accountAddressBook04Data from '../sections/account/03-address-book/account-address-book-04.json';
+import { AccountAddressBook5 } from '../sections/account/03-address-book/account-address-book-05';
+import accountAddressBook05Data from '../sections/account/03-address-book/account-address-book-05.json';
+import { AccountAddressBook6 } from '../sections/account/03-address-book/account-address-book-06';
+import accountAddressBook06Data from '../sections/account/03-address-book/account-address-book-06.json';
+import { AccountAddressBook7 } from '../sections/account/03-address-book/account-address-book-07';
+import accountAddressBook07Data from '../sections/account/03-address-book/account-address-book-07.json';
+import { AccountAddressBook8 } from '../sections/account/03-address-book/account-address-book-08';
+import accountAddressBook08Data from '../sections/account/03-address-book/account-address-book-08.json';
+import { AccountAddressBook9 } from '../sections/account/03-address-book/account-address-book-09';
+import accountAddressBook09Data from '../sections/account/03-address-book/account-address-book-09.json';
+import { AccountAddressBook10 } from '../sections/account/03-address-book/account-address-book-10';
+import accountAddressBook10Data from '../sections/account/03-address-book/account-address-book-10.json';
+import { AccountAddressBook11 } from '../sections/account/03-address-book/account-address-book-11';
+import accountAddressBook11Data from '../sections/account/03-address-book/account-address-book-11.json';
+import { AccountAddressBook12 } from '../sections/account/03-address-book/account-address-book-12';
+import accountAddressBook12Data from '../sections/account/03-address-book/account-address-book-12.json';
+import { AccountAddressBook13 } from '../sections/account/03-address-book/account-address-book-13';
+import accountAddressBook13Data from '../sections/account/03-address-book/account-address-book-13.json';
+import { AccountAddressBook14 } from '../sections/account/03-address-book/account-address-book-14';
+import accountAddressBook14Data from '../sections/account/03-address-book/account-address-book-14.json';
+import { AccountAddressBook15 } from '../sections/account/03-address-book/account-address-book-15';
+import accountAddressBook15Data from '../sections/account/03-address-book/account-address-book-15.json';
+import { AccountAddressBook16 } from '../sections/account/03-address-book/account-address-book-16';
+import accountAddressBook16Data from '../sections/account/03-address-book/account-address-book-16.json';
+import { AccountAddressBook17 } from '../sections/account/03-address-book/account-address-book-17';
+import accountAddressBook17Data from '../sections/account/03-address-book/account-address-book-17.json';
+import { AccountAddressBook18 } from '../sections/account/03-address-book/account-address-book-18';
+import accountAddressBook18Data from '../sections/account/03-address-book/account-address-book-18.json';
+import { AccountAddressBook19 } from '../sections/account/03-address-book/account-address-book-19';
+import accountAddressBook19Data from '../sections/account/03-address-book/account-address-book-19.json';
+import { AccountAddressBook20 } from '../sections/account/03-address-book/account-address-book-20';
+import accountAddressBook20Data from '../sections/account/03-address-book/account-address-book-20.json';
+import { AccountWishlist1 } from '../sections/account/04-wishlist/account-wishlist-01';
+import accountWishlist01Data from '../sections/account/04-wishlist/account-wishlist-01.json';
+import { AccountWishlist2 } from '../sections/account/04-wishlist/account-wishlist-02';
+import accountWishlist02Data from '../sections/account/04-wishlist/account-wishlist-02.json';
+import { AccountWishlist3 } from '../sections/account/04-wishlist/account-wishlist-03';
+import accountWishlist03Data from '../sections/account/04-wishlist/account-wishlist-03.json';
+import { AccountWishlist4 } from '../sections/account/04-wishlist/account-wishlist-04';
+import accountWishlist04Data from '../sections/account/04-wishlist/account-wishlist-04.json';
+import { AccountWishlist5 } from '../sections/account/04-wishlist/account-wishlist-05';
+import accountWishlist05Data from '../sections/account/04-wishlist/account-wishlist-05.json';
+import { AccountWishlist6 } from '../sections/account/04-wishlist/account-wishlist-06';
+import accountWishlist06Data from '../sections/account/04-wishlist/account-wishlist-06.json';
+import { AccountWishlist7 } from '../sections/account/04-wishlist/account-wishlist-07';
+import accountWishlist07Data from '../sections/account/04-wishlist/account-wishlist-07.json';
+import { AccountWishlist8 } from '../sections/account/04-wishlist/account-wishlist-08';
+import accountWishlist08Data from '../sections/account/04-wishlist/account-wishlist-08.json';
+import { AccountWishlist9 } from '../sections/account/04-wishlist/account-wishlist-09';
+import accountWishlist09Data from '../sections/account/04-wishlist/account-wishlist-09.json';
+import { AccountWishlist10 } from '../sections/account/04-wishlist/account-wishlist-10';
+import accountWishlist10Data from '../sections/account/04-wishlist/account-wishlist-10.json';
+import { AccountWishlist11 } from '../sections/account/04-wishlist/account-wishlist-11';
+import accountWishlist11Data from '../sections/account/04-wishlist/account-wishlist-11.json';
+import { AccountWishlist12 } from '../sections/account/04-wishlist/account-wishlist-12';
+import accountWishlist12Data from '../sections/account/04-wishlist/account-wishlist-12.json';
+import { AccountWishlist13 } from '../sections/account/04-wishlist/account-wishlist-13';
+import accountWishlist13Data from '../sections/account/04-wishlist/account-wishlist-13.json';
+import { AccountWishlist14 } from '../sections/account/04-wishlist/account-wishlist-14';
+import accountWishlist14Data from '../sections/account/04-wishlist/account-wishlist-14.json';
+import { AccountWishlist15 } from '../sections/account/04-wishlist/account-wishlist-15';
+import accountWishlist15Data from '../sections/account/04-wishlist/account-wishlist-15.json';
+import { AccountWishlist16 } from '../sections/account/04-wishlist/account-wishlist-16';
+import accountWishlist16Data from '../sections/account/04-wishlist/account-wishlist-16.json';
+import { AccountWishlist17 } from '../sections/account/04-wishlist/account-wishlist-17';
+import accountWishlist17Data from '../sections/account/04-wishlist/account-wishlist-17.json';
+import { AccountWishlist18 } from '../sections/account/04-wishlist/account-wishlist-18';
+import accountWishlist18Data from '../sections/account/04-wishlist/account-wishlist-18.json';
+import { AccountWishlist19 } from '../sections/account/04-wishlist/account-wishlist-19';
+import accountWishlist19Data from '../sections/account/04-wishlist/account-wishlist-19.json';
+import { AccountWishlist20 } from '../sections/account/04-wishlist/account-wishlist-20';
+import accountWishlist20Data from '../sections/account/04-wishlist/account-wishlist-20.json';
+import { AccountSavedProducts1 } from '../sections/account/05-saved-products/account-saved-products-01';
+import accountSavedProducts01Data from '../sections/account/05-saved-products/account-saved-products-01.json';
+import { AccountSavedProducts2 } from '../sections/account/05-saved-products/account-saved-products-02';
+import accountSavedProducts02Data from '../sections/account/05-saved-products/account-saved-products-02.json';
+import { AccountSavedProducts3 } from '../sections/account/05-saved-products/account-saved-products-03';
+import accountSavedProducts03Data from '../sections/account/05-saved-products/account-saved-products-03.json';
+import { AccountSavedProducts4 } from '../sections/account/05-saved-products/account-saved-products-04';
+import accountSavedProducts04Data from '../sections/account/05-saved-products/account-saved-products-04.json';
+import { AccountSavedProducts5 } from '../sections/account/05-saved-products/account-saved-products-05';
+import accountSavedProducts05Data from '../sections/account/05-saved-products/account-saved-products-05.json';
+import { AccountSavedProducts6 } from '../sections/account/05-saved-products/account-saved-products-06';
+import accountSavedProducts06Data from '../sections/account/05-saved-products/account-saved-products-06.json';
+import { AccountSavedProducts7 } from '../sections/account/05-saved-products/account-saved-products-07';
+import accountSavedProducts07Data from '../sections/account/05-saved-products/account-saved-products-07.json';
+import { AccountSavedProducts8 } from '../sections/account/05-saved-products/account-saved-products-08';
+import accountSavedProducts08Data from '../sections/account/05-saved-products/account-saved-products-08.json';
+import { AccountSavedProducts9 } from '../sections/account/05-saved-products/account-saved-products-09';
+import accountSavedProducts09Data from '../sections/account/05-saved-products/account-saved-products-09.json';
+import { AccountSavedProducts10 } from '../sections/account/05-saved-products/account-saved-products-10';
+import accountSavedProducts10Data from '../sections/account/05-saved-products/account-saved-products-10.json';
+import { AccountSavedProducts11 } from '../sections/account/05-saved-products/account-saved-products-11';
+import accountSavedProducts11Data from '../sections/account/05-saved-products/account-saved-products-11.json';
+import { AccountSavedProducts12 } from '../sections/account/05-saved-products/account-saved-products-12';
+import accountSavedProducts12Data from '../sections/account/05-saved-products/account-saved-products-12.json';
+import { AccountSavedProducts13 } from '../sections/account/05-saved-products/account-saved-products-13';
+import accountSavedProducts13Data from '../sections/account/05-saved-products/account-saved-products-13.json';
+import { AccountSavedProducts14 } from '../sections/account/05-saved-products/account-saved-products-14';
+import accountSavedProducts14Data from '../sections/account/05-saved-products/account-saved-products-14.json';
+import { AccountSavedProducts15 } from '../sections/account/05-saved-products/account-saved-products-15';
+import accountSavedProducts15Data from '../sections/account/05-saved-products/account-saved-products-15.json';
+import { AccountSavedProducts16 } from '../sections/account/05-saved-products/account-saved-products-16';
+import accountSavedProducts16Data from '../sections/account/05-saved-products/account-saved-products-16.json';
+import { AccountSavedProducts17 } from '../sections/account/05-saved-products/account-saved-products-17';
+import accountSavedProducts17Data from '../sections/account/05-saved-products/account-saved-products-17.json';
+import { AccountSavedProducts18 } from '../sections/account/05-saved-products/account-saved-products-18';
+import accountSavedProducts18Data from '../sections/account/05-saved-products/account-saved-products-18.json';
+import { AccountSavedProducts19 } from '../sections/account/05-saved-products/account-saved-products-19';
+import accountSavedProducts19Data from '../sections/account/05-saved-products/account-saved-products-19.json';
+import { AccountSavedProducts20 } from '../sections/account/05-saved-products/account-saved-products-20';
+import accountSavedProducts20Data from '../sections/account/05-saved-products/account-saved-products-20.json';
+import { AccountRecentlyViewedProducts1 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-01';
+import accountRecentlyViewedProducts01Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-01.json';
+import { AccountRecentlyViewedProducts2 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-02';
+import accountRecentlyViewedProducts02Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-02.json';
+import { AccountRecentlyViewedProducts3 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-03';
+import accountRecentlyViewedProducts03Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-03.json';
+import { AccountRecentlyViewedProducts4 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-04';
+import accountRecentlyViewedProducts04Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-04.json';
+import { AccountRecentlyViewedProducts5 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-05';
+import accountRecentlyViewedProducts05Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-05.json';
+import { AccountRecentlyViewedProducts6 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-06';
+import accountRecentlyViewedProducts06Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-06.json';
+import { AccountRecentlyViewedProducts7 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-07';
+import accountRecentlyViewedProducts07Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-07.json';
+import { AccountRecentlyViewedProducts8 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-08';
+import accountRecentlyViewedProducts08Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-08.json';
+import { AccountRecentlyViewedProducts9 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-09';
+import accountRecentlyViewedProducts09Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-09.json';
+import { AccountRecentlyViewedProducts10 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-10';
+import accountRecentlyViewedProducts10Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-10.json';
+import { AccountRecentlyViewedProducts11 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-11';
+import accountRecentlyViewedProducts11Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-11.json';
+import { AccountRecentlyViewedProducts12 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-12';
+import accountRecentlyViewedProducts12Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-12.json';
+import { AccountRecentlyViewedProducts13 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-13';
+import accountRecentlyViewedProducts13Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-13.json';
+import { AccountRecentlyViewedProducts14 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-14';
+import accountRecentlyViewedProducts14Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-14.json';
+import { AccountRecentlyViewedProducts15 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-15';
+import accountRecentlyViewedProducts15Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-15.json';
+import { AccountRecentlyViewedProducts16 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-16';
+import accountRecentlyViewedProducts16Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-16.json';
+import { AccountRecentlyViewedProducts17 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-17';
+import accountRecentlyViewedProducts17Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-17.json';
+import { AccountRecentlyViewedProducts18 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-18';
+import accountRecentlyViewedProducts18Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-18.json';
+import { AccountRecentlyViewedProducts19 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-19';
+import accountRecentlyViewedProducts19Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-19.json';
+import { AccountRecentlyViewedProducts20 } from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-20';
+import accountRecentlyViewedProducts20Data from '../sections/account/06-recently-viewed-products/account-recently-viewed-products-20.json';
+import { AccountReviewsRatings1 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-01';
+import accountReviewsRatings01Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-01.json';
+import { AccountReviewsRatings2 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-02';
+import accountReviewsRatings02Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-02.json';
+import { AccountReviewsRatings3 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-03';
+import accountReviewsRatings03Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-03.json';
+import { AccountReviewsRatings4 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-04';
+import accountReviewsRatings04Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-04.json';
+import { AccountReviewsRatings5 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-05';
+import accountReviewsRatings05Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-05.json';
+import { AccountReviewsRatings6 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-06';
+import accountReviewsRatings06Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-06.json';
+import { AccountReviewsRatings7 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-07';
+import accountReviewsRatings07Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-07.json';
+import { AccountReviewsRatings8 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-08';
+import accountReviewsRatings08Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-08.json';
+import { AccountReviewsRatings9 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-09';
+import accountReviewsRatings09Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-09.json';
+import { AccountReviewsRatings10 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-10';
+import accountReviewsRatings10Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-10.json';
+import { AccountReviewsRatings11 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-11';
+import accountReviewsRatings11Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-11.json';
+import { AccountReviewsRatings12 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-12';
+import accountReviewsRatings12Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-12.json';
+import { AccountReviewsRatings13 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-13';
+import accountReviewsRatings13Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-13.json';
+import { AccountReviewsRatings14 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-14';
+import accountReviewsRatings14Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-14.json';
+import { AccountReviewsRatings15 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-15';
+import accountReviewsRatings15Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-15.json';
+import { AccountReviewsRatings16 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-16';
+import accountReviewsRatings16Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-16.json';
+import { AccountReviewsRatings17 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-17';
+import accountReviewsRatings17Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-17.json';
+import { AccountReviewsRatings18 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-18';
+import accountReviewsRatings18Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-18.json';
+import { AccountReviewsRatings19 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-19';
+import accountReviewsRatings19Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-19.json';
+import { AccountReviewsRatings20 } from '../sections/account/07-reviews-ratings/account-reviews-ratings-20';
+import accountReviewsRatings20Data from '../sections/account/07-reviews-ratings/account-reviews-ratings-20.json';
+import { AccountLoyaltyRewards1 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-01';
+import accountLoyaltyRewards01Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-01.json';
+import { AccountLoyaltyRewards2 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-02';
+import accountLoyaltyRewards02Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-02.json';
+import { AccountLoyaltyRewards3 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-03';
+import accountLoyaltyRewards03Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-03.json';
+import { AccountLoyaltyRewards4 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-04';
+import accountLoyaltyRewards04Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-04.json';
+import { AccountLoyaltyRewards5 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-05';
+import accountLoyaltyRewards05Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-05.json';
+import { AccountLoyaltyRewards6 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-06';
+import accountLoyaltyRewards06Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-06.json';
+import { AccountLoyaltyRewards7 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-07';
+import accountLoyaltyRewards07Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-07.json';
+import { AccountLoyaltyRewards8 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-08';
+import accountLoyaltyRewards08Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-08.json';
+import { AccountLoyaltyRewards9 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-09';
+import accountLoyaltyRewards09Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-09.json';
+import { AccountLoyaltyRewards10 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-10';
+import accountLoyaltyRewards10Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-10.json';
+import { AccountLoyaltyRewards11 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-11';
+import accountLoyaltyRewards11Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-11.json';
+import { AccountLoyaltyRewards12 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-12';
+import accountLoyaltyRewards12Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-12.json';
+import { AccountLoyaltyRewards13 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-13';
+import accountLoyaltyRewards13Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-13.json';
+import { AccountLoyaltyRewards14 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-14';
+import accountLoyaltyRewards14Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-14.json';
+import { AccountLoyaltyRewards15 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-15';
+import accountLoyaltyRewards15Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-15.json';
+import { AccountLoyaltyRewards16 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-16';
+import accountLoyaltyRewards16Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-16.json';
+import { AccountLoyaltyRewards17 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-17';
+import accountLoyaltyRewards17Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-17.json';
+import { AccountLoyaltyRewards18 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-18';
+import accountLoyaltyRewards18Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-18.json';
+import { AccountLoyaltyRewards19 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-19';
+import accountLoyaltyRewards19Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-19.json';
+import { AccountLoyaltyRewards20 } from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-20';
+import accountLoyaltyRewards20Data from '../sections/account/08-loyalty-rewards/account-loyalty-rewards-20.json';
+import { AccountCouponsOffers1 } from '../sections/account/09-coupons-offers/account-coupons-offers-01';
+import accountCouponsOffers01Data from '../sections/account/09-coupons-offers/account-coupons-offers-01.json';
+import { AccountCouponsOffers2 } from '../sections/account/09-coupons-offers/account-coupons-offers-02';
+import accountCouponsOffers02Data from '../sections/account/09-coupons-offers/account-coupons-offers-02.json';
+import { AccountCouponsOffers3 } from '../sections/account/09-coupons-offers/account-coupons-offers-03';
+import accountCouponsOffers03Data from '../sections/account/09-coupons-offers/account-coupons-offers-03.json';
+import { AccountCouponsOffers4 } from '../sections/account/09-coupons-offers/account-coupons-offers-04';
+import accountCouponsOffers04Data from '../sections/account/09-coupons-offers/account-coupons-offers-04.json';
+import { AccountCouponsOffers5 } from '../sections/account/09-coupons-offers/account-coupons-offers-05';
+import accountCouponsOffers05Data from '../sections/account/09-coupons-offers/account-coupons-offers-05.json';
+import { AccountCouponsOffers6 } from '../sections/account/09-coupons-offers/account-coupons-offers-06';
+import accountCouponsOffers06Data from '../sections/account/09-coupons-offers/account-coupons-offers-06.json';
+import { AccountCouponsOffers7 } from '../sections/account/09-coupons-offers/account-coupons-offers-07';
+import accountCouponsOffers07Data from '../sections/account/09-coupons-offers/account-coupons-offers-07.json';
+import { AccountCouponsOffers8 } from '../sections/account/09-coupons-offers/account-coupons-offers-08';
+import accountCouponsOffers08Data from '../sections/account/09-coupons-offers/account-coupons-offers-08.json';
+import { AccountCouponsOffers9 } from '../sections/account/09-coupons-offers/account-coupons-offers-09';
+import accountCouponsOffers09Data from '../sections/account/09-coupons-offers/account-coupons-offers-09.json';
+import { AccountCouponsOffers10 } from '../sections/account/09-coupons-offers/account-coupons-offers-10';
+import accountCouponsOffers10Data from '../sections/account/09-coupons-offers/account-coupons-offers-10.json';
+import { AccountCouponsOffers11 } from '../sections/account/09-coupons-offers/account-coupons-offers-11';
+import accountCouponsOffers11Data from '../sections/account/09-coupons-offers/account-coupons-offers-11.json';
+import { AccountCouponsOffers12 } from '../sections/account/09-coupons-offers/account-coupons-offers-12';
+import accountCouponsOffers12Data from '../sections/account/09-coupons-offers/account-coupons-offers-12.json';
+import { AccountCouponsOffers13 } from '../sections/account/09-coupons-offers/account-coupons-offers-13';
+import accountCouponsOffers13Data from '../sections/account/09-coupons-offers/account-coupons-offers-13.json';
+import { AccountCouponsOffers14 } from '../sections/account/09-coupons-offers/account-coupons-offers-14';
+import accountCouponsOffers14Data from '../sections/account/09-coupons-offers/account-coupons-offers-14.json';
+import { AccountCouponsOffers15 } from '../sections/account/09-coupons-offers/account-coupons-offers-15';
+import accountCouponsOffers15Data from '../sections/account/09-coupons-offers/account-coupons-offers-15.json';
+import { AccountCouponsOffers16 } from '../sections/account/09-coupons-offers/account-coupons-offers-16';
+import accountCouponsOffers16Data from '../sections/account/09-coupons-offers/account-coupons-offers-16.json';
+import { AccountCouponsOffers17 } from '../sections/account/09-coupons-offers/account-coupons-offers-17';
+import accountCouponsOffers17Data from '../sections/account/09-coupons-offers/account-coupons-offers-17.json';
+import { AccountCouponsOffers18 } from '../sections/account/09-coupons-offers/account-coupons-offers-18';
+import accountCouponsOffers18Data from '../sections/account/09-coupons-offers/account-coupons-offers-18.json';
+import { AccountCouponsOffers19 } from '../sections/account/09-coupons-offers/account-coupons-offers-19';
+import accountCouponsOffers19Data from '../sections/account/09-coupons-offers/account-coupons-offers-19.json';
+import { AccountCouponsOffers20 } from '../sections/account/09-coupons-offers/account-coupons-offers-20';
+import accountCouponsOffers20Data from '../sections/account/09-coupons-offers/account-coupons-offers-20.json';
+import { AccountNotificationPreferences1 } from '../sections/account/10-notification-preferences/account-notification-preferences-01';
+import accountNotificationPreferences01Data from '../sections/account/10-notification-preferences/account-notification-preferences-01.json';
+import { AccountNotificationPreferences2 } from '../sections/account/10-notification-preferences/account-notification-preferences-02';
+import accountNotificationPreferences02Data from '../sections/account/10-notification-preferences/account-notification-preferences-02.json';
+import { AccountNotificationPreferences3 } from '../sections/account/10-notification-preferences/account-notification-preferences-03';
+import accountNotificationPreferences03Data from '../sections/account/10-notification-preferences/account-notification-preferences-03.json';
+import { AccountNotificationPreferences4 } from '../sections/account/10-notification-preferences/account-notification-preferences-04';
+import accountNotificationPreferences04Data from '../sections/account/10-notification-preferences/account-notification-preferences-04.json';
+import { AccountNotificationPreferences5 } from '../sections/account/10-notification-preferences/account-notification-preferences-05';
+import accountNotificationPreferences05Data from '../sections/account/10-notification-preferences/account-notification-preferences-05.json';
+import { AccountNotificationPreferences6 } from '../sections/account/10-notification-preferences/account-notification-preferences-06';
+import accountNotificationPreferences06Data from '../sections/account/10-notification-preferences/account-notification-preferences-06.json';
+import { AccountNotificationPreferences7 } from '../sections/account/10-notification-preferences/account-notification-preferences-07';
+import accountNotificationPreferences07Data from '../sections/account/10-notification-preferences/account-notification-preferences-07.json';
+import { AccountNotificationPreferences8 } from '../sections/account/10-notification-preferences/account-notification-preferences-08';
+import accountNotificationPreferences08Data from '../sections/account/10-notification-preferences/account-notification-preferences-08.json';
+import { AccountNotificationPreferences9 } from '../sections/account/10-notification-preferences/account-notification-preferences-09';
+import accountNotificationPreferences09Data from '../sections/account/10-notification-preferences/account-notification-preferences-09.json';
+import { AccountNotificationPreferences10 } from '../sections/account/10-notification-preferences/account-notification-preferences-10';
+import accountNotificationPreferences10Data from '../sections/account/10-notification-preferences/account-notification-preferences-10.json';
+import { AccountNotificationPreferences11 } from '../sections/account/10-notification-preferences/account-notification-preferences-11';
+import accountNotificationPreferences11Data from '../sections/account/10-notification-preferences/account-notification-preferences-11.json';
+import { AccountNotificationPreferences12 } from '../sections/account/10-notification-preferences/account-notification-preferences-12';
+import accountNotificationPreferences12Data from '../sections/account/10-notification-preferences/account-notification-preferences-12.json';
+import { AccountNotificationPreferences13 } from '../sections/account/10-notification-preferences/account-notification-preferences-13';
+import accountNotificationPreferences13Data from '../sections/account/10-notification-preferences/account-notification-preferences-13.json';
+import { AccountNotificationPreferences14 } from '../sections/account/10-notification-preferences/account-notification-preferences-14';
+import accountNotificationPreferences14Data from '../sections/account/10-notification-preferences/account-notification-preferences-14.json';
+import { AccountNotificationPreferences15 } from '../sections/account/10-notification-preferences/account-notification-preferences-15';
+import accountNotificationPreferences15Data from '../sections/account/10-notification-preferences/account-notification-preferences-15.json';
+import { AccountNotificationPreferences16 } from '../sections/account/10-notification-preferences/account-notification-preferences-16';
+import accountNotificationPreferences16Data from '../sections/account/10-notification-preferences/account-notification-preferences-16.json';
+import { AccountNotificationPreferences17 } from '../sections/account/10-notification-preferences/account-notification-preferences-17';
+import accountNotificationPreferences17Data from '../sections/account/10-notification-preferences/account-notification-preferences-17.json';
+import { AccountNotificationPreferences18 } from '../sections/account/10-notification-preferences/account-notification-preferences-18';
+import accountNotificationPreferences18Data from '../sections/account/10-notification-preferences/account-notification-preferences-18.json';
+import { AccountNotificationPreferences19 } from '../sections/account/10-notification-preferences/account-notification-preferences-19';
+import accountNotificationPreferences19Data from '../sections/account/10-notification-preferences/account-notification-preferences-19.json';
+import { AccountNotificationPreferences20 } from '../sections/account/10-notification-preferences/account-notification-preferences-20';
+import accountNotificationPreferences20Data from '../sections/account/10-notification-preferences/account-notification-preferences-20.json';
+
+
+
+
+import { AccountProfileInformation1 } from '../sections/account/02-profile-information/account-profile-information-01';
+import accountProfileInformation01Data from '../sections/account/02-profile-information/account-profile-information-01.json';
+import { AccountProfileInformation2 } from '../sections/account/02-profile-information/account-profile-information-02';
+import accountProfileInformation02Data from '../sections/account/02-profile-information/account-profile-information-02.json';
+import { AccountProfileInformation3 } from '../sections/account/02-profile-information/account-profile-information-03';
+import accountProfileInformation03Data from '../sections/account/02-profile-information/account-profile-information-03.json';
+import { AccountProfileInformation4 } from '../sections/account/02-profile-information/account-profile-information-04';
+import accountProfileInformation04Data from '../sections/account/02-profile-information/account-profile-information-04.json';
+import { AccountProfileInformation5 } from '../sections/account/02-profile-information/account-profile-information-05';
+import accountProfileInformation05Data from '../sections/account/02-profile-information/account-profile-information-05.json';
+import { AccountProfileInformation6 } from '../sections/account/02-profile-information/account-profile-information-06';
+import accountProfileInformation06Data from '../sections/account/02-profile-information/account-profile-information-06.json';
+import { AccountProfileInformation7 } from '../sections/account/02-profile-information/account-profile-information-07';
+import accountProfileInformation07Data from '../sections/account/02-profile-information/account-profile-information-07.json';
+import { AccountProfileInformation8 } from '../sections/account/02-profile-information/account-profile-information-08';
+import accountProfileInformation08Data from '../sections/account/02-profile-information/account-profile-information-08.json';
+import { AccountProfileInformation9 } from '../sections/account/02-profile-information/account-profile-information-09';
+import accountProfileInformation09Data from '../sections/account/02-profile-information/account-profile-information-09.json';
+import { AccountProfileInformation10 } from '../sections/account/02-profile-information/account-profile-information-10';
+import accountProfileInformation10Data from '../sections/account/02-profile-information/account-profile-information-10.json';
+import { AccountProfileInformation11 } from '../sections/account/02-profile-information/account-profile-information-11';
+import accountProfileInformation11Data from '../sections/account/02-profile-information/account-profile-information-11.json';
+import { AccountProfileInformation12 } from '../sections/account/02-profile-information/account-profile-information-12';
+import accountProfileInformation12Data from '../sections/account/02-profile-information/account-profile-information-12.json';
+import { AccountProfileInformation13 } from '../sections/account/02-profile-information/account-profile-information-13';
+import accountProfileInformation13Data from '../sections/account/02-profile-information/account-profile-information-13.json';
+import { AccountProfileInformation14 } from '../sections/account/02-profile-information/account-profile-information-14';
+import accountProfileInformation14Data from '../sections/account/02-profile-information/account-profile-information-14.json';
+import { AccountProfileInformation15 } from '../sections/account/02-profile-information/account-profile-information-15';
+import accountProfileInformation15Data from '../sections/account/02-profile-information/account-profile-information-15.json';
+import { AccountProfileInformation16 } from '../sections/account/02-profile-information/account-profile-information-16';
+import accountProfileInformation16Data from '../sections/account/02-profile-information/account-profile-information-16.json';
+import { AccountProfileInformation17 } from '../sections/account/02-profile-information/account-profile-information-17';
+import accountProfileInformation17Data from '../sections/account/02-profile-information/account-profile-information-17.json';
+import { AccountProfileInformation18 } from '../sections/account/02-profile-information/account-profile-information-18';
+import accountProfileInformation18Data from '../sections/account/02-profile-information/account-profile-information-18.json';
+import { AccountProfileInformation19 } from '../sections/account/02-profile-information/account-profile-information-19';
+import accountProfileInformation19Data from '../sections/account/02-profile-information/account-profile-information-19.json';
+import { AccountProfileInformation20 } from '../sections/account/02-profile-information/account-profile-information-20';
+import accountProfileInformation20Data from '../sections/account/02-profile-information/account-profile-information-20.json';
+
+import { AccountOverview1 } from '../sections/account/01-overview/account-overview-01';
+import accountOverview01Data from '../sections/account/01-overview/account-overview-01.json';
+import { AccountOverview2 } from '../sections/account/01-overview/account-overview-02';
+import accountOverview02Data from '../sections/account/01-overview/account-overview-02.json';
+import { AccountOverview3 } from '../sections/account/01-overview/account-overview-03';
+import accountOverview03Data from '../sections/account/01-overview/account-overview-03.json';
+import { AccountOverview4 } from '../sections/account/01-overview/account-overview-04';
+import accountOverview04Data from '../sections/account/01-overview/account-overview-04.json';
+import { AccountOverview5 } from '../sections/account/01-overview/account-overview-05';
+import accountOverview05Data from '../sections/account/01-overview/account-overview-05.json';
+import { AccountOverview6 } from '../sections/account/01-overview/account-overview-06';
+import accountOverview06Data from '../sections/account/01-overview/account-overview-06.json';
+import { AccountOverview7 } from '../sections/account/01-overview/account-overview-07';
+import accountOverview07Data from '../sections/account/01-overview/account-overview-07.json';
+import { AccountOverview8 } from '../sections/account/01-overview/account-overview-08';
+import accountOverview08Data from '../sections/account/01-overview/account-overview-08.json';
+import { AccountOverview9 } from '../sections/account/01-overview/account-overview-09';
+import accountOverview09Data from '../sections/account/01-overview/account-overview-09.json';
+import { AccountOverview10 } from '../sections/account/01-overview/account-overview-10';
+import accountOverview10Data from '../sections/account/01-overview/account-overview-10.json';
+import { AccountOverview11 } from '../sections/account/01-overview/account-overview-11';
+import accountOverview11Data from '../sections/account/01-overview/account-overview-11.json';
+import { AccountOverview12 } from '../sections/account/01-overview/account-overview-12';
+import accountOverview12Data from '../sections/account/01-overview/account-overview-12.json';
+import { AccountOverview13 } from '../sections/account/01-overview/account-overview-13';
+import accountOverview13Data from '../sections/account/01-overview/account-overview-13.json';
+import { AccountOverview14 } from '../sections/account/01-overview/account-overview-14';
+import accountOverview14Data from '../sections/account/01-overview/account-overview-14.json';
+import { AccountOverview15 } from '../sections/account/01-overview/account-overview-15';
+import accountOverview15Data from '../sections/account/01-overview/account-overview-15.json';
+import { AccountOverview16 } from '../sections/account/01-overview/account-overview-16';
+import accountOverview16Data from '../sections/account/01-overview/account-overview-16.json';
+import { AccountOverview17 } from '../sections/account/01-overview/account-overview-17';
+import accountOverview17Data from '../sections/account/01-overview/account-overview-17.json';
+import { AccountOverview18 } from '../sections/account/01-overview/account-overview-18';
+import accountOverview18Data from '../sections/account/01-overview/account-overview-18.json';
+import { AccountOverview19 } from '../sections/account/01-overview/account-overview-19';
+import accountOverview19Data from '../sections/account/01-overview/account-overview-19.json';
+import { AccountOverview20 } from '../sections/account/01-overview/account-overview-20';
+import accountOverview20Data from '../sections/account/01-overview/account-overview-20.json';
+
+import { OrderSuccess1 } from '../sections/order/01-order-success/order-success-1/OrderSuccess1';
+import ordersuccess1Data from '../sections/order/01-order-success/order-success-1/order-success-1.json';
+import { OrderSuccess2 } from '../sections/order/01-order-success/order-success-2/OrderSuccess2';
+import ordersuccess2Data from '../sections/order/01-order-success/order-success-2/order-success-2.json';
+import { OrderSuccess3 } from '../sections/order/01-order-success/order-success-3/OrderSuccess3';
+import ordersuccess3Data from '../sections/order/01-order-success/order-success-3/order-success-3.json';
+import { OrderSuccess4 } from '../sections/order/01-order-success/order-success-4/OrderSuccess4';
+import ordersuccess4Data from '../sections/order/01-order-success/order-success-4/order-success-4.json';
+import { OrderSuccess5 } from '../sections/order/01-order-success/order-success-5/OrderSuccess5';
+import ordersuccess5Data from '../sections/order/01-order-success/order-success-5/order-success-5.json';
+import { OrderSuccess6 } from '../sections/order/01-order-success/order-success-6/OrderSuccess6';
+import ordersuccess6Data from '../sections/order/01-order-success/order-success-6/order-success-6.json';
+import { OrderSuccess7 } from '../sections/order/01-order-success/order-success-7/OrderSuccess7';
+import ordersuccess7Data from '../sections/order/01-order-success/order-success-7/order-success-7.json';
+import { OrderSuccess8 } from '../sections/order/01-order-success/order-success-8/OrderSuccess8';
+import ordersuccess8Data from '../sections/order/01-order-success/order-success-8/order-success-8.json';
+import { OrderSuccess9 } from '../sections/order/01-order-success/order-success-9/OrderSuccess9';
+import ordersuccess9Data from '../sections/order/01-order-success/order-success-9/order-success-9.json';
+import { OrderSuccess10 } from '../sections/order/01-order-success/order-success-10/OrderSuccess10';
+import ordersuccess10Data from '../sections/order/01-order-success/order-success-10/order-success-10.json';
+import { OrderSuccess11 } from '../sections/order/01-order-success/order-success-11/OrderSuccess11';
+import ordersuccess11Data from '../sections/order/01-order-success/order-success-11/order-success-11.json';
+import { OrderSuccess12 } from '../sections/order/01-order-success/order-success-12/OrderSuccess12';
+import ordersuccess12Data from '../sections/order/01-order-success/order-success-12/order-success-12.json';
+import { OrderSuccess13 } from '../sections/order/01-order-success/order-success-13/OrderSuccess13';
+import ordersuccess13Data from '../sections/order/01-order-success/order-success-13/order-success-13.json';
+import { OrderSuccess14 } from '../sections/order/01-order-success/order-success-14/OrderSuccess14';
+import ordersuccess14Data from '../sections/order/01-order-success/order-success-14/order-success-14.json';
+import { OrderSuccess15 } from '../sections/order/01-order-success/order-success-15/OrderSuccess15';
+import ordersuccess15Data from '../sections/order/01-order-success/order-success-15/order-success-15.json';
+import { OrderSuccess16 } from '../sections/order/01-order-success/order-success-16/OrderSuccess16';
+import ordersuccess16Data from '../sections/order/01-order-success/order-success-16/order-success-16.json';
+import { OrderSuccess17 } from '../sections/order/01-order-success/order-success-17/OrderSuccess17';
+import ordersuccess17Data from '../sections/order/01-order-success/order-success-17/order-success-17.json';
+import { OrderSuccess18 } from '../sections/order/01-order-success/order-success-18/OrderSuccess18';
+import ordersuccess18Data from '../sections/order/01-order-success/order-success-18/order-success-18.json';
+import { OrderSuccess19 } from '../sections/order/01-order-success/order-success-19/OrderSuccess19';
+import ordersuccess19Data from '../sections/order/01-order-success/order-success-19/order-success-19.json';
+import { OrderSuccess20 } from '../sections/order/01-order-success/order-success-20/OrderSuccess20';
+import ordersuccess20Data from '../sections/order/01-order-success/order-success-20/order-success-20.json';
+import { OrderSummary1 } from '../sections/order/02-order-summary/order-summary-1/OrderSummary1';
+import ordersummary1Data from '../sections/order/02-order-summary/order-summary-1/order-summary-1.json';
+import { OrderSummary2 } from '../sections/order/02-order-summary/order-summary-2/OrderSummary2';
+import ordersummary2Data from '../sections/order/02-order-summary/order-summary-2/order-summary-2.json';
+import { OrderSummary3 } from '../sections/order/02-order-summary/order-summary-3/OrderSummary3';
+import ordersummary3Data from '../sections/order/02-order-summary/order-summary-3/order-summary-3.json';
+import { OrderSummary4 } from '../sections/order/02-order-summary/order-summary-4/OrderSummary4';
+import ordersummary4Data from '../sections/order/02-order-summary/order-summary-4/order-summary-4.json';
+import { OrderSummary5 } from '../sections/order/02-order-summary/order-summary-5/OrderSummary5';
+import ordersummary5Data from '../sections/order/02-order-summary/order-summary-5/order-summary-5.json';
+import { OrderSummary6 } from '../sections/order/02-order-summary/order-summary-6/OrderSummary6';
+import ordersummary6Data from '../sections/order/02-order-summary/order-summary-6/order-summary-6.json';
+import { OrderSummary7 } from '../sections/order/02-order-summary/order-summary-7/OrderSummary7';
+import ordersummary7Data from '../sections/order/02-order-summary/order-summary-7/order-summary-7.json';
+import { OrderSummary8 } from '../sections/order/02-order-summary/order-summary-8/OrderSummary8';
+import ordersummary8Data from '../sections/order/02-order-summary/order-summary-8/order-summary-8.json';
+import { OrderSummary9 } from '../sections/order/02-order-summary/order-summary-9/OrderSummary9';
+import ordersummary9Data from '../sections/order/02-order-summary/order-summary-9/order-summary-9.json';
+import { OrderSummary10 } from '../sections/order/02-order-summary/order-summary-10/OrderSummary10';
+import ordersummary10Data from '../sections/order/02-order-summary/order-summary-10/order-summary-10.json';
+import { OrderSummary11 } from '../sections/order/02-order-summary/order-summary-11/OrderSummary11';
+import ordersummary11Data from '../sections/order/02-order-summary/order-summary-11/order-summary-11.json';
+import { OrderSummary12 } from '../sections/order/02-order-summary/order-summary-12/OrderSummary12';
+import ordersummary12Data from '../sections/order/02-order-summary/order-summary-12/order-summary-12.json';
+import { OrderSummary13 } from '../sections/order/02-order-summary/order-summary-13/OrderSummary13';
+import ordersummary13Data from '../sections/order/02-order-summary/order-summary-13/order-summary-13.json';
+import { OrderSummary14 } from '../sections/order/02-order-summary/order-summary-14/OrderSummary14';
+import ordersummary14Data from '../sections/order/02-order-summary/order-summary-14/order-summary-14.json';
+import { OrderSummary15 } from '../sections/order/02-order-summary/order-summary-15/OrderSummary15';
+import ordersummary15Data from '../sections/order/02-order-summary/order-summary-15/order-summary-15.json';
+import { OrderSummary16 } from '../sections/order/02-order-summary/order-summary-16/OrderSummary16';
+import ordersummary16Data from '../sections/order/02-order-summary/order-summary-16/order-summary-16.json';
+import { OrderSummary17 } from '../sections/order/02-order-summary/order-summary-17/OrderSummary17';
+import ordersummary17Data from '../sections/order/02-order-summary/order-summary-17/order-summary-17.json';
+import { OrderSummary18 } from '../sections/order/02-order-summary/order-summary-18/OrderSummary18';
+import ordersummary18Data from '../sections/order/02-order-summary/order-summary-18/order-summary-18.json';
+import { OrderSummary19 } from '../sections/order/02-order-summary/order-summary-19/OrderSummary19';
+import ordersummary19Data from '../sections/order/02-order-summary/order-summary-19/order-summary-19.json';
+import { OrderSummary20 } from '../sections/order/02-order-summary/order-summary-20/OrderSummary20';
+import ordersummary20Data from '../sections/order/02-order-summary/order-summary-20/order-summary-20.json';
+import { OrderDeliveryInformation1 } from '../sections/order/03-delivery-information/order-delivery-information-1/OrderDeliveryInformation1';
+import orderdeliveryinformation1Data from '../sections/order/03-delivery-information/order-delivery-information-1/order-delivery-information-1.json';
+import { OrderDeliveryInformation2 } from '../sections/order/03-delivery-information/order-delivery-information-2/OrderDeliveryInformation2';
+import orderdeliveryinformation2Data from '../sections/order/03-delivery-information/order-delivery-information-2/order-delivery-information-2.json';
+import { OrderDeliveryInformation3 } from '../sections/order/03-delivery-information/order-delivery-information-3/OrderDeliveryInformation3';
+import orderdeliveryinformation3Data from '../sections/order/03-delivery-information/order-delivery-information-3/order-delivery-information-3.json';
+import { OrderDeliveryInformation4 } from '../sections/order/03-delivery-information/order-delivery-information-4/OrderDeliveryInformation4';
+import orderdeliveryinformation4Data from '../sections/order/03-delivery-information/order-delivery-information-4/order-delivery-information-4.json';
+import { OrderDeliveryInformation5 } from '../sections/order/03-delivery-information/order-delivery-information-5/OrderDeliveryInformation5';
+import orderdeliveryinformation5Data from '../sections/order/03-delivery-information/order-delivery-information-5/order-delivery-information-5.json';
+import { OrderDeliveryInformation6 } from '../sections/order/03-delivery-information/order-delivery-information-6/OrderDeliveryInformation6';
+import orderdeliveryinformation6Data from '../sections/order/03-delivery-information/order-delivery-information-6/order-delivery-information-6.json';
+import { OrderDeliveryInformation7 } from '../sections/order/03-delivery-information/order-delivery-information-7/OrderDeliveryInformation7';
+import orderdeliveryinformation7Data from '../sections/order/03-delivery-information/order-delivery-information-7/order-delivery-information-7.json';
+import { OrderDeliveryInformation8 } from '../sections/order/03-delivery-information/order-delivery-information-8/OrderDeliveryInformation8';
+import orderdeliveryinformation8Data from '../sections/order/03-delivery-information/order-delivery-information-8/order-delivery-information-8.json';
+import { OrderDeliveryInformation9 } from '../sections/order/03-delivery-information/order-delivery-information-9/OrderDeliveryInformation9';
+import orderdeliveryinformation9Data from '../sections/order/03-delivery-information/order-delivery-information-9/order-delivery-information-9.json';
+import { OrderDeliveryInformation10 } from '../sections/order/03-delivery-information/order-delivery-information-10/OrderDeliveryInformation10';
+import orderdeliveryinformation10Data from '../sections/order/03-delivery-information/order-delivery-information-10/order-delivery-information-10.json';
+import { OrderDeliveryInformation11 } from '../sections/order/03-delivery-information/order-delivery-information-11/OrderDeliveryInformation11';
+import orderdeliveryinformation11Data from '../sections/order/03-delivery-information/order-delivery-information-11/order-delivery-information-11.json';
+import { OrderDeliveryInformation12 } from '../sections/order/03-delivery-information/order-delivery-information-12/OrderDeliveryInformation12';
+import orderdeliveryinformation12Data from '../sections/order/03-delivery-information/order-delivery-information-12/order-delivery-information-12.json';
+import { OrderDeliveryInformation13 } from '../sections/order/03-delivery-information/order-delivery-information-13/OrderDeliveryInformation13';
+import orderdeliveryinformation13Data from '../sections/order/03-delivery-information/order-delivery-information-13/order-delivery-information-13.json';
+import { OrderDeliveryInformation14 } from '../sections/order/03-delivery-information/order-delivery-information-14/OrderDeliveryInformation14';
+import orderdeliveryinformation14Data from '../sections/order/03-delivery-information/order-delivery-information-14/order-delivery-information-14.json';
+import { OrderDeliveryInformation15 } from '../sections/order/03-delivery-information/order-delivery-information-15/OrderDeliveryInformation15';
+import orderdeliveryinformation15Data from '../sections/order/03-delivery-information/order-delivery-information-15/order-delivery-information-15.json';
+import { OrderDeliveryInformation16 } from '../sections/order/03-delivery-information/order-delivery-information-16/OrderDeliveryInformation16';
+import orderdeliveryinformation16Data from '../sections/order/03-delivery-information/order-delivery-information-16/order-delivery-information-16.json';
+import { OrderDeliveryInformation17 } from '../sections/order/03-delivery-information/order-delivery-information-17/OrderDeliveryInformation17';
+import orderdeliveryinformation17Data from '../sections/order/03-delivery-information/order-delivery-information-17/order-delivery-information-17.json';
+import { OrderDeliveryInformation18 } from '../sections/order/03-delivery-information/order-delivery-information-18/OrderDeliveryInformation18';
+import orderdeliveryinformation18Data from '../sections/order/03-delivery-information/order-delivery-information-18/order-delivery-information-18.json';
+import { OrderDeliveryInformation19 } from '../sections/order/03-delivery-information/order-delivery-information-19/OrderDeliveryInformation19';
+import orderdeliveryinformation19Data from '../sections/order/03-delivery-information/order-delivery-information-19/order-delivery-information-19.json';
+import { OrderDeliveryInformation20 } from '../sections/order/03-delivery-information/order-delivery-information-20/OrderDeliveryInformation20';
+import orderdeliveryinformation20Data from '../sections/order/03-delivery-information/order-delivery-information-20/order-delivery-information-20.json';
+import { OrderRecommendedProducts1 } from '../sections/order/04-recommended-products/order-recommended-products-1/OrderRecommendedProducts1';
+import orderrecommendedproducts1Data from '../sections/order/04-recommended-products/order-recommended-products-1/order-recommended-products-1.json';
+import { OrderRecommendedProducts2 } from '../sections/order/04-recommended-products/order-recommended-products-2/OrderRecommendedProducts2';
+import orderrecommendedproducts2Data from '../sections/order/04-recommended-products/order-recommended-products-2/order-recommended-products-2.json';
+import { OrderRecommendedProducts3 } from '../sections/order/04-recommended-products/order-recommended-products-3/OrderRecommendedProducts3';
+import orderrecommendedproducts3Data from '../sections/order/04-recommended-products/order-recommended-products-3/order-recommended-products-3.json';
+import { OrderRecommendedProducts4 } from '../sections/order/04-recommended-products/order-recommended-products-4/OrderRecommendedProducts4';
+import orderrecommendedproducts4Data from '../sections/order/04-recommended-products/order-recommended-products-4/order-recommended-products-4.json';
+import { OrderRecommendedProducts5 } from '../sections/order/04-recommended-products/order-recommended-products-5/OrderRecommendedProducts5';
+import orderrecommendedproducts5Data from '../sections/order/04-recommended-products/order-recommended-products-5/order-recommended-products-5.json';
+import { OrderRecommendedProducts6 } from '../sections/order/04-recommended-products/order-recommended-products-6/OrderRecommendedProducts6';
+import orderrecommendedproducts6Data from '../sections/order/04-recommended-products/order-recommended-products-6/order-recommended-products-6.json';
+import { OrderRecommendedProducts7 } from '../sections/order/04-recommended-products/order-recommended-products-7/OrderRecommendedProducts7';
+import orderrecommendedproducts7Data from '../sections/order/04-recommended-products/order-recommended-products-7/order-recommended-products-7.json';
+import { OrderRecommendedProducts8 } from '../sections/order/04-recommended-products/order-recommended-products-8/OrderRecommendedProducts8';
+import orderrecommendedproducts8Data from '../sections/order/04-recommended-products/order-recommended-products-8/order-recommended-products-8.json';
+import { OrderRecommendedProducts9 } from '../sections/order/04-recommended-products/order-recommended-products-9/OrderRecommendedProducts9';
+import orderrecommendedproducts9Data from '../sections/order/04-recommended-products/order-recommended-products-9/order-recommended-products-9.json';
+import { OrderRecommendedProducts10 } from '../sections/order/04-recommended-products/order-recommended-products-10/OrderRecommendedProducts10';
+import orderrecommendedproducts10Data from '../sections/order/04-recommended-products/order-recommended-products-10/order-recommended-products-10.json';
+import { OrderRecommendedProducts11 } from '../sections/order/04-recommended-products/order-recommended-products-11/OrderRecommendedProducts11';
+import orderrecommendedproducts11Data from '../sections/order/04-recommended-products/order-recommended-products-11/order-recommended-products-11.json';
+import { OrderRecommendedProducts12 } from '../sections/order/04-recommended-products/order-recommended-products-12/OrderRecommendedProducts12';
+import orderrecommendedproducts12Data from '../sections/order/04-recommended-products/order-recommended-products-12/order-recommended-products-12.json';
+import { OrderRecommendedProducts13 } from '../sections/order/04-recommended-products/order-recommended-products-13/OrderRecommendedProducts13';
+import orderrecommendedproducts13Data from '../sections/order/04-recommended-products/order-recommended-products-13/order-recommended-products-13.json';
+import { OrderRecommendedProducts14 } from '../sections/order/04-recommended-products/order-recommended-products-14/OrderRecommendedProducts14';
+import orderrecommendedproducts14Data from '../sections/order/04-recommended-products/order-recommended-products-14/order-recommended-products-14.json';
+import { OrderRecommendedProducts15 } from '../sections/order/04-recommended-products/order-recommended-products-15/OrderRecommendedProducts15';
+import orderrecommendedproducts15Data from '../sections/order/04-recommended-products/order-recommended-products-15/order-recommended-products-15.json';
+import { OrderRecommendedProducts16 } from '../sections/order/04-recommended-products/order-recommended-products-16/OrderRecommendedProducts16';
+import orderrecommendedproducts16Data from '../sections/order/04-recommended-products/order-recommended-products-16/order-recommended-products-16.json';
+import { OrderRecommendedProducts17 } from '../sections/order/04-recommended-products/order-recommended-products-17/OrderRecommendedProducts17';
+import orderrecommendedproducts17Data from '../sections/order/04-recommended-products/order-recommended-products-17/order-recommended-products-17.json';
+import { OrderRecommendedProducts18 } from '../sections/order/04-recommended-products/order-recommended-products-18/OrderRecommendedProducts18';
+import orderrecommendedproducts18Data from '../sections/order/04-recommended-products/order-recommended-products-18/order-recommended-products-18.json';
+import { OrderRecommendedProducts19 } from '../sections/order/04-recommended-products/order-recommended-products-19/OrderRecommendedProducts19';
+import orderrecommendedproducts19Data from '../sections/order/04-recommended-products/order-recommended-products-19/order-recommended-products-19.json';
+import { OrderRecommendedProducts20 } from '../sections/order/04-recommended-products/order-recommended-products-20/OrderRecommendedProducts20';
+import orderrecommendedproducts20Data from '../sections/order/04-recommended-products/order-recommended-products-20/order-recommended-products-20.json';
+import { OrderCustomerSupport1 } from '../sections/order/05-customer-support/order-customer-support-1/OrderCustomerSupport1';
+import ordercustomersupport1Data from '../sections/order/05-customer-support/order-customer-support-1/order-customer-support-1.json';
+import { OrderCustomerSupport2 } from '../sections/order/05-customer-support/order-customer-support-2/OrderCustomerSupport2';
+import ordercustomersupport2Data from '../sections/order/05-customer-support/order-customer-support-2/order-customer-support-2.json';
+import { OrderCustomerSupport3 } from '../sections/order/05-customer-support/order-customer-support-3/OrderCustomerSupport3';
+import ordercustomersupport3Data from '../sections/order/05-customer-support/order-customer-support-3/order-customer-support-3.json';
+import { OrderCustomerSupport4 } from '../sections/order/05-customer-support/order-customer-support-4/OrderCustomerSupport4';
+import ordercustomersupport4Data from '../sections/order/05-customer-support/order-customer-support-4/order-customer-support-4.json';
+import { OrderCustomerSupport5 } from '../sections/order/05-customer-support/order-customer-support-5/OrderCustomerSupport5';
+import ordercustomersupport5Data from '../sections/order/05-customer-support/order-customer-support-5/order-customer-support-5.json';
+import { OrderCustomerSupport6 } from '../sections/order/05-customer-support/order-customer-support-6/OrderCustomerSupport6';
+import ordercustomersupport6Data from '../sections/order/05-customer-support/order-customer-support-6/order-customer-support-6.json';
+import { OrderCustomerSupport7 } from '../sections/order/05-customer-support/order-customer-support-7/OrderCustomerSupport7';
+import ordercustomersupport7Data from '../sections/order/05-customer-support/order-customer-support-7/order-customer-support-7.json';
+import { OrderCustomerSupport8 } from '../sections/order/05-customer-support/order-customer-support-8/OrderCustomerSupport8';
+import ordercustomersupport8Data from '../sections/order/05-customer-support/order-customer-support-8/order-customer-support-8.json';
+import { OrderCustomerSupport9 } from '../sections/order/05-customer-support/order-customer-support-9/OrderCustomerSupport9';
+import ordercustomersupport9Data from '../sections/order/05-customer-support/order-customer-support-9/order-customer-support-9.json';
+import { OrderCustomerSupport10 } from '../sections/order/05-customer-support/order-customer-support-10/OrderCustomerSupport10';
+import ordercustomersupport10Data from '../sections/order/05-customer-support/order-customer-support-10/order-customer-support-10.json';
+import { OrderCustomerSupport11 } from '../sections/order/05-customer-support/order-customer-support-11/OrderCustomerSupport11';
+import ordercustomersupport11Data from '../sections/order/05-customer-support/order-customer-support-11/order-customer-support-11.json';
+import { OrderCustomerSupport12 } from '../sections/order/05-customer-support/order-customer-support-12/OrderCustomerSupport12';
+import ordercustomersupport12Data from '../sections/order/05-customer-support/order-customer-support-12/order-customer-support-12.json';
+import { OrderCustomerSupport13 } from '../sections/order/05-customer-support/order-customer-support-13/OrderCustomerSupport13';
+import ordercustomersupport13Data from '../sections/order/05-customer-support/order-customer-support-13/order-customer-support-13.json';
+import { OrderCustomerSupport14 } from '../sections/order/05-customer-support/order-customer-support-14/OrderCustomerSupport14';
+import ordercustomersupport14Data from '../sections/order/05-customer-support/order-customer-support-14/order-customer-support-14.json';
+import { OrderCustomerSupport15 } from '../sections/order/05-customer-support/order-customer-support-15/OrderCustomerSupport15';
+import ordercustomersupport15Data from '../sections/order/05-customer-support/order-customer-support-15/order-customer-support-15.json';
+import { OrderCustomerSupport16 } from '../sections/order/05-customer-support/order-customer-support-16/OrderCustomerSupport16';
+import ordercustomersupport16Data from '../sections/order/05-customer-support/order-customer-support-16/order-customer-support-16.json';
+import { OrderCustomerSupport17 } from '../sections/order/05-customer-support/order-customer-support-17/OrderCustomerSupport17';
+import ordercustomersupport17Data from '../sections/order/05-customer-support/order-customer-support-17/order-customer-support-17.json';
+import { OrderCustomerSupport18 } from '../sections/order/05-customer-support/order-customer-support-18/OrderCustomerSupport18';
+import ordercustomersupport18Data from '../sections/order/05-customer-support/order-customer-support-18/order-customer-support-18.json';
+import { OrderCustomerSupport19 } from '../sections/order/05-customer-support/order-customer-support-19/OrderCustomerSupport19';
+import ordercustomersupport19Data from '../sections/order/05-customer-support/order-customer-support-19/order-customer-support-19.json';
+import { OrderCustomerSupport20 } from '../sections/order/05-customer-support/order-customer-support-20/OrderCustomerSupport20';
+import ordercustomersupport20Data from '../sections/order/05-customer-support/order-customer-support-20/order-customer-support-20.json';
+import { OrderContinueShopping1 } from '../sections/order/06-continue-shopping/order-continue-shopping-1/OrderContinueShopping1';
+import ordercontinueshopping1Data from '../sections/order/06-continue-shopping/order-continue-shopping-1/order-continue-shopping-1.json';
+import { OrderContinueShopping2 } from '../sections/order/06-continue-shopping/order-continue-shopping-2/OrderContinueShopping2';
+import ordercontinueshopping2Data from '../sections/order/06-continue-shopping/order-continue-shopping-2/order-continue-shopping-2.json';
+import { OrderContinueShopping3 } from '../sections/order/06-continue-shopping/order-continue-shopping-3/OrderContinueShopping3';
+import ordercontinueshopping3Data from '../sections/order/06-continue-shopping/order-continue-shopping-3/order-continue-shopping-3.json';
+import { OrderContinueShopping4 } from '../sections/order/06-continue-shopping/order-continue-shopping-4/OrderContinueShopping4';
+import ordercontinueshopping4Data from '../sections/order/06-continue-shopping/order-continue-shopping-4/order-continue-shopping-4.json';
+import { OrderContinueShopping5 } from '../sections/order/06-continue-shopping/order-continue-shopping-5/OrderContinueShopping5';
+import ordercontinueshopping5Data from '../sections/order/06-continue-shopping/order-continue-shopping-5/order-continue-shopping-5.json';
+import { OrderContinueShopping6 } from '../sections/order/06-continue-shopping/order-continue-shopping-6/OrderContinueShopping6';
+import ordercontinueshopping6Data from '../sections/order/06-continue-shopping/order-continue-shopping-6/order-continue-shopping-6.json';
+import { OrderContinueShopping7 } from '../sections/order/06-continue-shopping/order-continue-shopping-7/OrderContinueShopping7';
+import ordercontinueshopping7Data from '../sections/order/06-continue-shopping/order-continue-shopping-7/order-continue-shopping-7.json';
+import { OrderContinueShopping8 } from '../sections/order/06-continue-shopping/order-continue-shopping-8/OrderContinueShopping8';
+import ordercontinueshopping8Data from '../sections/order/06-continue-shopping/order-continue-shopping-8/order-continue-shopping-8.json';
+import { OrderContinueShopping9 } from '../sections/order/06-continue-shopping/order-continue-shopping-9/OrderContinueShopping9';
+import ordercontinueshopping9Data from '../sections/order/06-continue-shopping/order-continue-shopping-9/order-continue-shopping-9.json';
+import { OrderContinueShopping10 } from '../sections/order/06-continue-shopping/order-continue-shopping-10/OrderContinueShopping10';
+import ordercontinueshopping10Data from '../sections/order/06-continue-shopping/order-continue-shopping-10/order-continue-shopping-10.json';
+import { OrderContinueShopping11 } from '../sections/order/06-continue-shopping/order-continue-shopping-11/OrderContinueShopping11';
+import ordercontinueshopping11Data from '../sections/order/06-continue-shopping/order-continue-shopping-11/order-continue-shopping-11.json';
+import { OrderContinueShopping12 } from '../sections/order/06-continue-shopping/order-continue-shopping-12/OrderContinueShopping12';
+import ordercontinueshopping12Data from '../sections/order/06-continue-shopping/order-continue-shopping-12/order-continue-shopping-12.json';
+import { OrderContinueShopping13 } from '../sections/order/06-continue-shopping/order-continue-shopping-13/OrderContinueShopping13';
+import ordercontinueshopping13Data from '../sections/order/06-continue-shopping/order-continue-shopping-13/order-continue-shopping-13.json';
+import { OrderContinueShopping14 } from '../sections/order/06-continue-shopping/order-continue-shopping-14/OrderContinueShopping14';
+import ordercontinueshopping14Data from '../sections/order/06-continue-shopping/order-continue-shopping-14/order-continue-shopping-14.json';
+import { OrderContinueShopping15 } from '../sections/order/06-continue-shopping/order-continue-shopping-15/OrderContinueShopping15';
+import ordercontinueshopping15Data from '../sections/order/06-continue-shopping/order-continue-shopping-15/order-continue-shopping-15.json';
+import { OrderContinueShopping16 } from '../sections/order/06-continue-shopping/order-continue-shopping-16/OrderContinueShopping16';
+import ordercontinueshopping16Data from '../sections/order/06-continue-shopping/order-continue-shopping-16/order-continue-shopping-16.json';
+import { OrderContinueShopping17 } from '../sections/order/06-continue-shopping/order-continue-shopping-17/OrderContinueShopping17';
+import ordercontinueshopping17Data from '../sections/order/06-continue-shopping/order-continue-shopping-17/order-continue-shopping-17.json';
+import { OrderContinueShopping18 } from '../sections/order/06-continue-shopping/order-continue-shopping-18/OrderContinueShopping18';
+import ordercontinueshopping18Data from '../sections/order/06-continue-shopping/order-continue-shopping-18/order-continue-shopping-18.json';
+import { OrderContinueShopping19 } from '../sections/order/06-continue-shopping/order-continue-shopping-19/OrderContinueShopping19';
+import ordercontinueshopping19Data from '../sections/order/06-continue-shopping/order-continue-shopping-19/order-continue-shopping-19.json';
+import { OrderContinueShopping20 } from '../sections/order/06-continue-shopping/order-continue-shopping-20/OrderContinueShopping20';
+import ordercontinueshopping20Data from '../sections/order/06-continue-shopping/order-continue-shopping-20/order-continue-shopping-20.json';
 import { CouponDiscountSection1 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-1/CouponDiscountSection1';
 import couponDiscountSection1Data from '../sections/cart/04-coupon-discount-section/coupon-discount-section-1/coupon-discount-section-1.json';
 import { CouponDiscountSection2 } from '../sections/cart/04-coupon-discount-section/coupon-discount-section-2/CouponDiscountSection2';
@@ -642,7 +1288,7 @@ import CheckoutSecurityTrust20 from '../sections/checkout/10-security-trust/chec
 import checkoutsecuritytrust20Data from '../sections/checkout/10-security-trust/checkout-security-trust-20/checkout-security-trust-20.json';
 
 import React from 'react';
-import { homeCategories, productCategories, cartCategories, checkoutCategories } from './navigationData';
+import { homeCategories, productCategories, cartCategories, checkoutCategories, orderCategories, accountCategories } from './navigationData';
 import { Code } from 'lucide-react';
 
 import { SectionLibraryCard } from './SectionLibraryCard';
@@ -7805,12 +8451,350 @@ export function SectionLibraryGrid({ category }: GridProps) {
       { id: 'checkout-security-trust-18', title: checkoutsecuritytrust18Data.title || 'Security / Trust Section 18', description: checkoutsecuritytrust18Data.description || 'Placeholder for Security / Trust Section variant 18', previewComponent: <CheckoutSecurityTrust18 data={checkoutsecuritytrust18Data as any} /> },
       { id: 'checkout-security-trust-19', title: checkoutsecuritytrust19Data.title || 'Security / Trust Section 19', description: checkoutsecuritytrust19Data.description || 'Placeholder for Security / Trust Section variant 19', previewComponent: <CheckoutSecurityTrust19 data={checkoutsecuritytrust19Data as any} /> },
       { id: 'checkout-security-trust-20', title: checkoutsecuritytrust20Data.title || 'Security / Trust Section 20', description: checkoutsecuritytrust20Data.description || 'Placeholder for Security / Trust Section variant 20', previewComponent: <CheckoutSecurityTrust20 data={checkoutsecuritytrust20Data as any} /> }
-    ] : [];
+        ] : category === 'account-address-book' ? [
+      { id: 'account-address-book-1', title: accountAddressBook01Data.title || 'SAVED ADDRESSES — VARIANT 01', description: accountAddressBook01Data.description || 'Saved address variant 1', previewComponent: <AccountAddressBook1 /> },
+      { id: 'account-address-book-2', title: accountAddressBook02Data.title || 'SAVED ADDRESSES — VARIANT 02', description: accountAddressBook02Data.description || 'Saved address variant 2', previewComponent: <AccountAddressBook2 /> },
+      { id: 'account-address-book-3', title: accountAddressBook03Data.title || 'SAVED ADDRESSES — VARIANT 03', description: accountAddressBook03Data.description || 'Saved address variant 3', previewComponent: <AccountAddressBook3 /> },
+      { id: 'account-address-book-4', title: accountAddressBook04Data.title || 'SAVED ADDRESSES — VARIANT 04', description: accountAddressBook04Data.description || 'Saved address variant 4', previewComponent: <AccountAddressBook4 /> },
+      { id: 'account-address-book-5', title: accountAddressBook05Data.title || 'SAVED ADDRESSES — VARIANT 05', description: accountAddressBook05Data.description || 'Saved address variant 5', previewComponent: <AccountAddressBook5 /> },
+      { id: 'account-address-book-6', title: accountAddressBook06Data.title || 'SAVED ADDRESSES — VARIANT 06', description: accountAddressBook06Data.description || 'Saved address variant 6', previewComponent: <AccountAddressBook6 /> },
+      { id: 'account-address-book-7', title: accountAddressBook07Data.title || 'SAVED ADDRESSES — VARIANT 07', description: accountAddressBook07Data.description || 'Saved address variant 7', previewComponent: <AccountAddressBook7 /> },
+      { id: 'account-address-book-8', title: accountAddressBook08Data.title || 'SAVED ADDRESSES — VARIANT 08', description: accountAddressBook08Data.description || 'Saved address variant 8', previewComponent: <AccountAddressBook8 /> },
+      { id: 'account-address-book-9', title: accountAddressBook09Data.title || 'SAVED ADDRESSES — VARIANT 09', description: accountAddressBook09Data.description || 'Saved address variant 9', previewComponent: <AccountAddressBook9 /> },
+      { id: 'account-address-book-10', title: accountAddressBook10Data.title || 'SAVED ADDRESSES — VARIANT 10', description: accountAddressBook10Data.description || 'Saved address variant 10', previewComponent: <AccountAddressBook10 /> },
+      { id: 'account-address-book-11', title: accountAddressBook11Data.title || 'SAVED ADDRESSES — VARIANT 11', description: accountAddressBook11Data.description || 'Saved address variant 11', previewComponent: <AccountAddressBook11 /> },
+      { id: 'account-address-book-12', title: accountAddressBook12Data.title || 'SAVED ADDRESSES — VARIANT 12', description: accountAddressBook12Data.description || 'Saved address variant 12', previewComponent: <AccountAddressBook12 /> },
+      { id: 'account-address-book-13', title: accountAddressBook13Data.title || 'SAVED ADDRESSES — VARIANT 13', description: accountAddressBook13Data.description || 'Saved address variant 13', previewComponent: <AccountAddressBook13 /> },
+      { id: 'account-address-book-14', title: accountAddressBook14Data.title || 'SAVED ADDRESSES — VARIANT 14', description: accountAddressBook14Data.description || 'Saved address variant 14', previewComponent: <AccountAddressBook14 /> },
+      { id: 'account-address-book-15', title: accountAddressBook15Data.title || 'SAVED ADDRESSES — VARIANT 15', description: accountAddressBook15Data.description || 'Saved address variant 15', previewComponent: <AccountAddressBook15 /> },
+      { id: 'account-address-book-16', title: accountAddressBook16Data.title || 'SAVED ADDRESSES — VARIANT 16', description: accountAddressBook16Data.description || 'Saved address variant 16', previewComponent: <AccountAddressBook16 /> },
+      { id: 'account-address-book-17', title: accountAddressBook17Data.title || 'SAVED ADDRESSES — VARIANT 17', description: accountAddressBook17Data.description || 'Saved address variant 17', previewComponent: <AccountAddressBook17 /> },
+      { id: 'account-address-book-18', title: accountAddressBook18Data.title || 'SAVED ADDRESSES — VARIANT 18', description: accountAddressBook18Data.description || 'Saved address variant 18', previewComponent: <AccountAddressBook18 /> },
+      { id: 'account-address-book-19', title: accountAddressBook19Data.title || 'SAVED ADDRESSES — VARIANT 19', description: accountAddressBook19Data.description || 'Saved address variant 19', previewComponent: <AccountAddressBook19 /> },
+      { id: 'account-address-book-20', title: accountAddressBook20Data.title || 'SAVED ADDRESSES — VARIANT 20', description: accountAddressBook20Data.description || 'Saved address variant 20', previewComponent: <AccountAddressBook20 /> },
+    ] : category === 'account-wishlist' ? [
+      { id: 'account-wishlist-1', title: accountWishlist01Data.heading || accountWishlist01Data.title || 'WISHLIST — VARIANT 01', description: accountWishlist01Data.description || 'Wishlist variant 1', previewComponent: <AccountWishlist1 /> },
+      { id: 'account-wishlist-2', title: accountWishlist02Data.heading || accountWishlist02Data.title || 'WISHLIST — VARIANT 02', description: accountWishlist02Data.description || 'Wishlist variant 2', previewComponent: <AccountWishlist2 /> },
+      { id: 'account-wishlist-3', title: accountWishlist03Data.heading || accountWishlist03Data.title || 'WISHLIST — VARIANT 03', description: accountWishlist03Data.description || 'Wishlist variant 3', previewComponent: <AccountWishlist3 /> },
+      { id: 'account-wishlist-4', title: accountWishlist04Data.heading || accountWishlist04Data.title || 'WISHLIST — VARIANT 04', description: accountWishlist04Data.description || 'Wishlist variant 4', previewComponent: <AccountWishlist4 /> },
+      { id: 'account-wishlist-5', title: accountWishlist05Data.heading || accountWishlist05Data.title || 'WISHLIST — VARIANT 05', description: accountWishlist05Data.description || 'Wishlist variant 5', previewComponent: <AccountWishlist5 /> },
+      { id: 'account-wishlist-6', title: accountWishlist06Data.heading || accountWishlist06Data.title || 'WISHLIST — VARIANT 06', description: accountWishlist06Data.description || 'Wishlist variant 6', previewComponent: <AccountWishlist6 /> },
+      { id: 'account-wishlist-7', title: accountWishlist07Data.heading || accountWishlist07Data.title || 'WISHLIST — VARIANT 07', description: accountWishlist07Data.description || 'Wishlist variant 7', previewComponent: <AccountWishlist7 /> },
+      { id: 'account-wishlist-8', title: accountWishlist08Data.heading || accountWishlist08Data.title || 'WISHLIST — VARIANT 08', description: accountWishlist08Data.description || 'Wishlist variant 8', previewComponent: <AccountWishlist8 /> },
+      { id: 'account-wishlist-9', title: accountWishlist09Data.heading || accountWishlist09Data.title || 'WISHLIST — VARIANT 09', description: accountWishlist09Data.description || 'Wishlist variant 9', previewComponent: <AccountWishlist9 /> },
+      { id: 'account-wishlist-10', title: accountWishlist10Data.heading || accountWishlist10Data.title || 'WISHLIST — VARIANT 10', description: accountWishlist10Data.description || 'Wishlist variant 10', previewComponent: <AccountWishlist10 /> },
+      { id: 'account-wishlist-11', title: accountWishlist11Data.heading || accountWishlist11Data.title || 'WISHLIST — VARIANT 11', description: accountWishlist11Data.description || 'Wishlist variant 11', previewComponent: <AccountWishlist11 /> },
+      { id: 'account-wishlist-12', title: accountWishlist12Data.heading || accountWishlist12Data.title || 'WISHLIST — VARIANT 12', description: accountWishlist12Data.description || 'Wishlist variant 12', previewComponent: <AccountWishlist12 /> },
+      { id: 'account-wishlist-13', title: accountWishlist13Data.heading || accountWishlist13Data.title || 'WISHLIST — VARIANT 13', description: accountWishlist13Data.description || 'Wishlist variant 13', previewComponent: <AccountWishlist13 /> },
+      { id: 'account-wishlist-14', title: accountWishlist14Data.heading || accountWishlist14Data.title || 'WISHLIST — VARIANT 14', description: accountWishlist14Data.description || 'Wishlist variant 14', previewComponent: <AccountWishlist14 /> },
+      { id: 'account-wishlist-15', title: accountWishlist15Data.heading || accountWishlist15Data.title || 'WISHLIST — VARIANT 15', description: accountWishlist15Data.description || 'Wishlist variant 15', previewComponent: <AccountWishlist15 /> },
+      { id: 'account-wishlist-16', title: accountWishlist16Data.heading || accountWishlist16Data.title || 'WISHLIST — VARIANT 16', description: accountWishlist16Data.description || 'Wishlist variant 16', previewComponent: <AccountWishlist16 /> },
+      { id: 'account-wishlist-17', title: accountWishlist17Data.heading || accountWishlist17Data.title || 'WISHLIST — VARIANT 17', description: accountWishlist17Data.description || 'Wishlist variant 17', previewComponent: <AccountWishlist17 /> },
+      { id: 'account-wishlist-18', title: accountWishlist18Data.heading || accountWishlist18Data.title || 'WISHLIST — VARIANT 18', description: accountWishlist18Data.description || 'Wishlist variant 18', previewComponent: <AccountWishlist18 /> },
+      { id: 'account-wishlist-19', title: accountWishlist19Data.heading || accountWishlist19Data.title || 'WISHLIST — VARIANT 19', description: accountWishlist19Data.description || 'Wishlist variant 19', previewComponent: <AccountWishlist19 /> },
+      { id: 'account-wishlist-20', title: accountWishlist20Data.heading || accountWishlist20Data.title || 'WISHLIST — VARIANT 20', description: accountWishlist20Data.description || 'Wishlist variant 20', previewComponent: <AccountWishlist20 /> },
+    ] : category === 'account-saved-products' ? [
+      { id: 'account-saved-products-1', title: accountSavedProducts01Data.heading || accountSavedProducts01Data.title || 'SAVED PRODUCTS — VARIANT 01', description: accountSavedProducts01Data.description || 'Saved product variant 1', previewComponent: <AccountSavedProducts1 /> },
+      { id: 'account-saved-products-2', title: accountSavedProducts02Data.heading || accountSavedProducts02Data.title || 'SAVED PRODUCTS — VARIANT 02', description: accountSavedProducts02Data.description || 'Saved product variant 2', previewComponent: <AccountSavedProducts2 /> },
+      { id: 'account-saved-products-3', title: accountSavedProducts03Data.heading || accountSavedProducts03Data.title || 'SAVED PRODUCTS — VARIANT 03', description: accountSavedProducts03Data.description || 'Saved product variant 3', previewComponent: <AccountSavedProducts3 /> },
+      { id: 'account-saved-products-4', title: accountSavedProducts04Data.heading || accountSavedProducts04Data.title || 'SAVED PRODUCTS — VARIANT 04', description: accountSavedProducts04Data.description || 'Saved product variant 4', previewComponent: <AccountSavedProducts4 /> },
+      { id: 'account-saved-products-5', title: accountSavedProducts05Data.heading || accountSavedProducts05Data.title || 'SAVED PRODUCTS — VARIANT 05', description: accountSavedProducts05Data.description || 'Saved product variant 5', previewComponent: <AccountSavedProducts5 /> },
+      { id: 'account-saved-products-6', title: accountSavedProducts06Data.heading || accountSavedProducts06Data.title || 'SAVED PRODUCTS — VARIANT 06', description: accountSavedProducts06Data.description || 'Saved product variant 6', previewComponent: <AccountSavedProducts6 /> },
+      { id: 'account-saved-products-7', title: accountSavedProducts07Data.heading || accountSavedProducts07Data.title || 'SAVED PRODUCTS — VARIANT 07', description: accountSavedProducts07Data.description || 'Saved product variant 7', previewComponent: <AccountSavedProducts7 /> },
+      { id: 'account-saved-products-8', title: accountSavedProducts08Data.heading || accountSavedProducts08Data.title || 'SAVED PRODUCTS — VARIANT 08', description: accountSavedProducts08Data.description || 'Saved product variant 8', previewComponent: <AccountSavedProducts8 /> },
+      { id: 'account-saved-products-9', title: accountSavedProducts09Data.heading || accountSavedProducts09Data.title || 'SAVED PRODUCTS — VARIANT 09', description: accountSavedProducts09Data.description || 'Saved product variant 9', previewComponent: <AccountSavedProducts9 /> },
+      { id: 'account-saved-products-10', title: accountSavedProducts10Data.heading || accountSavedProducts10Data.title || 'SAVED PRODUCTS — VARIANT 10', description: accountSavedProducts10Data.description || 'Saved product variant 10', previewComponent: <AccountSavedProducts10 /> },
+      { id: 'account-saved-products-11', title: accountSavedProducts11Data.heading || accountSavedProducts11Data.title || 'SAVED PRODUCTS — VARIANT 11', description: accountSavedProducts11Data.description || 'Saved product variant 11', previewComponent: <AccountSavedProducts11 /> },
+      { id: 'account-saved-products-12', title: accountSavedProducts12Data.heading || accountSavedProducts12Data.title || 'SAVED PRODUCTS — VARIANT 12', description: accountSavedProducts12Data.description || 'Saved product variant 12', previewComponent: <AccountSavedProducts12 /> },
+      { id: 'account-saved-products-13', title: accountSavedProducts13Data.heading || accountSavedProducts13Data.title || 'SAVED PRODUCTS — VARIANT 13', description: accountSavedProducts13Data.description || 'Saved product variant 13', previewComponent: <AccountSavedProducts13 /> },
+      { id: 'account-saved-products-14', title: accountSavedProducts14Data.heading || accountSavedProducts14Data.title || 'SAVED PRODUCTS — VARIANT 14', description: accountSavedProducts14Data.description || 'Saved product variant 14', previewComponent: <AccountSavedProducts14 /> },
+      { id: 'account-saved-products-15', title: accountSavedProducts15Data.heading || accountSavedProducts15Data.title || 'SAVED PRODUCTS — VARIANT 15', description: accountSavedProducts15Data.description || 'Saved product variant 15', previewComponent: <AccountSavedProducts15 /> },
+      { id: 'account-saved-products-16', title: accountSavedProducts16Data.heading || accountSavedProducts16Data.title || 'SAVED PRODUCTS — VARIANT 16', description: accountSavedProducts16Data.description || 'Saved product variant 16', previewComponent: <AccountSavedProducts16 /> },
+      { id: 'account-saved-products-17', title: accountSavedProducts17Data.heading || accountSavedProducts17Data.title || 'SAVED PRODUCTS — VARIANT 17', description: accountSavedProducts17Data.description || 'Saved product variant 17', previewComponent: <AccountSavedProducts17 /> },
+      { id: 'account-saved-products-18', title: accountSavedProducts18Data.heading || accountSavedProducts18Data.title || 'SAVED PRODUCTS — VARIANT 18', description: accountSavedProducts18Data.description || 'Saved product variant 18', previewComponent: <AccountSavedProducts18 /> },
+      { id: 'account-saved-products-19', title: accountSavedProducts19Data.heading || accountSavedProducts19Data.title || 'SAVED PRODUCTS — VARIANT 19', description: accountSavedProducts19Data.description || 'Saved product variant 19', previewComponent: <AccountSavedProducts19 /> },
+      { id: 'account-saved-products-20', title: accountSavedProducts20Data.heading || accountSavedProducts20Data.title || 'SAVED PRODUCTS — VARIANT 20', description: accountSavedProducts20Data.description || 'Saved product variant 20', previewComponent: <AccountSavedProducts20 /> },
+    ] : category === 'account-recently-viewed-products' ? [
+      { id: 'account-recently-viewed-products-1', title: accountRecentlyViewedProducts01Data.heading || accountRecentlyViewedProducts01Data.title || 'RECENTLY VIEWED — VARIANT 01', description: accountRecentlyViewedProducts01Data.description || 'Recently viewed variant 1', previewComponent: <AccountRecentlyViewedProducts1 /> },
+      { id: 'account-recently-viewed-products-2', title: accountRecentlyViewedProducts02Data.heading || accountRecentlyViewedProducts02Data.title || 'RECENTLY VIEWED — VARIANT 02', description: accountRecentlyViewedProducts02Data.description || 'Recently viewed variant 2', previewComponent: <AccountRecentlyViewedProducts2 /> },
+      { id: 'account-recently-viewed-products-3', title: accountRecentlyViewedProducts03Data.heading || accountRecentlyViewedProducts03Data.title || 'RECENTLY VIEWED — VARIANT 03', description: accountRecentlyViewedProducts03Data.description || 'Recently viewed variant 3', previewComponent: <AccountRecentlyViewedProducts3 /> },
+      { id: 'account-recently-viewed-products-4', title: accountRecentlyViewedProducts04Data.heading || accountRecentlyViewedProducts04Data.title || 'RECENTLY VIEWED — VARIANT 04', description: accountRecentlyViewedProducts04Data.description || 'Recently viewed variant 4', previewComponent: <AccountRecentlyViewedProducts4 /> },
+      { id: 'account-recently-viewed-products-5', title: accountRecentlyViewedProducts05Data.heading || accountRecentlyViewedProducts05Data.title || 'RECENTLY VIEWED — VARIANT 05', description: accountRecentlyViewedProducts05Data.description || 'Recently viewed variant 5', previewComponent: <AccountRecentlyViewedProducts5 /> },
+      { id: 'account-recently-viewed-products-6', title: accountRecentlyViewedProducts06Data.heading || accountRecentlyViewedProducts06Data.title || 'RECENTLY VIEWED — VARIANT 06', description: accountRecentlyViewedProducts06Data.description || 'Recently viewed variant 6', previewComponent: <AccountRecentlyViewedProducts6 /> },
+      { id: 'account-recently-viewed-products-7', title: accountRecentlyViewedProducts07Data.heading || accountRecentlyViewedProducts07Data.title || 'RECENTLY VIEWED — VARIANT 07', description: accountRecentlyViewedProducts07Data.description || 'Recently viewed variant 7', previewComponent: <AccountRecentlyViewedProducts7 /> },
+      { id: 'account-recently-viewed-products-8', title: accountRecentlyViewedProducts08Data.heading || accountRecentlyViewedProducts08Data.title || 'RECENTLY VIEWED — VARIANT 08', description: accountRecentlyViewedProducts08Data.description || 'Recently viewed variant 8', previewComponent: <AccountRecentlyViewedProducts8 /> },
+      { id: 'account-recently-viewed-products-9', title: accountRecentlyViewedProducts09Data.heading || accountRecentlyViewedProducts09Data.title || 'RECENTLY VIEWED — VARIANT 09', description: accountRecentlyViewedProducts09Data.description || 'Recently viewed variant 9', previewComponent: <AccountRecentlyViewedProducts9 /> },
+      { id: 'account-recently-viewed-products-10', title: accountRecentlyViewedProducts10Data.heading || accountRecentlyViewedProducts10Data.title || 'RECENTLY VIEWED — VARIANT 10', description: accountRecentlyViewedProducts10Data.description || 'Recently viewed variant 10', previewComponent: <AccountRecentlyViewedProducts10 /> },
+      { id: 'account-recently-viewed-products-11', title: accountRecentlyViewedProducts11Data.heading || accountRecentlyViewedProducts11Data.title || 'RECENTLY VIEWED — VARIANT 11', description: accountRecentlyViewedProducts11Data.description || 'Recently viewed variant 11', previewComponent: <AccountRecentlyViewedProducts11 /> },
+      { id: 'account-recently-viewed-products-12', title: accountRecentlyViewedProducts12Data.heading || accountRecentlyViewedProducts12Data.title || 'RECENTLY VIEWED — VARIANT 12', description: accountRecentlyViewedProducts12Data.description || 'Recently viewed variant 12', previewComponent: <AccountRecentlyViewedProducts12 /> },
+      { id: 'account-recently-viewed-products-13', title: accountRecentlyViewedProducts13Data.heading || accountRecentlyViewedProducts13Data.title || 'RECENTLY VIEWED — VARIANT 13', description: accountRecentlyViewedProducts13Data.description || 'Recently viewed variant 13', previewComponent: <AccountRecentlyViewedProducts13 /> },
+      { id: 'account-recently-viewed-products-14', title: accountRecentlyViewedProducts14Data.heading || accountRecentlyViewedProducts14Data.title || 'RECENTLY VIEWED — VARIANT 14', description: accountRecentlyViewedProducts14Data.description || 'Recently viewed variant 14', previewComponent: <AccountRecentlyViewedProducts14 /> },
+      { id: 'account-recently-viewed-products-15', title: accountRecentlyViewedProducts15Data.heading || accountRecentlyViewedProducts15Data.title || 'RECENTLY VIEWED — VARIANT 15', description: accountRecentlyViewedProducts15Data.description || 'Recently viewed variant 15', previewComponent: <AccountRecentlyViewedProducts15 /> },
+      { id: 'account-recently-viewed-products-16', title: accountRecentlyViewedProducts16Data.heading || accountRecentlyViewedProducts16Data.title || 'RECENTLY VIEWED — VARIANT 16', description: accountRecentlyViewedProducts16Data.description || 'Recently viewed variant 16', previewComponent: <AccountRecentlyViewedProducts16 /> },
+      { id: 'account-recently-viewed-products-17', title: accountRecentlyViewedProducts17Data.heading || accountRecentlyViewedProducts17Data.title || 'RECENTLY VIEWED — VARIANT 17', description: accountRecentlyViewedProducts17Data.description || 'Recently viewed variant 17', previewComponent: <AccountRecentlyViewedProducts17 /> },
+      { id: 'account-recently-viewed-products-18', title: accountRecentlyViewedProducts18Data.heading || accountRecentlyViewedProducts18Data.title || 'RECENTLY VIEWED — VARIANT 18', description: accountRecentlyViewedProducts18Data.description || 'Recently viewed variant 18', previewComponent: <AccountRecentlyViewedProducts18 /> },
+      { id: 'account-recently-viewed-products-19', title: accountRecentlyViewedProducts19Data.heading || accountRecentlyViewedProducts19Data.title || 'RECENTLY VIEWED — VARIANT 19', description: accountRecentlyViewedProducts19Data.description || 'Recently viewed variant 19', previewComponent: <AccountRecentlyViewedProducts19 /> },
+      { id: 'account-recently-viewed-products-20', title: accountRecentlyViewedProducts20Data.heading || accountRecentlyViewedProducts20Data.title || 'RECENTLY VIEWED — VARIANT 20', description: accountRecentlyViewedProducts20Data.description || 'Recently viewed variant 20', previewComponent: <AccountRecentlyViewedProducts20 /> },
+                ] : category === 'account-notification-preferences' ? [
+      { id: 'account-notification-preferences-1', title: accountNotificationPreferences01Data.heading || accountNotificationPreferences01Data.title || 'NOTIFICATION PREFERENCES — VARIANT 01', description: accountNotificationPreferences01Data.description || 'Notification preferences variant 1', previewComponent: <AccountNotificationPreferences1 /> },
+      { id: 'account-notification-preferences-2', title: accountNotificationPreferences02Data.heading || accountNotificationPreferences02Data.title || 'NOTIFICATION PREFERENCES — VARIANT 02', description: accountNotificationPreferences02Data.description || 'Notification preferences variant 2', previewComponent: <AccountNotificationPreferences2 /> },
+      { id: 'account-notification-preferences-3', title: accountNotificationPreferences03Data.heading || accountNotificationPreferences03Data.title || 'NOTIFICATION PREFERENCES — VARIANT 03', description: accountNotificationPreferences03Data.description || 'Notification preferences variant 3', previewComponent: <AccountNotificationPreferences3 /> },
+      { id: 'account-notification-preferences-4', title: accountNotificationPreferences04Data.heading || accountNotificationPreferences04Data.title || 'NOTIFICATION PREFERENCES — VARIANT 04', description: accountNotificationPreferences04Data.description || 'Notification preferences variant 4', previewComponent: <AccountNotificationPreferences4 /> },
+      { id: 'account-notification-preferences-5', title: accountNotificationPreferences05Data.heading || accountNotificationPreferences05Data.title || 'NOTIFICATION PREFERENCES — VARIANT 05', description: accountNotificationPreferences05Data.description || 'Notification preferences variant 5', previewComponent: <AccountNotificationPreferences5 /> },
+      { id: 'account-notification-preferences-6', title: accountNotificationPreferences06Data.heading || accountNotificationPreferences06Data.title || 'NOTIFICATION PREFERENCES — VARIANT 06', description: accountNotificationPreferences06Data.description || 'Notification preferences variant 6', previewComponent: <AccountNotificationPreferences6 /> },
+      { id: 'account-notification-preferences-7', title: accountNotificationPreferences07Data.heading || accountNotificationPreferences07Data.title || 'NOTIFICATION PREFERENCES — VARIANT 07', description: accountNotificationPreferences07Data.description || 'Notification preferences variant 7', previewComponent: <AccountNotificationPreferences7 /> },
+      { id: 'account-notification-preferences-8', title: accountNotificationPreferences08Data.heading || accountNotificationPreferences08Data.title || 'NOTIFICATION PREFERENCES — VARIANT 08', description: accountNotificationPreferences08Data.description || 'Notification preferences variant 8', previewComponent: <AccountNotificationPreferences8 /> },
+      { id: 'account-notification-preferences-9', title: accountNotificationPreferences09Data.heading || accountNotificationPreferences09Data.title || 'NOTIFICATION PREFERENCES — VARIANT 09', description: accountNotificationPreferences09Data.description || 'Notification preferences variant 9', previewComponent: <AccountNotificationPreferences9 /> },
+      { id: 'account-notification-preferences-10', title: accountNotificationPreferences10Data.heading || accountNotificationPreferences10Data.title || 'NOTIFICATION PREFERENCES — VARIANT 10', description: accountNotificationPreferences10Data.description || 'Notification preferences variant 10', previewComponent: <AccountNotificationPreferences10 /> },
+      { id: 'account-notification-preferences-11', title: accountNotificationPreferences11Data.heading || accountNotificationPreferences11Data.title || 'NOTIFICATION PREFERENCES — VARIANT 11', description: accountNotificationPreferences11Data.description || 'Notification preferences variant 11', previewComponent: <AccountNotificationPreferences11 /> },
+      { id: 'account-notification-preferences-12', title: accountNotificationPreferences12Data.heading || accountNotificationPreferences12Data.title || 'NOTIFICATION PREFERENCES — VARIANT 12', description: accountNotificationPreferences12Data.description || 'Notification preferences variant 12', previewComponent: <AccountNotificationPreferences12 /> },
+      { id: 'account-notification-preferences-13', title: accountNotificationPreferences13Data.heading || accountNotificationPreferences13Data.title || 'NOTIFICATION PREFERENCES — VARIANT 13', description: accountNotificationPreferences13Data.description || 'Notification preferences variant 13', previewComponent: <AccountNotificationPreferences13 /> },
+      { id: 'account-notification-preferences-14', title: accountNotificationPreferences14Data.heading || accountNotificationPreferences14Data.title || 'NOTIFICATION PREFERENCES — VARIANT 14', description: accountNotificationPreferences14Data.description || 'Notification preferences variant 14', previewComponent: <AccountNotificationPreferences14 /> },
+      { id: 'account-notification-preferences-15', title: accountNotificationPreferences15Data.heading || accountNotificationPreferences15Data.title || 'NOTIFICATION PREFERENCES — VARIANT 15', description: accountNotificationPreferences15Data.description || 'Notification preferences variant 15', previewComponent: <AccountNotificationPreferences15 /> },
+      { id: 'account-notification-preferences-16', title: accountNotificationPreferences16Data.heading || accountNotificationPreferences16Data.title || 'NOTIFICATION PREFERENCES — VARIANT 16', description: accountNotificationPreferences16Data.description || 'Notification preferences variant 16', previewComponent: <AccountNotificationPreferences16 /> },
+      { id: 'account-notification-preferences-17', title: accountNotificationPreferences17Data.heading || accountNotificationPreferences17Data.title || 'NOTIFICATION PREFERENCES — VARIANT 17', description: accountNotificationPreferences17Data.description || 'Notification preferences variant 17', previewComponent: <AccountNotificationPreferences17 /> },
+      { id: 'account-notification-preferences-18', title: accountNotificationPreferences18Data.heading || accountNotificationPreferences18Data.title || 'NOTIFICATION PREFERENCES — VARIANT 18', description: accountNotificationPreferences18Data.description || 'Notification preferences variant 18', previewComponent: <AccountNotificationPreferences18 /> },
+      { id: 'account-notification-preferences-19', title: accountNotificationPreferences19Data.heading || accountNotificationPreferences19Data.title || 'NOTIFICATION PREFERENCES — VARIANT 19', description: accountNotificationPreferences19Data.description || 'Notification preferences variant 19', previewComponent: <AccountNotificationPreferences19 /> },
+      { id: 'account-notification-preferences-20', title: accountNotificationPreferences20Data.heading || accountNotificationPreferences20Data.title || 'NOTIFICATION PREFERENCES — VARIANT 20', description: accountNotificationPreferences20Data.description || 'Notification preferences variant 20', previewComponent: <AccountNotificationPreferences20 /> },
+    ] : category === 'account-coupons-offers' ? [
+      { id: 'account-coupons-offers-1', title: accountCouponsOffers01Data.heading || accountCouponsOffers01Data.title || 'COUPONS & OFFERS — VARIANT 01', description: accountCouponsOffers01Data.description || 'Coupons & offers variant 1', previewComponent: <AccountCouponsOffers1 /> },
+      { id: 'account-coupons-offers-2', title: accountCouponsOffers02Data.heading || accountCouponsOffers02Data.title || 'COUPONS & OFFERS — VARIANT 02', description: accountCouponsOffers02Data.description || 'Coupons & offers variant 2', previewComponent: <AccountCouponsOffers2 /> },
+      { id: 'account-coupons-offers-3', title: accountCouponsOffers03Data.heading || accountCouponsOffers03Data.title || 'COUPONS & OFFERS — VARIANT 03', description: accountCouponsOffers03Data.description || 'Coupons & offers variant 3', previewComponent: <AccountCouponsOffers3 /> },
+      { id: 'account-coupons-offers-4', title: accountCouponsOffers04Data.heading || accountCouponsOffers04Data.title || 'COUPONS & OFFERS — VARIANT 04', description: accountCouponsOffers04Data.description || 'Coupons & offers variant 4', previewComponent: <AccountCouponsOffers4 /> },
+      { id: 'account-coupons-offers-5', title: accountCouponsOffers05Data.heading || accountCouponsOffers05Data.title || 'COUPONS & OFFERS — VARIANT 05', description: accountCouponsOffers05Data.description || 'Coupons & offers variant 5', previewComponent: <AccountCouponsOffers5 /> },
+      { id: 'account-coupons-offers-6', title: accountCouponsOffers06Data.heading || accountCouponsOffers06Data.title || 'COUPONS & OFFERS — VARIANT 06', description: accountCouponsOffers06Data.description || 'Coupons & offers variant 6', previewComponent: <AccountCouponsOffers6 /> },
+      { id: 'account-coupons-offers-7', title: accountCouponsOffers07Data.heading || accountCouponsOffers07Data.title || 'COUPONS & OFFERS — VARIANT 07', description: accountCouponsOffers07Data.description || 'Coupons & offers variant 7', previewComponent: <AccountCouponsOffers7 /> },
+      { id: 'account-coupons-offers-8', title: accountCouponsOffers08Data.heading || accountCouponsOffers08Data.title || 'COUPONS & OFFERS — VARIANT 08', description: accountCouponsOffers08Data.description || 'Coupons & offers variant 8', previewComponent: <AccountCouponsOffers8 /> },
+      { id: 'account-coupons-offers-9', title: accountCouponsOffers09Data.heading || accountCouponsOffers09Data.title || 'COUPONS & OFFERS — VARIANT 09', description: accountCouponsOffers09Data.description || 'Coupons & offers variant 9', previewComponent: <AccountCouponsOffers9 /> },
+      { id: 'account-coupons-offers-10', title: accountCouponsOffers10Data.heading || accountCouponsOffers10Data.title || 'COUPONS & OFFERS — VARIANT 10', description: accountCouponsOffers10Data.description || 'Coupons & offers variant 10', previewComponent: <AccountCouponsOffers10 /> },
+      { id: 'account-coupons-offers-11', title: accountCouponsOffers11Data.heading || accountCouponsOffers11Data.title || 'COUPONS & OFFERS — VARIANT 11', description: accountCouponsOffers11Data.description || 'Coupons & offers variant 11', previewComponent: <AccountCouponsOffers11 /> },
+      { id: 'account-coupons-offers-12', title: accountCouponsOffers12Data.heading || accountCouponsOffers12Data.title || 'COUPONS & OFFERS — VARIANT 12', description: accountCouponsOffers12Data.description || 'Coupons & offers variant 12', previewComponent: <AccountCouponsOffers12 /> },
+      { id: 'account-coupons-offers-13', title: accountCouponsOffers13Data.heading || accountCouponsOffers13Data.title || 'COUPONS & OFFERS — VARIANT 13', description: accountCouponsOffers13Data.description || 'Coupons & offers variant 13', previewComponent: <AccountCouponsOffers13 /> },
+      { id: 'account-coupons-offers-14', title: accountCouponsOffers14Data.heading || accountCouponsOffers14Data.title || 'COUPONS & OFFERS — VARIANT 14', description: accountCouponsOffers14Data.description || 'Coupons & offers variant 14', previewComponent: <AccountCouponsOffers14 /> },
+      { id: 'account-coupons-offers-15', title: accountCouponsOffers15Data.heading || accountCouponsOffers15Data.title || 'COUPONS & OFFERS — VARIANT 15', description: accountCouponsOffers15Data.description || 'Coupons & offers variant 15', previewComponent: <AccountCouponsOffers15 /> },
+      { id: 'account-coupons-offers-16', title: accountCouponsOffers16Data.heading || accountCouponsOffers16Data.title || 'COUPONS & OFFERS — VARIANT 16', description: accountCouponsOffers16Data.description || 'Coupons & offers variant 16', previewComponent: <AccountCouponsOffers16 /> },
+      { id: 'account-coupons-offers-17', title: accountCouponsOffers17Data.heading || accountCouponsOffers17Data.title || 'COUPONS & OFFERS — VARIANT 17', description: accountCouponsOffers17Data.description || 'Coupons & offers variant 17', previewComponent: <AccountCouponsOffers17 /> },
+      { id: 'account-coupons-offers-18', title: accountCouponsOffers18Data.heading || accountCouponsOffers18Data.title || 'COUPONS & OFFERS — VARIANT 18', description: accountCouponsOffers18Data.description || 'Coupons & offers variant 18', previewComponent: <AccountCouponsOffers18 /> },
+      { id: 'account-coupons-offers-19', title: accountCouponsOffers19Data.heading || accountCouponsOffers19Data.title || 'COUPONS & OFFERS — VARIANT 19', description: accountCouponsOffers19Data.description || 'Coupons & offers variant 19', previewComponent: <AccountCouponsOffers19 /> },
+      { id: 'account-coupons-offers-20', title: accountCouponsOffers20Data.heading || accountCouponsOffers20Data.title || 'COUPONS & OFFERS — VARIANT 20', description: accountCouponsOffers20Data.description || 'Coupons & offers variant 20', previewComponent: <AccountCouponsOffers20 /> },
+    ] : category === 'account-loyalty-rewards' ? [
+      { id: 'account-loyalty-rewards-1', title: accountLoyaltyRewards01Data.heading || accountLoyaltyRewards01Data.title || 'LOYALTY & REWARDS — VARIANT 01', description: accountLoyaltyRewards01Data.description || 'Loyalty & rewards variant 1', previewComponent: <AccountLoyaltyRewards1 /> },
+      { id: 'account-loyalty-rewards-2', title: accountLoyaltyRewards02Data.heading || accountLoyaltyRewards02Data.title || 'LOYALTY & REWARDS — VARIANT 02', description: accountLoyaltyRewards02Data.description || 'Loyalty & rewards variant 2', previewComponent: <AccountLoyaltyRewards2 /> },
+      { id: 'account-loyalty-rewards-3', title: accountLoyaltyRewards03Data.heading || accountLoyaltyRewards03Data.title || 'LOYALTY & REWARDS — VARIANT 03', description: accountLoyaltyRewards03Data.description || 'Loyalty & rewards variant 3', previewComponent: <AccountLoyaltyRewards3 /> },
+      { id: 'account-loyalty-rewards-4', title: accountLoyaltyRewards04Data.heading || accountLoyaltyRewards04Data.title || 'LOYALTY & REWARDS — VARIANT 04', description: accountLoyaltyRewards04Data.description || 'Loyalty & rewards variant 4', previewComponent: <AccountLoyaltyRewards4 /> },
+      { id: 'account-loyalty-rewards-5', title: accountLoyaltyRewards05Data.heading || accountLoyaltyRewards05Data.title || 'LOYALTY & REWARDS — VARIANT 05', description: accountLoyaltyRewards05Data.description || 'Loyalty & rewards variant 5', previewComponent: <AccountLoyaltyRewards5 /> },
+      { id: 'account-loyalty-rewards-6', title: accountLoyaltyRewards06Data.heading || accountLoyaltyRewards06Data.title || 'LOYALTY & REWARDS — VARIANT 06', description: accountLoyaltyRewards06Data.description || 'Loyalty & rewards variant 6', previewComponent: <AccountLoyaltyRewards6 /> },
+      { id: 'account-loyalty-rewards-7', title: accountLoyaltyRewards07Data.heading || accountLoyaltyRewards07Data.title || 'LOYALTY & REWARDS — VARIANT 07', description: accountLoyaltyRewards07Data.description || 'Loyalty & rewards variant 7', previewComponent: <AccountLoyaltyRewards7 /> },
+      { id: 'account-loyalty-rewards-8', title: accountLoyaltyRewards08Data.heading || accountLoyaltyRewards08Data.title || 'LOYALTY & REWARDS — VARIANT 08', description: accountLoyaltyRewards08Data.description || 'Loyalty & rewards variant 8', previewComponent: <AccountLoyaltyRewards8 /> },
+      { id: 'account-loyalty-rewards-9', title: accountLoyaltyRewards09Data.heading || accountLoyaltyRewards09Data.title || 'LOYALTY & REWARDS — VARIANT 09', description: accountLoyaltyRewards09Data.description || 'Loyalty & rewards variant 9', previewComponent: <AccountLoyaltyRewards9 /> },
+      { id: 'account-loyalty-rewards-10', title: accountLoyaltyRewards10Data.heading || accountLoyaltyRewards10Data.title || 'LOYALTY & REWARDS — VARIANT 10', description: accountLoyaltyRewards10Data.description || 'Loyalty & rewards variant 10', previewComponent: <AccountLoyaltyRewards10 /> },
+      { id: 'account-loyalty-rewards-11', title: accountLoyaltyRewards11Data.heading || accountLoyaltyRewards11Data.title || 'LOYALTY & REWARDS — VARIANT 11', description: accountLoyaltyRewards11Data.description || 'Loyalty & rewards variant 11', previewComponent: <AccountLoyaltyRewards11 /> },
+      { id: 'account-loyalty-rewards-12', title: accountLoyaltyRewards12Data.heading || accountLoyaltyRewards12Data.title || 'LOYALTY & REWARDS — VARIANT 12', description: accountLoyaltyRewards12Data.description || 'Loyalty & rewards variant 12', previewComponent: <AccountLoyaltyRewards12 /> },
+      { id: 'account-loyalty-rewards-13', title: accountLoyaltyRewards13Data.heading || accountLoyaltyRewards13Data.title || 'LOYALTY & REWARDS — VARIANT 13', description: accountLoyaltyRewards13Data.description || 'Loyalty & rewards variant 13', previewComponent: <AccountLoyaltyRewards13 /> },
+      { id: 'account-loyalty-rewards-14', title: accountLoyaltyRewards14Data.heading || accountLoyaltyRewards14Data.title || 'LOYALTY & REWARDS — VARIANT 14', description: accountLoyaltyRewards14Data.description || 'Loyalty & rewards variant 14', previewComponent: <AccountLoyaltyRewards14 /> },
+      { id: 'account-loyalty-rewards-15', title: accountLoyaltyRewards15Data.heading || accountLoyaltyRewards15Data.title || 'LOYALTY & REWARDS — VARIANT 15', description: accountLoyaltyRewards15Data.description || 'Loyalty & rewards variant 15', previewComponent: <AccountLoyaltyRewards15 /> },
+      { id: 'account-loyalty-rewards-16', title: accountLoyaltyRewards16Data.heading || accountLoyaltyRewards16Data.title || 'LOYALTY & REWARDS — VARIANT 16', description: accountLoyaltyRewards16Data.description || 'Loyalty & rewards variant 16', previewComponent: <AccountLoyaltyRewards16 /> },
+      { id: 'account-loyalty-rewards-17', title: accountLoyaltyRewards17Data.heading || accountLoyaltyRewards17Data.title || 'LOYALTY & REWARDS — VARIANT 17', description: accountLoyaltyRewards17Data.description || 'Loyalty & rewards variant 17', previewComponent: <AccountLoyaltyRewards17 /> },
+      { id: 'account-loyalty-rewards-18', title: accountLoyaltyRewards18Data.heading || accountLoyaltyRewards18Data.title || 'LOYALTY & REWARDS — VARIANT 18', description: accountLoyaltyRewards18Data.description || 'Loyalty & rewards variant 18', previewComponent: <AccountLoyaltyRewards18 /> },
+      { id: 'account-loyalty-rewards-19', title: accountLoyaltyRewards19Data.heading || accountLoyaltyRewards19Data.title || 'LOYALTY & REWARDS — VARIANT 19', description: accountLoyaltyRewards19Data.description || 'Loyalty & rewards variant 19', previewComponent: <AccountLoyaltyRewards19 /> },
+      { id: 'account-loyalty-rewards-20', title: accountLoyaltyRewards20Data.heading || accountLoyaltyRewards20Data.title || 'LOYALTY & REWARDS — VARIANT 20', description: accountLoyaltyRewards20Data.description || 'Loyalty & rewards variant 20', previewComponent: <AccountLoyaltyRewards20 /> },
+    ] : category === 'account-reviews-ratings' ? [
+      { id: 'account-reviews-ratings-1', title: accountReviewsRatings01Data.heading || accountReviewsRatings01Data.title || 'REVIEWS & RATINGS — VARIANT 01', description: accountReviewsRatings01Data.description || 'Reviews & ratings variant 1', previewComponent: <AccountReviewsRatings1 /> },
+      { id: 'account-reviews-ratings-2', title: accountReviewsRatings02Data.heading || accountReviewsRatings02Data.title || 'REVIEWS & RATINGS — VARIANT 02', description: accountReviewsRatings02Data.description || 'Reviews & ratings variant 2', previewComponent: <AccountReviewsRatings2 /> },
+      { id: 'account-reviews-ratings-3', title: accountReviewsRatings03Data.heading || accountReviewsRatings03Data.title || 'REVIEWS & RATINGS — VARIANT 03', description: accountReviewsRatings03Data.description || 'Reviews & ratings variant 3', previewComponent: <AccountReviewsRatings3 /> },
+      { id: 'account-reviews-ratings-4', title: accountReviewsRatings04Data.heading || accountReviewsRatings04Data.title || 'REVIEWS & RATINGS — VARIANT 04', description: accountReviewsRatings04Data.description || 'Reviews & ratings variant 4', previewComponent: <AccountReviewsRatings4 /> },
+      { id: 'account-reviews-ratings-5', title: accountReviewsRatings05Data.heading || accountReviewsRatings05Data.title || 'REVIEWS & RATINGS — VARIANT 05', description: accountReviewsRatings05Data.description || 'Reviews & ratings variant 5', previewComponent: <AccountReviewsRatings5 /> },
+      { id: 'account-reviews-ratings-6', title: accountReviewsRatings06Data.heading || accountReviewsRatings06Data.title || 'REVIEWS & RATINGS — VARIANT 06', description: accountReviewsRatings06Data.description || 'Reviews & ratings variant 6', previewComponent: <AccountReviewsRatings6 /> },
+      { id: 'account-reviews-ratings-7', title: accountReviewsRatings07Data.heading || accountReviewsRatings07Data.title || 'REVIEWS & RATINGS — VARIANT 07', description: accountReviewsRatings07Data.description || 'Reviews & ratings variant 7', previewComponent: <AccountReviewsRatings7 /> },
+      { id: 'account-reviews-ratings-8', title: accountReviewsRatings08Data.heading || accountReviewsRatings08Data.title || 'REVIEWS & RATINGS — VARIANT 08', description: accountReviewsRatings08Data.description || 'Reviews & ratings variant 8', previewComponent: <AccountReviewsRatings8 /> },
+      { id: 'account-reviews-ratings-9', title: accountReviewsRatings09Data.heading || accountReviewsRatings09Data.title || 'REVIEWS & RATINGS — VARIANT 09', description: accountReviewsRatings09Data.description || 'Reviews & ratings variant 9', previewComponent: <AccountReviewsRatings9 /> },
+      { id: 'account-reviews-ratings-10', title: accountReviewsRatings10Data.heading || accountReviewsRatings10Data.title || 'REVIEWS & RATINGS — VARIANT 10', description: accountReviewsRatings10Data.description || 'Reviews & ratings variant 10', previewComponent: <AccountReviewsRatings10 /> },
+      { id: 'account-reviews-ratings-11', title: accountReviewsRatings11Data.heading || accountReviewsRatings11Data.title || 'REVIEWS & RATINGS — VARIANT 11', description: accountReviewsRatings11Data.description || 'Reviews & ratings variant 11', previewComponent: <AccountReviewsRatings11 /> },
+      { id: 'account-reviews-ratings-12', title: accountReviewsRatings12Data.heading || accountReviewsRatings12Data.title || 'REVIEWS & RATINGS — VARIANT 12', description: accountReviewsRatings12Data.description || 'Reviews & ratings variant 12', previewComponent: <AccountReviewsRatings12 /> },
+      { id: 'account-reviews-ratings-13', title: accountReviewsRatings13Data.heading || accountReviewsRatings13Data.title || 'REVIEWS & RATINGS — VARIANT 13', description: accountReviewsRatings13Data.description || 'Reviews & ratings variant 13', previewComponent: <AccountReviewsRatings13 /> },
+      { id: 'account-reviews-ratings-14', title: accountReviewsRatings14Data.heading || accountReviewsRatings14Data.title || 'REVIEWS & RATINGS — VARIANT 14', description: accountReviewsRatings14Data.description || 'Reviews & ratings variant 14', previewComponent: <AccountReviewsRatings14 /> },
+      { id: 'account-reviews-ratings-15', title: accountReviewsRatings15Data.heading || accountReviewsRatings15Data.title || 'REVIEWS & RATINGS — VARIANT 15', description: accountReviewsRatings15Data.description || 'Reviews & ratings variant 15', previewComponent: <AccountReviewsRatings15 /> },
+      { id: 'account-reviews-ratings-16', title: accountReviewsRatings16Data.heading || accountReviewsRatings16Data.title || 'REVIEWS & RATINGS — VARIANT 16', description: accountReviewsRatings16Data.description || 'Reviews & ratings variant 16', previewComponent: <AccountReviewsRatings16 /> },
+      { id: 'account-reviews-ratings-17', title: accountReviewsRatings17Data.heading || accountReviewsRatings17Data.title || 'REVIEWS & RATINGS — VARIANT 17', description: accountReviewsRatings17Data.description || 'Reviews & ratings variant 17', previewComponent: <AccountReviewsRatings17 /> },
+      { id: 'account-reviews-ratings-18', title: accountReviewsRatings18Data.heading || accountReviewsRatings18Data.title || 'REVIEWS & RATINGS — VARIANT 18', description: accountReviewsRatings18Data.description || 'Reviews & ratings variant 18', previewComponent: <AccountReviewsRatings18 /> },
+      { id: 'account-reviews-ratings-19', title: accountReviewsRatings19Data.heading || accountReviewsRatings19Data.title || 'REVIEWS & RATINGS — VARIANT 19', description: accountReviewsRatings19Data.description || 'Reviews & ratings variant 19', previewComponent: <AccountReviewsRatings19 /> },
+      { id: 'account-reviews-ratings-20', title: accountReviewsRatings20Data.heading || accountReviewsRatings20Data.title || 'REVIEWS & RATINGS — VARIANT 20', description: accountReviewsRatings20Data.description || 'Reviews & ratings variant 20', previewComponent: <AccountReviewsRatings20 /> },
+    ] : category === 'account-profile-information' ? [
+      { id: 'account-profile-information-1', title: accountProfileInformation01Data.title || 'PROFILE INFORMATION — VARIANT 01', description: accountProfileInformation01Data.description || 'Profile information variant 1', previewComponent: <AccountProfileInformation1 /> },
+      { id: 'account-profile-information-2', title: accountProfileInformation02Data.title || 'PROFILE INFORMATION — VARIANT 02', description: accountProfileInformation02Data.description || 'Profile information variant 2', previewComponent: <AccountProfileInformation2 /> },
+      { id: 'account-profile-information-3', title: accountProfileInformation03Data.title || 'PROFILE INFORMATION — VARIANT 03', description: accountProfileInformation03Data.description || 'Profile information variant 3', previewComponent: <AccountProfileInformation3 /> },
+      { id: 'account-profile-information-4', title: accountProfileInformation04Data.title || 'PROFILE INFORMATION — VARIANT 04', description: accountProfileInformation04Data.description || 'Profile information variant 4', previewComponent: <AccountProfileInformation4 /> },
+      { id: 'account-profile-information-5', title: accountProfileInformation05Data.title || 'PROFILE INFORMATION — VARIANT 05', description: accountProfileInformation05Data.description || 'Profile information variant 5', previewComponent: <AccountProfileInformation5 /> },
+      { id: 'account-profile-information-6', title: accountProfileInformation06Data.title || 'PROFILE INFORMATION — VARIANT 06', description: accountProfileInformation06Data.description || 'Profile information variant 6', previewComponent: <AccountProfileInformation6 /> },
+      { id: 'account-profile-information-7', title: accountProfileInformation07Data.title || 'PROFILE INFORMATION — VARIANT 07', description: accountProfileInformation07Data.description || 'Profile information variant 7', previewComponent: <AccountProfileInformation7 /> },
+      { id: 'account-profile-information-8', title: accountProfileInformation08Data.title || 'PROFILE INFORMATION — VARIANT 08', description: accountProfileInformation08Data.description || 'Profile information variant 8', previewComponent: <AccountProfileInformation8 /> },
+      { id: 'account-profile-information-9', title: accountProfileInformation09Data.title || 'PROFILE INFORMATION — VARIANT 09', description: accountProfileInformation09Data.description || 'Profile information variant 9', previewComponent: <AccountProfileInformation9 /> },
+      { id: 'account-profile-information-10', title: accountProfileInformation10Data.title || 'PROFILE INFORMATION — VARIANT 10', description: accountProfileInformation10Data.description || 'Profile information variant 10', previewComponent: <AccountProfileInformation10 /> },
+      { id: 'account-profile-information-11', title: accountProfileInformation11Data.title || 'PROFILE INFORMATION — VARIANT 11', description: accountProfileInformation11Data.description || 'Profile information variant 11', previewComponent: <AccountProfileInformation11 /> },
+      { id: 'account-profile-information-12', title: accountProfileInformation12Data.title || 'PROFILE INFORMATION — VARIANT 12', description: accountProfileInformation12Data.description || 'Profile information variant 12', previewComponent: <AccountProfileInformation12 /> },
+      { id: 'account-profile-information-13', title: accountProfileInformation13Data.title || 'PROFILE INFORMATION — VARIANT 13', description: accountProfileInformation13Data.description || 'Profile information variant 13', previewComponent: <AccountProfileInformation13 /> },
+      { id: 'account-profile-information-14', title: accountProfileInformation14Data.title || 'PROFILE INFORMATION — VARIANT 14', description: accountProfileInformation14Data.description || 'Profile information variant 14', previewComponent: <AccountProfileInformation14 /> },
+      { id: 'account-profile-information-15', title: accountProfileInformation15Data.title || 'PROFILE INFORMATION — VARIANT 15', description: accountProfileInformation15Data.description || 'Profile information variant 15', previewComponent: <AccountProfileInformation15 /> },
+      { id: 'account-profile-information-16', title: accountProfileInformation16Data.title || 'PROFILE INFORMATION — VARIANT 16', description: accountProfileInformation16Data.description || 'Profile information variant 16', previewComponent: <AccountProfileInformation16 /> },
+      { id: 'account-profile-information-17', title: accountProfileInformation17Data.title || 'PROFILE INFORMATION — VARIANT 17', description: accountProfileInformation17Data.description || 'Profile information variant 17', previewComponent: <AccountProfileInformation17 /> },
+      { id: 'account-profile-information-18', title: accountProfileInformation18Data.title || 'PROFILE INFORMATION — VARIANT 18', description: accountProfileInformation18Data.description || 'Profile information variant 18', previewComponent: <AccountProfileInformation18 /> },
+      { id: 'account-profile-information-19', title: accountProfileInformation19Data.title || 'PROFILE INFORMATION — VARIANT 19', description: accountProfileInformation19Data.description || 'Profile information variant 19', previewComponent: <AccountProfileInformation19 /> },
+      { id: 'account-profile-information-20', title: accountProfileInformation20Data.title || 'PROFILE INFORMATION — VARIANT 20', description: accountProfileInformation20Data.description || 'Profile information variant 20', previewComponent: <AccountProfileInformation20 /> },
+    ] : category === 'account-overview' ? [
+      { id: 'account-overview-1', title: accountOverview01Data.title || 'ACCOUNT OVERVIEW — VARIANT 01', description: accountOverview01Data.description || 'Account overview variant 1', previewComponent: <AccountOverview1 /> },
+      { id: 'account-overview-2', title: accountOverview02Data.title || 'ACCOUNT OVERVIEW — VARIANT 02', description: accountOverview02Data.description || 'Account overview variant 2', previewComponent: <AccountOverview2 /> },
+      { id: 'account-overview-3', title: accountOverview03Data.title || 'ACCOUNT OVERVIEW — VARIANT 03', description: accountOverview03Data.description || 'Account overview variant 3', previewComponent: <AccountOverview3 /> },
+      { id: 'account-overview-4', title: accountOverview04Data.title || 'ACCOUNT OVERVIEW — VARIANT 04', description: accountOverview04Data.description || 'Account overview variant 4', previewComponent: <AccountOverview4 /> },
+      { id: 'account-overview-5', title: accountOverview05Data.title || 'ACCOUNT OVERVIEW — VARIANT 05', description: accountOverview05Data.description || 'Account overview variant 5', previewComponent: <AccountOverview5 /> },
+      { id: 'account-overview-6', title: accountOverview06Data.title || 'ACCOUNT OVERVIEW — VARIANT 06', description: accountOverview06Data.description || 'Account overview variant 6', previewComponent: <AccountOverview6 /> },
+      { id: 'account-overview-7', title: accountOverview07Data.title || 'ACCOUNT OVERVIEW — VARIANT 07', description: accountOverview07Data.description || 'Account overview variant 7', previewComponent: <AccountOverview7 /> },
+      { id: 'account-overview-8', title: accountOverview08Data.title || 'ACCOUNT OVERVIEW — VARIANT 08', description: accountOverview08Data.description || 'Account overview variant 8', previewComponent: <AccountOverview8 /> },
+      { id: 'account-overview-9', title: accountOverview09Data.title || 'ACCOUNT OVERVIEW — VARIANT 09', description: accountOverview09Data.description || 'Account overview variant 9', previewComponent: <AccountOverview9 /> },
+      { id: 'account-overview-10', title: accountOverview10Data.title || 'ACCOUNT OVERVIEW — VARIANT 10', description: accountOverview10Data.description || 'Account overview variant 10', previewComponent: <AccountOverview10 /> },
+      { id: 'account-overview-11', title: accountOverview11Data.title || 'ACCOUNT OVERVIEW — VARIANT 11', description: accountOverview11Data.description || 'Account overview variant 11', previewComponent: <AccountOverview11 /> },
+      { id: 'account-overview-12', title: accountOverview12Data.title || 'ACCOUNT OVERVIEW — VARIANT 12', description: accountOverview12Data.description || 'Account overview variant 12', previewComponent: <AccountOverview12 /> },
+      { id: 'account-overview-13', title: accountOverview13Data.title || 'ACCOUNT OVERVIEW — VARIANT 13', description: accountOverview13Data.description || 'Account overview variant 13', previewComponent: <AccountOverview13 /> },
+      { id: 'account-overview-14', title: accountOverview14Data.title || 'ACCOUNT OVERVIEW — VARIANT 14', description: accountOverview14Data.description || 'Account overview variant 14', previewComponent: <AccountOverview14 /> },
+      { id: 'account-overview-15', title: accountOverview15Data.title || 'ACCOUNT OVERVIEW — VARIANT 15', description: accountOverview15Data.description || 'Account overview variant 15', previewComponent: <AccountOverview15 /> },
+      { id: 'account-overview-16', title: accountOverview16Data.title || 'ACCOUNT OVERVIEW — VARIANT 16', description: accountOverview16Data.description || 'Account overview variant 16', previewComponent: <AccountOverview16 /> },
+      { id: 'account-overview-17', title: accountOverview17Data.title || 'ACCOUNT OVERVIEW — VARIANT 17', description: accountOverview17Data.description || 'Account overview variant 17', previewComponent: <AccountOverview17 /> },
+      { id: 'account-overview-18', title: accountOverview18Data.title || 'ACCOUNT OVERVIEW — VARIANT 18', description: accountOverview18Data.description || 'Account overview variant 18', previewComponent: <AccountOverview18 /> },
+      { id: 'account-overview-19', title: accountOverview19Data.title || 'ACCOUNT OVERVIEW — VARIANT 19', description: accountOverview19Data.description || 'Account overview variant 19', previewComponent: <AccountOverview19 /> },
+      { id: 'account-overview-20', title: accountOverview20Data.title || 'ACCOUNT OVERVIEW — VARIANT 20', description: accountOverview20Data.description || 'Account overview variant 20', previewComponent: <AccountOverview20 /> },
+    ] : category === 'order-success' ? [
+      { id: 'order-success-1', title: 'PREMIUM CONFIRMATION — STAGGERED REVEAL', description: 'Large success message with order reference and next steps revealed with staggered entrance physics.', previewComponent: <OrderSuccess1 /> },
+      { id: 'order-success-2', title: 'ANIMATED SUCCESS CHECK — SVG DRAW PATH', description: 'Large custom SVG checkmark progressive drawing path animation as visual centerpiece.', previewComponent: <OrderSuccess2 /> },
+      { id: 'order-success-3', title: 'EDITORIAL SUCCESS — TYPOGRAPHY CLIP REVEAL', description: 'Oversized luxury typography reveal with refined order metadata below.', previewComponent: <OrderSuccess3 /> },
+      { id: 'order-success-4', title: 'ORDER TIMELINE — PROGRESS LINE ANIMATION', description: 'Visual order timeline (Confirmed → Processing → Shipped → Delivered) with SVG progress line draw to confirmed stage.', previewComponent: <OrderSuccess4 /> },
+      { id: 'order-success-5', title: 'DELIVERY FOCUSED — ESTIMATED DATE TRANSITION', description: 'Oversized estimated arrival date window transition as primary hero element.', previewComponent: <OrderSuccess5 /> },
+      { id: 'order-success-6', title: 'PREMIUM DARK SUCCESS — LAYERED DEPTH RISE', description: 'Luxury dark confirmation panel with glowing ambient aura, refined hierarchy and micro-interactions.', previewComponent: <OrderSuccess6 /> },
+      { id: 'order-success-7', title: 'MINIMAL MONOCHROME — PROGRESSIVE RULE DRAW', description: 'Extremely clean monochrome layout with thin rules progressively drawing around content.', previewComponent: <OrderSuccess7 /> },
+      { id: 'order-success-8', title: 'ORDER RECEIPT — VERTICAL RECEIPT REVEAL', description: 'Digital receipt layout revealing vertically with itemized total and confirmation stamp.', previewComponent: <OrderSuccess8 /> },
+      { id: 'order-success-9', title: 'PRODUCT CELEBRATION — SCALE IMAGE REVEAL', description: 'Prominent product preview image scaling into view alongside order success badge.', previewComponent: <OrderSuccess9 /> },
+      { id: 'order-success-10', title: 'CONFIRMATION CARD STACK — DEPTH LAYERING', description: 'Layered cards (Success, Details, Next Steps) sliding into place with spring physics.', previewComponent: <OrderSuccess10 /> },
+      { id: 'order-success-11', title: 'CONFETTI / CELEBRATION — GEOMETRIC PARTICLE MOTION', description: 'Tasteful geometric particle motion celebrating successful checkout completion.', previewComponent: <OrderSuccess11 /> },
+      { id: 'order-success-12', title: 'SUCCESS + NEXT STEPS — SEQUENTIAL ACTION REVEAL', description: 'Sequential action reveal (View Order, Track Order, Continue Shopping).', previewComponent: <OrderSuccess12 /> },
+      { id: 'order-success-13', title: 'ORDER NUMBER HERO — TYPOGRAPHIC REVEAL', description: 'Order reference #DH-28491 as hero text with typographic reveal motion.', previewComponent: <OrderSuccess13 /> },
+      { id: 'order-success-14', title: 'DELIVERY ROUTE — SVG ROUTE PATH DRAW', description: 'Abstract delivery route concept drawing SVG path from Order → Warehouse → Delivery.', previewComponent: <OrderSuccess14 /> },
+      { id: 'order-success-15', title: 'CIRCULAR SUCCESS — PROGRESS RING DRAW', description: 'Circular confirmation ring drawing around checkmark and order reference.', previewComponent: <OrderSuccess15 /> },
+      { id: 'order-success-16', title: 'SPLIT SUCCESS — DUAL PANEL ENTRANCE', description: 'Left confirmation message and Right order details entering from opposite directions.', previewComponent: <OrderSuccess16 /> },
+      { id: 'order-success-17', title: '3D SUCCESS CARD — PERSPECTIVE TILT REVEAL', description: 'Layered confirmation card with CSS perspective 3D tilt and smooth spring rotation.', previewComponent: <OrderSuccess17 /> },
+      { id: 'order-success-18', title: 'MAGAZINE CELEBRATION — STAGGERED BLOCK REVEAL', description: 'Magazine editorial layout with staggered text block reveal timings.', previewComponent: <OrderSuccess18 /> },
+      { id: 'order-success-19', title: 'FUTURE DIGITAL SUCCESS — HUD MATRIX INTERFACE', description: 'Futuristic HUD interface with geometric SVG scanner, restrained glow, and matrix depth.', previewComponent: <OrderSuccess19 /> },
+      { id: 'order-success-20', title: 'AWARD-STYLE ORDER SUCCESS — ULTIMATE MOMENT', description: 'The ultimate ecommerce final moment combining custom SVG success animation, delivery visualization, micro-interactions, and next steps.', previewComponent: <OrderSuccess20 /> }
+    ] : category === 'order-summary' ? [
+      { id: 'order-summary-1', title: 'CLASSIC PREMIUM SUMMARY — STAGGERED ROW REVEAL', description: 'Clean structured product list with itemized pricing panel and staggered row entrance motion.', previewComponent: <OrderSummary1 /> },
+      { id: 'order-summary-2', title: 'EDITORIAL ORDER SUMMARY — TYPOGRAPHY CLIP REVEAL', description: 'Oversized editorial typography reveal paired with an asymmetric product breakdown.', previewComponent: <OrderSummary2 /> },
+      { id: 'order-summary-3', title: 'SPLIT SUMMARY — DUAL COLUMN ENTRANCE', description: 'Products presented on the left column with financial breakdown entering independently on the right.', previewComponent: <OrderSummary3 /> },
+      { id: 'order-summary-4', title: 'PRODUCT-FIRST SUMMARY — CLIP-PATH REVEAL', description: 'Large product iconography and image placement dominates visual hierarchy.', previewComponent: <OrderSummary4 /> },
+      { id: 'order-summary-5', title: 'PRICE-FIRST SUMMARY — PROGRESSIVE PRICE REVEAL', description: 'Grand total and savings breakdown positioned as the hero visual element.', previewComponent: <OrderSummary5 /> },
+      { id: 'order-summary-6', title: 'RECEIPT SUMMARY — VERTICAL RECEIPT DRAW', description: 'Digital receipt structure with itemized rows revealing vertically with perforated line aesthetic.', previewComponent: <OrderSummary6 /> },
+      { id: 'order-summary-7', title: 'HORIZONTAL PRODUCT SUMMARY — HORIZONTAL SLIDE REVEAL', description: 'Products arranged horizontally with side slide reveal interaction.', previewComponent: <OrderSummary7 /> },
+      { id: 'order-summary-8', title: 'STACKED PRODUCT CARDS — CARD STACK DEPTH', description: 'Products presented as layered card deck stacked in position with depth.', previewComponent: <OrderSummary8 /> },
+      { id: 'order-summary-9', title: 'COMPACT CHECKOUT SUMMARY — DENSE USABILITY', description: 'Dense, highly usable checkout summary with inline item insertion & price transition.', previewComponent: <OrderSummary9 /> },
+      { id: 'order-summary-10', title: 'ASYMMETRIC GRID — EDITORIAL LAYOUT REVEAL', description: 'Editorial grid with intentionally different column sizes and independent section reveal.', previewComponent: <OrderSummary10 /> },
+      { id: 'order-summary-11', title: 'COLLAPSIBLE SUMMARY — HEIGHT TRANSITION', description: 'Expandable product detail accordion with smooth height & layout transition.', previewComponent: <OrderSummary11 /> },
+      { id: 'order-summary-12', title: 'SAVINGS-CENTRIC SUMMARY — SAVINGS HIGHLIGHT', description: 'Visually highlights subtotal, coupon discount, total savings, and final payable amount.', previewComponent: <OrderSummary12 /> },
+      { id: 'order-summary-13', title: 'TIMELINE SUMMARY — CONNECTOR LINE DRAW', description: 'Vertical order timeline structure with animated SVG connector lines.', previewComponent: <OrderSummary13 /> },
+      { id: 'order-summary-14', title: 'DARK LUXURY SUMMARY — AMBIENT LIGHT MOTION', description: 'Premium dark ecommerce summary composition with subtle depth & light movement.', previewComponent: <OrderSummary14 /> },
+      { id: 'order-summary-15', title: 'IMAGE + INFORMATION STACK — SEPARATE ENTRANCE', description: 'Distinctive image and information stacked composition with separate entrance timing.', previewComponent: <OrderSummary15 /> },
+      { id: 'order-summary-16', title: '3D PRODUCT SUMMARY — PERSPECTIVE PARALLAX', description: 'Layered product order cards using CSS perspective 3D depth and parallax hover tilt.', previewComponent: <OrderSummary16 /> },
+      { id: 'order-summary-17', title: 'PRICE CALCULATION VISUAL — GEOMETRIC PATH FLOW', description: 'Visual calculation relationship (Products → Subtotal → Discount → Tax → Total) with progress line.', previewComponent: <OrderSummary17 /> },
+      { id: 'order-summary-18', title: 'MINIMAL MONOCHROME — PROGRESSIVE RULE DRAW', description: 'Strong typography, clean whitespace, and thin rules drawing progressively.', previewComponent: <OrderSummary18 /> },
+      { id: 'order-summary-19', title: 'MAGAZINE CHECKOUT — EDITORIAL MOTION REVEAL', description: 'Premium editorial ecommerce composition with staggered text block timing.', previewComponent: <OrderSummary19 /> },
+      { id: 'order-summary-20', title: 'AWARD-STYLE ORDER SUMMARY — ULTIMATE MOMENT', description: 'The ultimate order summary combining editorial typography, asymmetric layout, price hierarchy, SVG, and interactive tabs.', previewComponent: <OrderSummary20 /> }
+    ] : category === 'order-delivery-information' ? [
+      { id: 'order-delivery-information-1', title: orderdeliveryinformation1Data.title || 'DELIVERY INFORMATION — VARIANT 01', description: orderdeliveryinformation1Data.description || 'Order section variant 1', previewComponent: <OrderDeliveryInformation1 /> },
+      { id: 'order-delivery-information-2', title: orderdeliveryinformation2Data.title || 'DELIVERY INFORMATION — VARIANT 02', description: orderdeliveryinformation2Data.description || 'Order section variant 2', previewComponent: <OrderDeliveryInformation2 /> },
+      { id: 'order-delivery-information-3', title: orderdeliveryinformation3Data.title || 'DELIVERY INFORMATION — VARIANT 03', description: orderdeliveryinformation3Data.description || 'Order section variant 3', previewComponent: <OrderDeliveryInformation3 /> },
+      { id: 'order-delivery-information-4', title: orderdeliveryinformation4Data.title || 'DELIVERY INFORMATION — VARIANT 04', description: orderdeliveryinformation4Data.description || 'Order section variant 4', previewComponent: <OrderDeliveryInformation4 /> },
+      { id: 'order-delivery-information-5', title: orderdeliveryinformation5Data.title || 'DELIVERY INFORMATION — VARIANT 05', description: orderdeliveryinformation5Data.description || 'Order section variant 5', previewComponent: <OrderDeliveryInformation5 /> },
+      { id: 'order-delivery-information-6', title: orderdeliveryinformation6Data.title || 'DELIVERY INFORMATION — VARIANT 06', description: orderdeliveryinformation6Data.description || 'Order section variant 6', previewComponent: <OrderDeliveryInformation6 /> },
+      { id: 'order-delivery-information-7', title: orderdeliveryinformation7Data.title || 'DELIVERY INFORMATION — VARIANT 07', description: orderdeliveryinformation7Data.description || 'Order section variant 7', previewComponent: <OrderDeliveryInformation7 /> },
+      { id: 'order-delivery-information-8', title: orderdeliveryinformation8Data.title || 'DELIVERY INFORMATION — VARIANT 08', description: orderdeliveryinformation8Data.description || 'Order section variant 8', previewComponent: <OrderDeliveryInformation8 /> },
+      { id: 'order-delivery-information-9', title: orderdeliveryinformation9Data.title || 'DELIVERY INFORMATION — VARIANT 09', description: orderdeliveryinformation9Data.description || 'Order section variant 9', previewComponent: <OrderDeliveryInformation9 /> },
+      { id: 'order-delivery-information-10', title: orderdeliveryinformation10Data.title || 'DELIVERY INFORMATION — VARIANT 10', description: orderdeliveryinformation10Data.description || 'Order section variant 10', previewComponent: <OrderDeliveryInformation10 /> },
+      { id: 'order-delivery-information-11', title: orderdeliveryinformation11Data.title || 'DELIVERY INFORMATION — VARIANT 11', description: orderdeliveryinformation11Data.description || 'Order section variant 11', previewComponent: <OrderDeliveryInformation11 /> },
+      { id: 'order-delivery-information-12', title: orderdeliveryinformation12Data.title || 'DELIVERY INFORMATION — VARIANT 12', description: orderdeliveryinformation12Data.description || 'Order section variant 12', previewComponent: <OrderDeliveryInformation12 /> },
+      { id: 'order-delivery-information-13', title: orderdeliveryinformation13Data.title || 'DELIVERY INFORMATION — VARIANT 13', description: orderdeliveryinformation13Data.description || 'Order section variant 13', previewComponent: <OrderDeliveryInformation13 /> },
+      { id: 'order-delivery-information-14', title: orderdeliveryinformation14Data.title || 'DELIVERY INFORMATION — VARIANT 14', description: orderdeliveryinformation14Data.description || 'Order section variant 14', previewComponent: <OrderDeliveryInformation14 /> },
+      { id: 'order-delivery-information-15', title: orderdeliveryinformation15Data.title || 'DELIVERY INFORMATION — VARIANT 15', description: orderdeliveryinformation15Data.description || 'Order section variant 15', previewComponent: <OrderDeliveryInformation15 /> },
+      { id: 'order-delivery-information-16', title: orderdeliveryinformation16Data.title || 'DELIVERY INFORMATION — VARIANT 16', description: orderdeliveryinformation16Data.description || 'Order section variant 16', previewComponent: <OrderDeliveryInformation16 /> },
+      { id: 'order-delivery-information-17', title: orderdeliveryinformation17Data.title || 'DELIVERY INFORMATION — VARIANT 17', description: orderdeliveryinformation17Data.description || 'Order section variant 17', previewComponent: <OrderDeliveryInformation17 /> },
+      { id: 'order-delivery-information-18', title: orderdeliveryinformation18Data.title || 'DELIVERY INFORMATION — VARIANT 18', description: orderdeliveryinformation18Data.description || 'Order section variant 18', previewComponent: <OrderDeliveryInformation18 /> },
+      { id: 'order-delivery-information-19', title: orderdeliveryinformation19Data.title || 'DELIVERY INFORMATION — VARIANT 19', description: orderdeliveryinformation19Data.description || 'Order section variant 19', previewComponent: <OrderDeliveryInformation19 /> },
+      { id: 'order-delivery-information-20', title: orderdeliveryinformation20Data.title || 'DELIVERY INFORMATION — VARIANT 20', description: orderdeliveryinformation20Data.description || 'Order section variant 20', previewComponent: <OrderDeliveryInformation20 /> }
+    ] : category === 'order-recommended-products' ? [
+      { id: 'order-recommended-products-1', title: orderrecommendedproducts1Data.title || 'RECOMMENDED PRODUCTS — VARIANT 01', description: orderrecommendedproducts1Data.description || 'Order section variant 1', previewComponent: <OrderRecommendedProducts1 /> },
+      { id: 'order-recommended-products-2', title: orderrecommendedproducts2Data.title || 'RECOMMENDED PRODUCTS — VARIANT 02', description: orderrecommendedproducts2Data.description || 'Order section variant 2', previewComponent: <OrderRecommendedProducts2 /> },
+      { id: 'order-recommended-products-3', title: orderrecommendedproducts3Data.title || 'RECOMMENDED PRODUCTS — VARIANT 03', description: orderrecommendedproducts3Data.description || 'Order section variant 3', previewComponent: <OrderRecommendedProducts3 /> },
+      { id: 'order-recommended-products-4', title: orderrecommendedproducts4Data.title || 'RECOMMENDED PRODUCTS — VARIANT 04', description: orderrecommendedproducts4Data.description || 'Order section variant 4', previewComponent: <OrderRecommendedProducts4 /> },
+      { id: 'order-recommended-products-5', title: orderrecommendedproducts5Data.title || 'RECOMMENDED PRODUCTS — VARIANT 05', description: orderrecommendedproducts5Data.description || 'Order section variant 5', previewComponent: <OrderRecommendedProducts5 /> },
+      { id: 'order-recommended-products-6', title: orderrecommendedproducts6Data.title || 'RECOMMENDED PRODUCTS — VARIANT 06', description: orderrecommendedproducts6Data.description || 'Order section variant 6', previewComponent: <OrderRecommendedProducts6 /> },
+      { id: 'order-recommended-products-7', title: orderrecommendedproducts7Data.title || 'RECOMMENDED PRODUCTS — VARIANT 07', description: orderrecommendedproducts7Data.description || 'Order section variant 7', previewComponent: <OrderRecommendedProducts7 /> },
+      { id: 'order-recommended-products-8', title: orderrecommendedproducts8Data.title || 'RECOMMENDED PRODUCTS — VARIANT 08', description: orderrecommendedproducts8Data.description || 'Order section variant 8', previewComponent: <OrderRecommendedProducts8 /> },
+      { id: 'order-recommended-products-9', title: orderrecommendedproducts9Data.title || 'RECOMMENDED PRODUCTS — VARIANT 09', description: orderrecommendedproducts9Data.description || 'Order section variant 9', previewComponent: <OrderRecommendedProducts9 /> },
+      { id: 'order-recommended-products-10', title: orderrecommendedproducts10Data.title || 'RECOMMENDED PRODUCTS — VARIANT 10', description: orderrecommendedproducts10Data.description || 'Order section variant 10', previewComponent: <OrderRecommendedProducts10 /> },
+      { id: 'order-recommended-products-11', title: orderrecommendedproducts11Data.title || 'RECOMMENDED PRODUCTS — VARIANT 11', description: orderrecommendedproducts11Data.description || 'Order section variant 11', previewComponent: <OrderRecommendedProducts11 /> },
+      { id: 'order-recommended-products-12', title: orderrecommendedproducts12Data.title || 'RECOMMENDED PRODUCTS — VARIANT 12', description: orderrecommendedproducts12Data.description || 'Order section variant 12', previewComponent: <OrderRecommendedProducts12 /> },
+      { id: 'order-recommended-products-13', title: orderrecommendedproducts13Data.title || 'RECOMMENDED PRODUCTS — VARIANT 13', description: orderrecommendedproducts13Data.description || 'Order section variant 13', previewComponent: <OrderRecommendedProducts13 /> },
+      { id: 'order-recommended-products-14', title: orderrecommendedproducts14Data.title || 'RECOMMENDED PRODUCTS — VARIANT 14', description: orderrecommendedproducts14Data.description || 'Order section variant 14', previewComponent: <OrderRecommendedProducts14 /> },
+      { id: 'order-recommended-products-15', title: orderrecommendedproducts15Data.title || 'RECOMMENDED PRODUCTS — VARIANT 15', description: orderrecommendedproducts15Data.description || 'Order section variant 15', previewComponent: <OrderRecommendedProducts15 /> },
+      { id: 'order-recommended-products-16', title: orderrecommendedproducts16Data.title || 'RECOMMENDED PRODUCTS — VARIANT 16', description: orderrecommendedproducts16Data.description || 'Order section variant 16', previewComponent: <OrderRecommendedProducts16 /> },
+      { id: 'order-recommended-products-17', title: orderrecommendedproducts17Data.title || 'RECOMMENDED PRODUCTS — VARIANT 17', description: orderrecommendedproducts17Data.description || 'Order section variant 17', previewComponent: <OrderRecommendedProducts17 /> },
+      { id: 'order-recommended-products-18', title: orderrecommendedproducts18Data.title || 'RECOMMENDED PRODUCTS — VARIANT 18', description: orderrecommendedproducts18Data.description || 'Order section variant 18', previewComponent: <OrderRecommendedProducts18 /> },
+      { id: 'order-recommended-products-19', title: orderrecommendedproducts19Data.title || 'RECOMMENDED PRODUCTS — VARIANT 19', description: orderrecommendedproducts19Data.description || 'Order section variant 19', previewComponent: <OrderRecommendedProducts19 /> },
+      { id: 'order-recommended-products-20', title: orderrecommendedproducts20Data.title || 'RECOMMENDED PRODUCTS — VARIANT 20', description: orderrecommendedproducts20Data.description || 'Order section variant 20', previewComponent: <OrderRecommendedProducts20 /> }
+    ] : category === 'order-customer-support' ? [
+      { id: 'order-customer-support-1', title: ordercustomersupport1Data.title || 'CUSTOMER SUPPORT — VARIANT 01', description: ordercustomersupport1Data.description || 'Order section variant 1', previewComponent: <OrderCustomerSupport1 /> },
+      { id: 'order-customer-support-2', title: ordercustomersupport2Data.title || 'CUSTOMER SUPPORT — VARIANT 02', description: ordercustomersupport2Data.description || 'Order section variant 2', previewComponent: <OrderCustomerSupport2 /> },
+      { id: 'order-customer-support-3', title: ordercustomersupport3Data.title || 'CUSTOMER SUPPORT — VARIANT 03', description: ordercustomersupport3Data.description || 'Order section variant 3', previewComponent: <OrderCustomerSupport3 /> },
+      { id: 'order-customer-support-4', title: ordercustomersupport4Data.title || 'CUSTOMER SUPPORT — VARIANT 04', description: ordercustomersupport4Data.description || 'Order section variant 4', previewComponent: <OrderCustomerSupport4 /> },
+      { id: 'order-customer-support-5', title: ordercustomersupport5Data.title || 'CUSTOMER SUPPORT — VARIANT 05', description: ordercustomersupport5Data.description || 'Order section variant 5', previewComponent: <OrderCustomerSupport5 /> },
+      { id: 'order-customer-support-6', title: ordercustomersupport6Data.title || 'CUSTOMER SUPPORT — VARIANT 06', description: ordercustomersupport6Data.description || 'Order section variant 6', previewComponent: <OrderCustomerSupport6 /> },
+      { id: 'order-customer-support-7', title: ordercustomersupport7Data.title || 'CUSTOMER SUPPORT — VARIANT 07', description: ordercustomersupport7Data.description || 'Order section variant 7', previewComponent: <OrderCustomerSupport7 /> },
+      { id: 'order-customer-support-8', title: ordercustomersupport8Data.title || 'CUSTOMER SUPPORT — VARIANT 08', description: ordercustomersupport8Data.description || 'Order section variant 8', previewComponent: <OrderCustomerSupport8 /> },
+      { id: 'order-customer-support-9', title: ordercustomersupport9Data.title || 'CUSTOMER SUPPORT — VARIANT 09', description: ordercustomersupport9Data.description || 'Order section variant 9', previewComponent: <OrderCustomerSupport9 /> },
+      { id: 'order-customer-support-10', title: ordercustomersupport10Data.title || 'CUSTOMER SUPPORT — VARIANT 10', description: ordercustomersupport10Data.description || 'Order section variant 10', previewComponent: <OrderCustomerSupport10 /> },
+      { id: 'order-customer-support-11', title: ordercustomersupport11Data.title || 'CUSTOMER SUPPORT — VARIANT 11', description: ordercustomersupport11Data.description || 'Order section variant 11', previewComponent: <OrderCustomerSupport11 /> },
+      { id: 'order-customer-support-12', title: ordercustomersupport12Data.title || 'CUSTOMER SUPPORT — VARIANT 12', description: ordercustomersupport12Data.description || 'Order section variant 12', previewComponent: <OrderCustomerSupport12 /> },
+      { id: 'order-customer-support-13', title: ordercustomersupport13Data.title || 'CUSTOMER SUPPORT — VARIANT 13', description: ordercustomersupport13Data.description || 'Order section variant 13', previewComponent: <OrderCustomerSupport13 /> },
+      { id: 'order-customer-support-14', title: ordercustomersupport14Data.title || 'CUSTOMER SUPPORT — VARIANT 14', description: ordercustomersupport14Data.description || 'Order section variant 14', previewComponent: <OrderCustomerSupport14 /> },
+      { id: 'order-customer-support-15', title: ordercustomersupport15Data.title || 'CUSTOMER SUPPORT — VARIANT 15', description: ordercustomersupport15Data.description || 'Order section variant 15', previewComponent: <OrderCustomerSupport15 /> },
+      { id: 'order-customer-support-16', title: ordercustomersupport16Data.title || 'CUSTOMER SUPPORT — VARIANT 16', description: ordercustomersupport16Data.description || 'Order section variant 16', previewComponent: <OrderCustomerSupport16 /> },
+      { id: 'order-customer-support-17', title: ordercustomersupport17Data.title || 'CUSTOMER SUPPORT — VARIANT 17', description: ordercustomersupport17Data.description || 'Order section variant 17', previewComponent: <OrderCustomerSupport17 /> },
+      { id: 'order-customer-support-18', title: ordercustomersupport18Data.title || 'CUSTOMER SUPPORT — VARIANT 18', description: ordercustomersupport18Data.description || 'Order section variant 18', previewComponent: <OrderCustomerSupport18 /> },
+      { id: 'order-customer-support-19', title: ordercustomersupport19Data.title || 'CUSTOMER SUPPORT — VARIANT 19', description: ordercustomersupport19Data.description || 'Order section variant 19', previewComponent: <OrderCustomerSupport19 /> },
+      { id: 'order-customer-support-20', title: ordercustomersupport20Data.title || 'CUSTOMER SUPPORT — VARIANT 20', description: ordercustomersupport20Data.description || 'Order section variant 20', previewComponent: <OrderCustomerSupport20 /> }
+    ] : category === 'order-continue-shopping' ? [
+      { id: 'order-continue-shopping-1', title: ordercontinueshopping1Data.title || 'CONTINUE SHOPPING — VARIANT 01', description: ordercontinueshopping1Data.description || 'Order section variant 1', previewComponent: <OrderContinueShopping1 /> },
+      { id: 'order-continue-shopping-2', title: ordercontinueshopping2Data.title || 'CONTINUE SHOPPING — VARIANT 02', description: ordercontinueshopping2Data.description || 'Order section variant 2', previewComponent: <OrderContinueShopping2 /> },
+      { id: 'order-continue-shopping-3', title: ordercontinueshopping3Data.title || 'CONTINUE SHOPPING — VARIANT 03', description: ordercontinueshopping3Data.description || 'Order section variant 3', previewComponent: <OrderContinueShopping3 /> },
+      { id: 'order-continue-shopping-4', title: ordercontinueshopping4Data.title || 'CONTINUE SHOPPING — VARIANT 04', description: ordercontinueshopping4Data.description || 'Order section variant 4', previewComponent: <OrderContinueShopping4 /> },
+      { id: 'order-continue-shopping-5', title: ordercontinueshopping5Data.title || 'CONTINUE SHOPPING — VARIANT 05', description: ordercontinueshopping5Data.description || 'Order section variant 5', previewComponent: <OrderContinueShopping5 /> },
+      { id: 'order-continue-shopping-6', title: ordercontinueshopping6Data.title || 'CONTINUE SHOPPING — VARIANT 06', description: ordercontinueshopping6Data.description || 'Order section variant 6', previewComponent: <OrderContinueShopping6 /> },
+      { id: 'order-continue-shopping-7', title: ordercontinueshopping7Data.title || 'CONTINUE SHOPPING — VARIANT 07', description: ordercontinueshopping7Data.description || 'Order section variant 7', previewComponent: <OrderContinueShopping7 /> },
+      { id: 'order-continue-shopping-8', title: ordercontinueshopping8Data.title || 'CONTINUE SHOPPING — VARIANT 08', description: ordercontinueshopping8Data.description || 'Order section variant 8', previewComponent: <OrderContinueShopping8 /> },
+      { id: 'order-continue-shopping-9', title: ordercontinueshopping9Data.title || 'CONTINUE SHOPPING — VARIANT 09', description: ordercontinueshopping9Data.description || 'Order section variant 9', previewComponent: <OrderContinueShopping9 /> },
+      { id: 'order-continue-shopping-10', title: ordercontinueshopping10Data.title || 'CONTINUE SHOPPING — VARIANT 10', description: ordercontinueshopping10Data.description || 'Order section variant 10', previewComponent: <OrderContinueShopping10 /> },
+      { id: 'order-continue-shopping-11', title: ordercontinueshopping11Data.title || 'CONTINUE SHOPPING — VARIANT 11', description: ordercontinueshopping11Data.description || 'Order section variant 11', previewComponent: <OrderContinueShopping11 /> },
+      { id: 'order-continue-shopping-12', title: ordercontinueshopping12Data.title || 'CONTINUE SHOPPING — VARIANT 12', description: ordercontinueshopping12Data.description || 'Order section variant 12', previewComponent: <OrderContinueShopping12 /> },
+      { id: 'order-continue-shopping-13', title: ordercontinueshopping13Data.title || 'CONTINUE SHOPPING — VARIANT 13', description: ordercontinueshopping13Data.description || 'Order section variant 13', previewComponent: <OrderContinueShopping13 /> },
+      { id: 'order-continue-shopping-14', title: ordercontinueshopping14Data.title || 'CONTINUE SHOPPING — VARIANT 14', description: ordercontinueshopping14Data.description || 'Order section variant 14', previewComponent: <OrderContinueShopping14 /> },
+      { id: 'order-continue-shopping-15', title: ordercontinueshopping15Data.title || 'CONTINUE SHOPPING — VARIANT 15', description: ordercontinueshopping15Data.description || 'Order section variant 15', previewComponent: <OrderContinueShopping15 /> },
+      { id: 'order-continue-shopping-16', title: ordercontinueshopping16Data.title || 'CONTINUE SHOPPING — VARIANT 16', description: ordercontinueshopping16Data.description || 'Order section variant 16', previewComponent: <OrderContinueShopping16 /> },
+      { id: 'order-continue-shopping-17', title: ordercontinueshopping17Data.title || 'CONTINUE SHOPPING — VARIANT 17', description: ordercontinueshopping17Data.description || 'Order section variant 17', previewComponent: <OrderContinueShopping17 /> },
+      { id: 'order-continue-shopping-18', title: ordercontinueshopping18Data.title || 'CONTINUE SHOPPING — VARIANT 18', description: ordercontinueshopping18Data.description || 'Order section variant 18', previewComponent: <OrderContinueShopping18 /> },
+      { id: 'order-continue-shopping-19', title: ordercontinueshopping19Data.title || 'CONTINUE SHOPPING — VARIANT 19', description: ordercontinueshopping19Data.description || 'Order section variant 19', previewComponent: <OrderContinueShopping19 /> },
+      { id: 'order-continue-shopping-20', title: ordercontinueshopping20Data.title || 'CONTINUE SHOPPING — VARIANT 20', description: ordercontinueshopping20Data.description || 'Order section variant 20', previewComponent: <OrderContinueShopping20 /> }
+] : [];
   };
 
   let activeCat = category;
   let groups = [];
-  if (activeCat === 'home') {
+  if (activeCat === 'account') {
+    activeCat = 'account-overview';
+  } else if (activeCat === 'home') {
     activeCat = 'hero-banner';
   } else if (activeCat === 'product') {
     activeCat = 'product-gallery';
@@ -7824,7 +8808,7 @@ export function SectionLibraryGrid({ category }: GridProps) {
     activeCat = 'cart-recommended-products';
   }
   
-  groups = [...homeCategories, ...productCategories, ...cartCategories, ...checkoutCategories].filter(g => g.id === activeCat);
+  groups = [...homeCategories, ...productCategories, ...cartCategories, ...checkoutCategories, ...orderCategories, ...accountCategories].filter(g => g.id === activeCat);
 
   const padNum = (num: number) => num.toString().padStart(2, '0');
 

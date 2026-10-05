@@ -1,14 +1,14 @@
 {
   "id": "billing-address-07",
-  "title": "Billing Address — 07",
-  "description": "Placeholder for Billing Address variant 07",
+  "title": "Minimal Financial Billing Interface",
+  "description": "Architectural monochrome financial form featuring animated border rule drawing and crisp typography.",
   "category": "checkout",
   "subsection": "billing-address",
   "variant": 7,
   "section": {
     "settings": {
-      "title": "Billing Address 07",
-      "description": "Placeholder structure for Billing Address variant 07"
+      "title": "Minimal Financial Billing Interface",
+      "description": "Architectural monochrome financial form featuring animated border rule drawing and crisp typography."
     }
   }
 }

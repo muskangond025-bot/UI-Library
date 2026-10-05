@@ -1,0 +1,14 @@
+{
+  "id": "order-summary-3",
+  "name": "SPLIT SUMMARY — DUAL COLUMN ENTRANCE",
+  "description": "Products presented on the left column with financial breakdown entering independently on the right.",
+  "category": "order-summary",
+  "componentName": "OrderSummary3",
+  "meta": {
+    "id": "order-summary-3",
+    "name": "SPLIT SUMMARY — DUAL COLUMN ENTRANCE",
+    "description": "Products presented on the left column with financial breakdown entering independently on the right.",
+    "category": "order-summary",
+    "componentName": "OrderSummary3"
+  }
+}

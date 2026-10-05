@@ -1,14 +1,14 @@
 {
   "id": "shipping-address-02",
-  "title": "Shipping Address — 02",
-  "description": "Placeholder for Shipping Address variant 02",
+  "title": "Split Delivery Route & Dispatch Panel",
+  "description": "Dual-panel layout with animated SVG delivery route path on left and location fields on right.",
   "category": "checkout",
   "subsection": "shipping-address",
   "variant": 2,
   "section": {
     "settings": {
-      "title": "Shipping Address 02",
-      "description": "Placeholder structure for Shipping Address variant 02"
+      "title": "Split Delivery Route & Dispatch Panel",
+      "description": "Dual-panel layout with animated SVG delivery route path on left and location fields on right."
     }
   }
 }

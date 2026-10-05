@@ -1,14 +1,14 @@
 {
   "id": "checkout-discount-coupon-17",
-  "title": "Discount / Coupon Section — 17",
-  "description": "Placeholder for Discount / Coupon Section variant 17",
+  "title": "Applied Coupon Focus — Animated SVG Checkmark",
+  "description": "Applied coupon state focus featuring animated SVG checkmark draw, savings summary, and quick remove trigger.",
   "category": "checkout",
   "subsection": "checkout-discount-coupon",
   "variant": 17,
   "section": {
     "settings": {
-      "title": "Discount / Coupon Section 17",
-      "description": "Placeholder structure for Discount / Coupon Section variant 17"
+      "title": "Applied Coupon Focus — Animated SVG Checkmark",
+      "description": "Applied coupon state focus featuring animated SVG checkmark draw, savings summary, and quick remove trigger."
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "id": "checkout-security-trust-02",
-  "title": "Security / Trust Section — 02",
-  "description": "Placeholder for Security / Trust Section variant 02",
+  "title": "4-Point Trust Grid — Staggered Tile Reveal",
+  "description": "Four-card security grid covering encryption, buyer protection, money-back guarantee, and fraud monitoring with staggered tile reveal.",
   "category": "checkout",
   "subsection": "checkout-security-trust",
   "variant": 2,
   "section": {
     "settings": {
-      "title": "Security / Trust Section 02",
-      "description": "Placeholder structure for Security / Trust Section variant 02"
+      "title": "4-Point Trust Grid — Staggered Tile Reveal",
+      "description": "Four-card security grid covering encryption, buyer protection, money-back guarantee, and fraud monitoring with staggered tile reveal."
     }
   }
 }

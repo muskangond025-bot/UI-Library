@@ -1,14 +1,14 @@
 {
   "id": "payment-options-06",
-  "title": "Payment Options — 06",
-  "description": "Placeholder for Payment Options variant 06",
+  "title": "Dark Fintech Security UI",
+  "description": "Production-quality Payment Option variant 6 with distinct visual identity and non-static motion.",
   "category": "checkout",
   "subsection": "payment-options",
   "variant": 6,
   "section": {
     "settings": {
-      "title": "Payment Options 06",
-      "description": "Placeholder structure for Payment Options variant 06"
+      "title": "Dark Fintech Security UI",
+      "description": "Production-quality Payment Option variant 6 with distinct visual identity and non-static motion."
     }
   }
 }

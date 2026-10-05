@@ -1,14 +1,14 @@
 {
   "id": "checkout-security-trust-09",
-  "title": "Security / Trust Section — 09",
-  "description": "Placeholder for Security / Trust Section variant 09",
+  "title": "3D Security Certificate — Perspective Rotation Tilt",
+  "description": "Interactive 3D security certificate card with perspective rotation tilt and floating SSL seal.",
   "category": "checkout",
   "subsection": "checkout-security-trust",
   "variant": 9,
   "section": {
     "settings": {
-      "title": "Security / Trust Section 09",
-      "description": "Placeholder structure for Security / Trust Section variant 09"
+      "title": "3D Security Certificate — Perspective Rotation Tilt",
+      "description": "Interactive 3D security certificate card with perspective rotation tilt and floating SSL seal."
     }
   }
 }

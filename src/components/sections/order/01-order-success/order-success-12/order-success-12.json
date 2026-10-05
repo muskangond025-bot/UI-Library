@@ -1,0 +1,14 @@
+{
+  "id": "order-success-12",
+  "name": "SUCCESS + NEXT STEPS — SEQUENTIAL ACTION REVEAL",
+  "description": "Sequential action reveal (View Order, Track Order, Continue Shopping).",
+  "category": "order-success",
+  "componentName": "OrderSuccess12",
+  "meta": {
+    "id": "order-success-12",
+    "name": "SUCCESS + NEXT STEPS — SEQUENTIAL ACTION REVEAL",
+    "description": "Sequential action reveal (View Order, Track Order, Continue Shopping).",
+    "category": "order-success",
+    "componentName": "OrderSuccess12"
+  }
+}

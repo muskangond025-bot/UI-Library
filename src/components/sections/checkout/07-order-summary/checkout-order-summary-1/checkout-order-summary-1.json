@@ -1,14 +1,14 @@
 {
   "id": "checkout-order-summary-01",
-  "title": "Order Summary — 01",
-  "description": "Placeholder for Order Summary variant 01",
+  "title": "Premium Order Card — Staggered Card Reveal",
+  "description": "Refined dark glassmorphic ecommerce order card with staggered product entry motion and animated subtotal breakdown.",
   "category": "checkout",
   "subsection": "checkout-order-summary",
   "variant": 1,
   "section": {
     "settings": {
-      "title": "Order Summary 01",
-      "description": "Placeholder structure for Order Summary variant 01"
+      "title": "Premium Order Card — Staggered Card Reveal",
+      "description": "Refined dark glassmorphic ecommerce order card with staggered product entry motion and animated subtotal breakdown."
     }
   }
 }

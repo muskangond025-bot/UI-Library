@@ -1,14 +1,14 @@
 {
   "id": "delivery-options-17",
-  "title": "Delivery Options — 17",
-  "description": "Placeholder for Delivery Options variant 17",
+  "title": "Progressive Delivery Preferences Disclosure",
+  "description": "Progressive shipping form expanding time slot preferences & signature options via accordion disclosure.",
   "category": "checkout",
   "subsection": "delivery-options",
   "variant": 17,
   "section": {
     "settings": {
-      "title": "Delivery Options 17",
-      "description": "Placeholder structure for Delivery Options variant 17"
+      "title": "Progressive Delivery Preferences Disclosure",
+      "description": "Progressive shipping form expanding time slot preferences & signature options via accordion disclosure."
     }
   }
 }

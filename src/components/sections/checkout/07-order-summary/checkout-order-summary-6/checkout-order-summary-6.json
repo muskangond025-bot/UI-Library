@@ -1,14 +1,14 @@
 {
   "id": "checkout-order-summary-06",
-  "title": "Order Summary — 06",
-  "description": "Placeholder for Order Summary variant 06",
+  "title": "Timeline Order Summary — SVG Path Draw Reveal",
+  "description": "Order summary structured along a vertical SVG timeline connecting items, shipping estimate, and final total.",
   "category": "checkout",
   "subsection": "checkout-order-summary",
   "variant": 6,
   "section": {
     "settings": {
-      "title": "Order Summary 06",
-      "description": "Placeholder structure for Order Summary variant 06"
+      "title": "Timeline Order Summary — SVG Path Draw Reveal",
+      "description": "Order summary structured along a vertical SVG timeline connecting items, shipping estimate, and final total."
     }
   }
 }

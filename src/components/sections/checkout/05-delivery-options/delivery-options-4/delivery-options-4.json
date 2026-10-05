@@ -1,14 +1,14 @@
 {
   "id": "delivery-options-04",
-  "title": "Delivery Options — 04",
-  "description": "Placeholder for Delivery Options variant 04",
+  "title": "Floating Badge Delivery Selector",
+  "description": "Modern shipping speed selector featuring floating tier badges and glowing focus states.",
   "category": "checkout",
   "subsection": "delivery-options",
   "variant": 4,
   "section": {
     "settings": {
-      "title": "Delivery Options 04",
-      "description": "Placeholder structure for Delivery Options variant 04"
+      "title": "Floating Badge Delivery Selector",
+      "description": "Modern shipping speed selector featuring floating tier badges and glowing focus states."
     }
   }
 }

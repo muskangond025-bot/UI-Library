@@ -1,0 +1,14 @@
+{
+  "id": "order-summary-11",
+  "name": "COLLAPSIBLE SUMMARY — HEIGHT TRANSITION",
+  "description": "Expandable product detail accordion with smooth height & layout transition.",
+  "category": "order-summary",
+  "componentName": "OrderSummary11",
+  "meta": {
+    "id": "order-summary-11",
+    "name": "COLLAPSIBLE SUMMARY — HEIGHT TRANSITION",
+    "description": "Expandable product detail accordion with smooth height & layout transition.",
+    "category": "order-summary",
+    "componentName": "OrderSummary11"
+  }
+}

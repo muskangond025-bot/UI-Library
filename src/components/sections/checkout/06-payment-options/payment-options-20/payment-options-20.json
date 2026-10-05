@@ -1,14 +1,14 @@
 {
   "id": "payment-options-20",
-  "title": "Payment Options — 20",
-  "description": "Placeholder for Payment Options variant 20",
+  "title": "Award-Style Payment Experience",
+  "description": "High-end payment experience combining glassmorphic cards, SVG glow effects, and interactive micro-animations.",
   "category": "checkout",
   "subsection": "payment-options",
   "variant": 20,
   "section": {
     "settings": {
-      "title": "Payment Options 20",
-      "description": "Placeholder structure for Payment Options variant 20"
+      "title": "Award-Style Payment Experience",
+      "description": "High-end payment experience combining glassmorphic cards, SVG glow effects, and interactive micro-animations."
     }
   }
 }

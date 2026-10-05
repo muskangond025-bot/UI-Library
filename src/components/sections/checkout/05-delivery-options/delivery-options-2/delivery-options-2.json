@@ -1,14 +1,14 @@
 {
   "id": "delivery-options-02",
-  "title": "Delivery Options — 02",
-  "description": "Placeholder for Delivery Options variant 02",
+  "title": "Split Dispatch Estimator & Speed Cards",
+  "description": "Dual-panel layout with live dispatch ETA context on left and delivery speed radio options on right.",
   "category": "checkout",
   "subsection": "delivery-options",
   "variant": 2,
   "section": {
     "settings": {
-      "title": "Delivery Options 02",
-      "description": "Placeholder structure for Delivery Options variant 02"
+      "title": "Split Dispatch Estimator & Speed Cards",
+      "description": "Dual-panel layout with live dispatch ETA context on left and delivery speed radio options on right."
     }
   }
 }

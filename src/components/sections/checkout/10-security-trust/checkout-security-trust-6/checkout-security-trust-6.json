@@ -1,14 +1,14 @@
 {
   "id": "checkout-security-trust-06",
-  "title": "Security / Trust Section — 06",
-  "description": "Placeholder for Security / Trust Section variant 06",
+  "title": "Trust Timeline Flow — SVG Connecting Line Draw",
+  "description": "Visual 3-step security flow connected by a progressive SVG drawing line.",
   "category": "checkout",
   "subsection": "checkout-security-trust",
   "variant": 6,
   "section": {
     "settings": {
-      "title": "Security / Trust Section 06",
-      "description": "Placeholder structure for Security / Trust Section variant 06"
+      "title": "Trust Timeline Flow — SVG Connecting Line Draw",
+      "description": "Visual 3-step security flow connected by a progressive SVG drawing line."
     }
   }
 }

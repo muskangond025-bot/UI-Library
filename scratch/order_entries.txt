@@ -1,0 +1,960 @@
+  {
+    id: 'order-success-1',
+    title: 'ORDER SUCCESS SECTION — VARIANT 01',
+    description: 'Order success confirmation banner and order status receipt. (Variant 1)',
+    category: 'order-success',
+    component: <OrderSuccess1 data={ordersuccess1Data} />,
+    metadata: ordersuccess1Data
+  },
+  {
+    id: 'order-success-2',
+    title: 'ORDER SUCCESS SECTION — VARIANT 02',
+    description: 'Order success confirmation banner and order status receipt. (Variant 2)',
+    category: 'order-success',
+    component: <OrderSuccess2 data={ordersuccess2Data} />,
+    metadata: ordersuccess2Data
+  },
+  {
+    id: 'order-success-3',
+    title: 'ORDER SUCCESS SECTION — VARIANT 03',
+    description: 'Order success confirmation banner and order status receipt. (Variant 3)',
+    category: 'order-success',
+    component: <OrderSuccess3 data={ordersuccess3Data} />,
+    metadata: ordersuccess3Data
+  },
+  {
+    id: 'order-success-4',
+    title: 'ORDER SUCCESS SECTION — VARIANT 04',
+    description: 'Order success confirmation banner and order status receipt. (Variant 4)',
+    category: 'order-success',
+    component: <OrderSuccess4 data={ordersuccess4Data} />,
+    metadata: ordersuccess4Data
+  },
+  {
+    id: 'order-success-5',
+    title: 'ORDER SUCCESS SECTION — VARIANT 05',
+    description: 'Order success confirmation banner and order status receipt. (Variant 5)',
+    category: 'order-success',
+    component: <OrderSuccess5 data={ordersuccess5Data} />,
+    metadata: ordersuccess5Data
+  },
+  {
+    id: 'order-success-6',
+    title: 'ORDER SUCCESS SECTION — VARIANT 06',
+    description: 'Order success confirmation banner and order status receipt. (Variant 6)',
+    category: 'order-success',
+    component: <OrderSuccess6 data={ordersuccess6Data} />,
+    metadata: ordersuccess6Data
+  },
+  {
+    id: 'order-success-7',
+    title: 'ORDER SUCCESS SECTION — VARIANT 07',
+    description: 'Order success confirmation banner and order status receipt. (Variant 7)',
+    category: 'order-success',
+    component: <OrderSuccess7 data={ordersuccess7Data} />,
+    metadata: ordersuccess7Data
+  },
+  {
+    id: 'order-success-8',
+    title: 'ORDER SUCCESS SECTION — VARIANT 08',
+    description: 'Order success confirmation banner and order status receipt. (Variant 8)',
+    category: 'order-success',
+    component: <OrderSuccess8 data={ordersuccess8Data} />,
+    metadata: ordersuccess8Data
+  },
+  {
+    id: 'order-success-9',
+    title: 'ORDER SUCCESS SECTION — VARIANT 09',
+    description: 'Order success confirmation banner and order status receipt. (Variant 9)',
+    category: 'order-success',
+    component: <OrderSuccess9 data={ordersuccess9Data} />,
+    metadata: ordersuccess9Data
+  },
+  {
+    id: 'order-success-10',
+    title: 'ORDER SUCCESS SECTION — VARIANT 10',
+    description: 'Order success confirmation banner and order status receipt. (Variant 10)',
+    category: 'order-success',
+    component: <OrderSuccess10 data={ordersuccess10Data} />,
+    metadata: ordersuccess10Data
+  },
+  {
+    id: 'order-success-11',
+    title: 'ORDER SUCCESS SECTION — VARIANT 11',
+    description: 'Order success confirmation banner and order status receipt. (Variant 11)',
+    category: 'order-success',
+    component: <OrderSuccess11 data={ordersuccess11Data} />,
+    metadata: ordersuccess11Data
+  },
+  {
+    id: 'order-success-12',
+    title: 'ORDER SUCCESS SECTION — VARIANT 12',
+    description: 'Order success confirmation banner and order status receipt. (Variant 12)',
+    category: 'order-success',
+    component: <OrderSuccess12 data={ordersuccess12Data} />,
+    metadata: ordersuccess12Data
+  },
+  {
+    id: 'order-success-13',
+    title: 'ORDER SUCCESS SECTION — VARIANT 13',
+    description: 'Order success confirmation banner and order status receipt. (Variant 13)',
+    category: 'order-success',
+    component: <OrderSuccess13 data={ordersuccess13Data} />,
+    metadata: ordersuccess13Data
+  },
+  {
+    id: 'order-success-14',
+    title: 'ORDER SUCCESS SECTION — VARIANT 14',
+    description: 'Order success confirmation banner and order status receipt. (Variant 14)',
+    category: 'order-success',
+    component: <OrderSuccess14 data={ordersuccess14Data} />,
+    metadata: ordersuccess14Data
+  },
+  {
+    id: 'order-success-15',
+    title: 'ORDER SUCCESS SECTION — VARIANT 15',
+    description: 'Order success confirmation banner and order status receipt. (Variant 15)',
+    category: 'order-success',
+    component: <OrderSuccess15 data={ordersuccess15Data} />,
+    metadata: ordersuccess15Data
+  },
+  {
+    id: 'order-success-16',
+    title: 'ORDER SUCCESS SECTION — VARIANT 16',
+    description: 'Order success confirmation banner and order status receipt. (Variant 16)',
+    category: 'order-success',
+    component: <OrderSuccess16 data={ordersuccess16Data} />,
+    metadata: ordersuccess16Data
+  },
+  {
+    id: 'order-success-17',
+    title: 'ORDER SUCCESS SECTION — VARIANT 17',
+    description: 'Order success confirmation banner and order status receipt. (Variant 17)',
+    category: 'order-success',
+    component: <OrderSuccess17 data={ordersuccess17Data} />,
+    metadata: ordersuccess17Data
+  },
+  {
+    id: 'order-success-18',
+    title: 'ORDER SUCCESS SECTION — VARIANT 18',
+    description: 'Order success confirmation banner and order status receipt. (Variant 18)',
+    category: 'order-success',
+    component: <OrderSuccess18 data={ordersuccess18Data} />,
+    metadata: ordersuccess18Data
+  },
+  {
+    id: 'order-success-19',
+    title: 'ORDER SUCCESS SECTION — VARIANT 19',
+    description: 'Order success confirmation banner and order status receipt. (Variant 19)',
+    category: 'order-success',
+    component: <OrderSuccess19 data={ordersuccess19Data} />,
+    metadata: ordersuccess19Data
+  },
+  {
+    id: 'order-success-20',
+    title: 'ORDER SUCCESS SECTION — VARIANT 20',
+    description: 'Order success confirmation banner and order status receipt. (Variant 20)',
+    category: 'order-success',
+    component: <OrderSuccess20 data={ordersuccess20Data} />,
+    metadata: ordersuccess20Data
+  },
+  {
+    id: 'order-summary-1',
+    title: 'ORDER SUMMARY — VARIANT 01',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 1)',
+    category: 'order-summary',
+    component: <OrderSummary1 data={ordersummary1Data} />,
+    metadata: ordersummary1Data
+  },
+  {
+    id: 'order-summary-2',
+    title: 'ORDER SUMMARY — VARIANT 02',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 2)',
+    category: 'order-summary',
+    component: <OrderSummary2 data={ordersummary2Data} />,
+    metadata: ordersummary2Data
+  },
+  {
+    id: 'order-summary-3',
+    title: 'ORDER SUMMARY — VARIANT 03',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 3)',
+    category: 'order-summary',
+    component: <OrderSummary3 data={ordersummary3Data} />,
+    metadata: ordersummary3Data
+  },
+  {
+    id: 'order-summary-4',
+    title: 'ORDER SUMMARY — VARIANT 04',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 4)',
+    category: 'order-summary',
+    component: <OrderSummary4 data={ordersummary4Data} />,
+    metadata: ordersummary4Data
+  },
+  {
+    id: 'order-summary-5',
+    title: 'ORDER SUMMARY — VARIANT 05',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 5)',
+    category: 'order-summary',
+    component: <OrderSummary5 data={ordersummary5Data} />,
+    metadata: ordersummary5Data
+  },
+  {
+    id: 'order-summary-6',
+    title: 'ORDER SUMMARY — VARIANT 06',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 6)',
+    category: 'order-summary',
+    component: <OrderSummary6 data={ordersummary6Data} />,
+    metadata: ordersummary6Data
+  },
+  {
+    id: 'order-summary-7',
+    title: 'ORDER SUMMARY — VARIANT 07',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 7)',
+    category: 'order-summary',
+    component: <OrderSummary7 data={ordersummary7Data} />,
+    metadata: ordersummary7Data
+  },
+  {
+    id: 'order-summary-8',
+    title: 'ORDER SUMMARY — VARIANT 08',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 8)',
+    category: 'order-summary',
+    component: <OrderSummary8 data={ordersummary8Data} />,
+    metadata: ordersummary8Data
+  },
+  {
+    id: 'order-summary-9',
+    title: 'ORDER SUMMARY — VARIANT 09',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 9)',
+    category: 'order-summary',
+    component: <OrderSummary9 data={ordersummary9Data} />,
+    metadata: ordersummary9Data
+  },
+  {
+    id: 'order-summary-10',
+    title: 'ORDER SUMMARY — VARIANT 10',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 10)',
+    category: 'order-summary',
+    component: <OrderSummary10 data={ordersummary10Data} />,
+    metadata: ordersummary10Data
+  },
+  {
+    id: 'order-summary-11',
+    title: 'ORDER SUMMARY — VARIANT 11',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 11)',
+    category: 'order-summary',
+    component: <OrderSummary11 data={ordersummary11Data} />,
+    metadata: ordersummary11Data
+  },
+  {
+    id: 'order-summary-12',
+    title: 'ORDER SUMMARY — VARIANT 12',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 12)',
+    category: 'order-summary',
+    component: <OrderSummary12 data={ordersummary12Data} />,
+    metadata: ordersummary12Data
+  },
+  {
+    id: 'order-summary-13',
+    title: 'ORDER SUMMARY — VARIANT 13',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 13)',
+    category: 'order-summary',
+    component: <OrderSummary13 data={ordersummary13Data} />,
+    metadata: ordersummary13Data
+  },
+  {
+    id: 'order-summary-14',
+    title: 'ORDER SUMMARY — VARIANT 14',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 14)',
+    category: 'order-summary',
+    component: <OrderSummary14 data={ordersummary14Data} />,
+    metadata: ordersummary14Data
+  },
+  {
+    id: 'order-summary-15',
+    title: 'ORDER SUMMARY — VARIANT 15',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 15)',
+    category: 'order-summary',
+    component: <OrderSummary15 data={ordersummary15Data} />,
+    metadata: ordersummary15Data
+  },
+  {
+    id: 'order-summary-16',
+    title: 'ORDER SUMMARY — VARIANT 16',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 16)',
+    category: 'order-summary',
+    component: <OrderSummary16 data={ordersummary16Data} />,
+    metadata: ordersummary16Data
+  },
+  {
+    id: 'order-summary-17',
+    title: 'ORDER SUMMARY — VARIANT 17',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 17)',
+    category: 'order-summary',
+    component: <OrderSummary17 data={ordersummary17Data} />,
+    metadata: ordersummary17Data
+  },
+  {
+    id: 'order-summary-18',
+    title: 'ORDER SUMMARY — VARIANT 18',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 18)',
+    category: 'order-summary',
+    component: <OrderSummary18 data={ordersummary18Data} />,
+    metadata: ordersummary18Data
+  },
+  {
+    id: 'order-summary-19',
+    title: 'ORDER SUMMARY — VARIANT 19',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 19)',
+    category: 'order-summary',
+    component: <OrderSummary19 data={ordersummary19Data} />,
+    metadata: ordersummary19Data
+  },
+  {
+    id: 'order-summary-20',
+    title: 'ORDER SUMMARY — VARIANT 20',
+    description: 'Detailed breakdown of purchased items, pricing totals, and tax summary. (Variant 20)',
+    category: 'order-summary',
+    component: <OrderSummary20 data={ordersummary20Data} />,
+    metadata: ordersummary20Data
+  },
+  {
+    id: 'order-delivery-information-1',
+    title: 'DELIVERY INFORMATION — VARIANT 01',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 1)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation1 data={orderdeliveryinformation1Data} />,
+    metadata: orderdeliveryinformation1Data
+  },
+  {
+    id: 'order-delivery-information-2',
+    title: 'DELIVERY INFORMATION — VARIANT 02',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 2)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation2 data={orderdeliveryinformation2Data} />,
+    metadata: orderdeliveryinformation2Data
+  },
+  {
+    id: 'order-delivery-information-3',
+    title: 'DELIVERY INFORMATION — VARIANT 03',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 3)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation3 data={orderdeliveryinformation3Data} />,
+    metadata: orderdeliveryinformation3Data
+  },
+  {
+    id: 'order-delivery-information-4',
+    title: 'DELIVERY INFORMATION — VARIANT 04',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 4)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation4 data={orderdeliveryinformation4Data} />,
+    metadata: orderdeliveryinformation4Data
+  },
+  {
+    id: 'order-delivery-information-5',
+    title: 'DELIVERY INFORMATION — VARIANT 05',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 5)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation5 data={orderdeliveryinformation5Data} />,
+    metadata: orderdeliveryinformation5Data
+  },
+  {
+    id: 'order-delivery-information-6',
+    title: 'DELIVERY INFORMATION — VARIANT 06',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 6)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation6 data={orderdeliveryinformation6Data} />,
+    metadata: orderdeliveryinformation6Data
+  },
+  {
+    id: 'order-delivery-information-7',
+    title: 'DELIVERY INFORMATION — VARIANT 07',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 7)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation7 data={orderdeliveryinformation7Data} />,
+    metadata: orderdeliveryinformation7Data
+  },
+  {
+    id: 'order-delivery-information-8',
+    title: 'DELIVERY INFORMATION — VARIANT 08',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 8)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation8 data={orderdeliveryinformation8Data} />,
+    metadata: orderdeliveryinformation8Data
+  },
+  {
+    id: 'order-delivery-information-9',
+    title: 'DELIVERY INFORMATION — VARIANT 09',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 9)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation9 data={orderdeliveryinformation9Data} />,
+    metadata: orderdeliveryinformation9Data
+  },
+  {
+    id: 'order-delivery-information-10',
+    title: 'DELIVERY INFORMATION — VARIANT 10',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 10)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation10 data={orderdeliveryinformation10Data} />,
+    metadata: orderdeliveryinformation10Data
+  },
+  {
+    id: 'order-delivery-information-11',
+    title: 'DELIVERY INFORMATION — VARIANT 11',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 11)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation11 data={orderdeliveryinformation11Data} />,
+    metadata: orderdeliveryinformation11Data
+  },
+  {
+    id: 'order-delivery-information-12',
+    title: 'DELIVERY INFORMATION — VARIANT 12',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 12)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation12 data={orderdeliveryinformation12Data} />,
+    metadata: orderdeliveryinformation12Data
+  },
+  {
+    id: 'order-delivery-information-13',
+    title: 'DELIVERY INFORMATION — VARIANT 13',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 13)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation13 data={orderdeliveryinformation13Data} />,
+    metadata: orderdeliveryinformation13Data
+  },
+  {
+    id: 'order-delivery-information-14',
+    title: 'DELIVERY INFORMATION — VARIANT 14',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 14)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation14 data={orderdeliveryinformation14Data} />,
+    metadata: orderdeliveryinformation14Data
+  },
+  {
+    id: 'order-delivery-information-15',
+    title: 'DELIVERY INFORMATION — VARIANT 15',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 15)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation15 data={orderdeliveryinformation15Data} />,
+    metadata: orderdeliveryinformation15Data
+  },
+  {
+    id: 'order-delivery-information-16',
+    title: 'DELIVERY INFORMATION — VARIANT 16',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 16)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation16 data={orderdeliveryinformation16Data} />,
+    metadata: orderdeliveryinformation16Data
+  },
+  {
+    id: 'order-delivery-information-17',
+    title: 'DELIVERY INFORMATION — VARIANT 17',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 17)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation17 data={orderdeliveryinformation17Data} />,
+    metadata: orderdeliveryinformation17Data
+  },
+  {
+    id: 'order-delivery-information-18',
+    title: 'DELIVERY INFORMATION — VARIANT 18',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 18)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation18 data={orderdeliveryinformation18Data} />,
+    metadata: orderdeliveryinformation18Data
+  },
+  {
+    id: 'order-delivery-information-19',
+    title: 'DELIVERY INFORMATION — VARIANT 19',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 19)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation19 data={orderdeliveryinformation19Data} />,
+    metadata: orderdeliveryinformation19Data
+  },
+  {
+    id: 'order-delivery-information-20',
+    title: 'DELIVERY INFORMATION — VARIANT 20',
+    description: 'Shipping carrier details, tracking number, and estimated arrival window. (Variant 20)',
+    category: 'order-delivery-information',
+    component: <OrderDeliveryInformation20 data={orderdeliveryinformation20Data} />,
+    metadata: orderdeliveryinformation20Data
+  },
+  {
+    id: 'order-recommended-products-1',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 01',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 1)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts1 data={orderrecommendedproducts1Data} />,
+    metadata: orderrecommendedproducts1Data
+  },
+  {
+    id: 'order-recommended-products-2',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 02',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 2)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts2 data={orderrecommendedproducts2Data} />,
+    metadata: orderrecommendedproducts2Data
+  },
+  {
+    id: 'order-recommended-products-3',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 03',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 3)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts3 data={orderrecommendedproducts3Data} />,
+    metadata: orderrecommendedproducts3Data
+  },
+  {
+    id: 'order-recommended-products-4',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 04',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 4)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts4 data={orderrecommendedproducts4Data} />,
+    metadata: orderrecommendedproducts4Data
+  },
+  {
+    id: 'order-recommended-products-5',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 05',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 5)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts5 data={orderrecommendedproducts5Data} />,
+    metadata: orderrecommendedproducts5Data
+  },
+  {
+    id: 'order-recommended-products-6',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 06',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 6)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts6 data={orderrecommendedproducts6Data} />,
+    metadata: orderrecommendedproducts6Data
+  },
+  {
+    id: 'order-recommended-products-7',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 07',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 7)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts7 data={orderrecommendedproducts7Data} />,
+    metadata: orderrecommendedproducts7Data
+  },
+  {
+    id: 'order-recommended-products-8',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 08',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 8)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts8 data={orderrecommendedproducts8Data} />,
+    metadata: orderrecommendedproducts8Data
+  },
+  {
+    id: 'order-recommended-products-9',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 09',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 9)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts9 data={orderrecommendedproducts9Data} />,
+    metadata: orderrecommendedproducts9Data
+  },
+  {
+    id: 'order-recommended-products-10',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 10',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 10)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts10 data={orderrecommendedproducts10Data} />,
+    metadata: orderrecommendedproducts10Data
+  },
+  {
+    id: 'order-recommended-products-11',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 11',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 11)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts11 data={orderrecommendedproducts11Data} />,
+    metadata: orderrecommendedproducts11Data
+  },
+  {
+    id: 'order-recommended-products-12',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 12',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 12)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts12 data={orderrecommendedproducts12Data} />,
+    metadata: orderrecommendedproducts12Data
+  },
+  {
+    id: 'order-recommended-products-13',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 13',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 13)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts13 data={orderrecommendedproducts13Data} />,
+    metadata: orderrecommendedproducts13Data
+  },
+  {
+    id: 'order-recommended-products-14',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 14',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 14)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts14 data={orderrecommendedproducts14Data} />,
+    metadata: orderrecommendedproducts14Data
+  },
+  {
+    id: 'order-recommended-products-15',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 15',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 15)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts15 data={orderrecommendedproducts15Data} />,
+    metadata: orderrecommendedproducts15Data
+  },
+  {
+    id: 'order-recommended-products-16',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 16',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 16)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts16 data={orderrecommendedproducts16Data} />,
+    metadata: orderrecommendedproducts16Data
+  },
+  {
+    id: 'order-recommended-products-17',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 17',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 17)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts17 data={orderrecommendedproducts17Data} />,
+    metadata: orderrecommendedproducts17Data
+  },
+  {
+    id: 'order-recommended-products-18',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 18',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 18)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts18 data={orderrecommendedproducts18Data} />,
+    metadata: orderrecommendedproducts18Data
+  },
+  {
+    id: 'order-recommended-products-19',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 19',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 19)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts19 data={orderrecommendedproducts19Data} />,
+    metadata: orderrecommendedproducts19Data
+  },
+  {
+    id: 'order-recommended-products-20',
+    title: 'RECOMMENDED PRODUCTS — VARIANT 20',
+    description: 'Post-purchase personalized recommendations and complementary product add-ons. (Variant 20)',
+    category: 'order-recommended-products',
+    component: <OrderRecommendedProducts20 data={orderrecommendedproducts20Data} />,
+    metadata: orderrecommendedproducts20Data
+  },
+  {
+    id: 'order-customer-support-1',
+    title: 'CUSTOMER SUPPORT — VARIANT 01',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 1)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport1 data={ordercustomersupport1Data} />,
+    metadata: ordercustomersupport1Data
+  },
+  {
+    id: 'order-customer-support-2',
+    title: 'CUSTOMER SUPPORT — VARIANT 02',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 2)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport2 data={ordercustomersupport2Data} />,
+    metadata: ordercustomersupport2Data
+  },
+  {
+    id: 'order-customer-support-3',
+    title: 'CUSTOMER SUPPORT — VARIANT 03',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 3)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport3 data={ordercustomersupport3Data} />,
+    metadata: ordercustomersupport3Data
+  },
+  {
+    id: 'order-customer-support-4',
+    title: 'CUSTOMER SUPPORT — VARIANT 04',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 4)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport4 data={ordercustomersupport4Data} />,
+    metadata: ordercustomersupport4Data
+  },
+  {
+    id: 'order-customer-support-5',
+    title: 'CUSTOMER SUPPORT — VARIANT 05',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 5)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport5 data={ordercustomersupport5Data} />,
+    metadata: ordercustomersupport5Data
+  },
+  {
+    id: 'order-customer-support-6',
+    title: 'CUSTOMER SUPPORT — VARIANT 06',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 6)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport6 data={ordercustomersupport6Data} />,
+    metadata: ordercustomersupport6Data
+  },
+  {
+    id: 'order-customer-support-7',
+    title: 'CUSTOMER SUPPORT — VARIANT 07',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 7)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport7 data={ordercustomersupport7Data} />,
+    metadata: ordercustomersupport7Data
+  },
+  {
+    id: 'order-customer-support-8',
+    title: 'CUSTOMER SUPPORT — VARIANT 08',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 8)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport8 data={ordercustomersupport8Data} />,
+    metadata: ordercustomersupport8Data
+  },
+  {
+    id: 'order-customer-support-9',
+    title: 'CUSTOMER SUPPORT — VARIANT 09',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 9)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport9 data={ordercustomersupport9Data} />,
+    metadata: ordercustomersupport9Data
+  },
+  {
+    id: 'order-customer-support-10',
+    title: 'CUSTOMER SUPPORT — VARIANT 10',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 10)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport10 data={ordercustomersupport10Data} />,
+    metadata: ordercustomersupport10Data
+  },
+  {
+    id: 'order-customer-support-11',
+    title: 'CUSTOMER SUPPORT — VARIANT 11',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 11)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport11 data={ordercustomersupport11Data} />,
+    metadata: ordercustomersupport11Data
+  },
+  {
+    id: 'order-customer-support-12',
+    title: 'CUSTOMER SUPPORT — VARIANT 12',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 12)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport12 data={ordercustomersupport12Data} />,
+    metadata: ordercustomersupport12Data
+  },
+  {
+    id: 'order-customer-support-13',
+    title: 'CUSTOMER SUPPORT — VARIANT 13',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 13)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport13 data={ordercustomersupport13Data} />,
+    metadata: ordercustomersupport13Data
+  },
+  {
+    id: 'order-customer-support-14',
+    title: 'CUSTOMER SUPPORT — VARIANT 14',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 14)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport14 data={ordercustomersupport14Data} />,
+    metadata: ordercustomersupport14Data
+  },
+  {
+    id: 'order-customer-support-15',
+    title: 'CUSTOMER SUPPORT — VARIANT 15',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 15)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport15 data={ordercustomersupport15Data} />,
+    metadata: ordercustomersupport15Data
+  },
+  {
+    id: 'order-customer-support-16',
+    title: 'CUSTOMER SUPPORT — VARIANT 16',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 16)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport16 data={ordercustomersupport16Data} />,
+    metadata: ordercustomersupport16Data
+  },
+  {
+    id: 'order-customer-support-17',
+    title: 'CUSTOMER SUPPORT — VARIANT 17',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 17)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport17 data={ordercustomersupport17Data} />,
+    metadata: ordercustomersupport17Data
+  },
+  {
+    id: 'order-customer-support-18',
+    title: 'CUSTOMER SUPPORT — VARIANT 18',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 18)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport18 data={ordercustomersupport18Data} />,
+    metadata: ordercustomersupport18Data
+  },
+  {
+    id: 'order-customer-support-19',
+    title: 'CUSTOMER SUPPORT — VARIANT 19',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 19)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport19 data={ordercustomersupport19Data} />,
+    metadata: ordercustomersupport19Data
+  },
+  {
+    id: 'order-customer-support-20',
+    title: 'CUSTOMER SUPPORT — VARIANT 20',
+    description: 'Support contacts, live chat link, FAQ shortcuts, and order cancellation options. (Variant 20)',
+    category: 'order-customer-support',
+    component: <OrderCustomerSupport20 data={ordercustomersupport20Data} />,
+    metadata: ordercustomersupport20Data
+  },
+  {
+    id: 'order-continue-shopping-1',
+    title: 'CONTINUE SHOPPING — VARIANT 01',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 1)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping1 data={ordercontinueshopping1Data} />,
+    metadata: ordercontinueshopping1Data
+  },
+  {
+    id: 'order-continue-shopping-2',
+    title: 'CONTINUE SHOPPING — VARIANT 02',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 2)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping2 data={ordercontinueshopping2Data} />,
+    metadata: ordercontinueshopping2Data
+  },
+  {
+    id: 'order-continue-shopping-3',
+    title: 'CONTINUE SHOPPING — VARIANT 03',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 3)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping3 data={ordercontinueshopping3Data} />,
+    metadata: ordercontinueshopping3Data
+  },
+  {
+    id: 'order-continue-shopping-4',
+    title: 'CONTINUE SHOPPING — VARIANT 04',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 4)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping4 data={ordercontinueshopping4Data} />,
+    metadata: ordercontinueshopping4Data
+  },
+  {
+    id: 'order-continue-shopping-5',
+    title: 'CONTINUE SHOPPING — VARIANT 05',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 5)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping5 data={ordercontinueshopping5Data} />,
+    metadata: ordercontinueshopping5Data
+  },
+  {
+    id: 'order-continue-shopping-6',
+    title: 'CONTINUE SHOPPING — VARIANT 06',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 6)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping6 data={ordercontinueshopping6Data} />,
+    metadata: ordercontinueshopping6Data
+  },
+  {
+    id: 'order-continue-shopping-7',
+    title: 'CONTINUE SHOPPING — VARIANT 07',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 7)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping7 data={ordercontinueshopping7Data} />,
+    metadata: ordercontinueshopping7Data
+  },
+  {
+    id: 'order-continue-shopping-8',
+    title: 'CONTINUE SHOPPING — VARIANT 08',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 8)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping8 data={ordercontinueshopping8Data} />,
+    metadata: ordercontinueshopping8Data
+  },
+  {
+    id: 'order-continue-shopping-9',
+    title: 'CONTINUE SHOPPING — VARIANT 09',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 9)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping9 data={ordercontinueshopping9Data} />,
+    metadata: ordercontinueshopping9Data
+  },
+  {
+    id: 'order-continue-shopping-10',
+    title: 'CONTINUE SHOPPING — VARIANT 10',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 10)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping10 data={ordercontinueshopping10Data} />,
+    metadata: ordercontinueshopping10Data
+  },
+  {
+    id: 'order-continue-shopping-11',
+    title: 'CONTINUE SHOPPING — VARIANT 11',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 11)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping11 data={ordercontinueshopping11Data} />,
+    metadata: ordercontinueshopping11Data
+  },
+  {
+    id: 'order-continue-shopping-12',
+    title: 'CONTINUE SHOPPING — VARIANT 12',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 12)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping12 data={ordercontinueshopping12Data} />,
+    metadata: ordercontinueshopping12Data
+  },
+  {
+    id: 'order-continue-shopping-13',
+    title: 'CONTINUE SHOPPING — VARIANT 13',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 13)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping13 data={ordercontinueshopping13Data} />,
+    metadata: ordercontinueshopping13Data
+  },
+  {
+    id: 'order-continue-shopping-14',
+    title: 'CONTINUE SHOPPING — VARIANT 14',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 14)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping14 data={ordercontinueshopping14Data} />,
+    metadata: ordercontinueshopping14Data
+  },
+  {
+    id: 'order-continue-shopping-15',
+    title: 'CONTINUE SHOPPING — VARIANT 15',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 15)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping15 data={ordercontinueshopping15Data} />,
+    metadata: ordercontinueshopping15Data
+  },
+  {
+    id: 'order-continue-shopping-16',
+    title: 'CONTINUE SHOPPING — VARIANT 16',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 16)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping16 data={ordercontinueshopping16Data} />,
+    metadata: ordercontinueshopping16Data
+  },
+  {
+    id: 'order-continue-shopping-17',
+    title: 'CONTINUE SHOPPING — VARIANT 17',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 17)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping17 data={ordercontinueshopping17Data} />,
+    metadata: ordercontinueshopping17Data
+  },
+  {
+    id: 'order-continue-shopping-18',
+    title: 'CONTINUE SHOPPING — VARIANT 18',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 18)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping18 data={ordercontinueshopping18Data} />,
+    metadata: ordercontinueshopping18Data
+  },
+  {
+    id: 'order-continue-shopping-19',
+    title: 'CONTINUE SHOPPING — VARIANT 19',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 19)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping19 data={ordercontinueshopping19Data} />,
+    metadata: ordercontinueshopping19Data
+  },
+  {
+    id: 'order-continue-shopping-20',
+    title: 'CONTINUE SHOPPING — VARIANT 20',
+    description: 'Call-to-action banner guiding customer back to catalog or next steps. (Variant 20)',
+    category: 'order-continue-shopping',
+    component: <OrderContinueShopping20 data={ordercontinueshopping20Data} />,
+    metadata: ordercontinueshopping20Data
+  }

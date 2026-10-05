@@ -1,14 +1,14 @@
 {
   "id": "checkout-security-trust-14",
-  "title": "Security / Trust Section — 14",
-  "description": "Placeholder for Security / Trust Section variant 14",
+  "title": "Floating Security Banner — Elevated Depth Rise",
+  "description": "Floating glassmorphic security bar rising smoothly over the checkout backdrop with subtle depth transition.",
   "category": "checkout",
   "subsection": "checkout-security-trust",
   "variant": 14,
   "section": {
     "settings": {
-      "title": "Security / Trust Section 14",
-      "description": "Placeholder structure for Security / Trust Section variant 14"
+      "title": "Floating Security Banner — Elevated Depth Rise",
+      "description": "Floating glassmorphic security bar rising smoothly over the checkout backdrop with subtle depth transition."
     }
   }
 }

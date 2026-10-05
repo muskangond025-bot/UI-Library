@@ -1,14 +1,14 @@
 {
   "id": "delivery-options-18",
-  "title": "Delivery Options — 18",
-  "description": "Placeholder for Delivery Options variant 18",
+  "title": "Parallax Courier Arrival & Option Panel",
+  "description": "Split shipping options layout with a floating delivery arrival panel featuring parallax motion.",
   "category": "checkout",
   "subsection": "delivery-options",
   "variant": 18,
   "section": {
     "settings": {
-      "title": "Delivery Options 18",
-      "description": "Placeholder structure for Delivery Options variant 18"
+      "title": "Parallax Courier Arrival & Option Panel",
+      "description": "Split shipping options layout with a floating delivery arrival panel featuring parallax motion."
     }
   }
 }

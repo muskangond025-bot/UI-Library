@@ -1,14 +1,14 @@
 {
   "id": "billing-address-14",
-  "title": "Billing Address — 14",
-  "description": "Placeholder for Billing Address variant 14",
+  "title": "Interactive Billing Field Focus System",
+  "description": "Focus-centric billing form with a sliding active indicator pill that glides between input rows.",
   "category": "checkout",
   "subsection": "billing-address",
   "variant": 14,
   "section": {
     "settings": {
-      "title": "Billing Address 14",
-      "description": "Placeholder structure for Billing Address variant 14"
+      "title": "Interactive Billing Field Focus System",
+      "description": "Focus-centric billing form with a sliding active indicator pill that glides between input rows."
     }
   }
 }

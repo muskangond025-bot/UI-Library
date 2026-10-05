@@ -1,14 +1,14 @@
 {
   "id": "checkout-discount-coupon-02",
-  "title": "Discount / Coupon Section — 02",
-  "description": "Placeholder for Discount / Coupon Section variant 02",
+  "title": "Coupon Card Collection — Card Lift Selection",
+  "description": "Collection of available promotional cards displaying codes and minimum order conditions with active card lifting motion.",
   "category": "checkout",
   "subsection": "checkout-discount-coupon",
   "variant": 2,
   "section": {
     "settings": {
-      "title": "Discount / Coupon Section 02",
-      "description": "Placeholder structure for Discount / Coupon Section variant 02"
+      "title": "Coupon Card Collection — Card Lift Selection",
+      "description": "Collection of available promotional cards displaying codes and minimum order conditions with active card lifting motion."
     }
   }
 }

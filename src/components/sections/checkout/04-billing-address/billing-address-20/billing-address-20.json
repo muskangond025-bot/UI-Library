@@ -1,14 +1,14 @@
 {
   "id": "billing-address-20",
-  "title": "Billing Address — 20",
-  "description": "Placeholder for Billing Address variant 20",
+  "title": "Award-Winning Hybrid Billing Showcase",
+  "description": "Luxury hybrid billing composition with invoice reference badges, payment icons, and multi-stage entrance animations.",
   "category": "checkout",
   "subsection": "billing-address",
   "variant": 20,
   "section": {
     "settings": {
-      "title": "Billing Address 20",
-      "description": "Placeholder structure for Billing Address variant 20"
+      "title": "Award-Winning Hybrid Billing Showcase",
+      "description": "Luxury hybrid billing composition with invoice reference badges, payment icons, and multi-stage entrance animations."
     }
   }
 }

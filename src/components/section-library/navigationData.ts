@@ -69,7 +69,6 @@ export const cartCategories = [
 ];
 
 export const checkoutCategories = [
-  { id: 'checkout-header', label: 'Checkout Header', mappedId: 'checkout-header' },
   { id: 'customer-information', label: 'Customer Information', mappedId: 'customer-information' },
   { id: 'shipping-address', label: 'Shipping Address', mappedId: 'shipping-address' },
   { id: 'billing-address', label: 'Billing Address', mappedId: 'billing-address' },
@@ -80,3 +79,26 @@ export const checkoutCategories = [
   { id: 'checkout-gift-card', label: 'Gift Card Section', mappedId: 'checkout-gift-card' },
   { id: 'checkout-security-trust', label: 'Security / Trust Section', mappedId: 'checkout-security-trust' },
 ];
+
+export const orderCategories = [
+  { id: 'order-success', label: 'Order Success Section', mappedId: 'order-success' },
+  { id: 'order-summary', label: 'Order Summary', mappedId: 'order-summary' },
+  { id: 'order-delivery-information', label: 'Delivery Information', mappedId: 'order-delivery-information' },
+  { id: 'order-recommended-products', label: 'Recommended Products', mappedId: 'order-recommended-products' },
+  { id: 'order-customer-support', label: 'Customer Support', mappedId: 'order-customer-support' },
+  { id: 'order-continue-shopping', label: 'Continue Shopping', mappedId: 'order-continue-shopping' },
+];
+
+export const accountCategories = [
+  { id: 'account-overview', label: 'Account Overview', mappedId: 'account-overview' },
+  { id: 'account-profile-information', label: 'Profile Information', mappedId: 'account-profile-information' },
+  { id: 'account-address-book', label: 'Address Book', mappedId: 'account-address-book' },
+  { id: 'account-wishlist', label: 'Wishlist', mappedId: 'account-wishlist' },
+  { id: 'account-saved-products', label: 'Saved Products', mappedId: 'account-saved-products' },
+  { id: 'account-recently-viewed-products', label: 'Recently Viewed Products', mappedId: 'account-recently-viewed-products' },
+  { id: 'account-reviews-ratings', label: 'Reviews & Ratings', mappedId: 'account-reviews-ratings' },
+  { id: 'account-loyalty-rewards', label: 'Loyalty / Rewards', mappedId: 'account-loyalty-rewards' },
+  { id: 'account-coupons-offers', label: 'Coupons & Offers', mappedId: 'account-coupons-offers' },
+  { id: 'account-notification-preferences', label: 'Notification Preferences', mappedId: 'account-notification-preferences' },
+];
+

@@ -1,14 +1,14 @@
 {
   "id": "delivery-options-20",
-  "title": "Delivery Options — 20",
-  "description": "Placeholder for Delivery Options variant 20",
+  "title": "Award-Winning Hybrid Delivery Showcase",
+  "description": "Luxury hybrid delivery options composition with carrier badges, time slot selectors, and multi-stage entrance animations.",
   "category": "checkout",
   "subsection": "delivery-options",
   "variant": 20,
   "section": {
     "settings": {
-      "title": "Delivery Options 20",
-      "description": "Placeholder structure for Delivery Options variant 20"
+      "title": "Award-Winning Hybrid Delivery Showcase",
+      "description": "Luxury hybrid delivery options composition with carrier badges, time slot selectors, and multi-stage entrance animations."
     }
   }
 }

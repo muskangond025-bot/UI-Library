@@ -1,14 +1,14 @@
 {
   "id": "delivery-options-16",
-  "title": "Delivery Options — 16",
-  "description": "Placeholder for Delivery Options variant 16",
+  "title": "Icon-Led Shipping Speed Badges",
+  "description": "Logistics icon-anchored form layout where tier icons scale and rotate upon selection.",
   "category": "checkout",
   "subsection": "delivery-options",
   "variant": 16,
   "section": {
     "settings": {
-      "title": "Delivery Options 16",
-      "description": "Placeholder structure for Delivery Options variant 16"
+      "title": "Icon-Led Shipping Speed Badges",
+      "description": "Logistics icon-anchored form layout where tier icons scale and rotate upon selection."
     }
   }
 }

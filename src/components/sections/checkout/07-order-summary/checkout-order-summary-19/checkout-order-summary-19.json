@@ -1,14 +1,14 @@
 {
   "id": "checkout-order-summary-19",
-  "title": "Order Summary — 19",
-  "description": "Placeholder for Order Summary variant 19",
+  "title": "Magazine Checkout Summary — Dual Motion System Layout",
+  "description": "Luxury magazine checkout section with large serif headlines, offset product cards, and dual-speed motion entrance.",
   "category": "checkout",
   "subsection": "checkout-order-summary",
   "variant": 19,
   "section": {
     "settings": {
-      "title": "Order Summary 19",
-      "description": "Placeholder structure for Order Summary variant 19"
+      "title": "Magazine Checkout Summary — Dual Motion System Layout",
+      "description": "Luxury magazine checkout section with large serif headlines, offset product cards, and dual-speed motion entrance."
     }
   }
 }

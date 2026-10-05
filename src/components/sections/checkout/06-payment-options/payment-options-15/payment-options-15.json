@@ -1,14 +1,14 @@
 {
   "id": "payment-options-15",
-  "title": "Payment Options — 15",
-  "description": "Placeholder for Payment Options variant 15",
+  "title": "Mobile Wallet Style",
+  "description": "Compact digital wallet items inspired by modern mobile wallet checkout panels.",
   "category": "checkout",
   "subsection": "payment-options",
   "variant": 15,
   "section": {
     "settings": {
-      "title": "Payment Options 15",
-      "description": "Placeholder structure for Payment Options variant 15"
+      "title": "Mobile Wallet Style",
+      "description": "Compact digital wallet items inspired by modern mobile wallet checkout panels."
     }
   }
 }

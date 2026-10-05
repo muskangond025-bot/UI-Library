@@ -1,0 +1,14 @@
+{
+  "id": "order-summary-12",
+  "name": "SAVINGS-CENTRIC SUMMARY — SAVINGS HIGHLIGHT",
+  "description": "Visually highlights subtotal, coupon discount, total savings, and final payable amount.",
+  "category": "order-summary",
+  "componentName": "OrderSummary12",
+  "meta": {
+    "id": "order-summary-12",
+    "name": "SAVINGS-CENTRIC SUMMARY — SAVINGS HIGHLIGHT",
+    "description": "Visually highlights subtotal, coupon discount, total savings, and final payable amount.",
+    "category": "order-summary",
+    "componentName": "OrderSummary12"
+  }
+}

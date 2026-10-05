@@ -1,14 +1,14 @@
 {
   "id": "billing-address-08",
-  "title": "Billing Address — 08",
-  "description": "Placeholder for Billing Address variant 08",
+  "title": "Luxury Dark Mode Invoice Form",
+  "description": "Luxury dark billing interface featuring gold metallic accents and an animated ambient light sweep.",
   "category": "checkout",
   "subsection": "billing-address",
   "variant": 8,
   "section": {
     "settings": {
-      "title": "Billing Address 08",
-      "description": "Placeholder structure for Billing Address variant 08"
+      "title": "Luxury Dark Mode Invoice Form",
+      "description": "Luxury dark billing interface featuring gold metallic accents and an animated ambient light sweep."
     }
   }
 }

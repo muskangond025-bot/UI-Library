@@ -1,14 +1,14 @@
 {
   "id": "shipping-address-10",
-  "title": "Shipping Address — 10",
-  "description": "Placeholder for Shipping Address variant 10",
+  "title": "Fulfillment Route & Address Switcher",
+  "description": "Fulfillment origin-to-destination route banner with a sliding address type indicator.",
   "category": "checkout",
   "subsection": "shipping-address",
   "variant": 10,
   "section": {
     "settings": {
-      "title": "Shipping Address 10",
-      "description": "Placeholder structure for Shipping Address variant 10"
+      "title": "Fulfillment Route & Address Switcher",
+      "description": "Fulfillment origin-to-destination route banner with a sliding address type indicator."
     }
   }
 }

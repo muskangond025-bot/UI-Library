@@ -1,14 +1,14 @@
 {
   "id": "checkout-security-trust-13",
-  "title": "Security / Trust Section — 13",
-  "description": "Placeholder for Security / Trust Section variant 13",
+  "title": "Receipt Security Stamp — Rubber Stamp Drop Reveal",
+  "description": "Digital receipt security layout featuring a prominent '100% SECURE CHECKOUT' rubber stamp drop reveal.",
   "category": "checkout",
   "subsection": "checkout-security-trust",
   "variant": 13,
   "section": {
     "settings": {
-      "title": "Security / Trust Section 13",
-      "description": "Placeholder structure for Security / Trust Section variant 13"
+      "title": "Receipt Security Stamp — Rubber Stamp Drop Reveal",
+      "description": "Digital receipt security layout featuring a prominent '100% SECURE CHECKOUT' rubber stamp drop reveal."
     }
   }
 }

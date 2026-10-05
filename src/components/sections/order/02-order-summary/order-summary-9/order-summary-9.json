@@ -1,0 +1,14 @@
+{
+  "id": "order-summary-9",
+  "name": "COMPACT CHECKOUT SUMMARY — DENSE USABILITY",
+  "description": "Dense, highly usable checkout summary with inline item insertion & price transition.",
+  "category": "order-summary",
+  "componentName": "OrderSummary9",
+  "meta": {
+    "id": "order-summary-9",
+    "name": "COMPACT CHECKOUT SUMMARY — DENSE USABILITY",
+    "description": "Dense, highly usable checkout summary with inline item insertion & price transition.",
+    "category": "order-summary",
+    "componentName": "OrderSummary9"
+  }
+}

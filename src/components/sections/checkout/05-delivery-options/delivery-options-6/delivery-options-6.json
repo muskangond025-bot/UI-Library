@@ -1,14 +1,14 @@
 {
   "id": "delivery-options-06",
-  "title": "Delivery Options — 06",
-  "description": "Placeholder for Delivery Options variant 06",
+  "title": "Asymmetric Courier Grid & Slot Selector",
+  "description": "Asymmetric layout organizing shipping speed, time slot picker, and carbon-neutral options in offset blocks.",
   "category": "checkout",
   "subsection": "delivery-options",
   "variant": 6,
   "section": {
     "settings": {
-      "title": "Delivery Options 06",
-      "description": "Placeholder structure for Delivery Options variant 06"
+      "title": "Asymmetric Courier Grid & Slot Selector",
+      "description": "Asymmetric layout organizing shipping speed, time slot picker, and carbon-neutral options in offset blocks."
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "id": "delivery-options-05",
-  "title": "Delivery Options — 05",
-  "description": "Placeholder for Delivery Options variant 05",
+  "title": "Layered Shipping Speed Stack",
+  "description": "Stacked card layout where shipping options shift depth positions upon active selection.",
   "category": "checkout",
   "subsection": "delivery-options",
   "variant": 5,
   "section": {
     "settings": {
-      "title": "Delivery Options 05",
-      "description": "Placeholder structure for Delivery Options variant 05"
+      "title": "Layered Shipping Speed Stack",
+      "description": "Stacked card layout where shipping options shift depth positions upon active selection."
     }
   }
 }

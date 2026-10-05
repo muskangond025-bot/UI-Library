@@ -1,0 +1,14 @@
+{
+  "id": "order-success-15",
+  "name": "CIRCULAR SUCCESS — PROGRESS RING DRAW",
+  "description": "Circular confirmation ring drawing around checkmark and order reference.",
+  "category": "order-success",
+  "componentName": "OrderSuccess15",
+  "meta": {
+    "id": "order-success-15",
+    "name": "CIRCULAR SUCCESS — PROGRESS RING DRAW",
+    "description": "Circular confirmation ring drawing around checkmark and order reference.",
+    "category": "order-success",
+    "componentName": "OrderSuccess15"
+  }
+}

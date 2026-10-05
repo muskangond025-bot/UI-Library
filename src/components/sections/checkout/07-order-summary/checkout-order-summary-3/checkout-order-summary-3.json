@@ -1,14 +1,14 @@
 {
   "id": "checkout-order-summary-03",
-  "title": "Order Summary — 03",
-  "description": "Placeholder for Order Summary variant 03",
+  "title": "Compact Checkout Summary — Animated Value Counter",
+  "description": "Dense, space-saving order summary optimized for checkout sidebars with spring scale price animations.",
   "category": "checkout",
   "subsection": "checkout-order-summary",
   "variant": 3,
   "section": {
     "settings": {
-      "title": "Order Summary 03",
-      "description": "Placeholder structure for Order Summary variant 03"
+      "title": "Compact Checkout Summary — Animated Value Counter",
+      "description": "Dense, space-saving order summary optimized for checkout sidebars with spring scale price animations."
     }
   }
 }

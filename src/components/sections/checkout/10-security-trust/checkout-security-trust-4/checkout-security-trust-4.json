@@ -1,14 +1,14 @@
 {
   "id": "checkout-security-trust-04",
-  "title": "Security / Trust Section — 04",
-  "description": "Placeholder for Security / Trust Section variant 04",
+  "title": "Split Security Guarantee — Opposite Side Slide",
+  "description": "Two-column split layout featuring a dark indigo SSL certificate card on left and 3-point guarantee list on right.",
   "category": "checkout",
   "subsection": "checkout-security-trust",
   "variant": 4,
   "section": {
     "settings": {
-      "title": "Security / Trust Section 04",
-      "description": "Placeholder structure for Security / Trust Section variant 04"
+      "title": "Split Security Guarantee — Opposite Side Slide",
+      "description": "Two-column split layout featuring a dark indigo SSL certificate card on left and 3-point guarantee list on right."
     }
   }
 }

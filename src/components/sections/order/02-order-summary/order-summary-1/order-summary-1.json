@@ -1,0 +1,14 @@
+{
+  "id": "order-summary-1",
+  "name": "CLASSIC PREMIUM SUMMARY — STAGGERED ROW REVEAL",
+  "description": "Clean structured product list with itemized pricing panel and staggered row entrance motion.",
+  "category": "order-summary",
+  "componentName": "OrderSummary1",
+  "meta": {
+    "id": "order-summary-1",
+    "name": "CLASSIC PREMIUM SUMMARY — STAGGERED ROW REVEAL",
+    "description": "Clean structured product list with itemized pricing panel and staggered row entrance motion.",
+    "category": "order-summary",
+    "componentName": "OrderSummary1"
+  }
+}

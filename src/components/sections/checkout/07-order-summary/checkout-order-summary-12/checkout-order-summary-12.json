@@ -1,14 +1,14 @@
 {
   "id": "checkout-order-summary-12",
-  "title": "Order Summary — 12",
-  "description": "Placeholder for Order Summary variant 12",
+  "title": "Receipt-Inspired Summary — Top-to-Bottom Receipt Unroll",
+  "description": "Modern digital receipt layout featuring zig-zag edge detail, monospaced receipt font, barcode SVG, and paper unroll animation.",
   "category": "checkout",
   "subsection": "checkout-order-summary",
   "variant": 12,
   "section": {
     "settings": {
-      "title": "Order Summary 12",
-      "description": "Placeholder structure for Order Summary variant 12"
+      "title": "Receipt-Inspired Summary — Top-to-Bottom Receipt Unroll",
+      "description": "Modern digital receipt layout featuring zig-zag edge detail, monospaced receipt font, barcode SVG, and paper unroll animation."
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "id": "checkout-order-summary-09",
-  "title": "Order Summary — 09",
-  "description": "Placeholder for Order Summary variant 09",
+  "title": "Cart-Inspired Summary — Sequential Item Slide",
+  "description": "Polished mini-cart style order summary with slide-in item rows, quantity modifiers, and promo toggle.",
   "category": "checkout",
   "subsection": "checkout-order-summary",
   "variant": 9,
   "section": {
     "settings": {
-      "title": "Order Summary 09",
-      "description": "Placeholder structure for Order Summary variant 09"
+      "title": "Cart-Inspired Summary — Sequential Item Slide",
+      "description": "Polished mini-cart style order summary with slide-in item rows, quantity modifiers, and promo toggle."
     }
   }
 }

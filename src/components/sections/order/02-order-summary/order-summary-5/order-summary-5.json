@@ -1,0 +1,14 @@
+{
+  "id": "order-summary-5",
+  "name": "PRICE-FIRST SUMMARY — PROGRESSIVE PRICE REVEAL",
+  "description": "Grand total and savings breakdown positioned as the hero visual element.",
+  "category": "order-summary",
+  "componentName": "OrderSummary5",
+  "meta": {
+    "id": "order-summary-5",
+    "name": "PRICE-FIRST SUMMARY — PROGRESSIVE PRICE REVEAL",
+    "description": "Grand total and savings breakdown positioned as the hero visual element.",
+    "category": "order-summary",
+    "componentName": "OrderSummary5"
+  }
+}

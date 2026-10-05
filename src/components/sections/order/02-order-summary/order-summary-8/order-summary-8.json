@@ -1,0 +1,14 @@
+{
+  "id": "order-summary-8",
+  "name": "STACKED PRODUCT CARDS — CARD STACK DEPTH",
+  "description": "Products presented as layered card deck stacked in position with depth.",
+  "category": "order-summary",
+  "componentName": "OrderSummary8",
+  "meta": {
+    "id": "order-summary-8",
+    "name": "STACKED PRODUCT CARDS — CARD STACK DEPTH",
+    "description": "Products presented as layered card deck stacked in position with depth.",
+    "category": "order-summary",
+    "componentName": "OrderSummary8"
+  }
+}

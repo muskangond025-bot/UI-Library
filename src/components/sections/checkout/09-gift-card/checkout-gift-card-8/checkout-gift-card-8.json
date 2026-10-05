@@ -1,14 +1,14 @@
 {
   "id": "checkout-gift-card-08",
-  "title": "Gift Card Section — 08",
-  "description": "Placeholder for Gift Card Section variant 08",
+  "title": "Premium Dark Gift Card — Controlled Glow Motion",
+  "description": "Luxury dark mode gift card box with gold metallic borders and controlled glow hover interactions.",
   "category": "checkout",
   "subsection": "checkout-gift-card",
   "variant": 8,
   "section": {
     "settings": {
-      "title": "Gift Card Section 08",
-      "description": "Placeholder structure for Gift Card Section variant 08"
+      "title": "Premium Dark Gift Card — Controlled Glow Motion",
+      "description": "Luxury dark mode gift card box with gold metallic borders and controlled glow hover interactions."
     }
   }
 }

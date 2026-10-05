@@ -1,0 +1,14 @@
+{
+  "id": "order-summary-7",
+  "name": "HORIZONTAL PRODUCT SUMMARY — HORIZONTAL SLIDE REVEAL",
+  "description": "Products arranged horizontally with side slide reveal interaction.",
+  "category": "order-summary",
+  "componentName": "OrderSummary7",
+  "meta": {
+    "id": "order-summary-7",
+    "name": "HORIZONTAL PRODUCT SUMMARY — HORIZONTAL SLIDE REVEAL",
+    "description": "Products arranged horizontally with side slide reveal interaction.",
+    "category": "order-summary",
+    "componentName": "OrderSummary7"
+  }
+}

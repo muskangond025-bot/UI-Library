@@ -1,14 +1,14 @@
 {
   "id": "delivery-options-01",
-  "title": "Delivery Options — 01",
-  "description": "Placeholder for Delivery Options variant 01",
+  "title": "Editorial Carrier Matrix — Staggered Reveal",
+  "description": "Editorial delivery method selector with carrier price pills and staggered option reveal.",
   "category": "checkout",
   "subsection": "delivery-options",
   "variant": 1,
   "section": {
     "settings": {
-      "title": "Delivery Options 01",
-      "description": "Placeholder structure for Delivery Options variant 01"
+      "title": "Editorial Carrier Matrix — Staggered Reveal",
+      "description": "Editorial delivery method selector with carrier price pills and staggered option reveal."
     }
   }
 }

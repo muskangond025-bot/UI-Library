@@ -1,14 +1,14 @@
 {
   "id": "checkout-order-summary-07",
-  "title": "Order Summary — 07",
-  "description": "Placeholder for Order Summary variant 07",
+  "title": "Minimal Monochrome — Progressive Line Draw",
+  "description": "Stark black and white minimal design with clean typography and progressive horizontal line animations.",
   "category": "checkout",
   "subsection": "checkout-order-summary",
   "variant": 7,
   "section": {
     "settings": {
-      "title": "Order Summary 07",
-      "description": "Placeholder structure for Order Summary variant 07"
+      "title": "Minimal Monochrome — Progressive Line Draw",
+      "description": "Stark black and white minimal design with clean typography and progressive horizontal line animations."
     }
   }
 }

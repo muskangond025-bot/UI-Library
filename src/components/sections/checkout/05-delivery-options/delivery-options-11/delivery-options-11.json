@@ -1,14 +1,14 @@
 {
   "id": "delivery-options-11",
-  "title": "Delivery Options — 11",
-  "description": "Placeholder for Delivery Options variant 11",
+  "title": "Vertical Delivery Tier Timeline",
+  "description": "Vertical shipping timeline connecting delivery tiers with animated SVG path line draw.",
   "category": "checkout",
   "subsection": "delivery-options",
   "variant": 11,
   "section": {
     "settings": {
-      "title": "Delivery Options 11",
-      "description": "Placeholder structure for Delivery Options variant 11"
+      "title": "Vertical Delivery Tier Timeline",
+      "description": "Vertical shipping timeline connecting delivery tiers with animated SVG path line draw."
     }
   }
 }

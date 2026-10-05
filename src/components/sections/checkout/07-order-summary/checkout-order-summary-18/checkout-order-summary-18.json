@@ -1,14 +1,14 @@
 {
   "id": "checkout-order-summary-18",
-  "title": "Order Summary — 18",
-  "description": "Placeholder for Order Summary variant 18",
+  "title": "Visual Price Breakdown — SVG Path Calculation Flow",
+  "description": "Interactive visual calculation diagram connecting Subtotal + Discount + Shipping + Tax to Grand Total using animated SVG lines.",
   "category": "checkout",
   "subsection": "checkout-order-summary",
   "variant": 18,
   "section": {
     "settings": {
-      "title": "Order Summary 18",
-      "description": "Placeholder structure for Order Summary variant 18"
+      "title": "Visual Price Breakdown — SVG Path Calculation Flow",
+      "description": "Interactive visual calculation diagram connecting Subtotal + Discount + Shipping + Tax to Grand Total using animated SVG lines."
     }
   }
 }

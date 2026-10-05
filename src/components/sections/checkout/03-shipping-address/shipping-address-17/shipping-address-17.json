@@ -1,14 +1,14 @@
 {
   "id": "shipping-address-17",
-  "title": "Shipping Address — 17",
-  "description": "Placeholder for Shipping Address variant 17",
+  "title": "Progressive Delivery Access Disclosure",
+  "description": "Progressive shipping form expanding gate codes and delivery instructions via accordion disclosure.",
   "category": "checkout",
   "subsection": "shipping-address",
   "variant": 17,
   "section": {
     "settings": {
-      "title": "Shipping Address 17",
-      "description": "Placeholder structure for Shipping Address variant 17"
+      "title": "Progressive Delivery Access Disclosure",
+      "description": "Progressive shipping form expanding gate codes and delivery instructions via accordion disclosure."
     }
   }
 }

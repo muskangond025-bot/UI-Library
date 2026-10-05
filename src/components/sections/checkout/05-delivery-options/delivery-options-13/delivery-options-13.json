@@ -1,14 +1,14 @@
 {
   "id": "delivery-options-13",
-  "title": "Delivery Options — 13",
-  "description": "Placeholder for Delivery Options variant 13",
+  "title": "Glassmorphic Delivery Speed Panel",
+  "description": "Frosted glass shipping card set over background luminous orb drift animations.",
   "category": "checkout",
   "subsection": "delivery-options",
   "variant": 13,
   "section": {
     "settings": {
-      "title": "Delivery Options 13",
-      "description": "Placeholder structure for Delivery Options variant 13"
+      "title": "Glassmorphic Delivery Speed Panel",
+      "description": "Frosted glass shipping card set over background luminous orb drift animations."
     }
   }
 }

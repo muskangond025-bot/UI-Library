@@ -1,14 +1,14 @@
 {
   "id": "checkout-order-summary-20",
-  "title": "Order Summary — 20",
-  "description": "Placeholder for Order Summary variant 20",
+  "title": "Award-Style Order Summary — Glassmorphic Micro-Interaction Masterpiece",
+  "description": "Ultimate order summary combining glassmorphism ambient light, SVG badges, 3D card depth, and refined micro-interactions.",
   "category": "checkout",
   "subsection": "checkout-order-summary",
   "variant": 20,
   "section": {
     "settings": {
-      "title": "Order Summary 20",
-      "description": "Placeholder structure for Order Summary variant 20"
+      "title": "Award-Style Order Summary — Glassmorphic Micro-Interaction Masterpiece",
+      "description": "Ultimate order summary combining glassmorphism ambient light, SVG badges, 3D card depth, and refined micro-interactions."
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "id": "checkout-order-summary-13",
-  "title": "Order Summary — 13",
-  "description": "Placeholder for Order Summary variant 13",
+  "title": "Horizontal Order Summary — Horizontal Slide Layout",
+  "description": "Wide horizontal product carousel summary with side-by-side product cards and right-anchored total card.",
   "category": "checkout",
   "subsection": "checkout-order-summary",
   "variant": 13,
   "section": {
     "settings": {
-      "title": "Order Summary 13",
-      "description": "Placeholder structure for Order Summary variant 13"
+      "title": "Horizontal Order Summary — Horizontal Slide Layout",
+      "description": "Wide horizontal product carousel summary with side-by-side product cards and right-anchored total card."
     }
   }
 }

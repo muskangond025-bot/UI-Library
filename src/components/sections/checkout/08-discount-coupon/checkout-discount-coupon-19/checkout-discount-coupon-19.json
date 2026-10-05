@@ -1,14 +1,14 @@
 {
   "id": "checkout-discount-coupon-19",
-  "title": "Discount / Coupon Section — 19",
-  "description": "Placeholder for Discount / Coupon Section variant 19",
+  "title": "Editorial Promo Section — Dual Speed Motion",
+  "description": "High-fashion editorial promotion section combining oversized typography with dual-speed motion entrance.",
   "category": "checkout",
   "subsection": "checkout-discount-coupon",
   "variant": 19,
   "section": {
     "settings": {
-      "title": "Discount / Coupon Section 19",
-      "description": "Placeholder structure for Discount / Coupon Section variant 19"
+      "title": "Editorial Promo Section — Dual Speed Motion",
+      "description": "High-fashion editorial promotion section combining oversized typography with dual-speed motion entrance."
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "id": "checkout-gift-card-04",
-  "title": "Gift Card Section — 04",
-  "description": "Placeholder for Gift Card Section variant 04",
+  "title": "Gift Card + Balance — Animated Counter Reveal",
+  "description": "Hero balance card highlighting available gift card balance ($250.00) with animated count-in transition.",
   "category": "checkout",
   "subsection": "checkout-gift-card",
   "variant": 4,
   "section": {
     "settings": {
-      "title": "Gift Card Section 04",
-      "description": "Placeholder structure for Gift Card Section variant 04"
+      "title": "Gift Card + Balance — Animated Counter Reveal",
+      "description": "Hero balance card highlighting available gift card balance ($250.00) with animated count-in transition."
     }
   }
 }

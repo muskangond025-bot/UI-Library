@@ -1,14 +1,14 @@
 {
   "id": "checkout-gift-card-05",
-  "title": "Gift Card Section — 05",
-  "description": "Placeholder for Gift Card Section variant 05",
+  "title": "Envelope Reveal — Flap Unfold Motion",
+  "description": "Digital gift envelope concept where the envelope flap unfolds to reveal the gift card code panel.",
   "category": "checkout",
   "subsection": "checkout-gift-card",
   "variant": 5,
   "section": {
     "settings": {
-      "title": "Gift Card Section 05",
-      "description": "Placeholder structure for Gift Card Section variant 05"
+      "title": "Envelope Reveal — Flap Unfold Motion",
+      "description": "Digital gift envelope concept where the envelope flap unfolds to reveal the gift card code panel."
     }
   }
 }

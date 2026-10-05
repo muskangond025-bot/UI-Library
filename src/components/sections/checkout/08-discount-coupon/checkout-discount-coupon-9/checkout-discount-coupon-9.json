@@ -1,14 +1,14 @@
 {
   "id": "checkout-discount-coupon-09",
-  "title": "Discount / Coupon Section — 09",
-  "description": "Placeholder for Discount / Coupon Section variant 09",
+  "title": "Promo Code + Offer Grid — Staggered Tile Reveal",
+  "description": "Combination of top coupon entry box and a multi-tile promo grid with staggered entrance animation.",
   "category": "checkout",
   "subsection": "checkout-discount-coupon",
   "variant": 9,
   "section": {
     "settings": {
-      "title": "Discount / Coupon Section 09",
-      "description": "Placeholder structure for Discount / Coupon Section variant 09"
+      "title": "Promo Code + Offer Grid — Staggered Tile Reveal",
+      "description": "Combination of top coupon entry box and a multi-tile promo grid with staggered entrance animation."
     }
   }
 }

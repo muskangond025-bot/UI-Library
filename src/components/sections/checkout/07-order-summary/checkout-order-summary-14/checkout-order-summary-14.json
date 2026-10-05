@@ -1,14 +1,14 @@
 {
   "id": "checkout-order-summary-14",
-  "title": "Order Summary — 14",
-  "description": "Placeholder for Order Summary variant 14",
+  "title": "Product + Delivery Context — Connected Section Motion",
+  "description": "Order summary integrating product overview with live delivery ETA badge and shipping carrier context.",
   "category": "checkout",
   "subsection": "checkout-order-summary",
   "variant": 14,
   "section": {
     "settings": {
-      "title": "Order Summary 14",
-      "description": "Placeholder structure for Order Summary variant 14"
+      "title": "Product + Delivery Context — Connected Section Motion",
+      "description": "Order summary integrating product overview with live delivery ETA badge and shipping carrier context."
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "id": "checkout-order-summary-10",
-  "title": "Order Summary — 10",
-  "description": "Placeholder for Order Summary variant 10",
+  "title": "Large Product Image — Image Clip Reveal",
+  "description": "Imagery-focused order summary giving hero prominence to main items with structured pricing panel.",
   "category": "checkout",
   "subsection": "checkout-order-summary",
   "variant": 10,
   "section": {
     "settings": {
-      "title": "Order Summary 10",
-      "description": "Placeholder structure for Order Summary variant 10"
+      "title": "Large Product Image — Image Clip Reveal",
+      "description": "Imagery-focused order summary giving hero prominence to main items with structured pricing panel."
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "id": "checkout-discount-coupon-06",
-  "title": "Discount / Coupon Section — 06",
-  "description": "Placeholder for Discount / Coupon Section variant 06",
+  "title": "Horizontal Coupon Carousel — Snap Carousel Motion",
+  "description": "Horizontal scrollable coupon card strip with smooth snap selection and highlight pill indicators.",
   "category": "checkout",
   "subsection": "checkout-discount-coupon",
   "variant": 6,
   "section": {
     "settings": {
-      "title": "Discount / Coupon Section 06",
-      "description": "Placeholder structure for Discount / Coupon Section variant 06"
+      "title": "Horizontal Coupon Carousel — Snap Carousel Motion",
+      "description": "Horizontal scrollable coupon card strip with smooth snap selection and highlight pill indicators."
     }
   }
 }

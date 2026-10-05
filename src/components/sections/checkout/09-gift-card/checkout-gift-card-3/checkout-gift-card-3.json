@@ -1,14 +1,14 @@
 {
   "id": "checkout-gift-card-03",
-  "title": "Gift Card Section — 03",
-  "description": "Placeholder for Gift Card Section variant 03",
+  "title": "Minimal Redemption — Smooth Expansion Transition",
+  "description": "Clean gift card code and PIN input with typography and smooth applied state expansion.",
   "category": "checkout",
   "subsection": "checkout-gift-card",
   "variant": 3,
   "section": {
     "settings": {
-      "title": "Gift Card Section 03",
-      "description": "Placeholder structure for Gift Card Section variant 03"
+      "title": "Minimal Redemption — Smooth Expansion Transition",
+      "description": "Clean gift card code and PIN input with typography and smooth applied state expansion."
     }
   }
 }

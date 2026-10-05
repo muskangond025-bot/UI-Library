@@ -1,14 +1,14 @@
 {
   "id": "checkout-security-trust-10",
-  "title": "Security / Trust Section — 10",
-  "description": "Placeholder for Security / Trust Section variant 10",
+  "title": "Live Fraud Monitor — Animated Status Wave",
+  "description": "Live security monitor preview showing live heartbeat wave, active firewall status, and instant tokenized payment protection.",
   "category": "checkout",
   "subsection": "checkout-security-trust",
   "variant": 10,
   "section": {
     "settings": {
-      "title": "Security / Trust Section 10",
-      "description": "Placeholder structure for Security / Trust Section variant 10"
+      "title": "Live Fraud Monitor — Animated Status Wave",
+      "description": "Live security monitor preview showing live heartbeat wave, active firewall status, and instant tokenized payment protection."
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "id": "checkout-gift-card-17",
-  "title": "Gift Card Section — 17",
-  "description": "Placeholder for Gift Card Section variant 17",
+  "title": "Applied Gift Card State — Animated SVG Checkmark",
+  "description": "Applied gift card focus view featuring animated SVG checkmark draw, remaining balance calculator, and remove action.",
   "category": "checkout",
   "subsection": "checkout-gift-card",
   "variant": 17,
   "section": {
     "settings": {
-      "title": "Gift Card Section 17",
-      "description": "Placeholder structure for Gift Card Section variant 17"
+      "title": "Applied Gift Card State — Animated SVG Checkmark",
+      "description": "Applied gift card focus view featuring animated SVG checkmark draw, remaining balance calculator, and remove action."
     }
   }
 }

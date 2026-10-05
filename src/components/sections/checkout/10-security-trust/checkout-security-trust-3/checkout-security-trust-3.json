@@ -1,14 +1,14 @@
 {
   "id": "checkout-security-trust-03",
-  "title": "Security / Trust Section — 03",
-  "description": "Placeholder for Security / Trust Section variant 03",
+  "title": "Minimal Trust Banner — Sliding Security Ticker",
+  "description": "Single-line sleek trust ticker bar with sliding security badges and live verification pulse indicator.",
   "category": "checkout",
   "subsection": "checkout-security-trust",
   "variant": 3,
   "section": {
     "settings": {
-      "title": "Security / Trust Section 03",
-      "description": "Placeholder structure for Security / Trust Section variant 03"
+      "title": "Minimal Trust Banner — Sliding Security Ticker",
+      "description": "Single-line sleek trust ticker bar with sliding security badges and live verification pulse indicator."
     }
   }
 }

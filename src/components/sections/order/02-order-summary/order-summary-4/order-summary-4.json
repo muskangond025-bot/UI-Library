@@ -1,0 +1,14 @@
+{
+  "id": "order-summary-4",
+  "name": "PRODUCT-FIRST SUMMARY — CLIP-PATH REVEAL",
+  "description": "Large product iconography and image placement dominates visual hierarchy.",
+  "category": "order-summary",
+  "componentName": "OrderSummary4",
+  "meta": {
+    "id": "order-summary-4",
+    "name": "PRODUCT-FIRST SUMMARY — CLIP-PATH REVEAL",
+    "description": "Large product iconography and image placement dominates visual hierarchy.",
+    "category": "order-summary",
+    "componentName": "OrderSummary4"
+  }
+}

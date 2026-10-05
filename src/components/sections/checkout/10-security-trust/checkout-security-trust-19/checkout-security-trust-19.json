@@ -1,14 +1,14 @@
 {
   "id": "checkout-security-trust-19",
-  "title": "Security / Trust Section — 19",
-  "description": "Placeholder for Security / Trust Section variant 19",
+  "title": "Editorial Security Section — Dual Speed Motion",
+  "description": "High-fashion editorial layout featuring oversized typography 'SAFE & SECURE PURCHASING' and dual-speed motion entrance.",
   "category": "checkout",
   "subsection": "checkout-security-trust",
   "variant": 19,
   "section": {
     "settings": {
-      "title": "Security / Trust Section 19",
-      "description": "Placeholder structure for Security / Trust Section variant 19"
+      "title": "Editorial Security Section — Dual Speed Motion",
+      "description": "High-fashion editorial layout featuring oversized typography 'SAFE & SECURE PURCHASING' and dual-speed motion entrance."
     }
   }
 }

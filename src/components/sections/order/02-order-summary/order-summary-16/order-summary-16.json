@@ -1,0 +1,14 @@
+{
+  "id": "order-summary-16",
+  "name": "3D PRODUCT SUMMARY — PERSPECTIVE PARALLAX",
+  "description": "Layered product order cards using CSS perspective 3D depth and parallax hover tilt.",
+  "category": "order-summary",
+  "componentName": "OrderSummary16",
+  "meta": {
+    "id": "order-summary-16",
+    "name": "3D PRODUCT SUMMARY — PERSPECTIVE PARALLAX",
+    "description": "Layered product order cards using CSS perspective 3D depth and parallax hover tilt.",
+    "category": "order-summary",
+    "componentName": "OrderSummary16"
+  }
+}

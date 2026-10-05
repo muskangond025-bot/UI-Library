@@ -1,0 +1,14 @@
+{
+  "id": "order-success-14",
+  "name": "DELIVERY ROUTE — SVG ROUTE PATH DRAW",
+  "description": "Abstract delivery route concept drawing SVG path from Order → Warehouse → Delivery.",
+  "category": "order-success",
+  "componentName": "OrderSuccess14",
+  "meta": {
+    "id": "order-success-14",
+    "name": "DELIVERY ROUTE — SVG ROUTE PATH DRAW",
+    "description": "Abstract delivery route concept drawing SVG path from Order → Warehouse → Delivery.",
+    "category": "order-success",
+    "componentName": "OrderSuccess14"
+  }
+}

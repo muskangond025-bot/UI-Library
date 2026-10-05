@@ -1,14 +1,14 @@
 {
   "id": "billing-address-01",
-  "title": "Billing Address — 01",
-  "description": "Placeholder for Billing Address variant 01",
+  "title": "Invoice Editorial — Document Line Reveal",
+  "description": "Premium invoice-inspired billing layout featuring tax ID reference fields and progressive document line drawing.",
   "category": "checkout",
   "subsection": "billing-address",
   "variant": 1,
   "section": {
     "settings": {
-      "title": "Billing Address 01",
-      "description": "Placeholder structure for Billing Address variant 01"
+      "title": "Invoice Editorial — Document Line Reveal",
+      "description": "Premium invoice-inspired billing layout featuring tax ID reference fields and progressive document line drawing."
     }
   }
 }

@@ -1,0 +1,14 @@
+{
+  "id": "order-success-4",
+  "name": "ORDER TIMELINE — PROGRESS LINE ANIMATION",
+  "description": "Visual order timeline (Confirmed → Processing → Shipped → Delivered) with SVG progress line draw to confirmed stage.",
+  "category": "order-success",
+  "componentName": "OrderSuccess4",
+  "meta": {
+    "id": "order-success-4",
+    "name": "ORDER TIMELINE — PROGRESS LINE ANIMATION",
+    "description": "Visual order timeline (Confirmed → Processing → Shipped → Delivered) with SVG progress line draw to confirmed stage.",
+    "category": "order-success",
+    "componentName": "OrderSuccess4"
+  }
+}

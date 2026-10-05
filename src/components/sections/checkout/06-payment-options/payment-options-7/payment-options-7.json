@@ -1,14 +1,14 @@
 {
   "id": "payment-options-07",
-  "title": "Payment Options — 07",
-  "description": "Placeholder for Payment Options variant 07",
+  "title": "Minimal Monochrome Payment",
+  "description": "Production-quality Payment Option variant 7 with distinct visual identity and non-static motion.",
   "category": "checkout",
   "subsection": "payment-options",
   "variant": 7,
   "section": {
     "settings": {
-      "title": "Payment Options 07",
-      "description": "Placeholder structure for Payment Options variant 07"
+      "title": "Minimal Monochrome Payment",
+      "description": "Production-quality Payment Option variant 7 with distinct visual identity and non-static motion."
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "id": "billing-address-06",
-  "title": "Billing Address — 06",
-  "description": "Placeholder for Billing Address variant 06",
+  "title": "Asymmetric Financial Address Grid",
+  "description": "Editorial asymmetric layout organizing billing name, VAT ID, and address blocks in offset grid columns.",
   "category": "checkout",
   "subsection": "billing-address",
   "variant": 6,
   "section": {
     "settings": {
-      "title": "Billing Address 06",
-      "description": "Placeholder structure for Billing Address variant 06"
+      "title": "Asymmetric Financial Address Grid",
+      "description": "Editorial asymmetric layout organizing billing name, VAT ID, and address blocks in offset grid columns."
     }
   }
 }

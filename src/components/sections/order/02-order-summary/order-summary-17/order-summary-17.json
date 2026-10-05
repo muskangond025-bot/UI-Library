@@ -1,0 +1,14 @@
+{
+  "id": "order-summary-17",
+  "name": "PRICE CALCULATION VISUAL — GEOMETRIC PATH FLOW",
+  "description": "Visual calculation relationship (Products → Subtotal → Discount → Tax → Total) with progress line.",
+  "category": "order-summary",
+  "componentName": "OrderSummary17",
+  "meta": {
+    "id": "order-summary-17",
+    "name": "PRICE CALCULATION VISUAL — GEOMETRIC PATH FLOW",
+    "description": "Visual calculation relationship (Products → Subtotal → Discount → Tax → Total) with progress line.",
+    "category": "order-summary",
+    "componentName": "OrderSummary17"
+  }
+}

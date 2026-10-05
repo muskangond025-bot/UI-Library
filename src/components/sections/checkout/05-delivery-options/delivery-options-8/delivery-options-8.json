@@ -1,14 +1,14 @@
 {
   "id": "delivery-options-08",
-  "title": "Delivery Options — 08",
-  "description": "Placeholder for Delivery Options variant 08",
+  "title": "Luxury Dark Mode Concierge Delivery",
+  "description": "Luxury dark shipping section featuring gold metallic accents and an animated ambient light sweep.",
   "category": "checkout",
   "subsection": "delivery-options",
   "variant": 8,
   "section": {
     "settings": {
-      "title": "Delivery Options 08",
-      "description": "Placeholder structure for Delivery Options variant 08"
+      "title": "Luxury Dark Mode Concierge Delivery",
+      "description": "Luxury dark shipping section featuring gold metallic accents and an animated ambient light sweep."
     }
   }
 }

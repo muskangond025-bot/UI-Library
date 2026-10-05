@@ -1,14 +1,14 @@
 {
   "id": "checkout-security-trust-11",
-  "title": "Security / Trust Section — 11",
-  "description": "Placeholder for Security / Trust Section variant 11",
+  "title": "Progress Safety Meter — SVG Ring Fill",
+  "description": "Circular SVG security score ring animating from 0% to 100% protection rating with verified safety checks.",
   "category": "checkout",
   "subsection": "checkout-security-trust",
   "variant": 11,
   "section": {
     "settings": {
-      "title": "Security / Trust Section 11",
-      "description": "Placeholder structure for Security / Trust Section variant 11"
+      "title": "Progress Safety Meter — SVG Ring Fill",
+      "description": "Circular SVG security score ring animating from 0% to 100% protection rating with verified safety checks."
     }
   }
 }

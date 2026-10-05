@@ -1,14 +1,14 @@
 {
   "id": "billing-address-13",
-  "title": "Billing Address — 13",
-  "description": "Placeholder for Billing Address variant 13",
+  "title": "Restrained Glassmorphism Billing Panel",
+  "description": "Frosted glass billing card set over background luminous orb drift animations.",
   "category": "checkout",
   "subsection": "billing-address",
   "variant": 13,
   "section": {
     "settings": {
-      "title": "Billing Address 13",
-      "description": "Placeholder structure for Billing Address variant 13"
+      "title": "Restrained Glassmorphism Billing Panel",
+      "description": "Frosted glass billing card set over background luminous orb drift animations."
     }
   }
 }

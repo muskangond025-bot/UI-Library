@@ -1,14 +1,14 @@
 {
   "id": "delivery-options-10",
-  "title": "Delivery Options — 10",
-  "description": "Placeholder for Delivery Options variant 10",
+  "title": "Fulfillment Timeline & Arrival Date Selector",
+  "description": "Fulfillment timeline connecting dispatch milestones to selectable delivery speed tiers.",
   "category": "checkout",
   "subsection": "delivery-options",
   "variant": 10,
   "section": {
     "settings": {
-      "title": "Delivery Options 10",
-      "description": "Placeholder structure for Delivery Options variant 10"
+      "title": "Fulfillment Timeline & Arrival Date Selector",
+      "description": "Fulfillment timeline connecting dispatch milestones to selectable delivery speed tiers."
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "id": "checkout-gift-card-15",
-  "title": "Gift Card Section — 15",
-  "description": "Placeholder for Gift Card Section variant 15",
+  "title": "Gift Card Profile — Layered Info Reveal",
+  "description": "Personalized gift card profile card displaying cardholder name, card number GC-8842, balance, and active status.",
   "category": "checkout",
   "subsection": "checkout-gift-card",
   "variant": 15,
   "section": {
     "settings": {
-      "title": "Gift Card Section 15",
-      "description": "Placeholder structure for Gift Card Section variant 15"
+      "title": "Gift Card Profile — Layered Info Reveal",
+      "description": "Personalized gift card profile card displaying cardholder name, card number GC-8842, balance, and active status."
     }
   }
 }

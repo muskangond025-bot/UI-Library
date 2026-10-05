@@ -1,14 +1,14 @@
 {
   "id": "delivery-options-19",
-  "title": "Delivery Options — 19",
-  "description": "Placeholder for Delivery Options variant 19",
+  "title": "Architectural Monochrome Delivery Tiers",
+  "description": "Architectural monochrome shipping layout featuring animated line-drawing dividers and uppercase typography.",
   "category": "checkout",
   "subsection": "delivery-options",
   "variant": 19,
   "section": {
     "settings": {
-      "title": "Delivery Options 19",
-      "description": "Placeholder structure for Delivery Options variant 19"
+      "title": "Architectural Monochrome Delivery Tiers",
+      "description": "Architectural monochrome shipping layout featuring animated line-drawing dividers and uppercase typography."
     }
   }
 }

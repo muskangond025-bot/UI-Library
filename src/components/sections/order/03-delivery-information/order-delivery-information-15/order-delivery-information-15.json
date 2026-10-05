@@ -1,0 +1,6 @@
+{
+  "id": "order-delivery-information-15",
+  "title": "Delivery Progress — Travelling Indicator",
+  "category": "order-delivery-information",
+  "description": "Linear delivery progress visualization with animated Travelling node along status path."
+}

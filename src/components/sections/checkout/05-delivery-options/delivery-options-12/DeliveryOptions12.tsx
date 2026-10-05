@@ -1,17 +1,65 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
+import { ArrowRight, Truck } from 'lucide-react';
 
 export function DeliveryOptions12({ data }: { data?: any }) {
+  const [selected, setSelected] = useState('express');
+
   return (
-    <div className="w-full py-16 px-6 bg-slate-900 border border-slate-800 rounded-2xl text-center font-sans text-white my-4">
-      <span className="text-xs font-mono font-bold text-indigo-400 uppercase tracking-widest block mb-2">
-        DELIVERY OPTIONS // VARIANT 12
-      </span>
-      <h3 className="text-lg sm:text-xl font-bold text-white mb-2">
-        Delivery Options — Variant 12 Placeholder
-      </h3>
-      <p className="text-xs text-slate-400 max-w-md mx-auto">
-        Placeholder for Delivery Options variant 12. Premium interactive design will be inserted here.
-      </p>
+    <div className="w-full max-w-4xl mx-auto py-12 px-4 sm:px-6 font-sans">
+      <div className="relative bg-stone-950 border border-stone-800 rounded-3xl p-8 sm:p-12 shadow-2xl overflow-hidden text-stone-100">
+        <motion.div
+          animate={{ x: [-10, 10, -10] }}
+          transition={{ repeat: Infinity, duration: 8, ease: "easeInOut" }}
+          className="absolute -right-8 -top-12 text-[140px] sm:text-[180px] font-serif font-black text-stone-900/50 select-none pointer-events-none"
+        >
+          EXPRESS
+        </motion.div>
+
+        <div className="relative z-10 space-y-8">
+          <div className="border-b border-stone-800 pb-6 flex items-center justify-between">
+            <div>
+              <span className="text-[10px] font-mono tracking-widest text-orange-400 uppercase block mb-1">
+                MAGAZINE COURIER
+              </span>
+              <h2 className="text-3xl sm:text-4xl font-serif font-normal text-stone-50 tracking-tight">
+                Shipping Options
+              </h2>
+            </div>
+            <Truck className="w-6 h-6 text-orange-400" />
+          </div>
+
+          <div className="space-y-4">
+            <div
+              onClick={() => setSelected('standard')}
+              className={`p-4 border cursor-pointer transition flex items-center justify-between ${
+                selected === 'standard' ? 'border-orange-400 bg-stone-900/80 text-white' : 'border-stone-800 text-stone-400'
+              }`}
+            >
+              <span className="text-xs font-mono uppercase">01 / Ground Shipping (3-5 Days)</span>
+              <span className="text-xs font-mono font-bold text-orange-400">Free</span>
+            </div>
+
+            <div
+              onClick={() => setSelected('express')}
+              className={`p-4 border cursor-pointer transition flex items-center justify-between ${
+                selected === 'express' ? 'border-orange-400 bg-stone-900/80 text-white' : 'border-stone-800 text-stone-400'
+              }`}
+            >
+              <span className="text-xs font-mono uppercase">02 / Express Air Courier (1-2 Days)</span>
+              <span className="text-xs font-mono font-bold text-orange-400">$14.99</span>
+            </div>
+
+            <div className="pt-6 border-t border-stone-800 flex justify-between items-center">
+              <span className="text-xs text-stone-500 font-serif italic">Courier dispatch ready</span>
+              <button className="px-8 py-3.5 bg-orange-500 hover:bg-orange-400 text-stone-950 font-bold text-xs uppercase tracking-widest transition flex items-center gap-2">
+                <span>Continue</span>
+                <ArrowRight className="w-4 h-4" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

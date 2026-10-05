@@ -1,14 +1,14 @@
 {
   "id": "checkout-order-summary-16",
-  "title": "Order Summary — 16",
-  "description": "Placeholder for Order Summary variant 16",
+  "title": "3D Product Stack — Interactive Depth Parallax",
+  "description": "Layered product cards with subtle 3D perspective effect and hover depth interaction.",
   "category": "checkout",
   "subsection": "checkout-order-summary",
   "variant": 16,
   "section": {
     "settings": {
-      "title": "Order Summary 16",
-      "description": "Placeholder structure for Order Summary variant 16"
+      "title": "3D Product Stack — Interactive Depth Parallax",
+      "description": "Layered product cards with subtle 3D perspective effect and hover depth interaction."
     }
   }
 }

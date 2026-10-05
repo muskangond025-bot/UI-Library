@@ -1,14 +1,14 @@
 {
   "id": "checkout-discount-coupon-12",
-  "title": "Discount / Coupon Section — 12",
-  "description": "Placeholder for Discount / Coupon Section variant 12",
+  "title": "Coupon Timeline — SVG Connecting Line Draw",
+  "description": "Timeline flow of unlockable promotional tiers connected by a progressive SVG drawing line.",
   "category": "checkout",
   "subsection": "checkout-discount-coupon",
   "variant": 12,
   "section": {
     "settings": {
-      "title": "Discount / Coupon Section 12",
-      "description": "Placeholder structure for Discount / Coupon Section variant 12"
+      "title": "Coupon Timeline — SVG Connecting Line Draw",
+      "description": "Timeline flow of unlockable promotional tiers connected by a progressive SVG drawing line."
     }
   }
 }

@@ -1,0 +1,14 @@
+{
+  "id": "order-success-1",
+  "name": "PREMIUM CONFIRMATION — STAGGERED REVEAL",
+  "description": "Large success message with order reference and next steps revealed with staggered entrance physics.",
+  "category": "order-success",
+  "componentName": "OrderSuccess1",
+  "meta": {
+    "id": "order-success-1",
+    "name": "PREMIUM CONFIRMATION — STAGGERED REVEAL",
+    "description": "Large success message with order reference and next steps revealed with staggered entrance physics.",
+    "category": "order-success",
+    "componentName": "OrderSuccess1"
+  }
+}

@@ -1,14 +1,14 @@
 {
   "id": "checkout-security-trust-15",
-  "title": "Security / Trust Section — 15",
-  "description": "Placeholder for Security / Trust Section variant 15",
+  "title": "Icon-Led Security Selector — Icon Morph Response",
+  "description": "Category-based trust selector with custom animated icons for encryption, money-back, fraud guard, and privacy.",
   "category": "checkout",
   "subsection": "checkout-security-trust",
   "variant": 15,
   "section": {
     "settings": {
-      "title": "Security / Trust Section 15",
-      "description": "Placeholder structure for Security / Trust Section variant 15"
+      "title": "Icon-Led Security Selector — Icon Morph Response",
+      "description": "Category-based trust selector with custom animated icons for encryption, money-back, fraud guard, and privacy."
     }
   }
 }

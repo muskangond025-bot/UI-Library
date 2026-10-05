@@ -1,14 +1,14 @@
 {
   "id": "billing-address-04",
-  "title": "Billing Address — 04",
-  "description": "Placeholder for Billing Address variant 04",
+  "title": "Primary Same-as-Shipping Toggle Form",
+  "description": "Interactive billing layout centered around a primary 'Same as shipping' toggle with smooth accordion expansion.",
   "category": "checkout",
   "subsection": "billing-address",
   "variant": 4,
   "section": {
     "settings": {
-      "title": "Billing Address 04",
-      "description": "Placeholder structure for Billing Address variant 04"
+      "title": "Primary Same-as-Shipping Toggle Form",
+      "description": "Interactive billing layout centered around a primary 'Same as shipping' toggle with smooth accordion expansion."
     }
   }
 }

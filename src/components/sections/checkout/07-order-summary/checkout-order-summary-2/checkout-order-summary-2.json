@@ -1,14 +1,14 @@
 {
   "id": "checkout-order-summary-02",
-  "title": "Order Summary — 02",
-  "description": "Placeholder for Order Summary variant 02",
+  "title": "Editorial Order Summary — Sequential Magazine Reveal",
+  "description": "Oversized serif typography with magazine-style product layout and anchored financial sidebar.",
   "category": "checkout",
   "subsection": "checkout-order-summary",
   "variant": 2,
   "section": {
     "settings": {
-      "title": "Order Summary 02",
-      "description": "Placeholder structure for Order Summary variant 02"
+      "title": "Editorial Order Summary — Sequential Magazine Reveal",
+      "description": "Oversized serif typography with magazine-style product layout and anchored financial sidebar."
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "id": "payment-options-02",
-  "title": "Payment Options — 02",
-  "description": "Placeholder for Payment Options variant 02",
+  "title": "Fintech Payment — 3D Card Focus",
+  "description": "Interactive credit card payment interface with real-time 3D card tilt and focus response.",
   "category": "checkout",
   "subsection": "payment-options",
   "variant": 2,
   "section": {
     "settings": {
-      "title": "Payment Options 02",
-      "description": "Placeholder structure for Payment Options variant 02"
+      "title": "Fintech Payment — 3D Card Focus",
+      "description": "Interactive credit card payment interface with real-time 3D card tilt and focus response."
     }
   }
 }

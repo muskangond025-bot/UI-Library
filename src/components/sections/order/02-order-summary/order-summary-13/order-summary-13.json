@@ -1,0 +1,14 @@
+{
+  "id": "order-summary-13",
+  "name": "TIMELINE SUMMARY — CONNECTOR LINE DRAW",
+  "description": "Vertical order timeline structure with animated SVG connector lines.",
+  "category": "order-summary",
+  "componentName": "OrderSummary13",
+  "meta": {
+    "id": "order-summary-13",
+    "name": "TIMELINE SUMMARY — CONNECTOR LINE DRAW",
+    "description": "Vertical order timeline structure with animated SVG connector lines.",
+    "category": "order-summary",
+    "componentName": "OrderSummary13"
+  }
+}

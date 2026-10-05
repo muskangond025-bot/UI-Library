@@ -1,14 +1,14 @@
 {
   "id": "shipping-address-15",
-  "title": "Shipping Address — 15",
-  "description": "Placeholder for Shipping Address variant 15",
+  "title": "3D Perspective Shipping Box Card",
+  "description": "Layered perspective shipping box composition with mouse-driven 3D tilt rotation.",
   "category": "checkout",
   "subsection": "shipping-address",
   "variant": 15,
   "section": {
     "settings": {
-      "title": "Shipping Address 15",
-      "description": "Placeholder structure for Shipping Address variant 15"
+      "title": "3D Perspective Shipping Box Card",
+      "description": "Layered perspective shipping box composition with mouse-driven 3D tilt rotation."
     }
   }
 }

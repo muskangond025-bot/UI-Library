@@ -1,0 +1,14 @@
+{
+  "id": "order-success-16",
+  "name": "SPLIT SUCCESS — DUAL PANEL ENTRANCE",
+  "description": "Left confirmation message and Right order details entering from opposite directions.",
+  "category": "order-success",
+  "componentName": "OrderSuccess16",
+  "meta": {
+    "id": "order-success-16",
+    "name": "SPLIT SUCCESS — DUAL PANEL ENTRANCE",
+    "description": "Left confirmation message and Right order details entering from opposite directions.",
+    "category": "order-success",
+    "componentName": "OrderSuccess16"
+  }
+}

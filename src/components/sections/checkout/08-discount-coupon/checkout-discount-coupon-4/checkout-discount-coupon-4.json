@@ -1,14 +1,14 @@
 {
   "id": "checkout-discount-coupon-04",
-  "title": "Discount / Coupon Section — 04",
-  "description": "Placeholder for Discount / Coupon Section variant 04",
+  "title": "Split Offer + Code — Dual Panel Directional Slide",
+  "description": "Two-panel promotional layout featuring a savings highlight message on left and interactive coupon input on right.",
   "category": "checkout",
   "subsection": "checkout-discount-coupon",
   "variant": 4,
   "section": {
     "settings": {
-      "title": "Discount / Coupon Section 04",
-      "description": "Placeholder structure for Discount / Coupon Section variant 04"
+      "title": "Split Offer + Code — Dual Panel Directional Slide",
+      "description": "Two-panel promotional layout featuring a savings highlight message on left and interactive coupon input on right."
     }
   }
 }

@@ -1,0 +1,14 @@
+{
+  "id": "order-summary-10",
+  "name": "ASYMMETRIC GRID — EDITORIAL LAYOUT REVEAL",
+  "description": "Editorial grid with intentionally different column sizes and independent section reveal.",
+  "category": "order-summary",
+  "componentName": "OrderSummary10",
+  "meta": {
+    "id": "order-summary-10",
+    "name": "ASYMMETRIC GRID — EDITORIAL LAYOUT REVEAL",
+    "description": "Editorial grid with intentionally different column sizes and independent section reveal.",
+    "category": "order-summary",
+    "componentName": "OrderSummary10"
+  }
+}

@@ -1,14 +1,14 @@
 {
   "id": "shipping-address-14",
-  "title": "Shipping Address — 14",
-  "description": "Placeholder for Shipping Address variant 14",
+  "title": "Gliding Location Pin Focus System",
+  "description": "Location-centric shipping form where a map pin badge glides between active input rows.",
   "category": "checkout",
   "subsection": "shipping-address",
   "variant": 14,
   "section": {
     "settings": {
-      "title": "Shipping Address 14",
-      "description": "Placeholder structure for Shipping Address variant 14"
+      "title": "Gliding Location Pin Focus System",
+      "description": "Location-centric shipping form where a map pin badge glides between active input rows."
     }
   }
 }

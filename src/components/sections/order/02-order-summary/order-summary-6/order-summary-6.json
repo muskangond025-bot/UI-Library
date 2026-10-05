@@ -1,0 +1,14 @@
+{
+  "id": "order-summary-6",
+  "name": "RECEIPT SUMMARY — VERTICAL RECEIPT DRAW",
+  "description": "Digital receipt structure with itemized rows revealing vertically with perforated line aesthetic.",
+  "category": "order-summary",
+  "componentName": "OrderSummary6",
+  "meta": {
+    "id": "order-summary-6",
+    "name": "RECEIPT SUMMARY — VERTICAL RECEIPT DRAW",
+    "description": "Digital receipt structure with itemized rows revealing vertically with perforated line aesthetic.",
+    "category": "order-summary",
+    "componentName": "OrderSummary6"
+  }
+}

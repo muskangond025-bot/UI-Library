@@ -1,14 +1,14 @@
 {
   "id": "checkout-security-trust-20",
-  "title": "Security / Trust Section — 20",
-  "description": "Placeholder for Security / Trust Section variant 20",
+  "title": "Award-Style Security Masterpiece — Glassmorphic Ambient Glow",
+  "description": "Ultimate trust & security suite combining dark glassmorphism, background ambient glow, 3D card tilt, and live security monitor.",
   "category": "checkout",
   "subsection": "checkout-security-trust",
   "variant": 20,
   "section": {
     "settings": {
-      "title": "Security / Trust Section 20",
-      "description": "Placeholder structure for Security / Trust Section variant 20"
+      "title": "Award-Style Security Masterpiece — Glassmorphic Ambient Glow",
+      "description": "Ultimate trust & security suite combining dark glassmorphism, background ambient glow, 3D card tilt, and live security monitor."
     }
   }
 }

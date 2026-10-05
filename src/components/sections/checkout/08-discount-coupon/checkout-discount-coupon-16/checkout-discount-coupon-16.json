@@ -1,14 +1,14 @@
 {
   "id": "checkout-discount-coupon-16",
-  "title": "Discount / Coupon Section — 16",
-  "description": "Placeholder for Discount / Coupon Section variant 16",
+  "title": "Expandable Coupon Drawer — Accordion Height Transition",
+  "description": "Collapsible promo bar that expands into a full offer selection drawer with layout transition.",
   "category": "checkout",
   "subsection": "checkout-discount-coupon",
   "variant": 16,
   "section": {
     "settings": {
-      "title": "Discount / Coupon Section 16",
-      "description": "Placeholder structure for Discount / Coupon Section variant 16"
+      "title": "Expandable Coupon Drawer — Accordion Height Transition",
+      "description": "Collapsible promo bar that expands into a full offer selection drawer with layout transition."
     }
   }
 }

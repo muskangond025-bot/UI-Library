@@ -1,14 +1,14 @@
 {
   "id": "payment-options-16",
-  "title": "Payment Options — 16",
-  "description": "Placeholder for Payment Options variant 16",
+  "title": "Payment Progress Timeline",
+  "description": "Stage-by-stage payment timeline with progress connector animations.",
   "category": "checkout",
   "subsection": "payment-options",
   "variant": 16,
   "section": {
     "settings": {
-      "title": "Payment Options 16",
-      "description": "Placeholder structure for Payment Options variant 16"
+      "title": "Payment Progress Timeline",
+      "description": "Stage-by-stage payment timeline with progress connector animations."
     }
   }
 }

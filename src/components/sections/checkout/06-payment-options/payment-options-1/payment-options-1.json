@@ -1,14 +1,14 @@
 {
   "id": "payment-options-01",
-  "title": "Payment Options — 01",
-  "description": "Placeholder for Payment Options variant 01",
+  "title": "Payment Cards — Expanding Selection",
+  "description": "Multi-method payment selector with expandable active cards and smooth selection transitions.",
   "category": "checkout",
   "subsection": "payment-options",
   "variant": 1,
   "section": {
     "settings": {
-      "title": "Payment Options 01",
-      "description": "Placeholder structure for Payment Options variant 01"
+      "title": "Payment Cards — Expanding Selection",
+      "description": "Multi-method payment selector with expandable active cards and smooth selection transitions."
     }
   }
 }

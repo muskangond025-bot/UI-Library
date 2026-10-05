@@ -1,14 +1,14 @@
 {
   "id": "payment-options-03",
-  "title": "Payment Options — 03",
-  "description": "Placeholder for Payment Options variant 03",
+  "title": "Vertical Payment Stepper",
+  "description": "Production-quality Payment Option variant 3 with distinct visual identity and non-static motion.",
   "category": "checkout",
   "subsection": "payment-options",
   "variant": 3,
   "section": {
     "settings": {
-      "title": "Payment Options 03",
-      "description": "Placeholder structure for Payment Options variant 03"
+      "title": "Vertical Payment Stepper",
+      "description": "Production-quality Payment Option variant 3 with distinct visual identity and non-static motion."
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "id": "delivery-options-07",
-  "title": "Delivery Options — 07",
-  "description": "Placeholder for Delivery Options variant 07",
+  "title": "Compact High-Density Delivery List",
+  "description": "Space-efficient shipping tier list with a gliding active selection bar.",
   "category": "checkout",
   "subsection": "delivery-options",
   "variant": 7,
   "section": {
     "settings": {
-      "title": "Delivery Options 07",
-      "description": "Placeholder structure for Delivery Options variant 07"
+      "title": "Compact High-Density Delivery List",
+      "description": "Space-efficient shipping tier list with a gliding active selection bar."
     }
   }
 }

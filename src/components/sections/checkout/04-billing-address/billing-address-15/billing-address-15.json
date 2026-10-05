@@ -1,14 +1,14 @@
 {
   "id": "billing-address-15",
-  "title": "Billing Address — 15",
-  "description": "Placeholder for Billing Address variant 15",
+  "title": "Interactive 3D Invoice Document",
+  "description": "Layered perspective billing document with mouse-driven 3D tilt rotation.",
   "category": "checkout",
   "subsection": "billing-address",
   "variant": 15,
   "section": {
     "settings": {
-      "title": "Billing Address 15",
-      "description": "Placeholder structure for Billing Address variant 15"
+      "title": "Interactive 3D Invoice Document",
+      "description": "Layered perspective billing document with mouse-driven 3D tilt rotation."
     }
   }
 }

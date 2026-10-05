@@ -1,14 +1,14 @@
 {
   "id": "billing-address-18",
-  "title": "Billing Address — 18",
-  "description": "Placeholder for Billing Address variant 18",
+  "title": "Shipping vs Billing Comparison Panel",
+  "description": "Dual-card comparison layout visually contrasting shipping vs billing addresses with sync toggle.",
   "category": "checkout",
   "subsection": "billing-address",
   "variant": 18,
   "section": {
     "settings": {
-      "title": "Billing Address 18",
-      "description": "Placeholder structure for Billing Address variant 18"
+      "title": "Shipping vs Billing Comparison Panel",
+      "description": "Dual-card comparison layout visually contrasting shipping vs billing addresses with sync toggle."
     }
   }
 }

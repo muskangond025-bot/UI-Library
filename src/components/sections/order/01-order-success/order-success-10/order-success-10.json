@@ -1,0 +1,14 @@
+{
+  "id": "order-success-10",
+  "name": "CONFIRMATION CARD STACK — DEPTH LAYERING",
+  "description": "Layered cards (Success, Details, Next Steps) sliding into place with spring physics.",
+  "category": "order-success",
+  "componentName": "OrderSuccess10",
+  "meta": {
+    "id": "order-success-10",
+    "name": "CONFIRMATION CARD STACK — DEPTH LAYERING",
+    "description": "Layered cards (Success, Details, Next Steps) sliding into place with spring physics.",
+    "category": "order-success",
+    "componentName": "OrderSuccess10"
+  }
+}
