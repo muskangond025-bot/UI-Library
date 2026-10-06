@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-04",
+  "name": "Flat Swiss Grid & Pure Typography",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "Flat Design",
+  "description": "Pure 2D monochrome Swiss architecture, stark 1px structural grid lines, no shadows, and razor-sharp typographic hierarchy.",
+  "settings": {
+    "title": "Flat Swiss Grid & Pure Typography",
+    "subtitle": "Pure 2D monochrome Swiss architecture, stark 1px structural grid lines, no shadows, and razor-sharp typographic hierarchy.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

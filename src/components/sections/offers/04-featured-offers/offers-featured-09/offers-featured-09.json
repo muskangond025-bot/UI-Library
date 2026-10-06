@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-09",
+  "name": "Luxury Gold Metallic Velvet Archive",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Luxury Gold",
+  "description": "Midnight black slate with champagne gold accents, metallic typography, and serif luxury framing.",
+  "settings": {
+    "title": "Luxury Gold Metallic Velvet Archive",
+    "subtitle": "Midnight black slate with champagne gold accents, metallic typography, and serif luxury framing.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

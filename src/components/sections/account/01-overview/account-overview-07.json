@@ -1,6 +1,7 @@
 {
   "id": "account-overview-07",
-  "title": "07 — Profile + Quick Actions",
+  "title": "07 — Stacked Account Cards — Layered Fan-Out Interaction",
   "category": "account-overview",
-  "description": "Split-panel account layout featuring profile card on the left and quick actions grid on the right with independent entrance motion."
+  "description": "Interactive card stack that separates and rotates module cards outward on cursor hover to reveal deep account stats.",
+  "heading": "07 — Stacked Account Cards — Layered Fan-Out Interaction"
 }

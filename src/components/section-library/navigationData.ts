@@ -102,3 +102,18 @@ export const accountCategories = [
   { id: 'account-notification-preferences', label: 'Notification Preferences', mappedId: 'account-notification-preferences' },
 ];
 
+export const offersCategories = [
+  { id: 'offers-hero', label: 'Offers Hero', mappedId: 'offers-hero' },
+  { id: 'offers-flash-sale', label: 'Flash Sale', mappedId: 'offers-flash-sale' },
+  { id: 'offers-deals-grid', label: 'Deals Grid', mappedId: 'offers-deals-grid' },
+  { id: 'offers-featured', label: 'Featured Offers', mappedId: 'offers-featured' },
+  { id: 'offers-coupon', label: 'Coupon Offers', mappedId: 'offers-coupon' },
+  { id: 'offers-limited-time', label: 'Limited Time Offers', mappedId: 'offers-limited-time' },
+  { id: 'offers-clearance', label: 'Clearance Sale', mappedId: 'offers-clearance' },
+  { id: 'offers-bundle', label: 'Bundle Offers', mappedId: 'offers-bundle' },
+  { id: 'offers-free-shipping', label: 'Free Shipping Offers', mappedId: 'offers-free-shipping' },
+  { id: 'offers-categories', label: 'Offer Categories', mappedId: 'offers-categories' },
+  { id: 'offers-faq', label: 'Offers FAQ', mappedId: 'offers-faq' },
+];
+
+

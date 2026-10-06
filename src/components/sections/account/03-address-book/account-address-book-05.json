@@ -1,4 +1,7 @@
 {
-  "heading": "Editorial Address — Large Typographic Layout",
-  "description": "High-fashion magazine editorial layout featuring oversized section headers and clip-path text reveals."
+  "id": "account-address-book-05",
+  "title": "05 — Interactive Satellite Map Viewport — Dynamic Coordinate Pins",
+  "category": "account-address-book",
+  "description": "Map-first dashboard featuring interactive vector coordinate pins, GPS lat/long tags, and SVG perimeter line drawing.",
+  "heading": "05 — Interactive Satellite Map Viewport — Dynamic Coordinate Pins"
 }

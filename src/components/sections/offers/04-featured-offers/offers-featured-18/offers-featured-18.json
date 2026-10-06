@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-18",
+  "name": "Frosted Glassmorphism Glow Showcase (Variant 1 of 2)",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Glassmorphism Spotlight",
+  "description": "Frosted glass container with vibrant multi-color backdrop blur glow.",
+  "settings": {
+    "title": "Frosted Glassmorphism Glow Showcase (Variant 1 of 2)",
+    "subtitle": "Frosted glass container with vibrant multi-color backdrop blur glow.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

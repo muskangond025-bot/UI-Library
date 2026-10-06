@@ -1,0 +1,14 @@
+{
+  "id": "offers-deals-grid-02",
+  "name": "Neumorphic Soft Dimensional Category Sale",
+  "category": "offers-deals-grid",
+  "type": "deals-grid",
+  "variant": "Neumorphism",
+  "description": "Soft embossed UI filter pills, dual-directional shadow depth cards, and extruded claim action buttons.",
+  "settings": {
+    "title": "Neumorphic Soft Dimensional Category Sale",
+    "subtitle": "Soft embossed UI filter pills, dual-directional shadow depth cards, and extruded claim action buttons.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

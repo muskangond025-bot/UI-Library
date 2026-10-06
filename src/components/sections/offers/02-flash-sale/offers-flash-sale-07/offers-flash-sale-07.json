@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-07",
+  "name": "Tactical Command Center Radar Sale",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "Tactical Telemetry",
+  "description": "Dark telemetry aesthetic, live digital sweep radar, precision stock meters, and combat green accent tags.",
+  "settings": {
+    "title": "Tactical Command Center Radar Sale",
+    "subtitle": "Dark telemetry aesthetic, live digital sweep radar, precision stock meters, and combat green accent tags.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-07",
+  "name": "Cyberpunk Neon Matrix Terminal",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Cyberpunk Neon",
+  "description": "Dark cyber matrix terminal with glowing neon blue & magenta borders and glitch text animations.",
+  "settings": {
+    "title": "Cyberpunk Neon Matrix Terminal",
+    "subtitle": "Dark cyber matrix terminal with glowing neon blue & magenta borders and glitch text animations.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

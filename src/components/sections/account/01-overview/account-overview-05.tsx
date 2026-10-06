@@ -1,109 +1,99 @@
-import React, { useEffect, useState } from 'react';
-import { motion, useMotionValue, useTransform, animate } from 'framer-motion';
-import { ShoppingBag, Heart, Award, MapPin, TrendingUp, ChevronRight, UserCheck } from 'lucide-react';
+import React from 'react';
+import { motion } from 'framer-motion';
+import { MapPin } from 'lucide-react';
 
-function Counter({ from = 0, to, duration = 1.5 }: { from?: number; to: number; duration?: number }) {
-  const count = useMotionValue(from);
-  const rounded = useTransform(count, (latest) => Math.round(latest));
-  const [displayValue, setDisplayValue] = useState(from);
+const mockData = {
+  user: {
+    name: 'Alex Morgan',
+    email: 'alex.morgan@example.com',
+    location: 'Stockholm, Sweden',
+    memberId: 'SE-89104',
+    tier: 'Platinum Member',
+  },
+  stats: [
+    { label: 'Active Orders', value: '03', detail: '1 in transit' },
+    { label: 'Saved Wishlist', value: '18', detail: '2 price alerts' },
+    { label: 'Reward Points', value: '3,200', detail: '$30 credit' },
+    { label: 'Verified Reviews', value: '07', detail: '5.0 average' },
+  ],
+  recentActivity: [
+    { title: 'Delivered: Wool Trench Coat', date: 'Yesterday • 14:20' },
+    { title: 'Added: Minimalist Ceramic Lamp to Wishlist', date: 'Oct 3 • 18:45' },
+    { title: 'Earned: 500 Loyalty Bonus Points', date: 'Oct 1 • 09:15' },
+  ]
+};
 
-  useEffect(() => {
-    const controls = animate(count, to, { duration, ease: 'easeOut' });
-    const unsubscribe = rounded.on('change', (v) => setDisplayValue(v));
-    return () => {
-      controls.stop();
-      unsubscribe();
-    };
-  }, [to]);
-
-  return <span>{displayValue.toLocaleString()}</span>;
-}
-
-export function AccountOverview5() {
+export const AccountOverview5: React.FC = () => {
   return (
-    <div className="w-full bg-slate-950 text-white p-6 md:p-12 min-h-[680px]">
-      <div className="max-w-6xl mx-auto space-y-10">
-        {/* Header */}
-        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 border-b border-slate-800 pb-6">
-          <div>
-            <div className="flex items-center gap-2">
-              <span className="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-indigo-500/20 text-indigo-400 border border-indigo-500/30">
-                METRICS DASHBOARD
-              </span>
-              <span className="text-xs text-slate-400">Real-time Account Metrics</span>
-            </div>
-            <h1 className="text-3xl font-extrabold text-white mt-1">Account Statistics Home</h1>
-          </div>
+    <div className="w-full bg-[#fcfbf9] text-[#1a1a1a] min-h-[750px] p-6 sm:p-12 font-sans border border-neutral-300 rounded-3xl relative">
+      {/* Dynamic Animated Line Border Surround */}
+      <svg className="absolute inset-0 w-full h-full pointer-events-none rounded-3xl">
+        <motion.rect
+          x="1"
+          y="1"
+          width="99.8%"
+          height="99.8%"
+          rx="24"
+          fill="none"
+          stroke="#d4d0c7"
+          strokeWidth="1.5"
+          initial={{ pathLength: 0 }}
+          animate={{ pathLength: 1 }}
+          transition={{ duration: 2.2, ease: [0.16, 1, 0.3, 1] }}
+        />
+      </svg>
 
-          <div className="flex items-center gap-3 bg-slate-900 p-2.5 rounded-2xl border border-slate-800">
-            <img
-              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80"
-              alt="Alex Morgan"
-              className="w-10 h-10 rounded-xl object-cover"
-            />
-            <div>
-              <p className="text-sm font-bold text-white">Alex Morgan</p>
-              <p className="text-xs text-indigo-400 font-medium">Gold Member • 80% Complete</p>
-            </div>
+      {/* Top Header */}
+      <div className="flex justify-between items-center pb-8 border-b border-neutral-200">
+        <div>
+          <span className="text-[11px] font-mono tracking-widest uppercase text-neutral-400">MINIMALIST PROFILE</span>
+          <h1 className="text-3xl font-serif font-normal text-neutral-900 mt-1">{mockData.user.name}</h1>
+        </div>
+        <span className="px-3.5 py-1 bg-neutral-900 text-white text-xs font-mono rounded-full uppercase tracking-wider">
+          {mockData.user.tier}
+        </span>
+      </div>
+
+      {/* Main Profile Info Section */}
+      <div className="py-10 grid grid-cols-1 md:grid-cols-12 gap-8 items-center border-b border-neutral-200">
+        <div className="md:col-span-6 space-y-3">
+          <div className="text-xs text-neutral-500 font-mono uppercase tracking-widest">Account Identification</div>
+          <div className="text-2xl font-serif font-light">{mockData.user.email}</div>
+          <div className="flex items-center gap-4 text-xs text-neutral-500 font-mono">
+            <span className="flex items-center gap-1"><MapPin className="w-3.5 h-3.5 text-neutral-700" /> {mockData.user.location}</span>
+            <span>ID: {mockData.user.memberId}</span>
           </div>
         </div>
 
-        {/* Strong Numerical Statistics Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {[
-            { label: 'Total Orders', value: 12, icon: ShoppingBag, color: 'text-indigo-400 bg-indigo-500/10 border-indigo-500/30', sub: '+2 this month' },
-            { label: 'Wishlist Items', value: 8, icon: Heart, color: 'text-pink-400 bg-pink-500/10 border-pink-500/30', sub: '3 back in stock' },
-            { label: 'Reward Points', value: 1250, icon: Award, color: 'text-amber-400 bg-amber-500/10 border-amber-500/30', sub: '$25 voucher ready' },
-            { label: 'Saved Addresses', value: 3, icon: MapPin, color: 'text-emerald-400 bg-emerald-500/10 border-emerald-500/30', sub: 'Default: Office' },
-          ].map((stat, idx) => {
-            const Icon = stat.icon;
-            return (
-              <motion.div
-                key={idx}
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: idx * 0.1, duration: 0.4 }}
-                className="bg-slate-900/90 rounded-3xl p-6 border border-slate-800 hover:border-slate-700 transition-all flex flex-col justify-between group"
-              >
-                <div className="flex items-center justify-between mb-4">
-                  <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">{stat.label}</span>
-                  <div className={`p-3 rounded-2xl border ${stat.color}`}>
-                    <Icon className="w-5 h-5" />
-                  </div>
-                </div>
-                <div>
-                  <div className="text-4xl md:text-5xl font-black text-white tracking-tight">
-                    <Counter to={stat.value} />
-                  </div>
-                  <div className="flex items-center gap-1 text-xs text-slate-400 mt-2">
-                    <TrendingUp className="w-3.5 h-3.5 text-emerald-400" />
-                    <span>{stat.sub}</span>
-                  </div>
-                </div>
-              </motion.div>
-            );
-          })}
+        <div className="md:col-span-6 grid grid-cols-2 gap-4">
+          {mockData.stats.map((s, idx) => (
+            <motion.div 
+              key={s.label}
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.3 + idx * 0.1, duration: 0.5 }}
+              className="p-4 bg-white border border-neutral-200 rounded-xl relative overflow-hidden group hover:border-neutral-900 transition-colors"
+            >
+              <div className="text-2xl font-serif text-neutral-900 group-hover:translate-x-1 transition-transform">{s.value}</div>
+              <div className="text-[11px] font-mono uppercase tracking-wider text-neutral-400 mt-1">{s.label}</div>
+              <div className="text-[10px] text-neutral-500 mt-0.5">{s.detail}</div>
+            </motion.div>
+          ))}
         </div>
+      </div>
 
-        {/* Detailed Insights Row */}
-        <div className="bg-slate-900/60 rounded-3xl p-6 border border-slate-800 flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-4">
-            <div className="p-3 bg-indigo-600/20 text-indigo-400 rounded-2xl border border-indigo-500/30">
-              <UserCheck className="w-6 h-6" />
+      {/* Minimal Activity Rows */}
+      <div className="pt-8">
+        <h3 className="text-xs font-mono uppercase tracking-widest text-neutral-400 mb-6">Recent Activity Records</h3>
+        <div className="space-y-3">
+          {mockData.recentActivity.map((act, idx) => (
+            <div key={idx} className="p-4 bg-white border border-neutral-200 rounded-xl flex justify-between items-center text-xs">
+              <span className="font-mono text-neutral-800">{act.title}</span>
+              <span className="text-neutral-400 font-mono">{act.date}</span>
             </div>
-            <div>
-              <h3 className="text-base font-bold text-white">High Account Activity Score</h3>
-              <p className="text-xs text-slate-400 mt-0.5">Your customer engagement puts you in the top 5% of VIP shoppers.</p>
-            </div>
-          </div>
-          <button className="w-full md:w-auto px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold transition-colors flex items-center justify-center gap-2">
-            <span>VIEW STATS BREAKDOWN</span>
-            <ChevronRight className="w-4 h-4" />
-          </button>
+          ))}
         </div>
       </div>
     </div>
   );
-}
-
-export default AccountOverview5;
+};

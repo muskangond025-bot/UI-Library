@@ -1,0 +1,14 @@
+{
+  "id": "offers-deals-grid-20",
+  "name": "Award Showcase Luxury Velvet Slate Sale",
+  "category": "offers-deals-grid",
+  "type": "deals-grid",
+  "variant": "Award Luxury Slate",
+  "description": "Midnight slate velvet background, gold metallic serif typography, SVG telemetry paths, and luxury borders.",
+  "settings": {
+    "title": "Award Showcase Luxury Velvet Slate Sale",
+    "subtitle": "Midnight slate velvet background, gold metallic serif typography, SVG telemetry paths, and luxury borders.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

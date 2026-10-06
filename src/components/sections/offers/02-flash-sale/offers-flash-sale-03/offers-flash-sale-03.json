@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-03",
+  "name": "Claymorphic 3D Soft Plastic Cards",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "Claymorphism",
+  "description": "Bulging 3D soft plastic geometry, glossy rounded pills, inner ambient shadows, and bouncy spring interactions.",
+  "settings": {
+    "title": "Claymorphic 3D Soft Plastic Cards",
+    "subtitle": "Bulging 3D soft plastic geometry, glossy rounded pills, inner ambient shadows, and bouncy spring interactions.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

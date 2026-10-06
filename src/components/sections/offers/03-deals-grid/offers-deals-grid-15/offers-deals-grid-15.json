@@ -1,0 +1,14 @@
+{
+  "id": "offers-deals-grid-15",
+  "name": "Real-Time Price Slash & Savings Feed",
+  "category": "offers-deals-grid",
+  "type": "deals-grid",
+  "variant": "Savings Feed",
+  "description": "Live customer savings activity feed, price slash ticker notifications, and discount percentage meters.",
+  "settings": {
+    "title": "Real-Time Price Slash & Savings Feed",
+    "subtitle": "Live customer savings activity feed, price slash ticker notifications, and discount percentage meters.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-12",
+  "name": "Layered Deal Deck Fan-Out Showcase",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "Stacked Fan-Out",
+  "description": "3D stacked deal cards that smoothly fan out on hover with relative z-index hover lift effects.",
+  "settings": {
+    "title": "Layered Deal Deck Fan-Out Showcase",
+    "subtitle": "3D stacked deal cards that smoothly fan out on hover with relative z-index hover lift effects.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

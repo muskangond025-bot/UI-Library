@@ -1,68 +1,59 @@
-import React from 'react';
-import { motion, useMotionValue, useTransform } from 'framer-motion';
-import { ShoppingBag, Heart, MapPin, Award, ArrowUpRight, Box } from 'lucide-react';
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
+import { ArrowUpRight } from 'lucide-react';
 
-export function AccountOverview16() {
-  const x = useMotionValue(0);
-  const y = useMotionValue(0);
-  const rotateX = useTransform(y, [-100, 100], [10, -10]);
-  const rotateY = useTransform(x, [-100, 100], [-10, 10]);
+const mockCells = [
+  { idx: '01', title: 'CLIENT IDENTITY', subtitle: 'Alex Morgan • #99401', detail: 'Platinum VIP Member • 100% Security', action: 'Manage Profile' },
+  { idx: '02', title: 'RECENT PURCHASES', subtitle: '18 Orders Recorded', detail: '3 active shipments • #DH-9941 In Transit', action: 'View Orders' },
+  { idx: '03', title: 'SAVED SELECTIONS', subtitle: '14 Saved Products', detail: '4 items on special price drop alert', action: 'Open Wishlist' },
+  { idx: '04', title: 'REWARDS LEDGER', subtitle: '3,450 Points Accumulation', detail: '$35 redeemable voucher available', action: 'Claim Credit' },
+];
 
-  function handleMouseMove(event: React.MouseEvent<HTMLDivElement>) {
-    const rect = event.currentTarget.getBoundingClientRect();
-    x.set(event.clientX - rect.left - rect.width / 2);
-    y.set(event.clientY - rect.top - rect.height / 2);
-  }
-
-  function handleMouseLeave() {
-    x.set(0);
-    y.set(0);
-  }
+export const AccountOverview16: React.FC = () => {
+  const [hoveredCell, setHoveredCell] = useState<string | null>(null);
 
   return (
-    <div className="w-full bg-slate-950 text-white p-8 md:p-14 min-h-[700px] flex items-center justify-center">
-      <div className="max-w-5xl mx-auto w-full space-y-10">
-        <div className="text-center space-y-2">
-          <span className="px-3 py-1 bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 rounded-full text-xs font-mono uppercase">
-            CONTROLLED PERSPECTIVE
-          </span>
-          <h1 className="text-3xl font-bold text-white">3D Account Perspective Dashboard</h1>
+    <div className="w-full bg-[#f4f4f0] text-[#111111] min-h-[750px] p-6 sm:p-12 font-mono border border-neutral-400 rounded-3xl">
+      {/* Swiss Architectural Grid Header */}
+      <div className="flex justify-between items-end pb-8 border-b-2 border-black mb-10">
+        <div>
+          <span className="text-xs uppercase tracking-[0.25em] text-neutral-500 font-bold">[ SYSTEM INDEX // 01 ]</span>
+          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-black mt-1 uppercase">SWISS GRID ACCOUNT</h1>
         </div>
+        <div className="text-xs font-bold text-neutral-600">CLIENT: ALEX MORGAN</div>
+      </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 perspective-1000">
-          {[
-            { title: 'Orders & Deliveries', stat: '12 Orders', desc: 'Active track: #DH-28491', icon: ShoppingBag, color: 'border-cyan-500/30' },
-            { title: 'Personal Wishlist', stat: '8 Items', desc: 'Saved products collection', icon: Heart, color: 'border-pink-500/30' },
-            { title: 'Saved Addresses', stat: '3 Hubs', desc: 'Primary: Home address', icon: MapPin, color: 'border-emerald-500/30' },
-            { title: 'Loyalty Rewards', stat: '1,250 Pts', desc: 'Gold VIP Perks Unlocked', icon: Award, color: 'border-amber-500/30' },
-          ].map((card, idx) => {
-            const Icon = card.icon;
-            return (
-              <motion.div
-                key={idx}
-                onMouseMove={handleMouseMove}
-                onMouseLeave={handleMouseLeave}
-                style={{ rotateX, rotateY, transformStyle: 'preserve-3d' }}
-                className={`bg-slate-900/90 rounded-3xl p-8 border ${card.color} shadow-2xl hover:shadow-cyan-500/10 transition-all cursor-pointer group flex flex-col justify-between`}
-              >
-                <div className="flex items-center justify-between mb-6">
-                  <div className="p-3 bg-slate-800 text-cyan-400 rounded-2xl">
-                    <Icon className="w-6 h-6" />
-                  </div>
-                  <ArrowUpRight className="w-5 h-5 text-slate-500 group-hover:text-cyan-400 transition-colors" />
-                </div>
-                <div>
-                  <h3 className="text-sm font-semibold text-slate-400 uppercase tracking-wider">{card.title}</h3>
-                  <div className="text-3xl font-extrabold text-white mt-1">{card.stat}</div>
-                  <p className="text-xs text-slate-400 mt-1">{card.desc}</p>
-                </div>
-              </motion.div>
-            );
-          })}
-        </div>
+      {/* 2x2 Architectural Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-black p-px rounded-2xl overflow-hidden">
+        {mockCells.map((cell) => {
+          const isHovered = hoveredCell === cell.idx;
+          return (
+            <motion.div
+              key={cell.idx}
+              onMouseEnter={() => setHoveredCell(cell.idx)}
+              onMouseLeave={() => setHoveredCell(null)}
+              className={`p-8 bg-[#f4f4f0] transition-colors duration-300 relative cursor-pointer flex flex-col justify-between min-h-[240px] ${isHovered ? 'bg-black text-[#f4f4f0]' : ''}`}
+            >
+              <div className="flex justify-between items-start">
+                <span className={`text-sm font-bold ${isHovered ? 'text-amber-400' : 'text-neutral-500'}`}>
+                  [ {cell.idx} ]
+                </span>
+                <span className="text-xs font-bold tracking-wider">{cell.title}</span>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-bold uppercase mt-4">{cell.subtitle}</h3>
+                <p className={`text-xs mt-1 font-sans ${isHovered ? 'text-neutral-400' : 'text-neutral-600'}`}>{cell.detail}</p>
+              </div>
+
+              <div className="pt-4 border-t border-current flex justify-between items-center text-xs font-bold mt-6">
+                <span>{cell.action}</span>
+                <ArrowUpRight className={`w-4 h-4 transition-transform ${isHovered ? 'translate-x-1 -translate-y-1 text-amber-400' : ''}`} />
+              </div>
+            </motion.div>
+          );
+        })}
       </div>
     </div>
   );
-}
-
-export default AccountOverview16;
+};

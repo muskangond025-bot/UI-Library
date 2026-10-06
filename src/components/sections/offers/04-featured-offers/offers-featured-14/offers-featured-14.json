@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-14",
+  "name": "Split Diagonal Dual Feature Hero",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Split Diagonal",
+  "description": "High-contrast diagonal split hero showcasing two contrasting featured flagship products.",
+  "settings": {
+    "title": "Split Diagonal Dual Feature Hero",
+    "subtitle": "High-contrast diagonal split hero showcasing two contrasting featured flagship products.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

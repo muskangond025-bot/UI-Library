@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-06",
+  "name": "Editorial High-Fashion Sale Magazine",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "Editorial",
+  "description": "Serif display typography, clip-path image reveals, high-contrast monochrome accents, and magazine-style slash pricing.",
+  "settings": {
+    "title": "Editorial High-Fashion Sale Magazine",
+    "subtitle": "Serif display typography, clip-path image reveals, high-contrast monochrome accents, and magazine-style slash pricing.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

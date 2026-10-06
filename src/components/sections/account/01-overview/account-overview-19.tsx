@@ -1,79 +1,97 @@
 import React from 'react';
-import { motion, Variants } from 'framer-motion';
-import { ShoppingBag, Heart, Award, MapPin } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { Award, Sparkles } from 'lucide-react';
 
-const welcomeTransition: Variants = {
-  hidden: { opacity: 0, scale: 0.9, y: 30 },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    y: 0,
-    transition: { duration: 0.8, ease: 'easeInOut' }
-  }
-};
+const mockMeters = [
+  { label: 'Profile Completion', val: 90, text: '90%', detail: 'Add secondary backup email', color: '#10b981' },
+  { label: 'Tier Progress', val: 75, text: '75%', detail: 'Earn 150 pts for Diamond Level', color: '#f59e0b' },
+  { label: 'Order Goal', val: 80, text: '12 / 15', detail: '3 orders to unlock free gift', color: '#6366f1' },
+  { label: 'Reviewer Level', val: 100, text: 'GOLD ★', detail: 'Top 5% helpful reviewer badge', color: '#ec4899' },
+];
 
-const dashboardReveal: Variants = {
-  hidden: { opacity: 0, y: 40 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { delay: 0.4, duration: 0.6, ease: 'easeInOut' }
-  }
-};
-
-export function AccountOverview19() {
+export const AccountOverview19: React.FC = () => {
   return (
-    <div className="w-full bg-slate-950 text-white p-8 md:p-14 min-h-[700px] flex items-center">
-      <div className="max-w-5xl mx-auto w-full space-y-12">
-        {/* Main Personalized Welcome Greeting */}
-        <motion.div
-          variants={welcomeTransition}
-          initial="hidden"
-          animate="visible"
-          className="text-center space-y-4"
-        >
-          <span className="px-3 py-1 bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 rounded-full text-xs font-mono uppercase">
-            PERSONALIZED GREETING
-          </span>
-          <h1 className="text-4xl md:text-6xl font-extrabold text-white tracking-tight">
-            WELCOME BACK, ALEX
-          </h1>
-          <p className="text-sm text-slate-400 max-w-lg mx-auto">
-            Your personalized customer portal is ready with 12 active orders, 8 wishlist items, and 1,250 reward points.
-          </p>
-        </motion.div>
+    <div className="w-full bg-[#0a0a0e] text-neutral-100 min-h-[750px] p-6 sm:p-10 font-sans border border-neutral-800 rounded-3xl flex flex-col justify-between">
+      {/* Title */}
+      <div className="pb-6 border-b border-neutral-800 flex justify-between items-center">
+        <div>
+          <span className="text-xs font-mono uppercase tracking-widest text-neutral-400">GAMIFIED STORY PROGRESS</span>
+          <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-white mt-1">Account Progress Story</h1>
+        </div>
+        <span className="px-3 py-1 bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-xs font-mono rounded-full flex items-center gap-1.5">
+          <Sparkles className="w-3.5 h-3.5" /> 90% Profile Complete
+        </span>
+      </div>
 
-        {/* Transitioned Account Modules */}
-        <motion.div
-          variants={dashboardReveal}
-          initial="hidden"
-          animate="visible"
-          className="grid grid-cols-1 md:grid-cols-4 gap-6"
-        >
-          {[
-            { label: 'Your Orders', val: '12 Orders', icon: ShoppingBag, color: 'text-blue-400' },
-            { label: 'Your Wishlist', val: '8 Items', icon: Heart, color: 'text-pink-400' },
-            { label: 'Your Rewards', val: '1,250 Pts', icon: Award, color: 'text-amber-400' },
-            { label: 'Your Addresses', val: '3 Saved', icon: MapPin, color: 'text-emerald-400' },
-          ].map((item, idx) => {
-            const Icon = item.icon;
-            return (
-              <div
-                key={idx}
-                className="bg-slate-900/80 p-6 rounded-3xl border border-slate-800 text-center space-y-3 hover:border-indigo-500/40 transition-colors"
-              >
-                <div className={`p-3 rounded-2xl bg-slate-950 ${item.color} w-fit mx-auto`}>
-                  <Icon className="w-6 h-6" />
-                </div>
-                <h3 className="text-xs font-semibold text-slate-400 uppercase">{item.label}</h3>
-                <p className="text-xl font-bold text-white">{item.val}</p>
+      {/* Main Radial Meters Grid */}
+      <div className="my-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {mockMeters.map((m, idx) => {
+          const radius = 40;
+          const stroke = 6;
+          const circumference = 2 * Math.PI * radius;
+          const strokeDashoffset = circumference - (m.val / 100) * circumference;
+
+          return (
+            <motion.div
+              key={m.label}
+              initial={{ opacity: 0, y: 25 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.15 * idx, duration: 0.6 }}
+              className="p-6 bg-neutral-900 border border-neutral-800 rounded-3xl flex flex-col items-center text-center justify-between"
+            >
+              {/* Radial Meter SVG */}
+              <div className="relative w-28 h-28 my-2 flex items-center justify-center">
+                <svg className="w-full h-full transform -rotate-90">
+                  <circle
+                    cx="56"
+                    cy="56"
+                    r={radius}
+                    stroke="#1f2937"
+                    strokeWidth={stroke}
+                    fill="none"
+                  />
+                  <motion.circle
+                    cx="56"
+                    cy="56"
+                    r={radius}
+                    stroke={m.color}
+                    strokeWidth={stroke}
+                    fill="none"
+                    strokeDasharray={circumference}
+                    initial={{ strokeDashoffset: circumference }}
+                    animate={{ strokeDashoffset: strokeDashoffset }}
+                    transition={{ duration: 1.5, ease: 'easeOut', delay: 0.3 }}
+                    strokeLinecap="round"
+                  />
+                </svg>
+                <span className="absolute font-mono font-bold text-lg text-white">{m.text}</span>
               </div>
-            );
-          })}
-        </motion.div>
+
+              <div>
+                <h3 className="text-base font-bold text-white mt-2">{m.label}</h3>
+                <p className="text-xs text-neutral-400 mt-1 font-mono">{m.detail}</p>
+              </div>
+            </motion.div>
+          );
+        })}
+      </div>
+
+      {/* Bottom Achievement Unlocks Bar */}
+      <div className="p-6 bg-neutral-900/60 border border-neutral-800 rounded-2xl flex flex-col sm:flex-row justify-between items-center gap-4 text-xs font-mono">
+        <div className="flex items-center gap-3">
+          <div className="p-2 bg-amber-400/20 text-amber-300 rounded-xl">
+            <Award className="w-5 h-5" />
+          </div>
+          <div>
+            <span className="text-white font-bold">NEXT MILESTONE UNLOCK</span>
+            <p className="text-neutral-400">Complete 3 more orders to earn $50 Gift Card</p>
+          </div>
+        </div>
+
+        <button className="px-5 py-2.5 bg-amber-400 text-black font-bold rounded-full hover:bg-amber-300 transition-colors">
+          View All Rewards →
+        </button>
       </div>
     </div>
   );
-}
-
-export default AccountOverview19;
+};

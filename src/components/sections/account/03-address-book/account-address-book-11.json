@@ -1,4 +1,7 @@
 {
-  "heading": "Address + Default State — Primary Location Spotlight",
-  "description": "Address management interface prioritizing the primary default shipping location with smooth checkmark badge transitions."
+  "id": "account-address-book-11",
+  "title": "11 — Horizontal Stepper Routing Journey — Destination Slide",
+  "category": "account-address-book",
+  "description": "Horizontal location journey slider with courier dispatch step indicators and fluid panel sliding physics across saved destinations.",
+  "heading": "11 — Horizontal Stepper Routing Journey — Destination Slide"
 }

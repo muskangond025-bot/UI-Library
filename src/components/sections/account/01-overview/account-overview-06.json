@@ -1,6 +1,7 @@
 {
   "id": "account-overview-06",
-  "title": "06 — Recent Activity Focused",
+  "title": "06 — Account Command Center — Tactical Surround Highlight",
   "category": "account-overview",
-  "description": "Account dashboard placing recent activity stream as the hero element with a progressively revealed timeline."
+  "description": "Control-room dashboard language with live status pills, telemetry metrics, and surrounding navigation highlight triggers on hover.",
+  "heading": "06 — Account Command Center — Tactical Surround Highlight"
 }

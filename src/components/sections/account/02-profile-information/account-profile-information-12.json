@@ -2,5 +2,6 @@
   "id": "account-profile-information-12",
   "title": "12 — 3D Profile Card",
   "category": "account-profile-information",
-  "description": "Controlled 3D perspective profile card responding smoothly to pointer coordinates."
+  "description": "Controlled 3D perspective profile card responding smoothly to pointer coordinates.",
+  "heading": "12 — 3D Profile Card"
 }

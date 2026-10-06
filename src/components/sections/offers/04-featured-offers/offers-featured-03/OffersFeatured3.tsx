@@ -1,0 +1,53 @@
+import React from 'react';
+import { motion } from 'framer-motion';
+import { Sparkles, ShoppingBag } from 'lucide-react';
+
+export function OffersFeatured3() {
+  const deals = [
+    { title: '3D Pastel Cloud Headphones', price: '$79', original: '$149', bg: 'bg-pink-100', text: 'text-pink-600', shadow: 'shadow-[inset_-6px_-6px_12px_rgba(255,255,255,0.9),8px_12px_20px_rgba(244,114,182,0.3)]' },
+    { title: 'Bubble Soft Game Controller', price: '$59', original: '$119', bg: 'bg-purple-100', text: 'text-purple-600', shadow: 'shadow-[inset_-6px_-6px_12px_rgba(255,255,255,0.9),8px_12px_20px_rgba(192,132,252,0.3)]' },
+    { title: 'Clay Minimal Smart Pod', price: '$99', original: '$189', bg: 'bg-sky-100', text: 'text-sky-600', shadow: 'shadow-[inset_-6px_-6px_12px_rgba(255,255,255,0.9),8px_12px_20px_rgba(56,189,248,0.3)]' }
+  ];
+
+  return (
+    <div className="w-full bg-slate-100 text-slate-800 p-8 sm:p-12 rounded-[40px] font-sans border-4 border-white shadow-[0_20px_50px_rgba(0,0,0,0.06)]">
+      <div className="max-w-5xl mx-auto space-y-10">
+        <div className="text-center space-y-3">
+          <div className="inline-flex items-center gap-2 bg-purple-500 text-white font-bold text-xs px-4 py-2 rounded-full shadow-[inset_-3px_-3px_6px_rgba(0,0,0,0.2),4px_6px_12px_rgba(168,85,247,0.4)]">
+            <Sparkles className="w-4 h-4" /> CLAYMORPHIC 3D FEATURED
+          </div>
+          <h2 className="text-4xl font-extrabold text-slate-900 tracking-tight">Inflated Pastel Cloud Offers</h2>
+          <p className="text-slate-500 text-sm max-w-md mx-auto">Tactile 3D inflated shapes with smooth spring motion</p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {deals.map((item, idx) => (
+            <motion.div
+              key={idx}
+              whileHover={{ scale: 1.04, y: -6 }}
+              className={`p-6 rounded-[36px] ${item.bg} ${item.shadow} border-2 border-white flex flex-col justify-between`}
+            >
+              <div>
+                <div className="w-full h-40 rounded-[28px] bg-white/80 shadow-[inset_4px_4px_8px_rgba(0,0,0,0.08)] mb-6 flex items-center justify-center">
+                  <ShoppingBag className={`w-14 h-14 ${item.text}`} />
+                </div>
+                <h3 className="font-extrabold text-xl text-slate-800 mb-2">{item.title}</h3>
+              </div>
+
+              <div className="flex items-center justify-between pt-4 border-t border-black/5">
+                <div>
+                  <span className="text-2xl font-black text-slate-900">{item.price}</span>
+                  <span className="text-xs text-slate-400 line-through ml-2">{item.original}</span>
+                </div>
+                <button className={`px-5 py-3 rounded-2xl bg-white font-extrabold text-xs uppercase shadow-[inset_-2px_-2px_4px_rgba(0,0,0,0.1),3px_5px_10px_rgba(0,0,0,0.1)] ${item.text} active:scale-95 transition-transform`}>
+                  Claim
+                </button>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+export default OffersFeatured3;

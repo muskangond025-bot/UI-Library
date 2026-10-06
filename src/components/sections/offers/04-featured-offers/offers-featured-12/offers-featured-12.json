@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-12",
+  "name": "Bento Grid Featured Showpiece",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Bento Showpiece",
+  "description": "Asymmetric bento box hero tile with integrated video preview area and mini feature tiles.",
+  "settings": {
+    "title": "Bento Grid Featured Showpiece",
+    "subtitle": "Asymmetric bento box hero tile with integrated video preview area and mini feature tiles.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

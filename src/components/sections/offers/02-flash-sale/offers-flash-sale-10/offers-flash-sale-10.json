@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-10",
+  "name": "Digital Ledger Terminal Stock Ticker",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "Digital Ledger",
+  "description": "Monospace financial terminal ticker layout with rapid live stock count-down counters and code syntax elements.",
+  "settings": {
+    "title": "Digital Ledger Terminal Stock Ticker",
+    "subtitle": "Monospace financial terminal ticker layout with rapid live stock count-down counters and code syntax elements.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "offers-deals-grid-13",
+  "name": "Radial Category Orbit Deal Compass",
+  "category": "offers-deals-grid",
+  "type": "deals-grid",
+  "variant": "Radial Orbit",
+  "description": "Central circular deal category compass hub with surrounding deal satellite nodes in synchronized rhythm.",
+  "settings": {
+    "title": "Radial Category Orbit Deal Compass",
+    "subtitle": "Central circular deal category compass hub with surrounding deal satellite nodes in synchronized rhythm.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

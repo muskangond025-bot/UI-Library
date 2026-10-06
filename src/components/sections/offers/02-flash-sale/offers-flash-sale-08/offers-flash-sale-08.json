@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-08",
+  "name": "Interactive 3D Gyro Perspective Card",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "3D Gyrocard",
+  "description": "Interactive mouse-tracking 3D tilt perspective hero card with dynamic light specular reflection sheen.",
+  "settings": {
+    "title": "Interactive 3D Gyro Perspective Card",
+    "subtitle": "Interactive mouse-tracking 3D tilt perspective hero card with dynamic light specular reflection sheen.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

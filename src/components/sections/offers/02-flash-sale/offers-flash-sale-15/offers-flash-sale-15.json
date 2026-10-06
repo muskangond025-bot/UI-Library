@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-15",
+  "name": "Real-Time Stock Depletion Activity Stream",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "Stock Depletion Stream",
+  "description": "Live purchasing ticker notifications, stock percentage depletion meters, and urgency badge triggers.",
+  "settings": {
+    "title": "Real-Time Stock Depletion Activity Stream",
+    "subtitle": "Live purchasing ticker notifications, stock percentage depletion meters, and urgency badge triggers.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

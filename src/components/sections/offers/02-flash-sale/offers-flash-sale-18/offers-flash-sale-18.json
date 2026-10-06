@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-18",
+  "name": "Frosted Glassmorphism Glow Spotlight",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "Glassmorphism Spotlight",
+  "description": "Frosted glassmorphic container with vibrant multi-color backdrop blur glow and cursor light tracker.",
+  "settings": {
+    "title": "Frosted Glassmorphism Glow Spotlight",
+    "subtitle": "Frosted glassmorphic container with vibrant multi-color backdrop blur glow and cursor light tracker.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

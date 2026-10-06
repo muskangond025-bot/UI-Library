@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-08",
+  "name": "Minimalist Clean White Grid Slate",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Minimalist Clean",
+  "description": "Ultra-clean white background, soft slate borders, floating image previews, subtle pill badges.",
+  "settings": {
+    "title": "Minimalist Clean White Grid Slate",
+    "subtitle": "Ultra-clean white background, soft slate borders, floating image previews, subtle pill badges.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

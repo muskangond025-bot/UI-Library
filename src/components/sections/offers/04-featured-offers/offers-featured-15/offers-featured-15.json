@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-15",
+  "name": "Full-Width Hero Slider Showcase",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Hero Slider",
+  "description": "Cinematic full-bleed hero banner with dynamic category selector controls.",
+  "settings": {
+    "title": "Full-Width Hero Slider Showcase",
+    "subtitle": "Cinematic full-bleed hero banner with dynamic category selector controls.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

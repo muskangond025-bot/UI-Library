@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-19",
+  "name": "Frosted Glassmorphism Prism Card",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "Glassmorphism Prism",
+  "description": "Iridescent chromatic border frosted glass hero card with liquid blur background dynamics.",
+  "settings": {
+    "title": "Frosted Glassmorphism Prism Card",
+    "subtitle": "Iridescent chromatic border frosted glass hero card with liquid blur background dynamics.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

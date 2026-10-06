@@ -1,4 +1,5 @@
 {
   "heading": "Saved Product Timeline — Activity Log Reveal",
-  "description": "Sequential timeline visualization of saved product events (Saved -> Price Changed -> Stock Updated)."
+  "description": "Sequential timeline visualization of saved product events (Saved -> Price Changed -> Stock Updated).",
+  "title": "Saved Product Timeline — Activity Log Reveal"
 }

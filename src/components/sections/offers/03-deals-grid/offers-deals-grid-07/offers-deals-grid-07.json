@@ -1,0 +1,14 @@
+{
+  "id": "offers-deals-grid-07",
+  "name": "Tactical Radar Value Recon Matrix",
+  "category": "offers-deals-grid",
+  "type": "deals-grid",
+  "variant": "Tactical Telemetry",
+  "description": "Dark telemetry terminal, precision percentage savings meters, combat green badges, and inventory telemetry.",
+  "settings": {
+    "title": "Tactical Radar Value Recon Matrix",
+    "subtitle": "Dark telemetry terminal, precision percentage savings meters, combat green badges, and inventory telemetry.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

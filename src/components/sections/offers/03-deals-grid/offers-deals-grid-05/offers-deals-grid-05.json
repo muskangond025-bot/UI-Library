@@ -1,0 +1,14 @@
+{
+  "id": "offers-deals-grid-05",
+  "name": "Asymmetric Bento Clearance & Outlet Hub",
+  "category": "offers-deals-grid",
+  "type": "deals-grid",
+  "variant": "Bento Grid",
+  "description": "Featured hero deal bento tile surrounded by category price drop widgets and live percentage discount badges.",
+  "settings": {
+    "title": "Asymmetric Bento Clearance & Outlet Hub",
+    "subtitle": "Featured hero deal bento tile surrounded by category price drop widgets and live percentage discount badges.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

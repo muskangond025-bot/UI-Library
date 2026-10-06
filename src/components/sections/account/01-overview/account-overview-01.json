@@ -1,6 +1,7 @@
 {
   "id": "account-overview-01",
-  "title": "01 — Personal Account Dashboard",
+  "title": "01 — Editorial Account Dashboard — Masked Typography Motion",
   "category": "account-overview",
-  "description": "Personal account home featuring greeting header, stats overview, recent order snapshot, and quick action cards with staggered module reveal motion."
+  "description": "Editorial account overview using asymmetric profile modules with masked typography clip transitions and generous editorial whitespace.",
+  "heading": "01 — Editorial Account Dashboard — Masked Typography Motion"
 }

@@ -1,64 +1,120 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { Layers } from 'lucide-react';
 
-export function AccountAddressBook7() {
-  const [addresses, setAddresses] = useState([
-    { id: '1', title: 'PRIMARY HOME', recipient: 'Alex Morgan', details: '742 Evergreen Terrace, Springfield, IL 62704', default: true },
-    { id: '2', title: 'WORK OFFICE', recipient: 'Alex Morgan', details: '100 Innovation Way, Ste 400, San Francisco, CA 94105', default: false },
-    { id: '3', title: 'WAREHOUSE DROP', recipient: 'Alex Morgan', details: '88 Ocean Drive, Miami, FL 33139', default: false }
-  ]);
+const mockCards = [
+  {
+    id: 'rolo-1',
+    tab: 'RESIDENCE',
+    title: 'Primary Residence Penthouse',
+    recipient: 'Alex Morgan',
+    street: '450 Fashion Avenue, Penthouse 14B',
+    city: 'New York, NY 10001',
+    color: 'bg-slate-900 border-slate-700 text-slate-100',
+    accent: 'bg-indigo-500',
+    isDefault: true,
+  },
+  {
+    id: 'rolo-2',
+    tab: 'STUDIO',
+    title: 'Design Studio Workspace',
+    recipient: 'Alex Morgan // Studio',
+    street: '88 Wythe Avenue, Suite 402',
+    city: 'Brooklyn, NY 11211',
+    color: 'bg-stone-900 border-stone-700 text-stone-100',
+    accent: 'bg-emerald-500',
+    isDefault: false,
+  },
+  {
+    id: 'rolo-3',
+    tab: 'VILLA',
+    title: 'East Hampton Villa',
+    recipient: 'Alex Morgan',
+    street: '142 Ocean Drive',
+    city: 'East Hampton, NY 11937',
+    color: 'bg-zinc-900 border-zinc-700 text-zinc-100',
+    accent: 'bg-amber-500',
+    isDefault: false,
+  }
+];
+
+export const AccountAddressBook7: React.FC = () => {
+  const [activeCardId, setActiveCardId] = useState<string>('rolo-1');
+  const [isFanned, setIsFanned] = useState<boolean>(false);
 
   return (
-    <section className="w-full min-h-[600px] bg-white text-gray-900 py-16 px-6 font-sans">
-      <div className="max-w-4xl mx-auto">
-        <div className="flex items-center justify-between pb-8 mb-4 border-b border-gray-100">
-          <div>
-            <span className="text-xs uppercase tracking-widest text-gray-400 font-semibold">Account Address Directory</span>
-            <h2 className="text-2xl font-light text-gray-900 mt-1 tracking-tight">Saved Addresses</h2>
-          </div>
-          <button className="px-4 py-2 border border-gray-900 text-xs uppercase tracking-widest font-semibold hover:bg-gray-900 hover:text-white transition-all">
-            + New Address
-          </button>
+    <div className="w-full bg-[#121214] text-neutral-100 min-h-[750px] p-6 sm:p-10 font-sans border border-neutral-800 rounded-3xl">
+      {/* Header */}
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center pb-6 border-b border-neutral-800 mb-8 gap-4">
+        <div>
+          <span className="text-xs font-mono uppercase tracking-widest text-neutral-400">PHYSICAL ROLODEX DECK</span>
+          <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-white mt-1">Rolodex Address Deck</h1>
+          <p className="text-xs text-neutral-400 mt-1">Click index tabs or hover deck to cycle saved delivery cards</p>
         </div>
 
-        <div className="divide-y divide-gray-100">
-          {addresses.map((item) => (
-            <motion.div
-              key={item.id}
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              className="py-8 group flex flex-col md:flex-row md:items-center justify-between gap-4 transition-colors"
-            >
-              <div className="space-y-1">
-                <div className="flex items-center gap-3">
-                  <span className="text-xs font-bold tracking-widest text-gray-400 uppercase">{item.title}</span>
-                  {item.default && (
-                    <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-gray-100 text-gray-700">
-                      DEFAULT
-                    </span>
-                  )}
-                </div>
-                <h3 className="text-lg font-medium text-gray-900">{item.recipient}</h3>
-                <p className="text-sm text-gray-500 font-light">{item.details}</p>
-              </div>
+        <button
+          onClick={() => setIsFanned(!isFanned)}
+          className="px-4 py-2 bg-neutral-800 hover:bg-neutral-700 text-xs font-mono rounded-full border border-neutral-700 flex items-center gap-2 transition-colors"
+        >
+          <Layers className="w-4 h-4 text-amber-400" />
+          <span>{isFanned ? 'Collapse Rolodex' : 'Fan Out Rolodex'}</span>
+        </button>
+      </div>
 
-              <div className="flex items-center gap-4 text-xs font-semibold tracking-wider">
-                <button className="text-gray-400 hover:text-gray-900 transition-colors uppercase">Edit</button>
-                {!item.default && (
-                  <button
-                    onClick={() => setAddresses(prev => prev.map(a => ({ ...a, default: a.id === item.id })))}
-                    className="text-gray-400 hover:text-gray-900 transition-colors uppercase"
-                  >
-                    Set Default
-                  </button>
+      {/* Main Rolodex Stack Area */}
+      <div 
+        onMouseEnter={() => setIsFanned(true)}
+        onMouseLeave={() => setIsFanned(false)}
+        className="max-w-3xl mx-auto my-6 relative min-h-[460px] flex items-center justify-center"
+      >
+        {mockCards.map((card, idx) => {
+          const isActive = activeCardId === card.id;
+          const rotation = isFanned ? (idx - 1) * 8 : (idx - 1) * 3;
+          const yOffset = isFanned ? idx * 30 : idx * 15;
+          const scale = isActive ? 1.02 : 1 - idx * 0.04;
+
+          return (
+            <motion.div
+              key={card.id}
+              onClick={() => setActiveCardId(card.id)}
+              animate={{
+                rotate: rotation,
+                y: yOffset,
+                scale: scale,
+                zIndex: isActive ? 40 : 10 - idx,
+              }}
+              transition={{ type: 'spring', stiffness: 260, damping: 22 }}
+              className={`absolute w-full p-8 border-2 rounded-3xl cursor-pointer shadow-2xl transition-shadow ${card.color} ${isActive ? 'ring-2 ring-amber-400/80 shadow-amber-500/10' : 'hover:border-neutral-500'}`}
+            >
+              <div className="flex justify-between items-center mb-6">
+                <div className="flex items-center gap-4">
+                  <div className={`px-3 py-1 rounded-lg text-xs font-mono font-bold uppercase text-white ${card.accent}`}>
+                    ROLODEX // {card.tab}
+                  </div>
+                  <h2 className="text-xl font-bold text-white">{card.title}</h2>
+                </div>
+
+                {card.isDefault && (
+                  <span className="text-xs font-mono px-3 py-1 bg-amber-400/20 text-amber-300 border border-amber-400/30 rounded-full font-bold">
+                    DEFAULT ADDRESS
+                  </span>
                 )}
               </div>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
 
-export default AccountAddressBook7;
+              <div className="p-4 bg-neutral-950/70 rounded-2xl border border-neutral-800 text-xs font-mono space-y-1">
+                <p className="text-white font-bold">{card.recipient}</p>
+                <p className="text-neutral-300">{card.street}</p>
+                <p className="text-neutral-400">{card.city}</p>
+              </div>
+
+              <div className="pt-6 border-t border-neutral-800 flex justify-between items-center text-xs font-mono mt-6">
+                <span className="text-neutral-400">{isActive ? 'ACTIVE ROLODEX ITEM' : 'CLICK TO REVEAL'}</span>
+                <button className="text-amber-300 font-bold hover:underline">Edit Rolodex Card →</button>
+              </div>
+            </motion.div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};

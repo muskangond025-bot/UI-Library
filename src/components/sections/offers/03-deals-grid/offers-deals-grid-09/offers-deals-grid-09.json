@@ -1,0 +1,14 @@
+{
+  "id": "offers-deals-grid-09",
+  "name": "Horizontal Multi-Tier Bundle Savings Hub",
+  "category": "offers-deals-grid",
+  "type": "deals-grid",
+  "variant": "Bundle Savings",
+  "description": "Multi-tier bundle deal calculator (Buy 1 Get 20%, Buy 2 Get 40%, Buy 3 Get 60%) with interactive selector.",
+  "settings": {
+    "title": "Horizontal Multi-Tier Bundle Savings Hub",
+    "subtitle": "Multi-tier bundle deal calculator (Buy 1 Get 20%, Buy 2 Get 40%, Buy 3 Get 60%) with interactive selector.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

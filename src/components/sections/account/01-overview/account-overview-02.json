@@ -1,6 +1,7 @@
 {
   "id": "account-overview-02",
-  "title": "02 — Premium Profile Hero",
+  "title": "02 — Profile Hero + Account Modules — Directional Staggered Entrance",
   "category": "account-overview",
-  "description": "Large editorial profile hero featuring VIP membership details, VIP perk controls, and layered motion reveal for key customer account shortcuts."
+  "description": "Oversized profile hero banner with structured solid account module cards entering through multi-directional slide physics.",
+  "heading": "02 — Profile Hero + Account Modules — Directional Staggered Entrance"
 }

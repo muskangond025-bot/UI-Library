@@ -1,5 +1,5 @@
 import React from 'react';
-import { homeCategories, productCategories, cartCategories, checkoutCategories, orderCategories, accountCategories } from './navigationData';
+import { homeCategories, productCategories, cartCategories, checkoutCategories, orderCategories, accountCategories, offersCategories } from './navigationData';
 import { ChevronDown } from 'lucide-react';
 
 interface NavbarProps {
@@ -14,6 +14,7 @@ export function SectionLibraryNavbar({ activeCategory, onSelectCategory }: Navba
   const isCheckoutActive = activeCategory === 'checkout' || checkoutCategories.some(c => c.id === activeCategory);
   const isOrderActive = activeCategory === 'order' || orderCategories.some(c => c.id === activeCategory);
   const isAccountActive = activeCategory === 'account' || accountCategories.some(c => c.id === activeCategory);
+  const isOffersActive = activeCategory === 'offers' || offersCategories.some(c => c.id === activeCategory);
 
   const handleSubcategoryClick = (id: string) => {
     onSelectCategory(id);
@@ -188,9 +189,37 @@ export function SectionLibraryNavbar({ activeCategory, onSelectCategory }: Navba
                 ))}
               </div>
             </div>
+
+            {/* OFFERS / DEALS Dropdown */}
+            <div className="group relative h-full flex items-center">
+              <button 
+                onClick={() => {
+                  handleSubcategoryClick(offersCategories[0].id);
+                }}
+                className={`flex items-center gap-1 text-sm font-semibold uppercase tracking-wide transition-colors h-full ${
+                  isOffersActive ? 'text-black' : 'text-gray-400 hover:text-black'
+                }`}
+              >
+                OFFERS / DEALS
+                <ChevronDown size={14} className="opacity-50" />
+              </button>
+              
+              <div className="absolute top-full left-0 w-64 bg-white border border-gray-200 shadow-xl rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all flex flex-col py-2 max-h-[70vh] overflow-y-auto z-[10000]">
+                {offersCategories.map((cat) => (
+                  <button
+                    key={cat.id}
+                    onClick={() => handleSubcategoryClick(cat.id)}
+                    className="text-left px-4 py-2 text-xs font-medium text-gray-600 hover:text-black hover:bg-gray-50 uppercase tracking-wider transition-colors"
+                  >
+                    {cat.label}
+                  </button>
+                ))}
+              </div>
+            </div>
           </nav>
         </div>
       </div>
     </div>
   );
 }
+

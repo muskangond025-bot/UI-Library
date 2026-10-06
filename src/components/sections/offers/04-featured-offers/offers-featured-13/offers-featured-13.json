@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-13",
+  "name": "Timeline Category Story Journey",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Category Journey",
+  "description": "Step-by-step horizontal category narrative tabs (Trending -> Editors Pick -> Vault Drop).",
+  "settings": {
+    "title": "Timeline Category Story Journey",
+    "subtitle": "Step-by-step horizontal category narrative tabs (Trending -> Editors Pick -> Vault Drop).",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-02",
+  "name": "Neumorphic Soft Snow Light Palette",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Neumorphism",
+  "description": "Extruded soft UI light theme, dual directional drop shadows, tactile press buttons.",
+  "settings": {
+    "title": "Neumorphic Soft Snow Light Palette",
+    "subtitle": "Extruded soft UI light theme, dual directional drop shadows, tactile press buttons.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-20",
+  "name": "Award Showcase Luxury Velvet Slate",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "Award Luxury Slate",
+  "description": "Midnight slate velvet background, SVG animated telemetry paths, gold metallic typography, and luxury borders.",
+  "settings": {
+    "title": "Award Showcase Luxury Velvet Slate",
+    "subtitle": "Midnight slate velvet background, SVG animated telemetry paths, gold metallic typography, and luxury borders.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-03",
+  "name": "Claymorphic 3D Pastel Cloud Hub",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Claymorphism",
+  "description": "Bulging 3D soft plastic pastel geometry, inner ambient shadows, spring hover animations.",
+  "settings": {
+    "title": "Claymorphic 3D Pastel Cloud Hub",
+    "subtitle": "Bulging 3D soft plastic pastel geometry, inner ambient shadows, spring hover animations.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

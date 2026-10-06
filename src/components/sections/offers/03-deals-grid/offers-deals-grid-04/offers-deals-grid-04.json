@@ -1,0 +1,14 @@
+{
+  "id": "offers-deals-grid-04",
+  "name": "Flat Swiss Minimalist Discount Directory",
+  "category": "offers-deals-grid",
+  "type": "deals-grid",
+  "variant": "Flat Design",
+  "description": "Stark 2D monochrome Swiss architecture, clean 1px structural grid lines, no shadows, pure typographic precision.",
+  "settings": {
+    "title": "Flat Swiss Minimalist Discount Directory",
+    "subtitle": "Stark 2D monochrome Swiss architecture, clean 1px structural grid lines, no shadows, pure typographic precision.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

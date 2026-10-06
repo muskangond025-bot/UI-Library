@@ -1,0 +1,14 @@
+{
+  "id": "offers-deals-grid-01",
+  "name": "Neo-Brutalist Bargain Vault & Sticker Tags",
+  "category": "offers-deals-grid",
+  "type": "deals-grid",
+  "variant": "Neo-Brutalism",
+  "description": "Raw 4px black outlines, neon discount badges, stark typographic hierarchy, and tactile sticker press effects.",
+  "settings": {
+    "title": "Neo-Brutalist Bargain Vault & Sticker Tags",
+    "subtitle": "Raw 4px black outlines, neon discount badges, stark typographic hierarchy, and tactile sticker press effects.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

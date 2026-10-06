@@ -1,63 +1,102 @@
-import React from 'react';
-import { motion, Variants } from 'framer-motion';
-import { User, ShoppingBag, Heart, MapPin, Award, CreditCard, Shield, Settings } from 'lucide-react';
+import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { ShoppingBag, Heart, Award, Star, MapPin } from 'lucide-react';
 
-const cardVariants = [
-  { initial: { opacity: 0, x: -50 }, animate: { opacity: 1, x: 0 } },
-  { initial: { opacity: 0, y: -50 }, animate: { opacity: 1, y: 0 } },
-  { initial: { opacity: 0, x: 50 }, animate: { opacity: 1, x: 0 } },
-  { initial: { opacity: 0, y: 50 }, animate: { opacity: 1, y: 0 } },
+const mockRadialNodes = [
+  { id: 'orders', title: 'Orders', icon: ShoppingBag, count: '18 Total', detail: '3 active shipments • 1 arriving today (#DH-9941)', color: 'border-blue-500 text-blue-400 bg-blue-500/10' },
+  { id: 'wishlist', title: 'Wishlist', icon: Heart, count: '14 Saved', detail: '4 items on price drop radar ($180 Wool Blazer)', color: 'border-rose-500 text-rose-400 bg-rose-500/10' },
+  { id: 'rewards', title: 'Rewards', icon: Award, count: '3,450 Pts', detail: 'Platinum VIP status • $35 credit voucher ready', color: 'border-amber-500 text-amber-400 bg-amber-500/10' },
+  { id: 'reviews', title: 'Reviews', icon: Star, count: '4.9 ★ Avg', detail: '9 published reviews • Top helpful contributor', color: 'border-purple-500 text-purple-400 bg-purple-500/10' },
+  { id: 'addresses', title: 'Addresses', icon: MapPin, count: '2 Saved', detail: 'Default: Primary Residence (New York, NY)', color: 'border-emerald-500 text-emerald-400 bg-emerald-500/10' },
 ];
 
-export function AccountOverview13() {
-  const hubCards = [
-    { title: 'Customer Profile', stat: 'Alex Morgan', desc: 'Gold Tier • 80% Complete', icon: User, color: 'from-blue-600 to-indigo-600' },
-    { title: 'Orders Hub', stat: '12 Orders', desc: 'Latest: #DH-28491', icon: ShoppingBag, color: 'from-cyan-600 to-blue-600' },
-    { title: 'Saved Wishlist', stat: '8 Items', desc: 'Saved for later', icon: Heart, color: 'from-pink-600 to-rose-600' },
-    { title: 'Saved Addresses', stat: '3 Hubs', desc: 'Primary: Home', icon: MapPin, color: 'from-emerald-600 to-teal-600' },
-  ];
+export const AccountOverview13: React.FC = () => {
+  const [activeNode, setActiveNode] = useState<string>('orders');
+
+  const selectedNode = mockRadialNodes.find(n => n.id === activeNode)!;
 
   return (
-    <div className="w-full bg-slate-950 text-white p-6 md:p-12 min-h-[680px] flex items-center">
-      <div className="max-w-6xl mx-auto w-full space-y-8">
-        <div className="text-center space-y-2">
-          <span className="px-3 py-1 bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 rounded-full text-xs font-mono uppercase">
-            DISTINCTIVE CARD HUB
-          </span>
-          <h1 className="text-3xl font-bold text-white">Account Function Hub</h1>
-        </div>
+    <div className="w-full bg-[#0b0c10] text-[#c5c6c7] min-h-[750px] p-6 sm:p-10 font-sans border border-neutral-800 rounded-3xl flex flex-col justify-between">
+      {/* Title */}
+      <div className="pb-6 border-b border-neutral-800">
+        <span className="text-xs font-mono uppercase tracking-widest text-neutral-400">RADIAL ORBIT NAVIGATION</span>
+        <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-white mt-1">Circular Account Hub</h1>
+      </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {hubCards.map((card, idx) => {
-            const Icon = card.icon;
-            const motionStyle = cardVariants[idx % cardVariants.length];
+      {/* Main Orbital Avatar Centerpiece */}
+      <div className="my-10 flex flex-col items-center justify-center relative">
+        <div className="relative w-72 h-72 sm:w-80 sm:h-80 flex items-center justify-center">
+          {/* Orbit Line Ring SVG */}
+          <svg className="absolute inset-0 w-full h-full overflow-visible">
+            <circle cx="50%" cy="50%" r="42%" fill="none" stroke="#1f2833" strokeWidth="2" strokeDasharray="6 6" />
+            <motion.circle 
+              cx="50%" 
+              cy="50%" 
+              r="42%" 
+              fill="none" 
+              stroke="#66fcf1" 
+              strokeWidth="2"
+              initial={{ pathLength: 0 }}
+              animate={{ pathLength: 1 }}
+              transition={{ duration: 1.5, ease: 'easeInOut' }}
+            />
+          </svg>
+
+          {/* Central Profile Avatar */}
+          <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-full overflow-hidden border-4 border-[#66fcf1] shadow-2xl relative z-10 flex flex-col items-center justify-center bg-neutral-900 text-center p-2">
+            <img 
+              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80" 
+              alt="Alex Morgan" 
+              className="w-full h-full object-cover rounded-full"
+            />
+          </div>
+
+          {/* 5 Orbit Buttons around the ring */}
+          {mockRadialNodes.map((node, index) => {
+            const angle = (index / mockRadialNodes.length) * 2 * Math.PI - Math.PI / 2;
+            const radius = 135; // pixel distance from center
+            const x = Math.cos(angle) * radius;
+            const y = Math.sin(angle) * radius;
+            const isActive = activeNode === node.id;
+            const Icon = node.icon;
+
             return (
-              <motion.div
-                key={idx}
-                initial={motionStyle.initial}
-                animate={motionStyle.animate}
-                transition={{ duration: 0.5, delay: idx * 0.1 }}
-                className="bg-slate-900/90 rounded-3xl p-8 border border-slate-800 hover:border-slate-700 transition-all shadow-xl group relative overflow-hidden flex flex-col justify-between"
+              <motion.button
+                key={node.id}
+                onClick={() => setActiveNode(node.id)}
+                style={{ transform: `translate(${x}px, ${y}px)` }}
+                whileHover={{ scale: 1.2 }}
+                className={`absolute w-12 h-12 rounded-full border-2 flex items-center justify-center transition-all duration-300 shadow-xl ${isActive ? `${node.color} scale-110 ring-4 ring-[#66fcf1]/30` : 'border-neutral-700 bg-neutral-900 text-neutral-400 hover:border-neutral-500'}`}
               >
-                <div className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br ${card.color} opacity-10 rounded-bl-full`} />
-                <div className="flex items-center justify-between mb-6">
-                  <div className={`p-4 rounded-2xl bg-gradient-to-br ${card.color} text-white shadow-lg`}>
-                    <Icon className="w-6 h-6" />
-                  </div>
-                  <span className="text-xs font-mono text-slate-500">MODULE 0{idx + 1}</span>
-                </div>
-                <div>
-                  <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">{card.title}</span>
-                  <h3 className="text-2xl font-bold text-white mt-1">{card.stat}</h3>
-                  <p className="text-xs text-slate-400 mt-1">{card.desc}</p>
-                </div>
-              </motion.div>
+                <Icon className="w-5 h-5" />
+              </motion.button>
             );
           })}
         </div>
       </div>
+
+      {/* Selected Radial Detail Panel */}
+      <div className="bg-neutral-900/80 border border-neutral-800 rounded-2xl p-6">
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={activeNode}
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -15 }}
+            transition={{ duration: 0.3 }}
+            className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4"
+          >
+            <div>
+              <span className="text-xs font-mono uppercase text-[#66fcf1]">{selectedNode.title} Hub</span>
+              <h3 className="text-xl font-bold text-white mt-0.5">{selectedNode.count}</h3>
+              <p className="text-xs text-neutral-300 mt-1 font-mono">{selectedNode.detail}</p>
+            </div>
+            <button className="px-5 py-2 bg-[#66fcf1] text-black font-bold font-mono text-xs rounded-full hover:bg-white transition-colors">
+              Manage {selectedNode.title} →
+            </button>
+          </motion.div>
+        </AnimatePresence>
+      </div>
     </div>
   );
-}
-
-export default AccountOverview13;
+};

@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-17",
+  "name": "Gamified Unlock & Milestone Progress Sale",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "Gamified Progress",
+  "description": "Tiered milestone unlock progress bar (Spend  -> Unlock 30%, Spend  -> Unlock 50% Off) with claim badges.",
+  "settings": {
+    "title": "Gamified Unlock & Milestone Progress Sale",
+    "subtitle": "Tiered milestone unlock progress bar (Spend  -> Unlock 30%, Spend  -> Unlock 50% Off) with claim badges.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

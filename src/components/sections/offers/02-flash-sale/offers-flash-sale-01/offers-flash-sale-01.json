@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-01",
+  "name": "Neo-Brutalist Ticker & Countdown",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "Neo-Brutalism",
+  "description": "Stark 4px black borders, vibrant warning ticker tape, hard drop-shadows, and raw tactile countdown ticks.",
+  "settings": {
+    "title": "Neo-Brutalist Ticker & Countdown",
+    "subtitle": "Stark 4px black borders, vibrant warning ticker tape, hard drop-shadows, and raw tactile countdown ticks.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

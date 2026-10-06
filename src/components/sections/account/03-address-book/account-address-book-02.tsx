@@ -1,131 +1,102 @@
 import React, { useState } from 'react';
-import { motion, Variants } from 'framer-motion';
-import { Home, Briefcase, MapPin, Sparkles, Check, Plus, Edit2, Trash2 } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { MapPin, Plus, Copy, Edit2 } from 'lucide-react';
 
 const mockAddresses = [
   {
-    id: '1',
-    label: 'Home Destination',
+    id: 'neu-1',
+    title: 'PRIMARY DISPATCH',
+    recipient: 'Alex Morgan',
+    street: '450 Fashion Ave, Penthouse 14B',
+    city: 'New York, NY 10001',
     isDefault: true,
-    recipient: 'Alex Morgan',
-    phone: '+1 (555) 234-5678',
-    street: '742 Evergreen Terrace',
-    city: 'Springfield, OR 97477',
-    icon: Home,
+    passkey: 'Doorman Chime #14B Active',
   },
   {
-    id: '2',
-    label: 'Corporate Office',
+    id: 'neu-2',
+    title: 'STUDIO HQ WORKSPACE',
+    recipient: 'Alex Morgan // Studio',
+    street: '88 Wythe Ave, Suite 402',
+    city: 'Brooklyn, NY 11211',
     isDefault: false,
-    recipient: 'Alex Morgan (Studio)',
-    phone: '+1 (555) 987-6543',
-    street: '100 Cybernetic Way, Suite 400',
-    city: 'San Francisco, CA 94107',
-    icon: Briefcase,
+    passkey: 'Elevator Code #4902 Active',
   },
   {
-    id: '3',
-    label: 'Vacation Villa',
-    isDefault: false,
+    id: 'neu-3',
+    title: 'HAMPTONS VILLAS',
     recipient: 'Alex Morgan',
-    phone: '+1 (555) 456-7890',
-    street: '12 Ocean Drive',
-    city: 'Miami, FL 33139',
-    icon: MapPin,
-  },
+    street: '142 Ocean Drive',
+    city: 'East Hampton, NY 11937',
+    isDefault: false,
+    passkey: 'Perimeter Gate Porch Drop',
+  }
 ];
 
-const glassVariants: Variants = {
-  hidden: { opacity: 0, scale: 0.95 },
-  visible: { opacity: 1, scale: 1, transition: { duration: 0.6, ease: 'easeInOut' } }
-};
-
-export function AccountAddressBook2() {
-  const [addresses, setAddresses] = useState(mockAddresses);
+export const AccountAddressBook2: React.FC = () => {
+  const [activeId, setActiveId] = useState<string>('neu-1');
 
   return (
-    <div className="w-full bg-slate-950 text-white p-6 md:p-12 min-h-[700px] flex items-center relative overflow-hidden">
-      {/* Background Orbs */}
-      <div className="absolute top-10 left-10 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-10 right-10 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl pointer-events-none" />
-
-      <div className="max-w-6xl mx-auto w-full space-y-8 relative z-10">
-        {/* Glass Header */}
-        <div className="flex justify-between items-center bg-white/5 backdrop-blur-xl p-6 rounded-3xl border border-white/10 shadow-2xl">
-          <div className="flex items-center gap-3">
-            <div className="p-3 bg-cyan-500/20 text-cyan-300 rounded-2xl border border-cyan-500/30">
-              <Sparkles className="w-6 h-6 animate-pulse" />
-            </div>
-            <div>
-              <span className="text-[10px] font-mono text-cyan-300 uppercase tracking-widest">REACT BITS GLASS CONCEPT</span>
-              <h1 className="text-2xl font-bold text-white">Glassmorphism Saved Address Hub</h1>
-            </div>
-          </div>
-
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="px-5 py-2.5 bg-cyan-500/20 hover:bg-cyan-500/30 text-cyan-300 rounded-xl text-xs font-semibold border border-cyan-500/40 transition-all flex items-center gap-2"
-          >
-            <Plus className="w-4 h-4" /> Add Glass Location
-          </motion.button>
+    <div className="w-full bg-[#e0e5ec] text-[#2d3748] min-h-[750px] p-6 sm:p-12 font-sans rounded-3xl space-y-8">
+      {/* Neumorphic Header */}
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 pb-6 border-b border-gray-300">
+        <div>
+          <span className="text-xs font-mono uppercase tracking-widest text-gray-500">NEUMORPHIC SOFT TACTILE UI</span>
+          <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 tracking-tight mt-1">Tactile Address Directory</h1>
         </div>
 
-        {/* Glass Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {addresses.map((item) => {
-            const Icon = item.icon;
-            return (
-              <motion.div
-                key={item.id}
-                variants={glassVariants}
-                initial="hidden"
-                animate="visible"
-                whileHover={{ y: -6 }}
-                className="bg-white/5 backdrop-blur-2xl p-6 rounded-3xl border border-white/10 shadow-2xl flex flex-col justify-between space-y-6 relative group"
-              >
-                <div className="space-y-4">
-                  <div className="flex items-center justify-between">
-                    <div className="p-3 bg-white/10 text-cyan-300 rounded-2xl border border-white/10">
-                      <Icon className="w-5 h-5" />
-                    </div>
-                    {item.isDefault && (
-                      <span className="px-2.5 py-1 bg-cyan-500/20 text-cyan-300 text-[10px] font-mono border border-cyan-500/30 rounded-full flex items-center gap-1">
-                        <Check className="w-3 h-3" /> Default Hub
-                      </span>
-                    )}
-                  </div>
+        <button 
+          className="px-5 py-3 rounded-2xl font-mono text-xs font-bold text-gray-700 bg-[#e0e5ec] shadow-[6px_6px_12px_#b8b9be,-6px_-6px_12px_#ffffff] active:shadow-[inset_4px_4px_8px_#b8b9be,inset_-4px_-4px_8px_#ffffff] transition-all flex items-center gap-2"
+        >
+          <Plus className="w-4 h-4 text-indigo-600" /> Add Destination
+        </button>
+      </div>
 
-                  <div>
-                    <h3 className="text-lg font-bold text-white">{item.label}</h3>
-                    <p className="text-xs text-slate-300 mt-0.5">{item.recipient}</p>
-                  </div>
-
-                  <div className="text-xs text-slate-300 space-y-1 font-sans">
-                    <p>{item.street}</p>
-                    <p>{item.city}</p>
-                    <p className="text-slate-400 pt-1 font-mono">{item.phone}</p>
-                  </div>
+      {/* 3 Neumorphic Soft Cards */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {mockAddresses.map((addr) => {
+          const isSelected = activeId === addr.id;
+          return (
+            <motion.div
+              key={addr.id}
+              whileHover={{ y: -4 }}
+              onClick={() => setActiveId(addr.id)}
+              className={`p-7 rounded-3xl bg-[#e0e5ec] cursor-pointer transition-all duration-300 flex flex-col justify-between min-h-[320px] ${isSelected ? 'shadow-[inset_6px_6px_12px_#b8b9be,inset_-6px_-6px_12px_#ffffff] border-2 border-indigo-500/50' : 'shadow-[9px_9px_18px_#b8b9be,-9px_-9px_18px_#ffffff]'}`}
+            >
+              <div>
+                <div className="flex justify-between items-center mb-4">
+                  <span className="text-[10px] font-mono font-bold uppercase text-indigo-600 flex items-center gap-1.5">
+                    <MapPin className="w-3.5 h-3.5" /> {addr.title}
+                  </span>
+                  {addr.isDefault && (
+                    <span className="px-3 py-1 text-[10px] font-mono font-bold text-indigo-700 bg-[#e0e5ec] rounded-full shadow-[inset_3px_3px_6px_#b8b9be,inset_-3px_-3px_6px_#ffffff]">
+                      DEFAULT
+                    </span>
+                  )}
                 </div>
 
-                <div className="pt-4 border-t border-white/10 flex items-center justify-between text-xs">
-                  <span className="text-cyan-400 font-mono">Verified Hub</span>
-                  <div className="flex items-center gap-2">
-                    <button className="p-2 bg-white/10 hover:bg-white/20 text-slate-200 rounded-lg">
-                      <Edit2 className="w-3.5 h-3.5" />
-                    </button>
-                    <button className="p-2 bg-white/10 hover:bg-white/20 text-rose-300 rounded-lg">
-                      <Trash2 className="w-3.5 h-3.5" />
-                    </button>
-                  </div>
+                <h3 className="text-lg font-bold text-gray-800">{addr.recipient}</h3>
+                <p className="text-xs text-gray-600 mt-2 font-mono">{addr.street}</p>
+                <p className="text-xs text-gray-500 font-mono mt-0.5">{addr.city}</p>
+
+                <div className="mt-4 p-3 rounded-xl bg-[#e0e5ec] shadow-[inset_3px_3px_6px_#b8b9be,inset_-3px_-3px_6px_#ffffff] text-[11px] font-mono text-gray-600">
+                  <span className="text-indigo-600 font-bold block mb-0.5">Gate Access Passkey:</span>
+                  {addr.passkey}
                 </div>
-              </motion.div>
-            );
-          })}
-        </div>
+              </div>
+
+              {/* Neumorphic Tactile Buttons */}
+              <div className="pt-6 border-t border-gray-300/80 flex justify-between items-center gap-3">
+                <button className="flex-1 py-2.5 rounded-xl font-mono text-[11px] font-bold text-gray-700 bg-[#e0e5ec] shadow-[4px_4px_8px_#b8b9be,-4px_-4px_8px_#ffffff] active:shadow-[inset_2px_2px_5px_#b8b9be,inset_-2px_-2px_5px_#ffffff] transition-all flex justify-center items-center gap-1.5">
+                  <Edit2 className="w-3.5 h-3.5" /> Edit
+                </button>
+                <button className="flex-1 py-2.5 rounded-xl font-mono text-[11px] font-bold text-indigo-600 bg-[#e0e5ec] shadow-[4px_4px_8px_#b8b9be,-4px_-4px_8px_#ffffff] active:shadow-[inset_2px_2px_5px_#b8b9be,inset_-2px_-2px_5px_#ffffff] transition-all flex justify-center items-center gap-1.5">
+                  <Copy className="w-3.5 h-3.5" /> Copy Zip
+                </button>
+              </div>
+            </motion.div>
+          );
+        })}
       </div>
     </div>
   );
-}
-
-export default AccountAddressBook2;
+};

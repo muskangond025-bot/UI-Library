@@ -1,0 +1,14 @@
+{
+  "id": "offers-deals-grid-10",
+  "name": "Digital Financial Ledger & Price Drop Ticker",
+  "category": "offers-deals-grid",
+  "type": "deals-grid",
+  "variant": "Digital Ledger",
+  "description": "Monospace financial tabular ledger layout with real-time price drop deltas and code syntax elements.",
+  "settings": {
+    "title": "Digital Financial Ledger & Price Drop Ticker",
+    "subtitle": "Monospace financial tabular ledger layout with real-time price drop deltas and code syntax elements.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

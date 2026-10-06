@@ -1,0 +1,14 @@
+{
+  "id": "offers-deals-grid-14",
+  "name": "Split-Screen Pinned Category & Deal Stream",
+  "category": "offers-deals-grid",
+  "type": "deals-grid",
+  "variant": "Split Screen Hero",
+  "description": "Pinned 50% left category filter panel with scrollable high-impact product discount stream on the right.",
+  "settings": {
+    "title": "Split-Screen Pinned Category & Deal Stream",
+    "subtitle": "Pinned 50% left category filter panel with scrollable high-impact product discount stream on the right.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

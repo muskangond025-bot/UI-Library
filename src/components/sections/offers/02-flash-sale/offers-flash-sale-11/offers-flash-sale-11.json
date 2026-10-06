@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-11",
+  "name": "Spotlight Hotspot Lens Deal Explorer",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "Spotlight Hotspot",
+  "description": "Interactive circular spotlight magnifier highlighting key deal specs with pulsing pin markers.",
+  "settings": {
+    "title": "Spotlight Hotspot Lens Deal Explorer",
+    "subtitle": "Interactive circular spotlight magnifier highlighting key deal specs with pulsing pin markers.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

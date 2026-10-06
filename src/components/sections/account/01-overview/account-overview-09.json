@@ -1,6 +1,7 @@
 {
   "id": "account-overview-09",
-  "title": "09 — Account Completion",
+  "title": "09 — Data-Ledger Account — Counter Tick & Monospace Rows",
   "category": "account-overview",
-  "description": "Account progress dashboard centered around profile completion with an animated SVG progress ring and missing info checklist."
+  "description": "Finance-grade ledger design with tabular data rows, expandable line items, and animated counter numbers.",
+  "heading": "09 — Data-Ledger Account — Counter Tick & Monospace Rows"
 }

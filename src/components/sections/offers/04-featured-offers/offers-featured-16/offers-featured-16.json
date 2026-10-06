@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-16",
+  "name": "Floating Holographic Product Sphere",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Holographic Sphere",
+  "description": "Central holographic product orbit with floating metric tags and glowing light rays.",
+  "settings": {
+    "title": "Floating Holographic Product Sphere",
+    "subtitle": "Central holographic product orbit with floating metric tags and glowing light rays.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

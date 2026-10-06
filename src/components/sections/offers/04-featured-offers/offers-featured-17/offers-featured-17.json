@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-17",
+  "name": "Masonry Style Featured Tile Mosaic",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Masonry Mosaic",
+  "description": "Dynamic asymmetric masonry tile layout with varying tile aspect ratios.",
+  "settings": {
+    "title": "Masonry Style Featured Tile Mosaic",
+    "subtitle": "Dynamic asymmetric masonry tile layout with varying tile aspect ratios.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

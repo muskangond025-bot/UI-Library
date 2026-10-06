@@ -1,124 +1,128 @@
-import React from 'react';
-import { motion, useMotionValue, useTransform } from 'framer-motion';
-import { Crown, Sparkles, ShoppingBag, Heart, MapPin, Award, ArrowUpRight, Shield, CheckCircle2, ChevronRight, Activity } from 'lucide-react';
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
+import { Sparkles, ArrowUpRight, Activity } from 'lucide-react';
 
-export function AccountOverview20() {
-  const x = useMotionValue(0);
-  const y = useMotionValue(0);
-  const rotateX = useTransform(y, [-80, 80], [6, -6]);
-  const rotateY = useTransform(x, [-80, 80], [-6, 6]);
+const mockData = {
+  user: {
+    name: 'ALEX MORGAN',
+    subtitle: 'PRIVATE PORTFOLIO & PLATINUM VIP',
+    email: 'alex.morgan@example.com',
+    memberId: 'VIP-99401-NY',
+    joined: '2024',
+    tier: 'Platinum Elite Tier',
+  },
+  stats: [
+    { label: 'Active Shipments', val: '03', desc: '1 arriving today (#DH-9941)', trend: '+2 this week' },
+    { label: 'Saved Wishlist', val: '14', desc: '4 price drops active', trend: 'Value $2,840' },
+    { label: 'Reward Points', val: '3,450', desc: '$35 credit balance', trend: 'Platinum Level' },
+    { label: 'Customer Rating', val: '4.9 ★', desc: '9 verified reviews', trend: 'Top Reviewer' },
+  ],
+  telemetry: [20, 35, 45, 30, 60, 75, 90, 85, 95, 110]
+};
 
-  function handleMouseMove(e: React.MouseEvent<HTMLDivElement>) {
-    const rect = e.currentTarget.getBoundingClientRect();
-    x.set(e.clientX - rect.left - rect.width / 2);
-    y.set(e.clientY - rect.top - rect.height / 2);
-  }
-
-  function handleMouseLeave() {
-    x.set(0);
-    y.set(0);
-  }
-
-  const completionPercent = 80;
-  const radius = 42;
-  const circumference = 2 * Math.PI * radius;
-  const strokeDashoffset = circumference - (completionPercent / 100) * circumference;
+export const AccountOverview20: React.FC = () => {
+  const [activeTab, setActiveTab] = useState<'overview' | 'telemetry' | 'actions'>('overview');
 
   return (
-    <div className="w-full bg-[#0a0a0d] text-slate-100 p-8 md:p-14 min-h-[750px] flex items-center">
-      <div className="max-w-6xl mx-auto w-full space-y-10">
-        {/* Award-Winning Master Hero Section */}
-        <motion.div
-          onMouseMove={handleMouseMove}
-          onMouseLeave={handleMouseLeave}
-          style={{ rotateX, rotateY, transformStyle: 'preserve-3d' }}
-          className="relative overflow-hidden bg-gradient-to-r from-amber-950/30 via-slate-900 to-indigo-950/30 rounded-3xl p-8 md:p-12 border border-amber-500/30 shadow-2xl space-y-8"
-        >
-          <div className="absolute top-0 right-0 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
+    <div className="w-full bg-[#08080a] text-[#f5f5f7] min-h-[750px] p-6 sm:p-12 font-sans border border-neutral-800 rounded-3xl flex flex-col justify-between relative overflow-hidden">
+      {/* Luxury Gold Ambient Accent */}
+      <div className="absolute top-0 right-0 w-96 h-96 bg-amber-500/10 rounded-full blur-[140px] pointer-events-none"></div>
 
-          {/* Top Hero Bar */}
-          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 relative z-10">
-            <div className="flex items-center gap-6">
-              <div className="relative">
-                <img
-                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=250&q=80"
-                  alt="Alex Morgan"
-                  className="w-20 h-20 md:w-24 md:h-24 rounded-2xl object-cover ring-2 ring-amber-500/50 shadow-2xl"
-                />
-                <span className="absolute -bottom-1 -right-1 bg-amber-500 text-slate-950 p-1.5 rounded-xl shadow-lg">
-                  <Crown className="w-4 h-4" />
-                </span>
-              </div>
+      {/* Top Bar */}
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center pb-8 border-b border-neutral-800 gap-4 relative z-10">
+        <div>
+          <div className="flex items-center gap-2 text-xs font-mono uppercase tracking-[0.3em] text-amber-300">
+            <Sparkles className="w-3.5 h-3.5" /> AWARD-LEVEL CLIENT DASHBOARD
+          </div>
+          <h1 className="text-3xl sm:text-4xl font-serif text-white uppercase tracking-tight mt-1">{mockData.user.name}</h1>
+        </div>
+
+        <div className="flex items-center gap-3 font-mono text-xs">
+          <button 
+            onClick={() => setActiveTab('overview')}
+            className={`px-4 py-2 rounded-full border transition-all ${activeTab === 'overview' ? 'bg-amber-300 text-black border-amber-300 font-bold' : 'bg-neutral-900 border-neutral-700 text-neutral-300 hover:border-neutral-500'}`}
+          >
+            Overview
+          </button>
+          <button 
+            onClick={() => setActiveTab('telemetry')}
+            className={`px-4 py-2 rounded-full border transition-all ${activeTab === 'telemetry' ? 'bg-amber-300 text-black border-amber-300 font-bold' : 'bg-neutral-900 border-neutral-700 text-neutral-300 hover:border-neutral-500'}`}
+          >
+            Telemetry Chart
+          </button>
+        </div>
+      </div>
+
+      {/* Main Content Area */}
+      <div className="my-8 grid grid-cols-1 lg:grid-cols-12 gap-8 relative z-10">
+        {/* Left Column: 4 Luxury Solid Stat Modules */}
+        <div className="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-6">
+          {mockData.stats.map((s, idx) => (
+            <motion.div
+              key={s.label}
+              initial={{ opacity: 0, y: 25 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.15 * idx, duration: 0.6 }}
+              whileHover={{ y: -5 }}
+              className="p-7 bg-neutral-900/90 border border-neutral-800 rounded-3xl hover:border-amber-400/50 transition-all group flex flex-col justify-between"
+            >
               <div>
-                <div className="flex items-center gap-2">
-                  <span className="px-3 py-1 bg-amber-500/20 text-amber-300 border border-amber-500/30 rounded-full text-xs font-semibold uppercase tracking-wider flex items-center gap-1">
-                    <Sparkles className="w-3.5 h-3.5" /> VIP GOLD MEMBER
-                  </span>
-                  <span className="text-xs text-slate-400 font-mono">ID: #MK-90241</span>
+                <div className="flex justify-between items-center text-xs font-mono text-neutral-400 uppercase">
+                  <span>{s.label}</span>
+                  <span className="text-amber-300 font-bold">{s.trend}</span>
                 </div>
-                <h1 className="text-3xl md:text-5xl font-serif text-white tracking-tight mt-1">
-                  Alex Morgan
-                </h1>
-                <p className="text-xs text-slate-400 mt-1">
-                  alex.morgan@example.com • Preferred Concierge: Express Delivery Hub
-                </p>
+                <div className="text-4xl font-serif font-light text-white mt-3 group-hover:text-amber-200 transition-colors">
+                  {s.val}
+                </div>
               </div>
+              <div className="text-xs text-neutral-400 mt-4 font-mono pt-3 border-t border-neutral-800/80 flex justify-between items-center">
+                <span>{s.desc}</span>
+                <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform text-amber-300" />
+              </div>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* Right Column: Telemetry Curve / Account Summary */}
+        <div className="lg:col-span-4 bg-gradient-to-b from-neutral-900 via-neutral-900 to-neutral-950 border border-neutral-800 rounded-3xl p-7 flex flex-col justify-between">
+          <div>
+            <div className="flex justify-between items-center text-xs font-mono text-neutral-400 mb-4">
+              <span>ENGAGEMENT GRAPH</span>
+              <Activity className="w-4 h-4 text-amber-400" />
             </div>
 
-            {/* SVG Completion Ring inside Hero */}
-            <div className="flex items-center gap-4 bg-slate-950/60 p-4 rounded-2xl border border-amber-500/20">
-              <div className="relative w-16 h-16 flex items-center justify-center">
-                <svg className="w-full h-full transform -rotate-90" viewBox="0 0 100 100">
-                  <circle cx="50" cy="50" r={radius} className="text-slate-800" strokeWidth="6" stroke="currentColor" fill="transparent" />
-                  <motion.circle
-                    cx="50"
-                    cy="50"
-                    r={radius}
-                    className="text-amber-400"
-                    strokeWidth="6"
-                    strokeDasharray={circumference}
-                    initial={{ strokeDashoffset: circumference }}
-                    animate={{ strokeDashoffset }}
-                    transition={{ duration: 1.5, ease: 'easeInOut' }}
-                    strokeLinecap="round"
-                    stroke="currentColor"
-                    fill="transparent"
-                  />
-                </svg>
-                <span className="absolute text-xs font-bold text-amber-400">{completionPercent}%</span>
+            {/* SVG Path Curve */}
+            <div className="h-28 w-full my-4 relative">
+              <svg className="w-full h-full overflow-visible">
+                <motion.path
+                  d="M 0 80 Q 40 40, 80 60 T 160 30 T 240 10 T 320 20"
+                  fill="none"
+                  stroke="#f59e0b"
+                  strokeWidth="3"
+                  initial={{ pathLength: 0 }}
+                  animate={{ pathLength: 1 }}
+                  transition={{ duration: 2, ease: 'easeInOut' }}
+                />
+              </svg>
+            </div>
+
+            <div className="p-4 bg-neutral-950 rounded-2xl border border-neutral-800 mt-4 text-xs font-mono">
+              <div className="flex justify-between text-neutral-400 mb-1">
+                <span>Status</span>
+                <span className="text-emerald-400 font-bold">100% SECURED</span>
               </div>
-              <div className="text-left">
-                <span className="text-[11px] font-mono text-slate-400 uppercase">Profile Status</span>
-                <p className="text-sm font-bold text-white">80% Completed</p>
+              <div className="flex justify-between text-neutral-400">
+                <span>Passkey</span>
+                <span className="text-white font-bold">RSA-4096</span>
               </div>
             </div>
           </div>
 
-          {/* Quick Stats Grid inside Award Card */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 pt-6 border-t border-slate-800/80 relative z-10">
-            {[
-              { label: 'Completed Orders', val: '12 Orders', sub: 'Latest #DH-28491', icon: ShoppingBag, color: 'text-blue-400' },
-              { label: 'Wishlist Items', val: '8 Saved', sub: '2 price drops', icon: Heart, color: 'text-pink-400' },
-              { label: 'Saved Addresses', val: '3 Hubs', sub: 'Default: Home', icon: MapPin, color: 'text-emerald-400' },
-              { label: 'Reward Points', val: '1,250 Pts', sub: '$25 Voucher Ready', icon: Award, color: 'text-amber-400' },
-            ].map((stat, idx) => {
-              const Icon = stat.icon;
-              return (
-                <div key={idx} className="bg-slate-950/50 p-4 rounded-2xl border border-slate-800/60">
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="text-[11px] font-mono text-slate-400">{stat.label}</span>
-                    <Icon className={`w-4 h-4 ${stat.color}`} />
-                  </div>
-                  <p className="text-lg font-bold text-white">{stat.val}</p>
-                  <p className="text-[10px] text-slate-500 mt-0.5">{stat.sub}</p>
-                </div>
-              );
-            })}
-          </div>
-        </motion.div>
+          <button className="w-full py-3 bg-amber-300 text-black font-bold font-mono text-xs rounded-2xl hover:bg-white transition-colors mt-6 flex justify-center items-center gap-2">
+            Explore Full Client Portfolio <ArrowUpRight className="w-4 h-4" />
+          </button>
+        </div>
       </div>
     </div>
   );
-}
-
-export default AccountOverview20;
+};

@@ -1,0 +1,14 @@
+{
+  "id": "offers-deals-grid-12",
+  "name": "Layered Savings Card Fan-Out Deck",
+  "category": "offers-deals-grid",
+  "type": "deals-grid",
+  "variant": "Stacked Fan-Out",
+  "description": "3D stacked promotional cards that smoothly fan out on hover with relative z-index lift dynamics.",
+  "settings": {
+    "title": "Layered Savings Card Fan-Out Deck",
+    "subtitle": "3D stacked promotional cards that smoothly fan out on hover with relative z-index lift dynamics.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

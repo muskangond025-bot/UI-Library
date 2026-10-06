@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-06",
+  "name": "Stripe Gradient Mesh Banner Showcase",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Stripe Mesh",
+  "description": "Vibrant Stripe-style multi-color gradient mesh canvas with fluid glass cards.",
+  "settings": {
+    "title": "Stripe Gradient Mesh Banner Showcase",
+    "subtitle": "Vibrant Stripe-style multi-color gradient mesh canvas with fluid glass cards.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

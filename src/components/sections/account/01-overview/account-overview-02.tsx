@@ -1,145 +1,186 @@
-import React from 'react';
-import { motion, Variants } from 'framer-motion';
-import { User, Shield, Sparkles, MapPin, ShoppingBag, Heart, ArrowUpRight, Crown, CreditCard, ChevronRight } from 'lucide-react';
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
+import { ShoppingBag, Heart, Star, Award, ArrowUpRight, PackageCheck } from 'lucide-react';
 
-const heroVariants: Variants = {
-  hidden: { opacity: 0, scale: 0.96 },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    transition: { duration: 0.6, ease: 'easeInOut' }
-  }
+const mockData = {
+  user: {
+    name: 'Alex Morgan',
+    handle: '@alexmorgan',
+    email: 'alex.morgan@example.com',
+    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80',
+    tier: 'Platinum Elite Member',
+    points: 4850,
+    progressToNext: 85,
+  },
+  modules: [
+    {
+      id: 'orders',
+      title: 'Recent Orders',
+      subtitle: '3 Active Shipments',
+      count: '18 Total',
+      icon: ShoppingBag,
+      color: 'bg-indigo-950/40 border-indigo-800/60',
+      badge: '1 In Transit',
+      direction: { x: -30, y: 0 },
+      details: [
+        { name: 'Leather Crossbody Bag', status: 'Delivered', date: 'Yesterday', price: '$180.00' },
+        { name: 'Silk Knit Cardigan', status: 'In Transit', date: 'Oct 3', price: '$120.00' },
+      ]
+    },
+    {
+      id: 'wishlist',
+      title: 'Saved Wishlist',
+      subtitle: '12 Items Saved',
+      count: '4 On Sale',
+      icon: Heart,
+      color: 'bg-rose-950/40 border-rose-800/60',
+      badge: '2 Back in Stock',
+      direction: { x: 30, y: 0 },
+      details: [
+        { name: 'Tailored Wool Trousers', status: 'In Stock', date: '-15% Off', price: '$140.00' },
+        { name: 'Cashmere Beanie', status: 'Low Stock', date: 'New Color', price: '$65.00' },
+      ]
+    },
+    {
+      id: 'reviews',
+      title: 'Reviews & Ratings',
+      subtitle: '9 Reviews Written',
+      count: '4.9 ★ Average',
+      icon: Star,
+      color: 'bg-amber-950/40 border-amber-800/60',
+      badge: 'Top Reviewer',
+      direction: { x: 0, y: 30 },
+      details: [
+        { name: 'Minimalist Chelsea Boots', status: '5 Stars', date: 'Sep 28', price: 'Verified Purchase' },
+        { name: 'Structured Oversized Blazer', status: '5 Stars', date: 'Sep 15', price: 'Verified Purchase' },
+      ]
+    },
+    {
+      id: 'rewards',
+      title: 'Loyalty & Rewards',
+      subtitle: '$45 Reward Balance',
+      count: '4,850 Pts',
+      icon: Award,
+      color: 'bg-emerald-950/40 border-emerald-800/60',
+      badge: 'VIP Tier 3',
+      direction: { x: 0, y: -30 },
+      details: [
+        { name: 'Redeem $25 Voucher', status: 'Available', date: '2,500 Pts', price: 'Claim Now' },
+        { name: 'Free Express Shipping Pass', status: 'Unlocked', date: 'Perk Active', price: 'Active' },
+      ]
+    }
+  ]
 };
 
-const layerVariants: Variants = {
-  hidden: { opacity: 0, y: 30 },
-  visible: (i: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: { delay: i * 0.12, duration: 0.5, ease: 'easeInOut' }
-  })
-};
+export const AccountOverview2: React.FC = () => {
+  const [selectedModule, setSelectedModule] = useState<string | null>(null);
 
-export function AccountOverview2() {
   return (
-    <div className="w-full bg-stone-950 text-stone-100 p-6 md:p-12 min-h-[700px] flex flex-col justify-center">
-      <div className="max-w-6xl mx-auto w-full space-y-8">
-        {/* Layer 1: Premium Profile Hero Card */}
-        <motion.div
-          variants={heroVariants}
-          initial="hidden"
-          animate="visible"
-          className="relative overflow-hidden rounded-3xl bg-stone-900 border border-amber-500/20 shadow-2xl p-8 md:p-12"
-        >
-          {/* Subtle Ambient Background */}
-          <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-amber-500/10 via-amber-700/5 to-transparent rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute inset-0 bg-[radial-gradient(#amber-500_1px,transparent_1px)] [background-size:24px_24px] opacity-10 pointer-events-none" />
-
-          <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
-            <div className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-6">
-              <div className="relative">
-                <img
-                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80"
-                  alt="Alex Morgan"
-                  className="w-28 h-28 md:w-32 md:h-32 rounded-full object-cover ring-4 ring-amber-500/30 shadow-2xl"
-                />
-                <div className="absolute bottom-0 right-0 bg-amber-500 text-stone-950 p-2 rounded-full shadow-lg">
-                  <Crown className="w-5 h-5" />
-                </div>
-              </div>
-
-              <div className="space-y-2">
-                <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2">
-                  <span className="px-3 py-1 bg-amber-500/10 text-amber-400 border border-amber-500/30 rounded-full text-xs font-semibold uppercase tracking-wider flex items-center gap-1.5">
-                    <Sparkles className="w-3.5 h-3.5" /> VIP Platinum Member
-                  </span>
-                  <span className="px-3 py-1 bg-stone-800 text-stone-300 rounded-full text-xs font-medium border border-stone-700">
-                    ID: #MK-90241
-                  </span>
-                </div>
-                <h1 className="text-3xl md:text-5xl font-serif font-medium text-white tracking-tight">
-                  Alex Morgan
-                </h1>
-                <p className="text-stone-400 text-sm max-w-md">
-                  alex.morgan@example.com • Preferred Shipping: Express Air • Tier Active until Dec 2027
-                </p>
+    <div className="w-full bg-neutral-950 text-neutral-100 min-h-[750px] p-6 sm:p-10 font-sans border border-neutral-800 rounded-3xl space-y-8">
+      {/* Hero Header Area - Enters from top */}
+      <motion.div 
+        initial={{ opacity: 0, y: -40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+        className="p-8 bg-gradient-to-r from-neutral-900 via-neutral-900 to-indigo-950/70 border border-neutral-800 rounded-2xl relative overflow-hidden"
+      >
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 relative z-10">
+          <div className="flex items-center gap-5">
+            <div className="relative">
+              <img 
+                src={mockData.user.avatar} 
+                alt={mockData.user.name} 
+                className="w-20 h-20 rounded-2xl object-cover border-2 border-indigo-500/50 shadow-xl"
+              />
+              <div className="absolute -bottom-1 -right-1 p-1.5 bg-indigo-500 text-white rounded-lg">
+                <Award className="w-4 h-4" />
               </div>
             </div>
-
-            {/* Quick Hero Shortcuts */}
-            <div className="flex flex-wrap lg:flex-col gap-3 w-full sm:w-auto">
-              <button className="flex-1 sm:flex-none px-6 py-3.5 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-stone-950 rounded-2xl text-sm font-bold transition-all shadow-xl shadow-amber-500/20 flex items-center justify-center gap-2">
-                <span>Manage VIP Perks</span>
-                <ArrowUpRight className="w-4 h-4" />
-              </button>
-              <button className="flex-1 sm:flex-none px-6 py-3.5 bg-stone-800/80 hover:bg-stone-800 text-stone-200 rounded-2xl text-sm font-medium border border-stone-700 transition-colors flex items-center justify-center gap-2">
-                <Shield className="w-4 h-4 text-stone-400" />
-                <span>Security & Login</span>
-              </button>
+            <div>
+              <div className="flex items-center gap-3">
+                <h1 className="text-2xl sm:text-3xl font-bold tracking-tight">{mockData.user.name}</h1>
+                <span className="px-3 py-1 bg-indigo-500/20 text-indigo-300 text-xs font-semibold rounded-full border border-indigo-500/30">
+                  {mockData.user.tier}
+                </span>
+              </div>
+              <p className="text-sm text-neutral-400 mt-1">{mockData.user.email} • {mockData.user.handle}</p>
+              <div className="flex items-center gap-4 mt-3 text-xs text-neutral-300 font-mono">
+                <span className="flex items-center gap-1.5">
+                  <PackageCheck className="w-4 h-4 text-indigo-400" /> Member since 2024
+                </span>
+                <span className="flex items-center gap-1.5">
+                  <Award className="w-4 h-4 text-emerald-400" /> {mockData.user.points} Reward Points
+                </span>
+              </div>
             </div>
           </div>
-        </motion.div>
 
-        {/* Layer 2: Hero Layered Shortcuts & Account Stats */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {[
-            {
-              title: 'Active Orders',
-              value: '12 Orders Placed',
-              desc: 'Latest: #DH-28491 (In Transit)',
-              icon: ShoppingBag,
-              highlight: '2 Items Arriving Tomorrow',
-              color: 'border-amber-500/20'
-            },
-            {
-              title: 'Wishlist & Collections',
-              value: '8 Saved Items',
-              desc: '2 price drops detected',
-              icon: Heart,
-              highlight: 'Designer Collection updated',
-              color: 'border-stone-800'
-            },
-            {
-              title: 'Saved Delivery Hubs',
-              value: '3 Addresses',
-              desc: 'Primary: Home (New York)',
-              icon: MapPin,
-              highlight: 'Verified Default Address',
-              color: 'border-stone-800'
-            }
-          ].map((item, idx) => {
-            const Icon = item.icon;
-            return (
-              <motion.div
-                key={idx}
-                custom={idx + 1}
-                variants={layerVariants}
-                initial="hidden"
-                animate="visible"
-                className={`bg-stone-900/80 rounded-3xl p-6 border ${item.color} hover:border-amber-500/40 transition-all group flex flex-col justify-between`}
-              >
-                <div>
-                  <div className="flex items-center justify-between mb-4">
-                    <div className="p-3 bg-stone-800 text-amber-400 rounded-2xl group-hover:scale-110 transition-transform">
-                      <Icon className="w-5 h-5" />
-                    </div>
-                    <ChevronRight className="w-4 h-4 text-stone-600 group-hover:text-amber-400 transition-colors" />
-                  </div>
-                  <h3 className="text-xs font-semibold uppercase tracking-wider text-stone-400">{item.title}</h3>
-                  <p className="text-xl font-bold text-white mt-1">{item.value}</p>
-                  <p className="text-xs text-stone-400 mt-1">{item.desc}</p>
-                </div>
-                <div className="mt-5 pt-3 border-t border-stone-800/80 text-[11px] font-medium text-amber-400/90 flex items-center gap-1.5">
-                  <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
-                  {item.highlight}
-                </div>
-              </motion.div>
-            );
-          })}
+          <div className="bg-neutral-950/70 p-5 rounded-xl border border-neutral-800 min-w-[240px]">
+            <div className="flex justify-between text-xs font-semibold mb-2">
+              <span className="text-neutral-400">Progress to Diamond Tier</span>
+              <span className="text-indigo-400">{mockData.user.progressToNext}%</span>
+            </div>
+            <div className="w-full bg-neutral-800 h-2 rounded-full overflow-hidden mb-2">
+              <div className="bg-gradient-to-r from-indigo-500 to-purple-500 h-full rounded-full" style={{ width: `${mockData.user.progressToNext}%` }}></div>
+            </div>
+            <p className="text-[11px] text-neutral-400">Earn 150 more points by Nov 30</p>
+          </div>
         </div>
+      </motion.div>
+
+      {/* 4 Directionally Entrance Account Modules */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {mockData.modules.map((mod, index) => {
+          const IconComponent = mod.icon;
+          const isSelected = selectedModule === mod.id;
+
+          return (
+            <motion.div
+              key={mod.id}
+              initial={{ opacity: 0, x: mod.direction.x, y: mod.direction.y }}
+              animate={{ opacity: 1, x: 0, y: 0 }}
+              transition={{ delay: 0.3 + index * 0.15, duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
+              onClick={() => setSelectedModule(isSelected ? null : mod.id)}
+              className={`p-6 border rounded-2xl cursor-pointer transition-all duration-300 ${mod.color} hover:border-neutral-500 ${isSelected ? 'ring-2 ring-indigo-500' : ''}`}
+            >
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center gap-3">
+                  <div className="p-3 bg-neutral-900/80 rounded-xl border border-neutral-800 text-neutral-200">
+                    <IconComponent className="w-6 h-6" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-neutral-100">{mod.title}</h3>
+                    <p className="text-xs text-neutral-400">{mod.subtitle}</p>
+                  </div>
+                </div>
+                <div className="text-right">
+                  <span className="text-xs px-2.5 py-1 bg-neutral-900 border border-neutral-700 rounded-full font-mono font-medium text-neutral-200">
+                    {mod.badge}
+                  </span>
+                </div>
+              </div>
+
+              {/* Detail list reveal */}
+              <div className="space-y-2 mt-4 pt-4 border-t border-neutral-800/80">
+                {mod.details.map((item, idx) => (
+                  <div key={idx} className="flex justify-between items-center text-xs p-2.5 bg-neutral-900/60 rounded-lg hover:bg-neutral-900 transition-colors">
+                    <span className="font-medium text-neutral-200">{item.name}</span>
+                    <div className="flex items-center gap-3">
+                      <span className="text-neutral-400 font-mono">{item.date}</span>
+                      <span className="font-semibold text-indigo-300 font-mono">{item.price}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="flex justify-end items-center gap-1 text-xs text-neutral-400 font-medium mt-4 group">
+                <span>Explore {mod.title}</span>
+                <ArrowUpRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+              </div>
+            </motion.div>
+          );
+        })}
       </div>
     </div>
   );
-}
-
-export default AccountOverview2;
+};

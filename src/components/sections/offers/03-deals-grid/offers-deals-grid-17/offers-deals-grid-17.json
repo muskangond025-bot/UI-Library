@@ -1,0 +1,14 @@
+{
+  "id": "offers-deals-grid-17",
+  "name": "Gamified Unlock & Milestone Savings Progress",
+  "category": "offers-deals-grid",
+  "type": "deals-grid",
+  "variant": "Gamified Progress",
+  "description": "Tiered customer reward unlock progress bar (Spend  -> Unlock Free Shipping, Spend  -> Unlock 40% Off).",
+  "settings": {
+    "title": "Gamified Unlock & Milestone Savings Progress",
+    "subtitle": "Tiered customer reward unlock progress bar (Spend  -> Unlock Free Shipping, Spend  -> Unlock 40% Off).",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

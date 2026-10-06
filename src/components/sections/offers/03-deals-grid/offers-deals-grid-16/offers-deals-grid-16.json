@@ -1,0 +1,14 @@
+{
+  "id": "offers-deals-grid-16",
+  "name": "Floating Parallax Discount Levitating Canvas",
+  "category": "offers-deals-grid",
+  "type": "deals-grid",
+  "variant": "Parallax Levitating",
+  "description": "Floating deal modules with subtle sine-wave float physics and cursor parallax displacement.",
+  "settings": {
+    "title": "Floating Parallax Discount Levitating Canvas",
+    "subtitle": "Floating deal modules with subtle sine-wave float physics and cursor parallax displacement.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

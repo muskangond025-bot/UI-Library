@@ -1,46 +1,58 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
-import { Check } from 'lucide-react';
+import { MapPin, Navigation, Plus } from 'lucide-react';
 
-export function AccountAddressBook15() {
-  const [rotate, setRotate] = useState({ x: 0, y: 0 });
+const mockStream = [
+  { id: '1', title: 'Primary Residence (Penthouse 14B)', desc: '24/7 Doorman package acceptance authorized. Use front desk chime.', date: 'DEFAULT DESTINATION', icon: MapPin, color: 'text-emerald-400 bg-emerald-500/10 border-emerald-500/30' },
+  { id: '2', title: 'Design Studio HQ (Suite 402)', desc: 'Freight elevator access passcode #4902. Business hours delivery 9am-6pm.', date: 'COMMERCIAL DISPATCH', icon: Navigation, color: 'text-indigo-400 bg-indigo-500/10 border-indigo-500/30' },
+  { id: '3', title: 'East Hampton Villa (Ocean Drive)', desc: 'Leave package at side porch entrance if perimeter gate is unlocked.', date: 'SEASONAL RETREAT', icon: MapPin, color: 'text-rose-400 bg-rose-500/10 border-rose-500/30' },
+];
 
-  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-    const rect = e.currentTarget.getBoundingClientRect();
-    const x = e.clientX - rect.left - rect.width / 2;
-    const y = e.clientY - rect.top - rect.height / 2;
-    setRotate({ x: -y / 15, y: x / 15 });
-  };
-
+export const AccountAddressBook15: React.FC = () => {
   return (
-    <section className="w-full min-h-[600px] bg-slate-950 text-white py-16 px-4">
-      <div className="max-w-2xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-white mb-2">3D Perspective Card</h2>
-        <p className="text-sm text-slate-400 mb-8">Hover over card to experience interactive 3D perspective depth</p>
-
-        <div className="perspective-1000">
-          <motion.div
-            onMouseMove={handleMouseMove}
-            onMouseLeave={() => setRotate({ x: 0, y: 0 })}
-            animate={{ rotateX: rotate.x, rotateY: rotate.y }}
-            transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-            className="p-8 rounded-3xl bg-gradient-to-br from-indigo-900/40 to-slate-900 border border-indigo-500/30 shadow-2xl text-left cursor-pointer"
-          >
-            <div className="flex items-center justify-between mb-4">
-              <span className="text-xs font-bold uppercase tracking-widest px-3 py-1 bg-indigo-500/20 text-indigo-300 rounded-full">
-                Primary Residence
-              </span>
-              <Check className="w-4 h-4 text-emerald-400" />
-            </div>
-
-            <h3 className="text-2xl font-bold text-white">Alex Morgan</h3>
-            <p className="text-sm text-slate-300 mt-2">742 Evergreen Terrace</p>
-            <p className="text-xs text-slate-400">Springfield, IL 62704</p>
-          </motion.div>
+    <div className="w-full bg-[#0a0d12] text-neutral-100 min-h-[750px] p-6 sm:p-10 font-sans border border-neutral-800 rounded-3xl">
+      {/* Header */}
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center pb-6 border-b border-neutral-800 mb-8 gap-4">
+        <div>
+          <span className="text-xs font-mono uppercase tracking-widest text-neutral-400">DELIVERY INSTRUCTION STREAM</span>
+          <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-white mt-1">Courier Routing Log</h1>
         </div>
-      </div>
-    </section>
-  );
-}
 
-export default AccountAddressBook15;
+        <button className="px-4 py-2 bg-white text-black font-mono text-xs font-bold rounded-full hover:bg-amber-200 transition-colors flex items-center gap-1.5">
+          <Plus className="w-4 h-4" /> Add Destination
+        </button>
+      </div>
+
+      <div className="max-w-3xl mx-auto relative space-y-6">
+        {/* Connecting Line */}
+        <div className="absolute left-6 top-8 bottom-8 w-0.5 bg-neutral-800 -z-0"></div>
+
+        {mockStream.map((item, idx) => {
+          const Icon = item.icon;
+          return (
+            <motion.div
+              key={item.id}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.15 * idx, duration: 0.5 }}
+              className="flex items-start gap-6 relative z-10 group"
+            >
+              <div className={`p-3 rounded-full border ${item.color} shadow-lg shrink-0`}>
+                <Icon className="w-5 h-5" />
+              </div>
+
+              <div className="flex-1 p-5 bg-neutral-900/90 border border-neutral-800 rounded-2xl hover:border-neutral-700 transition-all">
+                <div className="flex justify-between items-center text-xs mb-1 font-mono">
+                  <span className="text-amber-300 font-bold">{item.date}</span>
+                  <span className="text-neutral-500">USPS VERIFIED</span>
+                </div>
+                <h3 className="text-base font-bold text-white group-hover:text-amber-200 transition-colors">{item.title}</h3>
+                <p className="text-xs text-neutral-300 mt-1 font-mono">{item.desc}</p>
+              </div>
+            </motion.div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};

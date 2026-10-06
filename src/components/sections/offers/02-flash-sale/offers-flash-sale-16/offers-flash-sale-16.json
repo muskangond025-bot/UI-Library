@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-16",
+  "name": "Floating Parallax Deal Levitation Canvas",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "Parallax Levitating",
+  "description": "Floating deal cards with subtle sine-wave float physics and interactive cursor parallax displacement.",
+  "settings": {
+    "title": "Floating Parallax Deal Levitation Canvas",
+    "subtitle": "Floating deal cards with subtle sine-wave float physics and interactive cursor parallax displacement.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

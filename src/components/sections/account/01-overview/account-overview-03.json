@@ -1,6 +1,7 @@
 {
   "id": "account-overview-03",
-  "title": "03 — Account Command Center",
+  "title": "03 — Account Timeline — SVG Progressive Path Drawing",
   "category": "account-overview",
-  "description": "Grid-based command center organizing account modules into micro-interactive tiles with active motion feedback and quick access indicators."
+  "description": "Chronological account activity displayed as a connected vertical timeline with animated SVG path drawing and interactive event nodes.",
+  "heading": "03 — Account Timeline — SVG Progressive Path Drawing"
 }

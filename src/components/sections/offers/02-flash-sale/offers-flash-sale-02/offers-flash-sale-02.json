@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-02",
+  "name": "Neumorphic Soft Tactile Flash Deals",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "Neumorphism",
+  "description": "Embossed soft UI controls, extruded tactile press buttons, dual directional shadows, and smooth depth indicators.",
+  "settings": {
+    "title": "Neumorphic Soft Tactile Flash Deals",
+    "subtitle": "Embossed soft UI controls, extruded tactile press buttons, dual directional shadows, and smooth depth indicators.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

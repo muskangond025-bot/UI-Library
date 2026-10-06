@@ -1,4 +1,7 @@
 {
-  "heading": "Interactive Address Card — Revealable Action Tray",
-  "description": "Compact address grid that smoothly expands interactive action trays on hover or tap."
+  "id": "account-address-book-14",
+  "title": "14 — Dual-Panel Split-Screen Manager — Slide Tab Interaction",
+  "category": "account-address-book",
+  "description": "Dual-column layout with pinned primary shipping address on the left and tabbed interactive location panels sliding on the right.",
+  "heading": "14 — Dual-Panel Split-Screen Manager — Slide Tab Interaction"
 }

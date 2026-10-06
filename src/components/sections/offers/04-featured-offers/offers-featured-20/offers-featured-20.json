@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-20",
+  "name": "Minimalist Accordion Expandable Deck",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Expandable Deck",
+  "description": "Vertical accordion drawer stack that smoothly expands featured specs on click.",
+  "settings": {
+    "title": "Minimalist Accordion Expandable Deck",
+    "subtitle": "Vertical accordion drawer stack that smoothly expands featured specs on click.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

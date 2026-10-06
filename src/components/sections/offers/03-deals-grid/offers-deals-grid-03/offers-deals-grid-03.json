@@ -1,0 +1,14 @@
+{
+  "id": "offers-deals-grid-03",
+  "name": "Claymorphic 3D Inflated Savings Hub",
+  "category": "offers-deals-grid",
+  "type": "deals-grid",
+  "variant": "Claymorphism",
+  "description": "Bulging 3D soft plastic pill cards, pastel inner glow, bouncy hover physics, and playful price slash tags.",
+  "settings": {
+    "title": "Claymorphic 3D Inflated Savings Hub",
+    "subtitle": "Bulging 3D soft plastic pill cards, pastel inner glow, bouncy hover physics, and playful price slash tags.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

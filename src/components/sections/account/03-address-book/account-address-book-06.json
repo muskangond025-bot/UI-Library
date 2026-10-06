@@ -1,4 +1,7 @@
 {
-  "heading": "Address Stack — Layered Location Cards",
-  "description": "Interactive stacked card presentation with perspective offset and dynamic depth ordering upon selection."
+  "id": "account-address-book-06",
+  "title": "06 — Tactical Courier Passkey Control Room — Gate Code Telemetry",
+  "category": "account-address-book",
+  "description": "Logistics control room interface with gate access keypad codes, 2FA courier authorization switches, and crosshairs on hover.",
+  "heading": "06 — Tactical Courier Passkey Control Room — Gate Code Telemetry"
 }

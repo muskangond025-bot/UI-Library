@@ -1,6 +1,7 @@
 {
   "id": "account-overview-05",
-  "title": "05 — Account Statistics",
+  "title": "05 — Profile-First Minimal — Dynamic Border Drawing",
   "category": "account-overview",
-  "description": "Statistics-focused overview displaying orders, wishlist, rewards, and addresses with animated count-up numbers."
+  "description": "Ultra-clean profile focus with subtle data chips and animated SVG accent border lines drawing progressively around modules.",
+  "heading": "05 — Profile-First Minimal — Dynamic Border Drawing"
 }

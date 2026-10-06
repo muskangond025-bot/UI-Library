@@ -1,0 +1,14 @@
+{
+  "id": "offers-deals-grid-08",
+  "name": "Interactive 3D Gyro Perspective Deal Card",
+  "category": "offers-deals-grid",
+  "type": "deals-grid",
+  "variant": "3D Gyrocard",
+  "description": "Mouse-tracking 3D tilt perspective hero deal card with specular light reflection sheen and depth parallax.",
+  "settings": {
+    "title": "Interactive 3D Gyro Perspective Deal Card",
+    "subtitle": "Mouse-tracking 3D tilt perspective hero deal card with specular light reflection sheen and depth parallax.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

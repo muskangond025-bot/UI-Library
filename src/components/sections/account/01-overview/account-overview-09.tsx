@@ -1,106 +1,117 @@
-import React from 'react';
-import { motion, Variants } from 'framer-motion';
-import { CheckCircle2, AlertCircle, Phone, MapPin, Sliders, ChevronRight, User } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 
-export function AccountOverview9() {
-  const completionPercentage = 80;
-  const radius = 54;
-  const circumference = 2 * Math.PI * radius;
-  const strokeDashoffset = circumference - (completionPercentage / 100) * circumference;
+const mockLedger = {
+  account: 'ALEX MORGAN // AUDIT ID #99201',
+  balance: 3450,
+  cashCredit: 35.00,
+  ordersCount: 18,
+  rows: [
+    { id: 'TX-901', date: '2026-10-04', category: 'ORDER', desc: 'Denim Trench Jacket (#DH-9941)', status: 'IN TRANSIT', amount: '-$240.00' },
+    { id: 'TX-902', date: '2026-10-02', category: 'REWARD', desc: 'Loyalty Bonus Points Deposit', status: 'CREDITED', amount: '+500 PTS' },
+    { id: 'TX-903', date: '2026-09-28', category: 'REVIEW', desc: 'Verified 5-Star Product Rating', status: 'COMPLETED', amount: '+100 PTS' },
+    { id: 'TX-904', date: '2026-09-25', category: 'REFUND', desc: 'Returned Wool Beanie Item', status: 'SETTLED', amount: '+$65.00' },
+  ]
+};
+
+export const AccountOverview9: React.FC = () => {
+  const [counter, setCounter] = useState(0);
+
+  useEffect(() => {
+    let start = 0;
+    const end = mockLedger.balance;
+    const duration = 1200;
+    const stepTime = 20;
+    const steps = duration / stepTime;
+    const increment = end / steps;
+
+    const timer = setInterval(() => {
+      start += increment;
+      if (start >= end) {
+        setCounter(end);
+        clearInterval(timer);
+      } else {
+        setCounter(Math.floor(start));
+      }
+    }, stepTime);
+
+    return () => clearInterval(timer);
+  }, []);
 
   return (
-    <div className="w-full bg-slate-950 text-white p-6 md:p-12 min-h-[680px] flex items-center">
-      <div className="max-w-6xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-        {/* Left SVG Ring Column */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="lg:col-span-5 bg-slate-900/80 rounded-3xl p-8 border border-slate-800 flex flex-col items-center text-center space-y-6"
-        >
-          <div className="relative w-40 h-40 flex items-center justify-center">
-            <svg className="w-full h-full transform -rotate-90" viewBox="0 0 120 120">
-              <circle
-                cx="60"
-                cy="60"
-                r={radius}
-                className="text-slate-800"
-                strokeWidth="8"
-                stroke="currentColor"
-                fill="transparent"
-              />
-              <motion.circle
-                cx="60"
-                cy="60"
-                r={radius}
-                className="text-indigo-500"
-                strokeWidth="8"
-                strokeDasharray={circumference}
-                initial={{ strokeDashoffset: circumference }}
-                animate={{ strokeDashoffset }}
-                transition={{ duration: 1.5, ease: 'easeInOut' }}
-                strokeLinecap="round"
-                stroke="currentColor"
-                fill="transparent"
-              />
-            </svg>
-            <div className="absolute inset-0 flex flex-col items-center justify-center">
-              <span className="text-3xl font-black text-white">{completionPercentage}%</span>
-              <span className="text-[10px] font-semibold text-slate-400 uppercase tracking-wider">Completed</span>
-            </div>
-          </div>
+    <div className="w-full bg-[#080b0e] text-[#4af626] min-h-[750px] p-6 sm:p-10 font-mono border border-[#4af626]/30 rounded-3xl">
+      {/* Header */}
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center pb-6 border-b border-[#4af626]/30 mb-8 gap-4">
+        <div>
+          <span className="text-[10px] uppercase tracking-widest text-[#4af626]/70">DATA LEDGER TERMINAL v3</span>
+          <h1 className="text-xl sm:text-2xl font-bold text-white tracking-wider">{mockLedger.account}</h1>
+        </div>
 
-          <div>
-            <h2 className="text-xl font-bold text-white">Profile Completion</h2>
-            <p className="text-xs text-slate-400 mt-1 max-w-xs">
-              Complete missing information to unlock 100 VIP reward points.
-            </p>
-          </div>
-        </motion.div>
+        <div className="px-3 py-1.5 bg-[#4af626]/10 border border-[#4af626]/40 text-xs text-[#4af626] rounded-md font-bold">
+          STATUS: AUDITED & ACTIVE
+        </div>
+      </div>
 
-        {/* Right Missing Information Checklist Column */}
-        <motion.div
-          initial={{ opacity: 0, x: 30 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="lg:col-span-7 space-y-6"
-        >
-          <div className="bg-slate-900/60 rounded-3xl p-6 border border-slate-800 space-y-4">
-            <h3 className="text-base font-bold text-white flex items-center gap-2">
-              <AlertCircle className="w-5 h-5 text-amber-400" />
-              Missing Information Details
-            </h3>
-
-            <div className="space-y-3">
-              {[
-                { name: 'Phone Verification', desc: 'Add phone number for SMS tracking alerts', icon: Phone, action: 'Add Phone' },
-                { name: 'Backup Delivery Address', desc: 'Add secondary address for faster checkout', icon: MapPin, action: 'Add Address' },
-                { name: 'Shopping Preferences', desc: 'Select favorite categories & apparel sizes', icon: Sliders, action: 'Set Preferences' },
-              ].map((item, idx) => {
-                const Icon = item.icon;
-                return (
-                  <div key={idx} className="p-4 bg-slate-950 rounded-2xl border border-slate-800 flex items-center justify-between gap-4 hover:border-indigo-500/40 transition-colors">
-                    <div className="flex items-center gap-3.5">
-                      <div className="p-2.5 bg-slate-800 text-indigo-400 rounded-xl">
-                        <Icon className="w-4 h-4" />
-                      </div>
-                      <div>
-                        <h4 className="text-sm font-bold text-white">{item.name}</h4>
-                        <p className="text-xs text-slate-400">{item.desc}</p>
-                      </div>
-                    </div>
-                    <button className="px-3 py-1.5 bg-indigo-600/20 hover:bg-indigo-600 text-indigo-300 hover:text-white border border-indigo-500/30 rounded-xl text-xs font-semibold whitespace-nowrap transition-colors">
-                      {item.action}
-                    </button>
-                  </div>
-                );
-              })}
-            </div>
+      {/* Counter Stat Bar */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+        <div className="p-6 bg-neutral-950 border border-[#4af626]/30 rounded-2xl">
+          <div className="text-xs text-neutral-400">REWARD POINTS LEDGER</div>
+          <div className="text-4xl font-bold text-[#4af626] mt-2 tracking-tight">
+            {counter.toLocaleString()} <span className="text-xs text-neutral-400 font-normal">PTS</span>
           </div>
-        </motion.div>
+          <div className="text-[11px] text-neutral-400 mt-2">+$35.00 cash credit equivalent</div>
+        </div>
+
+        <div className="p-6 bg-neutral-950 border border-[#4af626]/30 rounded-2xl">
+          <div className="text-xs text-neutral-400">TOTAL ORDERS RECORDED</div>
+          <div className="text-4xl font-bold text-white mt-2 tracking-tight">
+            {mockLedger.ordersCount} <span className="text-xs text-neutral-400 font-normal">ORDERS</span>
+          </div>
+          <div className="text-[11px] text-emerald-400 mt-2">1 shipment arriving today</div>
+        </div>
+
+        <div className="p-6 bg-neutral-950 border border-[#4af626]/30 rounded-2xl">
+          <div className="text-xs text-neutral-400">WISHLIST LEDGER VALUE</div>
+          <div className="text-4xl font-bold text-amber-300 mt-2 tracking-tight">
+            $2,840.00
+          </div>
+          <div className="text-[11px] text-neutral-400 mt-2">14 saved archive items</div>
+        </div>
+      </div>
+
+      {/* Structured Ledger Table */}
+      <div className="bg-neutral-950 border border-[#4af626]/30 rounded-2xl overflow-hidden">
+        <div className="p-4 bg-neutral-900 border-b border-[#4af626]/30 flex justify-between items-center text-xs font-bold text-neutral-300">
+          <span>RECENT TRANSACTION AUDIT LOG</span>
+          <span>4 RECORDS SHOWN</span>
+        </div>
+
+        <div className="divide-y divide-neutral-900">
+          {mockLedger.rows.map((row) => (
+            <motion.div 
+              key={row.id}
+              whileHover={{ backgroundColor: 'rgba(74,246,38,0.05)' }}
+              className="p-4 flex flex-col sm:flex-row sm:items-center justify-between text-xs gap-3 transition-colors"
+            >
+              <div className="flex items-center gap-4">
+                <span className="text-neutral-500 font-bold">{row.id}</span>
+                <span className="text-neutral-400">{row.date}</span>
+                <span className="px-2 py-0.5 bg-neutral-900 border border-neutral-800 text-neutral-300 rounded text-[10px]">
+                  {row.category}
+                </span>
+                <span className="text-white font-medium">{row.desc}</span>
+              </div>
+
+              <div className="flex items-center gap-4">
+                <span className="px-2 py-0.5 bg-[#4af626]/10 text-[#4af626] rounded text-[10px]">
+                  {row.status}
+                </span>
+                <span className="font-bold text-white w-24 text-right">{row.amount}</span>
+              </div>
+            </motion.div>
+          ))}
+        </div>
       </div>
     </div>
   );
-}
-
-export default AccountOverview9;
+};

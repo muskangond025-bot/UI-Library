@@ -1,50 +1,59 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { ArrowUpRight } from 'lucide-react';
 
-export function AccountAddressBook16() {
-  const [activeCategory, setActiveCategory] = useState('All');
+const mockCells = [
+  { idx: '01', title: 'PRIMARY RESIDENCE', subtitle: '450 Fashion Ave, PH 14B', detail: 'New York, NY 10001 • Default Location', action: 'Edit Destination' },
+  { idx: '02', title: 'DESIGN STUDIO HQ', subtitle: '88 Wythe Ave, Suite 402', detail: 'Brooklyn, NY 11211 • Commercial Passkey', action: 'Manage Studio' },
+  { idx: '03', title: 'HAMPTONS RETREAT', subtitle: '142 Ocean Drive', detail: 'East Hampton, NY 11937 • Seasonal Villa', action: 'Manage Retreat' },
+  { idx: '04', title: 'NEW LOCATION', subtitle: 'Register New Destination', detail: 'Add new courier delivery location', action: 'Create Location' },
+];
 
-  const categories = ['All', 'Home', 'Work', 'Other'];
-
-  const addresses = [
-    { id: '1', name: 'Primary Home', type: 'Home', details: '742 Evergreen Terrace, Springfield, IL' },
-    { id: '2', name: 'Corporate HQ', type: 'Work', details: '100 Innovation Way, San Francisco, CA' },
-    { id: '3', name: 'Beach Villa', type: 'Other', details: '88 Ocean Drive, Miami, FL' }
-  ];
-
-  const filtered = activeCategory === 'All' ? addresses : addresses.filter(a => a.type === activeCategory);
+export const AccountAddressBook16: React.FC = () => {
+  const [hoveredCell, setHoveredCell] = useState<string | null>(null);
 
   return (
-    <section className="w-full min-h-[600px] bg-slate-900 text-white py-16 px-4">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold text-white mb-6">Categorized Address Hub</h2>
-
-        <div className="flex gap-2 mb-8">
-          {categories.map((cat) => (
-            <button
-              key={cat}
-              onClick={() => setActiveCategory(cat)}
-              className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
-                activeCategory === cat ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
-              }`}
-            >
-              {cat}
-            </button>
-          ))}
+    <div className="w-full bg-[#f4f4f0] text-[#111111] min-h-[750px] p-6 sm:p-12 font-mono border border-neutral-400 rounded-3xl">
+      {/* Swiss Architectural Grid Header */}
+      <div className="flex justify-between items-end pb-8 border-b-2 border-black mb-10">
+        <div>
+          <span className="text-xs uppercase tracking-[0.25em] text-neutral-500 font-bold">[ SYSTEM INDEX // 03 ]</span>
+          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-black mt-1 uppercase">SWISS ADDRESS GRID</h1>
         </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {filtered.map((item) => (
-            <motion.div key={item.id} layout className="p-6 rounded-2xl bg-slate-800/70 border border-slate-700">
-              <span className="text-xs uppercase font-bold text-indigo-400">{item.type}</span>
-              <h3 className="text-lg font-bold text-white mt-1">{item.name}</h3>
-              <p className="text-sm text-slate-300 mt-2">{item.details}</p>
-            </motion.div>
-          ))}
-        </div>
+        <div className="text-xs font-bold text-neutral-600">CLIENT: ALEX MORGAN</div>
       </div>
-    </section>
-  );
-}
 
-export default AccountAddressBook16;
+      {/* 2x2 Architectural Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-black p-px rounded-2xl overflow-hidden">
+        {mockCells.map((cell) => {
+          const isHovered = hoveredCell === cell.idx;
+          return (
+            <motion.div
+              key={cell.idx}
+              onMouseEnter={() => setHoveredCell(cell.idx)}
+              onMouseLeave={() => setHoveredCell(null)}
+              className={`p-8 bg-[#f4f4f0] transition-colors duration-300 relative cursor-pointer flex flex-col justify-between min-h-[240px] ${isHovered ? 'bg-black text-[#f4f4f0]' : ''}`}
+            >
+              <div className="flex justify-between items-start">
+                <span className={`text-sm font-bold ${isHovered ? 'text-amber-400' : 'text-neutral-500'}`}>
+                  [ {cell.idx} ]
+                </span>
+                <span className="text-xs font-bold tracking-wider">{cell.title}</span>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-bold uppercase mt-4">{cell.subtitle}</h3>
+                <p className={`text-xs mt-1 font-sans ${isHovered ? 'text-neutral-400' : 'text-neutral-600'}`}>{cell.detail}</p>
+              </div>
+
+              <div className="pt-4 border-t border-current flex justify-between items-center text-xs font-bold mt-6">
+                <span>{cell.action}</span>
+                <ArrowUpRight className={`w-4 h-4 transition-transform ${isHovered ? 'translate-x-1 -translate-y-1 text-amber-400' : ''}`} />
+              </div>
+            </motion.div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};

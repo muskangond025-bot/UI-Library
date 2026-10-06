@@ -1,6 +1,7 @@
 {
   "id": "account-overview-19",
-  "title": "19 — Personalized Welcome",
+  "title": "19 — Account Story / Progress — Animated Radial Progress Meters",
   "category": "account-overview",
-  "description": "Account dashboard placing the personalized customer welcome greeting center-stage before transitioning into account modules."
+  "description": "Gamified account progression overview with interactive completion rings, milestone badges, and animated meter fills.",
+  "heading": "19 — Account Story / Progress — Animated Radial Progress Meters"
 }

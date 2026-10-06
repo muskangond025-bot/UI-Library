@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-05",
+  "name": "Apple Minimalist Studio Spotlight",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Apple Studio",
+  "description": "Sleek Apple-inspired bright glass slate, SF Pro typography, refined subtle borders.",
+  "settings": {
+    "title": "Apple Minimalist Studio Spotlight",
+    "subtitle": "Sleek Apple-inspired bright glass slate, SF Pro typography, refined subtle borders.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

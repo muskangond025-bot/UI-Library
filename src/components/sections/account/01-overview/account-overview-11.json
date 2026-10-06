@@ -1,6 +1,7 @@
 {
   "id": "account-overview-11",
-  "title": "11 — Order Snapshot",
+  "title": "11 — Horizontal Account Journey — Step Slide Navigation",
   "category": "account-overview",
-  "description": "Account dashboard showcasing a prominent recent-order snapshot with sliding motion entrance alongside essential account stats."
+  "description": "Horizontal multi-stage account journey slider with step indicator track and fluid panel sliding physics.",
+  "heading": "11 — Horizontal Account Journey — Step Slide Navigation"
 }

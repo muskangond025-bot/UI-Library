@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-04",
+  "name": "Flat Swiss Bright Studio Directory",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Flat Design",
+  "description": "Stark bright white 2D Swiss grid layout, 1px structural borders, pure monochrome typography.",
+  "settings": {
+    "title": "Flat Swiss Bright Studio Directory",
+    "subtitle": "Stark bright white 2D Swiss grid layout, 1px structural borders, pure monochrome typography.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

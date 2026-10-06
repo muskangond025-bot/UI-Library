@@ -1,4 +1,5 @@
 {
   "heading": "Notification Channel Matrix — Multi-Channel Grid",
-  "description": "Matrix table allowing users to toggle Push, Email, SMS, and WhatsApp per notification topic."
+  "description": "Matrix table allowing users to toggle Push, Email, SMS, and WhatsApp per notification topic.",
+  "title": "Notification Channel Matrix — Multi-Channel Grid"
 }

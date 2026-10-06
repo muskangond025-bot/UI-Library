@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-10",
+  "name": "Retro 90s Arcade Pixel Sale",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Retro Arcade",
+  "description": "Vibrant 90s pixelated game interface with arcade badges, CRT scanlines, and retro button styling.",
+  "settings": {
+    "title": "Retro 90s Arcade Pixel Sale",
+    "subtitle": "Vibrant 90s pixelated game interface with arcade badges, CRT scanlines, and retro button styling.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

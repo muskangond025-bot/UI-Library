@@ -1,6 +1,7 @@
 {
   "id": "account-overview-14",
-  "title": "14 — Minimal Monochrome Account",
+  "title": "14 — Split-Screen Account — Dual-Panel Slide Interaction",
   "category": "account-overview",
-  "description": "Typography-first monochrome account overview utilizing generous whitespace, thin rules, and progressive line reveals."
+  "description": "Dual-column layout with pinned profile identity on the left and tabbed interactive account panels sliding in on the right.",
+  "heading": "14 — Split-Screen Account — Dual-Panel Slide Interaction"
 }

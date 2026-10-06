@@ -1,6 +1,7 @@
 {
   "id": "account-overview-15",
-  "title": "15 — Floating Account Modules",
+  "title": "15 — Account Activity Feed — Stream Node Connection",
   "category": "account-overview",
-  "description": "Layered account dashboard using floating module cards with continuous subtle depth float motion."
+  "description": "Real-time activity log featuring pulse nodes, categorized filter tags, and progressive stream node connecting animations.",
+  "heading": "15 — Account Activity Feed — Stream Node Connection"
 }

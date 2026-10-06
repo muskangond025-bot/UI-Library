@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-09",
+  "name": "Horizontal Multi-Stage Time Slot Journey",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "Time Slot Journey",
+  "description": "Stage-by-stage timeline navigation (10 AM Sold Out, 2 PM Live Now, 6 PM Next Up) with active status tabs.",
+  "settings": {
+    "title": "Horizontal Multi-Stage Time Slot Journey",
+    "subtitle": "Stage-by-stage timeline navigation (10 AM Sold Out, 2 PM Live Now, 6 PM Next Up) with active status tabs.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

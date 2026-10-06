@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-05",
+  "name": "Asymmetric Bento Flash Sale Matrix",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "Bento Grid",
+  "description": "Feature hero countdown bento tile paired with real-time stock meter widgets and asymmetric offer cards.",
+  "settings": {
+    "title": "Asymmetric Bento Flash Sale Matrix",
+    "subtitle": "Feature hero countdown bento tile paired with real-time stock meter widgets and asymmetric offer cards.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

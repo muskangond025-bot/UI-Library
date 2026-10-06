@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-19",
+  "name": "Frosted Glassmorphism Prism Card (Variant 2 of 2)",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Glassmorphism Prism",
+  "description": "Iridescent chromatic border frosted glass hero deal card.",
+  "settings": {
+    "title": "Frosted Glassmorphism Prism Card (Variant 2 of 2)",
+    "subtitle": "Iridescent chromatic border frosted glass hero deal card.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

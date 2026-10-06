@@ -1,0 +1,14 @@
+{
+  "id": "offers-deals-grid-11",
+  "name": "Spotlight Hotspot Lens Deal Inspector",
+  "category": "offers-deals-grid",
+  "type": "deals-grid",
+  "variant": "Spotlight Hotspot",
+  "description": "Interactive circular magnifier spotlight with clickable deal specification markers and lens zoom.",
+  "settings": {
+    "title": "Spotlight Hotspot Lens Deal Inspector",
+    "subtitle": "Interactive circular magnifier spotlight with clickable deal specification markers and lens zoom.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

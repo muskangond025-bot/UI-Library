@@ -1,6 +1,7 @@
 {
   "id": "account-overview-17",
-  "title": "17 — Visual Account Map",
+  "title": "17 — Floating Account Modules — Parallax Float Depth",
   "category": "account-overview",
-  "description": "Abstract visual account topology depicting connections between profile, orders, wishlist, and rewards via animated SVG path connectors."
+  "description": "Anchored central identity surrounded by gently levitating solid stat modules using subtle sine-wave float physics.",
+  "heading": "17 — Floating Account Modules — Parallax Float Depth"
 }

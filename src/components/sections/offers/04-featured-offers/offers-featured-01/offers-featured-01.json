@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-01",
+  "name": "Neo-Brutalist Sticker Drop Vault",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Neo-Brutalism",
+  "description": "Bright electric yellow & black raw 4px outlines with tactile sticker press cards.",
+  "settings": {
+    "title": "Neo-Brutalist Sticker Drop Vault",
+    "subtitle": "Bright electric yellow & black raw 4px outlines with tactile sticker press cards.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

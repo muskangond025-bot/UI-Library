@@ -1,4 +1,7 @@
 {
-  "heading": "Address List + Detail — Split View Management",
-  "description": "Dual-pane saved location interface with instant detail panel expansion and smooth selection animations."
+  "id": "account-address-book-04",
+  "title": "04 — Bento Location Matrix — Asymmetric Tile Elevation",
+  "category": "account-address-book",
+  "description": "Asymmetric bento grid layout organizing primary residence, GPS map coordinates, gate passkeys, and quick-add address form tiles.",
+  "heading": "04 — Bento Location Matrix — Asymmetric Tile Elevation"
 }

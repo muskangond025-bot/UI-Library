@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-13",
+  "name": "Radial Orbit Countdown Radar Hub",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "Radial Orbit",
+  "description": "Central circular SVG countdown timer with surrounding deal nodes orbiting in synchronized rhythm.",
+  "settings": {
+    "title": "Radial Orbit Countdown Radar Hub",
+    "subtitle": "Central circular SVG countdown timer with surrounding deal nodes orbiting in synchronized rhythm.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

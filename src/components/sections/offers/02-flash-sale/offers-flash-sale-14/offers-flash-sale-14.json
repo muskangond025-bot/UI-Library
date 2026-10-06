@@ -1,0 +1,14 @@
+{
+  "id": "offers-flash-sale-14",
+  "name": "Split-Screen Dual Panel Flash Hero",
+  "category": "offers-flash-sale",
+  "type": "flash-sale",
+  "variant": "Split Screen Hero",
+  "description": "Pinned 50% left hero panel with live timer and right scrollable high-impact product deal stream.",
+  "settings": {
+    "title": "Split-Screen Dual Panel Flash Hero",
+    "subtitle": "Pinned 50% left hero panel with live timer and right scrollable high-impact product deal stream.",
+    "showTimer": true,
+    "accentColor": "indigo"
+  }
+}

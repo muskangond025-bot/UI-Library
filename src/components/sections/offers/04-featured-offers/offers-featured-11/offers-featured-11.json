@@ -1,0 +1,14 @@
+{
+  "id": "offers-featured-11",
+  "name": "Interactive Product Comparison Carousel",
+  "category": "offers-featured",
+  "type": "featured-offers",
+  "variant": "Comparison Deck",
+  "description": "Side-by-side featured product spec comparison table with highlight toggle buttons.",
+  "settings": {
+    "title": "Interactive Product Comparison Carousel",
+    "subtitle": "Side-by-side featured product spec comparison table with highlight toggle buttons.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "offers-deals-grid-06",
+  "name": "Editorial Vogue Luxury Archive Sale",
+  "category": "offers-deals-grid",
+  "type": "deals-grid",
+  "variant": "Editorial",
+  "description": "High-fashion serif display typography, editorial slash pricing, monochrome image reveals, and archive tags.",
+  "settings": {
+    "title": "Editorial Vogue Luxury Archive Sale",
+    "subtitle": "High-fashion serif display typography, editorial slash pricing, monochrome image reveals, and archive tags.",
+    "showFilters": true,
+    "accentColor": "indigo"
+  }
+}

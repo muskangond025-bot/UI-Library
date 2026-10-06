@@ -1,77 +1,106 @@
 import React from 'react';
-import { motion, Variants } from 'framer-motion';
-import { Crown, Gift, Sparkles, ChevronRight, Zap, Award } from 'lucide-react';
+import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
+import { ShoppingBag, Heart, Award, MapPin, Sparkles } from 'lucide-react';
 
-const badgeReveal = {
-  hidden: { scale: 0.8, opacity: 0 },
-  visible: {
-    scale: 1,
-    opacity: 1,
-    transition: { type: 'spring' as const, stiffness: 200, damping: 15 }
-  }
+const mockData = {
+  user: {
+    name: 'Alex Morgan',
+    tier: 'Platinum VIP Member',
+    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80',
+    email: 'alex.morgan@example.com',
+  },
+  orbitalActions: [
+    { title: 'Orders', count: '18 Orders', icon: ShoppingBag, color: 'bg-indigo-600', badge: '1 In Transit' },
+    { title: 'Wishlist', count: '14 Items', icon: Heart, color: 'bg-rose-600', badge: '4 Price Drops' },
+    { title: 'Rewards', count: '3,450 Pts', icon: Award, color: 'bg-amber-600', badge: '$35 Credit' },
+    { title: 'Locations', count: '2 Addresses', icon: MapPin, color: 'bg-emerald-600', badge: 'Default Saved' },
+  ]
 };
 
-export function AccountOverview10() {
+export const AccountOverview10: React.FC = () => {
+  const mouseX = useMotionValue(0);
+  const mouseY = useMotionValue(0);
+
+  const springConfig = { damping: 20, stiffness: 200 };
+  const rotateX = useSpring(useTransform(mouseY, [-150, 150], [12, -12]), springConfig);
+  const rotateY = useSpring(useTransform(mouseX, [-150, 150], [-12, 12]), springConfig);
+
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const centerX = rect.left + rect.width / 2;
+    const centerY = rect.top + rect.height / 2;
+    mouseX.set(e.clientX - centerX);
+    mouseY.set(e.clientY - centerY);
+  };
+
+  const handleMouseLeave = () => {
+    mouseX.set(0);
+    mouseY.set(0);
+  };
+
   return (
-    <div className="w-full bg-slate-950 text-white p-6 md:p-12 min-h-[680px] flex items-center">
-      <div className="max-w-6xl mx-auto w-full space-y-8">
-        {/* Membership Banner */}
+    <div 
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave}
+      className="w-full bg-[#0d0f14] text-[#f0f4f8] min-h-[750px] p-6 sm:p-12 font-sans border border-neutral-800 rounded-3xl flex flex-col justify-between relative overflow-hidden"
+    >
+      {/* Title */}
+      <div className="flex justify-between items-center pb-6 border-b border-neutral-800 relative z-10">
+        <div>
+          <span className="text-xs font-mono uppercase tracking-widest text-neutral-400">MAGNETIC OBJECT COMPOSITION</span>
+          <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-white mt-1">Interactive Profile Centerpiece</h1>
+        </div>
+        <span className="px-3 py-1 bg-amber-400/20 text-amber-300 border border-amber-400/30 text-xs font-mono rounded-full flex items-center gap-1.5">
+          <Sparkles className="w-3.5 h-3.5" /> Magnetic Tracking Active
+        </span>
+      </div>
+
+      {/* Main Centerpiece Area with 3D Mouse Parallax */}
+      <div className="my-10 flex flex-col items-center justify-center relative perspective-[1000px] z-10">
         <motion.div
-          variants={badgeReveal}
-          initial="hidden"
-          animate="visible"
-          className="bg-gradient-to-r from-amber-500/20 via-orange-500/10 to-slate-900 border border-amber-500/30 rounded-3xl p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-2xl relative overflow-hidden"
+          style={{ rotateX, rotateY }}
+          className="p-8 bg-gradient-to-b from-neutral-900 via-neutral-900 to-indigo-950/80 border-2 border-indigo-500/40 rounded-3xl shadow-2xl flex flex-col items-center text-center max-w-sm w-full cursor-pointer relative group"
         >
-          <div className="flex items-center gap-6 z-10">
-            <div className="p-4 bg-gradient-to-br from-amber-400 to-amber-600 rounded-3xl text-slate-950 shadow-xl">
-              <Crown className="w-10 h-10" />
-            </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-400 text-slate-950 uppercase">
-                  ACTIVE TIER
-                </span>
-                <span className="text-xs text-amber-300 font-mono">1,250 Points Available</span>
-              </div>
-              <h1 className="text-3xl font-extrabold text-white mt-1">Gold Member Status</h1>
-              <p className="text-xs text-slate-300 mt-0.5">Alex Morgan • You earn 1.5x points on all orders</p>
+          <div className="relative mb-4">
+            <img 
+              src={mockData.user.avatar} 
+              alt={mockData.user.name} 
+              className="w-28 h-28 rounded-full object-cover border-4 border-amber-400/80 shadow-xl"
+            />
+            <div className="absolute bottom-0 right-0 p-2 bg-amber-400 text-black rounded-full shadow-lg">
+              <Award className="w-5 h-5" />
             </div>
           </div>
 
-          <button className="px-6 py-3.5 bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 rounded-2xl font-bold text-xs uppercase tracking-wider transition-all shadow-lg shadow-amber-500/20 z-10 whitespace-nowrap">
-            REDEEM 1,250 POINTS
-          </button>
+          <h2 className="text-2xl font-bold text-white group-hover:text-amber-200 transition-colors">{mockData.user.name}</h2>
+          <p className="text-xs font-mono text-neutral-400 mt-1">{mockData.user.email}</p>
+          <span className="mt-3 px-3 py-1 bg-indigo-500/20 text-indigo-300 text-xs font-mono font-medium rounded-full border border-indigo-500/30">
+            {mockData.user.tier}
+          </span>
         </motion.div>
 
-        {/* Rewards Breakdown Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {[
-            { title: '$25 Reward Voucher', cost: '1,000 Pts', status: 'Ready to Claim', icon: Gift },
-            { title: 'Free Express Delivery', font: 'UNLOCKED', status: 'Gold Tier Benefit', icon: Zap },
-            { title: 'Exclusive Sale Access', font: 'ACTIVE', status: 'Early VIP Access', icon: Sparkles },
-          ].map((card, idx) => {
-            const Icon = card.icon;
+        {/* 4 Orbital Action Chips */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full mt-10">
+          {mockData.orbitalActions.map((action, idx) => {
+            const Icon = action.icon;
             return (
               <motion.div
-                key={idx}
+                key={action.title}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2 + idx * 0.1 }}
-                className="bg-slate-900/80 rounded-3xl p-6 border border-slate-800 hover:border-amber-500/40 transition-all flex flex-col justify-between"
+                transition={{ delay: 0.2 + idx * 0.1, duration: 0.5 }}
+                className="p-5 bg-neutral-900/80 border border-neutral-800 rounded-2xl hover:border-neutral-600 transition-all cursor-pointer group"
               >
-                <div>
-                  <div className="flex items-center justify-between mb-4">
-                    <div className="p-3 bg-amber-500/10 text-amber-400 rounded-2xl border border-amber-500/20">
-                      <Icon className="w-5 h-5" />
-                    </div>
-                    <span className="text-xs font-mono font-bold text-amber-400">{card.cost || card.font}</span>
+                <div className="flex justify-between items-center mb-3">
+                  <div className={`p-2.5 rounded-xl ${action.color} text-white`}>
+                    <Icon className="w-5 h-5" />
                   </div>
-                  <h3 className="text-base font-bold text-white">{card.title}</h3>
-                  <p className="text-xs text-slate-400 mt-1">{card.status}</p>
+                  <span className="text-[10px] font-mono px-2 py-0.5 bg-neutral-800 text-neutral-300 rounded">
+                    {action.badge}
+                  </span>
                 </div>
-                <button className="w-full mt-6 py-2 bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-200 rounded-xl transition-colors">
-                  View Reward Details
-                </button>
+                <h3 className="text-base font-bold text-white group-hover:text-amber-300 transition-colors">{action.title}</h3>
+                <p className="text-xs text-neutral-400 mt-0.5 font-mono">{action.count}</p>
               </motion.div>
             );
           })}
@@ -79,6 +108,4 @@ export function AccountOverview10() {
       </div>
     </div>
   );
-}
-
-export default AccountOverview10;
+};
