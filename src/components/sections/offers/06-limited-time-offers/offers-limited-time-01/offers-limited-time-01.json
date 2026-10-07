@@ -1,15 +1,4 @@
 {
-  "heading": "BLACK FRIDAY ULTIMATE SALE — GLARE HOVER POSTER",
-  "description": "Interactive Swiss poster promotion featuring the React Bits GlareHover component with automatic scroll animation trigger, starburst badge, 85% typography, and QR code details.",
-  "category": "offers-limited-time",
-  "variant": 1,
-  "component": "GlareHover",
-  "props": {
-    "glareColor": "#ffffff",
-    "glareOpacity": 0.5,
-    "glareAngle": -30,
-    "glareSize": 300,
-    "transitionDuration": 850,
-    "autoAnimateOnScroll": true
-  }
+  "heading": "01. Split-Screen Flash Deal Showcase",
+  "description": "Design: Split-screen flash sale banner | Animation: Flip countdown & smooth product scale"
 }

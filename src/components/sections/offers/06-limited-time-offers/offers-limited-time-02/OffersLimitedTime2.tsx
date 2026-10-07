@@ -14,7 +14,66 @@ export function OffersLimitedTime2() {
     { name: 'Rose', bg: 'from-rose-600 via-pink-700 to-rose-950', cap: '#f5d6dc', label: 'Velvet Rose' }
   ];
 
-  const activeTheme = bottleColors[activeColor];
+  const [activeSlide, setActiveSlide] = useState(0);
+
+  const slides = [
+    {
+      title1: "Explore From",
+      title2: "20% Discount",
+      title3: "Perfume",
+      color: 0,
+      highlightText: "Special Offer Fragrance",
+      discountBadge: "20% OFF",
+    },
+    {
+      title1: "Discover Luxury",
+      title2: "35% OFF Royal",
+      title3: "Amber Elixir",
+      color: 1,
+      highlightText: "Royal Amber Special",
+      discountBadge: "35% OFF",
+    },
+    {
+      title1: "Feel The Fresh",
+      title2: "50% FLAT SALE",
+      title3: "Velvet Rose",
+      color: 2,
+      highlightText: "Velvet Rose Exclusive",
+      discountBadge: "50% OFF",
+    },
+    {
+      title1: "Premium Scent",
+      title2: "BUY 1 GET 1",
+      title3: "Oud Collection",
+      color: 0,
+      highlightText: "BOGO Oud Offer",
+      discountBadge: "BOGO DEAL",
+    },
+    {
+      title1: "Limited Edition",
+      title2: "FLAT 40% OFF",
+      title3: "Crystal Bloom",
+      color: 1,
+      highlightText: "Crystal Bloom Flash",
+      discountBadge: "40% OFF",
+    }
+  ];
+
+  const currentSlide = slides[activeSlide];
+  const activeTheme = bottleColors[activeColor] || bottleColors[0];
+
+  // Auto slide every 3 seconds
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setActiveSlide((prev) => (prev + 1) % slides.length);
+    }, 3000);
+    return () => clearInterval(timer);
+  }, [slides.length]);
+
+  const handleDotClick = (index: number) => {
+    setActiveSlide(index);
+    setActiveColor(slides[index].color);
+  };
 
   // Smooth continuous Left-to-Right 360 degree turntable animation loop
   useEffect(() => {
@@ -65,25 +124,32 @@ export function OffersLimitedTime2() {
         
         {/* Left Side: Typography & Action Buttons */}
         <div className="lg:col-span-6 space-y-6 sm:space-y-8 pr-0 lg:pr-4">
-          <div className="space-y-2">
+          <div className="space-y-2 transition-all duration-500 min-h-[220px]">
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-neutral-900 leading-[1.08]">
-              Explore From
+              {currentSlide.title1}
             </h1>
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-neutral-900 leading-[1.08]">
-              20% Discount
+              {currentSlide.title2}
             </h1>
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-emerald-600 leading-[1.08]">
-              Perfume
+              {currentSlide.title3}
             </h1>
           </div>
 
           {/* Carousel dots indicator */}
           <div className="flex items-center gap-2 pt-2">
-            <span className="w-8 h-2 bg-neutral-400 rounded-full" />
-            <span className="w-2 h-2 bg-neutral-900 rounded-full" />
-            <span className="w-2 h-2 bg-neutral-400 rounded-full" />
-            <span className="w-2 h-2 bg-neutral-400 rounded-full" />
-            <span className="w-2 h-2 bg-neutral-400 rounded-full" />
+            {slides.map((_, idx) => (
+              <button
+                key={idx}
+                onClick={() => handleDotClick(idx)}
+                aria-label={`Select slide ${idx + 1}`}
+                className={`transition-all duration-300 ${
+                  idx === activeSlide
+                    ? 'w-8 h-2 bg-neutral-900 rounded-full'
+                    : 'w-2 h-2 bg-neutral-400 hover:bg-neutral-600 rounded-full'
+                }`}
+              />
+            ))}
           </div>
 
           {/* Explore Shop Button Pill */}
@@ -104,9 +170,9 @@ export function OffersLimitedTime2() {
               “
             </div>
             <div className="h-12 px-6 bg-emerald-500 text-white rounded-2xl border border-emerald-600 shadow-md flex items-center justify-between gap-4 font-bold text-sm hover:bg-emerald-600 transition-colors cursor-pointer">
-              <span>Special Offer Fragrance</span>
+              <span>{currentSlide.highlightText}</span>
               <span className="text-xs bg-black/30 px-2 py-0.5 rounded-full font-extrabold text-amber-300">
-                20% OFF
+                {currentSlide.discountBadge}
               </span>
             </div>
           </div>
