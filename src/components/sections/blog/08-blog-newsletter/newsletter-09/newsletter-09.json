@@ -1,0 +1,15 @@
+{
+  "id": "blog-newsletter-9",
+  "name": "Split Hero Content + Form",
+  "category": "blog-newsletter",
+  "morphismType": "Split Morphism",
+  "settings": {
+    "sectionBadge": "SUBSCRIBE #09",
+    "sectionTitle": "JOIN THE FUTURE OF DIGITAL ARCHITECTURE VOL. 9",
+    "sectionSubtitle": "Get weekly curated insights, Split Morphism UI templates, and technical deep-dives delivered straight to your inbox.",
+    "inputPlaceholder": "Enter your work email address...",
+    "buttonText": "Subscribe Now",
+    "disclaimer": "No spam ever. Unsubscribe anytime with 1-click.",
+    "subscriberCount": "48,500+ Tech Leaders Already Subscribed"
+  }
+}

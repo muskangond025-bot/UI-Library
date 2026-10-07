@@ -1,0 +1,20 @@
+{
+  "id": "about-hero-1",
+  "name": "Etail 3D Store Registration Landing Page",
+  "category": "about-hero",
+  "morphismType": "Minimalist Soft Clay 3D + Pastel Isometric",
+  "settings": {
+    "titleLine1": "Register",
+    "titleLine2": "your store",
+    "titleLine3": "name now!",
+    "subtitle": "With etail.me, anyone can earn their first dollar online. Just start with what you know. It's that easy.",
+    "inputPrefix": "My store",
+    "inputPlaceholder": "Enter your store name",
+    "buttonIcon": "ArrowRight",
+    "domainExtension": ".etail.me",
+    "floatingBadges": [
+      { "text": "Instant Setup", "color": "pink" },
+      { "text": "$0 Monthly Fee", "color": "purple" }
+    ]
+  }
+}

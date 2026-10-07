@@ -1,20 +1,54 @@
 import React from 'react';
+import { Truck, ArrowRight } from 'lucide-react';
 
-export function OffersFreeShipping19() {
+interface SectionProps {
+  section?: {
+    id?: string;
+    type?: string;
+    variant?: string;
+    settings?: Record<string, any>;
+    styles?: Record<string, any>;
+  };
+}
+
+export function OffersFreeShipping19({ section }: SectionProps) {
+  const marqueeItems = [
+    'FREE EXPRESS SHIPPING WORLDWIDE OVER $50',
+    '•',
+    '100% PRE-PAID DUTIES & TAXES',
+    '•',
+    'PRE-PAID HASSLE-FREE RETURNS',
+    '•',
+    'NO CODE REQUIRED AT CHECKOUT',
+    '•'
+  ];
+
   return (
-    <div className="w-full py-16 px-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-black text-white rounded-xl border border-indigo-900/50 shadow-2xl">
-      <div className="max-w-4xl mx-auto text-center space-y-4">
-        <span className="inline-block px-3 py-1 bg-indigo-500/20 text-indigo-400 text-xs font-semibold tracking-widest uppercase rounded-full border border-indigo-500/30">
-          Free Shipping Offers Variant 19
-        </span>
-        <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-200 via-white to-purple-200">
-          Free Shipping Offers Section 19
-        </h2>
-        <p className="text-slate-400 text-sm max-w-xl mx-auto">
-          Exclusive deal showcase card featuring high-conversion promotional layouts, countdown timers, and discount tag badges.
-        </p>
+    <section className="w-full py-12 bg-black text-white font-mono border-y border-white/20 overflow-hidden">
+      
+      {/* Swiss Style Minimal Header */}
+      <div className="max-w-6xl mx-auto px-4 mb-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-white/20 pb-6">
+        <div>
+          <span className="text-[10px] uppercase font-bold tracking-widest text-slate-400 block">SWISS MONOCHROME BANNER</span>
+          <h2 className="text-2xl sm:text-4xl font-black uppercase tracking-tighter">FREE SHIPPING STOREWIDE</h2>
+        </div>
+
+        <button className="px-6 py-3 bg-white text-black font-black text-xs uppercase tracking-widest hover:bg-slate-200 transition-colors shrink-0">
+          SHOP QUALIFYING ITEMS
+        </button>
       </div>
-    </div>
+
+      {/* Infinite Marquee Strip */}
+      <div className="w-full bg-white text-black py-4 border-y-2 border-black flex overflow-hidden select-none">
+        <div className="flex shrink-0 items-center justify-around gap-8 min-w-full animate-[marquee_20s_linear_infinite] font-black text-sm tracking-widest">
+          {marqueeItems.concat(marqueeItems).map((text, idx) => (
+            <span key={idx}>{text}</span>
+          ))}
+        </div>
+      </div>
+
+    </section>
   );
 }
+
 export default OffersFreeShipping19;

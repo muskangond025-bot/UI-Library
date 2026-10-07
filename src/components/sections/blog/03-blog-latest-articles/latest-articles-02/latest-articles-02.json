@@ -1,0 +1,52 @@
+{
+  "id": "blog-latest-articles-2",
+  "name": "Neumorphic Vertical List",
+  "category": "blog-latest-articles",
+  "morphismType": "Soft Neumorphism",
+  "settings": {
+    "sectionBadge": "LATEST ARTICLES #02",
+    "sectionTitle": "LATEST INSIGHTS & DISCOVERIES VOL. 2",
+    "sectionSubtitle": "Explore our newest publications featuring Soft Neumorphism visual architectures and responsive UX patterns.",
+    "articles": [
+      {
+        "id": 101,
+        "title": "Designing for Next-Gen Soft Neumorphism Ecosystems",
+        "excerpt": "An in-depth analysis of modern web visual hierarchies and interactive front-end performance strategies.",
+        "category": "UI/UX Design",
+        "author": {
+          "name": "Elena Rostova",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&q=80"
+        },
+        "date": "OCT 07, 2026",
+        "readTime": "5 MIN READ",
+        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80"
+      },
+      {
+        "id": 102,
+        "title": "Optimizing Zero-Carbon Web Infrastructure",
+        "excerpt": "How eco-friendly cloud deployment models are changing developer workflows in 2026.",
+        "category": "Engineering",
+        "author": {
+          "name": "Marcus Vance",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80"
+        },
+        "date": "OCT 05, 2026",
+        "readTime": "4 MIN READ",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80"
+      },
+      {
+        "id": 103,
+        "title": "The Evolution of Micro-Animations in E-Commerce",
+        "excerpt": "Enhancing user retention and conversion through subtle tactile feedback animations.",
+        "category": "Product Strategy",
+        "author": {
+          "name": "Sophia Chen",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80"
+        },
+        "date": "OCT 03, 2026",
+        "readTime": "7 MIN READ",
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "blog-featured-article-6",
+  "name": "Frosted Bento Feature Grid",
+  "category": "blog-featured-article",
+  "morphismType": "Frosted Glass Sub-grid",
+  "settings": {
+    "badge": "EDITORIAL SPOTLIGHT #06",
+    "title": "THE FUTURE OF INNOVATION & DIGITAL ARCHITECTURE VOL. 6",
+    "excerpt": "An in-depth exploration into modern Frosted Glass Sub-grid visual paradigms, user interaction models, and responsive design systems.",
+    "author": {
+      "name": "Elena Rostova",
+      "role": "Senior Editorial Director",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&q=80"
+    },
+    "date": "OCT 07, 2026",
+    "readTime": "5 MIN READ",
+    "featuredImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1800&q=80",
+    "tags": [
+      "Design Systems",
+      "Frosted Glass Sub-grid",
+      "UI Architecture"
+    ],
+    "actionText": "Read Full Article",
+    "bookmarkable": true
+  }
+}

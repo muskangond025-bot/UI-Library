@@ -1,0 +1,26 @@
+{
+  "id": "blog-featured-article-5",
+  "name": "Claymorphic 3D Story Card",
+  "category": "blog-featured-article",
+  "morphismType": "Claymorphism",
+  "settings": {
+    "badge": "EDITORIAL SPOTLIGHT #05",
+    "title": "THE FUTURE OF INNOVATION & DIGITAL ARCHITECTURE VOL. 5",
+    "excerpt": "An in-depth exploration into modern Claymorphism visual paradigms, user interaction models, and responsive design systems.",
+    "author": {
+      "name": "Elena Rostova",
+      "role": "Senior Editorial Director",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&q=80"
+    },
+    "date": "OCT 07, 2026",
+    "readTime": "4 MIN READ",
+    "featuredImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1800&q=80",
+    "tags": [
+      "Design Systems",
+      "Claymorphism",
+      "UI Architecture"
+    ],
+    "actionText": "Read Full Article",
+    "bookmarkable": true
+  }
+}

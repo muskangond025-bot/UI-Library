@@ -1,0 +1,15 @@
+{
+  "id": "blog-newsletter-14",
+  "name": "Liquid Glass Capsule Sub Bar",
+  "category": "blog-newsletter",
+  "morphismType": "Liquid Glass Pill",
+  "settings": {
+    "sectionBadge": "SUBSCRIBE #14",
+    "sectionTitle": "JOIN THE FUTURE OF DIGITAL ARCHITECTURE VOL. 14",
+    "sectionSubtitle": "Get weekly curated insights, Liquid Glass Pill UI templates, and technical deep-dives delivered straight to your inbox.",
+    "inputPlaceholder": "Enter your work email address...",
+    "buttonText": "Subscribe Now",
+    "disclaimer": "No spam ever. Unsubscribe anytime with 1-click.",
+    "subscriberCount": "48,500+ Tech Leaders Already Subscribed"
+  }
+}

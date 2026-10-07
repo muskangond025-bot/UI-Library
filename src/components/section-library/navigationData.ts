@@ -116,4 +116,28 @@ export const offersCategories = [
   { id: 'offers-faq', label: 'Offers FAQ', mappedId: 'offers-faq' },
 ];
 
+export const blogCategories = [
+  { id: 'blog-hero', label: 'Blog Hero', mappedId: 'blog-hero' },
+  { id: 'blog-featured-article', label: 'Featured Article', mappedId: 'blog-featured-article' },
+  { id: 'blog-latest-articles', label: 'Latest Articles', mappedId: 'blog-latest-articles' },
+  { id: 'blog-categories', label: 'Blog Categories', mappedId: 'blog-categories' },
+  { id: 'blog-grid', label: 'Blog Grid', mappedId: 'blog-grid' },
+  { id: 'blog-popular-articles', label: 'Popular Articles', mappedId: 'blog-popular-articles' },
+  { id: 'blog-recent-articles', label: 'Recent Articles', mappedId: 'blog-recent-articles' },
+  { id: 'blog-newsletter', label: 'Newsletter', mappedId: 'blog-newsletter' },
+];
+
+export const aboutCategories = [
+  { id: 'about-hero', label: 'About Hero', mappedId: 'about-hero' },
+  { id: 'about-brand-story', label: 'Brand Story', mappedId: 'about-brand-story' },
+  { id: 'about-mission-vision', label: 'Mission & Vision', mappedId: 'about-mission-vision' },
+  { id: 'about-company-statistics', label: 'Company Statistics', mappedId: 'about-company-statistics' },
+  { id: 'about-image-content', label: 'Image + Content', mappedId: 'about-image-content' },
+  { id: 'about-company-timeline', label: 'Company Timeline', mappedId: 'about-company-timeline' },
+  { id: 'about-brand-values', label: 'Brand Values', mappedId: 'about-brand-values' },
+  { id: 'about-team-showcase', label: 'Team Showcase', mappedId: 'about-team-showcase' },
+  { id: 'about-certifications', label: 'Certifications', mappedId: 'about-certifications' },
+  { id: 'about-partners-brands', label: 'Partners / Brands', mappedId: 'about-partners-brands' },
+  { id: 'about-cta-banner', label: 'CTA Banner', mappedId: 'about-cta-banner' },
+];
 

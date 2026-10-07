@@ -1,0 +1,91 @@
+{
+  "id": "blog-grid-12",
+  "name": "Sci-Fi HUD Feed Grid",
+  "category": "blog-grid",
+  "morphismType": "Sci-Fi HUD Glass",
+  "settings": {
+    "sectionBadge": "BLOG GRID #12",
+    "sectionTitle": "CURATED ARTICLES & STORIES VOL. 12",
+    "sectionSubtitle": "Explore our editorial grid designed with Sci-Fi HUD Glass visual paradigms and responsive UX patterns.",
+    "articles": [
+      {
+        "id": 1,
+        "title": "Next-Gen Sci-Fi HUD Glass Design Paradigms",
+        "excerpt": "Analyzing front-end performance, spatial visual hierarchies, and modern user engagement.",
+        "category": "UI/UX Architecture",
+        "author": {
+          "name": "Elena Rostova",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&q=80"
+        },
+        "date": "OCT 07, 2026",
+        "readTime": "5 MIN READ",
+        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80"
+      },
+      {
+        "id": 2,
+        "title": "Ethical AI & Zero-Carbon Cloud Computing",
+        "excerpt": "How eco-friendly cloud deployment models are redefining developer infrastructure in 2026.",
+        "category": "Engineering",
+        "author": {
+          "name": "Marcus Vance",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80"
+        },
+        "date": "OCT 05, 2026",
+        "readTime": "4 MIN READ",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80"
+      },
+      {
+        "id": 3,
+        "title": "Tactile Micro-Animations in E-Commerce",
+        "excerpt": "Enhancing user retention and conversion through subtle tactile feedback animations.",
+        "category": "Product Strategy",
+        "author": {
+          "name": "Sophia Chen",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80"
+        },
+        "date": "OCT 03, 2026",
+        "readTime": "7 MIN READ",
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80"
+      },
+      {
+        "id": 4,
+        "title": "Decentralized Data Protocols & Privacy",
+        "excerpt": "Evaluating end-to-end security architectures for future enterprise platforms.",
+        "category": "Security",
+        "author": {
+          "name": "Alex Rivera",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80"
+        },
+        "date": "OCT 01, 2026",
+        "readTime": "6 MIN READ",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80"
+      },
+      {
+        "id": 5,
+        "title": "Spatial UI & 3D Web Canvas Integration",
+        "excerpt": "Bringing interactive 3D WebGL scenes seamlessly into modern responsive web products.",
+        "category": "Creative Tech",
+        "author": {
+          "name": "Elena Rostova",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&q=80"
+        },
+        "date": "SEP 28, 2026",
+        "readTime": "8 MIN READ",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80"
+      },
+      {
+        "id": 6,
+        "title": "Sustainable Design Systems for Enterprise Scale",
+        "excerpt": "Creating maintainable component tokens, color palettes, and accessible component libraries.",
+        "category": "Design Systems",
+        "author": {
+          "name": "Marcus Vance",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80"
+        },
+        "date": "SEP 25, 2026",
+        "readTime": "5 MIN READ",
+        "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "blog-popular-articles-5",
+  "name": "Claymorphic Popular Bubble Cards",
+  "category": "blog-popular-articles",
+  "morphismType": "Soft Claymorphism",
+  "settings": {
+    "sectionBadge": "TRENDING NOW #05",
+    "sectionTitle": "MOST READ & POPULAR ARTICLES VOL. 5",
+    "sectionSubtitle": "Discover top trending publications curated with Soft Claymorphism visual paradigms and responsive UX patterns.",
+    "articles": [
+      {
+        "rank": 1,
+        "id": 201,
+        "title": "Mastering Next-Gen Soft Claymorphism UI Design",
+        "excerpt": "An in-depth study on user engagement, spatial visual hierarchies, and front-end performance.",
+        "views": "124.5K Reads",
+        "category": "UI/UX Architecture",
+        "author": {
+          "name": "Elena Rostova",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&q=80"
+        },
+        "date": "OCT 07, 2026",
+        "readTime": "6 MIN READ",
+        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80"
+      },
+      {
+        "rank": 2,
+        "id": 202,
+        "title": "Zero-Carbon Cloud Computing Strategies for 2026",
+        "excerpt": "How eco-friendly infrastructure models are reshaping global enterprise software engineering.",
+        "views": "98.2K Reads",
+        "category": "Engineering",
+        "author": {
+          "name": "Marcus Vance",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80"
+        },
+        "date": "OCT 05, 2026",
+        "readTime": "5 MIN READ",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80"
+      },
+      {
+        "rank": 3,
+        "id": 203,
+        "title": "Tactile Micro-Animations in E-Commerce",
+        "excerpt": "Maximizing user retention and conversion rates using subtle tactile motion feedback.",
+        "views": "86.7K Reads",
+        "category": "Product Strategy",
+        "author": {
+          "name": "Sophia Chen",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80"
+        },
+        "date": "OCT 03, 2026",
+        "readTime": "7 MIN READ",
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80"
+      }
+    ]
+  }
+}

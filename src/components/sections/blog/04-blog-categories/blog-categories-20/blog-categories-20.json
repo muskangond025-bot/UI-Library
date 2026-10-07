@@ -1,0 +1,53 @@
+{
+  "id": "blog-categories-20",
+  "name": "Ultra Stream Full-Bleed Grid",
+  "category": "blog-categories",
+  "morphismType": "Full-Bleed Overlay",
+  "settings": {
+    "sectionBadge": "EXPLORE TOPICS #20",
+    "sectionTitle": "FEATURED BLOG CATEGORIES VOL. 20",
+    "sectionSubtitle": "Browse through curated topics and article collections built with Full-Bleed Overlay aesthetics.",
+    "categories": [
+      {
+        "id": 1,
+        "name": "Artificial Intelligence",
+        "slug": "ai-tech",
+        "articleCount": 42,
+        "icon": "Brain",
+        "description": "Machine learning algorithms, neural models, and autonomous system insights.",
+        "featuredImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+        "accentColor": "cyan"
+      },
+      {
+        "id": 2,
+        "name": "UI/UX Architecture",
+        "slug": "ui-ux-design",
+        "articleCount": 38,
+        "icon": "Layout",
+        "description": "Design systems, glassmorphic UI patterns, and accessibility guidelines.",
+        "featuredImage": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
+        "accentColor": "amber"
+      },
+      {
+        "id": 3,
+        "name": "Sustainable Tech",
+        "slug": "green-tech",
+        "articleCount": 29,
+        "icon": "Leaf",
+        "description": "Zero-carbon cloud infrastructure and ethical green computing practices.",
+        "featuredImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80",
+        "accentColor": "emerald"
+      },
+      {
+        "id": 4,
+        "name": "Product Strategy",
+        "slug": "product-strategy",
+        "articleCount": 54,
+        "icon": "Rocket",
+        "description": "Scaling digital platforms, user retention, and growth frameworks.",
+        "featuredImage": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80",
+        "accentColor": "purple"
+      }
+    ]
+  }
+}

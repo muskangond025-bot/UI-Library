@@ -1,3 +1,283 @@
+import { BlogNewsletter1 } from '../sections/blog/08-blog-newsletter/newsletter-01/BlogNewsletter1';
+import blogNewsletter1Data from '../sections/blog/08-blog-newsletter/newsletter-01/newsletter-01.json';
+import { BlogNewsletter2 } from '../sections/blog/08-blog-newsletter/newsletter-02/BlogNewsletter2';
+import blogNewsletter2Data from '../sections/blog/08-blog-newsletter/newsletter-02/newsletter-02.json';
+import { BlogNewsletter3 } from '../sections/blog/08-blog-newsletter/newsletter-03/BlogNewsletter3';
+import blogNewsletter3Data from '../sections/blog/08-blog-newsletter/newsletter-03/newsletter-03.json';
+import { BlogNewsletter4 } from '../sections/blog/08-blog-newsletter/newsletter-04/BlogNewsletter4';
+import blogNewsletter4Data from '../sections/blog/08-blog-newsletter/newsletter-04/newsletter-04.json';
+import { BlogNewsletter5 } from '../sections/blog/08-blog-newsletter/newsletter-05/BlogNewsletter5';
+import blogNewsletter5Data from '../sections/blog/08-blog-newsletter/newsletter-05/newsletter-05.json';
+import { BlogNewsletter6 } from '../sections/blog/08-blog-newsletter/newsletter-06/BlogNewsletter6';
+import blogNewsletter6Data from '../sections/blog/08-blog-newsletter/newsletter-06/newsletter-06.json';
+import { BlogNewsletter7 } from '../sections/blog/08-blog-newsletter/newsletter-07/BlogNewsletter7';
+import blogNewsletter7Data from '../sections/blog/08-blog-newsletter/newsletter-07/newsletter-07.json';
+import { BlogNewsletter8 } from '../sections/blog/08-blog-newsletter/newsletter-08/BlogNewsletter8';
+import blogNewsletter8Data from '../sections/blog/08-blog-newsletter/newsletter-08/newsletter-08.json';
+import { BlogNewsletter9 } from '../sections/blog/08-blog-newsletter/newsletter-09/BlogNewsletter9';
+import blogNewsletter9Data from '../sections/blog/08-blog-newsletter/newsletter-09/newsletter-09.json';
+import { BlogNewsletter10 } from '../sections/blog/08-blog-newsletter/newsletter-10/BlogNewsletter10';
+import blogNewsletter10Data from '../sections/blog/08-blog-newsletter/newsletter-10/newsletter-10.json';
+import { BlogNewsletter11 } from '../sections/blog/08-blog-newsletter/newsletter-11/BlogNewsletter11';
+import blogNewsletter11Data from '../sections/blog/08-blog-newsletter/newsletter-11/newsletter-11.json';
+import { BlogNewsletter12 } from '../sections/blog/08-blog-newsletter/newsletter-12/BlogNewsletter12';
+import blogNewsletter12Data from '../sections/blog/08-blog-newsletter/newsletter-12/newsletter-12.json';
+import { BlogNewsletter13 } from '../sections/blog/08-blog-newsletter/newsletter-13/BlogNewsletter13';
+import blogNewsletter13Data from '../sections/blog/08-blog-newsletter/newsletter-13/newsletter-13.json';
+import { BlogNewsletter14 } from '../sections/blog/08-blog-newsletter/newsletter-14/BlogNewsletter14';
+import blogNewsletter14Data from '../sections/blog/08-blog-newsletter/newsletter-14/newsletter-14.json';
+import { BlogNewsletter15 } from '../sections/blog/08-blog-newsletter/newsletter-15/BlogNewsletter15';
+import blogNewsletter15Data from '../sections/blog/08-blog-newsletter/newsletter-15/newsletter-15.json';
+import { BlogNewsletter16 } from '../sections/blog/08-blog-newsletter/newsletter-16/BlogNewsletter16';
+import blogNewsletter16Data from '../sections/blog/08-blog-newsletter/newsletter-16/newsletter-16.json';
+import { BlogNewsletter17 } from '../sections/blog/08-blog-newsletter/newsletter-17/BlogNewsletter17';
+import blogNewsletter17Data from '../sections/blog/08-blog-newsletter/newsletter-17/newsletter-17.json';
+import { BlogNewsletter18 } from '../sections/blog/08-blog-newsletter/newsletter-18/BlogNewsletter18';
+import blogNewsletter18Data from '../sections/blog/08-blog-newsletter/newsletter-18/newsletter-18.json';
+import { BlogNewsletter19 } from '../sections/blog/08-blog-newsletter/newsletter-19/BlogNewsletter19';
+import blogNewsletter19Data from '../sections/blog/08-blog-newsletter/newsletter-19/newsletter-19.json';
+import { BlogNewsletter20 } from '../sections/blog/08-blog-newsletter/newsletter-20/BlogNewsletter20';
+import blogNewsletter20Data from '../sections/blog/08-blog-newsletter/newsletter-20/newsletter-20.json';
+import { BlogRecentArticles1 } from '../sections/blog/07-blog-recent-articles/recent-articles-01/BlogRecentArticles1';
+import blogRecentArticles1Data from '../sections/blog/07-blog-recent-articles/recent-articles-01/recent-articles-01.json';
+import { BlogRecentArticles2 } from '../sections/blog/07-blog-recent-articles/recent-articles-02/BlogRecentArticles2';
+import blogRecentArticles2Data from '../sections/blog/07-blog-recent-articles/recent-articles-02/recent-articles-02.json';
+import { BlogRecentArticles3 } from '../sections/blog/07-blog-recent-articles/recent-articles-03/BlogRecentArticles3';
+import blogRecentArticles3Data from '../sections/blog/07-blog-recent-articles/recent-articles-03/recent-articles-03.json';
+import { BlogRecentArticles4 } from '../sections/blog/07-blog-recent-articles/recent-articles-04/BlogRecentArticles4';
+import blogRecentArticles4Data from '../sections/blog/07-blog-recent-articles/recent-articles-04/recent-articles-04.json';
+import { BlogRecentArticles5 } from '../sections/blog/07-blog-recent-articles/recent-articles-05/BlogRecentArticles5';
+import blogRecentArticles5Data from '../sections/blog/07-blog-recent-articles/recent-articles-05/recent-articles-05.json';
+import { BlogRecentArticles6 } from '../sections/blog/07-blog-recent-articles/recent-articles-06/BlogRecentArticles6';
+import blogRecentArticles6Data from '../sections/blog/07-blog-recent-articles/recent-articles-06/recent-articles-06.json';
+import { BlogRecentArticles7 } from '../sections/blog/07-blog-recent-articles/recent-articles-07/BlogRecentArticles7';
+import blogRecentArticles7Data from '../sections/blog/07-blog-recent-articles/recent-articles-07/recent-articles-07.json';
+import { BlogRecentArticles8 } from '../sections/blog/07-blog-recent-articles/recent-articles-08/BlogRecentArticles8';
+import blogRecentArticles8Data from '../sections/blog/07-blog-recent-articles/recent-articles-08/recent-articles-08.json';
+import { BlogRecentArticles9 } from '../sections/blog/07-blog-recent-articles/recent-articles-09/BlogRecentArticles9';
+import blogRecentArticles9Data from '../sections/blog/07-blog-recent-articles/recent-articles-09/recent-articles-09.json';
+import { BlogRecentArticles10 } from '../sections/blog/07-blog-recent-articles/recent-articles-10/BlogRecentArticles10';
+import blogRecentArticles10Data from '../sections/blog/07-blog-recent-articles/recent-articles-10/recent-articles-10.json';
+import { BlogRecentArticles11 } from '../sections/blog/07-blog-recent-articles/recent-articles-11/BlogRecentArticles11';
+import blogRecentArticles11Data from '../sections/blog/07-blog-recent-articles/recent-articles-11/recent-articles-11.json';
+import { BlogRecentArticles12 } from '../sections/blog/07-blog-recent-articles/recent-articles-12/BlogRecentArticles12';
+import blogRecentArticles12Data from '../sections/blog/07-blog-recent-articles/recent-articles-12/recent-articles-12.json';
+import { BlogRecentArticles13 } from '../sections/blog/07-blog-recent-articles/recent-articles-13/BlogRecentArticles13';
+import blogRecentArticles13Data from '../sections/blog/07-blog-recent-articles/recent-articles-13/recent-articles-13.json';
+import { BlogRecentArticles14 } from '../sections/blog/07-blog-recent-articles/recent-articles-14/BlogRecentArticles14';
+import blogRecentArticles14Data from '../sections/blog/07-blog-recent-articles/recent-articles-14/recent-articles-14.json';
+import { BlogRecentArticles15 } from '../sections/blog/07-blog-recent-articles/recent-articles-15/BlogRecentArticles15';
+import blogRecentArticles15Data from '../sections/blog/07-blog-recent-articles/recent-articles-15/recent-articles-15.json';
+import { BlogRecentArticles16 } from '../sections/blog/07-blog-recent-articles/recent-articles-16/BlogRecentArticles16';
+import blogRecentArticles16Data from '../sections/blog/07-blog-recent-articles/recent-articles-16/recent-articles-16.json';
+import { BlogRecentArticles17 } from '../sections/blog/07-blog-recent-articles/recent-articles-17/BlogRecentArticles17';
+import blogRecentArticles17Data from '../sections/blog/07-blog-recent-articles/recent-articles-17/recent-articles-17.json';
+import { BlogRecentArticles18 } from '../sections/blog/07-blog-recent-articles/recent-articles-18/BlogRecentArticles18';
+import blogRecentArticles18Data from '../sections/blog/07-blog-recent-articles/recent-articles-18/recent-articles-18.json';
+import { BlogRecentArticles19 } from '../sections/blog/07-blog-recent-articles/recent-articles-19/BlogRecentArticles19';
+import blogRecentArticles19Data from '../sections/blog/07-blog-recent-articles/recent-articles-19/recent-articles-19.json';
+import { BlogRecentArticles20 } from '../sections/blog/07-blog-recent-articles/recent-articles-20/BlogRecentArticles20';
+import blogRecentArticles20Data from '../sections/blog/07-blog-recent-articles/recent-articles-20/recent-articles-20.json';
+import { BlogPopularArticles1 } from '../sections/blog/06-blog-popular-articles/popular-articles-01/BlogPopularArticles1';
+import blogPopularArticles1Data from '../sections/blog/06-blog-popular-articles/popular-articles-01/popular-articles-01.json';
+import { BlogPopularArticles2 } from '../sections/blog/06-blog-popular-articles/popular-articles-02/BlogPopularArticles2';
+import blogPopularArticles2Data from '../sections/blog/06-blog-popular-articles/popular-articles-02/popular-articles-02.json';
+import { BlogPopularArticles3 } from '../sections/blog/06-blog-popular-articles/popular-articles-03/BlogPopularArticles3';
+import blogPopularArticles3Data from '../sections/blog/06-blog-popular-articles/popular-articles-03/popular-articles-03.json';
+import { BlogPopularArticles4 } from '../sections/blog/06-blog-popular-articles/popular-articles-04/BlogPopularArticles4';
+import blogPopularArticles4Data from '../sections/blog/06-blog-popular-articles/popular-articles-04/popular-articles-04.json';
+import { BlogPopularArticles5 } from '../sections/blog/06-blog-popular-articles/popular-articles-05/BlogPopularArticles5';
+import blogPopularArticles5Data from '../sections/blog/06-blog-popular-articles/popular-articles-05/popular-articles-05.json';
+import { BlogPopularArticles6 } from '../sections/blog/06-blog-popular-articles/popular-articles-06/BlogPopularArticles6';
+import blogPopularArticles6Data from '../sections/blog/06-blog-popular-articles/popular-articles-06/popular-articles-06.json';
+import { BlogPopularArticles7 } from '../sections/blog/06-blog-popular-articles/popular-articles-07/BlogPopularArticles7';
+import blogPopularArticles7Data from '../sections/blog/06-blog-popular-articles/popular-articles-07/popular-articles-07.json';
+import { BlogPopularArticles8 } from '../sections/blog/06-blog-popular-articles/popular-articles-08/BlogPopularArticles8';
+import blogPopularArticles8Data from '../sections/blog/06-blog-popular-articles/popular-articles-08/popular-articles-08.json';
+import { BlogPopularArticles9 } from '../sections/blog/06-blog-popular-articles/popular-articles-09/BlogPopularArticles9';
+import blogPopularArticles9Data from '../sections/blog/06-blog-popular-articles/popular-articles-09/popular-articles-09.json';
+import { BlogPopularArticles10 } from '../sections/blog/06-blog-popular-articles/popular-articles-10/BlogPopularArticles10';
+import blogPopularArticles10Data from '../sections/blog/06-blog-popular-articles/popular-articles-10/popular-articles-10.json';
+import { BlogPopularArticles11 } from '../sections/blog/06-blog-popular-articles/popular-articles-11/BlogPopularArticles11';
+import blogPopularArticles11Data from '../sections/blog/06-blog-popular-articles/popular-articles-11/popular-articles-11.json';
+import { BlogPopularArticles12 } from '../sections/blog/06-blog-popular-articles/popular-articles-12/BlogPopularArticles12';
+import blogPopularArticles12Data from '../sections/blog/06-blog-popular-articles/popular-articles-12/popular-articles-12.json';
+import { BlogPopularArticles13 } from '../sections/blog/06-blog-popular-articles/popular-articles-13/BlogPopularArticles13';
+import blogPopularArticles13Data from '../sections/blog/06-blog-popular-articles/popular-articles-13/popular-articles-13.json';
+import { BlogPopularArticles14 } from '../sections/blog/06-blog-popular-articles/popular-articles-14/BlogPopularArticles14';
+import blogPopularArticles14Data from '../sections/blog/06-blog-popular-articles/popular-articles-14/popular-articles-14.json';
+import { BlogPopularArticles15 } from '../sections/blog/06-blog-popular-articles/popular-articles-15/BlogPopularArticles15';
+import blogPopularArticles15Data from '../sections/blog/06-blog-popular-articles/popular-articles-15/popular-articles-15.json';
+import { BlogPopularArticles16 } from '../sections/blog/06-blog-popular-articles/popular-articles-16/BlogPopularArticles16';
+import blogPopularArticles16Data from '../sections/blog/06-blog-popular-articles/popular-articles-16/popular-articles-16.json';
+import { BlogPopularArticles17 } from '../sections/blog/06-blog-popular-articles/popular-articles-17/BlogPopularArticles17';
+import blogPopularArticles17Data from '../sections/blog/06-blog-popular-articles/popular-articles-17/popular-articles-17.json';
+import { BlogPopularArticles18 } from '../sections/blog/06-blog-popular-articles/popular-articles-18/BlogPopularArticles18';
+import blogPopularArticles18Data from '../sections/blog/06-blog-popular-articles/popular-articles-18/popular-articles-18.json';
+import { BlogPopularArticles19 } from '../sections/blog/06-blog-popular-articles/popular-articles-19/BlogPopularArticles19';
+import blogPopularArticles19Data from '../sections/blog/06-blog-popular-articles/popular-articles-19/popular-articles-19.json';
+import { BlogPopularArticles20 } from '../sections/blog/06-blog-popular-articles/popular-articles-20/BlogPopularArticles20';
+import blogPopularArticles20Data from '../sections/blog/06-blog-popular-articles/popular-articles-20/popular-articles-20.json';
+import { BlogGrid1 } from '../sections/blog/05-blog-grid/blog-grid-01/BlogGrid1';
+import blogGrid1Data from '../sections/blog/05-blog-grid/blog-grid-01/blog-grid-01.json';
+import { BlogGrid2 } from '../sections/blog/05-blog-grid/blog-grid-02/BlogGrid2';
+import blogGrid2Data from '../sections/blog/05-blog-grid/blog-grid-02/blog-grid-02.json';
+import { BlogGrid3 } from '../sections/blog/05-blog-grid/blog-grid-03/BlogGrid3';
+import blogGrid3Data from '../sections/blog/05-blog-grid/blog-grid-03/blog-grid-03.json';
+import { BlogGrid4 } from '../sections/blog/05-blog-grid/blog-grid-04/BlogGrid4';
+import blogGrid4Data from '../sections/blog/05-blog-grid/blog-grid-04/blog-grid-04.json';
+import { BlogGrid5 } from '../sections/blog/05-blog-grid/blog-grid-05/BlogGrid5';
+import blogGrid5Data from '../sections/blog/05-blog-grid/blog-grid-05/blog-grid-05.json';
+import { BlogGrid6 } from '../sections/blog/05-blog-grid/blog-grid-06/BlogGrid6';
+import blogGrid6Data from '../sections/blog/05-blog-grid/blog-grid-06/blog-grid-06.json';
+import { BlogGrid7 } from '../sections/blog/05-blog-grid/blog-grid-07/BlogGrid7';
+import blogGrid7Data from '../sections/blog/05-blog-grid/blog-grid-07/blog-grid-07.json';
+import { BlogGrid8 } from '../sections/blog/05-blog-grid/blog-grid-08/BlogGrid8';
+import blogGrid8Data from '../sections/blog/05-blog-grid/blog-grid-08/blog-grid-08.json';
+import { BlogGrid9 } from '../sections/blog/05-blog-grid/blog-grid-09/BlogGrid9';
+import blogGrid9Data from '../sections/blog/05-blog-grid/blog-grid-09/blog-grid-09.json';
+import { BlogGrid10 } from '../sections/blog/05-blog-grid/blog-grid-10/BlogGrid10';
+import blogGrid10Data from '../sections/blog/05-blog-grid/blog-grid-10/blog-grid-10.json';
+import { BlogGrid11 } from '../sections/blog/05-blog-grid/blog-grid-11/BlogGrid11';
+import blogGrid11Data from '../sections/blog/05-blog-grid/blog-grid-11/blog-grid-11.json';
+import { BlogGrid12 } from '../sections/blog/05-blog-grid/blog-grid-12/BlogGrid12';
+import blogGrid12Data from '../sections/blog/05-blog-grid/blog-grid-12/blog-grid-12.json';
+import { BlogGrid13 } from '../sections/blog/05-blog-grid/blog-grid-13/BlogGrid13';
+import blogGrid13Data from '../sections/blog/05-blog-grid/blog-grid-13/blog-grid-13.json';
+import { BlogGrid14 } from '../sections/blog/05-blog-grid/blog-grid-14/BlogGrid14';
+import blogGrid14Data from '../sections/blog/05-blog-grid/blog-grid-14/blog-grid-14.json';
+import { BlogGrid15 } from '../sections/blog/05-blog-grid/blog-grid-15/BlogGrid15';
+import blogGrid15Data from '../sections/blog/05-blog-grid/blog-grid-15/blog-grid-15.json';
+import { BlogGrid16 } from '../sections/blog/05-blog-grid/blog-grid-16/BlogGrid16';
+import blogGrid16Data from '../sections/blog/05-blog-grid/blog-grid-16/blog-grid-16.json';
+import { BlogGrid17 } from '../sections/blog/05-blog-grid/blog-grid-17/BlogGrid17';
+import blogGrid17Data from '../sections/blog/05-blog-grid/blog-grid-17/blog-grid-17.json';
+import { BlogGrid18 } from '../sections/blog/05-blog-grid/blog-grid-18/BlogGrid18';
+import blogGrid18Data from '../sections/blog/05-blog-grid/blog-grid-18/blog-grid-18.json';
+import { BlogGrid19 } from '../sections/blog/05-blog-grid/blog-grid-19/BlogGrid19';
+import blogGrid19Data from '../sections/blog/05-blog-grid/blog-grid-19/blog-grid-19.json';
+import { BlogGrid20 } from '../sections/blog/05-blog-grid/blog-grid-20/BlogGrid20';
+import blogGrid20Data from '../sections/blog/05-blog-grid/blog-grid-20/blog-grid-20.json';
+import { BlogCategories1 } from '../sections/blog/04-blog-categories/blog-categories-01/BlogCategories1';
+import blogCategories1Data from '../sections/blog/04-blog-categories/blog-categories-01/blog-categories-01.json';
+import { BlogCategories2 } from '../sections/blog/04-blog-categories/blog-categories-02/BlogCategories2';
+import blogCategories2Data from '../sections/blog/04-blog-categories/blog-categories-02/blog-categories-02.json';
+import { BlogCategories3 } from '../sections/blog/04-blog-categories/blog-categories-03/BlogCategories3';
+import blogCategories3Data from '../sections/blog/04-blog-categories/blog-categories-03/blog-categories-03.json';
+import { BlogCategories4 } from '../sections/blog/04-blog-categories/blog-categories-04/BlogCategories4';
+import blogCategories4Data from '../sections/blog/04-blog-categories/blog-categories-04/blog-categories-04.json';
+import { BlogCategories5 } from '../sections/blog/04-blog-categories/blog-categories-05/BlogCategories5';
+import blogCategories5Data from '../sections/blog/04-blog-categories/blog-categories-05/blog-categories-05.json';
+import { BlogCategories6 } from '../sections/blog/04-blog-categories/blog-categories-06/BlogCategories6';
+import blogCategories6Data from '../sections/blog/04-blog-categories/blog-categories-06/blog-categories-06.json';
+import { BlogCategories7 } from '../sections/blog/04-blog-categories/blog-categories-07/BlogCategories7';
+import blogCategories7Data from '../sections/blog/04-blog-categories/blog-categories-07/blog-categories-07.json';
+import { BlogCategories8 } from '../sections/blog/04-blog-categories/blog-categories-08/BlogCategories8';
+import blogCategories8Data from '../sections/blog/04-blog-categories/blog-categories-08/blog-categories-08.json';
+import { BlogCategories9 } from '../sections/blog/04-blog-categories/blog-categories-09/BlogCategories9';
+import blogCategories9Data from '../sections/blog/04-blog-categories/blog-categories-09/blog-categories-09.json';
+import { BlogCategories10 } from '../sections/blog/04-blog-categories/blog-categories-10/BlogCategories10';
+import blogCategories10Data from '../sections/blog/04-blog-categories/blog-categories-10/blog-categories-10.json';
+import { BlogCategories11 } from '../sections/blog/04-blog-categories/blog-categories-11/BlogCategories11';
+import blogCategories11Data from '../sections/blog/04-blog-categories/blog-categories-11/blog-categories-11.json';
+import { BlogCategories12 } from '../sections/blog/04-blog-categories/blog-categories-12/BlogCategories12';
+import blogCategories12Data from '../sections/blog/04-blog-categories/blog-categories-12/blog-categories-12.json';
+import { BlogCategories13 } from '../sections/blog/04-blog-categories/blog-categories-13/BlogCategories13';
+import blogCategories13Data from '../sections/blog/04-blog-categories/blog-categories-13/blog-categories-13.json';
+import { BlogCategories14 } from '../sections/blog/04-blog-categories/blog-categories-14/BlogCategories14';
+import blogCategories14Data from '../sections/blog/04-blog-categories/blog-categories-14/blog-categories-14.json';
+import { BlogCategories15 } from '../sections/blog/04-blog-categories/blog-categories-15/BlogCategories15';
+import blogCategories15Data from '../sections/blog/04-blog-categories/blog-categories-15/blog-categories-15.json';
+import { BlogCategories16 } from '../sections/blog/04-blog-categories/blog-categories-16/BlogCategories16';
+import blogCategories16Data from '../sections/blog/04-blog-categories/blog-categories-16/blog-categories-16.json';
+import { BlogCategories17 } from '../sections/blog/04-blog-categories/blog-categories-17/BlogCategories17';
+import blogCategories17Data from '../sections/blog/04-blog-categories/blog-categories-17/blog-categories-17.json';
+import { BlogCategories18 } from '../sections/blog/04-blog-categories/blog-categories-18/BlogCategories18';
+import blogCategories18Data from '../sections/blog/04-blog-categories/blog-categories-18/blog-categories-18.json';
+import { BlogCategories19 } from '../sections/blog/04-blog-categories/blog-categories-19/BlogCategories19';
+import blogCategories19Data from '../sections/blog/04-blog-categories/blog-categories-19/blog-categories-19.json';
+import { BlogCategories20 } from '../sections/blog/04-blog-categories/blog-categories-20/BlogCategories20';
+import blogCategories20Data from '../sections/blog/04-blog-categories/blog-categories-20/blog-categories-20.json';
+import { BlogLatestArticles1 } from '../sections/blog/03-blog-latest-articles/latest-articles-01/BlogLatestArticles1';
+import blogLatestArticles1Data from '../sections/blog/03-blog-latest-articles/latest-articles-01/latest-articles-01.json';
+import { BlogLatestArticles2 } from '../sections/blog/03-blog-latest-articles/latest-articles-02/BlogLatestArticles2';
+import blogLatestArticles2Data from '../sections/blog/03-blog-latest-articles/latest-articles-02/latest-articles-02.json';
+import { BlogLatestArticles3 } from '../sections/blog/03-blog-latest-articles/latest-articles-03/BlogLatestArticles3';
+import blogLatestArticles3Data from '../sections/blog/03-blog-latest-articles/latest-articles-03/latest-articles-03.json';
+import { BlogLatestArticles4 } from '../sections/blog/03-blog-latest-articles/latest-articles-04/BlogLatestArticles4';
+import blogLatestArticles4Data from '../sections/blog/03-blog-latest-articles/latest-articles-04/latest-articles-04.json';
+import { BlogLatestArticles5 } from '../sections/blog/03-blog-latest-articles/latest-articles-05/BlogLatestArticles5';
+import blogLatestArticles5Data from '../sections/blog/03-blog-latest-articles/latest-articles-05/latest-articles-05.json';
+import { BlogLatestArticles6 } from '../sections/blog/03-blog-latest-articles/latest-articles-06/BlogLatestArticles6';
+import blogLatestArticles6Data from '../sections/blog/03-blog-latest-articles/latest-articles-06/latest-articles-06.json';
+import { BlogLatestArticles7 } from '../sections/blog/03-blog-latest-articles/latest-articles-07/BlogLatestArticles7';
+import blogLatestArticles7Data from '../sections/blog/03-blog-latest-articles/latest-articles-07/latest-articles-07.json';
+import { BlogLatestArticles8 } from '../sections/blog/03-blog-latest-articles/latest-articles-08/BlogLatestArticles8';
+import blogLatestArticles8Data from '../sections/blog/03-blog-latest-articles/latest-articles-08/latest-articles-08.json';
+import { BlogLatestArticles9 } from '../sections/blog/03-blog-latest-articles/latest-articles-09/BlogLatestArticles9';
+import blogLatestArticles9Data from '../sections/blog/03-blog-latest-articles/latest-articles-09/latest-articles-09.json';
+import { BlogLatestArticles10 } from '../sections/blog/03-blog-latest-articles/latest-articles-10/BlogLatestArticles10';
+import blogLatestArticles10Data from '../sections/blog/03-blog-latest-articles/latest-articles-10/latest-articles-10.json';
+import { BlogLatestArticles11 } from '../sections/blog/03-blog-latest-articles/latest-articles-11/BlogLatestArticles11';
+import blogLatestArticles11Data from '../sections/blog/03-blog-latest-articles/latest-articles-11/latest-articles-11.json';
+import { BlogLatestArticles12 } from '../sections/blog/03-blog-latest-articles/latest-articles-12/BlogLatestArticles12';
+import blogLatestArticles12Data from '../sections/blog/03-blog-latest-articles/latest-articles-12/latest-articles-12.json';
+import { BlogLatestArticles13 } from '../sections/blog/03-blog-latest-articles/latest-articles-13/BlogLatestArticles13';
+import blogLatestArticles13Data from '../sections/blog/03-blog-latest-articles/latest-articles-13/latest-articles-13.json';
+import { BlogLatestArticles14 } from '../sections/blog/03-blog-latest-articles/latest-articles-14/BlogLatestArticles14';
+import blogLatestArticles14Data from '../sections/blog/03-blog-latest-articles/latest-articles-14/latest-articles-14.json';
+import { BlogLatestArticles15 } from '../sections/blog/03-blog-latest-articles/latest-articles-15/BlogLatestArticles15';
+import blogLatestArticles15Data from '../sections/blog/03-blog-latest-articles/latest-articles-15/latest-articles-15.json';
+import { BlogLatestArticles16 } from '../sections/blog/03-blog-latest-articles/latest-articles-16/BlogLatestArticles16';
+import blogLatestArticles16Data from '../sections/blog/03-blog-latest-articles/latest-articles-16/latest-articles-16.json';
+import { BlogLatestArticles17 } from '../sections/blog/03-blog-latest-articles/latest-articles-17/BlogLatestArticles17';
+import blogLatestArticles17Data from '../sections/blog/03-blog-latest-articles/latest-articles-17/latest-articles-17.json';
+import { BlogLatestArticles18 } from '../sections/blog/03-blog-latest-articles/latest-articles-18/BlogLatestArticles18';
+import blogLatestArticles18Data from '../sections/blog/03-blog-latest-articles/latest-articles-18/latest-articles-18.json';
+import { BlogLatestArticles19 } from '../sections/blog/03-blog-latest-articles/latest-articles-19/BlogLatestArticles19';
+import blogLatestArticles19Data from '../sections/blog/03-blog-latest-articles/latest-articles-19/latest-articles-19.json';
+import { BlogLatestArticles20 } from '../sections/blog/03-blog-latest-articles/latest-articles-20/BlogLatestArticles20';
+import blogLatestArticles20Data from '../sections/blog/03-blog-latest-articles/latest-articles-20/latest-articles-20.json';
+import { BlogFeaturedArticle1 } from '../sections/blog/02-blog-featured-article/featured-article-01/BlogFeaturedArticle1';
+import blogFeaturedArticle1Data from '../sections/blog/02-blog-featured-article/featured-article-01/featured-article-01.json';
+import { BlogFeaturedArticle2 } from '../sections/blog/02-blog-featured-article/featured-article-02/BlogFeaturedArticle2';
+import blogFeaturedArticle2Data from '../sections/blog/02-blog-featured-article/featured-article-02/featured-article-02.json';
+import { BlogFeaturedArticle3 } from '../sections/blog/02-blog-featured-article/featured-article-03/BlogFeaturedArticle3';
+import blogFeaturedArticle3Data from '../sections/blog/02-blog-featured-article/featured-article-03/featured-article-03.json';
+import { BlogFeaturedArticle4 } from '../sections/blog/02-blog-featured-article/featured-article-04/BlogFeaturedArticle4';
+import blogFeaturedArticle4Data from '../sections/blog/02-blog-featured-article/featured-article-04/featured-article-04.json';
+import { BlogFeaturedArticle5 } from '../sections/blog/02-blog-featured-article/featured-article-05/BlogFeaturedArticle5';
+import blogFeaturedArticle5Data from '../sections/blog/02-blog-featured-article/featured-article-05/featured-article-05.json';
+import { BlogFeaturedArticle6 } from '../sections/blog/02-blog-featured-article/featured-article-06/BlogFeaturedArticle6';
+import blogFeaturedArticle6Data from '../sections/blog/02-blog-featured-article/featured-article-06/featured-article-06.json';
+import { BlogFeaturedArticle7 } from '../sections/blog/02-blog-featured-article/featured-article-07/BlogFeaturedArticle7';
+import blogFeaturedArticle7Data from '../sections/blog/02-blog-featured-article/featured-article-07/featured-article-07.json';
+import { BlogFeaturedArticle8 } from '../sections/blog/02-blog-featured-article/featured-article-08/BlogFeaturedArticle8';
+import blogFeaturedArticle8Data from '../sections/blog/02-blog-featured-article/featured-article-08/featured-article-08.json';
+import { BlogFeaturedArticle9 } from '../sections/blog/02-blog-featured-article/featured-article-09/BlogFeaturedArticle9';
+import blogFeaturedArticle9Data from '../sections/blog/02-blog-featured-article/featured-article-09/featured-article-09.json';
+import { BlogFeaturedArticle10 } from '../sections/blog/02-blog-featured-article/featured-article-10/BlogFeaturedArticle10';
+import blogFeaturedArticle10Data from '../sections/blog/02-blog-featured-article/featured-article-10/featured-article-10.json';
+import { BlogFeaturedArticle11 } from '../sections/blog/02-blog-featured-article/featured-article-11/BlogFeaturedArticle11';
+import blogFeaturedArticle11Data from '../sections/blog/02-blog-featured-article/featured-article-11/featured-article-11.json';
+import { BlogFeaturedArticle12 } from '../sections/blog/02-blog-featured-article/featured-article-12/BlogFeaturedArticle12';
+import blogFeaturedArticle12Data from '../sections/blog/02-blog-featured-article/featured-article-12/featured-article-12.json';
+import { BlogFeaturedArticle13 } from '../sections/blog/02-blog-featured-article/featured-article-13/BlogFeaturedArticle13';
+import blogFeaturedArticle13Data from '../sections/blog/02-blog-featured-article/featured-article-13/featured-article-13.json';
+import { BlogFeaturedArticle14 } from '../sections/blog/02-blog-featured-article/featured-article-14/BlogFeaturedArticle14';
+import blogFeaturedArticle14Data from '../sections/blog/02-blog-featured-article/featured-article-14/featured-article-14.json';
+import { BlogFeaturedArticle15 } from '../sections/blog/02-blog-featured-article/featured-article-15/BlogFeaturedArticle15';
+import blogFeaturedArticle15Data from '../sections/blog/02-blog-featured-article/featured-article-15/featured-article-15.json';
+import { BlogFeaturedArticle16 } from '../sections/blog/02-blog-featured-article/featured-article-16/BlogFeaturedArticle16';
+import blogFeaturedArticle16Data from '../sections/blog/02-blog-featured-article/featured-article-16/featured-article-16.json';
+import { BlogFeaturedArticle17 } from '../sections/blog/02-blog-featured-article/featured-article-17/BlogFeaturedArticle17';
+import blogFeaturedArticle17Data from '../sections/blog/02-blog-featured-article/featured-article-17/featured-article-17.json';
+import { BlogFeaturedArticle18 } from '../sections/blog/02-blog-featured-article/featured-article-18/BlogFeaturedArticle18';
+import blogFeaturedArticle18Data from '../sections/blog/02-blog-featured-article/featured-article-18/featured-article-18.json';
+import { BlogFeaturedArticle19 } from '../sections/blog/02-blog-featured-article/featured-article-19/BlogFeaturedArticle19';
+import blogFeaturedArticle19Data from '../sections/blog/02-blog-featured-article/featured-article-19/featured-article-19.json';
+import { BlogFeaturedArticle20 } from '../sections/blog/02-blog-featured-article/featured-article-20/BlogFeaturedArticle20';
+import blogFeaturedArticle20Data from '../sections/blog/02-blog-featured-article/featured-article-20/featured-article-20.json';
 import { OffersHero1 } from '../sections/offers/01-offers-hero/offers-hero-01/OffersHero1';
 import offersHero1Data from '../sections/offers/01-offers-hero/offers-hero-01/offers-hero-01.json';
 import { OffersHero2 } from '../sections/offers/01-offers-hero/offers-hero-02/OffersHero2';
@@ -1729,7 +2009,7 @@ import CheckoutSecurityTrust20 from '../sections/checkout/10-security-trust/chec
 import checkoutsecuritytrust20Data from '../sections/checkout/10-security-trust/checkout-security-trust-20/checkout-security-trust-20.json';
 
 import React from 'react';
-import { homeCategories, productCategories, cartCategories, checkoutCategories, orderCategories, accountCategories, offersCategories } from './navigationData';
+import { homeCategories, productCategories, cartCategories, checkoutCategories, orderCategories, accountCategories, offersCategories, blogCategories, aboutCategories } from './navigationData';
 import { Code } from 'lucide-react';
 
 import { SectionLibraryCard } from './SectionLibraryCard';
@@ -2093,6 +2373,29 @@ import VideoShowcase19 from '../sections/22-video-showcase/video-showcase-19/Vid
 import videoShowcase19Data from '../sections/22-video-showcase/video-showcase-19/video-showcase-19.json';
 import VideoShowcase20 from '../sections/22-video-showcase/video-showcase-20/VideoShowcase20';
 import videoShowcase20Data from '../sections/22-video-showcase/video-showcase-20/video-showcase-20.json';
+import { BlogHero1 } from '../sections/blog/01-blog-hero/blog-hero-01/BlogHero1';
+import { BlogHero2 } from '../sections/blog/01-blog-hero/blog-hero-02/BlogHero2';
+import { BlogHero3 } from '../sections/blog/01-blog-hero/blog-hero-03/BlogHero3';
+import { BlogHero4 } from '../sections/blog/01-blog-hero/blog-hero-04/BlogHero4';
+import { BlogHero5 } from '../sections/blog/01-blog-hero/blog-hero-05/BlogHero5';
+import { BlogHero6 } from '../sections/blog/01-blog-hero/blog-hero-06/BlogHero6';
+import { BlogHero7 } from '../sections/blog/01-blog-hero/blog-hero-07/BlogHero7';
+import { BlogHero8 } from '../sections/blog/01-blog-hero/blog-hero-08/BlogHero8';
+import { BlogHero9 } from '../sections/blog/01-blog-hero/blog-hero-09/BlogHero9';
+import { BlogHero10 } from '../sections/blog/01-blog-hero/blog-hero-10/BlogHero10';
+import { BlogHero11 } from '../sections/blog/01-blog-hero/blog-hero-11/BlogHero11';
+import { BlogHero12 } from '../sections/blog/01-blog-hero/blog-hero-12/BlogHero12';
+import { BlogHero13 } from '../sections/blog/01-blog-hero/blog-hero-13/BlogHero13';
+import { BlogHero14 } from '../sections/blog/01-blog-hero/blog-hero-14/BlogHero14';
+import { BlogHero15 } from '../sections/blog/01-blog-hero/blog-hero-15/BlogHero15';
+import { BlogHero16 } from '../sections/blog/01-blog-hero/blog-hero-16/BlogHero16';
+import { BlogHero17 } from '../sections/blog/01-blog-hero/blog-hero-17/BlogHero17';
+import { BlogHero18 } from '../sections/blog/01-blog-hero/blog-hero-18/BlogHero18';
+import { BlogHero19 } from '../sections/blog/01-blog-hero/blog-hero-19/BlogHero19';
+import { BlogHero20 } from '../sections/blog/01-blog-hero/blog-hero-20/BlogHero20';
+import { BlogPlaceholder } from '../sections/blog/BlogPlaceholder';
+import { AboutHero1 } from '../sections/about/01-about-hero/about-hero-01/AboutHero1';
+import aboutHero1Data from '../sections/about/01-about-hero/about-hero-01/about-hero-01.json';
 import BlogHighlight1 from '../sections/23-blog-highlights/blog-highlight-1/BlogHighlight1';
 import blogHighlight1Data from '../sections/23-blog-highlights/blog-highlight-1/blog-highlight-1.json';
 import BlogHighlight2 from '../sections/23-blog-highlights/blog-highlight-2/BlogHighlight2';
@@ -9690,7 +9993,191 @@ export function SectionLibraryGrid({ category }: GridProps) {
       { id: 'offers-faq-18', title: (offersFaq18Data as any).title || (offersFaq18Data as any).heading || 'OFFERS FAQ — VARIANT 18', description: offersFaq18Data.description || 'OFFERS FAQ variant 18', previewComponent: <OffersFaq18 /> },
       { id: 'offers-faq-19', title: (offersFaq19Data as any).title || (offersFaq19Data as any).heading || 'OFFERS FAQ — VARIANT 19', description: offersFaq19Data.description || 'OFFERS FAQ variant 19', previewComponent: <OffersFaq19 /> },
       { id: 'offers-faq-20', title: (offersFaq20Data as any).title || (offersFaq20Data as any).heading || 'OFFERS FAQ — VARIANT 20', description: offersFaq20Data.description || 'OFFERS FAQ variant 20', previewComponent: <OffersFaq20 /> },
-    ] : [];
+    ] : category === 'blog-hero' ? [
+      { id: 'blog-hero-1', title: 'EDITORIAL COVER (ANIMATION: BACKGROUND SLOW ZOOM & TEXT REVEAL)', description: 'Design: Editorial Cover • Animation: Background Slow Zoom & Text Reveal', previewComponent: <BlogHero1 /> },
+      { id: 'blog-hero-2', title: 'MINIMALIST TYPOGRAPHY (ANIMATION: LEFT SLIDE-IN & BORDER FADE)', description: 'Design: Minimalist Typography • Animation: Left Slide-In & Border Fade', previewComponent: <BlogHero2 /> },
+      { id: 'blog-hero-3', title: 'SPLIT SCREEN IMAGE (ANIMATION: IMAGE ZOOM-OUT SCALE)', description: 'Design: Split Screen Image • Animation: Image Zoom-Out Scale', previewComponent: <BlogHero3 /> },
+      { id: 'blog-hero-4', title: 'VIDEO BACKGROUND AMBIENT (ANIMATION: DUAL ROTATING AMBIENT ORBS)', description: 'Design: Video Background Ambient • Animation: Dual Rotating Ambient Orbs', previewComponent: <BlogHero4 /> },
+      { id: 'blog-hero-5', title: 'MAGAZINE SPREAD LAYOUT (ANIMATION: HOVER SCALE & CARD BORDER GROW)', description: 'Design: Magazine Spread Layout • Animation: Hover Scale & Card Border Grow', previewComponent: <BlogHero5 /> },
+      { id: 'blog-hero-6', title: 'KINETIC TYPOGRAPHY JOURNAL (ANIMATION: OPPOSING HORIZONTAL TEXT SLIDE)', description: 'Design: Kinetic Typography Journal • Animation: Opposing Horizontal Text Slide', previewComponent: <BlogHero6 /> },
+      { id: 'blog-hero-7', title: 'ASYMMETRIC BENTO GRID (ANIMATION: STAGGERED ELEVATION & IMAGE POP)', description: 'Design: Asymmetric Bento Grid • Animation: Staggered Elevation & Image Pop', previewComponent: <BlogHero7 /> },
+      { id: 'blog-hero-8', title: 'MINIMAL HAIRLINE TECH JOURNAL (ANIMATION: TERMINAL MONOSPACE TYPING REVEAL)', description: 'Design: Minimal Hairline Tech Journal • Animation: Terminal Monospace Typing Reveal', previewComponent: <BlogHero8 /> },
+      { id: 'blog-hero-9', title: 'DYNAMIC CAROUSEL HERO (ANIMATION: FADE & BACKGROUND SWITCH TRANSITION)', description: 'Design: Dynamic Carousel Hero • Animation: Fade & Background Switch Transition', previewComponent: <BlogHero9 /> },
+      { id: 'blog-hero-10', title: '3D PERSPECTIVE CARD COVER (ANIMATION: INTERACTIVE PERSPECTIVE TILT)', description: 'Design: 3D Perspective Card Cover • Animation: Interactive Perspective Tilt', previewComponent: <BlogHero10 /> },
+      { id: 'blog-hero-11', title: 'FULLWIDTH ECO LANDSCAPE (ANIMATION: FULLSCREEN IMAGE PAN & GRADIENT REVEAL)', description: 'Design: Fullwidth Eco Landscape • Animation: Fullscreen Image Pan & Gradient Reveal', previewComponent: <BlogHero11 /> },
+      { id: 'blog-hero-12', title: 'TIMELINE JOURNEY JOURNAL (ANIMATION: SEQUENTIAL STEP HIGHLIGHT)', description: 'Design: Timeline Journey Journal • Animation: Sequential Step Highlight', previewComponent: <BlogHero12 /> },
+      { id: 'blog-hero-13', title: 'CIRCULAR ORBIT TELEMETRY (ANIMATION: CONTINUOUS INFINITE ORBIT ROTATION)', description: 'Design: Circular Orbit Telemetry • Animation: Continuous Infinite Orbit Rotation', previewComponent: <BlogHero13 /> },
+      { id: 'blog-hero-14', title: 'DARK CYBERPUNK TERMINAL (ANIMATION: MATRIX BINARY FLASH & CODE GLITCH)', description: 'Design: Dark Cyberpunk Terminal • Animation: Matrix Binary Flash & Code Glitch', previewComponent: <BlogHero14 /> },
+      { id: 'blog-hero-15', title: 'SWISS MONOCHROMATIC GRID (ANIMATION: HIGH-CONTRAST UPWARD SLIDE)', description: 'Design: Swiss Monochromatic Grid • Animation: High-Contrast Upward Slide', previewComponent: <BlogHero15 /> },
+      { id: 'blog-hero-16', title: 'INTERACTIVE ACCORDION CARDS (ANIMATION: SMOOTH EXPANSION & CARD FOCUS)', description: 'Design: Interactive Accordion Cards • Animation: Smooth Expansion & Card Focus', previewComponent: <BlogHero16 /> },
+      { id: 'blog-hero-17', title: 'FROSTED GLASSMORPHISM CARD (ANIMATION: FLOATING BACKDROP BLUR GLOW)', description: 'Design: Frosted Glassmorphism Card • Animation: Floating Backdrop Blur Glow', previewComponent: <BlogHero17 /> },
+      { id: 'blog-hero-18', title: 'LIVE TICKER MARQUEE (ANIMATION: CONTINUOUS BREAKING NEWS TICKER)', description: 'Design: Live Ticker Marquee • Animation: Continuous Breaking News Ticker', previewComponent: <BlogHero18 /> },
+      { id: 'blog-hero-19', title: 'INTERACTIVE FILTER RAIL (ANIMATION: SMOOTH CATEGORY SWITCH FADE)', description: 'Design: Interactive Filter Rail • Animation: Smooth Category Switch Fade', previewComponent: <BlogHero19 /> },
+      { id: 'blog-hero-20', title: 'AWARD-LEVEL FLAGSHIP CAMPAIGN (ANIMATION: GOLDEN GRADIENT SHINE & SCALE)', description: 'Design: Award-Level Flagship Campaign • Animation: Golden Gradient Shine & Scale', previewComponent: <BlogHero20 /> },
+    ] : category === 'blog-featured-article' ? [
+      { id: 'blog-featured-article-1', title: 'GLASS EDITORIAL SPOTLIGHT (ANIMATION: BACKDROP BLUR GLOW & SCALE AMBIENT BACKGROUND)', description: 'Design: GLASS EDITORIAL SPOTLIGHT • Animation: BACKDROP BLUR GLOW & SCALE AMBIENT BACKGROUND', previewComponent: <BlogFeaturedArticle1 data={blogFeaturedArticle1Data} /> },
+      { id: 'blog-featured-article-2', title: 'NEUMORPHIC MAGAZINE FEATURE (ANIMATION: DUAL SOFT DACTILE SHADOWS & PRESSED ACTIVE BUTTONS)', description: 'Design: NEUMORPHIC MAGAZINE FEATURE • Animation: DUAL SOFT DACTILE SHADOWS & PRESSED ACTIVE BUTTONS', previewComponent: <BlogFeaturedArticle2 data={blogFeaturedArticle2Data} /> },
+      { id: 'blog-featured-article-3', title: 'HOLOGRAPHIC CYBER HUB (ANIMATION: NEON SCANNING LINE LOOP & HUD OVERLAY FLICKER)', description: 'Design: HOLOGRAPHIC CYBER HUB • Animation: NEON SCANNING LINE LOOP & HUD OVERLAY FLICKER', previewComponent: <BlogFeaturedArticle3 data={blogFeaturedArticle3Data} /> },
+      { id: 'blog-featured-article-4', title: 'DEPTH CARD SPLIT SPOTLIGHT (ANIMATION: MULTI-LAYERED STACKED DEPTH WITH PARALLAX ELEVATION)', description: 'Design: DEPTH CARD SPLIT SPOTLIGHT • Animation: MULTI-LAYERED STACKED DEPTH WITH PARALLAX ELEVATION', previewComponent: <BlogFeaturedArticle4 data={blogFeaturedArticle4Data} /> },
+      { id: 'blog-featured-article-5', title: 'CLAYMORPHIC 3D STORY CARD (ANIMATION: ROUNDED 3D CLAY VOLUME & INNER AMBIENT LIGHT POP)', description: 'Design: CLAYMORPHIC 3D STORY CARD • Animation: ROUNDED 3D CLAY VOLUME & INNER AMBIENT LIGHT POP', previewComponent: <BlogFeaturedArticle5 data={blogFeaturedArticle5Data} /> },
+      { id: 'blog-featured-article-6', title: 'FROSTED BENTO FEATURE GRID (ANIMATION: MULTI-TILE FROSTED GLASS & INTERACTIVE HIGHLIGHT)', description: 'Design: FROSTED BENTO FEATURE GRID • Animation: MULTI-TILE FROSTED GLASS & INTERACTIVE HIGHLIGHT', previewComponent: <BlogFeaturedArticle6 data={blogFeaturedArticle6Data} /> },
+      { id: 'blog-featured-article-7', title: 'CHROME METALLIC TECH FOCUS (ANIMATION: HIGH-CONTRAST CHROME SHEEN & LIQUID METAL EDGE)', description: 'Design: CHROME METALLIC TECH FOCUS • Animation: HIGH-CONTRAST CHROME SHEEN & LIQUID METAL EDGE', previewComponent: <BlogFeaturedArticle7 data={blogFeaturedArticle7Data} /> },
+      { id: 'blog-featured-article-8', title: 'AURORA DYNAMIC MESH FOCUS (ANIMATION: FLOATING FLUID MESH BLOB DRIFT & GLASS LIFT)', description: 'Design: AURORA DYNAMIC MESH FOCUS • Animation: FLOATING FLUID MESH BLOB DRIFT & GLASS LIFT', previewComponent: <BlogFeaturedArticle8 data={blogFeaturedArticle8Data} /> },
+      { id: 'blog-featured-article-9', title: 'SPLIT CAROUSEL FEATURED FOCUS (ANIMATION: PROGRESS TIMELINE & SMOOTH SLIDE CROSS-FADE)', description: 'Design: SPLIT CAROUSEL FEATURED FOCUS • Animation: PROGRESS TIMELINE & SMOOTH SLIDE CROSS-FADE', previewComponent: <BlogFeaturedArticle9 data={blogFeaturedArticle9Data} /> },
+      { id: 'blog-featured-article-10', title: 'VELVET DARK MODE GLASS (ANIMATION: DEEP DARK VELVET MODE & VIOLET AURA PULSE)', description: 'Design: VELVET DARK MODE GLASS • Animation: DEEP DARK VELVET MODE & VIOLET AURA PULSE', previewComponent: <BlogFeaturedArticle10 data={blogFeaturedArticle10Data} /> },
+      { id: 'blog-featured-article-11', title: 'SKEUOMORPHIC JOURNAL NOTE (ANIMATION: FOLDED PAPER TACTILE EDGE & VINTAGE INK ACCENT)', description: 'Design: SKEUOMORPHIC JOURNAL NOTE • Animation: FOLDED PAPER TACTILE EDGE & VINTAGE INK ACCENT', previewComponent: <BlogFeaturedArticle11 data={blogFeaturedArticle11Data} /> },
+      { id: 'blog-featured-article-12', title: 'SCI-FI HUD FEATURED FRAME (ANIMATION: HUD CORNER BRACKETS & TELEMETRY PROGRESS RING)', description: 'Design: SCI-FI HUD FEATURED FRAME • Animation: HUD CORNER BRACKETS & TELEMETRY PROGRESS RING', previewComponent: <BlogFeaturedArticle12 data={blogFeaturedArticle12Data} /> },
+      { id: 'blog-featured-article-13', title: 'BENTO STACKED GLASS FEATURE (ANIMATION: PRIMARY HERO GLASS & SECONDARY MINI TILE STACK)', description: 'Design: BENTO STACKED GLASS FEATURE • Animation: PRIMARY HERO GLASS & SECONDARY MINI TILE STACK', previewComponent: <BlogFeaturedArticle13 data={blogFeaturedArticle13Data} /> },
+      { id: 'blog-featured-article-14', title: 'LIQUID GLASS FLOATING CAPSULE (ANIMATION: CURVED LIQUID CAPSULE DRIFT & PARTICLE AURA)', description: 'Design: LIQUID GLASS FLOATING CAPSULE • Animation: CURVED LIQUID CAPSULE DRIFT & PARTICLE AURA', previewComponent: <BlogFeaturedArticle14 data={blogFeaturedArticle14Data} /> },
+      { id: 'blog-featured-article-15', title: 'NEON EDGE GLOW FEATURE (ANIMATION: 360-DEGREE ROTATING NEON RAINBOW BORDER)', description: 'Design: NEON EDGE GLOW FEATURE • Animation: 360-DEGREE ROTATING NEON RAINBOW BORDER', previewComponent: <BlogFeaturedArticle15 data={blogFeaturedArticle15Data} /> },
+      { id: 'blog-featured-article-16', title: 'ARCHITECTURAL WIREFRAME GLASS (ANIMATION: MINIMALIST LINEAR GRIDLINES & TYPOGRAPHY FOCUS)', description: 'Design: ARCHITECTURAL WIREFRAME GLASS • Animation: MINIMALIST LINEAR GRIDLINES & TYPOGRAPHY FOCUS', previewComponent: <BlogFeaturedArticle16 data={blogFeaturedArticle16Data} /> },
+      { id: 'blog-featured-article-17', title: 'FULL POSTER COVER SPOTLIGHT (ANIMATION: FULL-HEIGHT IMAGE POSTER & FLOATING TEXT CURTAIN)', description: 'Design: FULL POSTER COVER SPOTLIGHT • Animation: FULL-HEIGHT IMAGE POSTER & FLOATING TEXT CURTAIN', previewComponent: <BlogFeaturedArticle17 data={blogFeaturedArticle17Data} /> },
+      { id: 'blog-featured-article-18', title: 'PRISMATIC REFRACTION GLASS (ANIMATION: CHROMATIC REFRACTION BLUR & RAINBOW REFLECTION)', description: 'Design: PRISMATIC REFRACTION GLASS • Animation: CHROMATIC REFRACTION BLUR & RAINBOW REFLECTION', previewComponent: <BlogFeaturedArticle18 data={blogFeaturedArticle18Data} /> },
+      { id: 'blog-featured-article-19', title: 'EMBOSSED VINTAGE RETRO CARD (ANIMATION: DEBOSSED BADGE PRESS & WARM FILM GRAIN TEXTURE)', description: 'Design: EMBOSSED VINTAGE RETRO CARD • Animation: DEBOSSED BADGE PRESS & WARM FILM GRAIN TEXTURE', previewComponent: <BlogFeaturedArticle19 data={blogFeaturedArticle19Data} /> },
+      { id: 'blog-featured-article-20', title: 'ULTRA HERO FULL-BLEED OVERLAY (ANIMATION: FULL VIEWPORT OVERLAY & READING PROGRESS GAUGE)', description: 'Design: ULTRA HERO FULL-BLEED OVERLAY • Animation: FULL VIEWPORT OVERLAY & READING PROGRESS GAUGE', previewComponent: <BlogFeaturedArticle20 data={blogFeaturedArticle20Data} /> },
+    ] : category === 'blog-latest-articles' ? [
+      { id: 'blog-latest-articles-1', title: 'GLASS BENTO FEED GRID (ANIMATION: STAGGERED FADE-UP & ACTIVE CARD SCALE)', description: 'Design: GLASS BENTO FEED GRID • Animation: STAGGERED FADE-UP & ACTIVE CARD SCALE', previewComponent: <BlogLatestArticles1 data={blogLatestArticles1Data} /> },
+      { id: 'blog-latest-articles-2', title: 'NEUMORPHIC VERTICAL LIST (ANIMATION: INSET SHADOW FEED & SOFT PRESS FEEDBACK)', description: 'Design: NEUMORPHIC VERTICAL LIST • Animation: INSET SHADOW FEED & SOFT PRESS FEEDBACK', previewComponent: <BlogLatestArticles2 data={blogLatestArticles2Data} /> },
+      { id: 'blog-latest-articles-3', title: 'CYBER MATRIX FEED (ANIMATION: NEON CYAN STREAM & MONOSPACE TIMESTAMP PULSE)', description: 'Design: CYBER MATRIX FEED • Animation: NEON CYAN STREAM & MONOSPACE TIMESTAMP PULSE', previewComponent: <BlogLatestArticles3 data={blogLatestArticles3Data} /> },
+      { id: 'blog-latest-articles-4', title: 'DEPTH MULTI-CARD STACK (ANIMATION: MULTI-LAYER STACKED ELEVATION & SHADOW DEPTH)', description: 'Design: DEPTH MULTI-CARD STACK • Animation: MULTI-LAYER STACKED ELEVATION & SHADOW DEPTH', previewComponent: <BlogLatestArticles4 data={blogLatestArticles4Data} /> },
+      { id: 'blog-latest-articles-5', title: 'CLAYMORPHIC PILL GRID (ANIMATION: BOUNCY 3D CLAY PILLS & INNER LIGHT GLOW)', description: 'Design: CLAYMORPHIC PILL GRID • Animation: BOUNCY 3D CLAY PILLS & INNER LIGHT GLOW', previewComponent: <BlogLatestArticles5 data={blogLatestArticles5Data} /> },
+      { id: 'blog-latest-articles-6', title: 'FROSTED HORIZONTAL SCROLL (ANIMATION: SMOOTH HORIZONTAL CARD DRAG & FROSTED BLUR)', description: 'Design: FROSTED HORIZONTAL SCROLL • Animation: SMOOTH HORIZONTAL CARD DRAG & FROSTED BLUR', previewComponent: <BlogLatestArticles6 data={blogLatestArticles6Data} /> },
+      { id: 'blog-latest-articles-7', title: 'CHROME METALLIC LIST FEED (ANIMATION: LIQUID METALLIC SHEEN WAVE & EDGE HIGHLIGHT)', description: 'Design: CHROME METALLIC LIST FEED • Animation: LIQUID METALLIC SHEEN WAVE & EDGE HIGHLIGHT', previewComponent: <BlogLatestArticles7 data={blogLatestArticles7Data} /> },
+      { id: 'blog-latest-articles-8', title: 'AURORA MESH CARD TRIPLE (ANIMATION: FLUID AURORA BLOB DRIFT & GLASS FLOAT)', description: 'Design: AURORA MESH CARD TRIPLE • Animation: FLUID AURORA BLOB DRIFT & GLASS FLOAT', previewComponent: <BlogLatestArticles8 data={blogLatestArticles8Data} /> },
+      { id: 'blog-latest-articles-9', title: 'SPLIT HERO + ARTICLE RAIL (ANIMATION: HERO SLIDE-IN & STAGGERED RAIL REVEAL)', description: 'Design: SPLIT HERO + ARTICLE RAIL • Animation: HERO SLIDE-IN & STAGGERED RAIL REVEAL', previewComponent: <BlogLatestArticles9 data={blogLatestArticles9Data} /> },
+      { id: 'blog-latest-articles-10', title: 'DARK VELVET TIMELINE STREAM (ANIMATION: TIMELINE VIOLET NODE RADAR & AURA GLOW)', description: 'Design: DARK VELVET TIMELINE STREAM • Animation: TIMELINE VIOLET NODE RADAR & AURA GLOW', previewComponent: <BlogLatestArticles10 data={blogLatestArticles10Data} /> },
+      { id: 'blog-latest-articles-11', title: 'JOURNAL NEWSPAPER GRID (ANIMATION: TACTILE PAPER NOTE CARD TILT & INK ACCENTS)', description: 'Design: JOURNAL NEWSPAPER GRID • Animation: TACTILE PAPER NOTE CARD TILT & INK ACCENTS', previewComponent: <BlogLatestArticles11 data={blogLatestArticles11Data} /> },
+      { id: 'blog-latest-articles-12', title: 'SCI-FI HUD FEED MATRIX (ANIMATION: HUD CORNER BRACKET REVEAL & TERMINAL READOUT)', description: 'Design: SCI-FI HUD FEED MATRIX • Animation: HUD CORNER BRACKET REVEAL & TERMINAL READOUT', previewComponent: <BlogLatestArticles12 data={blogLatestArticles12Data} /> },
+      { id: 'blog-latest-articles-13', title: 'BENTO ASYMMETRIC MASONRY (ANIMATION: ASYMMETRIC MASONRY TILE EXPANSION & FOCUS SHIFT)', description: 'Design: BENTO ASYMMETRIC MASONRY • Animation: ASYMMETRIC MASONRY TILE EXPANSION & FOCUS SHIFT', previewComponent: <BlogLatestArticles13 data={blogLatestArticles13Data} /> },
+      { id: 'blog-latest-articles-14', title: 'LIQUID GLASS CAPSULE FEED (ANIMATION: FLOATING CAPSULE DRIFT & RIPPLE FOCUS)', description: 'Design: LIQUID GLASS CAPSULE FEED • Animation: FLOATING CAPSULE DRIFT & RIPPLE FOCUS', previewComponent: <BlogLatestArticles14 data={blogLatestArticles14Data} /> },
+      { id: 'blog-latest-articles-15', title: 'NEON EDGE GLOW GRID (ANIMATION: 360-DEGREE ROTATING NEON RAINBOW BORDER)', description: 'Design: NEON EDGE GLOW GRID • Animation: 360-DEGREE ROTATING NEON RAINBOW BORDER', previewComponent: <BlogLatestArticles15 data={blogLatestArticles15Data} /> },
+      { id: 'blog-latest-articles-16', title: 'ARCHITECTURAL LINE FEED (ANIMATION: HAIRLINE GRID DRAW & ANCHOR SLIDE)', description: 'Design: ARCHITECTURAL LINE FEED • Animation: HAIRLINE GRID DRAW & ANCHOR SLIDE', previewComponent: <BlogLatestArticles16 data={blogLatestArticles16Data} /> },
+      { id: 'blog-latest-articles-17', title: 'MAGAZINE COMPACT LIST (ANIMATION: MAGAZINE OVERLAY HOVER THUMBNAIL EXPAND)', description: 'Design: MAGAZINE COMPACT LIST • Animation: MAGAZINE OVERLAY HOVER THUMBNAIL EXPAND', previewComponent: <BlogLatestArticles17 data={blogLatestArticles17Data} /> },
+      { id: 'blog-latest-articles-18', title: 'PRISMATIC REFRACTION CARDS (ANIMATION: CHROMATIC REFRACTION SHIFT & RAINBOW REFLECTION)', description: 'Design: PRISMATIC REFRACTION CARDS • Animation: CHROMATIC REFRACTION SHIFT & RAINBOW REFLECTION', previewComponent: <BlogLatestArticles18 data={blogLatestArticles18Data} /> },
+      { id: 'blog-latest-articles-19', title: 'RETRO EMBOSSED CARDS (ANIMATION: DEBOSSED PRESS FEEDBACK & VINTAGE BADGE POP)', description: 'Design: RETRO EMBOSSED CARDS • Animation: DEBOSSED PRESS FEEDBACK & VINTAGE BADGE POP', previewComponent: <BlogLatestArticles19 data={blogLatestArticles19Data} /> },
+      { id: 'blog-latest-articles-20', title: 'ULTRA STREAM FULL-BLEED (ANIMATION: IMMERSIVE ENTRANCE SPRING & FULL BORDER PULSE)', description: 'Design: ULTRA STREAM FULL-BLEED • Animation: IMMERSIVE ENTRANCE SPRING & FULL BORDER PULSE', previewComponent: <BlogLatestArticles20 data={blogLatestArticles20Data} /> },
+    ] : category === 'blog-categories' ? [
+      { id: 'blog-categories-1', title: 'GLASSMORPHIC ICON BENTO GRID (ANIMATION: STAGGERED CONTAINER FADE & HOVER ICON SCALE)', description: 'Design: GLASSMORPHIC ICON BENTO GRID • Animation: STAGGERED CONTAINER FADE & HOVER ICON SCALE', previewComponent: <BlogCategories1 data={blogCategories1Data} /> },
+      { id: 'blog-categories-2', title: 'NEUMORPHIC TACTILE FILTER CARDS (ANIMATION: TACTILE DEPTH PRESS & SOFT SPRING BOUNCE)', description: 'Design: NEUMORPHIC TACTILE FILTER CARDS • Animation: TACTILE DEPTH PRESS & SOFT SPRING BOUNCE', previewComponent: <BlogCategories2 data={blogCategories2Data} /> },
+      { id: 'blog-categories-3', title: 'HOLOGRAPHIC CYBER MATRIX HUB (ANIMATION: NEON CYAN PULSE & MONOSPACE TELEMETRY FLICKER)', description: 'Design: HOLOGRAPHIC CYBER MATRIX HUB • Animation: NEON CYAN PULSE & MONOSPACE TELEMETRY FLICKER', previewComponent: <BlogCategories3 data={blogCategories3Data} /> },
+      { id: 'blog-categories-4', title: 'MULTI-LAYER DEPTH CARDS (ANIMATION: SPATIAL Z-INDEX ELEVATION & SHADOW OFFSET)', description: 'Design: MULTI-LAYER DEPTH CARDS • Animation: SPATIAL Z-INDEX ELEVATION & SHADOW OFFSET', previewComponent: <BlogCategories4 data={blogCategories4Data} /> },
+      { id: 'blog-categories-5', title: 'CLAYMORPHIC 3D BUBBLE GRID (ANIMATION: BOUNCY 3D CLAY SQUISH & INNER GLOW POP)', description: 'Design: CLAYMORPHIC 3D BUBBLE GRID • Animation: BOUNCY 3D CLAY SQUISH & INNER GLOW POP', previewComponent: <BlogCategories5 data={blogCategories5Data} /> },
+      { id: 'blog-categories-6', title: 'FROSTED HORIZONTAL FILTER SLIDER (ANIMATION: SMOOTH HORIZONTAL DRAG & FROSTED BLUR)', description: 'Design: FROSTED HORIZONTAL FILTER SLIDER • Animation: SMOOTH HORIZONTAL DRAG & FROSTED BLUR', previewComponent: <BlogCategories6 data={blogCategories6Data} /> },
+      { id: 'blog-categories-7', title: 'CHROME METALLIC SHEEN TILES (ANIMATION: LIQUID CHROME GRADIENT SHEEN SHIFT)', description: 'Design: CHROME METALLIC SHEEN TILES • Animation: LIQUID CHROME GRADIENT SHEEN SHIFT', previewComponent: <BlogCategories7 data={blogCategories7Data} /> },
+      { id: 'blog-categories-8', title: 'AURORA MESH FLOATING PILLS (ANIMATION: FLUID AURORA MESH DRIFT & GLASS LIFT)', description: 'Design: AURORA MESH FLOATING PILLS • Animation: FLUID AURORA MESH DRIFT & GLASS LIFT', previewComponent: <BlogCategories8 data={blogCategories8Data} /> },
+      { id: 'blog-categories-9', title: 'SPLIT CATEGORY FEATURE + GRID (ANIMATION: DIRECTIONAL SLIDE-IN & DUAL-PANE STAGGER)', description: 'Design: SPLIT CATEGORY FEATURE + GRID • Animation: DIRECTIONAL SLIDE-IN & DUAL-PANE STAGGER', previewComponent: <BlogCategories9 data={blogCategories9Data} /> },
+      { id: 'blog-categories-10', title: 'DARK VELVET GLOW RADAR (ANIMATION: PULSING VIOLET RADAR AURA & HIGH-CONTRAST FOCUS)', description: 'Design: DARK VELVET GLOW RADAR • Animation: PULSING VIOLET RADAR AURA & HIGH-CONTRAST FOCUS', previewComponent: <BlogCategories10 data={blogCategories10Data} /> },
+      { id: 'blog-categories-11', title: 'JOURNAL SKEUOMORPHIC STAMP GRID (ANIMATION: PAPER STAMP TILT & VINTAGE INK REVEAL)', description: 'Design: JOURNAL SKEUOMORPHIC STAMP GRID • Animation: PAPER STAMP TILT & VINTAGE INK REVEAL', previewComponent: <BlogCategories11 data={blogCategories11Data} /> },
+      { id: 'blog-categories-12', title: 'SCI-FI HUD TOPIC TELEMETRY (ANIMATION: HUD CORNER BRACKET REVEAL & TERMINAL BLINK)', description: 'Design: SCI-FI HUD TOPIC TELEMETRY • Animation: HUD CORNER BRACKET REVEAL & TERMINAL BLINK', previewComponent: <BlogCategories12 data={blogCategories12Data} /> },
+      { id: 'blog-categories-13', title: 'BENTO LAYERED GLASS MASONRY (ANIMATION: ASYMMETRIC MASONRY EXPANSION & FOCUS BLUR)', description: 'Design: BENTO LAYERED GLASS MASONRY • Animation: ASYMMETRIC MASONRY EXPANSION & FOCUS BLUR', previewComponent: <BlogCategories13 data={blogCategories13Data} /> },
+      { id: 'blog-categories-14', title: 'LIQUID GLASS CAPSULE FILTER BAR (ANIMATION: FLOATING CAPSULE WAVE & RIPPLE FOCUS)', description: 'Design: LIQUID GLASS CAPSULE FILTER BAR • Animation: FLOATING CAPSULE WAVE & RIPPLE FOCUS', previewComponent: <BlogCategories14 data={blogCategories14Data} /> },
+      { id: 'blog-categories-15', title: 'NEON EDGE GLOW CATEGORY CARDS (ANIMATION: 360-DEGREE ROTATING NEON RAINBOW BORDER)', description: 'Design: NEON EDGE GLOW CATEGORY CARDS • Animation: 360-DEGREE ROTATING NEON RAINBOW BORDER', previewComponent: <BlogCategories15 data={blogCategories15Data} /> },
+      { id: 'blog-categories-16', title: 'ARCHITECTURAL HAIRLINE GRID (ANIMATION: HAIRLINE LINE DRAW & ANCHOR SLIDE)', description: 'Design: ARCHITECTURAL HAIRLINE GRID • Animation: HAIRLINE LINE DRAW & ANCHOR SLIDE', previewComponent: <BlogCategories16 data={blogCategories16Data} /> },
+      { id: 'blog-categories-17', title: 'MAGAZINE MINIMALIST TOPIC LIST (ANIMATION: MINIMALIST LINEAR HOVER EXPAND)', description: 'Design: MAGAZINE MINIMALIST TOPIC LIST • Animation: MINIMALIST LINEAR HOVER EXPAND', previewComponent: <BlogCategories17 data={blogCategories17Data} /> },
+      { id: 'blog-categories-18', title: 'PRISMATIC REFRACTION GLASS CARDS (ANIMATION: CHROMATIC REFRACTION SHIFT & RAINBOW REFLECTION)', description: 'Design: PRISMATIC REFRACTION GLASS CARDS • Animation: CHROMATIC REFRACTION SHIFT & RAINBOW REFLECTION', previewComponent: <BlogCategories18 data={blogCategories18Data} /> },
+      { id: 'blog-categories-19', title: 'EMBOSSED VINTAGE RETRO TILES (ANIMATION: DEBOSSED PRESS FEEDBACK & VINTAGE BADGE POP)', description: 'Design: EMBOSSED VINTAGE RETRO TILES • Animation: DEBOSSED PRESS FEEDBACK & VINTAGE BADGE POP', previewComponent: <BlogCategories19 data={blogCategories19Data} /> },
+      { id: 'blog-categories-20', title: 'ULTRA STREAM FULL-BLEED GRID (ANIMATION: IMMERSIVE ENTRANCE SPRING & FULL BORDER PULSE)', description: 'Design: ULTRA STREAM FULL-BLEED GRID • Animation: IMMERSIVE ENTRANCE SPRING & FULL BORDER PULSE', previewComponent: <BlogCategories20 data={blogCategories20Data} /> },
+    ] : category === 'blog-grid' ? [
+      { id: 'blog-grid-1', title: 'GLASS BENTO GRID FEED (ANIMATION: STAGGERED FADE-UP & IMAGE ZOOM ON HOVER)', description: 'Design: GLASS BENTO GRID FEED • Animation: STAGGERED FADE-UP & IMAGE ZOOM ON HOVER', previewComponent: <BlogGrid1 data={blogGrid1Data} /> },
+      { id: 'blog-grid-2', title: 'NEUMORPHIC SOFT CARD GRID (ANIMATION: TACTILE INSET SHADOW & SPRING PRESS)', description: 'Design: NEUMORPHIC SOFT CARD GRID • Animation: TACTILE INSET SHADOW & SPRING PRESS', previewComponent: <BlogGrid2 data={blogGrid2Data} /> },
+      { id: 'blog-grid-3', title: 'HOLOGRAPHIC CYBER MATRIX GRID (ANIMATION: INFINITE LASER SCAN LINE & NEON GLOW PULSE)', description: 'Design: HOLOGRAPHIC CYBER MATRIX GRID • Animation: INFINITE LASER SCAN LINE & NEON GLOW PULSE', previewComponent: <BlogGrid3 data={blogGrid3Data} /> },
+      { id: 'blog-grid-4', title: 'MULTI-LAYER DEPTH GRID (ANIMATION: 3D SPATIAL TILT & ELEVATED SHADOW DEPTH)', description: 'Design: MULTI-LAYER DEPTH GRID • Animation: 3D SPATIAL TILT & ELEVATED SHADOW DEPTH', previewComponent: <BlogGrid4 data={blogGrid4Data} /> },
+      { id: 'blog-grid-5', title: 'CLAYMORPHIC 3D CARD GRID (ANIMATION: BOUNCY 3D CLAY SPRING & INNER SHADOW SHIFT)', description: 'Design: CLAYMORPHIC 3D CARD GRID • Animation: BOUNCY 3D CLAY SPRING & INNER SHADOW SHIFT', previewComponent: <BlogGrid5 data={blogGrid5Data} /> },
+      { id: 'blog-grid-6', title: 'FROSTED GLASS MASONRY GRID (ANIMATION: SMOOTH MASONRY FADE-IN & FROSTED BLUR)', description: 'Design: FROSTED GLASS MASONRY GRID • Animation: SMOOTH MASONRY FADE-IN & FROSTED BLUR', previewComponent: <BlogGrid6 data={blogGrid6Data} /> },
+      { id: 'blog-grid-7', title: 'CHROME METALLIC SHEEN GRID (ANIMATION: LIQUID METALLIC LIGHT SHEEN WAVE)', description: 'Design: CHROME METALLIC SHEEN GRID • Animation: LIQUID METALLIC LIGHT SHEEN WAVE', previewComponent: <BlogGrid7 data={blogGrid7Data} /> },
+      { id: 'blog-grid-8', title: 'AURORA MESH CARD TRIPLE GRID (ANIMATION: FLUID AURORA BLOB DRIFT & GLASS FLOAT)', description: 'Design: AURORA MESH CARD TRIPLE GRID • Animation: FLUID AURORA BLOB DRIFT & GLASS FLOAT', previewComponent: <BlogGrid8 data={blogGrid8Data} /> },
+      { id: 'blog-grid-9', title: 'SPLIT HERO + ARTICLE GRID (ANIMATION: DIRECTIONAL SLIDE-IN & STAGGER REVEAL)', description: 'Design: SPLIT HERO + ARTICLE GRID • Animation: DIRECTIONAL SLIDE-IN & STAGGER REVEAL', previewComponent: <BlogGrid9 data={blogGrid9Data} /> },
+      { id: 'blog-grid-10', title: 'DARK VELVET GLOW GRID (ANIMATION: PULSING VIOLET RADAR AURA & HIGH-CONTRAST FOCUS)', description: 'Design: DARK VELVET GLOW GRID • Animation: PULSING VIOLET RADAR AURA & HIGH-CONTRAST FOCUS', previewComponent: <BlogGrid10 data={blogGrid10Data} /> },
+      { id: 'blog-grid-11', title: 'JOURNAL SKEUOMORPHIC PAPER GRID (ANIMATION: TACTILE PAPER CARD TILT & INK DROP FADE)', description: 'Design: JOURNAL SKEUOMORPHIC PAPER GRID • Animation: TACTILE PAPER CARD TILT & INK DROP FADE', previewComponent: <BlogGrid11 data={blogGrid11Data} /> },
+      { id: 'blog-grid-12', title: 'SCI-FI HUD FEED GRID (ANIMATION: HUD BRACKET CORNER EXPANSION & GLITCH FLICKER)', description: 'Design: SCI-FI HUD FEED GRID • Animation: HUD BRACKET CORNER EXPANSION & GLITCH FLICKER', previewComponent: <BlogGrid12 data={blogGrid12Data} /> },
+      { id: 'blog-grid-13', title: 'BENTO LAYERED GLASS MASONRY (ANIMATION: ASYMMETRIC TILE EXPANSION & FOCUS SHIFT)', description: 'Design: BENTO LAYERED GLASS MASONRY • Animation: ASYMMETRIC TILE EXPANSION & FOCUS SHIFT', previewComponent: <BlogGrid13 data={blogGrid13Data} /> },
+      { id: 'blog-grid-14', title: 'LIQUID GLASS CAPSULE FEED GRID (ANIMATION: FLOATING CAPSULE DRIFT & RIPPLE RAYS)', description: 'Design: LIQUID GLASS CAPSULE FEED GRID • Animation: FLOATING CAPSULE DRIFT & RIPPLE RAYS', previewComponent: <BlogGrid14 data={blogGrid14Data} /> },
+      { id: 'blog-grid-15', title: 'NEON EDGE GLOW GRID (ANIMATION: 360-DEGREE ROTATING NEON RAINBOW BORDER)', description: 'Design: NEON EDGE GLOW GRID • Animation: 360-DEGREE ROTATING NEON RAINBOW BORDER', previewComponent: <BlogGrid15 data={blogGrid15Data} /> },
+      { id: 'blog-grid-16', title: 'ARCHITECTURAL HAIRLINE GRID (ANIMATION: HAIRLINE DRAW & TEXT ANCHOR SLIDE)', description: 'Design: ARCHITECTURAL HAIRLINE GRID • Animation: HAIRLINE DRAW & TEXT ANCHOR SLIDE', previewComponent: <BlogGrid16 data={blogGrid16Data} /> },
+      { id: 'blog-grid-17', title: 'MAGAZINE COVER GRID (ANIMATION: IMAGE ZOOM EXPAND & CURTAIN GRADIENT DROP)', description: 'Design: MAGAZINE COVER GRID • Animation: IMAGE ZOOM EXPAND & CURTAIN GRADIENT DROP', previewComponent: <BlogGrid17 data={blogGrid17Data} /> },
+      { id: 'blog-grid-18', title: 'PRISMATIC REFRACTION GRID (ANIMATION: CHROMATIC REFRACTION SHIFT & RAINBOW REFLECTION)', description: 'Design: PRISMATIC REFRACTION GRID • Animation: CHROMATIC REFRACTION SHIFT & RAINBOW REFLECTION', previewComponent: <BlogGrid18 data={blogGrid18Data} /> },
+      { id: 'blog-grid-19', title: 'EMBOSSED VINTAGE RETRO GRID (ANIMATION: DEBOSSED PRESS FEEDBACK & VINTAGE BADGE POP)', description: 'Design: EMBOSSED VINTAGE RETRO GRID • Animation: DEBOSSED PRESS FEEDBACK & VINTAGE BADGE POP', previewComponent: <BlogGrid19 data={blogGrid19Data} /> },
+      { id: 'blog-grid-20', title: 'ULTRA STREAM FULL-BLEED GRID (ANIMATION: IMMERSIVE ENTRANCE SPRING & FULL BORDER PULSE)', description: 'Design: ULTRA STREAM FULL-BLEED GRID • Animation: IMMERSIVE ENTRANCE SPRING & FULL BORDER PULSE', previewComponent: <BlogGrid20 data={blogGrid20Data} /> },
+    ] : category === 'blog-popular-articles' ? [
+      { id: 'blog-popular-articles-1', title: 'GLASS RANK TRENDING FEED (ANIMATION: BACKDROP BLUR RANK BADGE BOUNCE & VIEW COUNTER)', description: 'Design: GLASS RANK TRENDING FEED • Animation: BACKDROP BLUR RANK BADGE BOUNCE & VIEW COUNTER', previewComponent: <BlogPopularArticles1 data={blogPopularArticles1Data} /> },
+      { id: 'blog-popular-articles-2', title: 'NEUMORPHIC TOP RATED LIST (ANIMATION: TACTILE INSET CARD ELEVATION & SPRING PRESS)', description: 'Design: NEUMORPHIC TOP RATED LIST • Animation: TACTILE INSET CARD ELEVATION & SPRING PRESS', previewComponent: <BlogPopularArticles2 data={blogPopularArticles2Data} /> },
+      { id: 'blog-popular-articles-3', title: 'HOLOGRAPHIC CYBER TRENDING MATRIX (ANIMATION: CONTINUOUS LASER SCAN LINE & NEON CYAN PULSE)', description: 'Design: HOLOGRAPHIC CYBER TRENDING MATRIX • Animation: CONTINUOUS LASER SCAN LINE & NEON CYAN PULSE', previewComponent: <BlogPopularArticles3 data={blogPopularArticles3Data} /> },
+      { id: 'blog-popular-articles-4', title: 'MULTI-LAYER DEPTH STACK (ANIMATION: SPATIAL 3D TILT & ELEVATED SHADOW RANK DEPTH)', description: 'Design: MULTI-LAYER DEPTH STACK • Animation: SPATIAL 3D TILT & ELEVATED SHADOW RANK DEPTH', previewComponent: <BlogPopularArticles4 data={blogPopularArticles4Data} /> },
+      { id: 'blog-popular-articles-5', title: 'CLAYMORPHIC POPULAR BUBBLE CARDS (ANIMATION: BOUNCY 3D CLAY SPRING & INNER GLOW SHIFT)', description: 'Design: CLAYMORPHIC POPULAR BUBBLE CARDS • Animation: BOUNCY 3D CLAY SPRING & INNER GLOW SHIFT', previewComponent: <BlogPopularArticles5 data={blogPopularArticles5Data} /> },
+      { id: 'blog-popular-articles-6', title: 'FROSTED POPULAR SLIDER (ANIMATION: SMOOTH HORIZONTAL FROSTED CARD SLIDER)', description: 'Design: FROSTED POPULAR SLIDER • Animation: SMOOTH HORIZONTAL FROSTED CARD SLIDER', previewComponent: <BlogPopularArticles6 data={blogPopularArticles6Data} /> },
+      { id: 'blog-popular-articles-7', title: 'CHROME METALLIC SHEEN FEED (ANIMATION: LIQUID METALLIC LIGHT SHEEN WAVE OVER DARK TILES)', description: 'Design: CHROME METALLIC SHEEN FEED • Animation: LIQUID METALLIC LIGHT SHEEN WAVE OVER DARK TILES', previewComponent: <BlogPopularArticles7 data={blogPopularArticles7Data} /> },
+      { id: 'blog-popular-articles-8', title: 'AURORA MESH POPULAR TRIPLE (ANIMATION: FLUID AURORA BLOB DRIFT & GLASS FLOAT)', description: 'Design: AURORA MESH POPULAR TRIPLE • Animation: FLUID AURORA BLOB DRIFT & GLASS FLOAT', previewComponent: <BlogPopularArticles8 data={blogPopularArticles8Data} /> },
+      { id: 'blog-popular-articles-9', title: 'SPLIT HERO RANK 1 + RAIL (ANIMATION: HERO SLIDE-IN & STAGGERED RIGHT RAIL POPULAR FEED)', description: 'Design: SPLIT HERO RANK 1 + RAIL • Animation: HERO SLIDE-IN & STAGGERED RIGHT RAIL POPULAR FEED', previewComponent: <BlogPopularArticles9 data={blogPopularArticles9Data} /> },
+      { id: 'blog-popular-articles-10', title: 'DARK VELVET FLAME STREAM (ANIMATION: PULSING VIOLET RADAR AURA & HIGH-CONTRAST FOCUS)', description: 'Design: DARK VELVET FLAME STREAM • Animation: PULSING VIOLET RADAR AURA & HIGH-CONTRAST FOCUS', previewComponent: <BlogPopularArticles10 data={blogPopularArticles10Data} /> },
+      { id: 'blog-popular-articles-11', title: 'JOURNAL SKEUOMORPHIC NEWSPAPER (ANIMATION: TACTILE PAPER CARD TILT & VINTAGE RANK STAMP)', description: 'Design: JOURNAL SKEUOMORPHIC NEWSPAPER • Animation: TACTILE PAPER CARD TILT & VINTAGE RANK STAMP', previewComponent: <BlogPopularArticles11 data={blogPopularArticles11Data} /> },
+      { id: 'blog-popular-articles-12', title: 'SCI-FI HUD POPULAR TELEMETRY (ANIMATION: HUD BRACKET EXPANSION & TELEMETRY READ COUNTER)', description: 'Design: SCI-FI HUD POPULAR TELEMETRY • Animation: HUD BRACKET EXPANSION & TELEMETRY READ COUNTER', previewComponent: <BlogPopularArticles12 data={blogPopularArticles12Data} /> },
+      { id: 'blog-popular-articles-13', title: 'BENTO LAYERED GLASS MASONRY (ANIMATION: ASYMMETRIC BENTO TILE EXPANSION & FOCUS SHIFT)', description: 'Design: BENTO LAYERED GLASS MASONRY • Animation: ASYMMETRIC BENTO TILE EXPANSION & FOCUS SHIFT', previewComponent: <BlogPopularArticles13 data={blogPopularArticles13Data} /> },
+      { id: 'blog-popular-articles-14', title: 'LIQUID GLASS CAPSULE FEED (ANIMATION: FLOATING CAPSULE DRIFT & PARTICLE AURA)', description: 'Design: LIQUID GLASS CAPSULE FEED • Animation: FLOATING CAPSULE DRIFT & PARTICLE AURA', previewComponent: <BlogPopularArticles14 data={blogPopularArticles14Data} /> },
+      { id: 'blog-popular-articles-15', title: 'NEON EDGE GLOW POPULAR CARDS (ANIMATION: 360-DEGREE ROTATING NEON RAINBOW BORDER)', description: 'Design: NEON EDGE GLOW POPULAR CARDS • Animation: 360-DEGREE ROTATING NEON RAINBOW BORDER', previewComponent: <BlogPopularArticles15 data={blogPopularArticles15Data} /> },
+      { id: 'blog-popular-articles-16', title: 'ARCHITECTURAL HAIRLINE RANK FEED (ANIMATION: HAIRLINE GRID DRAW & ANCHOR SLIDE)', description: 'Design: ARCHITECTURAL HAIRLINE RANK FEED • Animation: HAIRLINE GRID DRAW & ANCHOR SLIDE', previewComponent: <BlogPopularArticles16 data={blogPopularArticles16Data} /> },
+      { id: 'blog-popular-articles-17', title: 'MAGAZINE COVER POPULAR GRID (ANIMATION: IMAGE ZOOM EXPAND & CURTAIN GRADIENT DROP)', description: 'Design: MAGAZINE COVER POPULAR GRID • Animation: IMAGE ZOOM EXPAND & CURTAIN GRADIENT DROP', previewComponent: <BlogPopularArticles17 data={blogPopularArticles17Data} /> },
+      { id: 'blog-popular-articles-18', title: 'PRISMATIC REFRACTION GLASS FEED (ANIMATION: CHROMATIC REFRACTION SHIFT & RAINBOW REFLECTION)', description: 'Design: PRISMATIC REFRACTION GLASS FEED • Animation: CHROMATIC REFRACTION SHIFT & RAINBOW REFLECTION', previewComponent: <BlogPopularArticles18 data={blogPopularArticles18Data} /> },
+      { id: 'blog-popular-articles-19', title: 'EMBOSSED VINTAGE RETRO CARDS (ANIMATION: DEBOSSED PRESS FEEDBACK & VINTAGE RANK POP)', description: 'Design: EMBOSSED VINTAGE RETRO CARDS • Animation: DEBOSSED PRESS FEEDBACK & VINTAGE RANK POP', previewComponent: <BlogPopularArticles19 data={blogPopularArticles19Data} /> },
+      { id: 'blog-popular-articles-20', title: 'ULTRA STREAM FULL-BLEED FEED (ANIMATION: IMMERSIVE ENTRANCE SPRING & FULL BORDER PULSE)', description: 'Design: ULTRA STREAM FULL-BLEED FEED • Animation: IMMERSIVE ENTRANCE SPRING & FULL BORDER PULSE', previewComponent: <BlogPopularArticles20 data={blogPopularArticles20Data} /> },
+    ] : category === 'blog-recent-articles' ? [
+      { id: 'blog-recent-articles-1', title: 'GLASS RECENT TIMELINE FEED (ANIMATION: BACKDROP BLUR TIMESTAMP PULSE & READ TIME BOUNCE)', description: 'Design: GLASS RECENT TIMELINE FEED • Animation: BACKDROP BLUR TIMESTAMP PULSE & READ TIME BOUNCE', previewComponent: <BlogRecentArticles1 data={blogRecentArticles1Data} /> },
+      { id: 'blog-recent-articles-2', title: 'NEUMORPHIC COMPACT FEED LIST (ANIMATION: TACTILE INSET CARD ELEVATION & SPRING PRESS)', description: 'Design: NEUMORPHIC COMPACT FEED LIST • Animation: TACTILE INSET CARD ELEVATION & SPRING PRESS', previewComponent: <BlogRecentArticles2 data={blogRecentArticles2Data} /> },
+      { id: 'blog-recent-articles-3', title: 'HOLOGRAPHIC CYBER LIVE FEED (ANIMATION: CONTINUOUS LASER SCAN LINE & LIVE LED BLINK)', description: 'Design: HOLOGRAPHIC CYBER LIVE FEED • Animation: CONTINUOUS LASER SCAN LINE & LIVE LED BLINK', previewComponent: <BlogRecentArticles3 data={blogRecentArticles3Data} /> },
+      { id: 'blog-recent-articles-4', title: 'MULTI-LAYER DEPTH CHRONO STACK (ANIMATION: SPATIAL 3D TILT & ELEVATED TIMELINE DEPTH)', description: 'Design: MULTI-LAYER DEPTH CHRONO STACK • Animation: SPATIAL 3D TILT & ELEVATED TIMELINE DEPTH', previewComponent: <BlogRecentArticles4 data={blogRecentArticles4Data} /> },
+      { id: 'blog-recent-articles-5', title: 'CLAYMORPHIC RECENT BUBBLE GRID (ANIMATION: BOUNCY 3D CLAY SPRING & INNER GLOW SHIFT)', description: 'Design: CLAYMORPHIC RECENT BUBBLE GRID • Animation: BOUNCY 3D CLAY SPRING & INNER GLOW SHIFT', previewComponent: <BlogRecentArticles5 data={blogRecentArticles5Data} /> },
+      { id: 'blog-recent-articles-6', title: 'FROSTED RECENT HORIZONTAL SLIDER (ANIMATION: SMOOTH HORIZONTAL FROSTED CARD SLIDER)', description: 'Design: FROSTED RECENT HORIZONTAL SLIDER • Animation: SMOOTH HORIZONTAL FROSTED CARD SLIDER', previewComponent: <BlogRecentArticles6 data={blogRecentArticles6Data} /> },
+      { id: 'blog-recent-articles-7', title: 'CHROME METALLIC SHEEN FEED (ANIMATION: LIQUID METALLIC LIGHT SHEEN WAVE OVER DARK TILES)', description: 'Design: CHROME METALLIC SHEEN FEED • Animation: LIQUID METALLIC LIGHT SHEEN WAVE OVER DARK TILES', previewComponent: <BlogRecentArticles7 data={blogRecentArticles7Data} /> },
+      { id: 'blog-recent-articles-8', title: 'AURORA MESH RECENT TRIPLE (ANIMATION: FLUID AURORA BLOB DRIFT & GLASS FLOAT)', description: 'Design: AURORA MESH RECENT TRIPLE • Animation: FLUID AURORA BLOB DRIFT & GLASS FLOAT', previewComponent: <BlogRecentArticles8 data={blogRecentArticles8Data} /> },
+      { id: 'blog-recent-articles-9', title: 'SPLIT HERO LATEST + TIMELINE (ANIMATION: NEWEST STORY SLIDE-IN & STAGGERED RECENT RAIL)', description: 'Design: SPLIT HERO LATEST + TIMELINE • Animation: NEWEST STORY SLIDE-IN & STAGGERED RECENT RAIL', previewComponent: <BlogRecentArticles9 data={blogRecentArticles9Data} /> },
+      { id: 'blog-recent-articles-10', title: 'DARK VELVET GLOW FEED STREAM (ANIMATION: PULSING VIOLET RADAR AURA & HIGH-CONTRAST FOCUS)', description: 'Design: DARK VELVET GLOW FEED STREAM • Animation: PULSING VIOLET RADAR AURA & HIGH-CONTRAST FOCUS', previewComponent: <BlogRecentArticles10 data={blogRecentArticles10Data} /> },
+      { id: 'blog-recent-articles-11', title: 'JOURNAL SKEUOMORPHIC NEWSPAPER FEED (ANIMATION: TACTILE PAPER CARD TILT & VINTAGE DATE STAMP)', description: 'Design: JOURNAL SKEUOMORPHIC NEWSPAPER FEED • Animation: TACTILE PAPER CARD TILT & VINTAGE DATE STAMP', previewComponent: <BlogRecentArticles11 data={blogRecentArticles11Data} /> },
+      { id: 'blog-recent-articles-12', title: 'SCI-FI HUD RECENT TELEMETRY (ANIMATION: HUD BRACKET EXPANSION & TELEMETRY READ COUNTER)', description: 'Design: SCI-FI HUD RECENT TELEMETRY • Animation: HUD BRACKET EXPANSION & TELEMETRY READ COUNTER', previewComponent: <BlogRecentArticles12 data={blogRecentArticles12Data} /> },
+      { id: 'blog-recent-articles-13', title: 'BENTO LAYERED GLASS MASONRY (ANIMATION: ASYMMETRIC BENTO TILE EXPANSION & FOCUS SHIFT)', description: 'Design: BENTO LAYERED GLASS MASONRY • Animation: ASYMMETRIC BENTO TILE EXPANSION & FOCUS SHIFT', previewComponent: <BlogRecentArticles13 data={blogRecentArticles13Data} /> },
+      { id: 'blog-recent-articles-14', title: 'LIQUID GLASS CAPSULE FEED (ANIMATION: FLOATING CAPSULE DRIFT & PARTICLE AURA)', description: 'Design: LIQUID GLASS CAPSULE FEED • Animation: FLOATING CAPSULE DRIFT & PARTICLE AURA', previewComponent: <BlogRecentArticles14 data={blogRecentArticles14Data} /> },
+      { id: 'blog-recent-articles-15', title: 'NEON EDGE GLOW RECENT CARDS (ANIMATION: 360-DEGREE ROTATING NEON RAINBOW BORDER)', description: 'Design: NEON EDGE GLOW RECENT CARDS • Animation: 360-DEGREE ROTATING NEON RAINBOW BORDER', previewComponent: <BlogRecentArticles15 data={blogRecentArticles15Data} /> },
+      { id: 'blog-recent-articles-16', title: 'ARCHITECTURAL HAIRLINE FEED (ANIMATION: HAIRLINE GRID DRAW & ANCHOR SLIDE)', description: 'Design: ARCHITECTURAL HAIRLINE FEED • Animation: HAIRLINE GRID DRAW & ANCHOR SLIDE', previewComponent: <BlogRecentArticles16 data={blogRecentArticles16Data} /> },
+      { id: 'blog-recent-articles-17', title: 'MAGAZINE COVER RECENT GRID (ANIMATION: IMAGE ZOOM EXPAND & CURTAIN GRADIENT DROP)', description: 'Design: MAGAZINE COVER RECENT GRID • Animation: IMAGE ZOOM EXPAND & CURTAIN GRADIENT DROP', previewComponent: <BlogRecentArticles17 data={blogRecentArticles17Data} /> },
+      { id: 'blog-recent-articles-18', title: 'PRISMATIC REFRACTION GLASS FEED (ANIMATION: CHROMATIC REFRACTION SHIFT & RAINBOW REFLECTION)', description: 'Design: PRISMATIC REFRACTION GLASS FEED • Animation: CHROMATIC REFRACTION SHIFT & RAINBOW REFLECTION', previewComponent: <BlogRecentArticles18 data={blogRecentArticles18Data} /> },
+      { id: 'blog-recent-articles-19', title: 'EMBOSSED VINTAGE RETRO CARDS (ANIMATION: DEBOSSED PRESS FEEDBACK & VINTAGE DATE POP)', description: 'Design: EMBOSSED VINTAGE RETRO CARDS • Animation: DEBOSSED PRESS FEEDBACK & VINTAGE DATE POP', previewComponent: <BlogRecentArticles19 data={blogRecentArticles19Data} /> },
+      { id: 'blog-recent-articles-20', title: 'ULTRA STREAM FULL-BLEED FEED (ANIMATION: IMMERSIVE ENTRANCE SPRING & FULL BORDER PULSE)', description: 'Design: ULTRA STREAM FULL-BLEED FEED • Animation: IMMERSIVE ENTRANCE SPRING & FULL BORDER PULSE', previewComponent: <BlogRecentArticles20 data={blogRecentArticles20Data} /> },
+    ] : category === 'blog-newsletter' ? [
+      { id: 'blog-newsletter-1', title: 'GLASSMORPHIC SUBSCRIBER HERO (ANIMATION: BACKDROP BLUR GLOW RING PULSE & SUCCESS POP)', description: 'Design: GLASSMORPHIC SUBSCRIBER HERO • Animation: BACKDROP BLUR GLOW RING PULSE & SUCCESS POP', previewComponent: <BlogNewsletter1 data={blogNewsletter1Data} /> },
+      { id: 'blog-newsletter-2', title: 'NEUMORPHIC DUAL-SHADOW BOX (ANIMATION: TACTILE INSET FIELD FOCUS & SOFT PRESS FEEDBACK)', description: 'Design: NEUMORPHIC DUAL-SHADOW BOX • Animation: TACTILE INSET FIELD FOCUS & SOFT PRESS FEEDBACK', previewComponent: <BlogNewsletter2 data={blogNewsletter2Data} /> },
+      { id: 'blog-newsletter-3', title: 'HOLOGRAPHIC CYBER TERMINAL SUB (ANIMATION: CONTINUOUS LASER SCAN LINE & TERMINAL PROMPT TYPING)', description: 'Design: HOLOGRAPHIC CYBER TERMINAL SUB • Animation: CONTINUOUS LASER SCAN LINE & TERMINAL PROMPT TYPING', previewComponent: <BlogNewsletter3 data={blogNewsletter3Data} /> },
+      { id: 'blog-newsletter-4', title: 'MULTI-LAYER DEPTH CARD BOX (ANIMATION: SPATIAL 3D TILT & ELEVATED SHADOW FIELD DEPTH)', description: 'Design: MULTI-LAYER DEPTH CARD BOX • Animation: SPATIAL 3D TILT & ELEVATED SHADOW FIELD DEPTH', previewComponent: <BlogNewsletter4 data={blogNewsletter4Data} /> },
+      { id: 'blog-newsletter-5', title: 'CLAYMORPHIC 3D BUBBLE FORM (ANIMATION: BOUNCY 3D CLAY BUTTON SPRING & INNER GLOW SHIFT)', description: 'Design: CLAYMORPHIC 3D BUBBLE FORM • Animation: BOUNCY 3D CLAY BUTTON SPRING & INNER GLOW SHIFT', previewComponent: <BlogNewsletter5 data={blogNewsletter5Data} /> },
+      { id: 'blog-newsletter-6', title: 'FROSTED GLASS FLOATING CAPSULE (ANIMATION: FLOATING CAPSULE CONTAINER & BLUR FADE-IN)', description: 'Design: FROSTED GLASS FLOATING CAPSULE • Animation: FLOATING CAPSULE CONTAINER & BLUR FADE-IN', previewComponent: <BlogNewsletter6 data={blogNewsletter6Data} /> },
+      { id: 'blog-newsletter-7', title: 'CHROME METALLIC SHEEN BANNER (ANIMATION: LIQUID METALLIC LIGHT SHEEN WAVE OVER DARK BOX)', description: 'Design: CHROME METALLIC SHEEN BANNER • Animation: LIQUID METALLIC LIGHT SHEEN WAVE OVER DARK BOX', previewComponent: <BlogNewsletter7 data={blogNewsletter7Data} /> },
+      { id: 'blog-newsletter-8', title: 'AURORA MESH NEWSLETTER BOX (ANIMATION: FLUID AURORA BLOB DRIFT & GLASS FLOAT)', description: 'Design: AURORA MESH NEWSLETTER BOX • Animation: FLUID AURORA BLOB DRIFT & GLASS FLOAT', previewComponent: <BlogNewsletter8 data={blogNewsletter8Data} /> },
+      { id: 'blog-newsletter-9', title: 'SPLIT HERO CONTENT + FORM (ANIMATION: BENEFITS LIST SLIDE-IN & FORM REVEAL)', description: 'Design: SPLIT HERO CONTENT + FORM • Animation: BENEFITS LIST SLIDE-IN & FORM REVEAL', previewComponent: <BlogNewsletter9 data={blogNewsletter9Data} /> },
+      { id: 'blog-newsletter-10', title: 'DARK VELVET GLOW RADAR BOX (ANIMATION: PULSING VIOLET RADAR AURA & HIGH-CONTRAST FOCUS)', description: 'Design: DARK VELVET GLOW RADAR BOX • Animation: PULSING VIOLET RADAR AURA & HIGH-CONTRAST FOCUS', previewComponent: <BlogNewsletter10 data={blogNewsletter10Data} /> },
+      { id: 'blog-newsletter-11', title: 'JOURNAL SKEUOMORPHIC STAMP BOX (ANIMATION: TACTILE PAPER CARD TILT & VINTAGE WAX STAMP)', description: 'Design: JOURNAL SKEUOMORPHIC STAMP BOX • Animation: TACTILE PAPER CARD TILT & VINTAGE WAX STAMP', previewComponent: <BlogNewsletter11 data={blogNewsletter11Data} /> },
+      { id: 'blog-newsletter-12', title: 'SCI-FI HUD TELEMETRY SUB BOX (ANIMATION: HUD BRACKET EXPANSION & SUBSCRIBER TELEMETRY READ)', description: 'Design: SCI-FI HUD TELEMETRY SUB BOX • Animation: HUD BRACKET EXPANSION & SUBSCRIBER TELEMETRY READ', previewComponent: <BlogNewsletter12 data={blogNewsletter12Data} /> },
+      { id: 'blog-newsletter-13', title: 'BENTO LAYERED GLASS SUBSCRIBER (ANIMATION: ASYMMETRIC BENTO TILE EXPANSION & FOCUS SHIFT)', description: 'Design: BENTO LAYERED GLASS SUBSCRIBER • Animation: ASYMMETRIC BENTO TILE EXPANSION & FOCUS SHIFT', previewComponent: <BlogNewsletter13 data={blogNewsletter13Data} /> },
+      { id: 'blog-newsletter-14', title: 'LIQUID GLASS CAPSULE SUB BAR (ANIMATION: FLOATING CAPSULE DRIFT & PARTICLE AURA)', description: 'Design: LIQUID GLASS CAPSULE SUB BAR • Animation: FLOATING CAPSULE DRIFT & PARTICLE AURA', previewComponent: <BlogNewsletter14 data={blogNewsletter14Data} /> },
+      { id: 'blog-newsletter-15', title: 'NEON EDGE GLOW NEWSLETTER CARD (ANIMATION: 360-DEGREE ROTATING NEON RAINBOW BORDER)', description: 'Design: NEON EDGE GLOW NEWSLETTER CARD • Animation: 360-DEGREE ROTATING NEON RAINBOW BORDER', previewComponent: <BlogNewsletter15 data={blogNewsletter15Data} /> },
+      { id: 'blog-newsletter-16', title: 'ARCHITECTURAL HAIRLINE LINE FORM (ANIMATION: HAIRLINE GRID DRAW & ANCHOR SLIDE)', description: 'Design: ARCHITECTURAL HAIRLINE LINE FORM • Animation: HAIRLINE GRID DRAW & ANCHOR SLIDE', previewComponent: <BlogNewsletter16 data={blogNewsletter16Data} /> },
+      { id: 'blog-newsletter-17', title: 'MAGAZINE COVER OVERLAY SUB BOX (ANIMATION: BACKGROUND IMAGE ZOOM EXPAND & CURTAIN GRADIENT DROP)', description: 'Design: MAGAZINE COVER OVERLAY SUB BOX • Animation: BACKGROUND IMAGE ZOOM EXPAND & CURTAIN GRADIENT DROP', previewComponent: <BlogNewsletter17 data={blogNewsletter17Data} /> },
+      { id: 'blog-newsletter-18', title: 'PRISMATIC REFRACTION GLASS BOX (ANIMATION: CHROMATIC REFRACTION SHIFT & RAINBOW REFLECTION)', description: 'Design: PRISMATIC REFRACTION GLASS BOX • Animation: CHROMATIC REFRACTION SHIFT & RAINBOW REFLECTION', previewComponent: <BlogNewsletter18 data={blogNewsletter18Data} /> },
+      { id: 'blog-newsletter-19', title: 'EMBOSSED VINTAGE RETRO BOX (ANIMATION: DEBOSSED PRESS FEEDBACK & VINTAGE BUTTON POP)', description: 'Design: EMBOSSED VINTAGE RETRO BOX • Animation: DEBOSSED PRESS FEEDBACK & VINTAGE BUTTON POP', previewComponent: <BlogNewsletter19 data={blogNewsletter19Data} /> },
+      { id: 'blog-newsletter-20', title: 'ULTRA STREAM FULL-BLEED SUB (ANIMATION: IMMERSIVE ENTRANCE SPRING & FULL BORDER PULSE)', description: 'Design: ULTRA STREAM FULL-BLEED SUB • Animation: IMMERSIVE ENTRANCE SPRING & FULL BORDER PULSE', previewComponent: <BlogNewsletter20 data={blogNewsletter20Data} /> },
+    ] : category === 'about-hero' ? [
+      { id: 'about-hero-1', title: 'ETAIL 3D GLASSMORPHIC INTERACTIVE HERO (ANIMATION: 3D KINETIC MESH & ORBITAL GLOW)', description: 'Design: ETAIL 3D GLASSMORPHIC INTERACTIVE HERO • Animation: 3D KINETIC MESH & ORBITAL GLOW', previewComponent: <AboutHero1 data={aboutHero1Data} /> },
+      ...Array.from({ length: 19 }, (_, i) => ({
+        id: `about-hero-${i + 2}`,
+        title: `ABOUT HERO — VARIANT ${(i + 2).toString().padStart(2, '0')}`,
+        description: `Placeholder layout for ABOUT HERO variant ${i + 2}`,
+        previewComponent: <BlogPlaceholder categoryName="ABOUT HERO" variantNumber={i + 2} />
+      }))
+    ] : category.startsWith('about-') ? Array.from({ length: 20 }, (_, i) => {
+      const subName = category.replace('about-', '').replace(/-/g, ' ').toUpperCase();
+      return {
+        id: `${category}-${i + 1}`,
+        title: `${subName} — VARIANT ${(i + 1).toString().padStart(2, '0')}`,
+        description: `Placeholder layout for ${subName} variant ${i + 1}`,
+        previewComponent: <BlogPlaceholder categoryName={subName} variantNumber={i + 1} />
+      };
+    }) : [];
   };
 
   let activeCat = category;
@@ -9711,7 +10198,7 @@ export function SectionLibraryGrid({ category }: GridProps) {
     activeCat = 'cart-recommended-products';
   }
   
-  groups = [...homeCategories, ...productCategories, ...cartCategories, ...checkoutCategories, ...orderCategories, ...accountCategories, ...offersCategories].filter(g => g.id === activeCat);
+  groups = [...homeCategories, ...productCategories, ...cartCategories, ...checkoutCategories, ...orderCategories, ...accountCategories, ...offersCategories, ...blogCategories, ...aboutCategories].filter(g => g.id === activeCat);
 
   const padNum = (num: number) => num.toString().padStart(2, '0');
 
@@ -9763,4 +10250,17 @@ export function SectionLibraryGrid({ category }: GridProps) {
   );
 }
 
-// Force HMR reload 1790666000000
+// Force HMR reload 1790666000070
+
+
+
+
+
+
+
+
+
+
+
+
+
