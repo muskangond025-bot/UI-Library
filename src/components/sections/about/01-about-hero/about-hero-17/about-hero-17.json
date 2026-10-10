@@ -1,0 +1,14 @@
+{
+  "id": "about-hero-17",
+  "name": "AboutHero17",
+  "category": "about-hero",
+  "title": "SPLIT GRID MAGAZINE EDITORIAL HERO",
+  "description": "Dual-pane editorial layout pairing a bold brand manifesto glass column with an interactive 3D media tile and live stat widgets.",
+  "settings": {
+    "title": "SPLIT GRID MAGAZINE EDITORIAL HERO",
+    "subtitle": "DUAL-PANE PARALLAX VISUAL SHOWCASE",
+    "description": "Dual-pane editorial layout pairing a bold brand manifesto glass column with an interactive 3D media tile and live stat widgets.",
+    "tagline": "EDITORIAL MAGAZINE SPLIT",
+    "heroImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
+  }
+}

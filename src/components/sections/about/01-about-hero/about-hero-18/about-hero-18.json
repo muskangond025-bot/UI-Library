@@ -1,0 +1,14 @@
+{
+  "id": "about-hero-18",
+  "name": "AboutHero18",
+  "category": "about-hero",
+  "title": "MINIMALIST LINE-ART GLASS ARCHITECTURE",
+  "description": "Architectural precision glass grid overlays, glowing neon vector paths, and high-contrast typography focus for modern tech firms.",
+  "settings": {
+    "title": "MINIMALIST LINE-ART GLASS ARCHITECTURE",
+    "subtitle": "HAIRLINE VECTOR GRID & NEON GAUGE",
+    "description": "Architectural precision glass grid overlays, glowing neon vector paths, and high-contrast typography focus for modern tech firms.",
+    "tagline": "ARCHITECTURAL LINE-ART",
+    "heroImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
+  }
+}

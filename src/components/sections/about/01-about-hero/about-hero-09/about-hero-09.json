@@ -1,0 +1,14 @@
+{
+  "id": "about-hero-9",
+  "name": "AboutHero9",
+  "category": "about-hero",
+  "title": "PRISM GLASS REFRACTIVE VISION",
+  "description": "Shaping visual brand identities with crystal clear refractive glass panels, high-contrast typography, and dynamic light splits.",
+  "settings": {
+    "title": "PRISM GLASS REFRACTIVE VISION",
+    "subtitle": "CRYSTAL FACET LIGHT SPLIT EDITORIAL",
+    "description": "Shaping visual brand identities with crystal clear refractive glass panels, high-contrast typography, and dynamic light splits.",
+    "tagline": "PRISMATIC CRYSTAL DECK",
+    "heroImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
+  }
+}

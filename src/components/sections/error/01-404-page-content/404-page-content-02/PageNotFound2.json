@@ -1,0 +1,7 @@
+{
+  "id": "404-page-content-02",
+  "name": "404 // SIGNAL_LOST",
+  "category": "404-page-content",
+  "description": "[FATAL_ERR: MEMORY_ADDRESS_NOT_FOUND]. Automatic warp protocol available.",
+  "theme": "dark"
+}

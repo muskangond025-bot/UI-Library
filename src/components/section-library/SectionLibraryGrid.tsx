@@ -1,4 +1,1207 @@
+import { GlobalFooter1 } from '../sections/global/19-footer/global-footer-1/GlobalFooter1';
+import { GlobalFooter2 } from '../sections/global/19-footer/global-footer-2/GlobalFooter2';
+import { GlobalFooter3 } from '../sections/global/19-footer/global-footer-3/GlobalFooter3';
+import { GlobalFooter4 } from '../sections/global/19-footer/global-footer-4/GlobalFooter4';
+import { GlobalFooter5 } from '../sections/global/19-footer/global-footer-5/GlobalFooter5';
+import { GlobalFooter6 } from '../sections/global/19-footer/global-footer-6/GlobalFooter6';
+import { GlobalFooter7 } from '../sections/global/19-footer/global-footer-7/GlobalFooter7';
+import { GlobalFooter8 } from '../sections/global/19-footer/global-footer-8/GlobalFooter8';
+import { GlobalFooter9 } from '../sections/global/19-footer/global-footer-9/GlobalFooter9';
+import { GlobalFooter10 } from '../sections/global/19-footer/global-footer-10/GlobalFooter10';
+import { GlobalFooter11 } from '../sections/global/19-footer/global-footer-11/GlobalFooter11';
+import { GlobalFooter12 } from '../sections/global/19-footer/global-footer-12/GlobalFooter12';
+import { GlobalFooter13 } from '../sections/global/19-footer/global-footer-13/GlobalFooter13';
+import { GlobalFooter14 } from '../sections/global/19-footer/global-footer-14/GlobalFooter14';
+import { GlobalFooter15 } from '../sections/global/19-footer/global-footer-15/GlobalFooter15';
+import { GlobalFooter16 } from '../sections/global/19-footer/global-footer-16/GlobalFooter16';
+import { GlobalFooter17 } from '../sections/global/19-footer/global-footer-17/GlobalFooter17';
+import { GlobalFooter18 } from '../sections/global/19-footer/global-footer-18/GlobalFooter18';
+import { GlobalFooter19 } from '../sections/global/19-footer/global-footer-19/GlobalFooter19';
+import { GlobalFooter20 } from '../sections/global/19-footer/global-footer-20/GlobalFooter20';
+import { GlobalCtaBanner1 } from '../sections/global/18-cta-banner/global-cta-banner-1/GlobalCtaBanner1';
+import { GlobalCtaBanner2 } from '../sections/global/18-cta-banner/global-cta-banner-2/GlobalCtaBanner2';
+import { GlobalCtaBanner3 } from '../sections/global/18-cta-banner/global-cta-banner-3/GlobalCtaBanner3';
+import { GlobalCtaBanner4 } from '../sections/global/18-cta-banner/global-cta-banner-4/GlobalCtaBanner4';
+import { GlobalCtaBanner5 } from '../sections/global/18-cta-banner/global-cta-banner-5/GlobalCtaBanner5';
+import { GlobalCtaBanner6 } from '../sections/global/18-cta-banner/global-cta-banner-6/GlobalCtaBanner6';
+import { GlobalCtaBanner7 } from '../sections/global/18-cta-banner/global-cta-banner-7/GlobalCtaBanner7';
+import { GlobalCtaBanner8 } from '../sections/global/18-cta-banner/global-cta-banner-8/GlobalCtaBanner8';
+import { GlobalCtaBanner9 } from '../sections/global/18-cta-banner/global-cta-banner-9/GlobalCtaBanner9';
+import { GlobalCtaBanner10 } from '../sections/global/18-cta-banner/global-cta-banner-10/GlobalCtaBanner10';
+import { GlobalCtaBanner11 } from '../sections/global/18-cta-banner/global-cta-banner-11/GlobalCtaBanner11';
+import { GlobalCtaBanner12 } from '../sections/global/18-cta-banner/global-cta-banner-12/GlobalCtaBanner12';
+import { GlobalCtaBanner13 } from '../sections/global/18-cta-banner/global-cta-banner-13/GlobalCtaBanner13';
+import { GlobalCtaBanner14 } from '../sections/global/18-cta-banner/global-cta-banner-14/GlobalCtaBanner14';
+import { GlobalCtaBanner15 } from '../sections/global/18-cta-banner/global-cta-banner-15/GlobalCtaBanner15';
+import { GlobalCtaBanner16 } from '../sections/global/18-cta-banner/global-cta-banner-16/GlobalCtaBanner16';
+import { GlobalCtaBanner17 } from '../sections/global/18-cta-banner/global-cta-banner-17/GlobalCtaBanner17';
+import { GlobalCtaBanner18 } from '../sections/global/18-cta-banner/global-cta-banner-18/GlobalCtaBanner18';
+import { GlobalCtaBanner19 } from '../sections/global/18-cta-banner/global-cta-banner-19/GlobalCtaBanner19';
+import { GlobalCtaBanner20 } from '../sections/global/18-cta-banner/global-cta-banner-20/GlobalCtaBanner20';
+import { GlobalTrustCertification1 } from '../sections/global/17-trust-certification/global-trust-certification-1/GlobalTrustCertification1';
+import { GlobalTrustCertification2 } from '../sections/global/17-trust-certification/global-trust-certification-2/GlobalTrustCertification2';
+import { GlobalTrustCertification3 } from '../sections/global/17-trust-certification/global-trust-certification-3/GlobalTrustCertification3';
+import { GlobalTrustCertification4 } from '../sections/global/17-trust-certification/global-trust-certification-4/GlobalTrustCertification4';
+import { GlobalTrustCertification5 } from '../sections/global/17-trust-certification/global-trust-certification-5/GlobalTrustCertification5';
+import { GlobalTrustCertification6 } from '../sections/global/17-trust-certification/global-trust-certification-6/GlobalTrustCertification6';
+import { GlobalTrustCertification7 } from '../sections/global/17-trust-certification/global-trust-certification-7/GlobalTrustCertification7';
+import { GlobalTrustCertification8 } from '../sections/global/17-trust-certification/global-trust-certification-8/GlobalTrustCertification8';
+import { GlobalTrustCertification9 } from '../sections/global/17-trust-certification/global-trust-certification-9/GlobalTrustCertification9';
+import { GlobalTrustCertification10 } from '../sections/global/17-trust-certification/global-trust-certification-10/GlobalTrustCertification10';
+import { GlobalTrustCertification11 } from '../sections/global/17-trust-certification/global-trust-certification-11/GlobalTrustCertification11';
+import { GlobalTrustCertification12 } from '../sections/global/17-trust-certification/global-trust-certification-12/GlobalTrustCertification12';
+import { GlobalTrustCertification13 } from '../sections/global/17-trust-certification/global-trust-certification-13/GlobalTrustCertification13';
+import { GlobalTrustCertification14 } from '../sections/global/17-trust-certification/global-trust-certification-14/GlobalTrustCertification14';
+import { GlobalTrustCertification15 } from '../sections/global/17-trust-certification/global-trust-certification-15/GlobalTrustCertification15';
+import { GlobalTrustCertification16 } from '../sections/global/17-trust-certification/global-trust-certification-16/GlobalTrustCertification16';
+import { GlobalTrustCertification17 } from '../sections/global/17-trust-certification/global-trust-certification-17/GlobalTrustCertification17';
+import { GlobalTrustCertification18 } from '../sections/global/17-trust-certification/global-trust-certification-18/GlobalTrustCertification18';
+import { GlobalTrustCertification19 } from '../sections/global/17-trust-certification/global-trust-certification-19/GlobalTrustCertification19';
+import { GlobalTrustCertification20 } from '../sections/global/17-trust-certification/global-trust-certification-20/GlobalTrustCertification20';
+import { GlobalNewsletter1 } from '../sections/global/16-newsletter/global-newsletter-1/GlobalNewsletter1';
+import { GlobalNewsletter2 } from '../sections/global/16-newsletter/global-newsletter-2/GlobalNewsletter2';
+import { GlobalNewsletter3 } from '../sections/global/16-newsletter/global-newsletter-3/GlobalNewsletter3';
+import { GlobalNewsletter4 } from '../sections/global/16-newsletter/global-newsletter-4/GlobalNewsletter4';
+import { GlobalNewsletter5 } from '../sections/global/16-newsletter/global-newsletter-5/GlobalNewsletter5';
+import { GlobalNewsletter6 } from '../sections/global/16-newsletter/global-newsletter-6/GlobalNewsletter6';
+import { GlobalNewsletter7 } from '../sections/global/16-newsletter/global-newsletter-7/GlobalNewsletter7';
+import { GlobalNewsletter8 } from '../sections/global/16-newsletter/global-newsletter-8/GlobalNewsletter8';
+import { GlobalNewsletter9 } from '../sections/global/16-newsletter/global-newsletter-9/GlobalNewsletter9';
+import { GlobalNewsletter10 } from '../sections/global/16-newsletter/global-newsletter-10/GlobalNewsletter10';
+import { GlobalNewsletter11 } from '../sections/global/16-newsletter/global-newsletter-11/GlobalNewsletter11';
+import { GlobalNewsletter12 } from '../sections/global/16-newsletter/global-newsletter-12/GlobalNewsletter12';
+import { GlobalNewsletter13 } from '../sections/global/16-newsletter/global-newsletter-13/GlobalNewsletter13';
+import { GlobalNewsletter14 } from '../sections/global/16-newsletter/global-newsletter-14/GlobalNewsletter14';
+import { GlobalNewsletter15 } from '../sections/global/16-newsletter/global-newsletter-15/GlobalNewsletter15';
+import { GlobalNewsletter16 } from '../sections/global/16-newsletter/global-newsletter-16/GlobalNewsletter16';
+import { GlobalNewsletter17 } from '../sections/global/16-newsletter/global-newsletter-17/GlobalNewsletter17';
+import { GlobalNewsletter18 } from '../sections/global/16-newsletter/global-newsletter-18/GlobalNewsletter18';
+import { GlobalNewsletter19 } from '../sections/global/16-newsletter/global-newsletter-19/GlobalNewsletter19';
+import { GlobalNewsletter20 } from '../sections/global/16-newsletter/global-newsletter-20/GlobalNewsletter20';
+import { GlobalFaq1 } from '../sections/global/15-faq/global-faq-1/GlobalFaq1';
+import { GlobalFaq2 } from '../sections/global/15-faq/global-faq-2/GlobalFaq2';
+import { GlobalFaq3 } from '../sections/global/15-faq/global-faq-3/GlobalFaq3';
+import { GlobalFaq4 } from '../sections/global/15-faq/global-faq-4/GlobalFaq4';
+import { GlobalFaq5 } from '../sections/global/15-faq/global-faq-5/GlobalFaq5';
+import { GlobalFaq6 } from '../sections/global/15-faq/global-faq-6/GlobalFaq6';
+import { GlobalFaq7 } from '../sections/global/15-faq/global-faq-7/GlobalFaq7';
+import { GlobalFaq8 } from '../sections/global/15-faq/global-faq-8/GlobalFaq8';
+import { GlobalFaq9 } from '../sections/global/15-faq/global-faq-9/GlobalFaq9';
+import { GlobalFaq10 } from '../sections/global/15-faq/global-faq-10/GlobalFaq10';
+import { GlobalFaq11 } from '../sections/global/15-faq/global-faq-11/GlobalFaq11';
+import { GlobalFaq12 } from '../sections/global/15-faq/global-faq-12/GlobalFaq12';
+import { GlobalFaq13 } from '../sections/global/15-faq/global-faq-13/GlobalFaq13';
+import { GlobalFaq14 } from '../sections/global/15-faq/global-faq-14/GlobalFaq14';
+import { GlobalFaq15 } from '../sections/global/15-faq/global-faq-15/GlobalFaq15';
+import { GlobalFaq16 } from '../sections/global/15-faq/global-faq-16/GlobalFaq16';
+import { GlobalFaq17 } from '../sections/global/15-faq/global-faq-17/GlobalFaq17';
+import { GlobalFaq18 } from '../sections/global/15-faq/global-faq-18/GlobalFaq18';
+import { GlobalFaq19 } from '../sections/global/15-faq/global-faq-19/GlobalFaq19';
+import { GlobalFaq20 } from '../sections/global/15-faq/global-faq-20/GlobalFaq20';
+import { GlobalBlogGrid1 } from '../sections/global/14-blog-grid/global-blog-grid-1/GlobalBlogGrid1';
+import { GlobalBlogGrid2 } from '../sections/global/14-blog-grid/global-blog-grid-2/GlobalBlogGrid2';
+import { GlobalBlogGrid3 } from '../sections/global/14-blog-grid/global-blog-grid-3/GlobalBlogGrid3';
+import { GlobalBlogGrid4 } from '../sections/global/14-blog-grid/global-blog-grid-4/GlobalBlogGrid4';
+import { GlobalBlogGrid5 } from '../sections/global/14-blog-grid/global-blog-grid-5/GlobalBlogGrid5';
+import { GlobalBlogGrid6 } from '../sections/global/14-blog-grid/global-blog-grid-6/GlobalBlogGrid6';
+import { GlobalBlogGrid7 } from '../sections/global/14-blog-grid/global-blog-grid-7/GlobalBlogGrid7';
+import { GlobalBlogGrid8 } from '../sections/global/14-blog-grid/global-blog-grid-8/GlobalBlogGrid8';
+import { GlobalBlogGrid9 } from '../sections/global/14-blog-grid/global-blog-grid-9/GlobalBlogGrid9';
+import { GlobalBlogGrid10 } from '../sections/global/14-blog-grid/global-blog-grid-10/GlobalBlogGrid10';
+import { GlobalBlogGrid11 } from '../sections/global/14-blog-grid/global-blog-grid-11/GlobalBlogGrid11';
+import { GlobalBlogGrid12 } from '../sections/global/14-blog-grid/global-blog-grid-12/GlobalBlogGrid12';
+import { GlobalBlogGrid13 } from '../sections/global/14-blog-grid/global-blog-grid-13/GlobalBlogGrid13';
+import { GlobalBlogGrid14 } from '../sections/global/14-blog-grid/global-blog-grid-14/GlobalBlogGrid14';
+import { GlobalBlogGrid15 } from '../sections/global/14-blog-grid/global-blog-grid-15/GlobalBlogGrid15';
+import { GlobalBlogGrid16 } from '../sections/global/14-blog-grid/global-blog-grid-16/GlobalBlogGrid16';
+import { GlobalBlogGrid17 } from '../sections/global/14-blog-grid/global-blog-grid-17/GlobalBlogGrid17';
+import { GlobalBlogGrid18 } from '../sections/global/14-blog-grid/global-blog-grid-18/GlobalBlogGrid18';
+import { GlobalBlogGrid19 } from '../sections/global/14-blog-grid/global-blog-grid-19/GlobalBlogGrid19';
+import { GlobalBlogGrid20 } from '../sections/global/14-blog-grid/global-blog-grid-20/GlobalBlogGrid20';
+import { GlobalVideoSection1 } from '../sections/global/13-video-section/global-video-section-1/GlobalVideoSection1';
+import { GlobalVideoSection2 } from '../sections/global/13-video-section/global-video-section-2/GlobalVideoSection2';
+import { GlobalVideoSection3 } from '../sections/global/13-video-section/global-video-section-3/GlobalVideoSection3';
+import { GlobalVideoSection4 } from '../sections/global/13-video-section/global-video-section-4/GlobalVideoSection4';
+import { GlobalVideoSection5 } from '../sections/global/13-video-section/global-video-section-5/GlobalVideoSection5';
+import { GlobalVideoSection6 } from '../sections/global/13-video-section/global-video-section-6/GlobalVideoSection6';
+import { GlobalVideoSection7 } from '../sections/global/13-video-section/global-video-section-7/GlobalVideoSection7';
+import { GlobalVideoSection8 } from '../sections/global/13-video-section/global-video-section-8/GlobalVideoSection8';
+import { GlobalVideoSection9 } from '../sections/global/13-video-section/global-video-section-9/GlobalVideoSection9';
+import { GlobalVideoSection10 } from '../sections/global/13-video-section/global-video-section-10/GlobalVideoSection10';
+import { GlobalVideoSection11 } from '../sections/global/13-video-section/global-video-section-11/GlobalVideoSection11';
+import { GlobalVideoSection12 } from '../sections/global/13-video-section/global-video-section-12/GlobalVideoSection12';
+import { GlobalVideoSection13 } from '../sections/global/13-video-section/global-video-section-13/GlobalVideoSection13';
+import { GlobalVideoSection14 } from '../sections/global/13-video-section/global-video-section-14/GlobalVideoSection14';
+import { GlobalVideoSection15 } from '../sections/global/13-video-section/global-video-section-15/GlobalVideoSection15';
+import { GlobalVideoSection16 } from '../sections/global/13-video-section/global-video-section-16/GlobalVideoSection16';
+import { GlobalVideoSection17 } from '../sections/global/13-video-section/global-video-section-17/GlobalVideoSection17';
+import { GlobalVideoSection18 } from '../sections/global/13-video-section/global-video-section-18/GlobalVideoSection18';
+import { GlobalVideoSection19 } from '../sections/global/13-video-section/global-video-section-19/GlobalVideoSection19';
+import { GlobalVideoSection20 } from '../sections/global/13-video-section/global-video-section-20/GlobalVideoSection20';
+import { GlobalCustomerReviews1 } from '../sections/global/12-customer-reviews/global-customer-reviews-1/GlobalCustomerReviews1';
+import { GlobalCustomerReviews2 } from '../sections/global/12-customer-reviews/global-customer-reviews-2/GlobalCustomerReviews2';
+import { GlobalCustomerReviews3 } from '../sections/global/12-customer-reviews/global-customer-reviews-3/GlobalCustomerReviews3';
+import { GlobalCustomerReviews4 } from '../sections/global/12-customer-reviews/global-customer-reviews-4/GlobalCustomerReviews4';
+import { GlobalCustomerReviews5 } from '../sections/global/12-customer-reviews/global-customer-reviews-5/GlobalCustomerReviews5';
+import { GlobalCustomerReviews6 } from '../sections/global/12-customer-reviews/global-customer-reviews-6/GlobalCustomerReviews6';
+import { GlobalCustomerReviews7 } from '../sections/global/12-customer-reviews/global-customer-reviews-7/GlobalCustomerReviews7';
+import { GlobalCustomerReviews8 } from '../sections/global/12-customer-reviews/global-customer-reviews-8/GlobalCustomerReviews8';
+import { GlobalCustomerReviews9 } from '../sections/global/12-customer-reviews/global-customer-reviews-9/GlobalCustomerReviews9';
+import { GlobalCustomerReviews10 } from '../sections/global/12-customer-reviews/global-customer-reviews-10/GlobalCustomerReviews10';
+import { GlobalCustomerReviews11 } from '../sections/global/12-customer-reviews/global-customer-reviews-11/GlobalCustomerReviews11';
+import { GlobalCustomerReviews12 } from '../sections/global/12-customer-reviews/global-customer-reviews-12/GlobalCustomerReviews12';
+import { GlobalCustomerReviews13 } from '../sections/global/12-customer-reviews/global-customer-reviews-13/GlobalCustomerReviews13';
+import { GlobalCustomerReviews14 } from '../sections/global/12-customer-reviews/global-customer-reviews-14/GlobalCustomerReviews14';
+import { GlobalCustomerReviews15 } from '../sections/global/12-customer-reviews/global-customer-reviews-15/GlobalCustomerReviews15';
+import { GlobalCustomerReviews16 } from '../sections/global/12-customer-reviews/global-customer-reviews-16/GlobalCustomerReviews16';
+import { GlobalCustomerReviews17 } from '../sections/global/12-customer-reviews/global-customer-reviews-17/GlobalCustomerReviews17';
+import { GlobalCustomerReviews18 } from '../sections/global/12-customer-reviews/global-customer-reviews-18/GlobalCustomerReviews18';
+import { GlobalCustomerReviews19 } from '../sections/global/12-customer-reviews/global-customer-reviews-19/GlobalCustomerReviews19';
+import { GlobalCustomerReviews20 } from '../sections/global/12-customer-reviews/global-customer-reviews-20/GlobalCustomerReviews20';
+import { GlobalTestimonials1 } from '../sections/global/11-testimonials/global-testimonials-1/GlobalTestimonials1';
+import { GlobalTestimonials2 } from '../sections/global/11-testimonials/global-testimonials-2/GlobalTestimonials2';
+import { GlobalTestimonials3 } from '../sections/global/11-testimonials/global-testimonials-3/GlobalTestimonials3';
+import { GlobalTestimonials4 } from '../sections/global/11-testimonials/global-testimonials-4/GlobalTestimonials4';
+import { GlobalTestimonials5 } from '../sections/global/11-testimonials/global-testimonials-5/GlobalTestimonials5';
+import { GlobalTestimonials6 } from '../sections/global/11-testimonials/global-testimonials-6/GlobalTestimonials6';
+import { GlobalTestimonials7 } from '../sections/global/11-testimonials/global-testimonials-7/GlobalTestimonials7';
+import { GlobalTestimonials8 } from '../sections/global/11-testimonials/global-testimonials-8/GlobalTestimonials8';
+import { GlobalTestimonials9 } from '../sections/global/11-testimonials/global-testimonials-9/GlobalTestimonials9';
+import { GlobalTestimonials10 } from '../sections/global/11-testimonials/global-testimonials-10/GlobalTestimonials10';
+import { GlobalTestimonials11 } from '../sections/global/11-testimonials/global-testimonials-11/GlobalTestimonials11';
+import { GlobalTestimonials12 } from '../sections/global/11-testimonials/global-testimonials-12/GlobalTestimonials12';
+import { GlobalTestimonials13 } from '../sections/global/11-testimonials/global-testimonials-13/GlobalTestimonials13';
+import { GlobalTestimonials14 } from '../sections/global/11-testimonials/global-testimonials-14/GlobalTestimonials14';
+import { GlobalTestimonials15 } from '../sections/global/11-testimonials/global-testimonials-15/GlobalTestimonials15';
+import { GlobalTestimonials16 } from '../sections/global/11-testimonials/global-testimonials-16/GlobalTestimonials16';
+import { GlobalTestimonials17 } from '../sections/global/11-testimonials/global-testimonials-17/GlobalTestimonials17';
+import { GlobalTestimonials18 } from '../sections/global/11-testimonials/global-testimonials-18/GlobalTestimonials18';
+import { GlobalTestimonials19 } from '../sections/global/11-testimonials/global-testimonials-19/GlobalTestimonials19';
+import { GlobalTestimonials20 } from '../sections/global/11-testimonials/global-testimonials-20/GlobalTestimonials20';
+import { GlobalPromotionalCards1 } from '../sections/global/10-promotional-cards/global-promotional-cards-1/GlobalPromotionalCards1';
+import { GlobalPromotionalCards2 } from '../sections/global/10-promotional-cards/global-promotional-cards-2/GlobalPromotionalCards2';
+import { GlobalPromotionalCards3 } from '../sections/global/10-promotional-cards/global-promotional-cards-3/GlobalPromotionalCards3';
+import { GlobalPromotionalCards4 } from '../sections/global/10-promotional-cards/global-promotional-cards-4/GlobalPromotionalCards4';
+import { GlobalPromotionalCards5 } from '../sections/global/10-promotional-cards/global-promotional-cards-5/GlobalPromotionalCards5';
+import { GlobalPromotionalCards6 } from '../sections/global/10-promotional-cards/global-promotional-cards-6/GlobalPromotionalCards6';
+import { GlobalPromotionalCards7 } from '../sections/global/10-promotional-cards/global-promotional-cards-7/GlobalPromotionalCards7';
+import { GlobalPromotionalCards8 } from '../sections/global/10-promotional-cards/global-promotional-cards-8/GlobalPromotionalCards8';
+import { GlobalPromotionalCards9 } from '../sections/global/10-promotional-cards/global-promotional-cards-9/GlobalPromotionalCards9';
+import { GlobalPromotionalCards10 } from '../sections/global/10-promotional-cards/global-promotional-cards-10/GlobalPromotionalCards10';
+import { GlobalPromotionalCards11 } from '../sections/global/10-promotional-cards/global-promotional-cards-11/GlobalPromotionalCards11';
+import { GlobalPromotionalCards12 } from '../sections/global/10-promotional-cards/global-promotional-cards-12/GlobalPromotionalCards12';
+import { GlobalPromotionalCards13 } from '../sections/global/10-promotional-cards/global-promotional-cards-13/GlobalPromotionalCards13';
+import { GlobalPromotionalCards14 } from '../sections/global/10-promotional-cards/global-promotional-cards-14/GlobalPromotionalCards14';
+import { GlobalPromotionalCards15 } from '../sections/global/10-promotional-cards/global-promotional-cards-15/GlobalPromotionalCards15';
+import { GlobalPromotionalCards16 } from '../sections/global/10-promotional-cards/global-promotional-cards-16/GlobalPromotionalCards16';
+import { GlobalPromotionalCards17 } from '../sections/global/10-promotional-cards/global-promotional-cards-17/GlobalPromotionalCards17';
+import { GlobalPromotionalCards18 } from '../sections/global/10-promotional-cards/global-promotional-cards-18/GlobalPromotionalCards18';
+import { GlobalPromotionalCards19 } from '../sections/global/10-promotional-cards/global-promotional-cards-19/GlobalPromotionalCards19';
+import { GlobalPromotionalCards20 } from '../sections/global/10-promotional-cards/global-promotional-cards-20/GlobalPromotionalCards20';
+import { GlobalImageText1 } from '../sections/global/09-image-text/global-image-text-1/GlobalImageText1';
+import { GlobalImageText2 } from '../sections/global/09-image-text/global-image-text-2/GlobalImageText2';
+import { GlobalImageText3 } from '../sections/global/09-image-text/global-image-text-3/GlobalImageText3';
+import { GlobalImageText4 } from '../sections/global/09-image-text/global-image-text-4/GlobalImageText4';
+import { GlobalImageText5 } from '../sections/global/09-image-text/global-image-text-5/GlobalImageText5';
+import { GlobalImageText6 } from '../sections/global/09-image-text/global-image-text-6/GlobalImageText6';
+import { GlobalImageText7 } from '../sections/global/09-image-text/global-image-text-7/GlobalImageText7';
+import { GlobalImageText8 } from '../sections/global/09-image-text/global-image-text-8/GlobalImageText8';
+import { GlobalImageText9 } from '../sections/global/09-image-text/global-image-text-9/GlobalImageText9';
+import { GlobalImageText10 } from '../sections/global/09-image-text/global-image-text-10/GlobalImageText10';
+import { GlobalImageText11 } from '../sections/global/09-image-text/global-image-text-11/GlobalImageText11';
+import { GlobalImageText12 } from '../sections/global/09-image-text/global-image-text-12/GlobalImageText12';
+import { GlobalImageText13 } from '../sections/global/09-image-text/global-image-text-13/GlobalImageText13';
+import { GlobalImageText14 } from '../sections/global/09-image-text/global-image-text-14/GlobalImageText14';
+import { GlobalImageText15 } from '../sections/global/09-image-text/global-image-text-15/GlobalImageText15';
+import { GlobalImageText16 } from '../sections/global/09-image-text/global-image-text-16/GlobalImageText16';
+import { GlobalImageText17 } from '../sections/global/09-image-text/global-image-text-17/GlobalImageText17';
+import { GlobalImageText18 } from '../sections/global/09-image-text/global-image-text-18/GlobalImageText18';
+import { GlobalImageText19 } from '../sections/global/09-image-text/global-image-text-19/GlobalImageText19';
+import { GlobalImageText20 } from '../sections/global/09-image-text/global-image-text-20/GlobalImageText20';
+import { GlobalCategoryGrid1 } from '../sections/global/08-category-grid/global-category-grid-1/GlobalCategoryGrid1';
+import { GlobalCategoryGrid2 } from '../sections/global/08-category-grid/global-category-grid-2/GlobalCategoryGrid2';
+import { GlobalCategoryGrid3 } from '../sections/global/08-category-grid/global-category-grid-3/GlobalCategoryGrid3';
+import { GlobalCategoryGrid4 } from '../sections/global/08-category-grid/global-category-grid-4/GlobalCategoryGrid4';
+import { GlobalCategoryGrid5 } from '../sections/global/08-category-grid/global-category-grid-5/GlobalCategoryGrid5';
+import { GlobalCategoryGrid6 } from '../sections/global/08-category-grid/global-category-grid-6/GlobalCategoryGrid6';
+import { GlobalCategoryGrid7 } from '../sections/global/08-category-grid/global-category-grid-7/GlobalCategoryGrid7';
+import { GlobalCategoryGrid8 } from '../sections/global/08-category-grid/global-category-grid-8/GlobalCategoryGrid8';
+import { GlobalCategoryGrid9 } from '../sections/global/08-category-grid/global-category-grid-9/GlobalCategoryGrid9';
+import { GlobalCategoryGrid10 } from '../sections/global/08-category-grid/global-category-grid-10/GlobalCategoryGrid10';
+import { GlobalCategoryGrid11 } from '../sections/global/08-category-grid/global-category-grid-11/GlobalCategoryGrid11';
+import { GlobalCategoryGrid12 } from '../sections/global/08-category-grid/global-category-grid-12/GlobalCategoryGrid12';
+import { GlobalCategoryGrid13 } from '../sections/global/08-category-grid/global-category-grid-13/GlobalCategoryGrid13';
+import { GlobalCategoryGrid14 } from '../sections/global/08-category-grid/global-category-grid-14/GlobalCategoryGrid14';
+import { GlobalCategoryGrid15 } from '../sections/global/08-category-grid/global-category-grid-15/GlobalCategoryGrid15';
+import { GlobalCategoryGrid16 } from '../sections/global/08-category-grid/global-category-grid-16/GlobalCategoryGrid16';
+import { GlobalCategoryGrid17 } from '../sections/global/08-category-grid/global-category-grid-17/GlobalCategoryGrid17';
+import { GlobalCategoryGrid18 } from '../sections/global/08-category-grid/global-category-grid-18/GlobalCategoryGrid18';
+import { GlobalCategoryGrid19 } from '../sections/global/08-category-grid/global-category-grid-19/GlobalCategoryGrid19';
+import { GlobalCategoryGrid20 } from '../sections/global/08-category-grid/global-category-grid-20/GlobalCategoryGrid20';
+import { GlobalProductCarousel1 } from '../sections/global/07-product-carousel/global-product-carousel-1/GlobalProductCarousel1';
+import { GlobalProductCarousel2 } from '../sections/global/07-product-carousel/global-product-carousel-2/GlobalProductCarousel2';
+import { GlobalProductCarousel3 } from '../sections/global/07-product-carousel/global-product-carousel-3/GlobalProductCarousel3';
+import { GlobalProductCarousel4 } from '../sections/global/07-product-carousel/global-product-carousel-4/GlobalProductCarousel4';
+import { GlobalProductCarousel5 } from '../sections/global/07-product-carousel/global-product-carousel-5/GlobalProductCarousel5';
+import { GlobalProductCarousel6 } from '../sections/global/07-product-carousel/global-product-carousel-6/GlobalProductCarousel6';
+import { GlobalProductCarousel7 } from '../sections/global/07-product-carousel/global-product-carousel-7/GlobalProductCarousel7';
+import { GlobalProductCarousel8 } from '../sections/global/07-product-carousel/global-product-carousel-8/GlobalProductCarousel8';
+import { GlobalProductCarousel9 } from '../sections/global/07-product-carousel/global-product-carousel-9/GlobalProductCarousel9';
+import { GlobalProductCarousel10 } from '../sections/global/07-product-carousel/global-product-carousel-10/GlobalProductCarousel10';
+import { GlobalProductCarousel11 } from '../sections/global/07-product-carousel/global-product-carousel-11/GlobalProductCarousel11';
+import { GlobalProductCarousel12 } from '../sections/global/07-product-carousel/global-product-carousel-12/GlobalProductCarousel12';
+import { GlobalProductCarousel13 } from '../sections/global/07-product-carousel/global-product-carousel-13/GlobalProductCarousel13';
+import { GlobalProductCarousel14 } from '../sections/global/07-product-carousel/global-product-carousel-14/GlobalProductCarousel14';
+import { GlobalProductCarousel15 } from '../sections/global/07-product-carousel/global-product-carousel-15/GlobalProductCarousel15';
+import { GlobalProductCarousel16 } from '../sections/global/07-product-carousel/global-product-carousel-16/GlobalProductCarousel16';
+import { GlobalProductCarousel17 } from '../sections/global/07-product-carousel/global-product-carousel-17/GlobalProductCarousel17';
+import { GlobalProductCarousel18 } from '../sections/global/07-product-carousel/global-product-carousel-18/GlobalProductCarousel18';
+import { GlobalProductCarousel19 } from '../sections/global/07-product-carousel/global-product-carousel-19/GlobalProductCarousel19';
+import { GlobalProductCarousel20 } from '../sections/global/07-product-carousel/global-product-carousel-20/GlobalProductCarousel20';
+import { GlobalProductGrid1 } from '../sections/global/06-product-grid/global-product-grid-1/GlobalProductGrid1';
+import { GlobalProductGrid2 } from '../sections/global/06-product-grid/global-product-grid-2/GlobalProductGrid2';
+import { GlobalProductGrid3 } from '../sections/global/06-product-grid/global-product-grid-3/GlobalProductGrid3';
+import { GlobalProductGrid4 } from '../sections/global/06-product-grid/global-product-grid-4/GlobalProductGrid4';
+import { GlobalProductGrid5 } from '../sections/global/06-product-grid/global-product-grid-5/GlobalProductGrid5';
+import { GlobalProductGrid6 } from '../sections/global/06-product-grid/global-product-grid-6/GlobalProductGrid6';
+import { GlobalProductGrid7 } from '../sections/global/06-product-grid/global-product-grid-7/GlobalProductGrid7';
+import { GlobalProductGrid8 } from '../sections/global/06-product-grid/global-product-grid-8/GlobalProductGrid8';
+import { GlobalProductGrid9 } from '../sections/global/06-product-grid/global-product-grid-9/GlobalProductGrid9';
+import { GlobalProductGrid10 } from '../sections/global/06-product-grid/global-product-grid-10/GlobalProductGrid10';
+import { GlobalProductGrid11 } from '../sections/global/06-product-grid/global-product-grid-11/GlobalProductGrid11';
+import { GlobalProductGrid12 } from '../sections/global/06-product-grid/global-product-grid-12/GlobalProductGrid12';
+import { GlobalProductGrid13 } from '../sections/global/06-product-grid/global-product-grid-13/GlobalProductGrid13';
+import { GlobalProductGrid14 } from '../sections/global/06-product-grid/global-product-grid-14/GlobalProductGrid14';
+import { GlobalProductGrid15 } from '../sections/global/06-product-grid/global-product-grid-15/GlobalProductGrid15';
+import { GlobalProductGrid16 } from '../sections/global/06-product-grid/global-product-grid-16/GlobalProductGrid16';
+import { GlobalProductGrid17 } from '../sections/global/06-product-grid/global-product-grid-17/GlobalProductGrid17';
+import { GlobalProductGrid18 } from '../sections/global/06-product-grid/global-product-grid-18/GlobalProductGrid18';
+import { GlobalProductGrid19 } from '../sections/global/06-product-grid/global-product-grid-19/GlobalProductGrid19';
+import { GlobalProductGrid20 } from '../sections/global/06-product-grid/global-product-grid-20/GlobalProductGrid20';
+import { AboutHero4 } from '../sections/about/01-about-hero/about-hero-04/AboutHero4';
+
+
+import { StoreLocations1 } from '../sections/contact/04-store-locations/store-locations-01/StoreLocations1';
+import storeLocations1Data from '../sections/contact/04-store-locations/store-locations-01/store-locations-01.json';
+import { StoreLocations2 } from '../sections/contact/04-store-locations/store-locations-02/StoreLocations2';
+import storeLocations2Data from '../sections/contact/04-store-locations/store-locations-02/store-locations-02.json';
+import { StoreLocations3 } from '../sections/contact/04-store-locations/store-locations-03/StoreLocations3';
+import storeLocations3Data from '../sections/contact/04-store-locations/store-locations-03/store-locations-03.json';
+import { StoreLocations4 } from '../sections/contact/04-store-locations/store-locations-04/StoreLocations4';
+import storeLocations4Data from '../sections/contact/04-store-locations/store-locations-04/store-locations-04.json';
+import { StoreLocations5 } from '../sections/contact/04-store-locations/store-locations-05/StoreLocations5';
+import storeLocations5Data from '../sections/contact/04-store-locations/store-locations-05/store-locations-05.json';
+import { StoreLocations6 } from '../sections/contact/04-store-locations/store-locations-06/StoreLocations6';
+import storeLocations6Data from '../sections/contact/04-store-locations/store-locations-06/store-locations-06.json';
+import { StoreLocations7 } from '../sections/contact/04-store-locations/store-locations-07/StoreLocations7';
+import storeLocations7Data from '../sections/contact/04-store-locations/store-locations-07/store-locations-07.json';
+import { StoreLocations8 } from '../sections/contact/04-store-locations/store-locations-08/StoreLocations8';
+import storeLocations8Data from '../sections/contact/04-store-locations/store-locations-08/store-locations-08.json';
+import { StoreLocations9 } from '../sections/contact/04-store-locations/store-locations-09/StoreLocations9';
+import storeLocations9Data from '../sections/contact/04-store-locations/store-locations-09/store-locations-09.json';
+import { StoreLocations10 } from '../sections/contact/04-store-locations/store-locations-10/StoreLocations10';
+import storeLocations10Data from '../sections/contact/04-store-locations/store-locations-10/store-locations-10.json';
+import { StoreLocations11 } from '../sections/contact/04-store-locations/store-locations-11/StoreLocations11';
+import storeLocations11Data from '../sections/contact/04-store-locations/store-locations-11/store-locations-11.json';
+import { StoreLocations12 } from '../sections/contact/04-store-locations/store-locations-12/StoreLocations12';
+import storeLocations12Data from '../sections/contact/04-store-locations/store-locations-12/store-locations-12.json';
+import { StoreLocations13 } from '../sections/contact/04-store-locations/store-locations-13/StoreLocations13';
+import storeLocations13Data from '../sections/contact/04-store-locations/store-locations-13/store-locations-13.json';
+import { StoreLocations14 } from '../sections/contact/04-store-locations/store-locations-14/StoreLocations14';
+import storeLocations14Data from '../sections/contact/04-store-locations/store-locations-14/store-locations-14.json';
+import { StoreLocations15 } from '../sections/contact/04-store-locations/store-locations-15/StoreLocations15';
+import storeLocations15Data from '../sections/contact/04-store-locations/store-locations-15/store-locations-15.json';
+import { StoreLocations16 } from '../sections/contact/04-store-locations/store-locations-16/StoreLocations16';
+import storeLocations16Data from '../sections/contact/04-store-locations/store-locations-16/store-locations-16.json';
+import { StoreLocations17 } from '../sections/contact/04-store-locations/store-locations-17/StoreLocations17';
+import storeLocations17Data from '../sections/contact/04-store-locations/store-locations-17/store-locations-17.json';
+import { StoreLocations18 } from '../sections/contact/04-store-locations/store-locations-18/StoreLocations18';
+import storeLocations18Data from '../sections/contact/04-store-locations/store-locations-18/store-locations-18.json';
+import { StoreLocations19 } from '../sections/contact/04-store-locations/store-locations-19/StoreLocations19';
+import storeLocations19Data from '../sections/contact/04-store-locations/store-locations-19/store-locations-19.json';
+import { StoreLocations20 } from '../sections/contact/04-store-locations/store-locations-20/StoreLocations20';
+
+import storeLocations20Data from '../sections/contact/04-store-locations/store-locations-20/store-locations-20.json';
+
+import { BusinessInformation1 } from '../sections/contact/03-business-information/business-information-01/BusinessInformation1';
+import businessInformation1Data from '../sections/contact/03-business-information/business-information-01/business-information-01.json';
+import { BusinessInformation2 } from '../sections/contact/03-business-information/business-information-02/BusinessInformation2';
+import businessInformation2Data from '../sections/contact/03-business-information/business-information-02/business-information-02.json';
+import { BusinessInformation3 } from '../sections/contact/03-business-information/business-information-03/BusinessInformation3';
+import businessInformation3Data from '../sections/contact/03-business-information/business-information-03/business-information-03.json';
+import { BusinessInformation4 } from '../sections/contact/03-business-information/business-information-04/BusinessInformation4';
+import businessInformation4Data from '../sections/contact/03-business-information/business-information-04/business-information-04.json';
+import { BusinessInformation5 } from '../sections/contact/03-business-information/business-information-05/BusinessInformation5';
+import businessInformation5Data from '../sections/contact/03-business-information/business-information-05/business-information-05.json';
+import { BusinessInformation6 } from '../sections/contact/03-business-information/business-information-06/BusinessInformation6';
+import businessInformation6Data from '../sections/contact/03-business-information/business-information-06/business-information-06.json';
+import { BusinessInformation7 } from '../sections/contact/03-business-information/business-information-07/BusinessInformation7';
+import businessInformation7Data from '../sections/contact/03-business-information/business-information-07/business-information-07.json';
+import { BusinessInformation8 } from '../sections/contact/03-business-information/business-information-08/BusinessInformation8';
+import businessInformation8Data from '../sections/contact/03-business-information/business-information-08/business-information-08.json';
+import { BusinessInformation9 } from '../sections/contact/03-business-information/business-information-09/BusinessInformation9';
+import businessInformation9Data from '../sections/contact/03-business-information/business-information-09/business-information-09.json';
+import { BusinessInformation10 } from '../sections/contact/03-business-information/business-information-10/BusinessInformation10';
+import businessInformation10Data from '../sections/contact/03-business-information/business-information-10/business-information-10.json';
+import { BusinessInformation11 } from '../sections/contact/03-business-information/business-information-11/BusinessInformation11';
+import businessInformation11Data from '../sections/contact/03-business-information/business-information-11/business-information-11.json';
+import { BusinessInformation12 } from '../sections/contact/03-business-information/business-information-12/BusinessInformation12';
+import businessInformation12Data from '../sections/contact/03-business-information/business-information-12/business-information-12.json';
+import { BusinessInformation13 } from '../sections/contact/03-business-information/business-information-13/BusinessInformation13';
+import businessInformation13Data from '../sections/contact/03-business-information/business-information-13/business-information-13.json';
+import { BusinessInformation14 } from '../sections/contact/03-business-information/business-information-14/BusinessInformation14';
+import businessInformation14Data from '../sections/contact/03-business-information/business-information-14/business-information-14.json';
+import { BusinessInformation15 } from '../sections/contact/03-business-information/business-information-15/BusinessInformation15';
+import businessInformation15Data from '../sections/contact/03-business-information/business-information-15/business-information-15.json';
+import { BusinessInformation16 } from '../sections/contact/03-business-information/business-information-16/BusinessInformation16';
+import businessInformation16Data from '../sections/contact/03-business-information/business-information-16/business-information-16.json';
+import { BusinessInformation17 } from '../sections/contact/03-business-information/business-information-17/BusinessInformation17';
+import businessInformation17Data from '../sections/contact/03-business-information/business-information-17/business-information-17.json';
+import { BusinessInformation18 } from '../sections/contact/03-business-information/business-information-18/BusinessInformation18';
+import businessInformation18Data from '../sections/contact/03-business-information/business-information-18/business-information-18.json';
+import { BusinessInformation19 } from '../sections/contact/03-business-information/business-information-19/BusinessInformation19';
+import businessInformation19Data from '../sections/contact/03-business-information/business-information-19/business-information-19.json';
+import { BusinessInformation20 } from '../sections/contact/03-business-information/business-information-20/BusinessInformation20';
+import businessInformation20Data from '../sections/contact/03-business-information/business-information-20/business-information-20.json';
+
+import { ContactInformation1 } from '../sections/contact/02-contact-information/contact-information-01/ContactInformation1';
+import contactInformation1Data from '../sections/contact/02-contact-information/contact-information-01/contact-information-01.json';
+import { ContactInformation2 } from '../sections/contact/02-contact-information/contact-information-02/ContactInformation2';
+import contactInformation2Data from '../sections/contact/02-contact-information/contact-information-02/contact-information-02.json';
+import { ContactInformation3 } from '../sections/contact/02-contact-information/contact-information-03/ContactInformation3';
+import contactInformation3Data from '../sections/contact/02-contact-information/contact-information-03/contact-information-03.json';
+import { ContactInformation4 } from '../sections/contact/02-contact-information/contact-information-04/ContactInformation4';
+import contactInformation4Data from '../sections/contact/02-contact-information/contact-information-04/contact-information-04.json';
+import { ContactInformation5 } from '../sections/contact/02-contact-information/contact-information-05/ContactInformation5';
+import contactInformation5Data from '../sections/contact/02-contact-information/contact-information-05/contact-information-05.json';
+import { ContactInformation6 } from '../sections/contact/02-contact-information/contact-information-06/ContactInformation6';
+import contactInformation6Data from '../sections/contact/02-contact-information/contact-information-06/contact-information-06.json';
+import { ContactInformation7 } from '../sections/contact/02-contact-information/contact-information-07/ContactInformation7';
+import contactInformation7Data from '../sections/contact/02-contact-information/contact-information-07/contact-information-07.json';
+import { ContactInformation8 } from '../sections/contact/02-contact-information/contact-information-08/ContactInformation8';
+import contactInformation8Data from '../sections/contact/02-contact-information/contact-information-08/contact-information-08.json';
+import { ContactInformation9 } from '../sections/contact/02-contact-information/contact-information-09/ContactInformation9';
+import contactInformation9Data from '../sections/contact/02-contact-information/contact-information-09/contact-information-09.json';
+import { ContactInformation10 } from '../sections/contact/02-contact-information/contact-information-10/ContactInformation10';
+import contactInformation10Data from '../sections/contact/02-contact-information/contact-information-10/contact-information-10.json';
+import { ContactInformation11 } from '../sections/contact/02-contact-information/contact-information-11/ContactInformation11';
+import contactInformation11Data from '../sections/contact/02-contact-information/contact-information-11/contact-information-11.json';
+import { ContactInformation12 } from '../sections/contact/02-contact-information/contact-information-12/ContactInformation12';
+import contactInformation12Data from '../sections/contact/02-contact-information/contact-information-12/contact-information-12.json';
+import { ContactInformation13 } from '../sections/contact/02-contact-information/contact-information-13/ContactInformation13';
+import contactInformation13Data from '../sections/contact/02-contact-information/contact-information-13/contact-information-13.json';
+import { ContactInformation14 } from '../sections/contact/02-contact-information/contact-information-14/ContactInformation14';
+import contactInformation14Data from '../sections/contact/02-contact-information/contact-information-14/contact-information-14.json';
+import { ContactInformation15 } from '../sections/contact/02-contact-information/contact-information-15/ContactInformation15';
+import contactInformation15Data from '../sections/contact/02-contact-information/contact-information-15/contact-information-15.json';
+import { ContactInformation16 } from '../sections/contact/02-contact-information/contact-information-16/ContactInformation16';
+import contactInformation16Data from '../sections/contact/02-contact-information/contact-information-16/contact-information-16.json';
+import { ContactInformation17 } from '../sections/contact/02-contact-information/contact-information-17/ContactInformation17';
+import contactInformation17Data from '../sections/contact/02-contact-information/contact-information-17/contact-information-17.json';
+import { ContactInformation18 } from '../sections/contact/02-contact-information/contact-information-18/ContactInformation18';
+import contactInformation18Data from '../sections/contact/02-contact-information/contact-information-18/contact-information-18.json';
+import { ContactInformation19 } from '../sections/contact/02-contact-information/contact-information-19/ContactInformation19';
+import contactInformation19Data from '../sections/contact/02-contact-information/contact-information-19/contact-information-19.json';
+import { ContactInformation20 } from '../sections/contact/02-contact-information/contact-information-20/ContactInformation20';
+import contactInformation20Data from '../sections/contact/02-contact-information/contact-information-20/contact-information-20.json';
+
+import { LocationMap1 } from '../sections/contact/05-location-map/location-map-01/LocationMap1';
+import locationMap1Data from '../sections/contact/05-location-map/location-map-01/location-map-01.json';
+import { LocationMap2 } from '../sections/contact/05-location-map/location-map-02/LocationMap2';
+import locationMap2Data from '../sections/contact/05-location-map/location-map-02/location-map-02.json';
+import { LocationMap3 } from '../sections/contact/05-location-map/location-map-03/LocationMap3';
+import locationMap3Data from '../sections/contact/05-location-map/location-map-03/location-map-03.json';
+import { LocationMap4 } from '../sections/contact/05-location-map/location-map-04/LocationMap4';
+import locationMap4Data from '../sections/contact/05-location-map/location-map-04/location-map-04.json';
+import { LocationMap5 } from '../sections/contact/05-location-map/location-map-05/LocationMap5';
+import locationMap5Data from '../sections/contact/05-location-map/location-map-05/location-map-05.json';
+import { LocationMap6 } from '../sections/contact/05-location-map/location-map-06/LocationMap6';
+import locationMap6Data from '../sections/contact/05-location-map/location-map-06/location-map-06.json';
+import { LocationMap7 } from '../sections/contact/05-location-map/location-map-07/LocationMap7';
+import locationMap7Data from '../sections/contact/05-location-map/location-map-07/location-map-07.json';
+import { LocationMap8 } from '../sections/contact/05-location-map/location-map-08/LocationMap8';
+import locationMap8Data from '../sections/contact/05-location-map/location-map-08/location-map-08.json';
+import { LocationMap9 } from '../sections/contact/05-location-map/location-map-09/LocationMap9';
+import locationMap9Data from '../sections/contact/05-location-map/location-map-09/location-map-09.json';
+import { LocationMap10 } from '../sections/contact/05-location-map/location-map-10/LocationMap10';
+import locationMap10Data from '../sections/contact/05-location-map/location-map-10/location-map-10.json';
+import { LocationMap11 } from '../sections/contact/05-location-map/location-map-11/LocationMap11';
+import locationMap11Data from '../sections/contact/05-location-map/location-map-11/location-map-11.json';
+import { LocationMap12 } from '../sections/contact/05-location-map/location-map-12/LocationMap12';
+import locationMap12Data from '../sections/contact/05-location-map/location-map-12/location-map-12.json';
+import { LocationMap13 } from '../sections/contact/05-location-map/location-map-13/LocationMap13';
+import locationMap13Data from '../sections/contact/05-location-map/location-map-13/location-map-13.json';
+import { LocationMap14 } from '../sections/contact/05-location-map/location-map-14/LocationMap14';
+import locationMap14Data from '../sections/contact/05-location-map/location-map-14/location-map-14.json';
+import { LocationMap15 } from '../sections/contact/05-location-map/location-map-15/LocationMap15';
+import locationMap15Data from '../sections/contact/05-location-map/location-map-15/location-map-15.json';
+import { LocationMap16 } from '../sections/contact/05-location-map/location-map-16/LocationMap16';
+import locationMap16Data from '../sections/contact/05-location-map/location-map-16/location-map-16.json';
+import { LocationMap17 } from '../sections/contact/05-location-map/location-map-17/LocationMap17';
+import locationMap17Data from '../sections/contact/05-location-map/location-map-17/location-map-17.json';
+import { LocationMap18 } from '../sections/contact/05-location-map/location-map-18/LocationMap18';
+import locationMap18Data from '../sections/contact/05-location-map/location-map-18/location-map-18.json';
+import { LocationMap19 } from '../sections/contact/05-location-map/location-map-19/LocationMap19';
+import locationMap19Data from '../sections/contact/05-location-map/location-map-19/location-map-19.json';
+import { LocationMap20 } from '../sections/contact/05-location-map/location-map-20/LocationMap20';
+import locationMap20Data from '../sections/contact/05-location-map/location-map-20/location-map-20.json';
+import { SupportInformation1 } from '../sections/contact/06-support-information/support-information-01/SupportInformation1';
+import supportInformation1Data from '../sections/contact/06-support-information/support-information-01/support-information-01.json';
+import { SupportInformation2 } from '../sections/contact/06-support-information/support-information-02/SupportInformation2';
+import supportInformation2Data from '../sections/contact/06-support-information/support-information-02/support-information-02.json';
+import { SupportInformation3 } from '../sections/contact/06-support-information/support-information-03/SupportInformation3';
+import supportInformation3Data from '../sections/contact/06-support-information/support-information-03/support-information-03.json';
+import { SupportInformation4 } from '../sections/contact/06-support-information/support-information-04/SupportInformation4';
+import supportInformation4Data from '../sections/contact/06-support-information/support-information-04/support-information-04.json';
+import { SupportInformation5 } from '../sections/contact/06-support-information/support-information-05/SupportInformation5';
+import supportInformation5Data from '../sections/contact/06-support-information/support-information-05/support-information-05.json';
+import { SupportInformation6 } from '../sections/contact/06-support-information/support-information-06/SupportInformation6';
+import supportInformation6Data from '../sections/contact/06-support-information/support-information-06/support-information-06.json';
+import { SupportInformation7 } from '../sections/contact/06-support-information/support-information-07/SupportInformation7';
+import supportInformation7Data from '../sections/contact/06-support-information/support-information-07/support-information-07.json';
+import { SupportInformation8 } from '../sections/contact/06-support-information/support-information-08/SupportInformation8';
+import supportInformation8Data from '../sections/contact/06-support-information/support-information-08/support-information-08.json';
+import { SupportInformation9 } from '../sections/contact/06-support-information/support-information-09/SupportInformation9';
+import supportInformation9Data from '../sections/contact/06-support-information/support-information-09/support-information-09.json';
+import { SupportInformation10 } from '../sections/contact/06-support-information/support-information-10/SupportInformation10';
+import supportInformation10Data from '../sections/contact/06-support-information/support-information-10/support-information-10.json';
+import { SupportInformation11 } from '../sections/contact/06-support-information/support-information-11/SupportInformation11';
+import supportInformation11Data from '../sections/contact/06-support-information/support-information-11/support-information-11.json';
+import { SupportInformation12 } from '../sections/contact/06-support-information/support-information-12/SupportInformation12';
+import supportInformation12Data from '../sections/contact/06-support-information/support-information-12/support-information-12.json';
+import { SupportInformation13 } from '../sections/contact/06-support-information/support-information-13/SupportInformation13';
+import supportInformation13Data from '../sections/contact/06-support-information/support-information-13/support-information-13.json';
+import { SupportInformation14 } from '../sections/contact/06-support-information/support-information-14/SupportInformation14';
+import supportInformation14Data from '../sections/contact/06-support-information/support-information-14/support-information-14.json';
+import { SupportInformation15 } from '../sections/contact/06-support-information/support-information-15/SupportInformation15';
+import supportInformation15Data from '../sections/contact/06-support-information/support-information-15/support-information-15.json';
+import { SupportInformation16 } from '../sections/contact/06-support-information/support-information-16/SupportInformation16';
+import supportInformation16Data from '../sections/contact/06-support-information/support-information-16/support-information-16.json';
+import { SupportInformation17 } from '../sections/contact/06-support-information/support-information-17/SupportInformation17';
+import supportInformation17Data from '../sections/contact/06-support-information/support-information-17/support-information-17.json';
+import { SupportInformation18 } from '../sections/contact/06-support-information/support-information-18/SupportInformation18';
+import supportInformation18Data from '../sections/contact/06-support-information/support-information-18/support-information-18.json';
+import { SupportInformation19 } from '../sections/contact/06-support-information/support-information-19/SupportInformation19';
+import supportInformation19Data from '../sections/contact/06-support-information/support-information-19/support-information-19.json';
+import { SupportInformation20 } from '../sections/contact/06-support-information/support-information-20/SupportInformation20';
+import supportInformation20Data from '../sections/contact/06-support-information/support-information-20/support-information-20.json';
+import { ContactFaq1 } from '../sections/contact/07-contact-faq/contact-faq-01/ContactFaq1';
+import contactFaq1Data from '../sections/contact/07-contact-faq/contact-faq-01/contact-faq-01.json';
+import { ContactFaq2 } from '../sections/contact/07-contact-faq/contact-faq-02/ContactFaq2';
+import contactFaq2Data from '../sections/contact/07-contact-faq/contact-faq-02/contact-faq-02.json';
+import { ContactFaq3 } from '../sections/contact/07-contact-faq/contact-faq-03/ContactFaq3';
+import contactFaq3Data from '../sections/contact/07-contact-faq/contact-faq-03/contact-faq-03.json';
+import { ContactFaq4 } from '../sections/contact/07-contact-faq/contact-faq-04/ContactFaq4';
+import contactFaq4Data from '../sections/contact/07-contact-faq/contact-faq-04/contact-faq-04.json';
+import { ContactFaq5 } from '../sections/contact/07-contact-faq/contact-faq-05/ContactFaq5';
+import contactFaq5Data from '../sections/contact/07-contact-faq/contact-faq-05/contact-faq-05.json';
+import { ContactFaq6 } from '../sections/contact/07-contact-faq/contact-faq-06/ContactFaq6';
+import contactFaq6Data from '../sections/contact/07-contact-faq/contact-faq-06/contact-faq-06.json';
+import { ContactFaq7 } from '../sections/contact/07-contact-faq/contact-faq-07/ContactFaq7';
+import contactFaq7Data from '../sections/contact/07-contact-faq/contact-faq-07/contact-faq-07.json';
+import { ContactFaq8 } from '../sections/contact/07-contact-faq/contact-faq-08/ContactFaq8';
+import contactFaq8Data from '../sections/contact/07-contact-faq/contact-faq-08/contact-faq-08.json';
+import { ContactFaq9 } from '../sections/contact/07-contact-faq/contact-faq-09/ContactFaq9';
+import contactFaq9Data from '../sections/contact/07-contact-faq/contact-faq-09/contact-faq-09.json';
+import { ContactFaq10 } from '../sections/contact/07-contact-faq/contact-faq-10/ContactFaq10';
+import contactFaq10Data from '../sections/contact/07-contact-faq/contact-faq-10/contact-faq-10.json';
+import { ContactFaq11 } from '../sections/contact/07-contact-faq/contact-faq-11/ContactFaq11';
+import contactFaq11Data from '../sections/contact/07-contact-faq/contact-faq-11/contact-faq-11.json';
+import { ContactFaq12 } from '../sections/contact/07-contact-faq/contact-faq-12/ContactFaq12';
+import contactFaq12Data from '../sections/contact/07-contact-faq/contact-faq-12/contact-faq-12.json';
+import { ContactFaq13 } from '../sections/contact/07-contact-faq/contact-faq-13/ContactFaq13';
+import contactFaq13Data from '../sections/contact/07-contact-faq/contact-faq-13/contact-faq-13.json';
+import { ContactFaq14 } from '../sections/contact/07-contact-faq/contact-faq-14/ContactFaq14';
+import contactFaq14Data from '../sections/contact/07-contact-faq/contact-faq-14/contact-faq-14.json';
+import { ContactFaq15 } from '../sections/contact/07-contact-faq/contact-faq-15/ContactFaq15';
+import contactFaq15Data from '../sections/contact/07-contact-faq/contact-faq-15/contact-faq-15.json';
+import { ContactFaq16 } from '../sections/contact/07-contact-faq/contact-faq-16/ContactFaq16';
+import contactFaq16Data from '../sections/contact/07-contact-faq/contact-faq-16/contact-faq-16.json';
+import { ContactFaq17 } from '../sections/contact/07-contact-faq/contact-faq-17/ContactFaq17';
+import contactFaq17Data from '../sections/contact/07-contact-faq/contact-faq-17/contact-faq-17.json';
+import { ContactFaq18 } from '../sections/contact/07-contact-faq/contact-faq-18/ContactFaq18';
+import contactFaq18Data from '../sections/contact/07-contact-faq/contact-faq-18/contact-faq-18.json';
+import { ContactFaq19 } from '../sections/contact/07-contact-faq/contact-faq-19/ContactFaq19';
+import contactFaq19Data from '../sections/contact/07-contact-faq/contact-faq-19/contact-faq-19.json';
+import { ContactFaq20 } from '../sections/contact/07-contact-faq/contact-faq-20/ContactFaq20';
+import contactFaq20Data from '../sections/contact/07-contact-faq/contact-faq-20/contact-faq-20.json';
+import { PageNotFound1 } from '../sections/error/01-404-page-content/404-page-content-01/PageNotFound1';
+import pageNotFound1Data from '../sections/error/01-404-page-content/404-page-content-01/404-page-content-01.json';
+import { PageNotFound2 } from '../sections/error/01-404-page-content/404-page-content-02/PageNotFound2';
+import pageNotFound2Data from '../sections/error/01-404-page-content/404-page-content-02/404-page-content-02.json';
+import { PageNotFound3 } from '../sections/error/01-404-page-content/404-page-content-03/PageNotFound3';
+import pageNotFound3Data from '../sections/error/01-404-page-content/404-page-content-03/404-page-content-03.json';
+import { PageNotFound4 } from '../sections/error/01-404-page-content/404-page-content-04/PageNotFound4';
+import pageNotFound4Data from '../sections/error/01-404-page-content/404-page-content-04/404-page-content-04.json';
+import { PageNotFound5 } from '../sections/error/01-404-page-content/404-page-content-05/PageNotFound5';
+import pageNotFound5Data from '../sections/error/01-404-page-content/404-page-content-05/404-page-content-05.json';
+import { PageNotFound6 } from '../sections/error/01-404-page-content/404-page-content-06/PageNotFound6';
+import pageNotFound6Data from '../sections/error/01-404-page-content/404-page-content-06/404-page-content-06.json';
+import { PageNotFound7 } from '../sections/error/01-404-page-content/404-page-content-07/PageNotFound7';
+import pageNotFound7Data from '../sections/error/01-404-page-content/404-page-content-07/404-page-content-07.json';
+import { PageNotFound8 } from '../sections/error/01-404-page-content/404-page-content-08/PageNotFound8';
+import pageNotFound8Data from '../sections/error/01-404-page-content/404-page-content-08/404-page-content-08.json';
+import { PageNotFound9 } from '../sections/error/01-404-page-content/404-page-content-09/PageNotFound9';
+import pageNotFound9Data from '../sections/error/01-404-page-content/404-page-content-09/404-page-content-09.json';
+import { PageNotFound10 } from '../sections/error/01-404-page-content/404-page-content-10/PageNotFound10';
+import pageNotFound10Data from '../sections/error/01-404-page-content/404-page-content-10/404-page-content-10.json';
+import { PageNotFound11 } from '../sections/error/01-404-page-content/404-page-content-11/PageNotFound11';
+import pageNotFound11Data from '../sections/error/01-404-page-content/404-page-content-11/404-page-content-11.json';
+import { PageNotFound12 } from '../sections/error/01-404-page-content/404-page-content-12/PageNotFound12';
+import pageNotFound12Data from '../sections/error/01-404-page-content/404-page-content-12/404-page-content-12.json';
+import { PageNotFound13 } from '../sections/error/01-404-page-content/404-page-content-13/PageNotFound13';
+import pageNotFound13Data from '../sections/error/01-404-page-content/404-page-content-13/404-page-content-13.json';
+import { PageNotFound14 } from '../sections/error/01-404-page-content/404-page-content-14/PageNotFound14';
+import pageNotFound14Data from '../sections/error/01-404-page-content/404-page-content-14/404-page-content-14.json';
+import { PageNotFound15 } from '../sections/error/01-404-page-content/404-page-content-15/PageNotFound15';
+import pageNotFound15Data from '../sections/error/01-404-page-content/404-page-content-15/404-page-content-15.json';
+import { PageNotFound16 } from '../sections/error/01-404-page-content/404-page-content-16/PageNotFound16';
+import pageNotFound16Data from '../sections/error/01-404-page-content/404-page-content-16/404-page-content-16.json';
+import { PageNotFound17 } from '../sections/error/01-404-page-content/404-page-content-17/PageNotFound17';
+import pageNotFound17Data from '../sections/error/01-404-page-content/404-page-content-17/404-page-content-17.json';
+import { PageNotFound18 } from '../sections/error/01-404-page-content/404-page-content-18/PageNotFound18';
+import pageNotFound18Data from '../sections/error/01-404-page-content/404-page-content-18/404-page-content-18.json';
+import { PageNotFound19 } from '../sections/error/01-404-page-content/404-page-content-19/PageNotFound19';
+import pageNotFound19Data from '../sections/error/01-404-page-content/404-page-content-19/404-page-content-19.json';
+import { PageNotFound20 } from '../sections/error/01-404-page-content/404-page-content-20/PageNotFound20';
+import pageNotFound20Data from '../sections/error/01-404-page-content/404-page-content-20/404-page-content-20.json';
+import { NoSearchResults1 } from '../sections/error/02-no-search-results/no-search-results-01/NoSearchResults1';
+import noSearchResults1Data from '../sections/error/02-no-search-results/no-search-results-01/no-search-results-01.json';
+import { NoSearchResults2 } from '../sections/error/02-no-search-results/no-search-results-02/NoSearchResults2';
+import noSearchResults2Data from '../sections/error/02-no-search-results/no-search-results-02/no-search-results-02.json';
+import { NoSearchResults3 } from '../sections/error/02-no-search-results/no-search-results-03/NoSearchResults3';
+import noSearchResults3Data from '../sections/error/02-no-search-results/no-search-results-03/no-search-results-03.json';
+import { NoSearchResults4 } from '../sections/error/02-no-search-results/no-search-results-04/NoSearchResults4';
+import noSearchResults4Data from '../sections/error/02-no-search-results/no-search-results-04/no-search-results-04.json';
+import { NoSearchResults5 } from '../sections/error/02-no-search-results/no-search-results-05/NoSearchResults5';
+import noSearchResults5Data from '../sections/error/02-no-search-results/no-search-results-05/no-search-results-05.json';
+import { NoSearchResults6 } from '../sections/error/02-no-search-results/no-search-results-06/NoSearchResults6';
+import noSearchResults6Data from '../sections/error/02-no-search-results/no-search-results-06/no-search-results-06.json';
+import { NoSearchResults7 } from '../sections/error/02-no-search-results/no-search-results-07/NoSearchResults7';
+import noSearchResults7Data from '../sections/error/02-no-search-results/no-search-results-07/no-search-results-07.json';
+import { NoSearchResults8 } from '../sections/error/02-no-search-results/no-search-results-08/NoSearchResults8';
+import noSearchResults8Data from '../sections/error/02-no-search-results/no-search-results-08/no-search-results-08.json';
+import { NoSearchResults9 } from '../sections/error/02-no-search-results/no-search-results-09/NoSearchResults9';
+import noSearchResults9Data from '../sections/error/02-no-search-results/no-search-results-09/no-search-results-09.json';
+import { NoSearchResults10 } from '../sections/error/02-no-search-results/no-search-results-10/NoSearchResults10';
+import noSearchResults10Data from '../sections/error/02-no-search-results/no-search-results-10/no-search-results-10.json';
+import { NoSearchResults11 } from '../sections/error/02-no-search-results/no-search-results-11/NoSearchResults11';
+import noSearchResults11Data from '../sections/error/02-no-search-results/no-search-results-11/no-search-results-11.json';
+import { NoSearchResults12 } from '../sections/error/02-no-search-results/no-search-results-12/NoSearchResults12';
+import noSearchResults12Data from '../sections/error/02-no-search-results/no-search-results-12/no-search-results-12.json';
+import { NoSearchResults13 } from '../sections/error/02-no-search-results/no-search-results-13/NoSearchResults13';
+import noSearchResults13Data from '../sections/error/02-no-search-results/no-search-results-13/no-search-results-13.json';
+import { NoSearchResults14 } from '../sections/error/02-no-search-results/no-search-results-14/NoSearchResults14';
+import noSearchResults14Data from '../sections/error/02-no-search-results/no-search-results-14/no-search-results-14.json';
+import { NoSearchResults15 } from '../sections/error/02-no-search-results/no-search-results-15/NoSearchResults15';
+import noSearchResults15Data from '../sections/error/02-no-search-results/no-search-results-15/no-search-results-15.json';
+import { NoSearchResults16 } from '../sections/error/02-no-search-results/no-search-results-16/NoSearchResults16';
+import noSearchResults16Data from '../sections/error/02-no-search-results/no-search-results-16/no-search-results-16.json';
+import { NoSearchResults17 } from '../sections/error/02-no-search-results/no-search-results-17/NoSearchResults17';
+import noSearchResults17Data from '../sections/error/02-no-search-results/no-search-results-17/no-search-results-17.json';
+import { NoSearchResults18 } from '../sections/error/02-no-search-results/no-search-results-18/NoSearchResults18';
+import noSearchResults18Data from '../sections/error/02-no-search-results/no-search-results-18/no-search-results-18.json';
+import { NoSearchResults19 } from '../sections/error/02-no-search-results/no-search-results-19/NoSearchResults19';
+import noSearchResults19Data from '../sections/error/02-no-search-results/no-search-results-19/no-search-results-19.json';
+import { NoSearchResults20 } from '../sections/error/02-no-search-results/no-search-results-20/NoSearchResults20';
+import noSearchResults20Data from '../sections/error/02-no-search-results/no-search-results-20/no-search-results-20.json';
+import { EmptyCartSection1 } from '../sections/cart/10-empty-cart-section/empty-cart-01/EmptyCartSection1';
+import emptyCart1Data from '../sections/cart/10-empty-cart-section/empty-cart-01/empty-cart-01.json';
+import { EmptyCartSection2 } from '../sections/cart/10-empty-cart-section/empty-cart-02/EmptyCartSection2';
+import emptyCart2Data from '../sections/cart/10-empty-cart-section/empty-cart-02/empty-cart-02.json';
+import { EmptyCartSection3 } from '../sections/cart/10-empty-cart-section/empty-cart-03/EmptyCartSection3';
+import emptyCart3Data from '../sections/cart/10-empty-cart-section/empty-cart-03/empty-cart-03.json';
+import { EmptyCartSection4 } from '../sections/cart/10-empty-cart-section/empty-cart-04/EmptyCartSection4';
+import emptyCart4Data from '../sections/cart/10-empty-cart-section/empty-cart-04/empty-cart-04.json';
+import { EmptyCartSection5 } from '../sections/cart/10-empty-cart-section/empty-cart-05/EmptyCartSection5';
+import emptyCart5Data from '../sections/cart/10-empty-cart-section/empty-cart-05/empty-cart-05.json';
+import { EmptyCartSection6 } from '../sections/cart/10-empty-cart-section/empty-cart-06/EmptyCartSection6';
+import emptyCart6Data from '../sections/cart/10-empty-cart-section/empty-cart-06/empty-cart-06.json';
+import { EmptyCartSection7 } from '../sections/cart/10-empty-cart-section/empty-cart-07/EmptyCartSection7';
+import emptyCart7Data from '../sections/cart/10-empty-cart-section/empty-cart-07/empty-cart-07.json';
+import { EmptyCartSection8 } from '../sections/cart/10-empty-cart-section/empty-cart-08/EmptyCartSection8';
+import emptyCart8Data from '../sections/cart/10-empty-cart-section/empty-cart-08/empty-cart-08.json';
+import { EmptyCartSection9 } from '../sections/cart/10-empty-cart-section/empty-cart-09/EmptyCartSection9';
+import emptyCart9Data from '../sections/cart/10-empty-cart-section/empty-cart-09/empty-cart-09.json';
+import { EmptyCartSection10 } from '../sections/cart/10-empty-cart-section/empty-cart-10/EmptyCartSection10';
+import emptyCart10Data from '../sections/cart/10-empty-cart-section/empty-cart-10/empty-cart-10.json';
+import { EmptyCartSection11 } from '../sections/cart/10-empty-cart-section/empty-cart-11/EmptyCartSection11';
+import emptyCart11Data from '../sections/cart/10-empty-cart-section/empty-cart-11/empty-cart-11.json';
+import { EmptyCartSection12 } from '../sections/cart/10-empty-cart-section/empty-cart-12/EmptyCartSection12';
+import emptyCart12Data from '../sections/cart/10-empty-cart-section/empty-cart-12/empty-cart-12.json';
+import { EmptyCartSection13 } from '../sections/cart/10-empty-cart-section/empty-cart-13/EmptyCartSection13';
+import emptyCart13Data from '../sections/cart/10-empty-cart-section/empty-cart-13/empty-cart-13.json';
+import { EmptyCartSection14 } from '../sections/cart/10-empty-cart-section/empty-cart-14/EmptyCartSection14';
+import emptyCart14Data from '../sections/cart/10-empty-cart-section/empty-cart-14/empty-cart-14.json';
+import { EmptyCartSection15 } from '../sections/cart/10-empty-cart-section/empty-cart-15/EmptyCartSection15';
+import emptyCart15Data from '../sections/cart/10-empty-cart-section/empty-cart-15/empty-cart-15.json';
+import { EmptyCartSection16 } from '../sections/cart/10-empty-cart-section/empty-cart-16/EmptyCartSection16';
+import emptyCart16Data from '../sections/cart/10-empty-cart-section/empty-cart-16/empty-cart-16.json';
+import { EmptyCartSection17 } from '../sections/cart/10-empty-cart-section/empty-cart-17/EmptyCartSection17';
+import emptyCart17Data from '../sections/cart/10-empty-cart-section/empty-cart-17/empty-cart-17.json';
+import { EmptyCartSection18 } from '../sections/cart/10-empty-cart-section/empty-cart-18/EmptyCartSection18';
+import emptyCart18Data from '../sections/cart/10-empty-cart-section/empty-cart-18/empty-cart-18.json';
+import { EmptyCartSection19 } from '../sections/cart/10-empty-cart-section/empty-cart-19/EmptyCartSection19';
+import emptyCart19Data from '../sections/cart/10-empty-cart-section/empty-cart-19/empty-cart-19.json';
+import { EmptyCartSection20 } from '../sections/cart/10-empty-cart-section/empty-cart-20/EmptyCartSection20';
+import emptyCart20Data from '../sections/cart/10-empty-cart-section/empty-cart-20/empty-cart-20.json';
+import { EmptyWishlist1 } from '../sections/error/04-empty-wishlist/empty-wishlist-01/EmptyWishlist1';
+import emptyWishlist1Data from '../sections/error/04-empty-wishlist/empty-wishlist-01/empty-wishlist-01.json';
+import { EmptyWishlist2 } from '../sections/error/04-empty-wishlist/empty-wishlist-02/EmptyWishlist2';
+import emptyWishlist2Data from '../sections/error/04-empty-wishlist/empty-wishlist-02/empty-wishlist-02.json';
+import { EmptyWishlist3 } from '../sections/error/04-empty-wishlist/empty-wishlist-03/EmptyWishlist3';
+import emptyWishlist3Data from '../sections/error/04-empty-wishlist/empty-wishlist-03/empty-wishlist-03.json';
+import { EmptyWishlist4 } from '../sections/error/04-empty-wishlist/empty-wishlist-04/EmptyWishlist4';
+import emptyWishlist4Data from '../sections/error/04-empty-wishlist/empty-wishlist-04/empty-wishlist-04.json';
+import { EmptyWishlist5 } from '../sections/error/04-empty-wishlist/empty-wishlist-05/EmptyWishlist5';
+import emptyWishlist5Data from '../sections/error/04-empty-wishlist/empty-wishlist-05/empty-wishlist-05.json';
+import { EmptyWishlist6 } from '../sections/error/04-empty-wishlist/empty-wishlist-06/EmptyWishlist6';
+import emptyWishlist6Data from '../sections/error/04-empty-wishlist/empty-wishlist-06/empty-wishlist-06.json';
+import { EmptyWishlist7 } from '../sections/error/04-empty-wishlist/empty-wishlist-07/EmptyWishlist7';
+import emptyWishlist7Data from '../sections/error/04-empty-wishlist/empty-wishlist-07/empty-wishlist-07.json';
+import { EmptyWishlist8 } from '../sections/error/04-empty-wishlist/empty-wishlist-08/EmptyWishlist8';
+import emptyWishlist8Data from '../sections/error/04-empty-wishlist/empty-wishlist-08/empty-wishlist-08.json';
+import { EmptyWishlist9 } from '../sections/error/04-empty-wishlist/empty-wishlist-09/EmptyWishlist9';
+import emptyWishlist9Data from '../sections/error/04-empty-wishlist/empty-wishlist-09/empty-wishlist-09.json';
+import { EmptyWishlist10 } from '../sections/error/04-empty-wishlist/empty-wishlist-10/EmptyWishlist10';
+import emptyWishlist10Data from '../sections/error/04-empty-wishlist/empty-wishlist-10/empty-wishlist-10.json';
+import { EmptyWishlist11 } from '../sections/error/04-empty-wishlist/empty-wishlist-11/EmptyWishlist11';
+import emptyWishlist11Data from '../sections/error/04-empty-wishlist/empty-wishlist-11/empty-wishlist-11.json';
+import { EmptyWishlist12 } from '../sections/error/04-empty-wishlist/empty-wishlist-12/EmptyWishlist12';
+import emptyWishlist12Data from '../sections/error/04-empty-wishlist/empty-wishlist-12/empty-wishlist-12.json';
+import { EmptyWishlist13 } from '../sections/error/04-empty-wishlist/empty-wishlist-13/EmptyWishlist13';
+import emptyWishlist13Data from '../sections/error/04-empty-wishlist/empty-wishlist-13/empty-wishlist-13.json';
+import { EmptyWishlist14 } from '../sections/error/04-empty-wishlist/empty-wishlist-14/EmptyWishlist14';
+import emptyWishlist14Data from '../sections/error/04-empty-wishlist/empty-wishlist-14/empty-wishlist-14.json';
+import { EmptyWishlist15 } from '../sections/error/04-empty-wishlist/empty-wishlist-15/EmptyWishlist15';
+import emptyWishlist15Data from '../sections/error/04-empty-wishlist/empty-wishlist-15/empty-wishlist-15.json';
+import { EmptyWishlist16 } from '../sections/error/04-empty-wishlist/empty-wishlist-16/EmptyWishlist16';
+import emptyWishlist16Data from '../sections/error/04-empty-wishlist/empty-wishlist-16/empty-wishlist-16.json';
+import { EmptyWishlist17 } from '../sections/error/04-empty-wishlist/empty-wishlist-17/EmptyWishlist17';
+import emptyWishlist17Data from '../sections/error/04-empty-wishlist/empty-wishlist-17/empty-wishlist-17.json';
+import { EmptyWishlist18 } from '../sections/error/04-empty-wishlist/empty-wishlist-18/EmptyWishlist18';
+import emptyWishlist18Data from '../sections/error/04-empty-wishlist/empty-wishlist-18/empty-wishlist-18.json';
+import { EmptyWishlist19 } from '../sections/error/04-empty-wishlist/empty-wishlist-19/EmptyWishlist19';
+import emptyWishlist19Data from '../sections/error/04-empty-wishlist/empty-wishlist-19/empty-wishlist-19.json';
+import { EmptyWishlist20 } from '../sections/error/04-empty-wishlist/empty-wishlist-20/EmptyWishlist20';
+import emptyWishlist20Data from '../sections/error/04-empty-wishlist/empty-wishlist-20/empty-wishlist-20.json';
+import { EmptyOrderHistory1 } from '../sections/error/05-empty-order-history/empty-order-history-01/EmptyOrderHistory1';
+import emptyOrderHistory1Data from '../sections/error/05-empty-order-history/empty-order-history-01/empty-order-history-01.json';
+import { EmptyOrderHistory2 } from '../sections/error/05-empty-order-history/empty-order-history-02/EmptyOrderHistory2';
+import emptyOrderHistory2Data from '../sections/error/05-empty-order-history/empty-order-history-02/empty-order-history-02.json';
+import { EmptyOrderHistory3 } from '../sections/error/05-empty-order-history/empty-order-history-03/EmptyOrderHistory3';
+import emptyOrderHistory3Data from '../sections/error/05-empty-order-history/empty-order-history-03/empty-order-history-03.json';
+import { EmptyOrderHistory4 } from '../sections/error/05-empty-order-history/empty-order-history-04/EmptyOrderHistory4';
+import emptyOrderHistory4Data from '../sections/error/05-empty-order-history/empty-order-history-04/empty-order-history-04.json';
+import { EmptyOrderHistory5 } from '../sections/error/05-empty-order-history/empty-order-history-05/EmptyOrderHistory5';
+import emptyOrderHistory5Data from '../sections/error/05-empty-order-history/empty-order-history-05/empty-order-history-05.json';
+import { EmptyOrderHistory6 } from '../sections/error/05-empty-order-history/empty-order-history-06/EmptyOrderHistory6';
+import emptyOrderHistory6Data from '../sections/error/05-empty-order-history/empty-order-history-06/empty-order-history-06.json';
+import { EmptyOrderHistory7 } from '../sections/error/05-empty-order-history/empty-order-history-07/EmptyOrderHistory7';
+import emptyOrderHistory7Data from '../sections/error/05-empty-order-history/empty-order-history-07/empty-order-history-07.json';
+import { EmptyOrderHistory8 } from '../sections/error/05-empty-order-history/empty-order-history-08/EmptyOrderHistory8';
+import emptyOrderHistory8Data from '../sections/error/05-empty-order-history/empty-order-history-08/empty-order-history-08.json';
+import { EmptyOrderHistory9 } from '../sections/error/05-empty-order-history/empty-order-history-09/EmptyOrderHistory9';
+import emptyOrderHistory9Data from '../sections/error/05-empty-order-history/empty-order-history-09/empty-order-history-09.json';
+import { EmptyOrderHistory10 } from '../sections/error/05-empty-order-history/empty-order-history-10/EmptyOrderHistory10';
+import emptyOrderHistory10Data from '../sections/error/05-empty-order-history/empty-order-history-10/empty-order-history-10.json';
+import { EmptyOrderHistory11 } from '../sections/error/05-empty-order-history/empty-order-history-11/EmptyOrderHistory11';
+import emptyOrderHistory11Data from '../sections/error/05-empty-order-history/empty-order-history-11/empty-order-history-11.json';
+import { EmptyOrderHistory12 } from '../sections/error/05-empty-order-history/empty-order-history-12/EmptyOrderHistory12';
+import emptyOrderHistory12Data from '../sections/error/05-empty-order-history/empty-order-history-12/empty-order-history-12.json';
+import { EmptyOrderHistory13 } from '../sections/error/05-empty-order-history/empty-order-history-13/EmptyOrderHistory13';
+import emptyOrderHistory13Data from '../sections/error/05-empty-order-history/empty-order-history-13/empty-order-history-13.json';
+import { EmptyOrderHistory14 } from '../sections/error/05-empty-order-history/empty-order-history-14/EmptyOrderHistory14';
+import emptyOrderHistory14Data from '../sections/error/05-empty-order-history/empty-order-history-14/empty-order-history-14.json';
+import { EmptyOrderHistory15 } from '../sections/error/05-empty-order-history/empty-order-history-15/EmptyOrderHistory15';
+import emptyOrderHistory15Data from '../sections/error/05-empty-order-history/empty-order-history-15/empty-order-history-15.json';
+import { EmptyOrderHistory16 } from '../sections/error/05-empty-order-history/empty-order-history-16/EmptyOrderHistory16';
+import emptyOrderHistory16Data from '../sections/error/05-empty-order-history/empty-order-history-16/empty-order-history-16.json';
+import { EmptyOrderHistory17 } from '../sections/error/05-empty-order-history/empty-order-history-17/EmptyOrderHistory17';
+import emptyOrderHistory17Data from '../sections/error/05-empty-order-history/empty-order-history-17/empty-order-history-17.json';
+import { EmptyOrderHistory18 } from '../sections/error/05-empty-order-history/empty-order-history-18/EmptyOrderHistory18';
+import emptyOrderHistory18Data from '../sections/error/05-empty-order-history/empty-order-history-18/empty-order-history-18.json';
+import { EmptyOrderHistory19 } from '../sections/error/05-empty-order-history/empty-order-history-19/EmptyOrderHistory19';
+import emptyOrderHistory19Data from '../sections/error/05-empty-order-history/empty-order-history-19/empty-order-history-19.json';
+import { EmptyOrderHistory20 } from '../sections/error/05-empty-order-history/empty-order-history-20/EmptyOrderHistory20';
+import emptyOrderHistory20Data from '../sections/error/05-empty-order-history/empty-order-history-20/empty-order-history-20.json';
+import { GlobalHeader1 } from '../sections/global/01-header/global-header-01/GlobalHeader1';
+import globalHeader1Data from '../sections/global/01-header/global-header-01/global-header-01.json';
+import { GlobalHeader2 } from '../sections/global/01-header/global-header-02/GlobalHeader2';
+import globalHeader2Data from '../sections/global/01-header/global-header-02/global-header-02.json';
+import { GlobalHeader3 } from '../sections/global/01-header/global-header-03/GlobalHeader3';
+import globalHeader3Data from '../sections/global/01-header/global-header-03/global-header-03.json';
+import { GlobalHeader4 } from '../sections/global/01-header/global-header-04/GlobalHeader4';
+import globalHeader4Data from '../sections/global/01-header/global-header-04/global-header-04.json';
+import { GlobalHeader5 } from '../sections/global/01-header/global-header-05/GlobalHeader5';
+import globalHeader5Data from '../sections/global/01-header/global-header-05/global-header-05.json';
+import { GlobalHeader6 } from '../sections/global/01-header/global-header-06/GlobalHeader6';
+import globalHeader6Data from '../sections/global/01-header/global-header-06/global-header-06.json';
+import { GlobalHeader7 } from '../sections/global/01-header/global-header-07/GlobalHeader7';
+import globalHeader7Data from '../sections/global/01-header/global-header-07/global-header-07.json';
+import { GlobalHeader8 } from '../sections/global/01-header/global-header-08/GlobalHeader8';
+import globalHeader8Data from '../sections/global/01-header/global-header-08/global-header-08.json';
+import { GlobalHeader9 } from '../sections/global/01-header/global-header-09/GlobalHeader9';
+import globalHeader9Data from '../sections/global/01-header/global-header-09/global-header-09.json';
+import { GlobalHeader10 } from '../sections/global/01-header/global-header-10/GlobalHeader10';
+import globalHeader10Data from '../sections/global/01-header/global-header-10/global-header-10.json';
+import { GlobalHeader11 } from '../sections/global/01-header/global-header-11/GlobalHeader11';
+import globalHeader11Data from '../sections/global/01-header/global-header-11/global-header-11.json';
+import { GlobalHeader12 } from '../sections/global/01-header/global-header-12/GlobalHeader12';
+import globalHeader12Data from '../sections/global/01-header/global-header-12/global-header-12.json';
+import { GlobalHeader13 } from '../sections/global/01-header/global-header-13/GlobalHeader13';
+import globalHeader13Data from '../sections/global/01-header/global-header-13/global-header-13.json';
+import { GlobalHeader14 } from '../sections/global/01-header/global-header-14/GlobalHeader14';
+import globalHeader14Data from '../sections/global/01-header/global-header-14/global-header-14.json';
+import { GlobalHeader15 } from '../sections/global/01-header/global-header-15/GlobalHeader15';
+import globalHeader15Data from '../sections/global/01-header/global-header-15/global-header-15.json';
+import { GlobalHeader16 } from '../sections/global/01-header/global-header-16/GlobalHeader16';
+import globalHeader16Data from '../sections/global/01-header/global-header-16/global-header-16.json';
+import { GlobalHeader17 } from '../sections/global/01-header/global-header-17/GlobalHeader17';
+import globalHeader17Data from '../sections/global/01-header/global-header-17/global-header-17.json';
+import { GlobalHeader18 } from '../sections/global/01-header/global-header-18/GlobalHeader18';
+import globalHeader18Data from '../sections/global/01-header/global-header-18/global-header-18.json';
+import { GlobalHeader19 } from '../sections/global/01-header/global-header-19/GlobalHeader19';
+import globalHeader19Data from '../sections/global/01-header/global-header-19/global-header-19.json';
+import { GlobalHeader20 } from '../sections/global/01-header/global-header-20/GlobalHeader20';
+import globalHeader20Data from '../sections/global/01-header/global-header-20/global-header-20.json';
+import { GlobalMegaNavigation1 } from '../sections/global/02-mega-navigation/global-mega-navigation-01/GlobalMegaNavigation1';
+import globalMegaNavigation1Data from '../sections/global/02-mega-navigation/global-mega-navigation-01/global-mega-navigation-01.json';
+import { GlobalMegaNavigation2 } from '../sections/global/02-mega-navigation/global-mega-navigation-02/GlobalMegaNavigation2';
+import globalMegaNavigation2Data from '../sections/global/02-mega-navigation/global-mega-navigation-02/global-mega-navigation-02.json';
+import { GlobalMegaNavigation3 } from '../sections/global/02-mega-navigation/global-mega-navigation-03/GlobalMegaNavigation3';
+import globalMegaNavigation3Data from '../sections/global/02-mega-navigation/global-mega-navigation-03/global-mega-navigation-03.json';
+import { GlobalMegaNavigation4 } from '../sections/global/02-mega-navigation/global-mega-navigation-04/GlobalMegaNavigation4';
+import globalMegaNavigation4Data from '../sections/global/02-mega-navigation/global-mega-navigation-04/global-mega-navigation-04.json';
+import { GlobalMegaNavigation5 } from '../sections/global/02-mega-navigation/global-mega-navigation-05/GlobalMegaNavigation5';
+import globalMegaNavigation5Data from '../sections/global/02-mega-navigation/global-mega-navigation-05/global-mega-navigation-05.json';
+import { GlobalMegaNavigation6 } from '../sections/global/02-mega-navigation/global-mega-navigation-06/GlobalMegaNavigation6';
+import globalMegaNavigation6Data from '../sections/global/02-mega-navigation/global-mega-navigation-06/global-mega-navigation-06.json';
+import { GlobalMegaNavigation7 } from '../sections/global/02-mega-navigation/global-mega-navigation-07/GlobalMegaNavigation7';
+import globalMegaNavigation7Data from '../sections/global/02-mega-navigation/global-mega-navigation-07/global-mega-navigation-07.json';
+import { GlobalMegaNavigation8 } from '../sections/global/02-mega-navigation/global-mega-navigation-08/GlobalMegaNavigation8';
+import globalMegaNavigation8Data from '../sections/global/02-mega-navigation/global-mega-navigation-08/global-mega-navigation-08.json';
+import { GlobalMegaNavigation9 } from '../sections/global/02-mega-navigation/global-mega-navigation-09/GlobalMegaNavigation9';
+import globalMegaNavigation9Data from '../sections/global/02-mega-navigation/global-mega-navigation-09/global-mega-navigation-09.json';
+import { GlobalMegaNavigation10 } from '../sections/global/02-mega-navigation/global-mega-navigation-10/GlobalMegaNavigation10';
+import globalMegaNavigation10Data from '../sections/global/02-mega-navigation/global-mega-navigation-10/global-mega-navigation-10.json';
+import { GlobalMegaNavigation11 } from '../sections/global/02-mega-navigation/global-mega-navigation-11/GlobalMegaNavigation11';
+import globalMegaNavigation11Data from '../sections/global/02-mega-navigation/global-mega-navigation-11/global-mega-navigation-11.json';
+import { GlobalMegaNavigation12 } from '../sections/global/02-mega-navigation/global-mega-navigation-12/GlobalMegaNavigation12';
+import globalMegaNavigation12Data from '../sections/global/02-mega-navigation/global-mega-navigation-12/global-mega-navigation-12.json';
+import { GlobalMegaNavigation13 } from '../sections/global/02-mega-navigation/global-mega-navigation-13/GlobalMegaNavigation13';
+import globalMegaNavigation13Data from '../sections/global/02-mega-navigation/global-mega-navigation-13/global-mega-navigation-13.json';
+import { GlobalMegaNavigation14 } from '../sections/global/02-mega-navigation/global-mega-navigation-14/GlobalMegaNavigation14';
+import globalMegaNavigation14Data from '../sections/global/02-mega-navigation/global-mega-navigation-14/global-mega-navigation-14.json';
+import { GlobalMegaNavigation15 } from '../sections/global/02-mega-navigation/global-mega-navigation-15/GlobalMegaNavigation15';
+import globalMegaNavigation15Data from '../sections/global/02-mega-navigation/global-mega-navigation-15/global-mega-navigation-15.json';
+import { GlobalMegaNavigation16 } from '../sections/global/02-mega-navigation/global-mega-navigation-16/GlobalMegaNavigation16';
+import globalMegaNavigation16Data from '../sections/global/02-mega-navigation/global-mega-navigation-16/global-mega-navigation-16.json';
+import { GlobalMegaNavigation17 } from '../sections/global/02-mega-navigation/global-mega-navigation-17/GlobalMegaNavigation17';
+import globalMegaNavigation17Data from '../sections/global/02-mega-navigation/global-mega-navigation-17/global-mega-navigation-17.json';
+import { GlobalMegaNavigation18 } from '../sections/global/02-mega-navigation/global-mega-navigation-18/GlobalMegaNavigation18';
+import globalMegaNavigation18Data from '../sections/global/02-mega-navigation/global-mega-navigation-18/global-mega-navigation-18.json';
+import { GlobalMegaNavigation19 } from '../sections/global/02-mega-navigation/global-mega-navigation-19/GlobalMegaNavigation19';
+import globalMegaNavigation19Data from '../sections/global/02-mega-navigation/global-mega-navigation-19/global-mega-navigation-19.json';
+import { GlobalMegaNavigation20 } from '../sections/global/02-mega-navigation/global-mega-navigation-20/GlobalMegaNavigation20';
+import globalMegaNavigation20Data from '../sections/global/02-mega-navigation/global-mega-navigation-20/global-mega-navigation-20.json';
+import { GlobalAnnouncementBar1 } from '../sections/global/03-announcement-bar/global-announcement-bar-01/GlobalAnnouncementBar1';
+import globalAnnouncementBar1Data from '../sections/global/03-announcement-bar/global-announcement-bar-01/global-announcement-bar-01.json';
+import { GlobalAnnouncementBar2 } from '../sections/global/03-announcement-bar/global-announcement-bar-02/GlobalAnnouncementBar2';
+import globalAnnouncementBar2Data from '../sections/global/03-announcement-bar/global-announcement-bar-02/global-announcement-bar-02.json';
+import { GlobalAnnouncementBar3 } from '../sections/global/03-announcement-bar/global-announcement-bar-03/GlobalAnnouncementBar3';
+import globalAnnouncementBar3Data from '../sections/global/03-announcement-bar/global-announcement-bar-03/global-announcement-bar-03.json';
+import { GlobalAnnouncementBar4 } from '../sections/global/03-announcement-bar/global-announcement-bar-04/GlobalAnnouncementBar4';
+import globalAnnouncementBar4Data from '../sections/global/03-announcement-bar/global-announcement-bar-04/global-announcement-bar-04.json';
+import { GlobalAnnouncementBar5 } from '../sections/global/03-announcement-bar/global-announcement-bar-05/GlobalAnnouncementBar5';
+import globalAnnouncementBar5Data from '../sections/global/03-announcement-bar/global-announcement-bar-05/global-announcement-bar-05.json';
+import { GlobalAnnouncementBar6 } from '../sections/global/03-announcement-bar/global-announcement-bar-06/GlobalAnnouncementBar6';
+import globalAnnouncementBar6Data from '../sections/global/03-announcement-bar/global-announcement-bar-06/global-announcement-bar-06.json';
+import { GlobalAnnouncementBar7 } from '../sections/global/03-announcement-bar/global-announcement-bar-07/GlobalAnnouncementBar7';
+import globalAnnouncementBar7Data from '../sections/global/03-announcement-bar/global-announcement-bar-07/global-announcement-bar-07.json';
+import { GlobalAnnouncementBar8 } from '../sections/global/03-announcement-bar/global-announcement-bar-08/GlobalAnnouncementBar8';
+import globalAnnouncementBar8Data from '../sections/global/03-announcement-bar/global-announcement-bar-08/global-announcement-bar-08.json';
+import { GlobalAnnouncementBar9 } from '../sections/global/03-announcement-bar/global-announcement-bar-09/GlobalAnnouncementBar9';
+import globalAnnouncementBar9Data from '../sections/global/03-announcement-bar/global-announcement-bar-09/global-announcement-bar-09.json';
+import { GlobalAnnouncementBar10 } from '../sections/global/03-announcement-bar/global-announcement-bar-10/GlobalAnnouncementBar10';
+import globalAnnouncementBar10Data from '../sections/global/03-announcement-bar/global-announcement-bar-10/global-announcement-bar-10.json';
+import { GlobalAnnouncementBar11 } from '../sections/global/03-announcement-bar/global-announcement-bar-11/GlobalAnnouncementBar11';
+import globalAnnouncementBar11Data from '../sections/global/03-announcement-bar/global-announcement-bar-11/global-announcement-bar-11.json';
+import { GlobalAnnouncementBar12 } from '../sections/global/03-announcement-bar/global-announcement-bar-12/GlobalAnnouncementBar12';
+import globalAnnouncementBar12Data from '../sections/global/03-announcement-bar/global-announcement-bar-12/global-announcement-bar-12.json';
+import { GlobalAnnouncementBar13 } from '../sections/global/03-announcement-bar/global-announcement-bar-13/GlobalAnnouncementBar13';
+import globalAnnouncementBar13Data from '../sections/global/03-announcement-bar/global-announcement-bar-13/global-announcement-bar-13.json';
+import { GlobalAnnouncementBar14 } from '../sections/global/03-announcement-bar/global-announcement-bar-14/GlobalAnnouncementBar14';
+import globalAnnouncementBar14Data from '../sections/global/03-announcement-bar/global-announcement-bar-14/global-announcement-bar-14.json';
+import { GlobalAnnouncementBar15 } from '../sections/global/03-announcement-bar/global-announcement-bar-15/GlobalAnnouncementBar15';
+import globalAnnouncementBar15Data from '../sections/global/03-announcement-bar/global-announcement-bar-15/global-announcement-bar-15.json';
+import { GlobalAnnouncementBar16 } from '../sections/global/03-announcement-bar/global-announcement-bar-16/GlobalAnnouncementBar16';
+import globalAnnouncementBar16Data from '../sections/global/03-announcement-bar/global-announcement-bar-16/global-announcement-bar-16.json';
+import { GlobalAnnouncementBar17 } from '../sections/global/03-announcement-bar/global-announcement-bar-17/GlobalAnnouncementBar17';
+import globalAnnouncementBar17Data from '../sections/global/03-announcement-bar/global-announcement-bar-17/global-announcement-bar-17.json';
+import { GlobalAnnouncementBar18 } from '../sections/global/03-announcement-bar/global-announcement-bar-18/GlobalAnnouncementBar18';
+import globalAnnouncementBar18Data from '../sections/global/03-announcement-bar/global-announcement-bar-18/global-announcement-bar-18.json';
+import { GlobalAnnouncementBar19 } from '../sections/global/03-announcement-bar/global-announcement-bar-19/GlobalAnnouncementBar19';
+import globalAnnouncementBar19Data from '../sections/global/03-announcement-bar/global-announcement-bar-19/global-announcement-bar-19.json';
+import { GlobalAnnouncementBar20 } from '../sections/global/03-announcement-bar/global-announcement-bar-20/GlobalAnnouncementBar20';
+import globalAnnouncementBar20Data from '../sections/global/03-announcement-bar/global-announcement-bar-20/global-announcement-bar-20.json';
+import { GlobalHeroBanner1 } from '../sections/global/04-hero-banner/global-hero-banner-01/GlobalHeroBanner1';
+import globalHeroBanner1Data from '../sections/global/04-hero-banner/global-hero-banner-01/global-hero-banner-01.json';
+import { GlobalHeroBanner2 } from '../sections/global/04-hero-banner/global-hero-banner-02/GlobalHeroBanner2';
+import globalHeroBanner2Data from '../sections/global/04-hero-banner/global-hero-banner-02/global-hero-banner-02.json';
+import { GlobalHeroBanner3 } from '../sections/global/04-hero-banner/global-hero-banner-03/GlobalHeroBanner3';
+import globalHeroBanner3Data from '../sections/global/04-hero-banner/global-hero-banner-03/global-hero-banner-03.json';
+import { GlobalHeroBanner4 } from '../sections/global/04-hero-banner/global-hero-banner-04/GlobalHeroBanner4';
+import globalHeroBanner4Data from '../sections/global/04-hero-banner/global-hero-banner-04/global-hero-banner-04.json';
+import { GlobalHeroBanner5 } from '../sections/global/04-hero-banner/global-hero-banner-05/GlobalHeroBanner5';
+import globalHeroBanner5Data from '../sections/global/04-hero-banner/global-hero-banner-05/global-hero-banner-05.json';
+import { GlobalHeroBanner6 } from '../sections/global/04-hero-banner/global-hero-banner-06/GlobalHeroBanner6';
+import globalHeroBanner6Data from '../sections/global/04-hero-banner/global-hero-banner-06/global-hero-banner-06.json';
+import { GlobalHeroBanner7 } from '../sections/global/04-hero-banner/global-hero-banner-07/GlobalHeroBanner7';
+import globalHeroBanner7Data from '../sections/global/04-hero-banner/global-hero-banner-07/global-hero-banner-07.json';
+import { GlobalHeroBanner8 } from '../sections/global/04-hero-banner/global-hero-banner-08/GlobalHeroBanner8';
+import globalHeroBanner8Data from '../sections/global/04-hero-banner/global-hero-banner-08/global-hero-banner-08.json';
+import { GlobalHeroBanner9 } from '../sections/global/04-hero-banner/global-hero-banner-09/GlobalHeroBanner9';
+import globalHeroBanner9Data from '../sections/global/04-hero-banner/global-hero-banner-09/global-hero-banner-09.json';
+import { GlobalHeroBanner10 } from '../sections/global/04-hero-banner/global-hero-banner-10/GlobalHeroBanner10';
+import globalHeroBanner10Data from '../sections/global/04-hero-banner/global-hero-banner-10/global-hero-banner-10.json';
+import { GlobalHeroBanner11 } from '../sections/global/04-hero-banner/global-hero-banner-11/GlobalHeroBanner11';
+import globalHeroBanner11Data from '../sections/global/04-hero-banner/global-hero-banner-11/global-hero-banner-11.json';
+import { GlobalHeroBanner12 } from '../sections/global/04-hero-banner/global-hero-banner-12/GlobalHeroBanner12';
+import globalHeroBanner12Data from '../sections/global/04-hero-banner/global-hero-banner-12/global-hero-banner-12.json';
+import { GlobalHeroBanner13 } from '../sections/global/04-hero-banner/global-hero-banner-13/GlobalHeroBanner13';
+import globalHeroBanner13Data from '../sections/global/04-hero-banner/global-hero-banner-13/global-hero-banner-13.json';
+import { GlobalHeroBanner14 } from '../sections/global/04-hero-banner/global-hero-banner-14/GlobalHeroBanner14';
+import globalHeroBanner14Data from '../sections/global/04-hero-banner/global-hero-banner-14/global-hero-banner-14.json';
+import { GlobalHeroBanner15 } from '../sections/global/04-hero-banner/global-hero-banner-15/GlobalHeroBanner15';
+import globalHeroBanner15Data from '../sections/global/04-hero-banner/global-hero-banner-15/global-hero-banner-15.json';
+import { GlobalHeroBanner16 } from '../sections/global/04-hero-banner/global-hero-banner-16/GlobalHeroBanner16';
+import globalHeroBanner16Data from '../sections/global/04-hero-banner/global-hero-banner-16/global-hero-banner-16.json';
+import { GlobalHeroBanner17 } from '../sections/global/04-hero-banner/global-hero-banner-17/GlobalHeroBanner17';
+import globalHeroBanner17Data from '../sections/global/04-hero-banner/global-hero-banner-17/global-hero-banner-17.json';
+import { GlobalHeroBanner18 } from '../sections/global/04-hero-banner/global-hero-banner-18/GlobalHeroBanner18';
+import globalHeroBanner18Data from '../sections/global/04-hero-banner/global-hero-banner-18/global-hero-banner-18.json';
+import { GlobalHeroBanner19 } from '../sections/global/04-hero-banner/global-hero-banner-19/GlobalHeroBanner19';
+import globalHeroBanner19Data from '../sections/global/04-hero-banner/global-hero-banner-19/global-hero-banner-19.json';
+import { GlobalHeroBanner20 } from '../sections/global/04-hero-banner/global-hero-banner-20/GlobalHeroBanner20';
+import globalHeroBanner20Data from '../sections/global/04-hero-banner/global-hero-banner-20/global-hero-banner-20.json';
+import { GlobalPromoBanner1 } from '../sections/global/05-promotional-banner/global-promotional-banner-01/GlobalPromoBanner1';
+import globalPromoBanner1Data from '../sections/global/05-promotional-banner/global-promotional-banner-01/global-promotional-banner-01.json';
+import { GlobalPromoBanner2 } from '../sections/global/05-promotional-banner/global-promotional-banner-02/GlobalPromoBanner2';
+import globalPromoBanner2Data from '../sections/global/05-promotional-banner/global-promotional-banner-02/global-promotional-banner-02.json';
+import { GlobalPromoBanner3 } from '../sections/global/05-promotional-banner/global-promotional-banner-03/GlobalPromoBanner3';
+import globalPromoBanner3Data from '../sections/global/05-promotional-banner/global-promotional-banner-03/global-promotional-banner-03.json';
+import { GlobalPromoBanner4 } from '../sections/global/05-promotional-banner/global-promotional-banner-04/GlobalPromoBanner4';
+import globalPromoBanner4Data from '../sections/global/05-promotional-banner/global-promotional-banner-04/global-promotional-banner-04.json';
+import { GlobalPromoBanner5 } from '../sections/global/05-promotional-banner/global-promotional-banner-05/GlobalPromoBanner5';
+import globalPromoBanner5Data from '../sections/global/05-promotional-banner/global-promotional-banner-05/global-promotional-banner-05.json';
+import { GlobalPromoBanner6 } from '../sections/global/05-promotional-banner/global-promotional-banner-06/GlobalPromoBanner6';
+import globalPromoBanner6Data from '../sections/global/05-promotional-banner/global-promotional-banner-06/global-promotional-banner-06.json';
+import { GlobalPromoBanner7 } from '../sections/global/05-promotional-banner/global-promotional-banner-07/GlobalPromoBanner7';
+import globalPromoBanner7Data from '../sections/global/05-promotional-banner/global-promotional-banner-07/global-promotional-banner-07.json';
+import { GlobalPromoBanner8 } from '../sections/global/05-promotional-banner/global-promotional-banner-08/GlobalPromoBanner8';
+import globalPromoBanner8Data from '../sections/global/05-promotional-banner/global-promotional-banner-08/global-promotional-banner-08.json';
+import { GlobalPromoBanner9 } from '../sections/global/05-promotional-banner/global-promotional-banner-09/GlobalPromoBanner9';
+import globalPromoBanner9Data from '../sections/global/05-promotional-banner/global-promotional-banner-09/global-promotional-banner-09.json';
+import { GlobalPromoBanner10 } from '../sections/global/05-promotional-banner/global-promotional-banner-10/GlobalPromoBanner10';
+import globalPromoBanner10Data from '../sections/global/05-promotional-banner/global-promotional-banner-10/global-promotional-banner-10.json';
+import { GlobalPromoBanner11 } from '../sections/global/05-promotional-banner/global-promotional-banner-11/GlobalPromoBanner11';
+import globalPromoBanner11Data from '../sections/global/05-promotional-banner/global-promotional-banner-11/global-promotional-banner-11.json';
+import { GlobalPromoBanner12 } from '../sections/global/05-promotional-banner/global-promotional-banner-12/GlobalPromoBanner12';
+import globalPromoBanner12Data from '../sections/global/05-promotional-banner/global-promotional-banner-12/global-promotional-banner-12.json';
+import { GlobalPromoBanner13 } from '../sections/global/05-promotional-banner/global-promotional-banner-13/GlobalPromoBanner13';
+import globalPromoBanner13Data from '../sections/global/05-promotional-banner/global-promotional-banner-13/global-promotional-banner-13.json';
+import { GlobalPromoBanner14 } from '../sections/global/05-promotional-banner/global-promotional-banner-14/GlobalPromoBanner14';
+import globalPromoBanner14Data from '../sections/global/05-promotional-banner/global-promotional-banner-14/global-promotional-banner-14.json';
+import { GlobalPromoBanner15 } from '../sections/global/05-promotional-banner/global-promotional-banner-15/GlobalPromoBanner15';
+import globalPromoBanner15Data from '../sections/global/05-promotional-banner/global-promotional-banner-15/global-promotional-banner-15.json';
+import { GlobalPromoBanner16 } from '../sections/global/05-promotional-banner/global-promotional-banner-16/GlobalPromoBanner16';
+import globalPromoBanner16Data from '../sections/global/05-promotional-banner/global-promotional-banner-16/global-promotional-banner-16.json';
+import { GlobalPromoBanner17 } from '../sections/global/05-promotional-banner/global-promotional-banner-17/GlobalPromoBanner17';
+import globalPromoBanner17Data from '../sections/global/05-promotional-banner/global-promotional-banner-17/global-promotional-banner-17.json';
+import { GlobalPromoBanner18 } from '../sections/global/05-promotional-banner/global-promotional-banner-18/GlobalPromoBanner18';
+import globalPromoBanner18Data from '../sections/global/05-promotional-banner/global-promotional-banner-18/global-promotional-banner-18.json';
+import { GlobalPromoBanner19 } from '../sections/global/05-promotional-banner/global-promotional-banner-19/GlobalPromoBanner19';
+import globalPromoBanner19Data from '../sections/global/05-promotional-banner/global-promotional-banner-19/global-promotional-banner-19.json';
+import { GlobalPromoBanner20 } from '../sections/global/05-promotional-banner/global-promotional-banner-20/GlobalPromoBanner20';
+import globalPromoBanner20Data from '../sections/global/05-promotional-banner/global-promotional-banner-20/global-promotional-banner-20.json';
+import { ContactHero1 } from '../sections/contact/01-contact-hero/contact-hero-01/ContactHero1';
+import contactHero1Data from '../sections/contact/01-contact-hero/contact-hero-01/contact-hero-01.json';
+import { ContactHero2 } from '../sections/contact/01-contact-hero/contact-hero-02/ContactHero2';
+import contactHero2Data from '../sections/contact/01-contact-hero/contact-hero-02/contact-hero-02.json';
+import { ContactHero3 } from '../sections/contact/01-contact-hero/contact-hero-03/ContactHero3';
+import contactHero3Data from '../sections/contact/01-contact-hero/contact-hero-03/contact-hero-03.json';
+import { ContactHero4 } from '../sections/contact/01-contact-hero/contact-hero-04/ContactHero4';
+import contactHero4Data from '../sections/contact/01-contact-hero/contact-hero-04/contact-hero-04.json';
+import { ContactHero5 } from '../sections/contact/01-contact-hero/contact-hero-05/ContactHero5';
+import contactHero5Data from '../sections/contact/01-contact-hero/contact-hero-05/contact-hero-05.json';
+import { ContactHero6 } from '../sections/contact/01-contact-hero/contact-hero-06/ContactHero6';
+import contactHero6Data from '../sections/contact/01-contact-hero/contact-hero-06/contact-hero-06.json';
+import { ContactHero7 } from '../sections/contact/01-contact-hero/contact-hero-07/ContactHero7';
+import contactHero7Data from '../sections/contact/01-contact-hero/contact-hero-07/contact-hero-07.json';
+import { ContactHero8 } from '../sections/contact/01-contact-hero/contact-hero-08/ContactHero8';
+import contactHero8Data from '../sections/contact/01-contact-hero/contact-hero-08/contact-hero-08.json';
+import { ContactHero9 } from '../sections/contact/01-contact-hero/contact-hero-09/ContactHero9';
+import contactHero9Data from '../sections/contact/01-contact-hero/contact-hero-09/contact-hero-09.json';
+import { ContactHero10 } from '../sections/contact/01-contact-hero/contact-hero-10/ContactHero10';
+import contactHero10Data from '../sections/contact/01-contact-hero/contact-hero-10/contact-hero-10.json';
+import { ContactHero11 } from '../sections/contact/01-contact-hero/contact-hero-11/ContactHero11';
+import contactHero11Data from '../sections/contact/01-contact-hero/contact-hero-11/contact-hero-11.json';
+import { ContactHero12 } from '../sections/contact/01-contact-hero/contact-hero-12/ContactHero12';
+import contactHero12Data from '../sections/contact/01-contact-hero/contact-hero-12/contact-hero-12.json';
+import { ContactHero13 } from '../sections/contact/01-contact-hero/contact-hero-13/ContactHero13';
+import contactHero13Data from '../sections/contact/01-contact-hero/contact-hero-13/contact-hero-13.json';
+import { ContactHero14 } from '../sections/contact/01-contact-hero/contact-hero-14/ContactHero14';
+import contactHero14Data from '../sections/contact/01-contact-hero/contact-hero-14/contact-hero-14.json';
+import { ContactHero15 } from '../sections/contact/01-contact-hero/contact-hero-15/ContactHero15';
+import contactHero15Data from '../sections/contact/01-contact-hero/contact-hero-15/contact-hero-15.json';
+import { ContactHero16 } from '../sections/contact/01-contact-hero/contact-hero-16/ContactHero16';
+import contactHero16Data from '../sections/contact/01-contact-hero/contact-hero-16/contact-hero-16.json';
+import { ContactHero17 } from '../sections/contact/01-contact-hero/contact-hero-17/ContactHero17';
+import contactHero17Data from '../sections/contact/01-contact-hero/contact-hero-17/contact-hero-17.json';
+import { ContactHero18 } from '../sections/contact/01-contact-hero/contact-hero-18/ContactHero18';
+import contactHero18Data from '../sections/contact/01-contact-hero/contact-hero-18/contact-hero-18.json';
+import { ContactHero19 } from '../sections/contact/01-contact-hero/contact-hero-19/ContactHero19';
+import contactHero19Data from '../sections/contact/01-contact-hero/contact-hero-19/contact-hero-19.json';
+import { ContactHero20 } from '../sections/contact/01-contact-hero/contact-hero-20/ContactHero20';
+import contactHero20Data from '../sections/contact/01-contact-hero/contact-hero-20/contact-hero-20.json';
+
+import { AboutHero3 } from '../sections/about/01-about-hero/about-hero-03/AboutHero3';
+import { AboutHero2 } from '../sections/about/01-about-hero/about-hero-02/AboutHero2';
+import { AboutHero5 } from '../sections/about/01-about-hero/about-hero-05/AboutHero5';
+import aboutHero5Data from '../sections/about/01-about-hero/about-hero-05/about-hero-05.json';
+import { AboutHero6 } from '../sections/about/01-about-hero/about-hero-06/AboutHero6';
+import aboutHero6Data from '../sections/about/01-about-hero/about-hero-06/about-hero-06.json';
+import { AboutHero7 } from '../sections/about/01-about-hero/about-hero-07/AboutHero7';
+import aboutHero7Data from '../sections/about/01-about-hero/about-hero-07/about-hero-07.json';
+import { AboutHero8 } from '../sections/about/01-about-hero/about-hero-08/AboutHero8';
+import aboutHero8Data from '../sections/about/01-about-hero/about-hero-08/about-hero-08.json';
+import { AboutHero9 } from '../sections/about/01-about-hero/about-hero-09/AboutHero9';
+import aboutHero9Data from '../sections/about/01-about-hero/about-hero-09/about-hero-09.json';
+import { AboutHero10 } from '../sections/about/01-about-hero/about-hero-10/AboutHero10';
+import aboutHero10Data from '../sections/about/01-about-hero/about-hero-10/about-hero-10.json';
+import { AboutHero11 } from '../sections/about/01-about-hero/about-hero-11/AboutHero11';
+import aboutHero11Data from '../sections/about/01-about-hero/about-hero-11/about-hero-11.json';
+import { AboutHero12 } from '../sections/about/01-about-hero/about-hero-12/AboutHero12';
+import aboutHero12Data from '../sections/about/01-about-hero/about-hero-12/about-hero-12.json';
+import { AboutHero13 } from '../sections/about/01-about-hero/about-hero-13/AboutHero13';
+import aboutHero13Data from '../sections/about/01-about-hero/about-hero-13/about-hero-13.json';
+import { AboutHero14 } from '../sections/about/01-about-hero/about-hero-14/AboutHero14';
+import aboutHero14Data from '../sections/about/01-about-hero/about-hero-14/about-hero-14.json';
+import { AboutHero15 } from '../sections/about/01-about-hero/about-hero-15/AboutHero15';
+import aboutHero15Data from '../sections/about/01-about-hero/about-hero-15/about-hero-15.json';
+import { AboutHero16 } from '../sections/about/01-about-hero/about-hero-16/AboutHero16';
+import aboutHero16Data from '../sections/about/01-about-hero/about-hero-16/about-hero-16.json';
+import { AboutHero17 } from '../sections/about/01-about-hero/about-hero-17/AboutHero17';
+import aboutHero17Data from '../sections/about/01-about-hero/about-hero-17/about-hero-17.json';
+import { AboutHero18 } from '../sections/about/01-about-hero/about-hero-18/AboutHero18';
+import aboutHero18Data from '../sections/about/01-about-hero/about-hero-18/about-hero-18.json';
+import { AboutHero19 } from '../sections/about/01-about-hero/about-hero-19/AboutHero19';
+import aboutHero19Data from '../sections/about/01-about-hero/about-hero-19/about-hero-19.json';
+import { AboutHero20 } from '../sections/about/01-about-hero/about-hero-20/AboutHero20';
+import aboutHero20Data from '../sections/about/01-about-hero/about-hero-20/about-hero-20.json';
+
+import { AboutCtaBanner1 } from '../sections/about/11-about-cta-banner/cta-banner-01/AboutCtaBanner1';
+import { AboutCtaBanner2 } from '../sections/about/11-about-cta-banner/cta-banner-02/AboutCtaBanner2';
+import { AboutCtaBanner3 } from '../sections/about/11-about-cta-banner/cta-banner-03/AboutCtaBanner3';
+import { AboutCtaBanner4 } from '../sections/about/11-about-cta-banner/cta-banner-04/AboutCtaBanner4';
+import { AboutCtaBanner5 } from '../sections/about/11-about-cta-banner/cta-banner-05/AboutCtaBanner5';
+import { AboutCtaBanner6 } from '../sections/about/11-about-cta-banner/cta-banner-06/AboutCtaBanner6';
+import { AboutCtaBanner7 } from '../sections/about/11-about-cta-banner/cta-banner-07/AboutCtaBanner7';
+import { AboutCtaBanner8 } from '../sections/about/11-about-cta-banner/cta-banner-08/AboutCtaBanner8';
+import { AboutCtaBanner9 } from '../sections/about/11-about-cta-banner/cta-banner-09/AboutCtaBanner9';
+import { AboutCtaBanner10 } from '../sections/about/11-about-cta-banner/cta-banner-10/AboutCtaBanner10';
+import { AboutCtaBanner11 } from '../sections/about/11-about-cta-banner/cta-banner-11/AboutCtaBanner11';
+import { AboutCtaBanner12 } from '../sections/about/11-about-cta-banner/cta-banner-12/AboutCtaBanner12';
+import { AboutCtaBanner13 } from '../sections/about/11-about-cta-banner/cta-banner-13/AboutCtaBanner13';
+import { AboutCtaBanner14 } from '../sections/about/11-about-cta-banner/cta-banner-14/AboutCtaBanner14';
+import { AboutCtaBanner15 } from '../sections/about/11-about-cta-banner/cta-banner-15/AboutCtaBanner15';
+import { AboutCtaBanner16 } from '../sections/about/11-about-cta-banner/cta-banner-16/AboutCtaBanner16';
+import { AboutCtaBanner17 } from '../sections/about/11-about-cta-banner/cta-banner-17/AboutCtaBanner17';
+import { AboutCtaBanner18 } from '../sections/about/11-about-cta-banner/cta-banner-18/AboutCtaBanner18';
+import { AboutCtaBanner19 } from '../sections/about/11-about-cta-banner/cta-banner-19/AboutCtaBanner19';
+import { AboutCtaBanner20 } from '../sections/about/11-about-cta-banner/cta-banner-20/AboutCtaBanner20';
+import { AboutPartnersBrands1 } from '../sections/about/10-about-partners-brands/partners-brands-01/AboutPartnersBrands1';
+import { AboutPartnersBrands2 } from '../sections/about/10-about-partners-brands/partners-brands-02/AboutPartnersBrands2';
+import { AboutPartnersBrands3 } from '../sections/about/10-about-partners-brands/partners-brands-03/AboutPartnersBrands3';
+import { AboutPartnersBrands4 } from '../sections/about/10-about-partners-brands/partners-brands-04/AboutPartnersBrands4';
+import { AboutPartnersBrands5 } from '../sections/about/10-about-partners-brands/partners-brands-05/AboutPartnersBrands5';
+import { AboutPartnersBrands6 } from '../sections/about/10-about-partners-brands/partners-brands-06/AboutPartnersBrands6';
+import { AboutPartnersBrands7 } from '../sections/about/10-about-partners-brands/partners-brands-07/AboutPartnersBrands7';
+import { AboutPartnersBrands8 } from '../sections/about/10-about-partners-brands/partners-brands-08/AboutPartnersBrands8';
+import { AboutPartnersBrands9 } from '../sections/about/10-about-partners-brands/partners-brands-09/AboutPartnersBrands9';
+import { AboutPartnersBrands10 } from '../sections/about/10-about-partners-brands/partners-brands-10/AboutPartnersBrands10';
+import { AboutPartnersBrands11 } from '../sections/about/10-about-partners-brands/partners-brands-11/AboutPartnersBrands11';
+import { AboutPartnersBrands12 } from '../sections/about/10-about-partners-brands/partners-brands-12/AboutPartnersBrands12';
+import { AboutPartnersBrands13 } from '../sections/about/10-about-partners-brands/partners-brands-13/AboutPartnersBrands13';
+import { AboutPartnersBrands14 } from '../sections/about/10-about-partners-brands/partners-brands-14/AboutPartnersBrands14';
+import { AboutPartnersBrands15 } from '../sections/about/10-about-partners-brands/partners-brands-15/AboutPartnersBrands15';
+import { AboutPartnersBrands16 } from '../sections/about/10-about-partners-brands/partners-brands-16/AboutPartnersBrands16';
+import { AboutPartnersBrands17 } from '../sections/about/10-about-partners-brands/partners-brands-17/AboutPartnersBrands17';
+import { AboutPartnersBrands18 } from '../sections/about/10-about-partners-brands/partners-brands-18/AboutPartnersBrands18';
+import { AboutPartnersBrands19 } from '../sections/about/10-about-partners-brands/partners-brands-19/AboutPartnersBrands19';
+import { AboutPartnersBrands20 } from '../sections/about/10-about-partners-brands/partners-brands-20/AboutPartnersBrands20';
+import { AboutCertifications1 } from '../sections/about/09-about-certifications/certifications-01/AboutCertifications1';
+import { AboutCertifications2 } from '../sections/about/09-about-certifications/certifications-02/AboutCertifications2';
+import { AboutCertifications3 } from '../sections/about/09-about-certifications/certifications-03/AboutCertifications3';
+import { AboutCertifications4 } from '../sections/about/09-about-certifications/certifications-04/AboutCertifications4';
+import { AboutCertifications5 } from '../sections/about/09-about-certifications/certifications-05/AboutCertifications5';
+import { AboutCertifications6 } from '../sections/about/09-about-certifications/certifications-06/AboutCertifications6';
+import { AboutCertifications7 } from '../sections/about/09-about-certifications/certifications-07/AboutCertifications7';
+import { AboutCertifications8 } from '../sections/about/09-about-certifications/certifications-08/AboutCertifications8';
+import { AboutCertifications9 } from '../sections/about/09-about-certifications/certifications-09/AboutCertifications9';
+import { AboutCertifications10 } from '../sections/about/09-about-certifications/certifications-10/AboutCertifications10';
+import { AboutCertifications11 } from '../sections/about/09-about-certifications/certifications-11/AboutCertifications11';
+import { AboutCertifications12 } from '../sections/about/09-about-certifications/certifications-12/AboutCertifications12';
+import { AboutCertifications13 } from '../sections/about/09-about-certifications/certifications-13/AboutCertifications13';
+import { AboutCertifications14 } from '../sections/about/09-about-certifications/certifications-14/AboutCertifications14';
+import { AboutCertifications15 } from '../sections/about/09-about-certifications/certifications-15/AboutCertifications15';
+import { AboutCertifications16 } from '../sections/about/09-about-certifications/certifications-16/AboutCertifications16';
+import { AboutCertifications17 } from '../sections/about/09-about-certifications/certifications-17/AboutCertifications17';
+import { AboutCertifications18 } from '../sections/about/09-about-certifications/certifications-18/AboutCertifications18';
+import { AboutCertifications19 } from '../sections/about/09-about-certifications/certifications-19/AboutCertifications19';
+import { AboutCertifications20 } from '../sections/about/09-about-certifications/certifications-20/AboutCertifications20';
+import { AboutTeamShowcase1 } from '../sections/about/08-about-team-showcase/team-01/AboutTeamShowcase1';
+import { AboutTeamShowcase2 } from '../sections/about/08-about-team-showcase/team-02/AboutTeamShowcase2';
+import { AboutTeamShowcase3 } from '../sections/about/08-about-team-showcase/team-03/AboutTeamShowcase3';
+import { AboutTeamShowcase4 } from '../sections/about/08-about-team-showcase/team-04/AboutTeamShowcase4';
+import { AboutTeamShowcase5 } from '../sections/about/08-about-team-showcase/team-05/AboutTeamShowcase5';
+import { AboutTeamShowcase6 } from '../sections/about/08-about-team-showcase/team-06/AboutTeamShowcase6';
+import { AboutTeamShowcase7 } from '../sections/about/08-about-team-showcase/team-07/AboutTeamShowcase7';
+import { AboutTeamShowcase8 } from '../sections/about/08-about-team-showcase/team-08/AboutTeamShowcase8';
+import { AboutTeamShowcase9 } from '../sections/about/08-about-team-showcase/team-09/AboutTeamShowcase9';
+import { AboutTeamShowcase10 } from '../sections/about/08-about-team-showcase/team-10/AboutTeamShowcase10';
+import { AboutTeamShowcase11 } from '../sections/about/08-about-team-showcase/team-11/AboutTeamShowcase11';
+import { AboutTeamShowcase12 } from '../sections/about/08-about-team-showcase/team-12/AboutTeamShowcase12';
+import { AboutTeamShowcase13 } from '../sections/about/08-about-team-showcase/team-13/AboutTeamShowcase13';
+import { AboutTeamShowcase14 } from '../sections/about/08-about-team-showcase/team-14/AboutTeamShowcase14';
+import { AboutTeamShowcase15 } from '../sections/about/08-about-team-showcase/team-15/AboutTeamShowcase15';
+import { AboutTeamShowcase16 } from '../sections/about/08-about-team-showcase/team-16/AboutTeamShowcase16';
+import { AboutTeamShowcase17 } from '../sections/about/08-about-team-showcase/team-17/AboutTeamShowcase17';
+import { AboutTeamShowcase18 } from '../sections/about/08-about-team-showcase/team-18/AboutTeamShowcase18';
+import { AboutTeamShowcase19 } from '../sections/about/08-about-team-showcase/team-19/AboutTeamShowcase19';
+import { AboutTeamShowcase20 } from '../sections/about/08-about-team-showcase/team-20/AboutTeamShowcase20';
+import { AboutCompanyTimeline1 } from '../sections/about/06-about-company-timeline/timeline-01/AboutCompanyTimeline1';
+import { AboutCompanyTimeline2 } from '../sections/about/06-about-company-timeline/timeline-02/AboutCompanyTimeline2';
+import { AboutCompanyTimeline3 } from '../sections/about/06-about-company-timeline/timeline-03/AboutCompanyTimeline3';
+import { AboutCompanyTimeline4 } from '../sections/about/06-about-company-timeline/timeline-04/AboutCompanyTimeline4';
+import { AboutCompanyTimeline5 } from '../sections/about/06-about-company-timeline/timeline-05/AboutCompanyTimeline5';
+import { AboutCompanyTimeline6 } from '../sections/about/06-about-company-timeline/timeline-06/AboutCompanyTimeline6';
+import { AboutCompanyTimeline7 } from '../sections/about/06-about-company-timeline/timeline-07/AboutCompanyTimeline7';
+import { AboutCompanyTimeline8 } from '../sections/about/06-about-company-timeline/timeline-08/AboutCompanyTimeline8';
+import { AboutCompanyTimeline9 } from '../sections/about/06-about-company-timeline/timeline-09/AboutCompanyTimeline9';
+import { AboutCompanyTimeline10 } from '../sections/about/06-about-company-timeline/timeline-10/AboutCompanyTimeline10';
+import { AboutCompanyTimeline11 } from '../sections/about/06-about-company-timeline/timeline-11/AboutCompanyTimeline11';
+import { AboutCompanyTimeline12 } from '../sections/about/06-about-company-timeline/timeline-12/AboutCompanyTimeline12';
+import { AboutCompanyTimeline13 } from '../sections/about/06-about-company-timeline/timeline-13/AboutCompanyTimeline13';
+import { AboutCompanyTimeline14 } from '../sections/about/06-about-company-timeline/timeline-14/AboutCompanyTimeline14';
+import { AboutCompanyTimeline15 } from '../sections/about/06-about-company-timeline/timeline-15/AboutCompanyTimeline15';
+import { AboutCompanyTimeline16 } from '../sections/about/06-about-company-timeline/timeline-16/AboutCompanyTimeline16';
+import { AboutCompanyTimeline17 } from '../sections/about/06-about-company-timeline/timeline-17/AboutCompanyTimeline17';
+import { AboutCompanyTimeline18 } from '../sections/about/06-about-company-timeline/timeline-18/AboutCompanyTimeline18';
+import { AboutCompanyTimeline19 } from '../sections/about/06-about-company-timeline/timeline-19/AboutCompanyTimeline19';
+import { AboutCompanyTimeline20 } from '../sections/about/06-about-company-timeline/timeline-20/AboutCompanyTimeline20';
+import { AboutBrandValues1 } from '../sections/about/07-about-brand-values/brand-values-01/AboutBrandValues1';
+import { AboutBrandValues2 } from '../sections/about/07-about-brand-values/brand-values-02/AboutBrandValues2';
+import { AboutBrandValues3 } from '../sections/about/07-about-brand-values/brand-values-03/AboutBrandValues3';
+import { AboutBrandValues4 } from '../sections/about/07-about-brand-values/brand-values-04/AboutBrandValues4';
+import { AboutBrandValues5 } from '../sections/about/07-about-brand-values/brand-values-05/AboutBrandValues5';
+import { AboutBrandValues6 } from '../sections/about/07-about-brand-values/brand-values-06/AboutBrandValues6';
+import { AboutBrandValues7 } from '../sections/about/07-about-brand-values/brand-values-07/AboutBrandValues7';
+import { AboutBrandValues8 } from '../sections/about/07-about-brand-values/brand-values-08/AboutBrandValues8';
+import { AboutBrandValues9 } from '../sections/about/07-about-brand-values/brand-values-09/AboutBrandValues9';
+import { AboutBrandValues10 } from '../sections/about/07-about-brand-values/brand-values-10/AboutBrandValues10';
+import { AboutBrandValues11 } from '../sections/about/07-about-brand-values/brand-values-11/AboutBrandValues11';
+import { AboutBrandValues12 } from '../sections/about/07-about-brand-values/brand-values-12/AboutBrandValues12';
+import { AboutBrandValues13 } from '../sections/about/07-about-brand-values/brand-values-13/AboutBrandValues13';
+import { AboutBrandValues14 } from '../sections/about/07-about-brand-values/brand-values-14/AboutBrandValues14';
+import { AboutBrandValues15 } from '../sections/about/07-about-brand-values/brand-values-15/AboutBrandValues15';
+import { AboutBrandValues16 } from '../sections/about/07-about-brand-values/brand-values-16/AboutBrandValues16';
+import { AboutBrandValues17 } from '../sections/about/07-about-brand-values/brand-values-17/AboutBrandValues17';
+import { AboutBrandValues18 } from '../sections/about/07-about-brand-values/brand-values-18/AboutBrandValues18';
+import { AboutBrandValues19 } from '../sections/about/07-about-brand-values/brand-values-19/AboutBrandValues19';
+import { AboutBrandValues20 } from '../sections/about/07-about-brand-values/brand-values-20/AboutBrandValues20';
 import { BlogNewsletter1 } from '../sections/blog/08-blog-newsletter/newsletter-01/BlogNewsletter1';
+import { AboutBrandStory1 } from '../sections/about/02-about-brand-story/brand-story-01/AboutBrandStory1';
+import { AboutBrandStory2 } from '../sections/about/02-about-brand-story/brand-story-02/AboutBrandStory2';
+import { AboutBrandStory3 } from '../sections/about/02-about-brand-story/brand-story-03/AboutBrandStory3';
+import { AboutBrandStory4 } from '../sections/about/02-about-brand-story/brand-story-04/AboutBrandStory4';
+import { AboutBrandStory5 } from '../sections/about/02-about-brand-story/brand-story-05/AboutBrandStory5';
+import { AboutBrandStory6 } from '../sections/about/02-about-brand-story/brand-story-06/AboutBrandStory6';
+import { AboutBrandStory7 } from '../sections/about/02-about-brand-story/brand-story-07/AboutBrandStory7';
+import { AboutBrandStory8 } from '../sections/about/02-about-brand-story/brand-story-08/AboutBrandStory8';
+import { AboutBrandStory9 } from '../sections/about/02-about-brand-story/brand-story-09/AboutBrandStory9';
+import { AboutBrandStory10 } from '../sections/about/02-about-brand-story/brand-story-10/AboutBrandStory10';
+import { AboutBrandStory11 } from '../sections/about/02-about-brand-story/brand-story-11/AboutBrandStory11';
+import { AboutBrandStory12 } from '../sections/about/02-about-brand-story/brand-story-12/AboutBrandStory12';
+import { AboutBrandStory13 } from '../sections/about/02-about-brand-story/brand-story-13/AboutBrandStory13';
+import { AboutBrandStory14 } from '../sections/about/02-about-brand-story/brand-story-14/AboutBrandStory14';
+import { AboutBrandStory15 } from '../sections/about/02-about-brand-story/brand-story-15/AboutBrandStory15';
+import { AboutBrandStory16 } from '../sections/about/02-about-brand-story/brand-story-16/AboutBrandStory16';
+import { AboutBrandStory17 } from '../sections/about/02-about-brand-story/brand-story-17/AboutBrandStory17';
+import { AboutBrandStory18 } from '../sections/about/02-about-brand-story/brand-story-18/AboutBrandStory18';
+import { AboutBrandStory19 } from '../sections/about/02-about-brand-story/brand-story-19/AboutBrandStory19';
+import { AboutBrandStory20 } from '../sections/about/02-about-brand-story/brand-story-20/AboutBrandStory20';
+import { AboutMissionVision1 } from '../sections/about/03-about-mission-vision/mission-vision-01/AboutMissionVision1';
+import { AboutMissionVision2 } from '../sections/about/03-about-mission-vision/mission-vision-02/AboutMissionVision2';
+import { AboutMissionVision3 } from '../sections/about/03-about-mission-vision/mission-vision-03/AboutMissionVision3';
+import { AboutMissionVision4 } from '../sections/about/03-about-mission-vision/mission-vision-04/AboutMissionVision4';
+import { AboutMissionVision5 } from '../sections/about/03-about-mission-vision/mission-vision-05/AboutMissionVision5';
+import { AboutMissionVision6 } from '../sections/about/03-about-mission-vision/mission-vision-06/AboutMissionVision6';
+import { AboutMissionVision7 } from '../sections/about/03-about-mission-vision/mission-vision-07/AboutMissionVision7';
+import { AboutMissionVision8 } from '../sections/about/03-about-mission-vision/mission-vision-08/AboutMissionVision8';
+import { AboutMissionVision9 } from '../sections/about/03-about-mission-vision/mission-vision-09/AboutMissionVision9';
+import { AboutMissionVision10 } from '../sections/about/03-about-mission-vision/mission-vision-10/AboutMissionVision10';
+import { AboutMissionVision11 } from '../sections/about/03-about-mission-vision/mission-vision-11/AboutMissionVision11';
+import { AboutMissionVision12 } from '../sections/about/03-about-mission-vision/mission-vision-12/AboutMissionVision12';
+import { AboutMissionVision13 } from '../sections/about/03-about-mission-vision/mission-vision-13/AboutMissionVision13';
+import { AboutMissionVision14 } from '../sections/about/03-about-mission-vision/mission-vision-14/AboutMissionVision14';
+import { AboutMissionVision15 } from '../sections/about/03-about-mission-vision/mission-vision-15/AboutMissionVision15';
+import { AboutMissionVision16 } from '../sections/about/03-about-mission-vision/mission-vision-16/AboutMissionVision16';
+import { AboutMissionVision17 } from '../sections/about/03-about-mission-vision/mission-vision-17/AboutMissionVision17';
+import { AboutMissionVision18 } from '../sections/about/03-about-mission-vision/mission-vision-18/AboutMissionVision18';
+import { AboutMissionVision19 } from '../sections/about/03-about-mission-vision/mission-vision-19/AboutMissionVision19';
+import { AboutMissionVision20 } from '../sections/about/03-about-mission-vision/mission-vision-20/AboutMissionVision20';
+import { AboutCompanyStatistics1 } from '../sections/about/04-about-company-statistics/statistics-01/AboutCompanyStatistics1';
+import { AboutCompanyStatistics2 } from '../sections/about/04-about-company-statistics/statistics-02/AboutCompanyStatistics2';
+import { AboutCompanyStatistics3 } from '../sections/about/04-about-company-statistics/statistics-03/AboutCompanyStatistics3';
+import { AboutCompanyStatistics4 } from '../sections/about/04-about-company-statistics/statistics-04/AboutCompanyStatistics4';
+import { AboutCompanyStatistics5 } from '../sections/about/04-about-company-statistics/statistics-05/AboutCompanyStatistics5';
+import { AboutCompanyStatistics6 } from '../sections/about/04-about-company-statistics/statistics-06/AboutCompanyStatistics6';
+import { AboutCompanyStatistics7 } from '../sections/about/04-about-company-statistics/statistics-07/AboutCompanyStatistics7';
+import { AboutCompanyStatistics8 } from '../sections/about/04-about-company-statistics/statistics-08/AboutCompanyStatistics8';
+import { AboutCompanyStatistics9 } from '../sections/about/04-about-company-statistics/statistics-09/AboutCompanyStatistics9';
+import { AboutCompanyStatistics10 } from '../sections/about/04-about-company-statistics/statistics-10/AboutCompanyStatistics10';
+import { AboutCompanyStatistics11 } from '../sections/about/04-about-company-statistics/statistics-11/AboutCompanyStatistics11';
+import { AboutCompanyStatistics12 } from '../sections/about/04-about-company-statistics/statistics-12/AboutCompanyStatistics12';
+import { AboutCompanyStatistics13 } from '../sections/about/04-about-company-statistics/statistics-13/AboutCompanyStatistics13';
+import { AboutCompanyStatistics14 } from '../sections/about/04-about-company-statistics/statistics-14/AboutCompanyStatistics14';
+import { AboutCompanyStatistics15 } from '../sections/about/04-about-company-statistics/statistics-15/AboutCompanyStatistics15';
+import { AboutCompanyStatistics16 } from '../sections/about/04-about-company-statistics/statistics-16/AboutCompanyStatistics16';
+import { AboutCompanyStatistics17 } from '../sections/about/04-about-company-statistics/statistics-17/AboutCompanyStatistics17';
+import { AboutCompanyStatistics18 } from '../sections/about/04-about-company-statistics/statistics-18/AboutCompanyStatistics18';
+import { AboutCompanyStatistics19 } from '../sections/about/04-about-company-statistics/statistics-19/AboutCompanyStatistics19';
+import { AboutCompanyStatistics20 } from '../sections/about/04-about-company-statistics/statistics-20/AboutCompanyStatistics20';
+import { AboutImageContent1 } from '../sections/about/05-about-image-content/image-content-01/AboutImageContent1';
+import { AboutImageContent2 } from '../sections/about/05-about-image-content/image-content-02/AboutImageContent2';
+import { AboutImageContent3 } from '../sections/about/05-about-image-content/image-content-03/AboutImageContent3';
+import { AboutImageContent4 } from '../sections/about/05-about-image-content/image-content-04/AboutImageContent4';
+import { AboutImageContent5 } from '../sections/about/05-about-image-content/image-content-05/AboutImageContent5';
+import { AboutImageContent6 } from '../sections/about/05-about-image-content/image-content-06/AboutImageContent6';
+import { AboutImageContent7 } from '../sections/about/05-about-image-content/image-content-07/AboutImageContent7';
+import { AboutImageContent8 } from '../sections/about/05-about-image-content/image-content-08/AboutImageContent8';
+import { AboutImageContent9 } from '../sections/about/05-about-image-content/image-content-09/AboutImageContent9';
+import { AboutImageContent10 } from '../sections/about/05-about-image-content/image-content-10/AboutImageContent10';
+import { AboutImageContent11 } from '../sections/about/05-about-image-content/image-content-11/AboutImageContent11';
+import { AboutImageContent12 } from '../sections/about/05-about-image-content/image-content-12/AboutImageContent12';
+import { AboutImageContent13 } from '../sections/about/05-about-image-content/image-content-13/AboutImageContent13';
+import { AboutImageContent14 } from '../sections/about/05-about-image-content/image-content-14/AboutImageContent14';
+import { AboutImageContent15 } from '../sections/about/05-about-image-content/image-content-15/AboutImageContent15';
+import { AboutImageContent16 } from '../sections/about/05-about-image-content/image-content-16/AboutImageContent16';
+import { AboutImageContent17 } from '../sections/about/05-about-image-content/image-content-17/AboutImageContent17';
+import { AboutImageContent18 } from '../sections/about/05-about-image-content/image-content-18/AboutImageContent18';
+import { AboutImageContent19 } from '../sections/about/05-about-image-content/image-content-19/AboutImageContent19';
+import { AboutImageContent20 } from '../sections/about/05-about-image-content/image-content-20/AboutImageContent20';
 import blogNewsletter1Data from '../sections/blog/08-blog-newsletter/newsletter-01/newsletter-01.json';
 import { BlogNewsletter2 } from '../sections/blog/08-blog-newsletter/newsletter-02/BlogNewsletter2';
 import blogNewsletter2Data from '../sections/blog/08-blog-newsletter/newsletter-02/newsletter-02.json';
@@ -1566,46 +2769,6 @@ import recentlyViewedProducts19Data from '../sections/cart/08-recently-viewed-pr
 import RecentlyViewedProducts20 from '../sections/cart/08-recently-viewed-products/recently-viewed-products-20/RecentlyViewedProducts20';
 import recentlyViewedProducts20Data from '../sections/cart/08-recently-viewed-products/recently-viewed-products-20/recently-viewed-products-20.json';
 
-import EmptyCartSection1 from '../sections/cart/09-empty-cart-section/empty-cart-section-1/EmptyCartSection1';
-import emptyCartSection1Data from '../sections/cart/09-empty-cart-section/empty-cart-section-1/empty-cart-section-1.json';
-import EmptyCartSection2 from '../sections/cart/09-empty-cart-section/empty-cart-section-2/EmptyCartSection2';
-import emptyCartSection2Data from '../sections/cart/09-empty-cart-section/empty-cart-section-2/empty-cart-section-2.json';
-import EmptyCartSection3 from '../sections/cart/09-empty-cart-section/empty-cart-section-3/EmptyCartSection3';
-import emptyCartSection3Data from '../sections/cart/09-empty-cart-section/empty-cart-section-3/empty-cart-section-3.json';
-import EmptyCartSection4 from '../sections/cart/09-empty-cart-section/empty-cart-section-4/EmptyCartSection4';
-import emptyCartSection4Data from '../sections/cart/09-empty-cart-section/empty-cart-section-4/empty-cart-section-4.json';
-import EmptyCartSection5 from '../sections/cart/09-empty-cart-section/empty-cart-section-5/EmptyCartSection5';
-import emptyCartSection5Data from '../sections/cart/09-empty-cart-section/empty-cart-section-5/empty-cart-section-5.json';
-import EmptyCartSection6 from '../sections/cart/09-empty-cart-section/empty-cart-section-6/EmptyCartSection6';
-import emptyCartSection6Data from '../sections/cart/09-empty-cart-section/empty-cart-section-6/empty-cart-section-6.json';
-import EmptyCartSection7 from '../sections/cart/09-empty-cart-section/empty-cart-section-7/EmptyCartSection7';
-import emptyCartSection7Data from '../sections/cart/09-empty-cart-section/empty-cart-section-7/empty-cart-section-7.json';
-import EmptyCartSection8 from '../sections/cart/09-empty-cart-section/empty-cart-section-8/EmptyCartSection8';
-import emptyCartSection8Data from '../sections/cart/09-empty-cart-section/empty-cart-section-8/empty-cart-section-8.json';
-import EmptyCartSection9 from '../sections/cart/09-empty-cart-section/empty-cart-section-9/EmptyCartSection9';
-import emptyCartSection9Data from '../sections/cart/09-empty-cart-section/empty-cart-section-9/empty-cart-section-9.json';
-import EmptyCartSection10 from '../sections/cart/09-empty-cart-section/empty-cart-section-10/EmptyCartSection10';
-import emptyCartSection10Data from '../sections/cart/09-empty-cart-section/empty-cart-section-10/empty-cart-section-10.json';
-import EmptyCartSection11 from '../sections/cart/09-empty-cart-section/empty-cart-section-11/EmptyCartSection11';
-import emptyCartSection11Data from '../sections/cart/09-empty-cart-section/empty-cart-section-11/empty-cart-section-11.json';
-import EmptyCartSection12 from '../sections/cart/09-empty-cart-section/empty-cart-section-12/EmptyCartSection12';
-import emptyCartSection12Data from '../sections/cart/09-empty-cart-section/empty-cart-section-12/empty-cart-section-12.json';
-import EmptyCartSection13 from '../sections/cart/09-empty-cart-section/empty-cart-section-13/EmptyCartSection13';
-import emptyCartSection13Data from '../sections/cart/09-empty-cart-section/empty-cart-section-13/empty-cart-section-13.json';
-import EmptyCartSection14 from '../sections/cart/09-empty-cart-section/empty-cart-section-14/EmptyCartSection14';
-import emptyCartSection14Data from '../sections/cart/09-empty-cart-section/empty-cart-section-14/empty-cart-section-14.json';
-import EmptyCartSection15 from '../sections/cart/09-empty-cart-section/empty-cart-section-15/EmptyCartSection15';
-import emptyCartSection15Data from '../sections/cart/09-empty-cart-section/empty-cart-section-15/empty-cart-section-15.json';
-import EmptyCartSection16 from '../sections/cart/09-empty-cart-section/empty-cart-section-16/EmptyCartSection16';
-import emptyCartSection16Data from '../sections/cart/09-empty-cart-section/empty-cart-section-16/empty-cart-section-16.json';
-import EmptyCartSection17 from '../sections/cart/09-empty-cart-section/empty-cart-section-17/EmptyCartSection17';
-import emptyCartSection17Data from '../sections/cart/09-empty-cart-section/empty-cart-section-17/empty-cart-section-17.json';
-import EmptyCartSection18 from '../sections/cart/09-empty-cart-section/empty-cart-section-18/EmptyCartSection18';
-import emptyCartSection18Data from '../sections/cart/09-empty-cart-section/empty-cart-section-18/empty-cart-section-18.json';
-import EmptyCartSection19 from '../sections/cart/09-empty-cart-section/empty-cart-section-19/EmptyCartSection19';
-import emptyCartSection19Data from '../sections/cart/09-empty-cart-section/empty-cart-section-19/empty-cart-section-19.json';
-import EmptyCartSection20 from '../sections/cart/09-empty-cart-section/empty-cart-section-20/EmptyCartSection20';
-import emptyCartSection20Data from '../sections/cart/09-empty-cart-section/empty-cart-section-20/empty-cart-section-20.json';
 
 import CheckoutHeader1 from '../sections/checkout/01-checkout-header/checkout-header-1/CheckoutHeader1';
 import checkoutheader1Data from '../sections/checkout/01-checkout-header/checkout-header-1/checkout-header-1.json';
@@ -2009,7 +3172,7 @@ import CheckoutSecurityTrust20 from '../sections/checkout/10-security-trust/chec
 import checkoutsecuritytrust20Data from '../sections/checkout/10-security-trust/checkout-security-trust-20/checkout-security-trust-20.json';
 
 import React from 'react';
-import { homeCategories, productCategories, cartCategories, checkoutCategories, orderCategories, accountCategories, offersCategories, blogCategories, aboutCategories } from './navigationData';
+import { homeCategories, productCategories, cartCategories, checkoutCategories, orderCategories, accountCategories, offersCategories, blogCategories, aboutCategories, contactCategories, errorCategories, globalCategories } from './navigationData';
 import { Code } from 'lucide-react';
 
 import { SectionLibraryCard } from './SectionLibraryCard';
@@ -4938,6 +6101,80 @@ export function SectionLibraryGrid({ category }: GridProps) {
   ];
 
   const getSectionsForCategory = (category: string) => {
+    switch (category) {
+      case 'about-team-showcase':
+        return [
+          { id: 'about-team-showcase-1', title: 'FROSTED GLASSMORPHISM (ANIMATION: FLOATING AMBIENT ORBS & CARD LIFT)', description: 'Design: FROSTED GLASSMORPHISM • Animation: FLOATING AMBIENT ORBS & CARD LIFT', previewComponent: <AboutTeamShowcase1 /> },
+          { id: 'about-team-showcase-2', title: 'DARK OBSIDIAN GLASS (ANIMATION: NEON CYBER PULSE & HOVER SWEEP)', description: 'Design: DARK OBSIDIAN GLASS • Animation: NEON CYBER PULSE & HOVER SWEEP', previewComponent: <AboutTeamShowcase2 /> },
+          { id: 'about-team-showcase-3', title: 'SOFT NEUMORPHISM (ANIMATION: DUAL-SHADOW DEPTH & TACTILE PUSH)', description: 'Design: SOFT NEUMORPHISM • Animation: DUAL-SHADOW DEPTH & TACTILE PUSH', previewComponent: <AboutTeamShowcase3 /> },
+          { id: 'about-team-showcase-4', title: 'HOLO CHROMA FOIL (ANIMATION: CHROMATIC SHIMMER BORDER ROTATION)', description: 'Design: HOLO CHROMA FOIL • Animation: CHROMATIC SHIMMER BORDER ROTATION', previewComponent: <AboutTeamShowcase4 /> },
+          { id: 'about-team-showcase-5', title: '3D CLAYMORPHISM (ANIMATION: SOFT SQUISHY 3D TILT TRACKING)', description: 'Design: 3D CLAYMORPHISM • Animation: SOFT SQUISHY 3D TILT TRACKING', previewComponent: <AboutTeamShowcase5 /> },
+          { id: 'about-team-showcase-6', title: 'NEO-BRUTALISM (ANIMATION: HARD STARK OFFSET SHADOW POP)', description: 'Design: NEO-BRUTALISM • Animation: HARD STARK OFFSET SHADOW POP', previewComponent: <AboutTeamShowcase6 /> },
+          { id: 'about-team-showcase-7', title: 'METALLIC CHROMIUM (ANIMATION: LIQUID METAL SHEEN & REFLECTION)', description: 'Design: METALLIC CHROMIUM • Animation: LIQUID METAL SHEEN & REFLECTION', previewComponent: <AboutTeamShowcase7 /> },
+          { id: 'about-team-showcase-8', title: 'CYBERPUNK HUD (ANIMATION: SCANLINE RADAR SWEEP & DATA HUD)', description: 'Design: CYBERPUNK HUD • Animation: SCANLINE RADAR SWEEP & DATA HUD', previewComponent: <AboutTeamShowcase8 /> },
+          { id: 'about-team-showcase-9', title: 'VELVET MATTE (ANIMATION: SATIN DIFFUSE AURA FADE-IN)', description: 'Design: VELVET MATTE • Animation: SATIN DIFFUSE AURA FADE-IN', previewComponent: <AboutTeamShowcase9 /> },
+          { id: 'about-team-showcase-10', title: 'LIQUID AURORA (ANIMATION: MORPHING SVG AURORA WAVE FLOW)', description: 'Design: LIQUID AURORA • Animation: MORPHING SVG AURORA WAVE FLOW', previewComponent: <AboutTeamShowcase10 /> },
+          { id: 'about-team-showcase-11', title: 'PRISM LIGHT GLASS (ANIMATION: PRISM COLOR SPLITTING & BEAM TILT)', description: 'Design: PRISM LIGHT GLASS • Animation: PRISM COLOR SPLITTING & BEAM TILT', previewComponent: <AboutTeamShowcase11 /> },
+          { id: 'about-team-showcase-12', title: 'FLOATING PARALLAX STACK (ANIMATION: MULTI-PLANE SCROLL ELEVATION)', description: 'Design: FLOATING PARALLAX STACK • Animation: MULTI-PLANE SCROLL ELEVATION', previewComponent: <AboutTeamShowcase12 /> },
+          { id: 'about-team-showcase-13', title: 'SKEUOMORPHIC BEVEL (ANIMATION: GLOSSY BEVEL SHINE & PROFILE FLIP)', description: 'Design: SKEUOMORPHIC BEVEL • Animation: GLOSSY BEVEL SHINE & PROFILE FLIP', previewComponent: <AboutTeamShowcase13 /> },
+          { id: 'about-team-showcase-14', title: 'MONOCHROME HAIRLINE (ANIMATION: ARCHITECTURAL LINEAR GRID SCALE)', description: 'Design: MONOCHROME HAIRLINE • Animation: ARCHITECTURAL LINEAR GRID SCALE', previewComponent: <AboutTeamShowcase14 /> },
+          { id: 'about-team-showcase-15', title: 'BENTO BOX GLASS (ANIMATION: STAGGERED MODULAR TILE FADE-UP)', description: 'Design: BENTO BOX GLASS • Animation: STAGGERED MODULAR TILE FADE-UP', previewComponent: <AboutTeamShowcase15 /> },
+          { id: 'about-team-showcase-16', title: 'FROSTED BIO-GLASS (ANIMATION: ORGANIC LEAF PARTICLE FLOATING)', description: 'Design: FROSTED BIO-GLASS • Animation: ORGANIC LEAF PARTICLE FLOATING', previewComponent: <AboutTeamShowcase16 /> },
+          { id: 'about-team-showcase-17', title: 'COSMIC STARFIELD (ANIMATION: TWINKLING NEBULA STAR PARTICLES)', description: 'Design: COSMIC STARFIELD • Animation: TWINKLING NEBULA STAR PARTICLES', previewComponent: <AboutTeamShowcase17 /> },
+          { id: 'about-team-showcase-18', title: 'BIO MODAL REVEAL (ANIMATION: SLIDE-OUT MEMBER BIO DRAWER)', description: 'Design: BIO MODAL REVEAL • Animation: SLIDE-OUT MEMBER BIO DRAWER', previewComponent: <AboutTeamShowcase18 /> },
+          { id: 'about-team-showcase-19', title: 'SYNTHWAVE NEON GRID (ANIMATION: PERSPECTIVE GRID SCROLL & SCANLINE)', description: 'Design: SYNTHWAVE NEON GRID • Animation: PERSPECTIVE GRID SCROLL & SCANLINE', previewComponent: <AboutTeamShowcase19 /> },
+          { id: 'about-team-showcase-20', title: 'ULTRA LUXURY DIAMOND (ANIMATION: FACETED DIAMOND SPARKLE FLARE)', description: 'Design: ULTRA LUXURY DIAMOND • Animation: FACETED DIAMOND SPARKLE FLARE', previewComponent: <AboutTeamShowcase20 /> },
+        ];
+      case 'about-company-timeline':
+        return [
+          { id: 'about-company-timeline-1', title: 'FROSTED GLASSMORPHISM (ANIMATION: AMBIENT ORBS & TIMELINE GLOW)', description: 'Design: FROSTED GLASSMORPHISM • Animation: AMBIENT ORBS & TIMELINE GLOW', previewComponent: <AboutCompanyTimeline1 /> },
+          { id: 'about-company-timeline-2', title: 'DARK OBSIDIAN GLASS (ANIMATION: NEON LASER MILESTONE PULSE)', description: 'Design: DARK OBSIDIAN GLASS • Animation: NEON LASER MILESTONE PULSE', previewComponent: <AboutCompanyTimeline2 /> },
+          { id: 'about-company-timeline-3', title: 'SOFT NEUMORPHISM (ANIMATION: DUAL-SHADOW DEPTH & TACTILE STEP)', description: 'Design: SOFT NEUMORPHISM • Animation: DUAL-SHADOW DEPTH & TACTILE STEP', previewComponent: <AboutCompanyTimeline3 /> },
+          { id: 'about-company-timeline-4', title: 'HOLO CHROMA FOIL (ANIMATION: CHROMATIC SHIMMER BORDER ROTATION)', description: 'Design: HOLO CHROMA FOIL • Animation: CHROMATIC SHIMMER BORDER ROTATION', previewComponent: <AboutCompanyTimeline4 /> },
+          { id: 'about-company-timeline-5', title: '3D CLAYMORPHISM (ANIMATION: SOFT 3D SQUISHY MILESTONE TILT)', description: 'Design: 3D CLAYMORPHISM • Animation: SOFT 3D SQUISHY MILESTONE TILT', previewComponent: <AboutCompanyTimeline5 /> },
+          { id: 'about-company-timeline-6', title: 'NEO-BRUTALISM (ANIMATION: HARD STARK OFFSET SHADOW POP)', description: 'Design: NEO-BRUTALISM • Animation: HARD STARK OFFSET SHADOW POP', previewComponent: <AboutCompanyTimeline6 /> },
+          { id: 'about-company-timeline-7', title: 'METALLIC CHROMIUM (ANIMATION: LIQUID METAL SHEEN & SHINE)', description: 'Design: METALLIC CHROMIUM • Animation: LIQUID METAL SHEEN & SHINE', previewComponent: <AboutCompanyTimeline7 /> },
+          { id: 'about-company-timeline-8', title: 'CYBERPUNK HUD (ANIMATION: SCANLINE RADAR SWEEP & YEAR HUD)', description: 'Design: CYBERPUNK HUD • Animation: SCANLINE RADAR SWEEP & YEAR HUD', previewComponent: <AboutCompanyTimeline8 /> },
+          { id: 'about-company-timeline-9', title: 'VELVET MATTE (ANIMATION: SATIN DIFFUSE AURA FADE-IN)', description: 'Design: VELVET MATTE • Animation: SATIN DIFFUSE AURA FADE-IN', previewComponent: <AboutCompanyTimeline9 /> },
+          { id: 'about-company-timeline-10', title: 'LIQUID AURORA (ANIMATION: MORPHING SVG AURORA WAVE FLOW)', description: 'Design: LIQUID AURORA • Animation: MORPHING SVG AURORA WAVE FLOW', previewComponent: <AboutCompanyTimeline10 /> },
+          { id: 'about-company-timeline-11', title: 'PRISM LIGHT GLASS (ANIMATION: PRISM COLOR SPLITTING & BEAM TILT)', description: 'Design: PRISM LIGHT GLASS • Animation: PRISM COLOR SPLITTING & BEAM TILT', previewComponent: <AboutCompanyTimeline11 /> },
+          { id: 'about-company-timeline-12', title: 'FLOATING PARALLAX STACK (ANIMATION: MULTI-PLANE SCROLL ELEVATION)', description: 'Design: FLOATING PARALLAX STACK • Animation: MULTI-PLANE SCROLL ELEVATION', previewComponent: <AboutCompanyTimeline12 /> },
+          { id: 'about-company-timeline-13', title: 'SKEUOMORPHIC BEVEL (ANIMATION: GLOSSY BEVEL SHINE & YEAR SEAL)', description: 'Design: SKEUOMORPHIC BEVEL • Animation: GLOSSY BEVEL SHINE & YEAR SEAL', previewComponent: <AboutCompanyTimeline13 /> },
+          { id: 'about-company-timeline-14', title: 'MONOCHROME HAIRLINE (ANIMATION: ARCHITECTURAL LINEAR GRID SCALE)', description: 'Design: MONOCHROME HAIRLINE • Animation: ARCHITECTURAL LINEAR GRID SCALE', previewComponent: <AboutCompanyTimeline14 /> },
+          { id: 'about-company-timeline-15', title: 'BENTO BOX GLASS (ANIMATION: STAGGERED MODULAR TILE FADE-UP)', description: 'Design: BENTO BOX GLASS • Animation: STAGGERED MODULAR TILE FADE-UP', previewComponent: <AboutCompanyTimeline15 /> },
+          { id: 'about-company-timeline-16', title: 'FROSTED BIO-GLASS (ANIMATION: ORGANIC LEAF PARTICLE FLOATING)', description: 'Design: FROSTED BIO-GLASS • Animation: ORGANIC LEAF PARTICLE FLOATING', previewComponent: <AboutCompanyTimeline16 /> },
+          { id: 'about-company-timeline-17', title: 'COSMIC STARFIELD (ANIMATION: TWINKLING NEBULA STAR PARTICLES)', description: 'Design: COSMIC STARFIELD • Animation: TWINKLING NEBULA STAR PARTICLES', previewComponent: <AboutCompanyTimeline17 /> },
+          { id: 'about-company-timeline-18', title: 'TIMELINE DRAWER MODAL (ANIMATION: SLIDE-OUT MILESTONE DETAIL DRAWER)', description: 'Design: TIMELINE DRAWER MODAL • Animation: SLIDE-OUT MILESTONE DETAIL DRAWER', previewComponent: <AboutCompanyTimeline18 /> },
+          { id: 'about-company-timeline-19', title: 'SYNTHWAVE NEON GRID (ANIMATION: PERSPECTIVE GRID SCROLL & SCANLINE)', description: 'Design: SYNTHWAVE NEON GRID • Animation: PERSPECTIVE GRID SCROLL & SCANLINE', previewComponent: <AboutCompanyTimeline19 /> },
+          { id: 'about-company-timeline-20', title: 'ULTRA LUXURY DIAMOND (ANIMATION: FACETED DIAMOND SPARKLE FLARE)', description: 'Design: ULTRA LUXURY DIAMOND • Animation: FACETED DIAMOND SPARKLE FLARE', previewComponent: <AboutCompanyTimeline20 /> },
+        ];
+      case 'about-brand-values':
+        return [
+          { id: 'about-brand-values-1', title: 'FROSTED GLASSMORPHISM (ANIMATION: AMBIENT GLOW ORBS & ICON ROTATION)', description: 'Design: FROSTED GLASSMORPHISM • Animation: AMBIENT GLOW ORBS & ICON ROTATION', previewComponent: <AboutBrandValues1 /> },
+          { id: 'about-brand-values-2', title: 'DARK OBSIDIAN GLASS (ANIMATION: CYBER NEON PULSE & LASER BORDER)', description: 'Design: DARK OBSIDIAN GLASS • Animation: CYBER NEON PULSE & LASER BORDER', previewComponent: <AboutBrandValues2 /> },
+          { id: 'about-brand-values-3', title: 'SOFT NEUMORPHISM (ANIMATION: DUAL-SHADOW DEPTH & TACTILE PRESS)', description: 'Design: SOFT NEUMORPHISM • Animation: DUAL-SHADOW DEPTH & TACTILE PRESS', previewComponent: <AboutBrandValues3 /> },
+          { id: 'about-brand-values-4', title: 'HOLO CHROMA FOIL (ANIMATION: CHROMATIC SHIMMER BORDER ROTATION)', description: 'Design: HOLO CHROMA FOIL • Animation: CHROMATIC SHIMMER BORDER ROTATION', previewComponent: <AboutBrandValues4 /> },
+          { id: 'about-brand-values-5', title: '3D CLAYMORPHISM (ANIMATION: SOFT 3D SQUISHY REACTION & MOUSE TILT)', description: 'Design: 3D CLAYMORPHISM • Animation: SOFT 3D SQUISHY REACTION & MOUSE TILT', previewComponent: <AboutBrandValues5 /> },
+          { id: 'about-brand-values-6', title: 'NEO-BRUTALISM (ANIMATION: HARD STARK OFFSET SHADOW POP)', description: 'Design: NEO-BRUTALISM • Animation: HARD STARK OFFSET SHADOW POP', previewComponent: <AboutBrandValues6 /> },
+          { id: 'about-brand-values-7', title: 'METALLIC CHROMIUM (ANIMATION: LIQUID METAL SHEEN & SHINE)', description: 'Design: METALLIC CHROMIUM • Animation: LIQUID METAL SHEEN & SHINE', previewComponent: <AboutBrandValues7 /> },
+          { id: 'about-brand-values-8', title: 'CYBERPUNK HUD (ANIMATION: SCANLINE RADAR SWEEP & METRIC PING)', description: 'Design: CYBERPUNK HUD • Animation: SCANLINE RADAR SWEEP & METRIC PING', previewComponent: <AboutBrandValues8 /> },
+          { id: 'about-brand-values-9', title: 'VELVET MATTE (ANIMATION: SATIN DIFFUSE AURA FADE-IN)', description: 'Design: VELVET MATTE • Animation: SATIN DIFFUSE AURA FADE-IN', previewComponent: <AboutBrandValues9 /> },
+          { id: 'about-brand-values-10', title: 'LIQUID AURORA (ANIMATION: MORPHING SVG AURORA WAVE FLOW)', description: 'Design: LIQUID AURORA • Animation: MORPHING SVG AURORA WAVE FLOW', previewComponent: <AboutBrandValues10 /> },
+          { id: 'about-brand-values-11', title: 'PRISM LIGHT GLASS (ANIMATION: PRISM COLOR SPLITTING & BEAM TILT)', description: 'Design: PRISM LIGHT GLASS • Animation: PRISM COLOR SPLITTING & BEAM TILT', previewComponent: <AboutBrandValues11 /> },
+          { id: 'about-brand-values-12', title: 'FLOATING PARALLAX STACK (ANIMATION: MULTI-PLANE SCROLL ELEVATION)', description: 'Design: FLOATING PARALLAX STACK • Animation: MULTI-PLANE SCROLL ELEVATION', previewComponent: <AboutBrandValues12 /> },
+          { id: 'about-brand-values-13', title: 'SKEUOMORPHIC BEVEL (ANIMATION: GLOSSY BEVEL SHINE & VALUE SEAL)', description: 'Design: SKEUOMORPHIC BEVEL • Animation: GLOSSY BEVEL SHINE & VALUE SEAL', previewComponent: <AboutBrandValues13 /> },
+          { id: 'about-brand-values-14', title: 'MONOCHROME HAIRLINE (ANIMATION: ARCHITECTURAL LINEAR GRID SCALE)', description: 'Design: MONOCHROME HAIRLINE • Animation: ARCHITECTURAL LINEAR GRID SCALE', previewComponent: <AboutBrandValues14 /> },
+          { id: 'about-brand-values-15', title: 'BENTO BOX GLASS (ANIMATION: STAGGERED MODULAR TILE FADE-UP)', description: 'Design: BENTO BOX GLASS • Animation: STAGGERED MODULAR TILE FADE-UP', previewComponent: <AboutBrandValues15 /> },
+          { id: 'about-brand-values-16', title: 'FROSTED BIO-GLASS (ANIMATION: ORGANIC LEAF PARTICLE FLOATING)', description: 'Design: FROSTED BIO-GLASS • Animation: ORGANIC LEAF PARTICLE FLOATING', previewComponent: <AboutBrandValues16 /> },
+          { id: 'about-brand-values-17', title: 'COSMIC STARFIELD (ANIMATION: TWINKLING NEBULA STAR PARTICLES)', description: 'Design: COSMIC STARFIELD • Animation: TWINKLING NEBULA STAR PARTICLES', previewComponent: <AboutBrandValues17 /> },
+          { id: 'about-brand-values-18', title: 'VALUES DRAWER MODAL (ANIMATION: SLIDE-OUT VALUE MANIFESTO DRAWER)', description: 'Design: VALUES DRAWER MODAL • Animation: SLIDE-OUT VALUE MANIFESTO DRAWER', previewComponent: <AboutBrandValues18 /> },
+          { id: 'about-brand-values-19', title: 'SYNTHWAVE NEON GRID (ANIMATION: PERSPECTIVE GRID SCROLL & SCANLINE)', description: 'Design: SYNTHWAVE NEON GRID • Animation: PERSPECTIVE GRID SCROLL & SCANLINE', previewComponent: <AboutBrandValues19 /> },
+          { id: 'about-brand-values-20', title: 'ULTRA LUXURY DIAMOND (ANIMATION: FACETED DIAMOND SPARKLE FLARE)', description: 'Design: ULTRA LUXURY DIAMOND • Animation: FACETED DIAMOND SPARKLE FLARE', previewComponent: <AboutBrandValues20 /> },
+        ];
+      default:
+        break;
+    }
+
     return category === 'free-shipping-progress' ? [
       { id: 'free-shipping-progress-1', title: "Editorial Typography Statement", description: "No card container box. Oversized typography hero statement placing focus on the exact remaining amount with a minimal underline progress line.", previewComponent: <FreeShippingProgress1 data={freeShippingProgress1Data} /> },
       { id: 'free-shipping-progress-2', title: "Radial Donut Threshold Gauge", description: "Large circular donut progress gauge centered visually with percentage readout inside and remaining details below.", previewComponent: <FreeShippingProgress2 data={freeShippingProgress2Data} /> },
@@ -10161,15 +11398,910 @@ export function SectionLibraryGrid({ category }: GridProps) {
       { id: 'blog-newsletter-18', title: 'PRISMATIC REFRACTION GLASS BOX (ANIMATION: CHROMATIC REFRACTION SHIFT & RAINBOW REFLECTION)', description: 'Design: PRISMATIC REFRACTION GLASS BOX • Animation: CHROMATIC REFRACTION SHIFT & RAINBOW REFLECTION', previewComponent: <BlogNewsletter18 data={blogNewsletter18Data} /> },
       { id: 'blog-newsletter-19', title: 'EMBOSSED VINTAGE RETRO BOX (ANIMATION: DEBOSSED PRESS FEEDBACK & VINTAGE BUTTON POP)', description: 'Design: EMBOSSED VINTAGE RETRO BOX • Animation: DEBOSSED PRESS FEEDBACK & VINTAGE BUTTON POP', previewComponent: <BlogNewsletter19 data={blogNewsletter19Data} /> },
       { id: 'blog-newsletter-20', title: 'ULTRA STREAM FULL-BLEED SUB (ANIMATION: IMMERSIVE ENTRANCE SPRING & FULL BORDER PULSE)', description: 'Design: ULTRA STREAM FULL-BLEED SUB • Animation: IMMERSIVE ENTRANCE SPRING & FULL BORDER PULSE', previewComponent: <BlogNewsletter20 data={blogNewsletter20Data} /> },
-    ] : category === 'about-hero' ? [
-      { id: 'about-hero-1', title: 'ETAIL 3D GLASSMORPHIC INTERACTIVE HERO (ANIMATION: 3D KINETIC MESH & ORBITAL GLOW)', description: 'Design: ETAIL 3D GLASSMORPHIC INTERACTIVE HERO • Animation: 3D KINETIC MESH & ORBITAL GLOW', previewComponent: <AboutHero1 data={aboutHero1Data} /> },
-      ...Array.from({ length: 19 }, (_, i) => ({
-        id: `about-hero-${i + 2}`,
-        title: `ABOUT HERO — VARIANT ${(i + 2).toString().padStart(2, '0')}`,
-        description: `Placeholder layout for ABOUT HERO variant ${i + 2}`,
-        previewComponent: <BlogPlaceholder categoryName="ABOUT HERO" variantNumber={i + 2} />
-      }))
-    ] : category.startsWith('about-') ? Array.from({ length: 20 }, (_, i) => {
+    ] : category === 'about-brand-story' ? [
+      { id: 'about-brand-story-1', title: 'GLASS EDITORIAL BRAND STORY (ANIMATION: BACKDROP BLUR GLOW & FOUNDER QUOTE REVEAL)', description: 'Design: GLASS EDITORIAL BRAND STORY • Animation: BACKDROP BLUR GLOW & FOUNDER QUOTE REVEAL', previewComponent: <AboutBrandStory1 /> },
+      { id: 'about-brand-story-2', title: 'TACTILE NEUMORPHIC ORIGIN (ANIMATION: DUAL SOFT DACTILE SHADOWS & PRESSED BUTTONS)', description: 'Design: TACTILE NEUMORPHIC ORIGIN • Animation: DUAL SOFT DACTILE SHADOWS & PRESSED BUTTONS', previewComponent: <AboutBrandStory2 /> },
+      { id: 'about-brand-story-3', title: 'HOLOGRAPHIC CYBER NARRATIVE (ANIMATION: NEON SCANNING LINE LOOP & HUD TELEMETRY)', description: 'Design: HOLOGRAPHIC CYBER NARRATIVE • Animation: NEON SCANNING LINE LOOP & HUD TELEMETRY', previewComponent: <AboutBrandStory3 /> },
+      { id: 'about-brand-story-4', title: 'SPATIAL DEPTH MULTI-LAYER (ANIMATION: MULTI-LAYERED STACKED DEPTH WITH PARALLAX ELEVATION)', description: 'Design: SPATIAL DEPTH MULTI-LAYER • Animation: MULTI-LAYERED STACKED DEPTH WITH PARALLAX ELEVATION', previewComponent: <AboutBrandStory4 /> },
+      { id: 'about-brand-story-5', title: 'CLAYMORPHIC 3D HERITAGE (ANIMATION: ROUNDED 3D CLAY VOLUME & INNER AMBIENT LIGHT POP)', description: 'Design: CLAYMORPHIC 3D HERITAGE • Animation: ROUNDED 3D CLAY VOLUME & INNER AMBIENT LIGHT POP', previewComponent: <AboutBrandStory5 /> },
+      { id: 'about-brand-story-6', title: 'FROSTED BENTO MILESTONE STORY (ANIMATION: MULTI-TILE FROSTED GLASS & INTERACTIVE HIGHLIGHT)', description: 'Design: FROSTED BENTO MILESTONE STORY • Animation: MULTI-TILE FROSTED GLASS & INTERACTIVE HIGHLIGHT', previewComponent: <AboutBrandStory6 /> },
+      { id: 'about-brand-story-7', title: 'CHROME LIQUID METAL IDENTITY (ANIMATION: HIGH-CONTRAST CHROME SHEEN & LIQUID METAL EDGE)', description: 'Design: CHROME LIQUID METAL IDENTITY • Animation: HIGH-CONTRAST CHROME SHEEN & LIQUID METAL EDGE', previewComponent: <AboutBrandStory7 /> },
+      { id: 'about-brand-story-8', title: 'AURORA FLUID MESH HERITAGE (ANIMATION: FLOATING FLUID MESH BLOB DRIFT & GLASS LIFT)', description: 'Design: AURORA FLUID MESH HERITAGE • Animation: FLOATING FLUID MESH BLOB DRIFT & GLASS LIFT', previewComponent: <AboutBrandStory8 /> },
+      { id: 'about-brand-story-9', title: 'SPLIT TIMELINE CAROUSEL FOCUS (ANIMATION: PROGRESS TIMELINE & SMOOTH SLIDE CROSS-FADE)', description: 'Design: SPLIT TIMELINE CAROUSEL FOCUS • Animation: PROGRESS TIMELINE & SMOOTH SLIDE CROSS-FADE', previewComponent: <AboutBrandStory9 /> },
+      { id: 'about-brand-story-10', title: 'DARK VELVET LUXURY MANIFESTO (ANIMATION: DEEP DARK VELVET MODE & VIOLET AURA PULSE)', description: 'Design: DARK VELVET LUXURY MANIFESTO • Animation: DEEP DARK VELVET MODE & VIOLET AURA PULSE', previewComponent: <AboutBrandStory10 /> },
+      { id: 'about-brand-story-11', title: 'SKEUOMORPHIC FOUNDER JOURNAL (ANIMATION: FOLDED PAPER TACTILE EDGE & VINTAGE INK ACCENT)', description: 'Design: SKEUOMORPHIC FOUNDER JOURNAL • Animation: FOLDED PAPER TACTILE EDGE & VINTAGE INK ACCENT', previewComponent: <AboutBrandStory11 /> },
+      { id: 'about-brand-story-12', title: 'SCI-FI HUD BRAND BLUEPRINT (ANIMATION: HUD CORNER BRACKETS & TELEMETRY READOUT)', description: 'Design: SCI-FI HUD BRAND BLUEPRINT • Animation: HUD CORNER BRACKETS & TELEMETRY READOUT', previewComponent: <AboutBrandStory12 /> },
+      { id: 'about-brand-story-13', title: 'BENTO LAYERED GLASS MANIFESTO (ANIMATION: PRIMARY HERO GLASS & SECONDARY MINI TILE STACK)', description: 'Design: BENTO LAYERED GLASS MANIFESTO • Animation: PRIMARY HERO GLASS & SECONDARY MINI TILE STACK', previewComponent: <AboutBrandStory13 /> },
+      { id: 'about-brand-story-14', title: 'LIQUID GLASS FLOATING CAPSULE (ANIMATION: CURVED LIQUID CAPSULE DRIFT & PARTICLE AURA)', description: 'Design: LIQUID GLASS FLOATING CAPSULE • Animation: CURVED LIQUID CAPSULE DRIFT & PARTICLE AURA', previewComponent: <AboutBrandStory14 /> },
+      { id: 'about-brand-story-15', title: 'NEON EDGE GLOW BRAND SPOTLIGHT (ANIMATION: 360-DEGREE ROTATING NEON RAINBOW BORDER)', description: 'Design: NEON EDGE GLOW BRAND SPOTLIGHT • Animation: 360-DEGREE ROTATING NEON RAINBOW BORDER', previewComponent: <AboutBrandStory15 /> },
+      { id: 'about-brand-story-16', title: 'ARCHITECTURAL WIREFRAME GRID (ANIMATION: MINIMALIST LINEAR GRIDLINES & TYPOGRAPHY FOCUS)', description: 'Design: ARCHITECTURAL WIREFRAME GRID • Animation: MINIMALIST LINEAR GRIDLINES & TYPOGRAPHY FOCUS', previewComponent: <AboutBrandStory16 /> },
+      { id: 'about-brand-story-17', title: 'FULL POSTER BRAND FILM OVERLAY (ANIMATION: FULL-HEIGHT IMAGE POSTER & FLOATING TEXT CURTAIN)', description: 'Design: FULL POSTER BRAND FILM OVERLAY • Animation: FULL-HEIGHT IMAGE POSTER & FLOATING TEXT CURTAIN', previewComponent: <AboutBrandStory17 /> },
+      { id: 'about-brand-story-18', title: 'PRISMATIC CHROMATIC REFRACTION (ANIMATION: CHROMATIC REFRACTION BLUR & RAINBOW REFLECTION)', description: 'Design: PRISMATIC CHROMATIC REFRACTION • Animation: CHROMATIC REFRACTION BLUR & RAINBOW REFLECTION', previewComponent: <AboutBrandStory18 /> },
+      { id: 'about-brand-story-19', title: 'EMBOSSED VINTAGE RETRO STAMP (ANIMATION: DEBOSSED BADGE PRESS & WARM FILM GRAIN TEXTURE)', description: 'Design: EMBOSSED VINTAGE RETRO STAMP • Animation: DEBOSSED BADGE PRESS & WARM FILM GRAIN TEXTURE', previewComponent: <AboutBrandStory19 /> },
+      { id: 'about-brand-story-20', title: 'ULTRA FLAGSHIP FULL-BLEED MANIFESTO (ANIMATION: FULL VIEWPORT OVERLAY & READING PROGRESS GAUGE)', description: 'Design: ULTRA FLAGSHIP FULL-BLEED MANIFESTO • Animation: FULL VIEWPORT OVERLAY & READING PROGRESS GAUGE', previewComponent: <AboutBrandStory20 /> },
+    ] : category === 'about-mission-vision' ? [
+      { id: 'about-mission-vision-1', title: 'GLASS SPLIT DUAL-CARD FOCUS (ANIMATION: BACKDROP BLUR GLOW & DUAL CARDS FADE-UP)', description: 'Design: GLASS SPLIT DUAL-CARD FOCUS • Animation: BACKDROP BLUR GLOW & DUAL CARDS FADE-UP', previewComponent: <AboutMissionVision1 /> },
+      { id: 'about-mission-vision-2', title: 'TACTILE NEUMORPHIC DUAL PILLAR (ANIMATION: DUAL SOFT DACTILE SHADOWS & PRESSED ACTIVE BUTTONS)', description: 'Design: TACTILE NEUMORPHIC DUAL PILLAR • Animation: DUAL SOFT DACTILE SHADOWS & PRESSED ACTIVE BUTTONS', previewComponent: <AboutMissionVision2 /> },
+      { id: 'about-mission-vision-3', title: 'HOLOGRAPHIC CYBER RADAR TARGET (ANIMATION: NEON CYAN PULSE & MONOSPACE TELEMETRY READOUT)', description: 'Design: HOLOGRAPHIC CYBER RADAR TARGET • Animation: NEON CYAN PULSE & MONOSPACE TELEMETRY READOUT', previewComponent: <AboutMissionVision3 /> },
+      { id: 'about-mission-vision-4', title: 'SPATIAL DEPTH MULTI-LAYER STACK (ANIMATION: MULTI-LAYERED STACKED DEPTH WITH PARALLAX ELEVATION)', description: 'Design: SPATIAL DEPTH MULTI-LAYER STACK • Animation: MULTI-LAYERED STACKED DEPTH WITH PARALLAX ELEVATION', previewComponent: <AboutMissionVision4 /> },
+      { id: 'about-mission-vision-5', title: 'CLAYMORPHIC 3D DUAL BUBBLE (ANIMATION: ROUNDED 3D CLAY VOLUME & INNER AMBIENT LIGHT POP)', description: 'Design: CLAYMORPHIC 3D DUAL BUBBLE • Animation: ROUNDED 3D CLAY VOLUME & INNER AMBIENT LIGHT POP', previewComponent: <AboutMissionVision5 /> },
+      { id: 'about-mission-vision-6', title: 'FROSTED BENTO QUADRANT GRID (ANIMATION: MULTI-TILE FROSTED GLASS & INTERACTIVE HIGHLIGHT)', description: 'Design: FROSTED BENTO QUADRANT GRID • Animation: MULTI-TILE FROSTED GLASS & INTERACTIVE HIGHLIGHT', previewComponent: <AboutMissionVision6 /> },
+      { id: 'about-mission-vision-7', title: 'CHROME LIQUID METALLIC SPLIT (ANIMATION: HIGH-CONTRAST CHROME SHEEN & LIQUID METAL EDGE)', description: 'Design: CHROME LIQUID METALLIC SPLIT • Animation: HIGH-CONTRAST CHROME SHEEN & LIQUID METAL EDGE', previewComponent: <AboutMissionVision7 /> },
+      { id: 'about-mission-vision-8', title: 'AURORA FLUID MESH DUAL ORBS (ANIMATION: FLOATING FLUID MESH BLOB DRIFT & GLASS LIFT)', description: 'Design: AURORA FLUID MESH DUAL ORBS • Animation: FLOATING FLUID MESH BLOB DRIFT & GLASS LIFT', previewComponent: <AboutMissionVision8 /> },
+      { id: 'about-mission-vision-9', title: 'SPLIT TIMELINE MISSION SWITCHER (ANIMATION: PROGRESS TIMELINE & SMOOTH SLIDE CROSS-FADE)', description: 'Design: SPLIT TIMELINE MISSION SWITCHER • Animation: PROGRESS TIMELINE & SMOOTH SLIDE CROSS-FADE', previewComponent: <AboutMissionVision9 /> },
+      { id: 'about-mission-vision-10', title: 'DARK VELVET RADAR MANIFESTO (ANIMATION: DEEP DARK VELVET MODE & VIOLET AURA PULSE)', description: 'Design: DARK VELVET RADAR MANIFESTO • Animation: DEEP DARK VELVET MODE & VIOLET AURA PULSE', previewComponent: <AboutMissionVision10 /> },
+      { id: 'about-mission-vision-11', title: 'SKEUOMORPHIC FOUNDER COMPASS (ANIMATION: FOLDED PAPER TACTILE EDGE & VINTAGE INK ACCENT)', description: 'Design: SKEUOMORPHIC FOUNDER COMPASS • Animation: FOLDED PAPER TACTILE EDGE & VINTAGE INK ACCENT', previewComponent: <AboutMissionVision11 /> },
+      { id: 'about-mission-vision-12', title: 'SCI-FI HUD TARGET TELEMETRY (ANIMATION: HUD CORNER BRACKETS & TELEMETRY READOUT)', description: 'Design: SCI-FI HUD TARGET TELEMETRY • Animation: HUD CORNER BRACKETS & TELEMETRY READOUT', previewComponent: <AboutMissionVision12 /> },
+      { id: 'about-mission-vision-13', title: 'BENTO LAYERED GLASS QUADRANTS (ANIMATION: PRIMARY HERO GLASS & SECONDARY MINI TILE STACK)', description: 'Design: BENTO LAYERED GLASS QUADRANTS • Animation: PRIMARY HERO GLASS & SECONDARY MINI TILE STACK', previewComponent: <AboutMissionVision13 /> },
+      { id: 'about-mission-vision-14', title: 'LIQUID GLASS FLOATING TWIN CAPSULES (ANIMATION: CURVED LIQUID CAPSULE DRIFT & PARTICLE AURA)', description: 'Design: LIQUID GLASS FLOATING TWIN CAPSULES • Animation: CURVED LIQUID CAPSULE DRIFT & PARTICLE AURA', previewComponent: <AboutMissionVision14 /> },
+      { id: 'about-mission-vision-15', title: 'NEON EDGE GLOW DUAL SPOTLIGHT (ANIMATION: 360-DEGREE ROTATING NEON RAINBOW BORDER)', description: 'Design: NEON EDGE GLOW DUAL SPOTLIGHT • Animation: 360-DEGREE ROTATING NEON RAINBOW BORDER', previewComponent: <AboutMissionVision15 /> },
+      { id: 'about-mission-vision-16', title: 'ARCHITECTURAL HAIRLINE GRID FOCUS (ANIMATION: MINIMALIST LINEAR GRIDLINES & TYPOGRAPHY FOCUS)', description: 'Design: ARCHITECTURAL HAIRLINE GRID FOCUS • Animation: MINIMALIST LINEAR GRIDLINES & TYPOGRAPHY FOCUS', previewComponent: <AboutMissionVision16 /> },
+      { id: 'about-mission-vision-17', title: 'FULL POSTER CINEMA VISION OVERLAY (ANIMATION: FULL-HEIGHT IMAGE POSTER & FLOATING TEXT CURTAIN)', description: 'Design: FULL POSTER CINEMA VISION OVERLAY • Animation: FULL-HEIGHT IMAGE POSTER & FLOATING TEXT CURTAIN', previewComponent: <AboutMissionVision17 /> },
+      { id: 'about-mission-vision-18', title: 'PRISMATIC CHROMATIC REFRACTION DUAL (ANIMATION: CHROMATIC REFRACTION BLUR & RAINBOW REFLECTION)', description: 'Design: PRISMATIC CHROMATIC REFRACTION DUAL • Animation: CHROMATIC REFRACTION BLUR & RAINBOW REFLECTION', previewComponent: <AboutMissionVision18 /> },
+      { id: 'about-mission-vision-19', title: 'EMBOSSED VINTAGE RETRO STAMP PAIR (ANIMATION: DEBOSSED BADGE PRESS & WARM FILM GRAIN TEXTURE)', description: 'Design: EMBOSSED VINTAGE RETRO STAMP PAIR • Animation: DEBOSSED BADGE PRESS & WARM FILM GRAIN TEXTURE', previewComponent: <AboutMissionVision19 /> },
+      { id: 'about-mission-vision-20', title: 'ULTRA FLAGSHIP FULL-BLEED VISION (ANIMATION: FULL VIEWPORT OVERLAY & READING PROGRESS GAUGE)', description: 'Design: ULTRA FLAGSHIP FULL-BLEED VISION • Animation: FULL VIEWPORT OVERLAY & READING PROGRESS GAUGE', previewComponent: <AboutMissionVision20 /> },
+    ] : category === 'about-company-statistics' ? [
+      { id: 'about-company-statistics-1', title: 'GLASS METRIC COUNTER SPOTLIGHT (ANIMATION: BACKDROP BLUR GLOW & METRIC NUMBER COUNTER)', description: 'Design: GLASS METRIC COUNTER SPOTLIGHT • Animation: BACKDROP BLUR GLOW & METRIC NUMBER COUNTER', previewComponent: <AboutCompanyStatistics1 /> },
+      { id: 'about-company-statistics-2', title: 'TACTILE NEUMORPHIC STAT PILLARS (ANIMATION: DUAL SOFT DACTILE SHADOWS & PRESSED ACTIVE COUNTERS)', description: 'Design: TACTILE NEUMORPHIC STAT PILLARS • Animation: DUAL SOFT DACTILE SHADOWS & PRESSED ACTIVE COUNTERS', previewComponent: <AboutCompanyStatistics2 /> },
+      { id: 'about-company-statistics-3', title: 'HOLOGRAPHIC CYBER TELEMETRY MATRIX (ANIMATION: NEON CYAN PULSE & MONOSPACE METRIC READOUT)', description: 'Design: HOLOGRAPHIC CYBER TELEMETRY MATRIX • Animation: NEON CYAN PULSE & MONOSPACE METRIC READOUT', previewComponent: <AboutCompanyStatistics3 /> },
+      { id: 'about-company-statistics-4', title: 'SPATIAL DEPTH STACKED METRICS (ANIMATION: MULTI-LAYERED STACKED DEPTH WITH PARALLAX ELEVATION)', description: 'Design: SPATIAL DEPTH STACKED METRICS • Animation: MULTI-LAYERED STACKED DEPTH WITH PARALLAX ELEVATION', previewComponent: <AboutCompanyStatistics4 /> },
+      { id: 'about-company-statistics-5', title: 'CLAYMORPHIC 3D STAT BUBBLES (ANIMATION: ROUNDED 3D CLAY VOLUME & INNER AMBIENT LIGHT POP)', description: 'Design: CLAYMORPHIC 3D STAT BUBBLES • Animation: ROUNDED 3D CLAY VOLUME & INNER AMBIENT LIGHT POP', previewComponent: <AboutCompanyStatistics5 /> },
+      { id: 'about-company-statistics-6', title: 'FROSTED BENTO STATS DASHBOARD (ANIMATION: MULTI-TILE FROSTED GLASS & INTERACTIVE HIGHLIGHT)', description: 'Design: FROSTED BENTO STATS DASHBOARD • Animation: MULTI-TILE FROSTED GLASS & INTERACTIVE HIGHLIGHT', previewComponent: <AboutCompanyStatistics6 /> },
+      { id: 'about-company-statistics-7', title: 'CHROME LIQUID METALLIC STAT WAVE (ANIMATION: HIGH-CONTRAST CHROME SHEEN & LIQUID METAL EDGE)', description: 'Design: CHROME LIQUID METALLIC STAT WAVE • Animation: HIGH-CONTRAST CHROME SHEEN & LIQUID METAL EDGE', previewComponent: <AboutCompanyStatistics7 /> },
+      { id: 'about-company-statistics-8', title: 'AURORA FLUID MESH STAT CARDS (ANIMATION: FLOATING FLUID MESH BLOB DRIFT & GLASS LIFT)', description: 'Design: AURORA FLUID MESH STAT CARDS • Animation: FLOATING FLUID MESH BLOB DRIFT & GLASS LIFT', previewComponent: <AboutCompanyStatistics8 /> },
+      { id: 'about-company-statistics-9', title: 'SPLIT TIMELINE METRICS COMPARISON (ANIMATION: PROGRESS TIMELINE & SMOOTH SLIDE CROSS-FADE)', description: 'Design: SPLIT TIMELINE METRICS COMPARISON • Animation: PROGRESS TIMELINE & SMOOTH SLIDE CROSS-FADE', previewComponent: <AboutCompanyStatistics9 /> },
+      { id: 'about-company-statistics-10', title: 'DARK VELVET LUXURY STAT RADAR (ANIMATION: DEEP DARK VELVET MODE & VIOLET AURA PULSE)', description: 'Design: DARK VELVET LUXURY STAT RADAR • Animation: DEEP DARK VELVET MODE & VIOLET AURA PULSE', previewComponent: <AboutCompanyStatistics10 /> },
+      { id: 'about-company-statistics-11', title: 'SKEUOMORPHIC FOUNDER STAMP STATS (ANIMATION: FOLDED PAPER TACTILE EDGE & VINTAGE INK ACCENT)', description: 'Design: SKEUOMORPHIC FOUNDER STAMP STATS • Animation: FOLDED PAPER TACTILE EDGE & VINTAGE INK ACCENT', previewComponent: <AboutCompanyStatistics11 /> },
+      { id: 'about-company-statistics-12', title: 'SCI-FI HUD METRIC READOUT (ANIMATION: HUD CORNER BRACKETS & TELEMETRY READOUT)', description: 'Design: SCI-FI HUD METRIC READOUT • Animation: HUD CORNER BRACKETS & TELEMETRY READOUT', previewComponent: <AboutCompanyStatistics12 /> },
+      { id: 'about-company-statistics-13', title: 'BENTO LAYERED GLASS STAT TILES (ANIMATION: PRIMARY HERO GLASS & SECONDARY MINI TILE STACK)', description: 'Design: BENTO LAYERED GLASS STAT TILES • Animation: PRIMARY HERO GLASS & SECONDARY MINI TILE STACK', previewComponent: <AboutCompanyStatistics13 /> },
+      { id: 'about-company-statistics-14', title: 'LIQUID GLASS FLOATING STAT CAPSULES (ANIMATION: CURVED LIQUID CAPSULE DRIFT & PARTICLE AURA)', description: 'Design: LIQUID GLASS FLOATING STAT CAPSULES • Animation: CURVED LIQUID CAPSULE DRIFT & PARTICLE AURA', previewComponent: <AboutCompanyStatistics14 /> },
+      { id: 'about-company-statistics-15', title: 'NEON EDGE GLOW METRIC SPOTLIGHT (ANIMATION: 360-DEGREE ROTATING NEON RAINBOW BORDER)', description: 'Design: NEON EDGE GLOW METRIC SPOTLIGHT • Animation: 360-DEGREE ROTATING NEON RAINBOW BORDER', previewComponent: <AboutCompanyStatistics15 /> },
+      { id: 'about-company-statistics-16', title: 'ARCHITECTURAL HAIRLINE GRID STATS (ANIMATION: MINIMALIST LINEAR GRIDLINES & TYPOGRAPHY FOCUS)', description: 'Design: ARCHITECTURAL HAIRLINE GRID STATS • Animation: MINIMALIST LINEAR GRIDLINES & TYPOGRAPHY FOCUS', previewComponent: <AboutCompanyStatistics16 /> },
+      { id: 'about-company-statistics-17', title: 'FULL POSTER CINEMA STAT OVERLAY (ANIMATION: FULL-HEIGHT IMAGE POSTER & FLOATING TEXT CURTAIN)', description: 'Design: FULL POSTER CINEMA STAT OVERLAY • Animation: FULL-HEIGHT IMAGE POSTER & FLOATING TEXT CURTAIN', previewComponent: <AboutCompanyStatistics17 /> },
+      { id: 'about-company-statistics-18', title: 'PRISMATIC CHROMATIC REFRACTION STATS (ANIMATION: CHROMATIC REFRACTION BLUR & RAINBOW REFLECTION)', description: 'Design: PRISMATIC CHROMATIC REFRACTION STATS • Animation: CHROMATIC REFRACTION BLUR & RAINBOW REFLECTION', previewComponent: <AboutCompanyStatistics18 /> },
+      { id: 'about-company-statistics-19', title: 'EMBOSSED VINTAGE RETRO STAT PAIR (ANIMATION: DEBOSSED BADGE PRESS & WARM FILM GRAIN TEXTURE)', description: 'Design: EMBOSSED VINTAGE RETRO STAT PAIR • Animation: DEBOSSED BADGE PRESS & WARM FILM GRAIN TEXTURE', previewComponent: <AboutCompanyStatistics19 /> },
+      { id: 'about-company-statistics-20', title: 'ULTRA FLAGSHIP FULL-BLEED STATISTICS (ANIMATION: FULL VIEWPORT OVERLAY & READING PROGRESS GAUGE)', description: 'Design: ULTRA FLAGSHIP FULL-BLEED STATISTICS • Animation: FULL VIEWPORT OVERLAY & READING PROGRESS GAUGE', previewComponent: <AboutCompanyStatistics20 /> },
+            ] : category === 'about-cta-banner' ? [
+      { id: 'about-cta-banner-1', title: 'FROSTED GLASSMORPHISM CTA (ANIMATION: FLOATING AMBIENT ORBS & GLOW)', description: 'Design: FROSTED GLASSMORPHISM • Animation: FLOATING AMBIENT ORBS & GLOW', previewComponent: <AboutCtaBanner1 /> },
+      { id: 'about-cta-banner-2', title: 'DARK OBSIDIAN GLASS CTA (ANIMATION: NEON LASER SWEEP & PULSE)', description: 'Design: DARK OBSIDIAN GLASS • Animation: NEON LASER SWEEP & PULSE', previewComponent: <AboutCtaBanner2 /> },
+      { id: 'about-cta-banner-3', title: 'SOFT NEUMORPHISM CTA (ANIMATION: DUAL-SHADOW DEPTH & TACTILE PRESS)', description: 'Design: SOFT NEUMORPHISM • Animation: DUAL-SHADOW DEPTH & TACTILE PRESS', previewComponent: <AboutCtaBanner3 /> },
+      { id: 'about-cta-banner-4', title: 'HOLO CHROMA FOIL CTA (ANIMATION: CHROMATIC RAINBOW BORDER ROTATION)', description: 'Design: HOLO CHROMA FOIL • Animation: CHROMATIC RAINBOW BORDER ROTATION', previewComponent: <AboutCtaBanner4 /> },
+      { id: 'about-cta-banner-5', title: '3D CLAYMORPHISM CTA (ANIMATION: SOFT SQUISHY REACTION & 3D TILT)', description: 'Design: 3D CLAYMORPHISM • Animation: SOFT SQUISHY REACTION & 3D TILT', previewComponent: <AboutCtaBanner5 /> },
+      { id: 'about-cta-banner-6', title: 'NEO-BRUTALISM CTA (ANIMATION: HARD STARK OFFSET SHADOW POP)', description: 'Design: NEO-BRUTALISM • Animation: HARD STARK OFFSET SHADOW POP', previewComponent: <AboutCtaBanner6 /> },
+      { id: 'about-cta-banner-7', title: 'METALLIC CHROMIUM CTA (ANIMATION: LIQUID METAL SHEEN & SHINE)', description: 'Design: METALLIC CHROMIUM • Animation: LIQUID METAL SHEEN & SHINE', previewComponent: <AboutCtaBanner7 /> },
+      { id: 'about-cta-banner-8', title: 'CYBERPUNK HUD GLASS CTA (ANIMATION: SCANLINE RADAR SWEEP & LATENCY PULSE)', description: 'Design: CYBERPUNK HUD GLASS • Animation: SCANLINE RADAR SWEEP & LATENCY PULSE', previewComponent: <AboutCtaBanner8 /> },
+      { id: 'about-cta-banner-9', title: 'VELVET MATTE GLASS CTA (ANIMATION: SATIN DIFFUSE AURA FADE-IN)', description: 'Design: VELVET MATTE GLASS • Animation: SATIN DIFFUSE AURA FADE-IN', previewComponent: <AboutCtaBanner9 /> },
+      { id: 'about-cta-banner-10', title: 'LIQUID AURORA MORPHISM CTA (ANIMATION: MORPHING SVG AURORA WAVE FLOW)', description: 'Design: LIQUID AURORA MORPHISM • Animation: MORPHING SVG AURORA WAVE FLOW', previewComponent: <AboutCtaBanner10 /> },
+      { id: 'about-cta-banner-11', title: 'PRISM LIGHT GLASS CTA (ANIMATION: PRISM COLOR SPLITTING & BEAM TILT)', description: 'Design: PRISM LIGHT GLASS • Animation: PRISM COLOR SPLITTING & BEAM TILT', previewComponent: <AboutCtaBanner11 /> },
+      { id: 'about-cta-banner-12', title: 'FLOATING PARALLAX STACK CTA (ANIMATION: MULTI-PLANE SCROLL ELEVATION)', description: 'Design: FLOATING PARALLAX STACK • Animation: MULTI-PLANE SCROLL ELEVATION', previewComponent: <AboutCtaBanner12 /> },
+      { id: 'about-cta-banner-13', title: 'SKEUOMORPHIC BEVEL CTA (ANIMATION: GLOSSY BEVEL SHINE & SEAL PRESS)', description: 'Design: SKEUOMORPHIC BEVEL • Animation: GLOSSY BEVEL SHINE & SEAL PRESS', previewComponent: <AboutCtaBanner13 /> },
+      { id: 'about-cta-banner-14', title: 'MONOCHROME HAIRLINE CTA (ANIMATION: ARCHITECTURAL LINEAR GRID SCALE)', description: 'Design: MONOCHROME HAIRLINE • Animation: ARCHITECTURAL LINEAR GRID SCALE', previewComponent: <AboutCtaBanner14 /> },
+      { id: 'about-cta-banner-15', title: 'BENTO BOX GLASS CTA (ANIMATION: STAGGERED MODULAR TILE FADE-UP)', description: 'Design: BENTO BOX GLASS • Animation: STAGGERED MODULAR TILE FADE-UP', previewComponent: <AboutCtaBanner15 /> },
+      { id: 'about-cta-banner-16', title: 'FROSTED BIO-GLASS CTA (ANIMATION: ORGANIC LEAF PARTICLE FLOATING)', description: 'Design: FROSTED BIO-GLASS • Animation: ORGANIC LEAF PARTICLE FLOATING', previewComponent: <AboutCtaBanner16 /> },
+      { id: 'about-cta-banner-17', title: 'COSMIC STARFIELD CTA (ANIMATION: TWINKLING NEBULA STAR PARTICLES)', description: 'Design: COSMIC STARFIELD • Animation: TWINKLING NEBULA STAR PARTICLES', previewComponent: <AboutCtaBanner17 /> },
+      { id: 'about-cta-banner-18', title: 'DRAWER MODAL CTA (ANIMATION: SLIDE-OUT CONSULTATION DRAWER REVEAL)', description: 'Design: DRAWER MODAL • Animation: SLIDE-OUT CONSULTATION DRAWER REVEAL', previewComponent: <AboutCtaBanner18 /> },
+      { id: 'about-cta-banner-19', title: 'SYNTHWAVE NEON GRID CTA (ANIMATION: PERSPECTIVE GRID SCROLL & SCANLINE)', description: 'Design: SYNTHWAVE NEON GRID • Animation: PERSPECTIVE GRID SCROLL & SCANLINE', previewComponent: <AboutCtaBanner19 /> },
+      { id: 'about-cta-banner-20', title: 'ULTRA LUXURY DIAMOND CTA (ANIMATION: FACETED DIAMOND SPARKLE FLARE)', description: 'Design: ULTRA LUXURY DIAMOND • Animation: FACETED DIAMOND SPARKLE FLARE', previewComponent: <AboutCtaBanner20 /> },
+    ] : category === 'about-partners-brands' ? [
+      { id: 'about-partners-brands-1', title: 'FROSTED GLASSMORPHISM PARTNERS (ANIMATION: INFINITE MARQUEE TICKER & AMBIENT ORBS)', description: 'Design: FROSTED GLASSMORPHISM • Animation: INFINITE MARQUEE TICKER & AMBIENT ORBS', previewComponent: <AboutPartnersBrands1 /> },
+      { id: 'about-partners-brands-2', title: 'DARK OBSIDIAN GLASS PARTNERS (ANIMATION: NEON CYAN OUTLINE PULSE & LASER SWEEP)', description: 'Design: DARK OBSIDIAN GLASS • Animation: NEON CYAN OUTLINE PULSE & LASER SWEEP', previewComponent: <AboutPartnersBrands2 /> },
+      { id: 'about-partners-brands-3', title: 'SOFT NEUMORPHISM PARTNERS (ANIMATION: DUAL-SHADOW DEPTH & TACTILE PRESS)', description: 'Design: SOFT NEUMORPHISM • Animation: DUAL-SHADOW DEPTH & TACTILE PRESS', previewComponent: <AboutPartnersBrands3 /> },
+      { id: 'about-partners-brands-4', title: 'HOLO CHROMA FOIL PARTNERS (ANIMATION: CHROMATIC RAINBOW SHIMMER ROTATION)', description: 'Design: HOLO CHROMA FOIL • Animation: CHROMATIC RAINBOW SHIMMER ROTATION', previewComponent: <AboutPartnersBrands4 /> },
+      { id: 'about-partners-brands-5', title: '3D CLAYMORPHISM PARTNERS (ANIMATION: SOFT 3D SQUISHY REACTION & MOUSE TILT)', description: 'Design: 3D CLAYMORPHISM • Animation: SOFT 3D SQUISHY REACTION & MOUSE TILT', previewComponent: <AboutPartnersBrands5 /> },
+      { id: 'about-partners-brands-6', title: 'NEO-BRUTALISM PARTNERS (ANIMATION: HARD STARK OFFSET SHADOW POP)', description: 'Design: NEO-BRUTALISM • Animation: HARD STARK OFFSET SHADOW POP', previewComponent: <AboutPartnersBrands6 /> },
+      { id: 'about-partners-brands-7', title: 'METALLIC CHROMIUM PARTNERS (ANIMATION: LIQUID METAL SHEEN & PLATINUM REFLECTION)', description: 'Design: METALLIC CHROMIUM • Animation: LIQUID METAL SHEEN & PLATINUM REFLECTION', previewComponent: <AboutPartnersBrands7 /> },
+      { id: 'about-partners-brands-8', title: 'CYBERPUNK HUD GLASS PARTNERS (ANIMATION: SCANLINE RADAR SWEEP & LATENCY PING)', description: 'Design: CYBERPUNK HUD GLASS • Animation: SCANLINE RADAR SWEEP & LATENCY PING', previewComponent: <AboutPartnersBrands8 /> },
+      { id: 'about-partners-brands-9', title: 'VELVET MATTE GLASS PARTNERS (ANIMATION: SATIN DIFFUSE AURA FADE-IN)', description: 'Design: VELVET MATTE GLASS • Animation: SATIN DIFFUSE AURA FADE-IN', previewComponent: <AboutPartnersBrands9 /> },
+      { id: 'about-partners-brands-10', title: 'LIQUID AURORA MORPHISM PARTNERS (ANIMATION: MORPHING SVG AURORA WAVE FLOW)', description: 'Design: LIQUID AURORA MORPHISM • Animation: MORPHING SVG AURORA WAVE FLOW', previewComponent: <AboutPartnersBrands10 /> },
+      { id: 'about-partners-brands-11', title: 'PRISM LIGHT GLASS PARTNERS (ANIMATION: PRISM COLOR SPLITTING & BEAM TILT)', description: 'Design: PRISM LIGHT GLASS • Animation: PRISM COLOR SPLITTING & BEAM TILT', previewComponent: <AboutPartnersBrands11 /> },
+      { id: 'about-partners-brands-12', title: 'FLOATING PARALLAX STACK PARTNERS (ANIMATION: MULTI-PLANE SCROLL ELEVATION)', description: 'Design: FLOATING PARALLAX STACK • Animation: MULTI-PLANE SCROLL ELEVATION', previewComponent: <AboutPartnersBrands12 /> },
+      { id: 'about-partners-brands-13', title: 'SKEUOMORPHIC BEVEL PARTNERS (ANIMATION: GLOSSY BEVEL SHINE & SEAL PRESS)', description: 'Design: SKEUOMORPHIC BEVEL • Animation: GLOSSY BEVEL SHINE & SEAL PRESS', previewComponent: <AboutPartnersBrands13 /> },
+      { id: 'about-partners-brands-14', title: 'MONOCHROME HAIRLINE PARTNERS (ANIMATION: ARCHITECTURAL LINEAR MATRIX SCALE)', description: 'Design: MONOCHROME HAIRLINE • Animation: ARCHITECTURAL LINEAR MATRIX SCALE', previewComponent: <AboutPartnersBrands14 /> },
+      { id: 'about-partners-brands-15', title: 'BENTO BOX GLASS PARTNERS (ANIMATION: STAGGERED MODULAR TILE FADE-UP)', description: 'Design: BENTO BOX GLASS • Animation: STAGGERED MODULAR TILE FADE-UP', previewComponent: <AboutPartnersBrands15 /> },
+      { id: 'about-partners-brands-16', title: 'FROSTED BIO-GLASS PARTNERS (ANIMATION: ORGANIC LEAF PARTICLE FLOATING)', description: 'Design: FROSTED BIO-GLASS • Animation: ORGANIC LEAF PARTICLE FLOATING', previewComponent: <AboutPartnersBrands16 /> },
+      { id: 'about-partners-brands-17', title: 'COSMIC STARFIELD PARTNERS (ANIMATION: TWINKLING NEBULA STAR PARTICLES)', description: 'Design: COSMIC STARFIELD • Animation: TWINKLING NEBULA STAR PARTICLES', previewComponent: <AboutPartnersBrands17 /> },
+      { id: 'about-partners-brands-18', title: 'CASE STUDY DRAWER PARTNERS (ANIMATION: SLIDE-OUT CASE STUDY MODAL REVEAL)', description: 'Design: CASE STUDY DRAWER • Animation: SLIDE-OUT CASE STUDY MODAL REVEAL', previewComponent: <AboutPartnersBrands18 /> },
+      { id: 'about-partners-brands-19', title: 'SYNTHWAVE NEON GRID PARTNERS (ANIMATION: PERSPECTIVE GRID SCROLL & SCANLINE)', description: 'Design: SYNTHWAVE NEON GRID • Animation: PERSPECTIVE GRID SCROLL & SCANLINE', previewComponent: <AboutPartnersBrands19 /> },
+      { id: 'about-partners-brands-20', title: 'ULTRA LUXURY DIAMOND PARTNERS (ANIMATION: FACETED DIAMOND SPARKLE FLARE)', description: 'Design: ULTRA LUXURY DIAMOND • Animation: FACETED DIAMOND SPARKLE FLARE', previewComponent: <AboutPartnersBrands20 /> },
+    ] : category === 'about-certifications' ? [
+      { id: 'about-certifications-1', title: 'FROSTED GLASSMORPHISM (ANIMATION: AMBIENT ORBS & HOVER ELEVATION)', description: 'Design: FROSTED GLASSMORPHISM • Animation: AMBIENT ORBS & HOVER ELEVATION', previewComponent: <AboutCertifications1 /> },
+      { id: 'about-certifications-2', title: 'DARK OBSIDIAN GLASS (ANIMATION: CRYPTOGRAPHIC SHIELD & NEON GLOW)', description: 'Design: DARK OBSIDIAN GLASS • Animation: CRYPTOGRAPHIC SHIELD & NEON GLOW', previewComponent: <AboutCertifications2 /> },
+      { id: 'about-certifications-3', title: 'CLASSIC DIPLOMA FRAME (ANIMATION: GOLD RIBBON SEAL PRESS)', description: 'Design: CLASSIC DIPLOMA FRAME • Animation: GOLD RIBBON SEAL PRESS', previewComponent: <AboutCertifications3 /> },
+      { id: 'about-certifications-4', title: 'HOLO CHROMA FOIL (ANIMATION: CHROMATIC RAINBOW BORDER ROTATION)', description: 'Design: HOLO CHROMA FOIL • Animation: CHROMATIC RAINBOW BORDER ROTATION', previewComponent: <AboutCertifications4 /> },
+      { id: 'about-certifications-5', title: '3D CLAYMORPHISM (ANIMATION: LIGHT CLAY MESH & TACTILE PRESS)', description: 'Design: 3D CLAYMORPHISM • Animation: LIGHT CLAY MESH & TACTILE PRESS', previewComponent: <AboutCertifications5 /> },
+      { id: 'about-certifications-6', title: 'DARK CLAYMORPHISM (ANIMATION: DARK CLAY MESH & NEON SHADOW)', description: 'Design: DARK CLAYMORPHISM • Animation: DARK CLAY MESH & NEON SHADOW', previewComponent: <AboutCertifications6 /> },
+      { id: 'about-certifications-7', title: 'BRIGHT NEO-MINIMALISM (ANIMATION: LIGHT CYAN MESH & AUTHORITY TAG)', description: 'Design: BRIGHT NEO-MINIMALISM • Animation: LIGHT CYAN MESH & AUTHORITY TAG', previewComponent: <AboutCertifications7 /> },
+      { id: 'about-certifications-8', title: 'CYBER CLAYMORPHISM (ANIMATION: PURPLE CLAY MESH & METADATA POP)', description: 'Design: CYBER CLAYMORPHISM • Animation: PURPLE CLAY MESH & METADATA POP', previewComponent: <AboutCertifications8 /> },
+      { id: 'about-certifications-9', title: 'BRIGHT EMERALD CLAY (ANIMATION: MINT CLAY MESH & VERIFIED BADGE)', description: 'Design: BRIGHT EMERALD CLAY • Animation: MINT CLAY MESH & VERIFIED BADGE', previewComponent: <AboutCertifications9 /> },
+      { id: 'about-certifications-10', title: 'NEO-MINIMALIST CLAY (ANIMATION: PINK CLAY MESH & DRAWER TRIGGER)', description: 'Design: NEO-MINIMALIST CLAY • Animation: PINK CLAY MESH & DRAWER TRIGGER', previewComponent: <AboutCertifications10 /> },
+      { id: 'about-certifications-11', title: 'BENTO BOX GRID (ANIMATION: STAGGERED MODULAR TILE FADE-UP)', description: 'Design: BENTO BOX GRID • Animation: STAGGERED MODULAR TILE FADE-UP', previewComponent: <AboutCertifications11 /> },
+      { id: 'about-certifications-12', title: 'PARALLAX STACKED GLASS (ANIMATION: MULTI-PLANE SCROLL ELEVATION)', description: 'Design: PARALLAX STACKED GLASS • Animation: MULTI-PLANE SCROLL ELEVATION', previewComponent: <AboutCertifications12 /> },
+      { id: 'about-certifications-13', title: 'METALLIC PLATINUM (ANIMATION: LIQUID METAL SHEEN & SHINE)', description: 'Design: METALLIC PLATINUM • Animation: LIQUID METAL SHEEN & SHINE', previewComponent: <AboutCertifications13 /> },
+      { id: 'about-certifications-14', title: 'MONOCHROME HAIRLINE (ANIMATION: ARCHITECTURAL LINEAR GRID SCALE)', description: 'Design: MONOCHROME HAIRLINE • Animation: ARCHITECTURAL LINEAR GRID SCALE', previewComponent: <AboutCertifications14 /> },
+      { id: 'about-certifications-15', title: 'VERIFICATION DRAWER MODAL (ANIMATION: SLIDE-OUT AUDIT DRAWER REVEAL)', description: 'Design: VERIFICATION DRAWER MODAL • Animation: SLIDE-OUT AUDIT DRAWER REVEAL', previewComponent: <AboutCertifications15 /> },
+      { id: 'about-certifications-16', title: 'FROSTED BIO-GLASS (ANIMATION: ORGANIC LEAF PARTICLE FLOATING)', description: 'Design: FROSTED BIO-GLASS • Animation: ORGANIC LEAF PARTICLE FLOATING', previewComponent: <AboutCertifications16 /> },
+      { id: 'about-certifications-17', title: 'COSMIC STARFIELD (ANIMATION: TWINKLING NEBULA STAR PARTICLES)', description: 'Design: COSMIC STARFIELD • Animation: TWINKLING NEBULA STAR PARTICLES', previewComponent: <AboutCertifications17 /> },
+      { id: 'about-certifications-18', title: 'TIMELINE CREDENTIALS (ANIMATION: MILESTONE DATE MARKER SCROLL)', description: 'Design: TIMELINE CREDENTIALS • Animation: MILESTONE DATE MARKER SCROLL', previewComponent: <AboutCertifications18 /> },
+      { id: 'about-certifications-19', title: 'SYNTHWAVE NEON GRID (ANIMATION: PERSPECTIVE GRID SCROLL & SCANLINE)', description: 'Design: SYNTHWAVE NEON GRID • Animation: PERSPECTIVE GRID SCROLL & SCANLINE', previewComponent: <AboutCertifications19 /> },
+      { id: 'about-certifications-20', title: 'ULTRA LUXURY DIAMOND (ANIMATION: FACETED DIAMOND SPARKLE FLARE)', description: 'Design: ULTRA LUXURY DIAMOND • Animation: FACETED DIAMOND SPARKLE FLARE', previewComponent: <AboutCertifications20 /> },
+    ] : category === 'about-team-showcase' ? [
+      { id: 'about-team-showcase-1', title: 'FROSTED GLASSMORPHISM (ANIMATION: FLOATING AMBIENT ORBS & CARD LIFT)', description: 'Design: FROSTED GLASSMORPHISM • Animation: FLOATING AMBIENT ORBS & CARD LIFT', previewComponent: <AboutTeamShowcase1 /> },
+      { id: 'about-team-showcase-2', title: 'DARK OBSIDIAN GLASS (ANIMATION: NEON CYBER PULSE & HOVER SWEEP)', description: 'Design: DARK OBSIDIAN GLASS • Animation: NEON CYBER PULSE & HOVER SWEEP', previewComponent: <AboutTeamShowcase2 /> },
+      { id: 'about-team-showcase-3', title: 'SOFT NEUMORPHISM (ANIMATION: DUAL-SHADOW DEPTH & TACTILE PUSH)', description: 'Design: SOFT NEUMORPHISM • Animation: DUAL-SHADOW DEPTH & TACTILE PUSH', previewComponent: <AboutTeamShowcase3 /> },
+      { id: 'about-team-showcase-4', title: 'HOLO CHROMA FOIL (ANIMATION: CHROMATIC SHIMMER BORDER ROTATION)', description: 'Design: HOLO CHROMA FOIL • Animation: CHROMATIC SHIMMER BORDER ROTATION', previewComponent: <AboutTeamShowcase4 /> },
+      { id: 'about-team-showcase-5', title: '3D CLAYMORPHISM (ANIMATION: SOFT SQUISHY 3D TILT TRACKING)', description: 'Design: 3D CLAYMORPHISM • Animation: SOFT SQUISHY 3D TILT TRACKING', previewComponent: <AboutTeamShowcase5 /> },
+      { id: 'about-team-showcase-6', title: 'NEO-BRUTALISM (ANIMATION: HARD STARK OFFSET SHADOW POP)', description: 'Design: NEO-BRUTALISM • Animation: HARD STARK OFFSET SHADOW POP', previewComponent: <AboutTeamShowcase6 /> },
+      { id: 'about-team-showcase-7', title: 'METALLIC CHROMIUM (ANIMATION: LIQUID METAL SHEEN & REFLECTION)', description: 'Design: METALLIC CHROMIUM • Animation: LIQUID METAL SHEEN & REFLECTION', previewComponent: <AboutTeamShowcase7 /> },
+      { id: 'about-team-showcase-8', title: 'CYBERPUNK HUD (ANIMATION: SCANLINE RADAR SWEEP & DATA HUD)', description: 'Design: CYBERPUNK HUD • Animation: SCANLINE RADAR SWEEP & DATA HUD', previewComponent: <AboutTeamShowcase8 /> },
+      { id: 'about-team-showcase-9', title: 'VELVET MATTE (ANIMATION: SATIN DIFFUSE AURA FADE-IN)', description: 'Design: VELVET MATTE • Animation: SATIN DIFFUSE AURA FADE-IN', previewComponent: <AboutTeamShowcase9 /> },
+      { id: 'about-team-showcase-10', title: 'LIQUID AURORA (ANIMATION: MORPHING SVG AURORA WAVE FLOW)', description: 'Design: LIQUID AURORA • Animation: MORPHING SVG AURORA WAVE FLOW', previewComponent: <AboutTeamShowcase10 /> },
+      { id: 'about-team-showcase-11', title: 'PRISM LIGHT GLASS (ANIMATION: PRISM COLOR SPLITTING & BEAM TILT)', description: 'Design: PRISM LIGHT GLASS • Animation: PRISM COLOR SPLITTING & BEAM TILT', previewComponent: <AboutTeamShowcase11 /> },
+      { id: 'about-team-showcase-12', title: 'FLOATING PARALLAX STACK (ANIMATION: MULTI-PLANE SCROLL ELEVATION)', description: 'Design: FLOATING PARALLAX STACK • Animation: MULTI-PLANE SCROLL ELEVATION', previewComponent: <AboutTeamShowcase12 /> },
+      { id: 'about-team-showcase-13', title: 'SKEUOMORPHIC BEVEL (ANIMATION: GLOSSY BEVEL SHINE & PROFILE FLIP)', description: 'Design: SKEUOMORPHIC BEVEL • Animation: GLOSSY BEVEL SHINE & PROFILE FLIP', previewComponent: <AboutTeamShowcase13 /> },
+      { id: 'about-team-showcase-14', title: 'MONOCHROME HAIRLINE (ANIMATION: ARCHITECTURAL LINEAR GRID SCALE)', description: 'Design: MONOCHROME HAIRLINE • Animation: ARCHITECTURAL LINEAR GRID SCALE', previewComponent: <AboutTeamShowcase14 /> },
+      { id: 'about-team-showcase-15', title: 'BENTO BOX GLASS (ANIMATION: STAGGERED MODULAR TILE FADE-UP)', description: 'Design: BENTO BOX GLASS • Animation: STAGGERED MODULAR TILE FADE-UP', previewComponent: <AboutTeamShowcase15 /> },
+      { id: 'about-team-showcase-16', title: 'FROSTED BIO-GLASS (ANIMATION: ORGANIC LEAF PARTICLE FLOATING)', description: 'Design: FROSTED BIO-GLASS • Animation: ORGANIC LEAF PARTICLE FLOATING', previewComponent: <AboutTeamShowcase16 /> },
+      { id: 'about-team-showcase-17', title: 'COSMIC STARFIELD (ANIMATION: TWINKLING NEBULA STAR PARTICLES)', description: 'Design: COSMIC STARFIELD • Animation: TWINKLING NEBULA STAR PARTICLES', previewComponent: <AboutTeamShowcase17 /> },
+      { id: 'about-team-showcase-18', title: 'BIO MODAL REVEAL (ANIMATION: SLIDE-OUT MEMBER BIO DRAWER)', description: 'Design: BIO MODAL REVEAL • Animation: SLIDE-OUT MEMBER BIO DRAWER', previewComponent: <AboutTeamShowcase18 /> },
+      { id: 'about-team-showcase-19', title: 'SYNTHWAVE NEON GRID (ANIMATION: PERSPECTIVE GRID SCROLL & SCANLINE)', description: 'Design: SYNTHWAVE NEON GRID • Animation: PERSPECTIVE GRID SCROLL & SCANLINE', previewComponent: <AboutTeamShowcase19 /> },
+      { id: 'about-team-showcase-20', title: 'ULTRA LUXURY DIAMOND (ANIMATION: FACETED DIAMOND SPARKLE FLARE)', description: 'Design: ULTRA LUXURY DIAMOND • Animation: FACETED DIAMOND SPARKLE FLARE', previewComponent: <AboutTeamShowcase20 /> },
+] : category === 'about-company-timeline' ? [
+      { id: 'about-company-timeline-1', title: 'FROSTED GLASSMORPHISM (ANIMATION: AMBIENT ORBS & TIMELINE GLOW)', description: 'Design: FROSTED GLASSMORPHISM • Animation: AMBIENT ORBS & TIMELINE GLOW', previewComponent: <AboutCompanyTimeline1 /> },
+      { id: 'about-company-timeline-2', title: 'DARK OBSIDIAN GLASS (ANIMATION: NEON LASER MILESTONE PULSE)', description: 'Design: DARK OBSIDIAN GLASS • Animation: NEON LASER MILESTONE PULSE', previewComponent: <AboutCompanyTimeline2 /> },
+      { id: 'about-company-timeline-3', title: 'SOFT NEUMORPHISM (ANIMATION: DUAL-SHADOW DEPTH & TACTILE STEP)', description: 'Design: SOFT NEUMORPHISM • Animation: DUAL-SHADOW DEPTH & TACTILE STEP', previewComponent: <AboutCompanyTimeline3 /> },
+      { id: 'about-company-timeline-4', title: 'HOLO CHROMA FOIL (ANIMATION: CHROMATIC SHIMMER BORDER ROTATION)', description: 'Design: HOLO CHROMA FOIL • Animation: CHROMATIC SHIMMER BORDER ROTATION', previewComponent: <AboutCompanyTimeline4 /> },
+      { id: 'about-company-timeline-5', title: '3D CLAYMORPHISM (ANIMATION: SOFT 3D SQUISHY MILESTONE TILT)', description: 'Design: 3D CLAYMORPHISM • Animation: SOFT 3D SQUISHY MILESTONE TILT', previewComponent: <AboutCompanyTimeline5 /> },
+      { id: 'about-company-timeline-6', title: 'NEO-BRUTALISM (ANIMATION: HARD STARK OFFSET SHADOW POP)', description: 'Design: NEO-BRUTALISM • Animation: HARD STARK OFFSET SHADOW POP', previewComponent: <AboutCompanyTimeline6 /> },
+      { id: 'about-company-timeline-7', title: 'METALLIC CHROMIUM (ANIMATION: LIQUID METAL SHEEN & SHINE)', description: 'Design: METALLIC CHROMIUM • Animation: LIQUID METAL SHEEN & SHINE', previewComponent: <AboutCompanyTimeline7 /> },
+      { id: 'about-company-timeline-8', title: 'CYBERPUNK HUD (ANIMATION: SCANLINE RADAR SWEEP & YEAR HUD)', description: 'Design: CYBERPUNK HUD • Animation: SCANLINE RADAR SWEEP & YEAR HUD', previewComponent: <AboutCompanyTimeline8 /> },
+      { id: 'about-company-timeline-9', title: 'VELVET MATTE (ANIMATION: SATIN DIFFUSE AURA FADE-IN)', description: 'Design: VELVET MATTE • Animation: SATIN DIFFUSE AURA FADE-IN', previewComponent: <AboutCompanyTimeline9 /> },
+      { id: 'about-company-timeline-10', title: 'LIQUID AURORA (ANIMATION: MORPHING SVG AURORA WAVE FLOW)', description: 'Design: LIQUID AURORA • Animation: MORPHING SVG AURORA WAVE FLOW', previewComponent: <AboutCompanyTimeline10 /> },
+      { id: 'about-company-timeline-11', title: 'PRISM LIGHT GLASS (ANIMATION: PRISM COLOR SPLITTING & BEAM TILT)', description: 'Design: PRISM LIGHT GLASS • Animation: PRISM COLOR SPLITTING & BEAM TILT', previewComponent: <AboutCompanyTimeline11 /> },
+      { id: 'about-company-timeline-12', title: 'FLOATING PARALLAX STACK (ANIMATION: MULTI-PLANE SCROLL ELEVATION)', description: 'Design: FLOATING PARALLAX STACK • Animation: MULTI-PLANE SCROLL ELEVATION', previewComponent: <AboutCompanyTimeline12 /> },
+      { id: 'about-company-timeline-13', title: 'SKEUOMORPHIC BEVEL (ANIMATION: GLOSSY BEVEL SHINE & YEAR SEAL)', description: 'Design: SKEUOMORPHIC BEVEL • Animation: GLOSSY BEVEL SHINE & YEAR SEAL', previewComponent: <AboutCompanyTimeline13 /> },
+      { id: 'about-company-timeline-14', title: 'MONOCHROME HAIRLINE (ANIMATION: ARCHITECTURAL LINEAR GRID SCALE)', description: 'Design: MONOCHROME HAIRLINE • Animation: ARCHITECTURAL LINEAR GRID SCALE', previewComponent: <AboutCompanyTimeline14 /> },
+      { id: 'about-company-timeline-15', title: 'BENTO BOX GLASS (ANIMATION: STAGGERED MODULAR TILE FADE-UP)', description: 'Design: BENTO BOX GLASS • Animation: STAGGERED MODULAR TILE FADE-UP', previewComponent: <AboutCompanyTimeline15 /> },
+      { id: 'about-company-timeline-16', title: 'FROSTED BIO-GLASS (ANIMATION: ORGANIC LEAF PARTICLE FLOATING)', description: 'Design: FROSTED BIO-GLASS • Animation: ORGANIC LEAF PARTICLE FLOATING', previewComponent: <AboutCompanyTimeline16 /> },
+      { id: 'about-company-timeline-17', title: 'COSMIC STARFIELD (ANIMATION: TWINKLING NEBULA STAR PARTICLES)', description: 'Design: COSMIC STARFIELD • Animation: TWINKLING NEBULA STAR PARTICLES', previewComponent: <AboutCompanyTimeline17 /> },
+      { id: 'about-company-timeline-18', title: 'TIMELINE DRAWER MODAL (ANIMATION: SLIDE-OUT MILESTONE DETAIL DRAWER)', description: 'Design: TIMELINE DRAWER MODAL • Animation: SLIDE-OUT MILESTONE DETAIL DRAWER', previewComponent: <AboutCompanyTimeline18 /> },
+      { id: 'about-company-timeline-19', title: 'SYNTHWAVE NEON GRID (ANIMATION: PERSPECTIVE GRID SCROLL & SCANLINE)', description: 'Design: SYNTHWAVE NEON GRID • Animation: PERSPECTIVE GRID SCROLL & SCANLINE', previewComponent: <AboutCompanyTimeline19 /> },
+      { id: 'about-company-timeline-20', title: 'ULTRA LUXURY DIAMOND (ANIMATION: FACETED DIAMOND SPARKLE FLARE)', description: 'Design: ULTRA LUXURY DIAMOND • Animation: FACETED DIAMOND SPARKLE FLARE', previewComponent: <AboutCompanyTimeline20 /> },
+    ] : category === 'about-brand-values' ? [
+      { id: 'about-brand-values-1', title: 'FROSTED GLASSMORPHISM (ANIMATION: AMBIENT GLOW ORBS & ICON ROTATION)', description: 'Design: FROSTED GLASSMORPHISM • Animation: AMBIENT GLOW ORBS & ICON ROTATION', previewComponent: <AboutBrandValues1 /> },
+      { id: 'about-brand-values-2', title: 'DARK OBSIDIAN GLASS (ANIMATION: CYBER NEON PULSE & LASER BORDER)', description: 'Design: DARK OBSIDIAN GLASS • Animation: CYBER NEON PULSE & LASER BORDER', previewComponent: <AboutBrandValues2 /> },
+      { id: 'about-brand-values-3', title: 'SOFT NEUMORPHISM (ANIMATION: DUAL-SHADOW DEPTH & TACTILE PRESS)', description: 'Design: SOFT NEUMORPHISM • Animation: DUAL-SHADOW DEPTH & TACTILE PRESS', previewComponent: <AboutBrandValues3 /> },
+      { id: 'about-brand-values-4', title: 'HOLO CHROMA FOIL (ANIMATION: CHROMATIC SHIMMER BORDER ROTATION)', description: 'Design: HOLO CHROMA FOIL • Animation: CHROMATIC SHIMMER BORDER ROTATION', previewComponent: <AboutBrandValues4 /> },
+      { id: 'about-brand-values-5', title: '3D CLAYMORPHISM (ANIMATION: SOFT 3D SQUISHY REACTION & MOUSE TILT)', description: 'Design: 3D CLAYMORPHISM • Animation: SOFT 3D SQUISHY REACTION & MOUSE TILT', previewComponent: <AboutBrandValues5 /> },
+      { id: 'about-brand-values-6', title: 'NEO-BRUTALISM (ANIMATION: HARD STARK OFFSET SHADOW POP)', description: 'Design: NEO-BRUTALISM • Animation: HARD STARK OFFSET SHADOW POP', previewComponent: <AboutBrandValues6 /> },
+      { id: 'about-brand-values-7', title: 'METALLIC CHROMIUM (ANIMATION: LIQUID METAL SHEEN & SHINE)', description: 'Design: METALLIC CHROMIUM • Animation: LIQUID METAL SHEEN & SHINE', previewComponent: <AboutBrandValues7 /> },
+      { id: 'about-brand-values-8', title: 'CYBERPUNK HUD (ANIMATION: SCANLINE RADAR SWEEP & METRIC PING)', description: 'Design: CYBERPUNK HUD • Animation: SCANLINE RADAR SWEEP & METRIC PING', previewComponent: <AboutBrandValues8 /> },
+      { id: 'about-brand-values-9', title: 'VELVET MATTE (ANIMATION: SATIN DIFFUSE AURA FADE-IN)', description: 'Design: VELVET MATTE • Animation: SATIN DIFFUSE AURA FADE-IN', previewComponent: <AboutBrandValues9 /> },
+      { id: 'about-brand-values-10', title: 'LIQUID AURORA (ANIMATION: MORPHING SVG AURORA WAVE FLOW)', description: 'Design: LIQUID AURORA • Animation: MORPHING SVG AURORA WAVE FLOW', previewComponent: <AboutBrandValues10 /> },
+      { id: 'about-brand-values-11', title: 'PRISM LIGHT GLASS (ANIMATION: PRISM COLOR SPLITTING & BEAM TILT)', description: 'Design: PRISM LIGHT GLASS • Animation: PRISM COLOR SPLITTING & BEAM TILT', previewComponent: <AboutBrandValues11 /> },
+      { id: 'about-brand-values-12', title: 'FLOATING PARALLAX STACK (ANIMATION: MULTI-PLANE SCROLL ELEVATION)', description: 'Design: FLOATING PARALLAX STACK • Animation: MULTI-PLANE SCROLL ELEVATION', previewComponent: <AboutBrandValues12 /> },
+      { id: 'about-brand-values-13', title: 'SKEUOMORPHIC BEVEL (ANIMATION: GLOSSY BEVEL SHINE & VALUE SEAL)', description: 'Design: SKEUOMORPHIC BEVEL • Animation: GLOSSY BEVEL SHINE & VALUE SEAL', previewComponent: <AboutBrandValues13 /> },
+      { id: 'about-brand-values-14', title: 'MONOCHROME HAIRLINE (ANIMATION: ARCHITECTURAL LINEAR GRID SCALE)', description: 'Design: MONOCHROME HAIRLINE • Animation: ARCHITECTURAL LINEAR GRID SCALE', previewComponent: <AboutBrandValues14 /> },
+      { id: 'about-brand-values-15', title: 'BENTO BOX GLASS (ANIMATION: STAGGERED MODULAR TILE FADE-UP)', description: 'Design: BENTO BOX GLASS • Animation: STAGGERED MODULAR TILE FADE-UP', previewComponent: <AboutBrandValues15 /> },
+      { id: 'about-brand-values-16', title: 'FROSTED BIO-GLASS (ANIMATION: ORGANIC LEAF PARTICLE FLOATING)', description: 'Design: FROSTED BIO-GLASS • Animation: ORGANIC LEAF PARTICLE FLOATING', previewComponent: <AboutBrandValues16 /> },
+      { id: 'about-brand-values-17', title: 'COSMIC STARFIELD (ANIMATION: TWINKLING NEBULA STAR PARTICLES)', description: 'Design: COSMIC STARFIELD • Animation: TWINKLING NEBULA STAR PARTICLES', previewComponent: <AboutBrandValues17 /> },
+      { id: 'about-brand-values-18', title: 'VALUES DRAWER MODAL (ANIMATION: SLIDE-OUT VALUE MANIFESTO DRAWER)', description: 'Design: VALUES DRAWER MODAL • Animation: SLIDE-OUT VALUE MANIFESTO DRAWER', previewComponent: <AboutBrandValues18 /> },
+      { id: 'about-brand-values-19', title: 'SYNTHWAVE NEON GRID (ANIMATION: PERSPECTIVE GRID SCROLL & SCANLINE)', description: 'Design: SYNTHWAVE NEON GRID • Animation: PERSPECTIVE GRID SCROLL & SCANLINE', previewComponent: <AboutBrandValues19 /> },
+      { id: 'about-brand-values-20', title: 'ULTRA LUXURY DIAMOND (ANIMATION: FACETED DIAMOND SPARKLE FLARE)', description: 'Design: ULTRA LUXURY DIAMOND • Animation: FACETED DIAMOND SPARKLE FLARE', previewComponent: <AboutBrandValues20 /> },
+] : category === 'about-image-content' ? [
+      { id: 'about-image-content-1', title: 'GLASS EDITORIAL IMAGE CONTENT (ANIMATION: BACKDROP BLUR GLOW & SMOOTH REVEAL)', description: 'Design: GLASS EDITORIAL IMAGE CONTENT • Animation: BACKDROP BLUR GLOW & SMOOTH REVEAL', previewComponent: <AboutImageContent1 /> },
+      { id: 'about-image-content-2', title: 'TACTILE NEUMORPHIC MEDIA CARD (ANIMATION: DUAL SOFT DACTILE SHADOWS & PRESSED BUTTONS)', description: 'Design: TACTILE NEUMORPHIC MEDIA CARD • Animation: DUAL SOFT DACTILE SHADOWS & PRESSED BUTTONS', previewComponent: <AboutImageContent2 /> },
+      { id: 'about-image-content-3', title: 'HOLOGRAPHIC CYBER MEDIA FRAME (ANIMATION: NEON SCANNING LINE LOOP & HUD TELEMETRY)', description: 'Design: HOLOGRAPHIC CYBER MEDIA FRAME • Animation: NEON SCANNING LINE LOOP & HUD TELEMETRY', previewComponent: <AboutImageContent3 /> },
+      { id: 'about-image-content-4', title: 'SPATIAL DEPTH STACKED IMAGE (ANIMATION: MULTI-LAYERED STACKED DEPTH WITH PARALLAX ELEVATION)', description: 'Design: SPATIAL DEPTH STACKED IMAGE • Animation: MULTI-LAYERED STACKED DEPTH WITH PARALLAX ELEVATION', previewComponent: <AboutImageContent4 /> },
+      { id: 'about-image-content-5', title: 'CLAYMORPHIC 3D MEDIA BUBBLE (ANIMATION: ROUNDED 3D CLAY VOLUME & INNER AMBIENT LIGHT POP)', description: 'Design: CLAYMORPHIC 3D MEDIA BUBBLE • Animation: ROUNDED 3D CLAY VOLUME & INNER AMBIENT LIGHT POP', previewComponent: <AboutImageContent5 /> },
+      { id: 'about-image-content-6', title: 'FROSTED BENTO CONTENT GRID (ANIMATION: MULTI-TILE FROSTED GLASS & INTERACTIVE HIGHLIGHT)', description: 'Design: FROSTED BENTO CONTENT GRID • Animation: MULTI-TILE FROSTED GLASS & INTERACTIVE HIGHLIGHT', previewComponent: <AboutImageContent6 /> },
+      { id: 'about-image-content-7', title: 'CHROME LIQUID METALLIC IMAGE FRAME (ANIMATION: HIGH-CONTRAST CHROME SHEEN & LIQUID METAL EDGE)', description: 'Design: CHROME LIQUID METALLIC IMAGE FRAME • Animation: HIGH-CONTRAST CHROME SHEEN & LIQUID METAL EDGE', previewComponent: <AboutImageContent7 /> },
+      { id: 'about-image-content-8', title: 'AURORA FLUID MESH IMAGE CARD (ANIMATION: FLOATING FLUID MESH BLOB DRIFT & GLASS LIFT)', description: 'Design: AURORA FLUID MESH IMAGE CARD • Animation: FLOATING FLUID MESH BLOB DRIFT & GLASS LIFT', previewComponent: <AboutImageContent8 /> },
+      { id: 'about-image-content-9', title: 'SPLIT TIMELINE MEDIA COMPARISON (ANIMATION: PROGRESS TIMELINE & SMOOTH SLIDE CROSS-FADE)', description: 'Design: SPLIT TIMELINE MEDIA COMPARISON • Animation: PROGRESS TIMELINE & SMOOTH SLIDE CROSS-FADE', previewComponent: <AboutImageContent9 /> },
+      { id: 'about-image-content-10', title: 'DARK VELVET LUXURY MEDIA SPOTLIGHT (ANIMATION: DEEP DARK VELVET MODE & VIOLET AURA PULSE)', description: 'Design: DARK VELVET LUXURY MEDIA SPOTLIGHT • Animation: DEEP DARK VELVET MODE & VIOLET AURA PULSE', previewComponent: <AboutImageContent10 /> },
+      { id: 'about-image-content-11', title: 'SKEUOMORPHIC FOUNDER STAMP IMAGE (ANIMATION: FOLDED PAPER TACTILE EDGE & VINTAGE INK ACCENT)', description: 'Design: SKEUOMORPHIC FOUNDER STAMP IMAGE • Animation: FOLDED PAPER TACTILE EDGE & VINTAGE INK ACCENT', previewComponent: <AboutImageContent11 /> },
+      { id: 'about-image-content-12', title: 'SCI-FI HUD MEDIA BLUEPRINT (ANIMATION: HUD CORNER BRACKETS & TELEMETRY READOUT)', description: 'Design: SCI-FI HUD MEDIA BLUEPRINT • Animation: HUD CORNER BRACKETS & TELEMETRY READOUT', previewComponent: <AboutImageContent12 /> },
+      { id: 'about-image-content-13', title: 'BENTO LAYERED GLASS FEATURE (ANIMATION: PRIMARY HERO GLASS & SECONDARY MINI TILE STACK)', description: 'Design: BENTO LAYERED GLASS FEATURE • Animation: PRIMARY HERO GLASS & SECONDARY MINI TILE STACK', previewComponent: <AboutImageContent13 /> },
+      { id: 'about-image-content-14', title: 'LIQUID GLASS FLOATING CAPSULE PHOTO (ANIMATION: CURVED LIQUID CAPSULE DRIFT & PARTICLE AURA)', description: 'Design: LIQUID GLASS FLOATING CAPSULE PHOTO • Animation: CURVED LIQUID CAPSULE DRIFT & PARTICLE AURA', previewComponent: <AboutImageContent14 /> },
+      { id: 'about-image-content-15', title: 'NEON EDGE GLOW IMAGE SPOTLIGHT (ANIMATION: 360-DEGREE ROTATING NEON RAINBOW BORDER)', description: 'Design: NEON EDGE GLOW IMAGE SPOTLIGHT • Animation: 360-DEGREE ROTATING NEON RAINBOW BORDER', previewComponent: <AboutImageContent15 /> },
+      { id: 'about-image-content-16', title: 'ARCHITECTURAL HAIRLINE GRID MEDIA (ANIMATION: MINIMALIST LINEAR GRIDLINES & TYPOGRAPHY FOCUS)', description: 'Design: ARCHITECTURAL HAIRLINE GRID MEDIA • Animation: MINIMALIST LINEAR GRIDLINES & TYPOGRAPHY FOCUS', previewComponent: <AboutImageContent16 /> },
+      { id: 'about-image-content-17', title: 'FULL POSTER CINEMA STORY OVERLAY (ANIMATION: FULL-HEIGHT IMAGE POSTER & FLOATING TEXT CURTAIN)', description: 'Design: FULL POSTER CINEMA STORY OVERLAY • Animation: FULL-HEIGHT IMAGE POSTER & FLOATING TEXT CURTAIN', previewComponent: <AboutImageContent17 /> },
+      { id: 'about-image-content-18', title: 'PRISMATIC CHROMATIC REFRACTION PHOTO (ANIMATION: CHROMATIC REFRACTION BLUR & RAINBOW REFLECTION)', description: 'Design: PRISMATIC CHROMATIC REFRACTION PHOTO • Animation: CHROMATIC REFRACTION BLUR & RAINBOW REFLECTION', previewComponent: <AboutImageContent18 /> },
+      { id: 'about-image-content-19', title: 'EMBOSSED VINTAGE RETRO FRAME (ANIMATION: DEBOSSED BADGE PRESS & WARM FILM GRAIN TEXTURE)', description: 'Design: EMBOSSED VINTAGE RETRO FRAME • Animation: DEBOSSED BADGE PRESS & WARM FILM GRAIN TEXTURE', previewComponent: <AboutImageContent19 /> },
+      { id: 'about-image-content-20', title: 'ULTRA FLAGSHIP FULL-BLEED SHOWCASE (ANIMATION: FULL VIEWPORT OVERLAY & READING PROGRESS GAUGE)', description: 'Design: ULTRA FLAGSHIP FULL-BLEED SHOWCASE • Animation: FULL VIEWPORT OVERLAY & READING PROGRESS GAUGE', previewComponent: <AboutImageContent20 /> },
+    ] : category === 'store-locations' ? [
+      { id: 'store-locations-1', title: 'EXPANDING CITY ACCORDION LOCATOR (ANIMATION: CITY ACCORDION EXPAND & MAP SPOTLIGHT)', description: 'Design: EXPANDING CITY ACCORDION LOCATOR • Animation: CITY ACCORDION EXPAND & MAP SPOTLIGHT', previewComponent: <StoreLocations1 data={storeLocations1Data} /> },
+      { id: 'store-locations-2', title: 'FROSTED BENTO STOREFRONT DASHBOARD (ANIMATION: MULTI-TILE BENTO & LIVE HOURS BADGE)', description: 'Design: FROSTED BENTO STOREFRONT DASHBOARD • Animation: MULTI-TILE BENTO & LIVE HOURS BADGE', previewComponent: <StoreLocations2 data={storeLocations2Data} /> },
+      { id: 'store-locations-3', title: 'NEO-BRUTALISM STORE FINDER (ANIMATION: BOLD BLACK BORDER & HARD OFFSET SHADOW)', description: 'Design: NEO-BRUTALISM STORE FINDER • Animation: BOLD BLACK BORDER & HARD OFFSET SHADOW', previewComponent: <StoreLocations3 data={storeLocations3Data} /> },
+      { id: 'store-locations-4', title: 'CYBERPUNK HUD RADAR LOCATOR (ANIMATION: RADAR SCANLINE SWEEP & GPS LAT/LONG METRICS)', description: 'Design: CYBERPUNK HUD RADAR LOCATOR • Animation: RADAR SCANLINE SWEEP & GPS LAT/LONG METRICS', previewComponent: <StoreLocations4 data={storeLocations4Data} /> },
+      { id: 'store-locations-5', title: 'CLAYMORPHIC 3D STORE BUBBLES (ANIMATION: SOFT 3D CLAY VOLUME & TACTILE CITY POP)', description: 'Design: CLAYMORPHIC 3D STORE BUBBLES • Animation: SOFT 3D CLAY VOLUME & TACTILE CITY POP', previewComponent: <StoreLocations5 data={storeLocations5Data} /> },
+      { id: 'store-locations-6', title: 'HOLOGRAPHIC NEON MAP OVERLAY (ANIMATION: IRIDESCENT NEON SHEEN & PULSING LOCATION PINS)', description: 'Design: HOLOGRAPHIC NEON MAP OVERLAY • Animation: IRIDESCENT NEON SHEEN & PULSING LOCATION PINS', previewComponent: <StoreLocations6 data={storeLocations6Data} /> },
+      { id: 'store-locations-7', title: 'PRISM GLASS HERITAGE TIMELINE (ANIMATION: CRYSTAL LIGHT SPLIT & STORE OPENING YEAR DECK)', description: 'Design: PRISM GLASS HERITAGE TIMELINE • Animation: CRYSTAL LIGHT SPLIT & STORE OPENING YEAR DECK', previewComponent: <StoreLocations7 data={storeLocations7Data} /> },
+      { id: 'store-locations-8', title: 'SKEUOMORPHIC BOUTIQUE PASSPORT (ANIMATION: EMBOSSED GOLD PASSPORT STAMP & VELVET DECK)', description: 'Design: SKEUOMORPHIC BOUTIQUE PASSPORT • Animation: EMBOSSED GOLD PASSPORT STAMP & VELVET DECK', previewComponent: <StoreLocations8 data={storeLocations8Data} /> },
+      { id: 'store-locations-9', title: 'SUB-ZERO ICE FROST RETAIL HUB (ANIMATION: CRYSTALLINE FROST GLAZE & COLD-CHAIN GAUGE)', description: 'Design: SUB-ZERO ICE FROST RETAIL HUB • Animation: CRYSTALLINE FROST GLAZE & COLD-CHAIN GAUGE', previewComponent: <StoreLocations9 data={storeLocations9Data} /> },
+      { id: 'store-locations-10', title: 'ORGANIC SUNSET STORE CAROUSEL (ANIMATION: ASYMMETRIC FLUID WAVE & STORE CAROUSEL SLIDER)', description: 'Design: ORGANIC SUNSET STORE CAROUSEL • Animation: ASYMMETRIC FLUID WAVE & STORE CAROUSEL SLIDER', previewComponent: <StoreLocations10 data={storeLocations10Data} /> },
+      { id: 'store-locations-11', title: 'METALLIC CHROME ARCHITECTURAL BLUEPRINT (ANIMATION: LIQUID SILVER REFLECTION & CAD BLUEPRINT)', description: 'Design: METALLIC CHROME BLUEPRINT • Animation: LIQUID SILVER REFLECTION & CAD BLUEPRINT', previewComponent: <StoreLocations11 data={storeLocations11Data} /> },
+      { id: 'store-locations-12', title: 'NEUMORPHISM LIGHT CITY LIST (ANIMATION: TACTILE DUAL SHADOW EMBOSS & INSET TOGGLE)', description: 'Design: NEUMORPHISM LIGHT CITY LIST • Animation: TACTILE DUAL SHADOW EMBOSS & INSET TOGGLE', previewComponent: <StoreLocations12 data={storeLocations12Data} /> },
+      { id: 'store-locations-13', title: 'SPLIT MAGAZINE STORE FEATURE (ANIMATION: DUAL-PANE PARALLAX ZOOM & STORE GALLERY)', description: 'Design: SPLIT MAGAZINE STORE FEATURE • Animation: DUAL-PANE PARALLAX ZOOM & STORE GALLERY', previewComponent: <StoreLocations13 data={storeLocations13Data} /> },
+      { id: 'store-locations-14', title: 'MINIMALIST LINE-ART GPS LOCATOR (ANIMATION: HAIRLINE VECTOR DRAWING & GPS COORDINATES)', description: 'Design: MINIMALIST LINE-ART GPS LOCATOR • Animation: HAIRLINE VECTOR DRAWING & GPS COORDINATES', previewComponent: <StoreLocations14 data={storeLocations14Data} /> },
+      { id: 'store-locations-15', title: 'RETRO SYNTHWAVE CITY GUIDE (ANIMATION: 80S NEON GRID MOVEMENT & PULSING SUNSET)', description: 'Design: RETRO SYNTHWAVE CITY GUIDE • Animation: 80S NEON GRID MOVEMENT & PULSING SUNSET', previewComponent: <StoreLocations15 data={storeLocations15Data} /> },
+      { id: 'store-locations-16', title: '3D STACKED GLASS CAROUSEL (ANIMATION: DEPTH-OF-FIELD 3D PERSPECTIVE TILT)', description: 'Design: 3D STACKED GLASS CAROUSEL • Animation: DEPTH-OF-FIELD 3D PERSPECTIVE TILT', previewComponent: <StoreLocations16 data={storeLocations16Data} /> },
+      { id: 'store-locations-17', title: 'MINIMALIST MONOCHROME INDEX (ANIMATION: CLEAN TYPOGRAPHY FADE-UP & LINE HIGHLIGHT)', description: 'Design: MINIMALIST MONOCHROME INDEX • Animation: CLEAN TYPOGRAPHY FADE-UP & LINE HIGHLIGHT', previewComponent: <StoreLocations17 data={storeLocations17Data} /> },
+      { id: 'store-locations-18', title: 'INTERACTIVE DUAL-PANE MAP & LIST (ANIMATION: DUAL PANE CITY SELECTION & LIVE MAP CANVASES)', description: 'Design: INTERACTIVE DUAL-PANE MAP & LIST • Animation: DUAL PANE CITY SELECTION & LIVE MAP CANVASES', previewComponent: <StoreLocations18 data={storeLocations18Data} /> },
+      { id: 'store-locations-19', title: 'PASTEL MINT STORE PICKUP BOOKING (ANIMATION: IN-STORE APPOINTMENT DATE PICKER)', description: 'Design: PASTEL MINT STORE PICKUP BOOKING • Animation: IN-STORE APPOINTMENT DATE PICKER', previewComponent: <StoreLocations19 data={storeLocations19Data} /> },
+      { id: 'store-locations-20', title: 'FLAGSHIP 360 OMNICHANNEL STORE HUB (ANIMATION: LIVE 24/7 IN-STORE QUEUE STATUS INDICATOR)', description: 'Design: FLAGSHIP 360 OMNICHANNEL STORE HUB • Animation: LIVE 24/7 IN-STORE QUEUE STATUS INDICATOR', previewComponent: <StoreLocations20 data={storeLocations20Data} /> },
+] : category === 'store-locations' ? [
+      { id: 'store-locations-1', title: 'EXPANDING CITY ACCORDION LOCATOR (ANIMATION: CITY ACCORDION EXPAND & MAP SPOTLIGHT)', description: 'Design: EXPANDING CITY ACCORDION LOCATOR • Animation: CITY ACCORDION EXPAND & MAP SPOTLIGHT', previewComponent: <StoreLocations1 data={storeLocations1Data} /> },
+      { id: 'store-locations-2', title: 'FROSTED BENTO STOREFRONT DASHBOARD (ANIMATION: MULTI-TILE BENTO & LIVE HOURS BADGE)', description: 'Design: FROSTED BENTO STOREFRONT DASHBOARD • Animation: MULTI-TILE BENTO & LIVE HOURS BADGE', previewComponent: <StoreLocations2 data={storeLocations2Data} /> },
+      { id: 'store-locations-3', title: 'NEO-BRUTALISM STORE FINDER (ANIMATION: BOLD BLACK BORDER & HARD OFFSET SHADOW)', description: 'Design: NEO-BRUTALISM STORE FINDER • Animation: BOLD BLACK BORDER & HARD OFFSET SHADOW', previewComponent: <StoreLocations3 data={storeLocations3Data} /> },
+      { id: 'store-locations-4', title: 'CYBERPUNK HUD RADAR LOCATOR (ANIMATION: RADAR SCANLINE SWEEP & GPS LAT/LONG METRICS)', description: 'Design: CYBERPUNK HUD RADAR LOCATOR • Animation: RADAR SCANLINE SWEEP & GPS LAT/LONG METRICS', previewComponent: <StoreLocations4 data={storeLocations4Data} /> },
+      { id: 'store-locations-5', title: 'CLAYMORPHIC 3D STORE BUBBLES (ANIMATION: SOFT 3D CLAY VOLUME & TACTILE CITY POP)', description: 'Design: CLAYMORPHIC 3D STORE BUBBLES • Animation: SOFT 3D CLAY VOLUME & TACTILE CITY POP', previewComponent: <StoreLocations5 data={storeLocations5Data} /> },
+      { id: 'store-locations-6', title: 'HOLOGRAPHIC NEON MAP OVERLAY (ANIMATION: IRIDESCENT NEON SHEEN & PULSING LOCATION PINS)', description: 'Design: HOLOGRAPHIC NEON MAP OVERLAY • Animation: IRIDESCENT NEON SHEEN & PULSING LOCATION PINS', previewComponent: <StoreLocations6 data={storeLocations6Data} /> },
+      { id: 'store-locations-7', title: 'PRISM GLASS HERITAGE TIMELINE (ANIMATION: CRYSTAL LIGHT SPLIT & STORE OPENING YEAR DECK)', description: 'Design: PRISM GLASS HERITAGE TIMELINE • Animation: CRYSTAL LIGHT SPLIT & STORE OPENING YEAR DECK', previewComponent: <StoreLocations7 data={storeLocations7Data} /> },
+      { id: 'store-locations-8', title: 'SKEUOMORPHIC BOUTIQUE PASSPORT (ANIMATION: EMBOSSED GOLD PASSPORT STAMP & VELVET DECK)', description: 'Design: SKEUOMORPHIC BOUTIQUE PASSPORT • Animation: EMBOSSED GOLD PASSPORT STAMP & VELVET DECK', previewComponent: <StoreLocations8 data={storeLocations8Data} /> },
+      { id: 'store-locations-9', title: 'SUB-ZERO ICE FROST RETAIL HUB (ANIMATION: CRYSTALLINE FROST GLAZE & COLD-CHAIN GAUGE)', description: 'Design: SUB-ZERO ICE FROST RETAIL HUB • Animation: CRYSTALLINE FROST GLAZE & COLD-CHAIN GAUGE', previewComponent: <StoreLocations9 data={storeLocations9Data} /> },
+      { id: 'store-locations-10', title: 'ORGANIC SUNSET STORE CAROUSEL (ANIMATION: ASYMMETRIC FLUID WAVE & STORE CAROUSEL SLIDER)', description: 'Design: ORGANIC SUNSET STORE CAROUSEL • Animation: ASYMMETRIC FLUID WAVE & STORE CAROUSEL SLIDER', previewComponent: <StoreLocations10 data={storeLocations10Data} /> },
+      { id: 'store-locations-11', title: 'METALLIC CHROME ARCHITECTURAL BLUEPRINT (ANIMATION: LIQUID SILVER REFLECTION & CAD BLUEPRINT)', description: 'Design: METALLIC CHROME BLUEPRINT • Animation: LIQUID SILVER REFLECTION & CAD BLUEPRINT', previewComponent: <StoreLocations11 data={storeLocations11Data} /> },
+      { id: 'store-locations-12', title: 'NEUMORPHISM LIGHT CITY LIST (ANIMATION: TACTILE DUAL SHADOW EMBOSS & INSET TOGGLE)', description: 'Design: NEUMORPHISM LIGHT CITY LIST • Animation: TACTILE DUAL SHADOW EMBOSS & INSET TOGGLE', previewComponent: <StoreLocations12 data={storeLocations12Data} /> },
+      { id: 'store-locations-13', title: 'SPLIT MAGAZINE STORE FEATURE (ANIMATION: DUAL-PANE PARALLAX ZOOM & STORE GALLERY)', description: 'Design: SPLIT MAGAZINE STORE FEATURE • Animation: DUAL-PANE PARALLAX ZOOM & STORE GALLERY', previewComponent: <StoreLocations13 data={storeLocations13Data} /> },
+      { id: 'store-locations-14', title: 'MINIMALIST LINE-ART GPS LOCATOR (ANIMATION: HAIRLINE VECTOR DRAWING & GPS COORDINATES)', description: 'Design: MINIMALIST LINE-ART GPS LOCATOR • Animation: HAIRLINE VECTOR DRAWING & GPS COORDINATES', previewComponent: <StoreLocations14 data={storeLocations14Data} /> },
+      { id: 'store-locations-15', title: 'RETRO SYNTHWAVE CITY GUIDE (ANIMATION: 80S NEON GRID MOVEMENT & PULSING SUNSET)', description: 'Design: RETRO SYNTHWAVE CITY GUIDE • Animation: 80S NEON GRID MOVEMENT & PULSING SUNSET', previewComponent: <StoreLocations15 data={storeLocations15Data} /> },
+      { id: 'store-locations-16', title: '3D STACKED GLASS CAROUSEL (ANIMATION: DEPTH-OF-FIELD 3D PERSPECTIVE TILT)', description: 'Design: 3D STACKED GLASS CAROUSEL • Animation: DEPTH-OF-FIELD 3D PERSPECTIVE TILT', previewComponent: <StoreLocations16 data={storeLocations16Data} /> },
+      { id: 'store-locations-17', title: 'MINIMALIST MONOCHROME INDEX (ANIMATION: CLEAN TYPOGRAPHY FADE-UP & LINE HIGHLIGHT)', description: 'Design: MINIMALIST MONOCHROME INDEX • Animation: CLEAN TYPOGRAPHY FADE-UP & LINE HIGHLIGHT', previewComponent: <StoreLocations17 data={storeLocations17Data} /> },
+      { id: 'store-locations-18', title: 'INTERACTIVE DUAL-PANE MAP & LIST (ANIMATION: DUAL PANE CITY SELECTION & LIVE MAP CANVASES)', description: 'Design: INTERACTIVE DUAL-PANE MAP & LIST • Animation: DUAL PANE CITY SELECTION & LIVE MAP CANVASES', previewComponent: <StoreLocations18 data={storeLocations18Data} /> },
+      { id: 'store-locations-19', title: 'PASTEL MINT STORE PICKUP BOOKING (ANIMATION: IN-STORE APPOINTMENT DATE PICKER)', description: 'Design: PASTEL MINT STORE PICKUP BOOKING • Animation: IN-STORE APPOINTMENT DATE PICKER', previewComponent: <StoreLocations19 data={storeLocations19Data} /> },
+      { id: 'store-locations-20', title: 'FLAGSHIP 360 OMNICHANNEL STORE HUB (ANIMATION: LIVE 24/7 IN-STORE QUEUE STATUS INDICATOR)', description: 'Design: FLAGSHIP 360 OMNICHANNEL STORE HUB • Animation: LIVE 24/7 IN-STORE QUEUE STATUS INDICATOR', previewComponent: <StoreLocations20 data={storeLocations20Data} /> },
+] : category === 'business-information' ? [
+      { id: 'business-information-1', title: 'GLASS EDITORIAL BUSINESS INFORMATION (ANIMATION: REGISTRATION COPY & BACKDROP BLUR)', description: 'Design: GLASS EDITORIAL BUSINESS INFORMATION • Animation: REGISTRATION COPY & BACKDROP BLUR', previewComponent: <BusinessInformation1 data={businessInformation1Data} /> },
+      { id: 'business-information-2', title: 'FROSTED BENTO BUSINESS DASHBOARD (ANIMATION: MULTI-TILE BENTO & FACTSHEET DOWNLOAD)', description: 'Design: FROSTED BENTO BUSINESS DASHBOARD • Animation: MULTI-TILE BENTO & FACTSHEET DOWNLOAD', previewComponent: <BusinessInformation2 data={businessInformation2Data} /> },
+      { id: 'business-information-3', title: 'NEO-BRUTALISM BUSINESS DIRECTORY (ANIMATION: BOLD BLACK BORDER & HARD OFFSET SHADOW)', description: 'Design: NEO-BRUTALISM BUSINESS DIRECTORY • Animation: BOLD BLACK BORDER & HARD OFFSET SHADOW', previewComponent: <BusinessInformation3 data={businessInformation3Data} /> },
+      { id: 'business-information-4', title: 'CYBERPUNK HUD CORPORATE LEDGER (ANIMATION: MATRIX SCANLINE & QUANTUM ENCRYPTED SPEC)', description: 'Design: CYBERPUNK HUD CORPORATE LEDGER • Animation: MATRIX SCANLINE & QUANTUM ENCRYPTED SPEC', previewComponent: <BusinessInformation4 data={businessInformation4Data} /> },
+      { id: 'business-information-5', title: 'CLAYMORPHIC 3D TACTILE BUSINESS HUB (ANIMATION: SOFT 3D CLAY VOLUME & TACTILE CARD POP)', description: 'Design: CLAYMORPHIC 3D TACTILE BUSINESS HUB • Animation: SOFT 3D CLAY VOLUME & TACTILE CARD POP', previewComponent: <BusinessInformation5 data={businessInformation5Data} /> },
+      { id: 'business-information-6', title: 'HOLOGRAPHIC NEON CORPORATE CARDS (ANIMATION: IRIDESCENT NEON SHEEN & HUD GLOW STATE)', description: 'Design: HOLOGRAPHIC NEON CORPORATE CARDS • Animation: IRIDESCENT NEON SHEEN & HUD GLOW STATE', previewComponent: <BusinessInformation6 data={businessInformation6Data} /> },
+      { id: 'business-information-7', title: 'PRISM GLASS FACET BUSINESS DECK (ANIMATION: CRYSTAL LIGHT SPLIT & GEOMETRIC FACET SHIFT)', description: 'Design: PRISM GLASS FACET BUSINESS DECK • Animation: CRYSTAL LIGHT SPLIT & GEOMETRIC FACET SHIFT', previewComponent: <BusinessInformation7 data={businessInformation7Data} /> },
+      { id: 'business-information-8', title: 'SKEUOMORPHIC VELVET LUXURY DECK (ANIMATION: EMBOSSED GOLD SHIMMER & PRESSED CONTROLS)', description: 'Design: SKEUOMORPHIC VELVET LUXURY DECK • Animation: EMBOSSED GOLD SHIMMER & PRESSED CONTROLS', previewComponent: <BusinessInformation8 data={businessInformation8Data} /> },
+      { id: 'business-information-9', title: 'SUB-ZERO ICE FROST BUSINESS DECK (ANIMATION: CRYSTALLINE FROST GLAZE & SNOWFALL SHIMMER)', description: 'Design: SUB-ZERO ICE FROST BUSINESS DECK • Animation: CRYSTALLINE FROST GLAZE & SNOWFALL SHIMMER', previewComponent: <BusinessInformation9 data={businessInformation9Data} /> },
+      { id: 'business-information-10', title: 'ORGANIC SUNSET SHELL BUSINESS DECK (ANIMATION: ASYMMETRIC FLUID WAVE & SUNSET GLOW)', description: 'Design: ORGANIC SUNSET SHELL BUSINESS DECK • Animation: ASYMMETRIC FLUID WAVE & SUNSET GLOW', previewComponent: <BusinessInformation10 data={businessInformation10Data} /> },
+      { id: 'business-information-11', title: 'METALLIC CHROME STEEL BUSINESS SPEC (ANIMATION: LIQUID SILVER REFLECTION & STEEL SPEC GRID)', description: 'Design: METALLIC CHROME STEEL BUSINESS SPEC • Animation: LIQUID SILVER REFLECTION & STEEL SPEC GRID', previewComponent: <BusinessInformation11 data={businessInformation11Data} /> },
+      { id: 'business-information-12', title: 'NEUMORPHISM LIGHT BUSINESS DECK (ANIMATION: TACTILE DUAL SHADOW EMBOSS & INSET TOGGLE)', description: 'Design: NEUMORPHISM LIGHT BUSINESS DECK • Animation: TACTILE DUAL SHADOW EMBOSS & INSET TOGGLE', previewComponent: <BusinessInformation12 data={businessInformation12Data} /> },
+      { id: 'business-information-13', title: 'SPLIT MAGAZINE EDITORIAL BUSINESS (ANIMATION: DUAL-PANE PARALLAX ZOOM & FLOATING CARD)', description: 'Design: SPLIT MAGAZINE EDITORIAL BUSINESS • Animation: DUAL-PANE PARALLAX ZOOM & FLOATING CARD', previewComponent: <BusinessInformation13 data={businessInformation13Data} /> },
+      { id: 'business-information-14', title: 'MINIMALIST LINE-ART ARCHITECTURE (ANIMATION: HAIRLINE VECTOR DRAWING & CROSSHAIRS)', description: 'Design: MINIMALIST LINE-ART ARCHITECTURE • Animation: HAIRLINE VECTOR DRAWING & CROSSHAIRS', previewComponent: <BusinessInformation14 data={businessInformation14Data} /> },
+      { id: 'business-information-15', title: 'RETRO SYNTHWAVE 80S BUSINESS DECK (ANIMATION: 80S NEON GRID MOVEMENT & PULSING SUNSET)', description: 'Design: RETRO SYNTHWAVE 80S BUSINESS DECK • Animation: 80S NEON GRID MOVEMENT & PULSING SUNSET', previewComponent: <BusinessInformation15 data={businessInformation15Data} /> },
+      { id: 'business-information-16', title: '3D STACKED GLASS LIGHT BUSINESS (ANIMATION: DEPTH-OF-FIELD 3D PERSPECTIVE TILT)', description: 'Design: 3D STACKED GLASS LIGHT BUSINESS • Animation: DEPTH-OF-FIELD 3D PERSPECTIVE TILT', previewComponent: <BusinessInformation16 data={businessInformation16Data} /> },
+      { id: 'business-information-17', title: 'MINIMALIST MONOCHROME BUSINESS (ANIMATION: CLEAN TYPOGRAPHY FADE-UP & LINE HIGHLIGHT)', description: 'Design: MINIMALIST MONOCHROME BUSINESS • Animation: CLEAN TYPOGRAPHY FADE-UP & LINE HIGHLIGHT', previewComponent: <BusinessInformation17 data={businessInformation17Data} /> },
+      { id: 'business-information-18', title: 'INTERACTIVE LOCATION BUSINESS HUB (ANIMATION: LOCATION PIN PULSE & LIVE HUB SWITCHER)', description: 'Design: INTERACTIVE LOCATION BUSINESS HUB • Animation: LOCATION PIN PULSE & LIVE HUB SWITCHER', previewComponent: <BusinessInformation18 data={businessInformation18Data} /> },
+      { id: 'business-information-19', title: 'PASTEL MINT CORPORATE REGISTRY (ANIMATION: DIRECT FACTSHEET DOWNLOAD & VERIFIED BADGE)', description: 'Design: PASTEL MINT CORPORATE REGISTRY • Animation: DIRECT FACTSHEET DOWNLOAD & VERIFIED BADGE', previewComponent: <BusinessInformation19 data={businessInformation19Data} /> },
+      { id: 'business-information-20', title: 'FLAGSHIP 360 ENTERPRISE REGISTRY (ANIMATION: LIVE 24/7 COMPLIANCE AUDIT INDICATOR)', description: 'Design: FLAGSHIP 360 ENTERPRISE REGISTRY • Animation: LIVE 24/7 COMPLIANCE AUDIT INDICATOR', previewComponent: <BusinessInformation20 data={businessInformation20Data} /> },
+] : category === 'global-product-carousel' ? [
+      { id: 'global-product-carousel-1', title: 'Design 1: AURORA GLASS BENTO PRODUCT CAROUSEL (ANIMATION: FLOAT & GLOW INTERACTIVE HORIZONTAL SNAP)', description: 'Design: AURORA GLASS BENTO PRODUCT CAROUSEL (ANIMATION: FLOAT & GLOW INTERACTIVE HORIZONTAL SNAP)', previewComponent: <GlobalProductCarousel1 /> },
+      { id: 'global-product-carousel-2', title: 'Design 2: CYBERPUNK MATRIX HUD CAROUSEL SLIDER (ANIMATION: GLITCH SHIMMER & SCANLINE PULSE TRACK)', description: 'Design: CYBERPUNK MATRIX HUD CAROUSEL SLIDER (ANIMATION: GLITCH SHIMMER & SCANLINE PULSE TRACK)', previewComponent: <GlobalProductCarousel2 /> },
+      { id: 'global-product-carousel-3', title: 'Design 3: NEUMORPHIC SOFT EMBOSSED DUAL-SHADOW CAROUSEL (ANIMATION: TACTILE DEEP PRESS & DUAL SHADOW EMBOSS)', description: 'Design: NEUMORPHIC SOFT EMBOSSED DUAL-SHADOW CAROUSEL (ANIMATION: TACTILE DEEP PRESS & DUAL SHADOW EMBOSS)', previewComponent: <GlobalProductCarousel3 /> },
+      { id: 'global-product-carousel-4', title: 'Design 4: CLAYMORPHIC 3D POP ELASTIC CAROUSEL (ANIMATION: 3D CLAY ELEVATION & ELASTIC BOUNCE SCROLL)', description: 'Design: CLAYMORPHIC 3D POP ELASTIC CAROUSEL (ANIMATION: 3D CLAY ELEVATION & ELASTIC BOUNCE SCROLL)', previewComponent: <GlobalProductCarousel4 /> },
+      { id: 'global-product-carousel-5', title: 'Design 5: SUB-ZERO CRYO FROST SLIDER CAROUSEL (ANIMATION: ICE CRYSTAL SHADOW & FROST PULSE TRACK)', description: 'Design: SUB-ZERO CRYO FROST SLIDER CAROUSEL (ANIMATION: ICE CRYSTAL SHADOW & FROST PULSE TRACK)', previewComponent: <GlobalProductCarousel5 /> },
+      { id: 'global-product-carousel-6', title: 'Design 6: RETRO 8-BIT ARCADE QUEST SLIDER (ANIMATION: PIXEL FLASH & 8-BIT BUTTON BOUNCE TRACK)', description: 'Design: RETRO 8-BIT ARCADE QUEST SLIDER (ANIMATION: PIXEL FLASH & 8-BIT BUTTON BOUNCE TRACK)', previewComponent: <GlobalProductCarousel6 /> },
+      { id: 'global-product-carousel-7', title: 'Design 7: SWISS ARCHITECTURAL MONOCHROME SLIDER (ANIMATION: GRID LINE DRAW & FINE LINE CROSSHAIR)', description: 'Design: SWISS ARCHITECTURAL MONOCHROME SLIDER (ANIMATION: GRID LINE DRAW & FINE LINE CROSSHAIR)', previewComponent: <GlobalProductCarousel7 /> },
+      { id: 'global-product-carousel-8', title: 'Design 8: GLASSMORPHIC PRISM DISPERSION SLIDER (ANIMATION: CHROMATIC REFRACTION & PRISM LIGHT TILT)', description: 'Design: GLASSMORPHIC PRISM DISPERSION SLIDER (ANIMATION: CHROMATIC REFRACTION & PRISM LIGHT TILT)', previewComponent: <GlobalProductCarousel8 /> },
+      { id: 'global-product-carousel-9', title: 'Design 9: GOLDEN LUXURY VINTAGE CATALOGUE CAROUSEL (ANIMATION: GOLDEN GLIMMER & SILK CROSSFADE SLIDE)', description: 'Design: GOLDEN LUXURY VINTAGE CATALOGUE CAROUSEL (ANIMATION: GOLDEN GLIMMER & SILK CROSSFADE SLIDE)', previewComponent: <GlobalProductCarousel9 /> },
+      { id: 'global-product-carousel-10', title: 'Design 10: BIOPHILIC ECO SPHERE DISPLAY CAROUSEL (ANIMATION: LEAF ORBIT & NATURE BREATHING PULSE TRACK)', description: 'Design: BIOPHILIC ECO SPHERE DISPLAY CAROUSEL (ANIMATION: LEAF ORBIT & NATURE BREATHING PULSE TRACK)', previewComponent: <GlobalProductCarousel10 /> },
+      { id: 'global-product-carousel-11', title: 'Design 11: STICKER COLLAGE STREETWEAR SLIDER (ANIMATION: STICKER ROTATE ON HOVER & SLIDE-IN TRACK)', description: 'Design: STICKER COLLAGE STREETWEAR SLIDER (ANIMATION: STICKER ROTATE ON HOVER & SLIDE-IN TRACK)', previewComponent: <GlobalProductCarousel11 /> },
+      { id: 'global-product-carousel-12', title: 'Design 12: VAPORWAVE 80S SYNTH RETRO CAROUSEL (ANIMATION: NEON GRID PASS & SYNTHWAVE PULSE TRACK)', description: 'Design: VAPORWAVE 80S SYNTH RETRO CAROUSEL (ANIMATION: NEON GRID PASS & SYNTHWAVE PULSE TRACK)', previewComponent: <GlobalProductCarousel12 /> },
+      { id: 'global-product-carousel-13', title: 'Design 13: MINIMAL JAPANESE ZEN SPACES CAROUSEL (ANIMATION: SOFT FADE & BOTANICAL SLOW PARALLAX)', description: 'Design: MINIMAL JAPANESE ZEN SPACES CAROUSEL (ANIMATION: SOFT FADE & BOTANICAL SLOW PARALLAX)', previewComponent: <GlobalProductCarousel13 /> },
+      { id: 'global-product-carousel-14', title: 'Design 14: SPACE EXPLORER ORBITAL CAROUSEL (ANIMATION: STAR DUST PARALLAX & GRAVITY PULL SCROLL)', description: 'Design: SPACE EXPLORER ORBITAL CAROUSEL (ANIMATION: STAR DUST PARALLAX & GRAVITY PULL SCROLL)', previewComponent: <GlobalProductCarousel14 /> },
+      { id: 'global-product-carousel-15', title: 'Design 15: HOLOGRAPHIC 3D SPATIAL CAROUSEL (ANIMATION: HOLOGRAM SCAN & SPECTRUM SHINE TRACK)', description: 'Design: HOLOGRAPHIC 3D SPATIAL CAROUSEL (ANIMATION: HOLOGRAM SCAN & SPECTRUM SHINE TRACK)', previewComponent: <GlobalProductCarousel15 /> },
+      { id: 'global-product-carousel-16', title: 'Design 16: EDITORIAL LUXURY FASHION LOOKBOOK SLIDER (ANIMATION: SMOOTH MODEL ZOOM & METRIC SLIDE UP)', description: 'Design: EDITORIAL LUXURY FASHION LOOKBOOK SLIDER (ANIMATION: SMOOTH MODEL ZOOM & METRIC SLIDE UP)', previewComponent: <GlobalProductCarousel16 /> },
+      { id: 'global-product-carousel-17', title: 'Design 17: KINETIC DYNAMIC TYPOGRAPHIC CAROUSEL (ANIMATION: RUNNING TEXT TICKER & ELEVATING CARDS)', description: 'Design: KINETIC DYNAMIC TYPOGRAPHIC CAROUSEL (ANIMATION: RUNNING TEXT TICKER & ELEVATING CARDS)', previewComponent: <GlobalProductCarousel17 /> },
+      { id: 'global-product-carousel-18', title: 'Design 18: TACTILE PAPER CUT ART CATALOGUE SLIDER (ANIMATION: PAPER LAYER DROP SHADOW & UNFOLD SLIDE)', description: 'Design: TACTILE PAPER CUT ART CATALOGUE SLIDER (ANIMATION: PAPER LAYER DROP SHADOW & UNFOLD SLIDE)', previewComponent: <GlobalProductCarousel18 /> },
+      { id: 'global-product-carousel-19', title: 'Design 19: BAUHAUS GEOMETRIC COLOR BLOCK CAROUSEL (ANIMATION: PRIMARY BLOCK SHIFT & ROTATE ICON SLIDE)', description: 'Design: BAUHAUS GEOMETRIC COLOR BLOCK CAROUSEL (ANIMATION: PRIMARY BLOCK SHIFT & ROTATE ICON SLIDE)', previewComponent: <GlobalProductCarousel19 /> },
+      { id: 'global-product-carousel-20', title: 'Design 20: CYBER ORGANIC BIOPUNK MARKETPLACE SLIDER (ANIMATION: BIO-CELL PULSE & TOXIC NEON HOVER TRACK)', description: 'Design: CYBER ORGANIC BIOPUNK MARKETPLACE SLIDER (ANIMATION: BIO-CELL PULSE & TOXIC NEON HOVER TRACK)', previewComponent: <GlobalProductCarousel20 /> },
+] : category === 'global-footer' ? [
+      { id: 'global-footer-1', title: 'Design 1: Floating Glassmorphic Cyber Footprint (ANIMATION: glass-pulse-glow)', description: 'Design: Floating Glassmorphic Cyber Footprint • Animation: glass-pulse-glow', previewComponent: <GlobalFooter1 /> },
+      { id: 'global-footer-2', title: 'Design 2: Minimalist Serif Cultural Gazette Footnote (ANIMATION: editorial-fade-expand)', description: 'Design: Minimalist Serif Cultural Gazette Footnote • Animation: editorial-fade-expand', previewComponent: <GlobalFooter2 /> },
+      { id: 'global-footer-3', title: 'Design 3: Neo-Brutalist Cyberpunk Footer Terminal (ANIMATION: neo-brutalist-button-pop)', description: 'Design: Neo-Brutalist Cyberpunk Footer Terminal • Animation: neo-brutalist-button-pop', previewComponent: <GlobalFooter3 /> },
+      { id: 'global-footer-4', title: 'Design 4: High-Tech Bento Grid Master Footer (ANIMATION: bento-hover-lift)', description: 'Design: High-Tech Bento Grid Master Footer • Animation: bento-hover-lift', previewComponent: <GlobalFooter4 /> },
+      { id: 'global-footer-5', title: 'Design 5: Clean Horizontal Clean Footer Strip (ANIMATION: horizontal-slide-in)', description: 'Design: Clean Horizontal Clean Footer Strip • Animation: horizontal-slide-in', previewComponent: <GlobalFooter5 /> },
+      { id: 'global-footer-6', title: 'Design 6: Floating Glassmorphic Portal Footer (ANIMATION: glass-shimmer-sweep)', description: 'Design: Floating Glassmorphic Portal Footer • Animation: glass-shimmer-sweep', previewComponent: <GlobalFooter6 /> },
+      { id: 'global-footer-7', title: 'Design 7: Minimalist Typographic Action Footer (ANIMATION: underline-expand-hover)', description: 'Design: Minimalist Typographic Action Footer • Animation: underline-expand-hover', previewComponent: <GlobalFooter7 /> },
+      { id: 'global-footer-8', title: 'Design 8: Sidebar Spotlight Footer Hub (ANIMATION: spotlight-pulse)', description: 'Design: Sidebar Spotlight Footer Hub • Animation: spotlight-pulse', previewComponent: <GlobalFooter8 /> },
+      { id: 'global-footer-9', title: 'Design 9: Neumorphic Soft Velvet Footer (ANIMATION: inset-press-elevation)', description: 'Design: Neumorphic Soft Velvet Footer • Animation: inset-press-elevation', previewComponent: <GlobalFooter9 /> },
+      { id: 'global-footer-10', title: 'Design 10: Cyberpunk Neon Terminal Protocol Footer (ANIMATION: neon-border-pulse)', description: 'Design: Cyberpunk Neon Terminal Protocol Footer • Animation: neon-border-pulse', previewComponent: <GlobalFooter10 /> },
+      { id: 'global-footer-11', title: 'Design 11: Asymmetric Floating Story Footer (ANIMATION: floating-tilt-hover)', description: 'Design: Asymmetric Floating Story Footer • Animation: floating-tilt-hover', previewComponent: <GlobalFooter11 /> },
+      { id: 'global-footer-12', title: 'Design 12: Gradient Border Glow Footer Strip (ANIMATION: gradient-shift-border)', description: 'Design: Gradient Border Glow Footer Strip • Animation: gradient-shift-border', previewComponent: <GlobalFooter12 /> },
+      { id: 'global-footer-13', title: 'Design 13: Clean Dual-Tone Publication Footer (ANIMATION: dual-tone-slide-in)', description: 'Design: Clean Dual-Tone Publication Footer • Animation: dual-tone-slide-in', previewComponent: <GlobalFooter13 /> },
+      { id: 'global-footer-14', title: 'Design 14: Modern Bento Compact Footer (ANIMATION: bento-hover-expand)', description: 'Design: Modern Bento Compact Footer • Animation: bento-hover-expand', previewComponent: <GlobalFooter14 /> },
+      { id: 'global-footer-15', title: 'Design 15: Horizontal Slide-Over Stream Footer (ANIMATION: slide-over-peek)', description: 'Design: Horizontal Slide-Over Stream Footer • Animation: slide-over-peek', previewComponent: <GlobalFooter15 /> },
+      { id: 'global-footer-16', title: 'Design 16: Compact List & Spotlight Footer (ANIMATION: compact-fade-in)', description: 'Design: Compact List & Spotlight Footer • Animation: compact-fade-in', previewComponent: <GlobalFooter16 /> },
+      { id: 'global-footer-17', title: 'Design 17: Tabbed Industry Insights Footer (ANIMATION: tab-fade-switch)', description: 'Design: Tabbed Industry Insights Footer • Animation: tab-fade-switch', previewComponent: <GlobalFooter17 /> },
+      { id: 'global-footer-18', title: 'Design 18: Dynamic Parallax Cover Footer Lift (ANIMATION: parallax-scroll-lift)', description: 'Design: Dynamic Parallax Cover Footer Lift • Animation: parallax-scroll-lift', previewComponent: <GlobalFooter18 /> },
+      { id: 'global-footer-19', title: 'Design 19: Card Overlay High-Contrast Footer (ANIMATION: overlay-zoom-fade)', description: 'Design: Card Overlay High-Contrast Footer • Animation: overlay-zoom-fade', previewComponent: <GlobalFooter19 /> },
+      { id: 'global-footer-20', title: 'Design 20: 3D Perspective Staggered Grid Footer (ANIMATION: 3d-perspective-lift)', description: 'Design: 3D Perspective Staggered Grid Footer • Animation: 3d-perspective-lift', previewComponent: <GlobalFooter20 /> }
+] : category === 'global-cta-banner' ? [
+      { id: 'global-cta-banner-1', title: 'Design 1: Floating Glassmorphic Island Banner (ANIMATION: glass-pulse-glow)', description: 'Design: Floating Glassmorphic Island Banner • Animation: glass-pulse-glow', previewComponent: <GlobalCtaBanner1 /> },
+      { id: 'global-cta-banner-2', title: 'Design 2: Minimalist Serif Cultural Gazette Invitation (ANIMATION: editorial-fade-expand)', description: 'Design: Minimalist Serif Cultural Gazette Invitation • Animation: editorial-fade-expand', previewComponent: <GlobalCtaBanner2 /> },
+      { id: 'global-cta-banner-3', title: 'Design 3: Neo-Brutalist Cyberpunk Box Banner (ANIMATION: neo-brutalist-button-pop)', description: 'Design: Neo-Brutalist Cyberpunk Box Banner • Animation: neo-brutalist-button-pop', previewComponent: <GlobalCtaBanner3 /> },
+      { id: 'global-cta-banner-4', title: 'Design 4: High-Tech Bento Column Matrix Banner (ANIMATION: bento-hover-lift)', description: 'Design: High-Tech Bento Column Matrix Banner • Animation: bento-hover-lift', previewComponent: <GlobalCtaBanner4 /> },
+      { id: 'global-cta-banner-5', title: 'Design 5: Clean Horizontal Banner Strip (ANIMATION: horizontal-slide-in)', description: 'Design: Clean Horizontal Banner Strip • Animation: horizontal-slide-in', previewComponent: <GlobalCtaBanner5 /> },
+      { id: 'global-cta-banner-6', title: 'Design 6: Floating Glassmorphic Portal Banner (ANIMATION: glass-shimmer-sweep)', description: 'Design: Floating Glassmorphic Portal Banner • Animation: glass-shimmer-sweep', previewComponent: <GlobalCtaBanner6 /> },
+      { id: 'global-cta-banner-7', title: 'Design 7: Minimalist Typographic Action Strip (ANIMATION: underline-expand-hover)', description: 'Design: Minimalist Typographic Action Strip • Animation: underline-expand-hover', previewComponent: <GlobalCtaBanner7 /> },
+      { id: 'global-cta-banner-8', title: 'Design 8: Sidebar Spotlight CTA Hub (ANIMATION: spotlight-pulse)', description: 'Design: Sidebar Spotlight CTA Hub • Animation: spotlight-pulse', previewComponent: <GlobalCtaBanner8 /> },
+      { id: 'global-cta-banner-9', title: 'Design 9: Neumorphic Soft Velvet Banner (ANIMATION: inset-press-elevation)', description: 'Design: Neumorphic Soft Velvet Banner • Animation: inset-press-elevation', previewComponent: <GlobalCtaBanner9 /> },
+      { id: 'global-cta-banner-10', title: 'Design 10: Cyberpunk Neon Terminal Protocol Banner (ANIMATION: neon-border-pulse)', description: 'Design: Cyberpunk Neon Terminal Protocol Banner • Animation: neon-border-pulse', previewComponent: <GlobalCtaBanner10 /> },
+      { id: 'global-cta-banner-11', title: 'Design 11: Asymmetric Floating Story Banner (ANIMATION: floating-tilt-hover)', description: 'Design: Asymmetric Floating Story Banner • Animation: floating-tilt-hover', previewComponent: <GlobalCtaBanner11 /> },
+      { id: 'global-cta-banner-12', title: 'Design 12: Gradient Border Glow Banner Strip (ANIMATION: gradient-shift-border)', description: 'Design: Gradient Border Glow Banner Strip • Animation: gradient-shift-border', previewComponent: <GlobalCtaBanner12 /> },
+      { id: 'global-cta-banner-13', title: 'Design 13: Clean Dual-Tone Publication Banner (ANIMATION: dual-tone-slide-in)', description: 'Design: Clean Dual-Tone Publication Banner • Animation: dual-tone-slide-in', previewComponent: <GlobalCtaBanner13 /> },
+      { id: 'global-cta-banner-14', title: 'Design 14: Modern Bento Compact Banner (ANIMATION: bento-hover-expand)', description: 'Design: Modern Bento Compact Banner • Animation: bento-hover-expand', previewComponent: <GlobalCtaBanner14 /> },
+      { id: 'global-cta-banner-15', title: 'Design 15: Horizontal Slide-Over Stream Banner (ANIMATION: slide-over-peek)', description: 'Design: Horizontal Slide-Over Stream Banner • Animation: slide-over-peek', previewComponent: <GlobalCtaBanner15 /> },
+      { id: 'global-cta-banner-16', title: 'Design 16: Compact List & Spotlight CTA (ANIMATION: compact-fade-in)', description: 'Design: Compact List & Spotlight CTA • Animation: compact-fade-in', previewComponent: <GlobalCtaBanner16 /> },
+      { id: 'global-cta-banner-17', title: 'Design 17: Tabbed Industry Insights Banner (ANIMATION: tab-fade-switch)', description: 'Design: Tabbed Industry Insights Banner • Animation: tab-fade-switch', previewComponent: <GlobalCtaBanner17 /> },
+      { id: 'global-cta-banner-18', title: 'Design 18: Dynamic Parallax Cover CTA Lift (ANIMATION: parallax-scroll-lift)', description: 'Design: Dynamic Parallax Cover CTA Lift • Animation: parallax-scroll-lift', previewComponent: <GlobalCtaBanner18 /> },
+      { id: 'global-cta-banner-19', title: 'Design 19: Card Overlay High-Contrast Banner (ANIMATION: overlay-zoom-fade)', description: 'Design: Card Overlay High-Contrast Banner • Animation: overlay-zoom-fade', previewComponent: <GlobalCtaBanner19 /> },
+      { id: 'global-cta-banner-20', title: 'Design 20: 3D Perspective Staggered Grid Banner (ANIMATION: 3d-perspective-lift)', description: 'Design: 3D Perspective Staggered Grid Banner • Animation: 3d-perspective-lift', previewComponent: <GlobalCtaBanner20 /> }
+] : category === 'global-trust-certification' ? [
+      { id: 'global-trust-certification-1', title: 'Design 1: Floating Glassmorphic Trust Matrix (ANIMATION: glass-pulse-glow)', description: 'Design: Floating Glassmorphic Trust Matrix • Animation: glass-pulse-glow', previewComponent: <GlobalTrustCertification1 /> },
+      { id: 'global-trust-certification-2', title: 'Design 2: Minimalist Serif Cultural Gazette Badges (ANIMATION: editorial-fade-expand)', description: 'Design: Minimalist Serif Cultural Gazette Badges • Animation: editorial-fade-expand', previewComponent: <GlobalTrustCertification2 /> },
+      { id: 'global-trust-certification-3', title: 'Design 3: Neo-Brutalist Cyberpunk Trust Matrix (ANIMATION: neo-brutalist-button-pop)', description: 'Design: Neo-Brutalist Cyberpunk Trust Matrix • Animation: neo-brutalist-button-pop', previewComponent: <GlobalTrustCertification3 /> },
+      { id: 'global-trust-certification-4', title: 'Design 4: High-Tech Bento Trust & Compliance Grid (ANIMATION: bento-hover-lift)', description: 'Design: High-Tech Bento Trust & Compliance Grid • Animation: bento-hover-lift', previewComponent: <GlobalTrustCertification4 /> },
+      { id: 'global-trust-certification-5', title: 'Design 5: Clean Horizontal Security Strip (ANIMATION: horizontal-slide-in)', description: 'Design: Clean Horizontal Security Strip • Animation: horizontal-slide-in', previewComponent: <GlobalTrustCertification5 /> },
+      { id: 'global-trust-certification-6', title: 'Design 6: Floating Glassmorphic Badge Portal (ANIMATION: glass-shimmer-sweep)', description: 'Design: Floating Glassmorphic Badge Portal • Animation: glass-shimmer-sweep', previewComponent: <GlobalTrustCertification6 /> },
+      { id: 'global-trust-certification-7', title: 'Design 7: Minimalist Typographic Spec List (ANIMATION: underline-expand-hover)', description: 'Design: Minimalist Typographic Spec List • Animation: underline-expand-hover', previewComponent: <GlobalTrustCertification7 /> },
+      { id: 'global-trust-certification-8', title: 'Design 8: Sidebar Spotlight Trust Hub (ANIMATION: spotlight-pulse)', description: 'Design: Sidebar Spotlight Trust Hub • Animation: spotlight-pulse', previewComponent: <GlobalTrustCertification8 /> },
+      { id: 'global-trust-certification-9', title: 'Design 9: Neumorphic Soft Velvet Shield (ANIMATION: inset-press-elevation)', description: 'Design: Neumorphic Soft Velvet Shield • Animation: inset-press-elevation', previewComponent: <GlobalTrustCertification9 /> },
+      { id: 'global-trust-certification-10', title: 'Design 10: Cyberpunk Neon Terminal Protocol (ANIMATION: neon-border-pulse)', description: 'Design: Cyberpunk Neon Terminal Protocol • Animation: neon-border-pulse', previewComponent: <GlobalTrustCertification10 /> },
+      { id: 'global-trust-certification-11', title: 'Design 11: Asymmetric Floating Guarantee Cards (ANIMATION: floating-tilt-hover)', description: 'Design: Asymmetric Floating Guarantee Cards • Animation: floating-tilt-hover', previewComponent: <GlobalTrustCertification11 /> },
+      { id: 'global-trust-certification-12', title: 'Design 12: Gradient Border Glow Trust Strip (ANIMATION: gradient-shift-border)', description: 'Design: Gradient Border Glow Trust Strip • Animation: gradient-shift-border', previewComponent: <GlobalTrustCertification12 /> },
+      { id: 'global-trust-certification-13', title: 'Design 13: Clean Dual-Tone Standard Publication (ANIMATION: dual-tone-slide-in)', description: 'Design: Clean Dual-Tone Standard Publication • Animation: dual-tone-slide-in', previewComponent: <GlobalTrustCertification13 /> },
+      { id: 'global-trust-certification-14', title: 'Design 14: Modern Bento Compact Certification (ANIMATION: bento-hover-expand)', description: 'Design: Modern Bento Compact Certification • Animation: bento-hover-expand', previewComponent: <GlobalTrustCertification14 /> },
+      { id: 'global-trust-certification-15', title: 'Design 15: Horizontal Slide-Over Security Feed (ANIMATION: slide-over-peek)', description: 'Design: Horizontal Slide-Over Security Feed • Animation: slide-over-peek', previewComponent: <GlobalTrustCertification15 /> },
+      { id: 'global-trust-certification-16', title: 'Design 16: Compact List & Spotlight Badges (ANIMATION: compact-fade-in)', description: 'Design: Compact List & Spotlight Badges • Animation: compact-fade-in', previewComponent: <GlobalTrustCertification16 /> },
+      { id: 'global-trust-certification-17', title: 'Design 17: Tabbed Industry Insights Standard (ANIMATION: tab-fade-switch)', description: 'Design: Tabbed Industry Insights Standard • Animation: tab-fade-switch', previewComponent: <GlobalTrustCertification17 /> },
+      { id: 'global-trust-certification-18', title: 'Design 18: Dynamic Parallax Cover Trust Lift (ANIMATION: parallax-scroll-lift)', description: 'Design: Dynamic Parallax Cover Trust Lift • Animation: parallax-scroll-lift', previewComponent: <GlobalTrustCertification18 /> },
+      { id: 'global-trust-certification-19', title: 'Design 19: Card Overlay High-Contrast Shield (ANIMATION: overlay-zoom-fade)', description: 'Design: Card Overlay High-Contrast Shield • Animation: overlay-zoom-fade', previewComponent: <GlobalTrustCertification19 /> },
+      { id: 'global-trust-certification-20', title: 'Design 20: 3D Perspective Staggered Badge Grid (ANIMATION: 3d-perspective-lift)', description: 'Design: 3D Perspective Staggered Badge Grid • Animation: 3d-perspective-lift', previewComponent: <GlobalTrustCertification20 /> }
+] : category === 'global-newsletter' ? [
+      { id: 'global-newsletter-1', title: 'Design 1: Floating Glassmorphic Island (ANIMATION: glass-pulse-glow)', description: 'Design: Floating Glassmorphic Island • Animation: glass-pulse-glow', previewComponent: <GlobalNewsletter1 /> },
+      { id: 'global-newsletter-2', title: 'Design 2: Minimalist Serif Cultural Gazette (ANIMATION: editorial-fade-expand)', description: 'Design: Minimalist Serif Cultural Gazette • Animation: editorial-fade-expand', previewComponent: <GlobalNewsletter2 /> },
+      { id: 'global-newsletter-3', title: 'Design 3: Neo-Brutalist Cyberpunk Box (ANIMATION: neo-brutalist-button-pop)', description: 'Design: Neo-Brutalist Cyberpunk Box • Animation: neo-brutalist-button-pop', previewComponent: <GlobalNewsletter3 /> },
+      { id: 'global-newsletter-4', title: 'Design 4: High-Tech Bento Column Matrix (ANIMATION: bento-hover-lift)', description: 'Design: High-Tech Bento Column Matrix • Animation: bento-hover-lift', previewComponent: <GlobalNewsletter4 /> },
+      { id: 'global-newsletter-5', title: 'Design 5: Clean Horizontal Banner Stream (ANIMATION: horizontal-slide-in)', description: 'Design: Clean Horizontal Banner Stream • Animation: horizontal-slide-in', previewComponent: <GlobalNewsletter5 /> },
+      { id: 'global-newsletter-6', title: 'Design 6: Floating Glassmorphic Portal (ANIMATION: glass-shimmer-sweep)', description: 'Design: Floating Glassmorphic Portal • Animation: glass-shimmer-sweep', previewComponent: <GlobalNewsletter6 /> },
+      { id: 'global-newsletter-7', title: 'Design 7: Minimalist Typographic List (ANIMATION: underline-expand-hover)', description: 'Design: Minimalist Typographic List • Animation: underline-expand-hover', previewComponent: <GlobalNewsletter7 /> },
+      { id: 'global-newsletter-8', title: 'Design 8: Sidebar Spotlight Hub (ANIMATION: spotlight-pulse)', description: 'Design: Sidebar Spotlight Hub • Animation: spotlight-pulse', previewComponent: <GlobalNewsletter8 /> },
+      { id: 'global-newsletter-9', title: 'Design 9: Neumorphic Soft Velvet Box (ANIMATION: inset-press-elevation)', description: 'Design: Neumorphic Soft Velvet Box • Animation: inset-press-elevation', previewComponent: <GlobalNewsletter9 /> },
+      { id: 'global-newsletter-10', title: 'Design 10: Cyberpunk Neon Terminal Protocol (ANIMATION: neon-border-pulse)', description: 'Design: Cyberpunk Neon Terminal Protocol • Animation: neon-border-pulse', previewComponent: <GlobalNewsletter10 /> },
+      { id: 'global-newsletter-11', title: 'Design 11: Asymmetric Floating Story Box (ANIMATION: floating-tilt-hover)', description: 'Design: Asymmetric Floating Story Box • Animation: floating-tilt-hover', previewComponent: <GlobalNewsletter11 /> },
+      { id: 'global-newsletter-12', title: 'Design 12: Gradient Border Glow Banner (ANIMATION: gradient-shift-border)', description: 'Design: Gradient Border Glow Banner • Animation: gradient-shift-border', previewComponent: <GlobalNewsletter12 /> },
+      { id: 'global-newsletter-13', title: 'Design 13: Clean Dual-Tone Publication (ANIMATION: dual-tone-slide-in)', description: 'Design: Clean Dual-Tone Publication • Animation: dual-tone-slide-in', previewComponent: <GlobalNewsletter13 /> },
+      { id: 'global-newsletter-14', title: 'Design 14: Modern Bento Compact Box (ANIMATION: bento-hover-expand)', description: 'Design: Modern Bento Compact Box • Animation: bento-hover-expand', previewComponent: <GlobalNewsletter14 /> },
+      { id: 'global-newsletter-15', title: 'Design 15: Horizontal Slide-Over Feed (ANIMATION: slide-over-peek)', description: 'Design: Horizontal Slide-Over Feed • Animation: slide-over-peek', previewComponent: <GlobalNewsletter15 /> },
+      { id: 'global-newsletter-16', title: 'Design 16: Compact List & Spotlight (ANIMATION: compact-fade-in)', description: 'Design: Compact List & Spotlight • Animation: compact-fade-in', previewComponent: <GlobalNewsletter16 /> },
+      { id: 'global-newsletter-17', title: 'Design 17: Tabbed Industry Insights Hub (ANIMATION: tab-fade-switch)', description: 'Design: Tabbed Industry Insights Hub • Animation: tab-fade-switch', previewComponent: <GlobalNewsletter17 /> },
+      { id: 'global-newsletter-18', title: 'Design 18: Dynamic Parallax Cover Lift (ANIMATION: parallax-scroll-lift)', description: 'Design: Dynamic Parallax Cover Lift • Animation: parallax-scroll-lift', previewComponent: <GlobalNewsletter18 /> },
+      { id: 'global-newsletter-19', title: 'Design 19: Card Overlay High-Contrast Box (ANIMATION: overlay-zoom-fade)', description: 'Design: Card Overlay High-Contrast Box • Animation: overlay-zoom-fade', previewComponent: <GlobalNewsletter19 /> },
+      { id: 'global-newsletter-20', title: 'Design 20: 3D Perspective Staggered Grid (ANIMATION: 3d-perspective-lift)', description: 'Design: 3D Perspective Staggered Grid • Animation: 3d-perspective-lift', previewComponent: <GlobalNewsletter20 /> }
+] : category === 'global-faq' ? [
+      { id: 'global-faq-1', title: 'Design 1: Modern Searchable Accordion (ANIMATION: smooth-accordion-collapse)', description: 'Design: Modern Searchable Accordion • Animation: smooth-accordion-collapse', previewComponent: <GlobalFaq1 /> },
+      { id: 'global-faq-2', title: 'Design 2: Minimalist Serif Editorial Gazette (ANIMATION: editorial-fade-expand)', description: 'Design: Minimalist Serif Editorial Gazette • Animation: editorial-fade-expand', previewComponent: <GlobalFaq2 /> },
+      { id: 'global-faq-3', title: 'Design 3: Neo-Brutalist Cyberpunk Racks (ANIMATION: neo-brutalist-slide-toggle)', description: 'Design: Neo-Brutalist Cyberpunk Racks • Animation: neo-brutalist-slide-toggle', previewComponent: <GlobalFaq3 /> },
+      { id: 'global-faq-4', title: 'Design 4: High-Tech Bento Grid Cards (ANIMATION: bento-hover-lift)', description: 'Design: High-Tech Bento Grid Cards • Animation: bento-hover-lift', previewComponent: <GlobalFaq4 /> },
+      { id: 'global-faq-5', title: 'Design 5: Categorized Tabbed FAQ Switcher (ANIMATION: tab-switch-fade)', description: 'Design: Categorized Tabbed FAQ Switcher • Animation: tab-switch-fade', previewComponent: <GlobalFaq5 /> },
+      { id: 'global-faq-6', title: 'Design 6: Floating Glassmorphic Accordion (ANIMATION: glass-pulse-glow)', description: 'Design: Floating Glassmorphic Accordion • Animation: glass-pulse-glow', previewComponent: <GlobalFaq6 /> },
+      { id: 'global-faq-7', title: 'Design 7: Minimalist Typographic List (ANIMATION: underline-expand-hover)', description: 'Design: Minimalist Typographic List • Animation: underline-expand-hover', previewComponent: <GlobalFaq7 /> },
+      { id: 'global-faq-8', title: 'Design 8: Sidebar Spotlight FAQ Hub (ANIMATION: spotlight-pulse)', description: 'Design: Sidebar Spotlight FAQ Hub • Animation: spotlight-pulse', previewComponent: <GlobalFaq8 /> },
+      { id: 'global-faq-9', title: 'Design 9: Neumorphic Soft Reader (ANIMATION: inset-press-elevation)', description: 'Design: Neumorphic Soft Reader • Animation: inset-press-elevation', previewComponent: <GlobalFaq9 /> },
+      { id: 'global-faq-10', title: 'Design 10: Cyberpunk Neon Wireframe Protocol (ANIMATION: neon-border-pulse)', description: 'Design: Cyberpunk Neon Wireframe Protocol • Animation: neon-border-pulse', previewComponent: <GlobalFaq10 /> },
+      { id: 'global-faq-11', title: 'Design 11: Asymmetric Floating Cards (ANIMATION: floating-tilt-hover)', description: 'Design: Asymmetric Floating Cards • Animation: floating-tilt-hover', previewComponent: <GlobalFaq11 /> },
+      { id: 'global-faq-12', title: 'Design 12: Gradient Border Glow Accordion (ANIMATION: gradient-shift-border)', description: 'Design: Gradient Border Glow Accordion • Animation: gradient-shift-border', previewComponent: <GlobalFaq12 /> },
+      { id: 'global-faq-13', title: 'Design 13: Clean Dual-Tone Publication (ANIMATION: dual-tone-slide-in)', description: 'Design: Clean Dual-Tone Publication • Animation: dual-tone-slide-in', previewComponent: <GlobalFaq13 /> },
+      { id: 'global-faq-14', title: 'Design 14: Modern Bento Compact Grid (ANIMATION: bento-hover-expand)', description: 'Design: Modern Bento Compact Grid • Animation: bento-hover-expand', previewComponent: <GlobalFaq14 /> },
+      { id: 'global-faq-15', title: 'Design 15: Horizontal Slide-Over Stream (ANIMATION: slide-over-peek)', description: 'Design: Horizontal Slide-Over Stream • Animation: slide-over-peek', previewComponent: <GlobalFaq15 /> },
+      { id: 'global-faq-16', title: 'Design 16: Compact List & Spotlight (ANIMATION: compact-fade-in)', description: 'Design: Compact List & Spotlight • Animation: compact-fade-in', previewComponent: <GlobalFaq16 /> },
+      { id: 'global-faq-17', title: 'Design 17: Tabbed Industry Insights (ANIMATION: tab-fade-switch)', description: 'Design: Tabbed Industry Insights • Animation: tab-fade-switch', previewComponent: <GlobalFaq17 /> },
+      { id: 'global-faq-18', title: 'Design 18: Dynamic Parallax Cover Lift (ANIMATION: parallax-scroll-lift)', description: 'Design: Dynamic Parallax Cover Lift • Animation: parallax-scroll-lift', previewComponent: <GlobalFaq18 /> },
+      { id: 'global-faq-19', title: 'Design 19: Card Overlay High-Contrast (ANIMATION: overlay-zoom-fade)', description: 'Design: Card Overlay High-Contrast • Animation: overlay-zoom-fade', previewComponent: <GlobalFaq19 /> },
+      { id: 'global-faq-20', title: 'Design 20: 3D Perspective Staggered Grid (ANIMATION: 3d-perspective-lift)', description: 'Design: 3D Perspective Staggered Grid • Animation: 3d-perspective-lift', previewComponent: <GlobalFaq20 /> },
+] : category === 'global-blog-grid' ? [
+      { id: 'global-blog-grid-1', title: 'Design 1: GLASSMORPHIC BENTO BLOG GRID (ANIMATION: HOVER 3D TILT & GLOW FOLLOW)', description: 'Design: GLASSMORPHIC BENTO BLOG GRID • Animation: HOVER 3D TILT & GLOW FOLLOW', previewComponent: <GlobalBlogGrid1 /> },
+      { id: 'global-blog-grid-2', title: 'Design 2: HIGH-FASHION EDITORIAL LUXURY MAGAZINE GRID (ANIMATION: SMOOTH IMAGE SCALE-UP & TEXT ELEVATION)', description: 'Design: HIGH-FASHION EDITORIAL LUXURY MAGAZINE GRID • Animation: SMOOTH IMAGE SCALE-UP & TEXT ELEVATION', previewComponent: <GlobalBlogGrid2 /> },
+      { id: 'global-blog-grid-3', title: 'Design 3: NEO-BRUTALIST CYBERPUNK BLOG CARDS (ANIMATION: HARD OFFSET SHADOW PUSH & GLITCH BADGE)', description: 'Design: NEO-BRUTALIST CYBERPUNK BLOG CARDS • Animation: HARD OFFSET SHADOW PUSH & GLITCH BADGE', previewComponent: <GlobalBlogGrid3 /> },
+      { id: 'global-blog-grid-4', title: 'Design 4: 3D TACTILE CLAYMORPHIC BLOG DECK (ANIMATION: TACTILE PRESS BOUNCE & SPARKLE EXPANSION)', description: 'Design: 3D TACTILE CLAYMORPHIC BLOG DECK • Animation: TACTILE PRESS BOUNCE & SPARKLE EXPANSION', previewComponent: <GlobalBlogGrid4 /> },
+      { id: 'global-blog-grid-5', title: 'Design 5: HOLOGRAPHIC NEON CYBER BLOG MATRIX (ANIMATION: HOLOGRAPHIC SHIMMER SWEEP & LASER PULSE)', description: 'Design: HOLOGRAPHIC NEON CYBER BLOG MATRIX • Animation: HOLOGRAPHIC SHIMMER SWEEP & LASER PULSE', previewComponent: <GlobalBlogGrid5 /> },
+      { id: 'global-blog-grid-6', title: 'Design 6: HORIZONTAL EXPANDABLE ACCORDION BLOG GRID (ANIMATION: FLUID WIDTH EXPANSION & TEXT UNBLUR)', description: 'Design: HORIZONTAL EXPANDABLE ACCORDION BLOG GRID • Animation: FLUID WIDTH EXPANSION & TEXT UNBLUR', previewComponent: <GlobalBlogGrid6 /> },
+      { id: 'global-blog-grid-7', title: 'Design 7: SKEUOMORPHIC VELVET GOLD PRIVILEGE JOURNAL (ANIMATION: GOLD REFLECTION SWEEP & PRESSED INSET)', description: 'Design: SKEUOMORPHIC VELVET GOLD PRIVILEGE JOURNAL • Animation: GOLD REFLECTION SWEEP & PRESSED INSET', previewComponent: <GlobalBlogGrid7 /> },
+      { id: 'global-blog-grid-8', title: 'Design 8: SPLIT-TONE DIAGONAL ARTICLE CARDS (ANIMATION: DIAGONAL SLIDE & DYNAMIC COLOR SWITCH)', description: 'Design: SPLIT-TONE DIAGONAL ARTICLE CARDS • Animation: DIAGONAL SLIDE & DYNAMIC COLOR SWITCH', previewComponent: <GlobalBlogGrid8 /> },
+      { id: 'global-blog-grid-9', title: 'Design 9: SUB-ZERO ICE FROST REFRACTIVE BLOG DECK (ANIMATION: CRYSTAL LIGHT SPLIT & SNOWFALL SHIMMER)', description: 'Design: SUB-ZERO ICE FROST REFRACTIVE BLOG DECK • Animation: CRYSTAL LIGHT SPLIT & SNOWFALL SHIMMER', previewComponent: <GlobalBlogGrid9 /> },
+      { id: 'global-blog-grid-10', title: 'Design 10: RETRO POLAROID FILM REEL JOURNAL GRID (ANIMATION: DYNAMIC CARD STRAIGHTEN & UNSTICK TAPE)', description: 'Design: RETRO POLAROID FILM REEL JOURNAL GRID • Animation: DYNAMIC CARD STRAIGHTEN & UNSTICK TAPE', previewComponent: <GlobalBlogGrid10 /> },
+      { id: 'global-blog-grid-11', title: 'Design 11: ISOMETRIC 3D SPATIAL ARTICLE DECK (ANIMATION: ISOMETRIC CARD LIFT UP & FLOATING SHADOW)', description: 'Design: ISOMETRIC 3D SPATIAL ARTICLE DECK • Animation: ISOMETRIC CARD LIFT UP & FLOATING SHADOW', previewComponent: <GlobalBlogGrid11 /> },
+      { id: 'global-blog-grid-12', title: 'Design 12: MINIMALIST BLUEPRINT LINE-ART ARTICLE SPEC (ANIMATION: HAIRLINE VECTOR DRAW & DYNAMIC COUNTER)', description: 'Design: MINIMALIST BLUEPRINT LINE-ART ARTICLE SPEC • Animation: HAIRLINE VECTOR DRAW & DYNAMIC COUNTER', previewComponent: <GlobalBlogGrid12 /> },
+      { id: 'global-blog-grid-13', title: 'Design 13: CIRCULAR RADIAL NODE ARTICLE RING (ANIMATION: SMOOTH ORBITAL ROTATION & NODE HOVER PULL)', description: 'Design: CIRCULAR RADIAL NODE ARTICLE RING • Animation: SMOOTH ORBITAL ROTATION & NODE HOVER PULL', previewComponent: <GlobalBlogGrid13 /> },
+      { id: 'global-blog-grid-14', title: 'Design 14: CINEMATIC MOTION VIDEO ARTICLE CANVAS (ANIMATION: LIVE VIDEO UNBLUR & WAVEFORM PULSE)', description: 'Design: CINEMATIC MOTION VIDEO ARTICLE CANVAS • Animation: LIVE VIDEO UNBLUR & WAVEFORM PULSE', previewComponent: <GlobalBlogGrid14 /> },
+      { id: 'global-blog-grid-15', title: 'Design 15: DIAMOND FACET PRISM BLOG GRID (ANIMATION: PRISMATIC FACET ANGLE SHIFT & RAY REVEAL)', description: 'Design: DIAMOND FACET PRISM BLOG GRID • Animation: PRISMATIC FACET ANGLE SHIFT & RAY REVEAL', previewComponent: <GlobalBlogGrid15 /> },
+      { id: 'global-blog-grid-16', title: 'Design 16: CYBER MATRIX TERMINAL BLOG LOGS (ANIMATION: MATRIX CODE SCANLINE SWEEP & TELEMETRY PULSE)', description: 'Design: CYBER MATRIX TERMINAL BLOG LOGS • Animation: MATRIX CODE SCANLINE SWEEP & TELEMETRY PULSE', previewComponent: <GlobalBlogGrid16 /> },
+      { id: 'global-blog-grid-17', title: 'Design 17: ORGANIC CURVED SUNSET FLUID JOURNAL (ANIMATION: PEBBLE BLOB MORPH & LIQUID RIPPLE DRIFT)', description: 'Design: ORGANIC CURVED SUNSET FLUID JOURNAL • Animation: PEBBLE BLOB MORPH & LIQUID RIPPLE DRIFT', previewComponent: <GlobalBlogGrid17 /> },
+      { id: 'global-blog-grid-18', title: 'Design 18: ELEVATED CARD DECK FAN-OUT BLOG GRID (ANIMATION: CARD FAN-OUT & ACTIVE SLIDE ELEVATION)', description: 'Design: ELEVATED CARD DECK FAN-OUT BLOG GRID • Animation: CARD FAN-OUT & ACTIVE SLIDE ELEVATION', previewComponent: <GlobalBlogGrid18 /> },
+      { id: 'global-blog-grid-19', title: 'Design 19: MODERN NEUMORPHIC SOFT INSET ARTICLE GRID (ANIMATION: TACTILE INSET PRESS DEPTH & SOFT GLOW)', description: 'Design: MODERN NEUMORPHIC SOFT INSET ARTICLE GRID • Animation: TACTILE INSET PRESS DEPTH & SOFT GLOW', previewComponent: <GlobalBlogGrid19 /> },
+      { id: 'global-blog-grid-20', title: 'Design 20: FLAGSHIP OMNICHANNEL BENTO MASTER BLOG SUITE (ANIMATION: STAGGERED CASCADE ENTRANCE & BADGE PULSE)', description: 'Design: FLAGSHIP OMNICHANNEL BENTO MASTER BLOG SUITE • Animation: STAGGERED CASCADE ENTRANCE & BADGE PULSE', previewComponent: <GlobalBlogGrid20 /> },
+] : category === 'global-video-section' ? [
+      { id: 'global-video-section-1', title: 'Design 1: GLASSMORPHIC BENTO VIDEO SUITE (ANIMATION: HOVER 3D TILT & PLAYHEAD PULSE)', description: 'Design: GLASSMORPHIC BENTO VIDEO SUITE • Animation: HOVER 3D TILT & PLAYHEAD PULSE', previewComponent: <GlobalVideoSection1 /> },
+      { id: 'global-video-section-2', title: 'Design 2: HIGH-FASHION EDITORIAL CINEMA DECK (ANIMATION: SMOOTH SCALE-UP & MULTI-LAYER ELEVATION)', description: 'Design: HIGH-FASHION EDITORIAL CINEMA DECK • Animation: SMOOTH SCALE-UP & MULTI-LAYER ELEVATION', previewComponent: <GlobalVideoSection2 /> },
+      { id: 'global-video-section-3', title: 'Design 3: NEO-BRUTALIST CYBERPUNK VIDEO PLAYER (ANIMATION: HARD OFFSET SHADOW PUSH & GLITCH PULSE)', description: 'Design: NEO-BRUTALIST CYBERPUNK VIDEO PLAYER • Animation: HARD OFFSET SHADOW PUSH & GLITCH PULSE', previewComponent: <GlobalVideoSection3 /> },
+      { id: 'global-video-section-4', title: 'Design 4: 3D TACTILE CLAYMORPHIC VIDEO CARDS (ANIMATION: TACTILE PRESS BOUNCE & SPARKLE EXPANSION)', description: 'Design: 3D TACTILE CLAYMORPHIC VIDEO CARDS • Animation: TACTILE PRESS BOUNCE & SPARKLE EXPANSION', previewComponent: <GlobalVideoSection4 /> },
+      { id: 'global-video-section-5', title: 'Design 5: HOLOGRAPHIC NEON CYBER VIDEO MATRIX (ANIMATION: HOLOGRAPHIC SHIMMER SWEEP & LASER PULSE)', description: 'Design: HOLOGRAPHIC NEON CYBER VIDEO MATRIX • Animation: HOLOGRAPHIC SHIMMER SWEEP & LASER PULSE', previewComponent: <GlobalVideoSection5 /> },
+      { id: 'global-video-section-6', title: 'Design 6: HORIZONTAL EXPANDABLE ACCORDION VIDEO DECK (ANIMATION: FLUID WIDTH EXPANSION & UNBLUR)', description: 'Design: HORIZONTAL EXPANDABLE ACCORDION VIDEO DECK • Animation: FLUID WIDTH EXPANSION & UNBLUR', previewComponent: <GlobalVideoSection6 /> },
+      { id: 'global-video-section-7', title: 'Design 7: SKEUOMORPHIC VELVET GOLD CINEMA (ANIMATION: GOLD REFLECTION SWEEP & PRESSED INSET)', description: 'Design: SKEUOMORPHIC VELVET GOLD CINEMA • Animation: GOLD REFLECTION SWEEP & PRESSED INSET', previewComponent: <GlobalVideoSection7 /> },
+      { id: 'global-video-section-8', title: 'Design 8: SPLIT-TONE DIAGONAL VIDEO FEATURE (ANIMATION: DIAGONAL SLIDE & DYNAMIC COLOR SWITCH)', description: 'Design: SPLIT-TONE DIAGONAL VIDEO FEATURE • Animation: DIAGONAL SLIDE & DYNAMIC COLOR SWITCH', previewComponent: <GlobalVideoSection8 /> },
+      { id: 'global-video-section-9', title: 'Design 9: SUB-ZERO ICE FROST REFRACTIVE VIDEO SHOWCASE (ANIMATION: CRYSTAL LIGHT SPLIT & SNOWFALL SHIMMER)', description: 'Design: SUB-ZERO ICE FROST REFRACTIVE VIDEO SHOWCASE • Animation: CRYSTAL LIGHT SPLIT & SNOWFALL SHIMMER', previewComponent: <GlobalVideoSection9 /> },
+      { id: 'global-video-section-10', title: 'Design 10: RETRO POLAROID FILM REEL SHOWCASE (ANIMATION: DYNAMIC CARD STRAIGHTEN & UNSTICK TAPE)', description: 'Design: RETRO POLAROID FILM REEL SHOWCASE • Animation: DYNAMIC CARD STRAIGHTEN & UNSTICK TAPE', previewComponent: <GlobalVideoSection10 /> },
+      { id: 'global-video-section-11', title: 'Design 11: ISOMETRIC 3D SPATIAL VIDEO DECK (ANIMATION: ISOMETRIC CARD LIFT UP & FLOATING SHADOW)', description: 'Design: ISOMETRIC 3D SPATIAL VIDEO DECK • Animation: ISOMETRIC CARD LIFT UP & FLOATING SHADOW', previewComponent: <GlobalVideoSection11 /> },
+      { id: 'global-video-section-12', title: 'Design 12: MINIMALIST BLUEPRINT LINE-ART VIDEO SPEC (ANIMATION: HAIRLINE VECTOR DRAW & PLAYHEAD COUNTER)', description: 'Design: MINIMALIST BLUEPRINT LINE-ART VIDEO SPEC • Animation: HAIRLINE VECTOR DRAW & PLAYHEAD COUNTER', previewComponent: <GlobalVideoSection12 /> },
+      { id: 'global-video-section-13', title: 'Design 13: CIRCULAR RADIAL NODE VIDEO SPOTLIGHT (ANIMATION: SMOOTH ORBITAL ROTATION & NODE HOVER PULL)', description: 'Design: CIRCULAR RADIAL NODE VIDEO SPOTLIGHT • Animation: SMOOTH ORBITAL ROTATION & NODE HOVER PULL', previewComponent: <GlobalVideoSection13 /> },
+      { id: 'global-video-section-14', title: 'Design 14: CINEMATIC WIDESCREEN MOTION CANVAS (ANIMATION: LIVE VIDEO UNBLUR & WAVEFORM AUDIO PULSE)', description: 'Design: CINEMATIC WIDESCREEN MOTION CANVAS • Animation: LIVE VIDEO UNBLUR & WAVEFORM AUDIO PULSE', previewComponent: <GlobalVideoSection14 /> },
+      { id: 'global-video-section-15', title: 'Design 15: DIAMOND FACET PRISM VIDEO SHOWCASE (ANIMATION: PRISMATIC FACET ANGLE SHIFT & RAY REVEAL)', description: 'Design: DIAMOND FACET PRISM VIDEO SHOWCASE • Animation: PRISMATIC FACET ANGLE SHIFT & RAY REVEAL', previewComponent: <GlobalVideoSection15 /> },
+      { id: 'global-video-section-16', title: 'Design 16: CYBER MATRIX TERMINAL VIDEO STREAM (ANIMATION: MATRIX CODE SCANLINE SWEEP & TELEMETRY PULSE)', description: 'Design: CYBER MATRIX TERMINAL VIDEO STREAM • Animation: MATRIX CODE SCANLINE SWEEP & TELEMETRY PULSE', previewComponent: <GlobalVideoSection16 /> },
+      { id: 'global-video-section-17', title: 'Design 17: ORGANIC CURVED SUNSET FLUID VIDEO CANVAS (ANIMATION: PEBBLE BLOB MORPH & LIQUID RIPPLE DRIFT)', description: 'Design: ORGANIC CURVED SUNSET FLUID VIDEO CANVAS • Animation: PEBBLE BLOB MORPH & LIQUID RIPPLE DRIFT', previewComponent: <GlobalVideoSection17 /> },
+      { id: 'global-video-section-18', title: 'Design 18: ELEVATED CARD DECK FAN-OUT VIDEO PLAYER (ANIMATION: CARD FAN-OUT & ACTIVE SLIDE ELEVATION)', description: 'Design: ELEVATED CARD DECK FAN-OUT VIDEO PLAYER • Animation: CARD FAN-OUT & ACTIVE SLIDE ELEVATION', previewComponent: <GlobalVideoSection18 /> },
+      { id: 'global-video-section-19', title: 'Design 19: MODERN NEUMORPHIC SOFT INSET VIDEO PLAYER (ANIMATION: TACTILE INSET PRESS DEPTH & SOFT GLOW)', description: 'Design: MODERN NEUMORPHIC SOFT INSET VIDEO PLAYER • Animation: TACTILE INSET PRESS DEPTH & SOFT GLOW', previewComponent: <GlobalVideoSection19 /> },
+      { id: 'global-video-section-20', title: 'Design 20: FLAGSHIP OMNICHANNEL BENTO MASTER VIDEO SUITE (ANIMATION: STAGGERED CASCADE ENTRANCE & WAVEFORM PULSE)', description: 'Design: FLAGSHIP OMNICHANNEL BENTO MASTER VIDEO SUITE • Animation: STAGGERED CASCADE ENTRANCE & WAVEFORM PULSE', previewComponent: <GlobalVideoSection20 /> },
+] : category === 'global-customer-reviews' ? [
+      { id: 'global-customer-reviews-1', title: 'Design 1: GLASSMORPHIC BENTO CUSTOMER REVIEW GRID (ANIMATION: HOVER 3D TILT & GLOW FOLLOW)', description: 'Design: GLASSMORPHIC BENTO CUSTOMER REVIEW GRID • Animation: HOVER 3D TILT & GLOW FOLLOW', previewComponent: <GlobalCustomerReviews1 /> },
+      { id: 'global-customer-reviews-2', title: 'Design 2: HIGH-FASHION EDITORIAL CUSTOMER REVIEW DECK (ANIMATION: SMOOTH TEXT ELEVATION & RATING BAR)', description: 'Design: HIGH-FASHION EDITORIAL CUSTOMER REVIEW DECK • Animation: SMOOTH TEXT ELEVATION & RATING BAR', previewComponent: <GlobalCustomerReviews2 /> },
+      { id: 'global-customer-reviews-3', title: 'Design 3: NEO-BRUTALIST CYBERPUNK REVIEW CARDS (ANIMATION: HARD OFFSET SHADOW PUSH & GLITCH PULSE)', description: 'Design: NEO-BRUTALIST CYBERPUNK REVIEW CARDS • Animation: HARD OFFSET SHADOW PUSH & GLITCH PULSE', previewComponent: <GlobalCustomerReviews3 /> },
+      { id: 'global-customer-reviews-4', title: 'Design 4: 3D TACTILE CLAYMORPHIC CUSTOMER REVIEW CARDS (ANIMATION: TACTILE PRESS BOUNCE & SPARKLE EXPANSION)', description: 'Design: 3D TACTILE CLAYMORPHIC CUSTOMER REVIEW CARDS • Animation: TACTILE PRESS BOUNCE & SPARKLE EXPANSION', previewComponent: <GlobalCustomerReviews4 /> },
+      { id: 'global-customer-reviews-5', title: 'Design 5: HOLOGRAPHIC NEON CYBER REVIEW MATRIX (ANIMATION: HOLOGRAPHIC SHIMMER SWEEP & LASER PULSE)', description: 'Design: HOLOGRAPHIC NEON CYBER REVIEW MATRIX • Animation: HOLOGRAPHIC SHIMMER SWEEP & LASER PULSE', previewComponent: <GlobalCustomerReviews5 /> },
+      { id: 'global-customer-reviews-6', title: 'Design 6: HORIZONTAL EXPANDABLE ACCORDION REVIEWS (ANIMATION: FLUID WIDTH EXPANSION & PHOTO REVEAL)', description: 'Design: HORIZONTAL EXPANDABLE ACCORDION REVIEWS • Animation: FLUID WIDTH EXPANSION & PHOTO REVEAL', previewComponent: <GlobalCustomerReviews6 /> },
+      { id: 'global-customer-reviews-7', title: 'Design 7: SKEUOMORPHIC VELVET GOLD PRIVILEGE REVIEWS (ANIMATION: GOLD REFLECTION SWEEP & PRESSED INSET)', description: 'Design: SKEUOMORPHIC VELVET GOLD PRIVILEGE REVIEWS • Animation: GOLD REFLECTION SWEEP & PRESSED INSET', previewComponent: <GlobalCustomerReviews7 /> },
+      { id: 'global-customer-reviews-8', title: 'Design 8: SPLIT-TONE DIAGONAL CUSTOMER REVIEW CARDS (ANIMATION: DIAGONAL SLIDE & DYNAMIC COLOR SWITCH)', description: 'Design: SPLIT-TONE DIAGONAL CUSTOMER REVIEW CARDS • Animation: DIAGONAL SLIDE & DYNAMIC COLOR SWITCH', previewComponent: <GlobalCustomerReviews8 /> },
+      { id: 'global-customer-reviews-9', title: 'Design 9: SUB-ZERO ICE FROST REFRACTIVE REVIEW SHOWCASE (ANIMATION: CRYSTAL LIGHT SPLIT & SNOWFALL SHIMMER)', description: 'Design: SUB-ZERO ICE FROST REFRACTIVE REVIEW SHOWCASE • Animation: CRYSTAL LIGHT SPLIT & SNOWFALL SHIMMER', previewComponent: <GlobalCustomerReviews9 /> },
+      { id: 'global-customer-reviews-10', title: 'Design 10: RETRO POLAROID CUSTOMER PHOTO REVIEW CARDS (ANIMATION: DYNAMIC CARD STRAIGHTEN & UNSTICK TAPE)', description: 'Design: RETRO POLAROID CUSTOMER PHOTO REVIEW CARDS • Animation: DYNAMIC CARD STRAIGHTEN & UNSTICK TAPE', previewComponent: <GlobalCustomerReviews10 /> },
+      { id: 'global-customer-reviews-11', title: 'Design 11: ISOMETRIC 3D SPATIAL CUSTOMER REVIEWS (ANIMATION: ISOMETRIC CARD LIFT UP & FLOATING SHADOW)', description: 'Design: ISOMETRIC 3D SPATIAL CUSTOMER REVIEWS • Animation: ISOMETRIC CARD LIFT UP & FLOATING SHADOW', previewComponent: <GlobalCustomerReviews11 /> },
+      { id: 'global-customer-reviews-12', title: 'Design 12: MINIMALIST BLUEPRINT LINE-ART REVIEW SPEC CARDS (ANIMATION: HAIRLINE VECTOR DRAW & DYNAMIC COUNTER)', description: 'Design: MINIMALIST BLUEPRINT LINE-ART REVIEW SPEC CARDS • Animation: HAIRLINE VECTOR DRAW & DYNAMIC COUNTER', previewComponent: <GlobalCustomerReviews12 /> },
+      { id: 'global-customer-reviews-13', title: 'Design 13: CIRCULAR RADIAL NODE REVIEW SPOTLIGHT (ANIMATION: SMOOTH ORBITAL ROTATION & NODE HOVER PULL)', description: 'Design: CIRCULAR RADIAL NODE REVIEW SPOTLIGHT • Animation: SMOOTH ORBITAL ROTATION & NODE HOVER PULL', previewComponent: <GlobalCustomerReviews13 /> },
+      { id: 'global-customer-reviews-14', title: 'Design 14: CINEMATIC MOTION VIDEO CUSTOMER REVIEWS (ANIMATION: LIVE VIDEO UNBLUR & PLAYHEAD PULSE)', description: 'Design: CINEMATIC MOTION VIDEO CUSTOMER REVIEWS • Animation: LIVE VIDEO UNBLUR & PLAYHEAD PULSE', previewComponent: <GlobalCustomerReviews14 /> },
+      { id: 'global-customer-reviews-15', title: 'Design 15: DIAMOND FACET PRISM CUSTOMER REVIEW CARDS (ANIMATION: PRISMATIC FACET ANGLE SHIFT & RAY REVEAL)', description: 'Design: DIAMOND FACET PRISM CUSTOMER REVIEW CARDS • Animation: PRISMATIC FACET ANGLE SHIFT & RAY REVEAL', previewComponent: <GlobalCustomerReviews15 /> },
+      { id: 'global-customer-reviews-16', title: 'Design 16: CYBER MATRIX TERMINAL REVIEW LOGS (ANIMATION: MATRIX CODE SCANLINE SWEEP & TELEMETRY PULSE)', description: 'Design: CYBER MATRIX TERMINAL REVIEW LOGS • Animation: MATRIX CODE SCANLINE SWEEP & TELEMETRY PULSE', previewComponent: <GlobalCustomerReviews16 /> },
+      { id: 'global-customer-reviews-17', title: 'Design 17: ORGANIC CURVED SUNSET FLUID REVIEW CARDS (ANIMATION: PEBBLE BLOB MORPH & LIQUID RIPPLE DRIFT)', description: 'Design: ORGANIC CURVED SUNSET FLUID REVIEW CARDS • Animation: PEBBLE BLOB MORPH & LIQUID RIPPLE DRIFT', previewComponent: <GlobalCustomerReviews17 /> },
+      { id: 'global-customer-reviews-18', title: 'Design 18: ELEVATED CARD DECK FAN-OUT CUSTOMER REVIEWS (ANIMATION: CARD FAN-OUT & ACTIVE SLIDE ELEVATION)', description: 'Design: ELEVATED CARD DECK FAN-OUT CUSTOMER REVIEWS • Animation: CARD FAN-OUT & ACTIVE SLIDE ELEVATION', previewComponent: <GlobalCustomerReviews18 /> },
+      { id: 'global-customer-reviews-19', title: 'Design 19: MODERN NEUMORPHIC SOFT INSET REVIEW CARDS (ANIMATION: TACTILE INSET PRESS DEPTH & SOFT GLOW)', description: 'Design: MODERN NEUMORPHIC SOFT INSET REVIEW CARDS • Animation: TACTILE INSET PRESS DEPTH & SOFT GLOW', previewComponent: <GlobalCustomerReviews19 /> },
+      { id: 'global-customer-reviews-20', title: 'Design 20: FLAGSHIP OMNICHANNEL BENTO MASTER REVIEW SUITE (ANIMATION: STAGGERED CASCADE ENTRANCE & RATING BAR)', description: 'Design: FLAGSHIP OMNICHANNEL BENTO MASTER REVIEW SUITE • Animation: STAGGERED CASCADE ENTRANCE & RATING BAR', previewComponent: <GlobalCustomerReviews20 /> },
+] : category === 'global-testimonials' ? [
+      { id: 'global-testimonials-1', title: 'Design 1: GLASSMORPHIC BENTO TESTIMONIAL GRID (ANIMATION: HOVER 3D TILT & GLOW FOLLOW)', description: 'Design: GLASSMORPHIC BENTO TESTIMONIAL GRID • Animation: HOVER 3D TILT & GLOW FOLLOW', previewComponent: <GlobalTestimonials1 /> },
+      { id: 'global-testimonials-2', title: 'Design 2: HIGH-FASHION EDITORIAL LUXURY TESTIMONIALS (ANIMATION: SMOOTH TEXT FADE-IN & MULTI-LAYER ELEVATION)', description: 'Design: HIGH-FASHION EDITORIAL LUXURY TESTIMONIALS • Animation: SMOOTH TEXT FADE-IN & MULTI-LAYER ELEVATION', previewComponent: <GlobalTestimonials2 /> },
+      { id: 'global-testimonials-3', title: 'Design 3: NEO-BRUTALIST CYBERPUNK TESTIMONIAL CARDS (ANIMATION: HARD OFFSET SHADOW PUSH & GLITCH BADGE)', description: 'Design: NEO-BRUTALIST CYBERPUNK TESTIMONIAL CARDS • Animation: HARD OFFSET SHADOW PUSH & GLITCH BADGE', previewComponent: <GlobalTestimonials3 /> },
+      { id: 'global-testimonials-4', title: 'Design 4: 3D TACTILE CLAYMORPHIC QUOTE CARDS (ANIMATION: TACTILE PRESS BOUNCE & SPARKLE EXPANSION)', description: 'Design: 3D TACTILE CLAYMORPHIC QUOTE CARDS • Animation: TACTILE PRESS BOUNCE & SPARKLE EXPANSION', previewComponent: <GlobalTestimonials4 /> },
+      { id: 'global-testimonials-5', title: 'Design 5: HOLOGRAPHIC NEON CYBER FEEDBACK DECK (ANIMATION: HOLOGRAPHIC SHIMMER SWEEP & LASER PULSE)', description: 'Design: HOLOGRAPHIC NEON CYBER FEEDBACK DECK • Animation: HOLOGRAPHIC SHIMMER SWEEP & LASER PULSE', previewComponent: <GlobalTestimonials5 /> },
+      { id: 'global-testimonials-6', title: 'Design 6: HORIZONTAL EXPANDABLE ACCORDION TESTIMONIALS (ANIMATION: FLUID WIDTH EXPANSION & INSTANT QUOTE REVEAL)', description: 'Design: HORIZONTAL EXPANDABLE ACCORDION TESTIMONIALS • Animation: FLUID WIDTH EXPANSION & INSTANT QUOTE REVEAL', previewComponent: <GlobalTestimonials6 /> },
+      { id: 'global-testimonials-7', title: 'Design 7: SKEUOMORPHIC VELVET GOLD PRIVILEGE TESTIMONIALS (ANIMATION: GOLD REFLECTION SWEEP & PRESSED INSET)', description: 'Design: SKEUOMORPHIC VELVET GOLD PRIVILEGE TESTIMONIALS • Animation: GOLD REFLECTION SWEEP & PRESSED INSET', previewComponent: <GlobalTestimonials7 /> },
+      { id: 'global-testimonials-8', title: 'Design 8: SPLIT-TONE DIAGONAL TESTIMONIAL CARDS (ANIMATION: DIAGONAL SLIDE & DYNAMIC COLOR SWITCH)', description: 'Design: SPLIT-TONE DIAGONAL TESTIMONIAL CARDS • Animation: DIAGONAL SLIDE & DYNAMIC COLOR SWITCH', previewComponent: <GlobalTestimonials8 /> },
+      { id: 'global-testimonials-9', title: 'Design 9: SUB-ZERO ICE FROST REFRACTIVE REVIEW DECK (ANIMATION: CRYSTAL LIGHT SPLIT & SNOWFALL SHIMMER)', description: 'Design: SUB-ZERO ICE FROST REFRACTIVE REVIEW DECK • Animation: CRYSTAL LIGHT SPLIT & SNOWFALL SHIMMER', previewComponent: <GlobalTestimonials9 /> },
+      { id: 'global-testimonials-10', title: 'Design 10: RETRO POLAROID CUSTOMER REVIEW CARDS (ANIMATION: DYNAMIC CARD STRAIGHTEN & UNSTICK TAPE)', description: 'Design: RETRO POLAROID CUSTOMER REVIEW CARDS • Animation: DYNAMIC CARD STRAIGHTEN & UNSTICK TAPE', previewComponent: <GlobalTestimonials10 /> },
+      { id: 'global-testimonials-11', title: 'Design 11: ISOMETRIC 3D SPATIAL TESTIMONIALS (ANIMATION: ISOMETRIC CARD LIFT UP & FLOATING SHADOW)', description: 'Design: ISOMETRIC 3D SPATIAL TESTIMONIALS • Animation: ISOMETRIC CARD LIFT UP & FLOATING SHADOW', previewComponent: <GlobalTestimonials11 /> },
+      { id: 'global-testimonials-12', title: 'Design 12: MINIMALIST BLUEPRINT LINE-ART FEEDBACK CARDS (ANIMATION: HAIRLINE VECTOR DRAW & DYNAMIC COUNTER)', description: 'Design: MINIMALIST BLUEPRINT LINE-ART FEEDBACK CARDS • Animation: HAIRLINE VECTOR DRAW & DYNAMIC COUNTER', previewComponent: <GlobalTestimonials12 /> },
+      { id: 'global-testimonials-13', title: 'Design 13: CIRCULAR RADIAL NODE TESTIMONIAL RING (ANIMATION: SMOOTH ORBITAL ROTATION & NODE HOVER PULL)', description: 'Design: CIRCULAR RADIAL NODE TESTIMONIAL RING • Animation: SMOOTH ORBITAL ROTATION & NODE HOVER PULL', previewComponent: <GlobalTestimonials13 /> },
+      { id: 'global-testimonials-14', title: 'Design 14: CINEMATIC MOTION VIDEO TESTIMONIALS (ANIMATION: LIVE VIDEO UNBLUR & PLAYHEAD PULSE)', description: 'Design: CINEMATIC MOTION VIDEO TESTIMONIALS • Animation: LIVE VIDEO UNBLUR & PLAYHEAD PULSE', previewComponent: <GlobalTestimonials14 /> },
+      { id: 'global-testimonials-15', title: 'Design 15: DIAMOND FACET PRISM TESTIMONIAL CARDS (ANIMATION: PRISMATIC FACET ANGLE SHIFT & RAY REVEAL)', description: 'Design: DIAMOND FACET PRISM TESTIMONIAL CARDS • Animation: PRISMATIC FACET ANGLE SHIFT & RAY REVEAL', previewComponent: <GlobalTestimonials15 /> },
+      { id: 'global-testimonials-16', title: 'Design 16: CYBER MATRIX TERMINAL TESTIMONIAL CARDS (ANIMATION: MATRIX CODE SCANLINE SWEEP & TELEMETRY PULSE)', description: 'Design: CYBER MATRIX TERMINAL TESTIMONIAL CARDS • Animation: MATRIX CODE SCANLINE SWEEP & TELEMETRY PULSE', previewComponent: <GlobalTestimonials16 /> },
+      { id: 'global-testimonials-17', title: 'Design 17: ORGANIC CURVED SUNSET FLUID TESTIMONIALS (ANIMATION: PEBBLE BLOB MORPH & LIQUID RIPPLE DRIFT)', description: 'Design: ORGANIC CURVED SUNSET FLUID TESTIMONIALS • Animation: PEBBLE BLOB MORPH & LIQUID RIPPLE DRIFT', previewComponent: <GlobalTestimonials17 /> },
+      { id: 'global-testimonials-18', title: 'Design 18: ELEVATED CARD DECK FAN-OUT TESTIMONIALS (ANIMATION: CARD FAN-OUT & ACTIVE SLIDE ELEVATION)', description: 'Design: ELEVATED CARD DECK FAN-OUT TESTIMONIALS • Animation: CARD FAN-OUT & ACTIVE SLIDE ELEVATION', previewComponent: <GlobalTestimonials18 /> },
+      { id: 'global-testimonials-19', title: 'Design 19: MODERN NEUMORPHIC SOFT INSET TESTIMONIALS (ANIMATION: TACTILE INSET PRESS DEPTH & SOFT GLOW)', description: 'Design: MODERN NEUMORPHIC SOFT INSET TESTIMONIALS • Animation: TACTILE INSET PRESS DEPTH & SOFT GLOW', previewComponent: <GlobalTestimonials19 /> },
+      { id: 'global-testimonials-20', title: 'Design 20: FLAGSHIP OMNICHANNEL BENTO MASTER TESTIMONIAL SUITE (ANIMATION: STAGGERED CASCADE ENTRANCE & BADGE PULSE)', description: 'Design: FLAGSHIP OMNICHANNEL BENTO MASTER TESTIMONIAL SUITE • Animation: STAGGERED CASCADE ENTRANCE & BADGE PULSE', previewComponent: <GlobalTestimonials20 /> },
+] : category === 'global-promotional-cards' ? [
+      { id: 'global-promotional-cards-1', title: 'Design 1: GLASSMORPHIC BENTO PROMO CARDS (ANIMATION: HOVER 3D TILT & GLOW FOLLOW)', description: 'Design: GLASSMORPHIC BENTO PROMO CARDS • Animation: HOVER 3D TILT & GLOW FOLLOW', previewComponent: <GlobalPromotionalCards1 /> },
+      { id: 'global-promotional-cards-2', title: 'Design 2: HIGH-FASHION EDITORIAL LUXURY CARDS (ANIMATION: SMOOTH IMAGE ZOOM & MULTI-LAYER ELEVATION)', description: 'Design: HIGH-FASHION EDITORIAL LUXURY CARDS • Animation: SMOOTH IMAGE ZOOM & MULTI-LAYER ELEVATION', previewComponent: <GlobalPromotionalCards2 /> },
+      { id: 'global-promotional-cards-3', title: 'Design 3: NEO-BRUTALIST CYBERPUNK PROMO CARDS (ANIMATION: HARD OFFSET SHADOW PUSH & SKWEEKED GLITCH BADGE)', description: 'Design: NEO-BRUTALIST CYBERPUNK PROMO CARDS • Animation: HARD OFFSET SHADOW PUSH & SKWEEKED GLITCH BADGE', previewComponent: <GlobalPromotionalCards3 /> },
+      { id: 'global-promotional-cards-4', title: 'Design 4: 3D TACTILE CLAYMORPHIC VOUCHER CARDS (ANIMATION: TACTILE PRESS BOUNCE & SPARKLE EXPANSION)', description: 'Design: 3D TACTILE CLAYMORPHIC VOUCHER CARDS • Animation: TACTILE PRESS BOUNCE & SPARKLE EXPANSION', previewComponent: <GlobalPromotionalCards4 /> },
+      { id: 'global-promotional-cards-5', title: 'Design 5: HOLOGRAPHIC NEON CYBER DISCOUNT DECK (ANIMATION: HOLOGRAPHIC SHIMMER SWEEP & LASER PULSE)', description: 'Design: HOLOGRAPHIC NEON CYBER DISCOUNT DECK • Animation: HOLOGRAPHIC SHIMMER SWEEP & LASER PULSE', previewComponent: <GlobalPromotionalCards5 /> },
+      { id: 'global-promotional-cards-6', title: 'Design 6: HORIZONTAL SPLIT ACCORDION PROMO CARDS (ANIMATION: FLUID WIDTH EXPANSION & INSTANT COUPON REVEAL)', description: 'Design: HORIZONTAL SPLIT ACCORDION PROMO CARDS • Animation: FLUID WIDTH EXPANSION & INSTANT COUPON REVEAL', previewComponent: <GlobalPromotionalCards6 /> },
+      { id: 'global-promotional-cards-7', title: 'Design 7: SKEUOMORPHIC VELVET GOLD PRIVILEGE CARDS (ANIMATION: GOLD REFLECTION SWEEP & PRESSED INSET)', description: 'Design: SKEUOMORPHIC VELVET GOLD PRIVILEGE CARDS • Animation: GOLD REFLECTION SWEEP & PRESSED INSET', previewComponent: <GlobalPromotionalCards7 /> },
+      { id: 'global-promotional-cards-8', title: 'Design 8: SPLIT-TONE DIAGONAL FLASH SALE CARDS (ANIMATION: DIAGONAL SLIDE & DYNAMIC COLOR SWITCH)', description: 'Design: SPLIT-TONE DIAGONAL FLASH SALE CARDS • Animation: DIAGONAL SLIDE & DYNAMIC COLOR SWITCH', previewComponent: <GlobalPromotionalCards8 /> },
+      { id: 'global-promotional-cards-9', title: 'Design 9: SUB-ZERO ICE FROST REFRACTIVE PROMO DECK (ANIMATION: CRYSTAL LIGHT SPLIT & SNOWFALL SHIMMER)', description: 'Design: SUB-ZERO ICE FROST REFRACTIVE PROMO DECK • Animation: CRYSTAL LIGHT SPLIT & SNOWFALL SHIMMER', previewComponent: <GlobalPromotionalCards9 /> },
+      { id: 'global-promotional-cards-10', title: 'Design 10: RETRO POLAROID TICKET PROMO CARDS (ANIMATION: DYNAMIC CARD STRAIGHTEN & TICKET TEAR)', description: 'Design: RETRO POLAROID TICKET PROMO CARDS • Animation: DYNAMIC CARD STRAIGHTEN & TICKET TEAR', previewComponent: <GlobalPromotionalCards10 /> },
+      { id: 'global-promotional-cards-11', title: 'Design 11: ISOMETRIC 3D SPATIAL PROMO CARDS (ANIMATION: ISOMETRIC CARD LIFT UP & FLOATING SHADOW)', description: 'Design: ISOMETRIC 3D SPATIAL PROMO CARDS • Animation: ISOMETRIC CARD LIFT UP & FLOATING SHADOW', previewComponent: <GlobalPromotionalCards11 /> },
+      { id: 'global-promotional-cards-12', title: 'Design 12: MINIMALIST BLUEPRINT LINE-ART SPEC CARDS (ANIMATION: HAIRLINE VECTOR DRAW & DYNAMIC COUPON COUNTER)', description: 'Design: MINIMALIST BLUEPRINT LINE-ART SPEC CARDS • Animation: HAIRLINE VECTOR DRAW & DYNAMIC COUPON COUNTER', previewComponent: <GlobalPromotionalCards12 /> },
+      { id: 'global-promotional-cards-13', title: 'Design 13: CIRCULAR ORBITAL WHEEL PROMO RING (ANIMATION: SMOOTH ORBITAL ROTATION & NODE HOVER PULL)', description: 'Design: CIRCULAR ORBITAL WHEEL PROMO RING • Animation: SMOOTH ORBITAL ROTATION & NODE HOVER PULL', previewComponent: <GlobalPromotionalCards13 /> },
+      { id: 'global-promotional-cards-14', title: 'Design 14: CINEMATIC MOTION VIDEO PROMO CARDS (ANIMATION: LIVE VIDEO UNBLUR & PLAYHEAD PULSE)', description: 'Design: CINEMATIC MOTION VIDEO PROMO CARDS • Animation: LIVE VIDEO UNBLUR & PLAYHEAD PULSE', previewComponent: <GlobalPromotionalCards14 /> },
+      { id: 'global-promotional-cards-15', title: 'Design 15: DIAMOND FACET PRISM PROMO CARDS (ANIMATION: PRISMATIC FACET ANGLE SHIFT & RAY REVEAL)', description: 'Design: DIAMOND FACET PRISM PROMO CARDS • Animation: PRISMATIC FACET ANGLE SHIFT & RAY REVEAL', previewComponent: <GlobalPromotionalCards15 /> },
+      { id: 'global-promotional-cards-16', title: 'Design 16: CYBER MATRIX TERMINAL PROMO CARDS (ANIMATION: MATRIX CODE SCANLINE SWEEP & TELEMETRY PULSE)', description: 'Design: CYBER MATRIX TERMINAL PROMO CARDS • Animation: MATRIX CODE SCANLINE SWEEP & TELEMETRY PULSE', previewComponent: <GlobalPromotionalCards16 /> },
+      { id: 'global-promotional-cards-17', title: 'Design 17: ORGANIC CURVED SUNSET FLUID CARDS (ANIMATION: PEBBLE BLOB MORPH & LIQUID RIPPLE DRIFT)', description: 'Design: ORGANIC CURVED SUNSET FLUID CARDS • Animation: PEBBLE BLOB MORPH & LIQUID RIPPLE DRIFT', previewComponent: <GlobalPromotionalCards17 /> },
+      { id: 'global-promotional-cards-18', title: 'Design 18: ELEVATED CARD DECK FAN-OUT PROMO CARDS (ANIMATION: CARD FAN-OUT & ACTIVE SLIDE ELEVATION)', description: 'Design: ELEVATED CARD DECK FAN-OUT PROMO CARDS • Animation: CARD FAN-OUT & ACTIVE SLIDE ELEVATION', previewComponent: <GlobalPromotionalCards18 /> },
+      { id: 'global-promotional-cards-19', title: 'Design 19: MODERN NEUMORPHIC SOFT INSET PROMO CARDS (ANIMATION: TACTILE INSET PRESS DEPTH & SOFT GLOW)', description: 'Design: MODERN NEUMORPHIC SOFT INSET PROMO CARDS • Animation: TACTILE INSET PRESS DEPTH & SOFT GLOW', previewComponent: <GlobalPromotionalCards19 /> },
+      { id: 'global-promotional-cards-20', title: 'Design 20: FLAGSHIP OMNICHANNEL BENTO MASTER PROMO SUITE (ANIMATION: STAGGERED CASCADE ENTRANCE & COUNTDOWN PULSE)', description: 'Design: FLAGSHIP OMNICHANNEL BENTO MASTER PROMO SUITE • Animation: STAGGERED CASCADE ENTRANCE & COUNTDOWN PULSE', previewComponent: <GlobalPromotionalCards20 /> },
+] : category === 'global-image-text' ? [
+      { id: 'global-image-text-1', title: 'Design 1: GLASSMORPHIC SPLIT SHOWCASE (ANIMATION: PARALLAX IMAGE FLOAT & BACKDROP BLUR GLINT)', description: 'Design: GLASSMORPHIC SPLIT SHOWCASE • Animation: PARALLAX IMAGE FLOAT & BACKDROP BLUR GLINT', previewComponent: <GlobalImageText1 /> },
+      { id: 'global-image-text-2', title: 'Design 2: MINIMALIST HIGH-FASHION EDITORIAL (ANIMATION: SMOOTH IMAGE SCALE-UP & FLOATING REVEAL)', description: 'Design: MINIMALIST HIGH-FASHION EDITORIAL • Animation: SMOOTH IMAGE SCALE-UP & FLOATING REVEAL', previewComponent: <GlobalImageText2 /> },
+      { id: 'global-image-text-3', title: 'Design 3: NEO-BRUTALIST CYBERPUNK SPLIT (ANIMATION: SKEWED HARD SHADOW PUSH & GLITCH BADGE)', description: 'Design: NEO-BRUTALIST CYBERPUNK SPLIT • Animation: SKEWED HARD SHADOW PUSH & GLITCH BADGE', previewComponent: <GlobalImageText3 /> },
+      { id: 'global-image-text-4', title: 'Design 4: 3D TACTILE CLAYMORPHIC FEATURE DECK (ANIMATION: TACTILE PRESS BOUNCE & SPARKLE FLOAT)', description: 'Design: 3D TACTILE CLAYMORPHIC FEATURE DECK • Animation: TACTILE PRESS BOUNCE & SPARKLE FLOAT', previewComponent: <GlobalImageText4 /> },
+      { id: 'global-image-text-5', title: 'Design 5: HOLOGRAPHIC NEON CYBER HORIZON (ANIMATION: RAINBOW HOLOGRAPHIC SHIMMER & HUD CROSSHAIR)', description: 'Design: HOLOGRAPHIC NEON CYBER HORIZON • Animation: RAINBOW HOLOGRAPHIC SHIMMER & HUD CROSSHAIR', previewComponent: <GlobalImageText5 /> },
+      { id: 'global-image-text-6', title: 'Design 6: HORIZONTAL SPLIT SLIDER CANVAS (ANIMATION: INTERACTIVE STEP SWITCH & CROSSFADE FADE)', description: 'Design: HORIZONTAL SPLIT SLIDER CANVAS • Animation: INTERACTIVE STEP SWITCH & CROSSFADE FADE', previewComponent: <GlobalImageText6 /> },
+      { id: 'global-image-text-7', title: 'Design 7: SKEUOMORPHIC VELVET LUXURY HERITAGE (ANIMATION: GOLD SHIMMER REFLECTION & PRESSED INSET)', description: 'Design: SKEUOMORPHIC VELVET LUXURY HERITAGE • Animation: GOLD SHIMMER REFLECTION & PRESSED INSET', previewComponent: <GlobalImageText7 /> },
+      { id: 'global-image-text-8', title: 'Design 8: DUAL-TONE DIAGONAL SLICE FEATURE (ANIMATION: DIAGONAL SLICE SLIDE & DYNAMIC COLOR FILL)', description: 'Design: DUAL-TONE DIAGONAL SLICE FEATURE • Animation: DIAGONAL SLICE SLIDE & DYNAMIC COLOR FILL', previewComponent: <GlobalImageText8 /> },
+      { id: 'global-image-text-9', title: 'Design 9: SUB-ZERO ICE FROST REFRACTIVE SHOWCASE (ANIMATION: CRYSTAL LIGHT SPLIT & SNOWFALL SHIMMER)', description: 'Design: SUB-ZERO ICE FROST REFRACTIVE SHOWCASE • Animation: CRYSTAL LIGHT SPLIT & SNOWFALL SHIMMER', previewComponent: <GlobalImageText9 /> },
+      { id: 'global-image-text-10', title: 'Design 10: RETRO VINTAGE POLAROID STORYTELLER (ANIMATION: DYNAMIC CARD STRAIGHTEN & UNSTICK TAPE)', description: 'Design: RETRO VINTAGE POLAROID STORYTELLER • Animation: DYNAMIC CARD STRAIGHTEN & UNSTICK TAPE', previewComponent: <GlobalImageText10 /> },
+      { id: 'global-image-text-11', title: 'Design 11: ISOMETRIC 3D SPATIAL DECK (ANIMATION: ISOMETRIC CARD LIFT UP & FLOATING SHADOW)', description: 'Design: ISOMETRIC 3D SPATIAL DECK • Animation: ISOMETRIC CARD LIFT UP & FLOATING SHADOW', previewComponent: <GlobalImageText11 /> },
+      { id: 'global-image-text-12', title: 'Design 12: MINIMALIST BLUEPRINT LINE-ART ARCHITECTURE (ANIMATION: HAIRLINE VECTOR DRAW & COORDINATE COUNTER)', description: 'Design: MINIMALIST BLUEPRINT LINE-ART ARCHITECTURE • Animation: HAIRLINE VECTOR DRAW & COORDINATE COUNTER', previewComponent: <GlobalImageText12 /> },
+      { id: 'global-image-text-13', title: 'Design 13: CIRCULAR ORBITAL FRAME FEATURE (ANIMATION: SMOOTH ORBITAL FLOAT & SPOTLIGHT GLOW)', description: 'Design: CIRCULAR ORBITAL FRAME FEATURE • Animation: SMOOTH ORBITAL FLOAT & SPOTLIGHT GLOW', previewComponent: <GlobalImageText13 /> },
+      { id: 'global-image-text-14', title: 'Design 14: CINEMATIC MOTION VIDEO STORYBOARD (ANIMATION: LIVE VIDEO OVERLAY UNBLUR & PLAYHEAD PULSE)', description: 'Design: CINEMATIC MOTION VIDEO STORYBOARD • Animation: LIVE VIDEO OVERLAY UNBLUR & PLAYHEAD PULSE', previewComponent: <GlobalImageText14 /> },
+      { id: 'global-image-text-15', title: 'Design 15: DIAMOND FACET PRISM SHOWCASE (ANIMATION: PRISMATIC FACET ANGLE SHIFT & RAY REVEAL)', description: 'Design: DIAMOND FACET PRISM SHOWCASE • Animation: PRISMATIC FACET ANGLE SHIFT & RAY REVEAL', previewComponent: <GlobalImageText15 /> },
+      { id: 'global-image-text-16', title: 'Design 16: CYBER MATRIX TELEMETRY TERMINAL (ANIMATION: MATRIX SCANLINE SWEEP & TELEMETRY PULSE)', description: 'Design: CYBER MATRIX TELEMETRY TERMINAL • Animation: MATRIX SCANLINE SWEEP & TELEMETRY PULSE', previewComponent: <GlobalImageText16 /> },
+      { id: 'global-image-text-17', title: 'Design 17: ORGANIC CURVED SUNSET WAVE SHOWCASE (ANIMATION: PEBBLE BLOB MORPH & LIQUID RIPPLE DRIFT)', description: 'Design: ORGANIC CURVED SUNSET WAVE SHOWCASE • Animation: PEBBLE BLOB MORPH & LIQUID RIPPLE DRIFT', previewComponent: <GlobalImageText17 /> },
+      { id: 'global-image-text-18', title: 'Design 18: ELEVATED LAYERED CARD STACK SHOWCASE (ANIMATION: CARD FAN-OUT ELEVATION & INTERACTIVE TAB)', description: 'Design: ELEVATED LAYERED CARD STACK SHOWCASE • Animation: CARD FAN-OUT ELEVATION & INTERACTIVE TAB', previewComponent: <GlobalImageText18 /> },
+      { id: 'global-image-text-19', title: 'Design 19: MODERN NEUMORPHIC TACTILE INSET SHOWCASE (ANIMATION: TACTILE INSET PRESS DEPTH & SOFT GLOW)', description: 'Design: MODERN NEUMORPHIC TACTILE INSET SHOWCASE • Animation: TACTILE INSET PRESS DEPTH & SOFT GLOW', previewComponent: <GlobalImageText19 /> },
+      { id: 'global-image-text-20', title: 'Design 20: FLAGSHIP OMNICHANNEL BENTO FEATURE SUITE (ANIMATION: STAGGERED CASCADE ENTRANCE & BADGE PULSE)', description: 'Design: FLAGSHIP OMNICHANNEL BENTO FEATURE SUITE • Animation: STAGGERED CASCADE ENTRANCE & BADGE PULSE', previewComponent: <GlobalImageText20 /> },
+] : category === 'global-category-grid' ? [
+      { id: 'global-category-grid-1', title: 'Design 1: GLASSMORPHIC BENTO CATEGORY GRID (ANIMATION: HOVER 3D TILT & GLOW FOLLOW)', description: 'Design: GLASSMORPHIC BENTO CATEGORY GRID • Animation: HOVER 3D TILT & GLOW FOLLOW', previewComponent: <GlobalCategoryGrid1 /> },
+      { id: 'global-category-grid-2', title: 'Design 2: FLOATING PARALLAX EDITORIAL DECK (ANIMATION: MULTI-LAYER ELEVATION & IMAGE SLIDE)', description: 'Design: FLOATING PARALLAX EDITORIAL DECK • Animation: MULTI-LAYER ELEVATION & IMAGE SLIDE', previewComponent: <GlobalCategoryGrid2 /> },
+      { id: 'global-category-grid-3', title: 'Design 3: NEO-BRUTALIST CYBERPUNK GRID (ANIMATION: HARD OFFSET SHADOW & TEXT GLITCH)', description: 'Design: NEO-BRUTALIST CYBERPUNK GRID • Animation: HARD OFFSET SHADOW & TEXT GLITCH', previewComponent: <GlobalCategoryGrid3 /> },
+      { id: 'global-category-grid-4', title: 'Design 4: 3D TACTILE CLAYMORPHIC PILL CARDS (ANIMATION: TACTILE PRESS BOUNCE & SOFT SHADOW)', description: 'Design: 3D TACTILE CLAYMORPHIC PILL CARDS • Animation: TACTILE PRESS BOUNCE & SOFT SHADOW', previewComponent: <GlobalCategoryGrid4 /> },
+      { id: 'global-category-grid-5', title: 'Design 5: HOLOGRAPHIC NEON MESH GRID (ANIMATION: IRIDESCENT NEON SHEEN & HUD CROSSHAIR)', description: 'Design: HOLOGRAPHIC NEON MESH GRID • Animation: IRIDESCENT NEON SHEEN & HUD CROSSHAIR', previewComponent: <GlobalCategoryGrid5 /> },
+      { id: 'global-category-grid-6', title: 'Design 6: HORIZONTAL EXPANDABLE ACCORDION GRID (ANIMATION: FLUID WIDTH EXPANSION & CURTAIN ZOOM)', description: 'Design: HORIZONTAL EXPANDABLE ACCORDION GRID • Animation: FLUID WIDTH EXPANSION & CURTAIN ZOOM', previewComponent: <GlobalCategoryGrid6 /> },
+      { id: 'global-category-grid-7', title: 'Design 7: SKEUOMORPHIC LUXURY VELVET CARDS (ANIMATION: GOLD EMBOSSED SHEEN & PRESSED INSET)', description: 'Design: SKEUOMORPHIC LUXURY VELVET CARDS • Animation: GOLD EMBOSSED SHEEN & PRESSED INSET', previewComponent: <GlobalCategoryGrid7 /> },
+      { id: 'global-category-grid-8', title: 'Design 8: SPLIT-SCREEN DUAL TONE CARDS (ANIMATION: DIAGONAL HOVER SLIDE & DUAL COLOR SWITCH)', description: 'Design: SPLIT-SCREEN DUAL TONE CARDS • Animation: DIAGONAL HOVER SLIDE & DUAL COLOR SWITCH', previewComponent: <GlobalCategoryGrid8 /> },
+      { id: 'global-category-grid-9', title: 'Design 9: SUB-ZERO ICE FROST REFRACTIVE DECK (ANIMATION: CRYSTAL LIGHT SPLIT & SNOWFALL SHIMMER)', description: 'Design: SUB-ZERO ICE FROST REFRACTIVE DECK • Animation: CRYSTAL LIGHT SPLIT & SNOWFALL SHIMMER', previewComponent: <GlobalCategoryGrid9 /> },
+      { id: 'global-category-grid-10', title: 'Design 10: SUBTLE RETRO POLAROID GALLERY GRID (ANIMATION: DYNAMIC CARD STRAIGHTEN & UNSTICK TAPE)', description: 'Design: SUBTLE RETRO POLAROID GALLERY GRID • Animation: DYNAMIC CARD STRAIGHTEN & UNSTICK TAPE', previewComponent: <GlobalCategoryGrid10 /> },
+      { id: 'global-category-grid-11', title: 'Design 11: ISOMETRIC 3D STACKED TILE GRID (ANIMATION: SPATIAL ANGLED DEPTH & LIFT UP)', description: 'Design: ISOMETRIC 3D STACKED TILE GRID • Animation: SPATIAL ANGLED DEPTH & LIFT UP', previewComponent: <GlobalCategoryGrid11 /> },
+      { id: 'global-category-grid-12', title: 'Design 12: MINIMALIST LINE-ART WIREFRAME GRID (ANIMATION: HAIRLINE VECTOR DRAWING & COORDINATE COUNTER)', description: 'Design: MINIMALIST LINE-ART WIREFRAME GRID • Animation: HAIRLINE VECTOR DRAWING & COORDINATE COUNTER', previewComponent: <GlobalCategoryGrid12 /> },
+      { id: 'global-category-grid-13', title: 'Design 13: CIRCULAR RADIAL NODE CATEGORY RING (ANIMATION: ORBITAL ROTATION & NODE HOVER PULL)', description: 'Design: CIRCULAR RADIAL NODE CATEGORY RING • Animation: ORBITAL ROTATION & NODE HOVER PULL', previewComponent: <GlobalCategoryGrid13 /> },
+      { id: 'global-category-grid-14', title: 'Design 14: CINEMATIC MOTION CANVAS GRID (ANIMATION: LIVE VIDEO UNBLUR & PLAYHEAD PULSE)', description: 'Design: CINEMATIC MOTION CANVAS GRID • Animation: LIVE VIDEO UNBLUR & PLAYHEAD PULSE', previewComponent: <GlobalCategoryGrid14 /> },
+      { id: 'global-category-grid-15', title: 'Design 15: DIAMOND FACET PRISM GRID (ANIMATION: PRISMATIC FACET ANGLE SHIFT & RAY REVEAL)', description: 'Design: DIAMOND FACET PRISM GRID • Animation: PRISMATIC FACET ANGLE SHIFT & RAY REVEAL', previewComponent: <GlobalCategoryGrid15 /> },
+      { id: 'global-category-grid-16', title: 'Design 16: CYBER MATRIX TERMINAL GRID (ANIMATION: MATRIX CODE SCANLINE & TELEMETRY PULSE)', description: 'Design: CYBER MATRIX TERMINAL GRID • Animation: MATRIX CODE SCANLINE & TELEMETRY PULSE', previewComponent: <GlobalCategoryGrid16 /> },
+      { id: 'global-category-grid-17', title: 'Design 17: ORGANIC CURVED SUNSET FLUID GRID (ANIMATION: PEBBLE BLOB MORPH & LIQUID WAVE DRIFT)', description: 'Design: ORGANIC CURVED SUNSET FLUID GRID • Animation: PEBBLE BLOB MORPH & LIQUID WAVE DRIFT', previewComponent: <GlobalCategoryGrid17 /> },
+      { id: 'global-category-grid-18', title: 'Design 18: ELEVATED CARD DECK FAN-OUT GRID (ANIMATION: CARD DECK FAN-OUT & ACTIVE SLIDE ELEVATION)', description: 'Design: ELEVATED CARD DECK FAN-OUT GRID • Animation: CARD DECK FAN-OUT & ACTIVE SLIDE ELEVATION', previewComponent: <GlobalCategoryGrid18 /> },
+      { id: 'global-category-grid-19', title: 'Design 19: MODERN NEUMORPHISM SOFT INSET GRID (ANIMATION: SOFT DUAL SHADOW INSET PRESS DEPTH)', description: 'Design: MODERN NEUMORPHISM SOFT INSET GRID • Animation: SOFT DUAL SHADOW INSET PRESS DEPTH', previewComponent: <GlobalCategoryGrid19 /> },
+      { id: 'global-category-grid-20', title: 'Design 20: FLAGSHIP OMNICHANNEL BENTO CAROUSEL GRID (ANIMATION: STAGGERED CASCADE ENTRANCE & BADGE PULSE)', description: 'Design: FLAGSHIP OMNICHANNEL BENTO CAROUSEL GRID • Animation: STAGGERED CASCADE ENTRANCE & BADGE PULSE', previewComponent: <GlobalCategoryGrid20 /> },
+] : category === 'global-product-grid' ? [
+      { id: 'global-product-grid-1', title: 'Global Product Grid 1', description: 'Design: Global Product Grid 1', previewComponent: <GlobalProductGrid1 /> },
+      { id: 'global-product-grid-2', title: 'Global Product Grid 2', description: 'Design: Global Product Grid 2', previewComponent: <GlobalProductGrid2 /> },
+      { id: 'global-product-grid-3', title: 'Global Product Grid 3', description: 'Design: Global Product Grid 3', previewComponent: <GlobalProductGrid3 /> },
+      { id: 'global-product-grid-4', title: 'Global Product Grid 4', description: 'Design: Global Product Grid 4', previewComponent: <GlobalProductGrid4 /> },
+      { id: 'global-product-grid-5', title: 'Global Product Grid 5', description: 'Design: Global Product Grid 5', previewComponent: <GlobalProductGrid5 /> },
+      { id: 'global-product-grid-6', title: 'Global Product Grid 6', description: 'Design: Global Product Grid 6', previewComponent: <GlobalProductGrid6 /> },
+      { id: 'global-product-grid-7', title: 'Global Product Grid 7', description: 'Design: Global Product Grid 7', previewComponent: <GlobalProductGrid7 /> },
+      { id: 'global-product-grid-8', title: 'Global Product Grid 8', description: 'Design: Global Product Grid 8', previewComponent: <GlobalProductGrid8 /> },
+      { id: 'global-product-grid-9', title: 'Global Product Grid 9', description: 'Design: Global Product Grid 9', previewComponent: <GlobalProductGrid9 /> },
+      { id: 'global-product-grid-10', title: 'Global Product Grid 10', description: 'Design: Global Product Grid 10', previewComponent: <GlobalProductGrid10 /> },
+      { id: 'global-product-grid-11', title: 'Global Product Grid 11', description: 'Design: Global Product Grid 11', previewComponent: <GlobalProductGrid11 /> },
+      { id: 'global-product-grid-12', title: 'Global Product Grid 12', description: 'Design: Global Product Grid 12', previewComponent: <GlobalProductGrid12 /> },
+      { id: 'global-product-grid-13', title: 'Global Product Grid 13', description: 'Design: Global Product Grid 13', previewComponent: <GlobalProductGrid13 /> },
+      { id: 'global-product-grid-14', title: 'Global Product Grid 14', description: 'Design: Global Product Grid 14', previewComponent: <GlobalProductGrid14 /> },
+      { id: 'global-product-grid-15', title: 'Global Product Grid 15', description: 'Design: Global Product Grid 15', previewComponent: <GlobalProductGrid15 /> },
+      { id: 'global-product-grid-16', title: 'Global Product Grid 16', description: 'Design: Global Product Grid 16', previewComponent: <GlobalProductGrid16 /> },
+      { id: 'global-product-grid-17', title: 'Global Product Grid 17', description: 'Design: Global Product Grid 17', previewComponent: <GlobalProductGrid17 /> },
+      { id: 'global-product-grid-18', title: 'Global Product Grid 18', description: 'Design: Global Product Grid 18', previewComponent: <GlobalProductGrid18 /> },
+      { id: 'global-product-grid-19', title: 'Global Product Grid 19', description: 'Design: Global Product Grid 19', previewComponent: <GlobalProductGrid19 /> },
+      { id: 'global-product-grid-20', title: 'Global Product Grid 20', description: 'Design: Global Product Grid 20', previewComponent: <GlobalProductGrid20 /> },
+] : category === 'global-promotional-banner' ? [
+      { id: 'global-promotional-banner-1', title: 'FLOATING GLASSMORPHIC ISLAND PROMO BANNER (ANIMATION: TRANSLUCENT BACKDROP BLUR & SHIMMER COUNTDOWN)', description: 'Design: Floating Glassmorphic Island Promo Banner • Animation: Translucent Backdrop Blur & Shimmer Countdown', previewComponent: <GlobalPromoBanner1 /> },
+      { id: 'global-promotional-banner-2', title: 'CYBER MATRIX TELEMETRY PROMO BANNER (ANIMATION: ROTATING TELEMETRY CROSSHAIR & MATRIX TICKER)', description: 'Design: Cyber Matrix Telemetry Promo Banner • Animation: Rotating Telemetry Crosshair & Matrix Ticker', previewComponent: <GlobalPromoBanner2 /> },
+      { id: 'global-promotional-banner-3', title: 'NEUMORPHIC SOFT VELVET PROMO BANNER (ANIMATION: TACTILE INSET SHADOW & SOFT PULSE TOGGLE)', description: 'Design: Neumorphic Soft Velvet Promo Banner • Animation: Tactile Inset Shadow & Soft Pulse Toggle', previewComponent: <GlobalPromoBanner3 /> },
+      { id: 'global-promotional-banner-4', title: '3D SPATIAL GLASS CAPSULE PROMO BANNER (ANIMATION: PARTICLE STAR DRIFT & 3D SPATIAL TILT)', description: 'Design: 3D Spatial Glass Capsule Promo Banner • Animation: Particle Star Drift & 3D Spatial Tilt', previewComponent: <GlobalPromoBanner4 /> },
+      { id: 'global-promotional-banner-5', title: 'NEO-BRUTALIST HARD STAMP PROMO BANNER (ANIMATION: MARQUEE SCROLL & MECHANICAL BUTTON POP)', description: 'Design: Neo-Brutalist Hard Stamp Promo Banner • Animation: Marquee Scroll & Mechanical Button Pop', previewComponent: <GlobalPromoBanner5 /> },
+      { id: 'global-promotional-banner-6', title: 'SUB-ZERO CRYO FROST PROMO BANNER (ANIMATION: FROST SPARKLE & FROZEN CRYO PULSE)', description: 'Design: Sub-Zero Cryo Frost Promo Banner • Animation: Frost Sparkle & Frozen Cryo Pulse', previewComponent: <GlobalPromoBanner6 /> },
+      { id: 'global-promotional-banner-7', title: 'CLAYMORPHISM PASTEL RIBBON PROMO BANNER (ANIMATION: ELASTIC CLAY BOUNCE & SOFT FLOATING SHIMMER)', description: 'Design: Claymorphism Pastel Ribbon Promo Banner • Animation: Elastic Clay Bounce & Soft Floating Shimmer', previewComponent: <GlobalPromoBanner7 /> },
+      { id: 'global-promotional-banner-8', title: 'RETRO ARCADE 8-BIT QUEST PROMO BANNER (ANIMATION: PIXEL HEART PULSE & RETRO CRT SCANLINE)', description: 'Design: Retro Arcade 8-Bit Quest Promo Banner • Animation: Pixel Heart Pulse & Retro CRT Scanline', previewComponent: <GlobalPromoBanner8 /> },
+      { id: 'global-promotional-banner-9', title: 'SWISS EDITORIAL GAZETTE PROMO BANNER (ANIMATION: PAPER UNROLL SWEEP & FINE LINE DRAW)', description: 'Design: Swiss Editorial Gazette Promo Banner • Animation: Paper Unroll Sweep & Fine Line Draw', previewComponent: <GlobalPromoBanner9 /> },
+      { id: 'global-promotional-banner-10', title: 'CYBERPUNK LASER LATTICE MATRIX PROMO BANNER (ANIMATION: NEON PULSE BEAMS & MATRIX GRID WAVE)', description: 'Design: Cyberpunk Laser Lattice Matrix Promo Banner • Animation: Neon Pulse Beams & Matrix Grid Wave', previewComponent: <GlobalPromoBanner10 /> },
+      { id: 'global-promotional-banner-11', title: 'BENTO GRID MULTI-TILE PROMO BANNER (ANIMATION: STAGGERED CARD FLOAT & HOVER GLOW)', description: 'Design: Bento Grid Multi-Tile Promo Banner • Animation: Staggered Card Float & Hover Glow', previewComponent: <GlobalPromoBanner11 /> },
+      { id: 'global-promotional-banner-12', title: 'COSMIC CELESTIAL CONSTELLATION PROMO BANNER (ANIMATION: TWINKLING STARLIGHT & ORBIT SATELLITE PATH)', description: 'Design: Cosmic Celestial Constellation Promo Banner • Animation: Twinkling Starlight & Orbit Satellite Path', previewComponent: <GlobalPromoBanner12 /> },
+      { id: 'global-promotional-banner-13', title: 'GLASSMORPHISM PRISM REFRACTION PROMO BANNER (ANIMATION: IRIDESCENT LIGHT SPLIT & RAINBOW SHEEN)', description: 'Design: Glassmorphism Prism Refraction Promo Banner • Animation: Iridescent Light Split & Rainbow Sheen', previewComponent: <GlobalPromoBanner13 /> },
+      { id: 'global-promotional-banner-14', title: 'SWISS MONOCHROME ARCHITECTURAL GRID PROMO BANNER (ANIMATION: CONTINUOUS LINE DRAW & PULSING BEACON)', description: 'Design: Swiss Monochrome Architectural Grid Promo Banner • Animation: Continuous Line Draw & Pulsing Beacon', previewComponent: <GlobalPromoBanner14 /> },
+      { id: 'global-promotional-banner-15', title: 'GOLDEN VINTAGE HERITAGE LOCKET PROMO BANNER (ANIMATION: LOCKET FLIP & SUNBURST RAY RADIANCE)', description: 'Design: Golden Vintage Heritage Locket Promo Banner • Animation: Locket Flip & Sunburst Ray Radiance', previewComponent: <GlobalPromoBanner15 /> },
+      { id: 'global-promotional-banner-16', title: 'GLOW WAVE AUDIO EQUALIZER PROMO BANNER (ANIMATION: SINE WAVE MOTION & LED EQUALIZER PULSE)', description: 'Design: Glow Wave Audio Equalizer Promo Banner • Animation: Sine Wave Motion & LED Equalizer Pulse', previewComponent: <GlobalPromoBanner16 /> },
+      { id: 'global-promotional-banner-17', title: 'TERRACOTTA MEDITERRANEAN BOHO STUDIO PROMO BANNER (ANIMATION: SOFT PARALLAX SWAY & CLAY EARTH SHIMMER)', description: 'Design: Terracotta Mediterranean Boho Studio Promo Banner • Animation: Soft Parallax Sway & Clay Earth Shimmer', previewComponent: <GlobalPromoBanner17 /> },
+      { id: 'global-promotional-banner-18', title: 'EMERALD BIO-SPHERE HAVEN PROMO BANNER (ANIMATION: BIO-PULSE GLOW & FIREFLY LEAF DRIFT)', description: 'Design: Emerald Bio-Sphere Haven Promo Banner • Animation: Bio-Pulse Glow & Firefly Leaf Drift', previewComponent: <GlobalPromoBanner18 /> },
+      { id: 'global-promotional-banner-19', title: 'PLAYFUL STICKER COLLAGE PROMO BANNER (ANIMATION: STICKER BADGE WIGGLE & POP-ON-HOVER)', description: 'Design: Playful Sticker Collage Promo Banner • Animation: Sticker Badge Wiggle & Pop-on-Hover', previewComponent: <GlobalPromoBanner19 /> },
+      { id: 'global-promotional-banner-20', title: 'VAPORWAVE SUNSET HORIZON PROMO BANNER (ANIMATION: SYNTHWAVE GRID RUN & SUNRISE GLOW PULSE)', description: 'Design: Vaporwave Sunset Horizon Promo Banner • Animation: Synthwave Grid Run & Sunrise Glow Pulse', previewComponent: <GlobalPromoBanner20 /> },
+] : category === 'global-hero-banner' ? [
+      { id: 'global-hero-banner-1', title: 'FLOATING GLASSMORPHIC ISLAND GLOBAL HERO (ANIMATION: TRANSLUCENT BACKDROP BLUR & SHIMMER PRODUCT FRAME)', description: 'Design: Floating Glassmorphic Island Global Hero • Animation: Translucent Backdrop Blur & Shimmer Product Frame', previewComponent: <GlobalHeroBanner1 /> },
+      { id: 'global-hero-banner-2', title: 'CYBER MATRIX TELEMETRY GLOBAL HERO (ANIMATION: ROTATING RADAR RING & HOLOGRAPHIC TELEMETRY CROSSHAIR)', description: 'Design: Cyber Matrix Telemetry Global Hero • Animation: Rotating Radar Ring & Holographic Telemetry Crosshair', previewComponent: <GlobalHeroBanner2 /> },
+      { id: 'global-hero-banner-3', title: 'NEUMORPHIC SOFT VELVET GLOBAL HERO (ANIMATION: TACTILE INSET SHADOW & SOFT PULSE TOGGLE)', description: 'Design: Neumorphic Soft Velvet Global Hero • Animation: Tactile Inset Shadow & Soft Pulse Toggle', previewComponent: <GlobalHeroBanner3 /> },
+      { id: 'global-hero-banner-4', title: '3D SPATIAL GLASS CAPSULE GLOBAL HERO (ANIMATION: PARTICLE STAR DRIFT & 3D SPATIAL TILT)', description: 'Design: 3D Spatial Glass Capsule Global Hero • Animation: Particle Star Drift & 3D Spatial Tilt', previewComponent: <GlobalHeroBanner4 /> },
+      { id: 'global-hero-banner-5', title: 'NEO-BRUTALIST HIGH-FASHION GLOBAL HERO (ANIMATION: MARQUEE SCROLL & MECHANICAL BUTTON POP)', description: 'Design: Neo-Brutalist High-Fashion Global Hero • Animation: Marquee Scroll & Mechanical Button Pop', previewComponent: <GlobalHeroBanner5 /> },
+      { id: 'global-hero-banner-6', title: 'SUB-ZERO CRYO FROST GLOBAL HERO (ANIMATION: FROST SPARKLE & FROZEN CRYO PULSE)', description: 'Design: Sub-Zero Cryo Frost Global Hero • Animation: Frost Sparkle & Frozen Cryo Pulse', previewComponent: <GlobalHeroBanner6 /> },
+      { id: 'global-hero-banner-7', title: 'CLAYMORPHISM PASTEL RIBBON GLOBAL HERO (ANIMATION: ELASTIC CLAY BOUNCE & SOFT FLOATING SHIMMER)', description: 'Design: Claymorphism Pastel Ribbon Global Hero • Animation: Elastic Clay Bounce & Soft Floating Shimmer', previewComponent: <GlobalHeroBanner7 /> },
+      { id: 'global-hero-banner-8', title: 'RETRO ARCADE 8-BIT QUEST GLOBAL HERO (ANIMATION: PIXEL HEART PULSE & RETRO CRT SCANLINE)', description: 'Design: Retro Arcade 8-Bit Quest Global Hero • Animation: Pixel Heart Pulse & Retro CRT Scanline', previewComponent: <GlobalHeroBanner8 /> },
+      { id: 'global-hero-banner-9', title: 'SWISS EDITORIAL GAZETTE GLOBAL HERO (ANIMATION: PAPER UNROLL SWEEP & FINE LINE DRAW)', description: 'Design: Swiss Editorial Gazette Global Hero • Animation: Paper Unroll Sweep & Fine Line Draw', previewComponent: <GlobalHeroBanner9 /> },
+      { id: 'global-hero-banner-10', title: 'CYBERPUNK LASER LATTICE MATRIX GLOBAL HERO (ANIMATION: NEON PULSE BEAMS & MATRIX GRID WAVE)', description: 'Design: Cyberpunk Laser Lattice Matrix Global Hero • Animation: Neon Pulse Beams & Matrix Grid Wave', previewComponent: <GlobalHeroBanner10 /> },
+      { id: 'global-hero-banner-11', title: 'BENTO GRID MULTI-TILE GLOBAL HERO (ANIMATION: STAGGERED CARD FLOAT & HOVER GLOW)', description: 'Design: Bento Grid Multi-Tile Global Hero • Animation: Staggered Card Float & Hover Glow', previewComponent: <GlobalHeroBanner11 /> },
+      { id: 'global-hero-banner-12', title: 'COSMIC CELESTIAL CONSTELLATION GLOBAL HERO (ANIMATION: TWINKLING STARLIGHT & ORBIT SATELLITE PATH)', description: 'Design: Cosmic Celestial Constellation Global Hero • Animation: Twinkling Starlight & Orbit Satellite Path', previewComponent: <GlobalHeroBanner12 /> },
+      { id: 'global-hero-banner-13', title: 'GLASSMORPHISM PRISM REFRACTION GLOBAL HERO (ANIMATION: IRIDESCENT LIGHT SPLIT & RAINBOW SHEEN)', description: 'Design: Glassmorphism Prism Refraction Global Hero • Animation: Iridescent Light Split & Rainbow Sheen', previewComponent: <GlobalHeroBanner13 /> },
+      { id: 'global-hero-banner-14', title: 'SWISS MONOCHROME ARCHITECTURAL GRID GLOBAL HERO (ANIMATION: CONTINUOUS LINE DRAW & PULSING BEACON)', description: 'Design: Swiss Monochrome Architectural Grid Global Hero • Animation: Continuous Line Draw & Pulsing Beacon', previewComponent: <GlobalHeroBanner14 /> },
+      { id: 'global-hero-banner-15', title: 'GOLDEN VINTAGE HERITAGE LOCKET GLOBAL HERO (ANIMATION: LOCKET FLIP & SUNBURST RAY RADIANCE)', description: 'Design: Golden Vintage Heritage Locket Global Hero • Animation: Locket Flip & Sunburst Ray Radiance', previewComponent: <GlobalHeroBanner15 /> },
+      { id: 'global-hero-banner-16', title: 'GLOW WAVE AUDIO EQUALIZER GLOBAL HERO (ANIMATION: SINE WAVE MOTION & LED EQUALIZER PULSE)', description: 'Design: Glow Wave Audio Equalizer Global Hero • Animation: Sine Wave Motion & LED Equalizer Pulse', previewComponent: <GlobalHeroBanner16 /> },
+      { id: 'global-hero-banner-17', title: 'TERRACOTTA MEDITERRANEAN BOHO STUDIO GLOBAL HERO (ANIMATION: SOFT PARALLAX SWAY & CLAY EARTH SHIMMER)', description: 'Design: Terracotta Mediterranean Boho Studio Global Hero • Animation: Soft Parallax Sway & Clay Earth Shimmer', previewComponent: <GlobalHeroBanner17 /> },
+      { id: 'global-hero-banner-18', title: 'EMERALD BIO-SPHERE HAVEN GLOBAL HERO (ANIMATION: BIO-PULSE GLOW & FIREFLY LEAF DRIFT)', description: 'Design: Emerald Bio-Sphere Haven Global Hero • Animation: Bio-Pulse Glow & Firefly Leaf Drift', previewComponent: <GlobalHeroBanner18 /> },
+      { id: 'global-hero-banner-19', title: 'PLAYFUL STICKER COLLAGE GLOBAL HERO (ANIMATION: STICKER BADGE WIGGLE & POP-ON-HOVER)', description: 'Design: Playful Sticker Collage Global Hero • Animation: Sticker Badge Wiggle & Pop-on-Hover', previewComponent: <GlobalHeroBanner19 /> },
+      { id: 'global-hero-banner-20', title: 'VAPORWAVE SUNSET HORIZON GLOBAL HERO (ANIMATION: SYNTHWAVE GRID RUN & SUNRISE GLOW PULSE)', description: 'Design: Vaporwave Sunset Horizon Global Hero • Animation: Synthwave Grid Run & Sunrise Glow Pulse', previewComponent: <GlobalHeroBanner20 /> },
+] : category === 'global-announcement-bar' ? [
+      { id: 'global-announcement-bar-1', title: 'FLOATING GLASSMORPHIC ISLAND ANNOUNCEMENT BAR (ANIMATION: TRANSLUCENT BACKDROP BLUR & COUNTDOWN TIMER)', description: 'Design: Floating Glassmorphic Island Announcement Bar • Animation: Translucent Backdrop Blur & Countdown Timer', previewComponent: <GlobalAnnouncementBar1 /> },
+      { id: 'global-announcement-bar-2', title: 'CYBER MATRIX TICKER ANNOUNCEMENT BAR (ANIMATION: ROTATING TELEMETRY PULSE & MATRIX TICKER)', description: 'Design: Cyber Matrix Ticker Announcement Bar • Animation: Rotating Telemetry Pulse & Matrix Ticker', previewComponent: <GlobalAnnouncementBar2 /> },
+      { id: 'global-announcement-bar-3', title: 'NEUMORPHIC SOFT VELVET ANNOUNCEMENT BAR (ANIMATION: TACTILE INSET SHADOW & SOFT PULSE TOGGLE)', description: 'Design: Neumorphic Soft Velvet Announcement Bar • Animation: Tactile Inset Shadow & Soft Pulse Toggle', previewComponent: <GlobalAnnouncementBar3 /> },
+      { id: 'global-announcement-bar-4', title: '3D SPATIAL GLASS CAPSULE ANNOUNCEMENT BAR (ANIMATION: PARTICLE STAR DRIFT & 3D SPATIAL TILT)', description: 'Design: 3D Spatial Glass Capsule Announcement Bar • Animation: Particle Star Drift & 3D Spatial Tilt', previewComponent: <GlobalAnnouncementBar4 /> },
+      { id: 'global-announcement-bar-5', title: 'NEO-BRUTALIST HARD STAMP ANNOUNCEMENT BAR (ANIMATION: MARQUEE SCROLL & MECHANICAL BUTTON POP)', description: 'Design: Neo-Brutalist Hard Stamp Announcement Bar • Animation: Marquee Scroll & Mechanical Button Pop', previewComponent: <GlobalAnnouncementBar5 /> },
+      { id: 'global-announcement-bar-6', title: 'SUB-ZERO CRYO FROST ANNOUNCEMENT BAR (ANIMATION: FROST SPARKLE & FROZEN CRYO PULSE)', description: 'Design: Sub-Zero Cryo Frost Announcement Bar • Animation: Frost Sparkle & Frozen Cryo Pulse', previewComponent: <GlobalAnnouncementBar6 /> },
+      { id: 'global-announcement-bar-7', title: 'CLAYMORPHISM PASTEL RIBBON ANNOUNCEMENT BAR (ANIMATION: ELASTIC CLAY BOUNCE & SOFT FLOATING SHIMMER)', description: 'Design: Claymorphism Pastel Ribbon Announcement Bar • Animation: Elastic Clay Bounce & Soft Floating Shimmer', previewComponent: <GlobalAnnouncementBar7 /> },
+      { id: 'global-announcement-bar-8', title: 'RETRO ARCADE 8-BIT QUEST ANNOUNCEMENT BAR (ANIMATION: PIXEL HEART PULSE & RETRO CRT SCANLINE)', description: 'Design: Retro Arcade 8-Bit Quest Announcement Bar • Animation: Pixel Heart Pulse & Retro CRT Scanline', previewComponent: <GlobalAnnouncementBar8 /> },
+      { id: 'global-announcement-bar-9', title: 'SWISS EDITORIAL GAZETTE ANNOUNCEMENT BAR (ANIMATION: PAPER UNROLL SWEEP & FINE LINE DRAW)', description: 'Design: Swiss Editorial Gazette Announcement Bar • Animation: Paper Unroll Sweep & Fine Line Draw', previewComponent: <GlobalAnnouncementBar9 /> },
+      { id: 'global-announcement-bar-10', title: 'CYBERPUNK LASER LATTICE MATRIX ANNOUNCEMENT BAR (ANIMATION: NEON PULSE BEAMS & MATRIX GRID WAVE)', description: 'Design: Cyberpunk Laser Lattice Matrix Announcement Bar • Animation: Neon Pulse Beams & Matrix Grid Wave', previewComponent: <GlobalAnnouncementBar10 /> },
+      { id: 'global-announcement-bar-11', title: 'BENTO GRID MULTI-PILL ANNOUNCEMENT BAR (ANIMATION: STAGGERED CARD FLOAT & HOVER GLOW)', description: 'Design: Bento Grid Multi-Pill Announcement Bar • Animation: Staggered Card Float & Hover Glow', previewComponent: <GlobalAnnouncementBar11 /> },
+      { id: 'global-announcement-bar-12', title: 'COSMIC CELESTIAL CONSTELLATION ANNOUNCEMENT BAR (ANIMATION: TWINKLING STARLIGHT & ORBIT SATELLITE PATH)', description: 'Design: Cosmic Celestial Constellation Announcement Bar • Animation: Twinkling Starlight & Orbit Satellite Path', previewComponent: <GlobalAnnouncementBar12 /> },
+      { id: 'global-announcement-bar-13', title: 'GLASSMORPHISM PRISM REFRACTION ANNOUNCEMENT BAR (ANIMATION: IRIDESCENT LIGHT SPLIT & RAINBOW SHEEN)', description: 'Design: Glassmorphism Prism Refraction Announcement Bar • Animation: Iridescent Light Split & Rainbow Sheen', previewComponent: <GlobalAnnouncementBar13 /> },
+      { id: 'global-announcement-bar-14', title: 'SWISS MONOCHROME ARCHITECTURAL GRID ANNOUNCEMENT BAR (ANIMATION: CONTINUOUS LINE DRAW & PULSING BEACON)', description: 'Design: Swiss Monochrome Architectural Grid Announcement Bar • Animation: Continuous Line Draw & Pulsing Beacon', previewComponent: <GlobalAnnouncementBar14 /> },
+      { id: 'global-announcement-bar-15', title: 'GOLDEN VINTAGE HERITAGE LOCKET ANNOUNCEMENT BAR (ANIMATION: LOCKET FLIP & SUNBURST RAY RADIANCE)', description: 'Design: Golden Vintage Heritage Locket Announcement Bar • Animation: Locket Flip & Sunburst Ray Radiance', previewComponent: <GlobalAnnouncementBar15 /> },
+      { id: 'global-announcement-bar-16', title: 'GLOW WAVE AUDIO EQUALIZER ANNOUNCEMENT BAR (ANIMATION: SINE WAVE MOTION & LED EQUALIZER PULSE)', description: 'Design: Glow Wave Audio Equalizer Announcement Bar • Animation: Sine Wave Motion & LED Equalizer Pulse', previewComponent: <GlobalAnnouncementBar16 /> },
+      { id: 'global-announcement-bar-17', title: 'TERRACOTTA MEDITERRANEAN BOHO STUDIO ANNOUNCEMENT BAR (ANIMATION: SOFT PARALLAX SWAY & CLAY EARTH SHIMMER)', description: 'Design: Terracotta Mediterranean Boho Studio Announcement Bar • Animation: Soft Parallax Sway & Clay Earth Shimmer', previewComponent: <GlobalAnnouncementBar17 /> },
+      { id: 'global-announcement-bar-18', title: 'EMERALD BIO-SPHERE HAVEN ANNOUNCEMENT BAR (ANIMATION: BIO-PULSE GLOW & FIREFLY LEAF DRIFT)', description: 'Design: Emerald Bio-Sphere Haven Announcement Bar • Animation: Bio-Pulse Glow & Firefly Leaf Drift', previewComponent: <GlobalAnnouncementBar18 /> },
+      { id: 'global-announcement-bar-19', title: 'PLAYFUL STICKER COLLAGE ANNOUNCEMENT BAR (ANIMATION: STICKER BADGE WIGGLE & POP-ON-HOVER)', description: 'Design: Playful Sticker Collage Announcement Bar • Animation: Sticker Badge Wiggle & Pop-on-Hover', previewComponent: <GlobalAnnouncementBar19 /> },
+      { id: 'global-announcement-bar-20', title: 'VAPORWAVE SUNSET HORIZON ANNOUNCEMENT BAR (ANIMATION: SYNTHWAVE GRID RUN & SUNRISE GLOW PULSE)', description: 'Design: Vaporwave Sunset Horizon Announcement Bar • Animation: Synthwave Grid Run & Sunrise Glow Pulse', previewComponent: <GlobalAnnouncementBar20 /> },
+] : category === 'global-mega-navigation' ? [
+      { id: 'global-mega-navigation-1', title: 'FLOATING GLASSMORPHIC ISLAND MEGA MENU (ANIMATION: TRANSLUCENT BACKDROP BLUR & SHIMMER DROPDOWN)', description: 'Design: Floating Glassmorphic Island Mega Menu • Animation: Translucent Backdrop Blur & Shimmer Dropdown', previewComponent: <GlobalMegaNavigation1 /> },
+      { id: 'global-mega-navigation-2', title: 'CYBER MATRIX TELEMETRY MEGA NAVIGATION (ANIMATION: ROTATING TELEMETRY CROSSHAIR & MATRIX GRID)', description: 'Design: Cyber Matrix Telemetry Mega Navigation • Animation: Rotating Telemetry Crosshair & Matrix Grid', previewComponent: <GlobalMegaNavigation2 /> },
+      { id: 'global-mega-navigation-3', title: 'NEUMORPHIC SOFT VELVET MEGA MENU (ANIMATION: TACTILE INSET SHADOW & SOFT PULSE TOGGLE)', description: 'Design: Neumorphic Soft Velvet Mega Menu • Animation: Tactile Inset Shadow & Soft Pulse Toggle', previewComponent: <GlobalMegaNavigation3 /> },
+      { id: 'global-mega-navigation-4', title: '3D SPATIAL GLASS CAPSULE MEGA MENU (ANIMATION: PARTICLE STAR DRIFT & 3D SPATIAL TILT)', description: 'Design: 3D Spatial Glass Capsule Mega Menu • Animation: Particle Star Drift & 3D Spatial Tilt', previewComponent: <GlobalMegaNavigation4 /> },
+      { id: 'global-mega-navigation-5', title: 'NEO-BRUTALIST HIGH-FASHION MEGA MENU (ANIMATION: TICKER MARQUEE SCROLL & MECHANICAL BUTTON POP)', description: 'Design: Neo-Brutalist High-Fashion Mega Menu • Animation: Ticker Marquee Scroll & Mechanical Button Pop', previewComponent: <GlobalMegaNavigation5 /> },
+      { id: 'global-mega-navigation-6', title: 'SUB-ZERO CRYO FROST MEGA MENU (ANIMATION: FROST SPARKLE & CRYSTALLINE ICE REFRACTION)', description: 'Design: Sub-Zero Cryo Frost Mega Menu • Animation: Frost Sparkle & Crystalline Ice Refraction', previewComponent: <GlobalMegaNavigation6 /> },
+      { id: 'global-mega-navigation-7', title: 'CLAYMORPHISM PASTEL RIBBON MEGA MENU (ANIMATION: ELASTIC CLAY BOUNCE & SOFT FLOATING SHIMMER)', description: 'Design: Claymorphism Pastel Ribbon Mega Menu • Animation: Elastic Clay Bounce & Soft Floating Shimmer', previewComponent: <GlobalMegaNavigation7 /> },
+      { id: 'global-mega-navigation-8', title: 'RETRO ARCADE 8-BIT QUEST MEGA MENU (ANIMATION: PIXEL HEART PULSE & RETRO CRT SCANLINE)', description: 'Design: Retro Arcade 8-Bit Quest Mega Menu • Animation: Pixel Heart Pulse & Retro CRT Scanline', previewComponent: <GlobalMegaNavigation8 /> },
+      { id: 'global-mega-navigation-9', title: 'SWISS EDITORIAL GAZETTE MEGA MENU (ANIMATION: PAPER UNROLL SWEEP & FINE LINE DRAW)', description: 'Design: Swiss Editorial Gazette Mega Menu • Animation: Paper Unroll Sweep & Fine Line Draw', previewComponent: <GlobalMegaNavigation9 /> },
+      { id: 'global-mega-navigation-10', title: 'CYBERPUNK LASER LATTICE MATRIX MEGA MENU (ANIMATION: NEON PULSE BEAMS & MATRIX GRID WAVE)', description: 'Design: Cyberpunk Laser Lattice Matrix Mega Menu • Animation: Neon Pulse Beams & Matrix Grid Wave', previewComponent: <GlobalMegaNavigation10 /> },
+      { id: 'global-mega-navigation-11', title: 'BENTO GRID SPLIT NAVIGATION MEGA MENU (ANIMATION: STAGGERED CARD HOVER & MEGA MENU GLOW)', description: 'Design: Bento Grid Split Navigation Mega Menu • Animation: Staggered Card Hover & Mega Menu Glow', previewComponent: <GlobalMegaNavigation11 /> },
+      { id: 'global-mega-navigation-12', title: 'COSMIC CELESTIAL CONSTELLATION MEGA MENU (ANIMATION: TWINKLING STARLIGHT & ORBIT SATELLITE PATH)', description: 'Design: Cosmic Celestial Constellation Mega Menu • Animation: Twinkling Starlight & Orbit Satellite Path', previewComponent: <GlobalMegaNavigation12 /> },
+      { id: 'global-mega-navigation-13', title: 'GLASSMORPHISM PRISM REFRACTION MEGA MENU (ANIMATION: IRIDESCENT LIGHT SPLIT & RAINBOW SHEEN)', description: 'Design: Glassmorphism Prism Refraction Mega Menu • Animation: Iridescent Light Split & Rainbow Sheen', previewComponent: <GlobalMegaNavigation13 /> },
+      { id: 'global-mega-navigation-14', title: 'SWISS MONOCHROME ARCHITECTURAL GRID MEGA MENU (ANIMATION: CONTINUOUS LINE DRAW & PULSING BEACON)', description: 'Design: Swiss Monochrome Architectural Grid Mega Menu • Animation: Continuous Line Draw & Pulsing Beacon', previewComponent: <GlobalMegaNavigation14 /> },
+      { id: 'global-mega-navigation-15', title: 'GOLDEN VINTAGE HERITAGE LOCKET MEGA MENU (ANIMATION: LOCKET FLIP & SUNBURST RAY RADIANCE)', description: 'Design: Golden Vintage Heritage Locket Mega Menu • Animation: Locket Flip & Sunburst Ray Radiance', previewComponent: <GlobalMegaNavigation15 /> },
+      { id: 'global-mega-navigation-16', title: 'GLOW WAVE AUDIO EQUALIZER MEGA MENU (ANIMATION: SINE WAVE MOTION & LED EQUALIZER PULSE)', description: 'Design: Glow Wave Audio Equalizer Mega Menu • Animation: Sine Wave Motion & LED Equalizer Pulse', previewComponent: <GlobalMegaNavigation16 /> },
+      { id: 'global-mega-navigation-17', title: 'TERRACOTTA MEDITERRANEAN BOHO STUDIO MEGA MENU (ANIMATION: SOFT PARALLAX SWAY & CLAY EARTH SHIMMER)', description: 'Design: Terracotta Mediterranean Boho Studio Mega Menu • Animation: Soft Parallax Sway & Clay Earth Shimmer', previewComponent: <GlobalMegaNavigation17 /> },
+      { id: 'global-mega-navigation-18', title: 'EMERALD BIO-SPHERE HAVEN MEGA MENU (ANIMATION: BIO-PULSE GLOW & FIREFLY LEAF DRIFT)', description: 'Design: Emerald Bio-Sphere Haven Mega Menu • Animation: Bio-Pulse Glow & Firefly Leaf Drift', previewComponent: <GlobalMegaNavigation18 /> },
+      { id: 'global-mega-navigation-19', title: 'PLAYFUL STICKER COLLAGE MEGA MENU (ANIMATION: STICKER BADGE WIGGLE & POP-ON-HOVER)', description: 'Design: Playful Sticker Collage Mega Menu • Animation: Sticker Badge Wiggle & Pop-on-Hover', previewComponent: <GlobalMegaNavigation19 /> },
+      { id: 'global-mega-navigation-20', title: 'VAPORWAVE SUNSET HORIZON MEGA MENU (ANIMATION: SYNTHWAVE GRID RUN & SUNRISE GLOW PULSE)', description: 'Design: Vaporwave Sunset Horizon Mega Menu • Animation: Synthwave Grid Run & Sunrise Glow Pulse', previewComponent: <GlobalMegaNavigation20 /> },
+] : category === 'global-header' ? [
+      { id: 'global-header-1', title: 'FLOATING GLASSMORPHIC ISLAND HEADER (ANIMATION: FLOATING ISLAND PULSE & BACKDROP SHIMMER)', description: 'Design: Floating Glassmorphic Island Header • Animation: Floating Island Pulse & Backdrop Shimmer', previewComponent: <GlobalHeader1 /> },
+      { id: 'global-header-2', title: 'CYBER MATRIX TELEMETRY HEADER (ANIMATION: ROTATING RADAR RING & MATRIX CODE BAR)', description: 'Design: Cyber Matrix Telemetry Header • Animation: Rotating Radar Ring & Matrix Code Bar', previewComponent: <GlobalHeader2 /> },
+      { id: 'global-header-3', title: 'NEUMORPHIC SOFT TACTILE NAVBAR (ANIMATION: TACTILE INSET SHADOW & SOFT PULSE TOGGLE)', description: 'Design: Neumorphic Soft Tactile Navbar • Animation: Tactile Inset Shadow & Soft Pulse Toggle', previewComponent: <GlobalHeader3 /> },
+      { id: 'global-header-4', title: '3D SPATIAL GLASS CAPSULE HEADER (ANIMATION: PARTICLE STAR DRIFT & 3D SPATIAL TILT)', description: 'Design: 3D Spatial Glass Capsule Header • Animation: Particle Star Drift & 3D Spatial Tilt', previewComponent: <GlobalHeader4 /> },
+      { id: 'global-header-5', title: 'NEO-BRUTALIST CHUNKY STAMP HEADER (ANIMATION: TICKER MARQUEE SCROLL & MECHANICAL BUTTON POP)', description: 'Design: Neo-Brutalist Chunky Stamp Header • Animation: Ticker Marquee Scroll & Mechanical Button Pop', previewComponent: <GlobalHeader5 /> },
+      { id: 'global-header-6', title: 'SUB-ZERO CRYO FROST HEADER (ANIMATION: FROST SPARKLE & CRYSTALLINE ICE REFRACTION)', description: 'Design: Sub-Zero Cryo Frost Header • Animation: Frost Sparkle & Crystalline Ice Refraction', previewComponent: <GlobalHeader6 /> },
+      { id: 'global-header-7', title: 'CLAYMORPHISM PASTEL RIBBON HEADER (ANIMATION: ELASTIC CLAY BOUNCE & SOFT FLOATING SHIMMER)', description: 'Design: Claymorphism Pastel Ribbon Header • Animation: Elastic Clay Bounce & Soft Floating Shimmer', previewComponent: <GlobalHeader7 /> },
+      { id: 'global-header-8', title: 'RETRO ARCADE 8-BIT QUEST HEADER (ANIMATION: PIXEL HEART PULSE & RETRO CRT SCANLINE)', description: 'Design: Retro Arcade 8-Bit Quest Header • Animation: Pixel Heart Pulse & Retro CRT Scanline', previewComponent: <GlobalHeader8 /> },
+      { id: 'global-header-9', title: 'SWISS EDITORIAL MAGAZINE HEADER (ANIMATION: PAPER UNROLL SWEEP & FINE LINE DRAW)', description: 'Design: Swiss Editorial Magazine Header • Animation: Paper Unroll Sweep & Fine Line Draw', previewComponent: <GlobalHeader9 /> },
+      { id: 'global-header-10', title: 'CYBERPUNK LASER LATTICE HEADER (ANIMATION: NEON PULSE BEAMS & MATRIX GRID WAVE)', description: 'Design: Cyberpunk Laser Lattice Header • Animation: Neon Pulse Beams & Matrix Grid Wave', previewComponent: <GlobalHeader10 /> },
+      { id: 'global-header-11', title: 'BENTO GRID SPLIT NAVIGATION HEADER (ANIMATION: STAGGERED CARD HOVER & MEGA MENU GLOW)', description: 'Design: Bento Grid Split Navigation Header • Animation: Staggered Card Hover & Mega Menu Glow', previewComponent: <GlobalHeader11 /> },
+      { id: 'global-header-12', title: 'COSMIC NEBULA STARRY HEADER (ANIMATION: TWINKLING STARLIGHT & ORBIT SATELLITE PATH)', description: 'Design: Cosmic Nebula Starry Header • Animation: Twinkling Starlight & Orbit Satellite Path', previewComponent: <GlobalHeader12 /> },
+      { id: 'global-header-13', title: 'GLASSMORPHISM PRISM REFRACTION HEADER (ANIMATION: IRIDESCENT LIGHT SPLIT & RAINBOW SHEEN)', description: 'Design: Glassmorphism Prism Refraction Header • Animation: Iridescent Light Split & Rainbow Sheen', previewComponent: <GlobalHeader13 /> },
+      { id: 'global-header-14', title: 'MONOCHROME MINIMALIST LINE HEADER (ANIMATION: CONTINUOUS LINE DRAW & PULSING BEACON)', description: 'Design: Monochrome Minimalist Line Header • Animation: Continuous Line Draw & Pulsing Beacon', previewComponent: <GlobalHeader14 /> },
+      { id: 'global-header-15', title: 'GOLDEN VINTAGE ENGRAVED HEADER (ANIMATION: LOCKET FLIP & SUNBURST RAY RADIANCE)', description: 'Design: Golden Vintage Engraved Header • Animation: Locket Flip & Sunburst Ray Radiance', previewComponent: <GlobalHeader15 /> },
+      { id: 'global-header-16', title: 'GLOW WAVE AUDIO EQUALIZER HEADER (ANIMATION: SINE WAVE MOTION & LED EQUALIZER PULSE)', description: 'Design: Glow Wave Audio Equalizer Header • Animation: Sine Wave Motion & LED Equalizer Pulse', previewComponent: <GlobalHeader16 /> },
+      { id: 'global-header-17', title: 'WARM TERRACOTTA BOHO STUDIO HEADER (ANIMATION: SOFT PARALLAX SWAY & CLAY EARTH SHIMMER)', description: 'Design: Warm Terracotta Boho Studio Header • Animation: Soft Parallax Sway & Clay Earth Shimmer', previewComponent: <GlobalHeader17 /> },
+      { id: 'global-header-18', title: 'EMERALD BIO-SPHERE HAVEN HEADER (ANIMATION: BIO-PULSE GLOW & FIREFLY LEAF DRIFT)', description: 'Design: Emerald Bio-Sphere Haven Header • Animation: Bio-Pulse Glow & Firefly Leaf Drift', previewComponent: <GlobalHeader18 /> },
+      { id: 'global-header-19', title: 'PLAYFUL STICKER COLLAGE HEADER (ANIMATION: STICKER BADGE WIGGLE & POP-ON-HOVER)', description: 'Design: Playful Sticker Collage Header • Animation: Sticker Badge Wiggle & Pop-on-Hover', previewComponent: <GlobalHeader19 /> },
+      { id: 'global-header-20', title: 'VAPORWAVE SUNSET HORIZON HEADER (ANIMATION: SYNTHWAVE GRID RUN & SUNRISE GLOW PULSE)', description: 'Design: Vaporwave Sunset Horizon Header • Animation: Synthwave Grid Run & Sunrise Glow Pulse', previewComponent: <GlobalHeader20 /> },
+] : category === 'empty-order-history' ? [
+      { id: 'empty-order-history-1', title: 'RECEIPT SCANNER SHIMMER (ANIMATION: FLOATING RECEIPT SCANLINE & SHIMMER SWEEP)', description: 'Design: Receipt Scanner Shimmer • Animation: Floating Receipt Scanline & Shimmer Sweep', previewComponent: <EmptyOrderHistory1 /> },
+      { id: 'empty-order-history-2', title: 'CYBER MATRIX PARCEL DISPATCH TERMINAL (ANIMATION: ROTATING HOLOGRAM CROSSHAIR & TERMINAL MATRIX)', description: 'Design: Cyber Matrix Parcel Dispatch Terminal • Animation: Rotating Hologram Crosshair & Terminal Matrix', previewComponent: <EmptyOrderHistory2 /> },
+      { id: 'empty-order-history-3', title: 'NEUMORPHIC TACTILE ORDER BOX (ANIMATION: TACTILE BREATHING PULSE & INSET RIPPLE)', description: 'Design: Neumorphic Tactile Order Box • Animation: Tactile Breathing Pulse & Inset Ripple', previewComponent: <EmptyOrderHistory3 /> },
+      { id: 'empty-order-history-4', title: '3D SPATIAL HOLOGRAPHIC PARCEL CHAMBER (ANIMATION: SPATIAL ORBITAL PARTICLE & 3D TILT SHIMMER)', description: 'Design: 3D Spatial Holographic Parcel Chamber • Animation: Spatial Orbital Particle & 3D Tilt Shimmer', previewComponent: <EmptyOrderHistory4 /> },
+      { id: 'empty-order-history-5', title: 'NEO-BRUTALIST SHIPPING STAMP (ANIMATION: MARQUEE SCROLL & MECHANICAL STAMP POP)', description: 'Design: Neo-Brutalist Shipping Stamp • Animation: Marquee Scroll & Mechanical Stamp Pop', previewComponent: <EmptyOrderHistory5 /> },
+      { id: 'empty-order-history-6', title: 'SUB-ZERO FROZEN VAULT ORDER ARCHIVE (ANIMATION: FROST SPARKLE & FROZEN CRYO PULSE)', description: 'Design: Sub-Zero Frozen Vault Order Archive • Animation: Frost Sparkle & Frozen Cryo Pulse', previewComponent: <EmptyOrderHistory6 /> },
+      { id: 'empty-order-history-7', title: 'CLAYMORPHISM DELIVERY TRUCK BOX (ANIMATION: SOFT 3D CLAY BOUNCE & VAN SHIMMER)', description: 'Design: Claymorphism Delivery Truck Box • Animation: Soft 3D Clay Bounce & Van Shimmer', previewComponent: <EmptyOrderHistory7 /> },
+      { id: 'empty-order-history-8', title: 'RETRO ARCADE ORDER LOG QUEST (ANIMATION: 8-BIT QUEST PULSE & CRT SCANLINE)', description: 'Design: Retro Arcade Order Log Quest • Animation: 8-Bit Quest Pulse & CRT Scanline', previewComponent: <EmptyOrderHistory8 /> },
+      { id: 'empty-order-history-9', title: 'MINIMALIST ORIGAMI PAPER ENVELOPE (ANIMATION: PAPER ENVELOPE FOLD & SHIMMER DRAW)', description: 'Design: Minimalist Origami Paper Envelope • Animation: Paper Envelope Fold & Shimmer Draw', previewComponent: <EmptyOrderHistory9 /> },
+      { id: 'empty-order-history-10', title: 'CYBERPUNK LASER DELIVERY GRID (ANIMATION: LASER MATRIX GRID & TELEMETRY SCANNER)', description: 'Design: Cyberpunk Laser Delivery Grid • Animation: Laser Matrix Grid & Telemetry Scanner', previewComponent: <EmptyOrderHistory10 /> },
+      { id: 'empty-order-history-11', title: 'BENTO ORDER DISCOVERY GRID (ANIMATION: STAGGERED CARD FLOAT & HOVER GLOW)', description: 'Design: Bento Order Discovery Grid • Animation: Staggered Card Float & Hover Glow', previewComponent: <EmptyOrderHistory11 /> },
+      { id: 'empty-order-history-12', title: 'COSMIC NEBULA ORDER CONSTELLATION (ANIMATION: GALACTIC DELIVERY ORBIT & STAR PULSAR)', description: 'Design: Cosmic Nebula Order Constellation • Animation: Galactic Delivery Orbit & Star Pulsar', previewComponent: <EmptyOrderHistory12 /> },
+      { id: 'empty-order-history-13', title: 'GLASSMORPHISM PRISM SHIPPING TAG (ANIMATION: PRISM LIGHT REFRACTION & FROSTED GLASS FLOAT)', description: 'Design: Glassmorphism Prism Shipping Tag • Animation: Prism Light Refraction & Frosted Glass Float', previewComponent: <EmptyOrderHistory13 /> },
+      { id: 'empty-order-history-14', title: 'SWISS MONOCHROME ARCHITECTURAL VAULT (ANIMATION: CONTINUOUS LINE DRAW & MONOCHROMATIC BEACON)', description: 'Design: Swiss Monochrome Architectural Vault • Animation: Continuous Line Draw & Monochromatic Beacon', previewComponent: <EmptyOrderHistory14 /> },
+      { id: 'empty-order-history-15', title: 'GOLDEN VINTAGE LEDGER CHEST (ANIMATION: LEDGER PAGE SHIMMER & GOLDEN RAY RADIANCE)', description: 'Design: Golden Vintage Ledger Chest • Animation: Ledger Page Shimmer & Golden Ray Radiance', previewComponent: <EmptyOrderHistory15 /> },
+      { id: 'empty-order-history-16', title: 'GLOW WAVE LOGISTICS EQUALIZER (ANIMATION: SINE WAVE MOTION & GLOWING LED BAR EQUALIZER)', description: 'Design: Glow Wave Logistics Equalizer • Animation: Sine Wave Motion & Glowing LED Bar Equalizer', previewComponent: <EmptyOrderHistory16 /> },
+      { id: 'empty-order-history-17', title: 'TERRACOTTA MEDITERRANEAN BOHO STUDIO (ANIMATION: SOFT EARTH PARALLAX FLOAT & CLAY SHIMMER)', description: 'Design: Terracotta Mediterranean Boho Studio • Animation: Soft Earth Parallax Float & Clay Shimmer', previewComponent: <EmptyOrderHistory17 /> },
+      { id: 'empty-order-history-18', title: 'EMERALD BIO-SPHERE PARCEL HAVEN (ANIMATION: BIO-PULSE GLOW & LEAVES DRIFT)', description: 'Design: Emerald Bio-Sphere Parcel Haven • Animation: Bio-Pulse Glow & Leaves Drift', previewComponent: <EmptyOrderHistory18 /> },
+      { id: 'empty-order-history-19', title: 'PLAYFUL STICKER POSTAGE STAMP COLLAGE (ANIMATION: STAMP STICKER WIGGLE & POP-ON-HOVER)', description: 'Design: Playful Sticker Postage Stamp Collage • Animation: Stamp Sticker Wiggle & Pop-on-Hover', previewComponent: <EmptyOrderHistory19 /> },
+      { id: 'empty-order-history-20', title: 'VAPORWAVE SYNTHWAVE DELIVERY HORIZON (ANIMATION: 80S SYNTHWAVE GRID RUN & SUNRISE SPARKLE)', description: 'Design: Vaporwave Synthwave Delivery Horizon • Animation: 80s Synthwave Grid Run & Sunrise Sparkle', previewComponent: <EmptyOrderHistory20 /> },
+] : category === 'empty-wishlist' ? [
+      { id: 'empty-wishlist-1', title: 'FLOATING NEON CRYSTAL HEART (ANIMATION: FLOATING HEART PULSE & AMBIENT GLOW)', description: 'Design: Floating Neon Crystal Heart • Animation: Floating Heart Pulse & Ambient Glow', previewComponent: <EmptyWishlist1 /> },
+      { id: 'empty-wishlist-2', title: 'CYBER HEART ORBIT TERMINAL (ANIMATION: ROTATING SATELLITE RINGS & HOLOGRAM SCAN)', description: 'Design: Cyber Heart Orbit Terminal • Animation: Rotating Satellite Rings & Hologram Scan', previewComponent: <EmptyWishlist2 /> },
+      { id: 'empty-wishlist-3', title: 'NEUMORPHIC SOFT VELVET PILLOW (ANIMATION: GENTLE BREATHING PULSE & RIPPLE EFFECT)', description: 'Design: Neumorphic Soft Velvet Pillow • Animation: Gentle Breathing Pulse & Ripple Effect', previewComponent: <EmptyWishlist3 /> },
+      { id: 'empty-wishlist-4', title: '3D HOLOGRAPHIC SPATIAL VAULT (ANIMATION: PARTICLE STARS & COSMIC WAVE SHIFT)', description: 'Design: 3D Holographic Spatial Vault • Animation: Particle Stars & Cosmic Wave Shift', previewComponent: <EmptyWishlist4 /> },
+      { id: 'empty-wishlist-5', title: 'NEO-BRUTALIST HEART STAMP (ANIMATION: MARQUEE SCROLL & MECHANICAL HEART POP)', description: 'Design: Neo-Brutalist Heart Stamp • Animation: Marquee Scroll & Mechanical Heart Pop', previewComponent: <EmptyWishlist5 /> },
+      { id: 'empty-wishlist-6', title: 'SUB-ZERO ICE CRYSTAL VAULT (ANIMATION: FROST SPARKLE & FLOATING ICE SHARDS)', description: 'Design: Sub-Zero Ice Crystal Vault • Animation: Frost Sparkle & Floating Ice Shards', previewComponent: <EmptyWishlist6 /> },
+      { id: 'empty-wishlist-7', title: 'CLAYMORPHISM PASTEL WISH BOX (ANIMATION: SOFT FLOATING BOUNCE & ELASTIC HEART SQUISH)', description: 'Design: Claymorphism Pastel Wish Box • Animation: Soft Floating Bounce & Elastic Heart Squish', previewComponent: <EmptyWishlist7 /> },
+      { id: 'empty-wishlist-8', title: 'RETRO ARCADE HEART COLLECTOR (ANIMATION: 8-BIT PIXEL HEART PULSE & RETRO CRT SCANLINE)', description: 'Design: Retro Arcade Heart Collector • Animation: 8-Bit Pixel Heart Pulse & Retro CRT Scanline', previewComponent: <EmptyWishlist8 /> },
+      { id: 'empty-wishlist-9', title: 'MINIMALIST ORIGAMI RIBBON HEART (ANIMATION: PAPER FOLDING UNROLL & SHIMMER SWEEP)', description: 'Design: Minimalist Origami Ribbon Heart • Animation: Paper Folding Unroll & Shimmer Sweep', previewComponent: <EmptyWishlist9 /> },
+      { id: 'empty-wishlist-10', title: 'CYBERPUNK LASER LATTICE HEART (ANIMATION: NEON PULSE BEAM & MATRIX GRID RIPPLE)', description: 'Design: Cyberpunk Laser Lattice Heart • Animation: Neon Pulse Beam & Matrix Grid Ripple', previewComponent: <EmptyWishlist10 /> },
+      { id: 'empty-wishlist-11', title: 'BENTO INSPIRATION DISCOVERY GRID (ANIMATION: STAGGERED CARD FLOAT & HOVER GLOW)', description: 'Design: Bento Inspiration Discovery Grid • Animation: Staggered Card Float & Hover Glow', previewComponent: <EmptyWishlist11 /> },
+      { id: 'empty-wishlist-12', title: 'COSMIC NEBULA HEART CONSTELLATION (ANIMATION: TWINKLING STARLIGHT & ORBITAL GRAVITATIONAL PULL)', description: 'Design: Cosmic Nebula Heart Constellation • Animation: Twinkling Starlight & Orbital Gravitational Pull', previewComponent: <EmptyWishlist12 /> },
+      { id: 'empty-wishlist-13', title: 'GLASSMORPHISM FROSTED JEWEL (ANIMATION: SHIMMER REFRACTION & FLOATING BOKEH)', description: 'Design: Glassmorphism Frosted Jewel • Animation: Shimmer Refraction & Floating Bokeh', previewComponent: <EmptyWishlist13 /> },
+      { id: 'empty-wishlist-14', title: 'MONOCHROME MINIMALIST LINE VAULT (ANIMATION: CONTINUOUS LINE DRAW & PULSING BEACON)', description: 'Design: Monochrome Minimalist Line Vault • Animation: Continuous Line Draw & Pulsing Beacon', previewComponent: <EmptyWishlist14 /> },
+      { id: 'empty-wishlist-15', title: 'GOLDEN VINTAGE LOCKET (ANIMATION: LOCKET FLIP & SPARKLE RAY RADIANCE)', description: 'Design: Golden Vintage Locket • Animation: Locket Flip & Sparkle Ray Radiance', previewComponent: <EmptyWishlist15 /> },
+      { id: 'empty-wishlist-16', title: 'GLOW WAVE HORIZON (ANIMATION: SINE WAVE MOTION & GLOWING WAVE TRAIL)', description: 'Design: Glow Wave Horizon • Animation: Sine Wave Motion & Glowing Wave Trail', previewComponent: <EmptyWishlist16 /> },
+      { id: 'empty-wishlist-17', title: 'WARM TERRACOTTA STUDIO (ANIMATION: SOFT PARALLAX FLOAT & PLANT SWAY)', description: 'Design: Warm Terracotta Studio • Animation: Soft Parallax Float & Plant Sway', previewComponent: <EmptyWishlist17 /> },
+      { id: 'empty-wishlist-18', title: 'EMERALD BIO-SPHERE HAVEN (ANIMATION: BIO-PULSE GLOW & LEAVES DRIFT)', description: 'Design: Emerald Bio-Sphere Haven • Animation: Bio-Pulse Glow & Leaves Drift', previewComponent: <EmptyWishlist18 /> },
+      { id: 'empty-wishlist-19', title: 'PLAYFUL STICKER COLLAGE (ANIMATION: STICKER WIGGLE & POP-ON-HOVER)', description: 'Design: Playful Sticker Collage • Animation: Sticker Wiggle & Pop-on-Hover', previewComponent: <EmptyWishlist19 /> },
+      { id: 'empty-wishlist-20', title: 'VAPORWAVE SUNSET HEART (ANIMATION: SYNTHWAVE GRID RUN & GRADIENT SUNRISE SPARKLE)', description: 'Design: Vaporwave Sunset Heart • Animation: Synthwave Grid Run & Gradient Sunrise Sparkle', previewComponent: <EmptyWishlist20 /> },
+] : category === 'empty-cart' ? [
+      { id: 'empty-cart-1', title: 'YOUR SHOPPING CART IS EMPTY (ANIMATION: 3D FLOATING BAG & ORBITAL GLOW)', description: 'Design: YOUR SHOPPING CART IS EMPTY • Animation: 3D FLOATING BAG & ORBITAL GLOW', previewComponent: <EmptyCartSection1 /> },
+      { id: 'empty-cart-2', title: 'YOUR CART IS WAITING FOR YOU (ANIMATION: BESTSELLER RECOMMENDATION CAROUSEL)', description: 'Design: YOUR CART IS WAITING FOR YOU • Animation: BESTSELLER RECOMMENDATION CAROUSEL', previewComponent: <EmptyCartSection2 /> },
+      { id: 'empty-cart-3', title: 'EMPTY CART NO ITEMS YET (ANIMATION: HARD OFFSET SHADOW & STAMP POP)', description: 'Design: EMPTY CART NO ITEMS YET • Animation: HARD OFFSET SHADOW & STAMP POP', previewComponent: <EmptyCartSection3 /> },
+      { id: 'empty-cart-4', title: 'SPATIAL CART MATRIX EMPTY (ANIMATION: SPATIAL BENTO & WISHLIST RESTORE)', description: 'Design: SPATIAL CART MATRIX EMPTY • Animation: SPATIAL BENTO & WISHLIST RESTORE', previewComponent: <EmptyCartSection4 /> },
+      { id: 'empty-cart-5', title: 'ZERO ITEMS IN ECO CART (ANIMATION: CARBON NEUTRAL PROGRESS & FLUID WAVE)', description: 'Design: ZERO ITEMS IN ECO CART • Animation: CARBON NEUTRAL PROGRESS & FLUID WAVE', previewComponent: <EmptyCartSection5 /> },
+      { id: 'empty-cart-6', title: 'CYBER TERMINAL CART EMPTY (ANIMATION: MATRIX SCANLINE & BUFFER CLEAR)', description: 'Design: CYBER TERMINAL CART EMPTY • Animation: MATRIX SCANLINE & BUFFER CLEAR', previewComponent: <EmptyCartSection6 /> },
+      { id: 'empty-cart-7', title: 'YOUR CART IS CURRENTLY EMPTY (ANIMATION: HAIRLINE VECTOR DRAWING & HOVER)', description: 'Design: YOUR CART IS CURRENTLY EMPTY • Animation: HAIRLINE VECTOR DRAWING & HOVER', previewComponent: <EmptyCartSection7 /> },
+      { id: 'empty-cart-8', title: 'BOUTIQUE VELVET SUITE CART (ANIMATION: EMBOSSED BRASS & CONCIERGE SHOPPING)', description: 'Design: BOUTIQUE VELVET SUITE CART • Animation: EMBOSSED BRASS & CONCIERGE SHOPPING', previewComponent: <EmptyCartSection8 /> },
+      { id: 'empty-cart-9', title: 'GUIDED SHOPPING ASSISTANT (ANIMATION: STEP WIZARD & INSTANT RECOMMENDER)', description: 'Design: GUIDED SHOPPING ASSISTANT • Animation: STEP WIZARD & INSTANT RECOMMENDER', previewComponent: <EmptyCartSection9 /> },
+      { id: 'empty-cart-10', title: 'SUB-ZERO FROZEN CART CONTAINER (ANIMATION: CRYSTALLINE GLAZE & UNFREEZE)', description: 'Design: SUB-ZERO FROZEN CART CONTAINER • Animation: CRYSTALLINE GLAZE & UNFREEZE', previewComponent: <EmptyCartSection10 /> },
+      { id: 'empty-cart-11', title: '3D SOFT CLAY EMPTY CART (ANIMATION: SOFT 3D VOLUME & BAG BOUNCE)', description: 'Design: 3D SOFT CLAY EMPTY CART • Animation: SOFT 3D VOLUME & BAG BOUNCE', previewComponent: <EmptyCartSection11 /> },
+      { id: 'empty-cart-12', title: 'NEO-TOKYO CART HUD MATRIX (ANIMATION: IRIDESCENT NEON SHEEN & HUD GAUGE)', description: 'Design: NEO-TOKYO CART HUD MATRIX • Animation: IRIDESCENT NEON SHEEN & HUD GAUGE', previewComponent: <EmptyCartSection12 /> },
+      { id: 'empty-cart-13', title: 'ORGANIC SUNSET EMPTY CART (ANIMATION: ASYMMETRIC FLUID WAVE & COUPONS)', description: 'Design: ORGANIC SUNSET EMPTY CART • Animation: ASYMMETRIC FLUID WAVE & COUPONS', previewComponent: <EmptyCartSection13 /> },
+      { id: 'empty-cart-14', title: 'REFLECTIVE PRISM GLASS CART (ANIMATION: CRYSTAL LIGHT SPLIT & SPECTRUM CARDS)', description: 'Design: REFLECTIVE PRISM GLASS CART • Animation: CRYSTAL LIGHT SPLIT & SPECTRUM CARDS', previewComponent: <EmptyCartSection14 /> },
+      { id: 'empty-cart-15', title: 'THE SHOPPING GAZETTE CART (ANIMATION: PRINT EDITORIAL COLUMNS & PICKS)', description: 'Design: THE SHOPPING GAZETTE CART • Animation: PRINT EDITORIAL COLUMNS & PICKS', previewComponent: <EmptyCartSection15 /> },
+      { id: 'empty-cart-16', title: 'TITANIUM STEEL CART DISCONNECT (ANIMATION: LIQUID SILVER REFLECTION & SPEC)', description: 'Design: TITANIUM STEEL CART DISCONNECT • Animation: LIQUID SILVER REFLECTION & SPEC', previewComponent: <EmptyCartSection16 /> },
+      { id: 'empty-cart-17', title: 'PROXIMITY LOCAL STORE PICKUP (ANIMATION: GPS STORE RADAR & PICKUP ITEMS)', description: 'Design: PROXIMITY LOCAL STORE PICKUP • Animation: GPS STORE RADAR & PICKUP ITEMS', previewComponent: <EmptyCartSection17 /> },
+      { id: 'empty-cart-18', title: 'SYNTHWAVE NEON CART MATRIX (ANIMATION: 80S NEON GRID & PULSING CTA)', description: 'Design: SYNTHWAVE NEON CART MATRIX • Animation: 80S NEON GRID & PULSING CTA', previewComponent: <EmptyCartSection18 /> },
+      { id: 'empty-cart-19', title: 'TACTILE NEUMORPHIC SOFT CART (ANIMATION: TACTILE DUAL SHADOW & INSET TOGGLE)', description: 'Design: TACTILE NEUMORPHIC SOFT CART • Animation: TACTILE DUAL SHADOW & INSET TOGGLE', previewComponent: <EmptyCartSection19 /> },
+      { id: 'empty-cart-20', title: 'VIP EXECUTIVE PRIVATE CART SUITE (ANIMATION: EMBOSSED GOLD & PERSONAL STYLIST)', description: 'Design: VIP EXECUTIVE PRIVATE CART SUITE • Animation: EMBOSSED GOLD & PERSONAL STYLIST', previewComponent: <EmptyCartSection20 /> },
+] : category === 'no-search-results' ? [
+      { id: 'no-search-results-1', title: 'NO SEARCH RESULTS MATCHED (ANIMATION: LIVE RADAR PULSE & QUERY CLEAR)', description: 'Design: NO SEARCH RESULTS MATCHED • Animation: LIVE RADAR PULSE & QUERY CLEAR', previewComponent: <NoSearchResults1 /> },
+      { id: 'no-search-results-2', title: 'NO EXACT MATCHES FOUND (ANIMATION: AUTO-SUGGEST CATEGORY CAROUSEL)', description: 'Design: NO EXACT MATCHES FOUND • Animation: AUTO-SUGGEST CATEGORY CAROUSEL', previewComponent: <NoSearchResults2 /> },
+      { id: 'no-search-results-3', title: 'ZERO RESULTS FOUND (ANIMATION: HARD OFFSET SHADOW & STAMP POP)', description: 'Design: ZERO RESULTS FOUND • Animation: HARD OFFSET SHADOW & STAMP POP', previewComponent: <NoSearchResults3 /> },
+      { id: 'no-search-results-4', title: 'UNCLASSIFIED QUERY MATRIX (ANIMATION: SPATIAL BENTO & TAG POPUPS)', description: 'Design: UNCLASSIFIED QUERY MATRIX • Animation: SPATIAL BENTO & TAG POPUPS', previewComponent: <NoSearchResults4 /> },
+      { id: 'no-search-results-5', title: 'NO PRODUCTS FOUND IN BIOME (ANIMATION: FILTER RESET & ECO FLUID WAVE)', description: 'Design: NO PRODUCTS FOUND IN BIOME • Animation: FILTER RESET & ECO FLUID WAVE', previewComponent: <NoSearchResults5 /> },
+      { id: 'no-search-results-6', title: 'CYBER SEARCH TERMINAL ERROR (ANIMATION: MATRIX SCANLINE & TELEMETRY)', description: 'Design: CYBER SEARCH TERMINAL ERROR • Animation: MATRIX SCANLINE & TELEMETRY', previewComponent: <NoSearchResults6 /> },
+      { id: 'no-search-results-7', title: 'NO MATCHING ITEMS FOUND (ANIMATION: CLEAN INPUT CLEAR & TRENDING HOVER)', description: 'Design: NO MATCHING ITEMS FOUND • Animation: CLEAN INPUT CLEAR & TRENDING HOVER', previewComponent: <NoSearchResults7 /> },
+      { id: 'no-search-results-8', title: 'BOUTIQUE CATALOG SEARCH VOID (ANIMATION: EMBOSSED BRASS & CONCIERGE CALL)', description: 'Design: BOUTIQUE CATALOG SEARCH VOID • Animation: EMBOSSED BRASS & CONCIERGE CALL', previewComponent: <NoSearchResults8 /> },
+      { id: 'no-search-results-9', title: 'SEARCH ASSISTANT ROUTE RESOLVER (ANIMATION: STEP WIZARD & REFINEMENT)', description: 'Design: SEARCH ASSISTANT ROUTE RESOLVER • Animation: STEP WIZARD & REFINEMENT', previewComponent: <NoSearchResults9 /> },
+      { id: 'no-search-results-10', title: 'SUB-ZERO FROZEN SEARCH STREAM (ANIMATION: CRYSTALLINE GLAZE & THAW RESET)', description: 'Design: SUB-ZERO FROZEN SEARCH STREAM • Animation: CRYSTALLINE GLAZE & THAW RESET', previewComponent: <NoSearchResults10 /> },
+      { id: 'no-search-results-11', title: '3D SOFT CLAY SEARCH EMPTY (ANIMATION: SOFT 3D VOLUME & MAGNIFY BOUNCE)', description: 'Design: 3D SOFT CLAY SEARCH EMPTY • Animation: SOFT 3D VOLUME & MAGNIFY BOUNCE', previewComponent: <NoSearchResults11 /> },
+      { id: 'no-search-results-12', title: 'NEO-TOKYO SEARCH HUD MATRIX (ANIMATION: IRIDESCENT NEON SHEEN & TELEMETRY)', description: 'Design: NEO-TOKYO SEARCH HUD MATRIX • Animation: IRIDESCENT NEON SHEEN & TELEMETRY', previewComponent: <NoSearchResults12 /> },
+      { id: 'no-search-results-13', title: 'ORGANIC SUNSET SEARCH DETOUR (ANIMATION: ASYMMETRIC FLUID WAVE & TRENDING)', description: 'Design: ORGANIC SUNSET SEARCH DETOUR • Animation: ASYMMETRIC FLUID WAVE & TRENDING', previewComponent: <NoSearchResults13 /> },
+      { id: 'no-search-results-14', title: 'REFLECTIVE PRISM SEARCH FACET (ANIMATION: CRYSTAL LIGHT SPLIT & SPECTRUM PILLS)', description: 'Design: REFLECTIVE PRISM SEARCH FACET • Animation: CRYSTAL LIGHT SPLIT & SPECTRUM PILLS', previewComponent: <NoSearchResults14 /> },
+      { id: 'no-search-results-15', title: 'THE SEARCH GAZETTE REPORT (ANIMATION: PRINT EDITORIAL COLUMNS & INDEX)', description: 'Design: THE SEARCH GAZETTE REPORT • Animation: PRINT EDITORIAL COLUMNS & INDEX', previewComponent: <NoSearchResults15 /> },
+      { id: 'no-search-results-16', title: 'TITANIUM STEEL SEARCH VOID (ANIMATION: LIQUID SILVER REFLECTION & RESET)', description: 'Design: TITANIUM STEEL SEARCH VOID • Animation: LIQUID SILVER REFLECTION & RESET', previewComponent: <NoSearchResults16 /> },
+      { id: 'no-search-results-17', title: 'PROXIMITY LOCAL INVENTORY SEARCH (ANIMATION: GPS STORE RADAR & AVAILABILITY)', description: 'Design: PROXIMITY LOCAL INVENTORY SEARCH • Animation: GPS STORE RADAR & AVAILABILITY', previewComponent: <NoSearchResults17 /> },
+      { id: 'no-search-results-18', title: 'SYNTHWAVE NEON SEARCH MATRIX (ANIMATION: 80S NEON GRID & PULSING TAGS)', description: 'Design: SYNTHWAVE NEON SEARCH MATRIX • Animation: 80S NEON GRID & PULSING TAGS', previewComponent: <NoSearchResults18 /> },
+      { id: 'no-search-results-19', title: 'TACTILE NEUMORPHIC SOFT SEARCH (ANIMATION: TACTILE DUAL SHADOW & INSET RESET)', description: 'Design: TACTILE NEUMORPHIC SOFT SEARCH • Animation: TACTILE DUAL SHADOW & INSET RESET', previewComponent: <NoSearchResults19 /> },
+      { id: 'no-search-results-20', title: 'VIP EXECUTIVE PRIVATE SEARCH SUITE (ANIMATION: EMBOSSED GOLD & PERSONAL ASSIST)', description: 'Design: VIP EXECUTIVE PRIVATE SEARCH SUITE • Animation: EMBOSSED GOLD & PERSONAL ASSIST', previewComponent: <NoSearchResults20 /> },
+] : category === '404-page-content' ? [
+      { id: '404-page-content-1', title: 'COSMIC 3D SPATIAL BLACK HOLE (ANIMATION: ORBITAL GLOW & DRIFT)', description: 'Design: COSMIC 3D SPATIAL BLACK HOLE • Animation: ORBITAL GLOW & DRIFT', previewComponent: <PageNotFound1 /> },
+      { id: '404-page-content-2', title: 'CYBERPUNK GLITCH MATRIX TERMINAL (ANIMATION: MATRIX SCANLINE & SIGNAL SCAN)', description: 'Design: CYBERPUNK GLITCH MATRIX TERMINAL • Animation: MATRIX SCANLINE & SIGNAL SCAN', previewComponent: <PageNotFound2 /> },
+      { id: '404-page-content-3', title: 'NEO-BRUTALIST HIGH-CONTRAST STAMP (ANIMATION: HARD OFFSET SHADOW & STAMP POP)', description: 'Design: NEO-BRUTALIST HIGH-CONTRAST STAMP • Animation: HARD OFFSET SHADOW & STAMP POP', previewComponent: <PageNotFound3 /> },
+      { id: '404-page-content-4', title: 'FROSTED BENTO DIMENSIONAL PORTAL (ANIMATION: MULTI-TILE BENTO & ESCAPE ROUTE)', description: 'Design: FROSTED BENTO DIMENSIONAL PORTAL • Animation: MULTI-TILE BENTO & ESCAPE ROUTE', previewComponent: <PageNotFound4 /> },
+      { id: '404-page-content-5', title: 'DRIBBLE 3D ECO-BIOME SPHERE (ANIMATION: FLOATING SPHERE & ECO ROUTE PULSE)', description: 'Design: DRIBBLE 3D ECO-BIOME SPHERE • Animation: FLOATING SPHERE & ECO ROUTE PULSE', previewComponent: <PageNotFound5 /> },
+      { id: '404-page-content-6', title: 'SKEUOMORPHIC VELVET BRASS COMPASS (ANIMATION: DUAL-AXIS COMPASS ROTATION)', description: 'Design: SKEUOMORPHIC VELVET BRASS COMPASS • Animation: DUAL-AXIS COMPASS ROTATION', previewComponent: <PageNotFound6 /> },
+      { id: '404-page-content-7', title: 'SUB-ZERO ICE FROST FROZEN ROUTE (ANIMATION: CRYSTALLINE GLAZE & THERMAL UNFREEZE)', description: 'Design: SUB-ZERO ICE FROST FROZEN ROUTE • Animation: CRYSTALLINE GLAZE & THERMAL UNFREEZE', previewComponent: <PageNotFound7 /> },
+      { id: '404-page-content-8', title: '3D CLAYMORPHIC FLOATING ASTRONAUT (ANIMATION: ZERO-GRAVITY CAPSULE LAUNCH)', description: 'Design: 3D CLAYMORPHIC FLOATING ASTRONAUT • Animation: ZERO-GRAVITY CAPSULE LAUNCH', previewComponent: <PageNotFound8 /> },
+      { id: '404-page-content-9', title: 'PRISM GLASS LIGHT SPECTRUM REFRACTION (ANIMATION: CRYSTAL LIGHT SPLIT & FACET HOVER)', description: 'Design: PRISM GLASS LIGHT SPECTRUM • Animation: CRYSTAL LIGHT SPLIT & FACET HOVER', previewComponent: <PageNotFound9 /> },
+      { id: '404-page-content-10', title: 'ORGANIC SUNSET VINYL MUSIC PLAYER (ANIMATION: SPINNING VINYL RECORD & AMBIENT AUDIO)', description: 'Design: ORGANIC SUNSET VINYL MUSIC PLAYER • Animation: SPINNING VINYL RECORD & AMBIENT AUDIO', previewComponent: <PageNotFound10 /> },
+      { id: '404-page-content-11', title: '80S RETRO SYNTHWAVE ARCADE GAME (ANIMATION: 80S NEON GRID & PLAYABLE PING-PONG)', description: 'Design: 80S RETRO SYNTHWAVE ARCADE GAME • Animation: 80S NEON GRID & PLAYABLE PING-PONG', previewComponent: <PageNotFound11 /> },
+      { id: '404-page-content-12', title: 'NEUMORPHIC SOFT INSET OFF-GRID DIAL (ANIMATION: TACTILE INSET DUAL SHADOW EMBOSS)', description: 'Design: NEUMORPHIC SOFT INSET OFF-GRID DIAL • Animation: TACTILE INSET DUAL SHADOW EMBOSS', previewComponent: <PageNotFound12 /> },
+      { id: '404-page-content-13', title: 'VINTAGE GAZETTE MISSING PAGE (ANIMATION: PRINT EDITORIAL TYPOGRAPHY & INVESTIGATION)', description: 'Design: VINTAGE GAZETTE MISSING PAGE • Animation: PRINT EDITORIAL TYPOGRAPHY & INVESTIGATION', previewComponent: <PageNotFound13 /> },
+      { id: '404-page-content-14', title: 'TITANIUM INDUSTRIAL STEEL DISCONNECT (ANIMATION: BRUSHED METAL SPEC & EMERGENCY DISPATCH)', description: 'Design: TITANIUM INDUSTRIAL STEEL DISCONNECT • Animation: BRUSHED METAL SPEC & EMERGENCY DISPATCH', previewComponent: <PageNotFound14 /> },
+      { id: '404-page-content-15', title: 'HOLOGRAPHIC NEON IRIDESCENT AURA (ANIMATION: IRIDESCENT NEON SHEEN & HUD TELEMETRY)', description: 'Design: HOLOGRAPHIC NEON IRIDESCENT AURA • Animation: IRIDESCENT NEON SHEEN & HUD TELEMETRY', previewComponent: <PageNotFound15 /> },
+      { id: '404-page-content-16', title: 'MINIMALIST LINE-ART DRAFTING BLUEPRINT (ANIMATION: HAIRLINE VECTOR DRAWING & TARGET LOCK)', description: 'Design: MINIMALIST LINE-ART DRAFTING BLUEPRINT • Animation: HAIRLINE VECTOR DRAWING & TARGET LOCK', previewComponent: <PageNotFound16 /> },
+      { id: '404-page-content-17', title: 'SPLIT MAGAZINE EDITORIAL VOID (ANIMATION: DUAL-PANE PARALLAX ZOOM & FLOATING DECK)', description: 'Design: SPLIT MAGAZINE EDITORIAL VOID • Animation: DUAL-PANE PARALLAX ZOOM & FLOATING DECK', previewComponent: <PageNotFound17 /> },
+      { id: '404-page-content-18', title: 'VIP EXECUTIVE CONCIERGE LOUNGE (ANIMATION: EMBOSSED GOLD SHIMMER & DIRECT ESCORT)', description: 'Design: VIP EXECUTIVE CONCIERGE LOUNGE • Animation: EMBOSSED GOLD SHIMMER & DIRECT ESCORT', previewComponent: <PageNotFound18 /> },
+      { id: '404-page-content-19', title: 'INTELLIGENT SEARCH ROUTE RESOLVER (ANIMATION: AUTO-SUGGEST ENGINE & TRENDING CARDS)', description: 'Design: INTELLIGENT SEARCH ROUTE RESOLVER • Animation: AUTO-SUGGEST ENGINE & TRENDING CARDS', previewComponent: <PageNotFound19 /> },
+      { id: '404-page-content-20', title: 'FLAGSHIP 3D STACKED GLASS SPATIAL PRISM (ANIMATION: DEPTH-OF-FIELD 3D PERSPECTIVE TILT)', description: 'Design: FLAGSHIP 3D STACKED GLASS SPATIAL PRISM • Animation: DEPTH-OF-FIELD 3D PERSPECTIVE TILT', previewComponent: <PageNotFound20 /> },
+] : category === 'contact-faq' ? [
+      { id: 'contact-faq-1', title: 'GLASS EDITORIAL FAQ ACCORDION (ANIMATION: ROTATE CHEVRON & HELPFULNESS FEEDBACK)', description: 'Design: GLASS EDITORIAL FAQ ACCORDION • Animation: ROTATE CHEVRON & HELPFULNESS FEEDBACK', previewComponent: <ContactFaq1 /> },
+      { id: 'contact-faq-2', title: '2-COLUMN BENTO RESOLUTION FAQ (ANIMATION: INSTANT VOTE BUTTONS & TOPIC BADGES)', description: 'Design: 2-COLUMN BENTO RESOLUTION FAQ • Animation: INSTANT VOTE BUTTONS & TOPIC BADGES', previewComponent: <ContactFaq2 /> },
+      { id: 'contact-faq-3', title: 'NEO-BRUTALIST HIGH-CONTRAST FAQ (ANIMATION: BOLD HARD SHADOW & HARD ACCORDION POP)', description: 'Design: NEO-BRUTALIST HIGH-CONTRAST FAQ • Animation: BOLD HARD SHADOW & HARD ACCORDION POP', previewComponent: <ContactFaq3 /> },
+      { id: 'contact-faq-4', title: 'TABBED CATEGORY RESOLUTION HUB (ANIMATION: REAL-TIME CATEGORY FILTER & SEARCH)', description: 'Design: TABBED CATEGORY RESOLUTION HUB • Animation: REAL-TIME CATEGORY FILTER & SEARCH', previewComponent: <ContactFaq4 /> },
+      { id: 'contact-faq-5', title: 'SEARCH-FIRST HERO FAQ PORTAL (ANIMATION: INSTANT QUERY FILTER & LIVE HANDOFF)', description: 'Design: SEARCH-FIRST HERO FAQ PORTAL • Animation: INSTANT QUERY FILTER & LIVE HANDOFF', previewComponent: <ContactFaq5 /> },
+      { id: 'contact-faq-6', title: 'CYBER TELEMETRY AUTOMATED FAQ (ANIMATION: MATRIX SCANLINE & TELEMETRY RESOLUTION)', description: 'Design: CYBER TELEMETRY AUTOMATED FAQ • Animation: MATRIX SCANLINE & TELEMETRY RESOLUTION', previewComponent: <ContactFaq6 /> },
+      { id: 'contact-faq-7', title: 'MINIMALIST CLEAN TYPOGRAPHY FAQ (ANIMATION: HAIRLINE ACCORDION & DIRECT AGENT PROMPT)', description: 'Design: MINIMALIST CLEAN TYPOGRAPHY FAQ • Animation: HAIRLINE ACCORDION & DIRECT AGENT PROMPT', previewComponent: <ContactFaq7 /> },
+      { id: 'contact-faq-8', title: 'GOLD FOIL SKEUOMORPHIC LUXURY FAQ (ANIMATION: EMBOSSED BRASS CARDS & CONCIERGE HELP)', description: 'Design: GOLD FOIL SKEUOMORPHIC LUXURY FAQ • Animation: EMBOSSED BRASS CARDS & CONCIERGE HELP', previewComponent: <ContactFaq8 /> },
+      { id: 'contact-faq-9', title: 'GUIDED DECISION TREE FLOWCHART (ANIMATION: STEP-BY-STEP TROUBLESHOOTER & PATH)', description: 'Design: GUIDED DECISION TREE FLOWCHART • Animation: STEP-BY-STEP TROUBLESHOOTER & PATH', previewComponent: <ContactFaq9 /> },
+      { id: 'contact-faq-10', title: 'SUB-ZERO ICE FROST FAQ PANELS (ANIMATION: CRYSTALLINE FROST GLAZE & VOTING BADGES)', description: 'Design: SUB-ZERO ICE FROST FAQ PANELS • Animation: CRYSTALLINE FROST GLAZE & VOTING BADGES', previewComponent: <ContactFaq10 /> },
+      { id: 'contact-faq-11', title: '3D SOFT CLAYMORPHISM FAQ PODS (ANIMATION: SOFT 3D VOLUME & TACTILE CONTAINER EXPAND)', description: 'Design: 3D SOFT CLAYMORPHISM FAQ PODS • Animation: SOFT 3D VOLUME & TACTILE CONTAINER EXPAND', previewComponent: <ContactFaq11 /> },
+      { id: 'contact-faq-12', title: 'NEON CYBERPUNK HUD FAQ MATRIX (ANIMATION: IRIDESCENT NEON SHEEN & CODE SNIPPET GLOW)', description: 'Design: NEON CYBERPUNK HUD FAQ MATRIX • Animation: IRIDESCENT NEON SHEEN & CODE SNIPPET GLOW', previewComponent: <ContactFaq12 /> },
+      { id: 'contact-faq-13', title: 'ORGANIC SUNSET COMMUNITY FAQ (ANIMATION: ASYMMETRIC FLUID WAVE & VOTED ANSWERS)', description: 'Design: ORGANIC SUNSET COMMUNITY FAQ • Animation: ASYMMETRIC FLUID WAVE & VOTED ANSWERS', previewComponent: <ContactFaq13 /> },
+      { id: 'contact-faq-14', title: 'REFLECTIVE PRISM GLASS FAQ FACET (ANIMATION: CRYSTAL LIGHT SPLIT & SPECTRUM HOVER)', description: 'Design: REFLECTIVE PRISM GLASS FAQ FACET • Animation: CRYSTAL LIGHT SPLIT & SPECTRUM HOVER', previewComponent: <ContactFaq14 /> },
+      { id: 'contact-faq-15', title: 'VINTAGE SUPPORT GAZETTE PRINT FAQ (ANIMATION: PRINT EDITORIAL COLUMNS & EDITOR NOTES)', description: 'Design: VINTAGE SUPPORT GAZETTE PRINT FAQ • Animation: PRINT EDITORIAL COLUMNS & EDITOR NOTES', previewComponent: <ContactFaq15 /> },
+      { id: 'contact-faq-16', title: 'TITANIUM INDUSTRIAL FLEET FAQ (ANIMATION: LIQUID SILVER REFLECTION & TECHNICAL SPEC)', description: 'Design: TITANIUM INDUSTRIAL FLEET FAQ • Animation: LIQUID SILVER REFLECTION & TECHNICAL SPEC', previewComponent: <ContactFaq16 /> },
+      { id: 'contact-faq-17', title: 'LIVE PROXIMITY GPS LOCATION FAQ (ANIMATION: LOCAL STORE PICKUP & DELIVERY RESOLUTION)', description: 'Design: LIVE PROXIMITY GPS LOCATION FAQ • Animation: LOCAL STORE PICKUP & DELIVERY RESOLUTION', previewComponent: <ContactFaq17 /> },
+      { id: 'contact-faq-18', title: '80S RETRO SYNTHWAVE NEON FAQ DESK (ANIMATION: 80S NEON GRID MOVEMENT & PULSING ANSWERS)', description: 'Design: 80S RETRO SYNTHWAVE NEON FAQ DESK • Animation: 80S NEON GRID MOVEMENT & PULSING ANSWERS', previewComponent: <ContactFaq18 /> },
+      { id: 'contact-faq-19', title: 'NEUMORPHIC SOFT INSET FAQ PANELS (ANIMATION: TACTILE DUAL SHADOW EMBOSS & INSET CONTAINER)', description: 'Design: NEUMORPHIC SOFT INSET FAQ PANELS • Animation: TACTILE DUAL SHADOW EMBOSS & INSET CONTAINER', previewComponent: <ContactFaq19 /> },
+      { id: 'contact-faq-20', title: 'VIP EXECUTIVE CONCIERGE FAQ SUITE (ANIMATION: EMBOSSED GOLD SHIMMER & DIRECT CALLBACK)', description: 'Design: VIP EXECUTIVE CONCIERGE FAQ SUITE • Animation: EMBOSSED GOLD SHIMMER & DIRECT CALLBACK', previewComponent: <ContactFaq20 /> },
+] : category === 'support-information' ? [
+      { id: 'support-information-1', title: 'OMNICHANNEL HELP DESK & HERO SEARCH (ANIMATION: LIVE TICKET SEARCH & TELEMETRY)', description: 'Design: OMNICHANNEL HELP DESK & HERO SEARCH • Animation: LIVE TICKET SEARCH & TELEMETRY', previewComponent: <SupportInformation1 /> },
+      { id: 'support-information-2', title: 'PRIORITY SUPPORT CHANNEL DESK CARDS (ANIMATION: 24/7 VIP HOTLINE & LIVE CHAT LAUNCH)', description: 'Design: PRIORITY SUPPORT CHANNEL DESK CARDS • Animation: 24/7 VIP HOTLINE & LIVE CHAT LAUNCH', previewComponent: <SupportInformation2 /> },
+      { id: 'support-information-3', title: 'NEO-BRUTALIST TICKET ESCALATION MATRIX (ANIMATION: BOLD HARD SHADOW & DIRECT SLA)', description: 'Design: NEO-BRUTALIST TICKET ESCALATION MATRIX • Animation: BOLD HARD SHADOW & DIRECT SLA', previewComponent: <SupportInformation3 /> },
+      { id: 'support-information-4', title: 'SPATIAL SUPPORT TELEMETRY BENTO (ANIMATION: SYSTEM HEALTH UPTIME & CHAT QUEUE)', description: 'Design: SPATIAL SUPPORT TELEMETRY BENTO • Animation: SYSTEM HEALTH UPTIME & CHAT QUEUE', previewComponent: <SupportInformation4 /> },
+      { id: 'support-information-5', title: 'ECO RETURN & SUSTAINABILITY HUB (ANIMATION: SELF-SERVICE RETURN WIZARD & GREEN CHAT)', description: 'Design: ECO RETURN & SUSTAINABILITY HUB • Animation: SELF-SERVICE RETURN WIZARD & GREEN CHAT', previewComponent: <SupportInformation5 /> },
+      { id: 'support-information-6', title: 'CYBER INCIDENT TELEMETRY TERMINAL (ANIMATION: MATRIX CODE SCANLINE & BOT DIAGNOSTICS)', description: 'Design: CYBER INCIDENT TELEMETRY TERMINAL • Animation: MATRIX CODE SCANLINE & BOT DIAGNOSTICS', previewComponent: <SupportInformation6 /> },
+      { id: 'support-information-7', title: 'TABBED KNOWLEDGEBASE DIRECTORY (ANIMATION: CATEGORIZED HELP TABS & CHAT OVERLAY)', description: 'Design: TABBED KNOWLEDGEBASE DIRECTORY • Animation: CATEGORIZED HELP TABS & CHAT OVERLAY', previewComponent: <SupportInformation7 /> },
+      { id: 'support-information-8', title: 'GOLD FOIL SKEUOMORPHIC SUITE (ANIMATION: EMBOSSED BRASS & PERSONAL ACCOUNT DESK)', description: 'Design: GOLD FOIL SKEUOMORPHIC SUITE • Animation: EMBOSSED BRASS & PERSONAL ACCOUNT DESK', previewComponent: <SupportInformation8 /> },
+      { id: 'support-information-9', title: 'GUIDED RESOLUTION DIAGNOSTIC WIZARD (ANIMATION: STEP-BY-STEP FLOWCHART & LIVE AGENT)', description: 'Design: GUIDED RESOLUTION DIAGNOSTIC WIZARD • Animation: STEP-BY-STEP FLOWCHART & LIVE AGENT', previewComponent: <SupportInformation9 /> },
+      { id: 'support-information-10', title: 'ICE FROST SUB-ZERO SUPPORT HUB (ANIMATION: CRYSTALLINE FROST GLAZE & STATUS GAUGES)', description: 'Design: ICE FROST SUB-ZERO SUPPORT HUB • Animation: CRYSTALLINE FROST GLAZE & STATUS GAUGES', previewComponent: <SupportInformation10 /> },
+      { id: 'support-information-11', title: '3D SOFT CLAY SUPPORT OUTPOSTS (ANIMATION: SOFT 3D VOLUME & WHATSAPP LAUNCH)', description: 'Design: 3D SOFT CLAY SUPPORT OUTPOSTS • Animation: SOFT 3D VOLUME & WHATSAPP LAUNCH', previewComponent: <SupportInformation11 /> },
+      { id: 'support-information-12', title: 'NEON CYBERPUNK SUPPORT HUD MATRIX (ANIMATION: IRIDESCENT NEON SHEEN & SLA COUNTDOWN)', description: 'Design: NEON CYBERPUNK SUPPORT HUD MATRIX • Animation: IRIDESCENT NEON SHEEN & SLA COUNTDOWN', previewComponent: <SupportInformation12 /> },
+      { id: 'support-information-13', title: 'ORGANIC SUNSET COMMUNITY DESK (ANIMATION: ASYMMETRIC FLUID WAVE & FORUM HIGHLIGHTS)', description: 'Design: ORGANIC SUNSET COMMUNITY DESK • Animation: ASYMMETRIC FLUID WAVE & FORUM HIGHLIGHTS', previewComponent: <SupportInformation13 /> },
+      { id: 'support-information-14', title: 'PRISM GLASS FACET RESOLUTION DECK (ANIMATION: CRYSTAL LIGHT SPLIT & SPECTRUM CARDS)', description: 'Design: PRISM GLASS FACET RESOLUTION DECK • Animation: CRYSTAL LIGHT SPLIT & SPECTRUM CARDS', previewComponent: <SupportInformation14 /> },
+      { id: 'support-information-15', title: 'VINTAGE SUPPORT GAZETTE (ANIMATION: PRINT EDITORIAL & EMERGENCY HOTLINE)', description: 'Design: VINTAGE SUPPORT GAZETTE • Animation: PRINT EDITORIAL & EMERGENCY HOTLINE', previewComponent: <SupportInformation15 /> },
+      { id: 'support-information-16', title: 'TITANIUM BRUSHED TECHNICAL SUPPORT (ANIMATION: LIQUID SILVER REFLECTION & DISPATCH)', description: 'Design: TITANIUM BRUSHED TECHNICAL SUPPORT • Animation: LIQUID SILVER REFLECTION & DISPATCH', previewComponent: <SupportInformation16 /> },
+      { id: 'support-information-17', title: 'PROXIMITY AGENT DISTANCE DESK (ANIMATION: DISTANCE SLIDER & RESPONSE INDICATOR)', description: 'Design: PROXIMITY AGENT DISTANCE DESK • Animation: DISTANCE SLIDER & RESPONSE INDICATOR', previewComponent: <SupportInformation17 /> },
+      { id: 'support-information-18', title: '80S SYNTHWAVE NEON SUPPORT GRID (ANIMATION: 80S NEON GRID & PULSING SUNSET)', description: 'Design: 80S SYNTHWAVE NEON SUPPORT GRID • Animation: 80S NEON GRID & PULSING SUNSET', previewComponent: <SupportInformation18 /> },
+      { id: 'support-information-19', title: 'NEUMORPHIC SOFT INSET SUPPORT TOGGLES (ANIMATION: TACTILE DUAL SHADOW & INSET TOGGLE)', description: 'Design: NEUMORPHIC SOFT INSET SUPPORT TOGGLES • Animation: TACTILE DUAL SHADOW & INSET TOGGLE', previewComponent: <SupportInformation19 /> },
+      { id: 'support-information-20', title: 'VIP EXECUTIVE CONCIERGE DIRECT LINE (ANIMATION: EMBOSSED GOLD SHIMMER & INSTANT SYNC)', description: 'Design: VIP EXECUTIVE CONCIERGE DIRECT LINE • Animation: EMBOSSED GOLD SHIMMER & INSTANT SYNC', previewComponent: <SupportInformation20 /> },
+] : category === 'location-map' ? [
+      { id: 'location-map-1', title: 'INTERACTIVE SPATIAL RADAR MAP (ANIMATION: LIVE SATELLITE PULSE & HUD FILTER)', description: 'Design: INTERACTIVE SPATIAL RADAR MAP • Animation: LIVE SATELLITE PULSE & HUD FILTER', previewComponent: <LocationMap1 /> },
+      { id: 'location-map-2', title: 'FLOATING GLASS ROUTE PLANNER (ANIMATION: TURN-BY-TURN CARD & SEARCH OVERLAY)', description: 'Design: FLOATING GLASS ROUTE PLANNER • Animation: TURN-BY-TURN CARD & SEARCH OVERLAY', previewComponent: <LocationMap2 /> },
+      { id: 'location-map-3', title: 'NEO-BRUTALIST VECTOR GRID MAP (ANIMATION: BOLD HARD SHADOW & COORDINATE LOCK)', description: 'Design: NEO-BRUTALIST VECTOR GRID MAP • Animation: BOLD HARD SHADOW & COORDINATE LOCK', previewComponent: <LocationMap3 /> },
+      { id: 'location-map-4', title: 'MULTI-CITY FROSTED BENTO MAP (ANIMATION: SPATIAL BENTO TILE & RADAR ORBIT)', description: 'Design: MULTI-CITY FROSTED BENTO MAP • Animation: SPATIAL BENTO TILE & RADAR ORBIT', previewComponent: <LocationMap4 /> },
+      { id: 'location-map-5', title: 'ECO TRANSIT & CHARGING RADAR (ANIMATION: EV CHARGING OVERLAY & PARKING COUNTER)', description: 'Design: ECO TRANSIT & CHARGING RADAR • Animation: EV CHARGING OVERLAY & PARKING COUNTER', previewComponent: <LocationMap5 /> },
+      { id: 'location-map-6', title: 'CYBER SATELLITE HUD TERMINAL (ANIMATION: MATRIX SCANLINE & TELEMETRY LOCK)', description: 'Design: CYBER SATELLITE HUD TERMINAL • Animation: MATRIX SCANLINE & TELEMETRY LOCK', previewComponent: <LocationMap6 /> },
+      { id: 'location-map-7', title: 'MINIMALIST TOPOGRAPHY CARTOGRAPHY (ANIMATION: VECTOR CONTOUR DRAWING & DRAWER)', description: 'Design: MINIMALIST TOPOGRAPHY CARTOGRAPHY • Animation: VECTOR CONTOUR DRAWING & DRAWER', previewComponent: <LocationMap7 /> },
+      { id: 'location-map-8', title: 'GOLD FOIL SKEUOMORPHIC MAP SUITE (ANIMATION: EMBOSSED BRASS COMPASS & VELVET DECK)', description: 'Design: GOLD FOIL SKEUOMORPHIC MAP SUITE • Animation: EMBOSSED BRASS COMPASS & VELVET DECK', previewComponent: <LocationMap8 /> },
+      { id: 'location-map-9', title: 'CONTINENTAL CLUSTER EXPLORER (ANIMATION: CONTINENT PIN POPUPS & STORE COUNTER)', description: 'Design: CONTINENTAL CLUSTER EXPLORER • Animation: CONTINENT PIN POPUPS & STORE COUNTER', previewComponent: <LocationMap9 /> },
+      { id: 'location-map-10', title: 'ICE FROST HOLOGRAPHIC GRID MAP (ANIMATION: CRYSTALLINE FROST GLAZE & R&D PIN)', description: 'Design: ICE FROST HOLOGRAPHIC GRID MAP • Animation: CRYSTALLINE FROST GLAZE & R&D PIN', previewComponent: <LocationMap10 /> },
+      { id: 'location-map-11', title: '3D ISOMETRIC CLAY CITY MAP (ANIMATION: SOFT 3D VOLUME & TACTILE PIN POP)', description: 'Design: 3D ISOMETRIC CLAY CITY MAP • Animation: SOFT 3D VOLUME & TACTILE PIN POP', previewComponent: <LocationMap11 /> },
+      { id: 'location-map-12', title: 'NEON CYBERPUNK MAP MATRIX (ANIMATION: IRIDESCENT NEON SHEEN & HUD GLOW STATE)', description: 'Design: NEON CYBERPUNK MAP MATRIX • Animation: IRIDESCENT NEON SHEEN & HUD GLOW STATE', previewComponent: <LocationMap12 /> },
+      { id: 'location-map-13', title: 'ORGANIC SUNSET TOPOGRAPHY TRAIL (ANIMATION: ASYMMETRIC FLUID WAVE & SUNSET GLOW)', description: 'Design: ORGANIC SUNSET TOPOGRAPHY TRAIL • Animation: ASYMMETRIC FLUID WAVE & SUNSET GLOW', previewComponent: <LocationMap13 /> },
+      { id: 'location-map-14', title: 'REFLECTIVE PRISM GLASS MAP FACET (ANIMATION: CRYSTAL LIGHT SPLIT & GEOMETRIC FACET)', description: 'Design: REFLECTIVE PRISM GLASS MAP FACET • Animation: CRYSTAL LIGHT SPLIT & GEOMETRIC FACET', previewComponent: <LocationMap14 /> },
+      { id: 'location-map-15', title: 'ARCHITECTURAL ATLAS BLUEPRINT (ANIMATION: CAD BLUEPRINT DRAWING & STORE HISTORY)', description: 'Design: ARCHITECTURAL ATLAS BLUEPRINT • Animation: CAD BLUEPRINT DRAWING & STORE HISTORY', previewComponent: <LocationMap15 /> },
+      { id: 'location-map-16', title: 'TITANIUM BRUSHED METAL FLEET MAP (ANIMATION: LIQUID SILVER REFLECTION & SERVICE BAY)', description: 'Design: TITANIUM BRUSHED METAL FLEET MAP • Animation: LIQUID SILVER REFLECTION & SERVICE BAY', previewComponent: <LocationMap16 /> },
+      { id: 'location-map-17', title: 'LIVE PROXIMITY GPS RADAR LOCATOR (ANIMATION: GPS DISTANCE CALCULATOR & RADAR FEED)', description: 'Design: LIVE PROXIMITY GPS RADAR LOCATOR • Animation: GPS DISTANCE CALCULATOR & RADAR FEED', previewComponent: <LocationMap17 /> },
+      { id: 'location-map-18', title: '80S RETRO SYNTHWAVE NEON GRID MAP (ANIMATION: 80S NEON GRID MOVEMENT & PULSING SUNSET)', description: 'Design: 80S RETRO SYNTHWAVE NEON GRID MAP • Animation: 80S NEON GRID MOVEMENT & PULSING SUNSET', previewComponent: <LocationMap18 /> },
+      { id: 'location-map-19', title: 'NEUMORPHIC SOFT INSET MAP CONTAINER (ANIMATION: TACTILE DUAL SHADOW EMBOSS & INSET ZOOM)', description: 'Design: NEUMORPHIC SOFT INSET MAP CONTAINER • Animation: TACTILE DUAL SHADOW EMBOSS & INSET ZOOM', previewComponent: <LocationMap19 /> },
+      { id: 'location-map-20', title: 'VIP CONCIERGE HELICOPTER PAD MAP (ANIMATION: EMBOSSED GOLD SHIMMER & CHAUFFEUR PADS)', description: 'Design: VIP CONCIERGE HELICOPTER PAD MAP • Animation: EMBOSSED GOLD SHIMMER & CHAUFFEUR PADS', previewComponent: <LocationMap20 /> },
+] : category === 'contact-information' ? [
+      { id: 'contact-information-1', title: 'GLASS EDITORIAL CONTACT INFORMATION (ANIMATION: CLICK-TO-COPY & BACKDROP BLUR)', description: 'Design: GLASS EDITORIAL CONTACT INFORMATION • Animation: CLICK-TO-COPY & BACKDROP BLUR', previewComponent: <ContactInformation1 data={contactInformation1Data} /> },
+      { id: 'contact-information-2', title: 'FROSTED BENTO CONTACT DASHBOARD (ANIMATION: MULTI-TILE BENTO & LIVE TIMEZONE CLOCK)', description: 'Design: FROSTED BENTO CONTACT DASHBOARD • Animation: MULTI-TILE BENTO & LIVE TIMEZONE CLOCK', previewComponent: <ContactInformation2 data={contactInformation2Data} /> },
+      { id: 'contact-information-3', title: 'NEO-BRUTALISM CONTACT DIRECTORY (ANIMATION: BOLD BLACK BORDER & HARD OFFSET SHADOW)', description: 'Design: NEO-BRUTALISM CONTACT DIRECTORY • Animation: BOLD BLACK BORDER & HARD OFFSET SHADOW', previewComponent: <ContactInformation3 data={contactInformation3Data} /> },
+      { id: 'contact-information-4', title: 'CYBERPUNK HUD SUPPORT DIRECTORY (ANIMATION: MATRIX SCANLINE & TELEMETRY READOUT)', description: 'Design: CYBERPUNK HUD SUPPORT DIRECTORY • Animation: MATRIX SCANLINE & TELEMETRY READOUT', previewComponent: <ContactInformation4 data={contactInformation4Data} /> },
+      { id: 'contact-information-5', title: 'CLAYMORPHIC 3D TACTILE DIRECTORY (ANIMATION: SOFT 3D CLAY VOLUME & TACTILE CARD POP)', description: 'Design: CLAYMORPHIC 3D TACTILE DIRECTORY • Animation: SOFT 3D CLAY VOLUME & TACTILE CARD POP', previewComponent: <ContactInformation5 data={contactInformation5Data} /> },
+      { id: 'contact-information-6', title: 'HOLOGRAPHIC NEON CONTACT CARDS (ANIMATION: IRIDESCENT NEON SHEEN & HUD GLOW STATE)', description: 'Design: HOLOGRAPHIC NEON CONTACT CARDS • Animation: IRIDESCENT NEON SHEEN & HUD GLOW STATE', previewComponent: <ContactInformation6 data={contactInformation6Data} /> },
+      { id: 'contact-information-7', title: 'PRISM GLASS FACET DIRECTORY (ANIMATION: CRYSTAL LIGHT SPLIT & GEOMETRIC FACET SHIFT)', description: 'Design: PRISM GLASS FACET DIRECTORY • Animation: CRYSTAL LIGHT SPLIT & GEOMETRIC FACET SHIFT', previewComponent: <ContactInformation7 data={contactInformation7Data} /> },
+      { id: 'contact-information-8', title: 'SKEUOMORPHIC VELVET LUXURY DIRECTORY (ANIMATION: EMBOSSED GOLD SHIMMER & PRESSED CONTROLS)', description: 'Design: SKEUOMORPHIC VELVET LUXURY DIRECTORY • Animation: EMBOSSED GOLD SHIMMER & PRESSED CONTROLS', previewComponent: <ContactInformation8 data={contactInformation8Data} /> },
+      { id: 'contact-information-9', title: 'SUB-ZERO ICE FROST DIRECTORY (ANIMATION: CRYSTALLINE FROST GLAZE & SNOWFALL SHIMMER)', description: 'Design: SUB-ZERO ICE FROST DIRECTORY • Animation: CRYSTALLINE FROST GLAZE & SNOWFALL SHIMMER', previewComponent: <ContactInformation9 data={contactInformation9Data} /> },
+      { id: 'contact-information-10', title: 'ORGANIC SUNSET SHELL DIRECTORY (ANIMATION: ASYMMETRIC FLUID WAVE & SUNSET GLOW)', description: 'Design: ORGANIC SUNSET SHELL DIRECTORY • Animation: ASYMMETRIC FLUID WAVE & SUNSET GLOW', previewComponent: <ContactInformation10 data={contactInformation10Data} /> },
+      { id: 'contact-information-11', title: 'METALLIC CHROME STEEL DIRECTORY (ANIMATION: LIQUID SILVER REFLECTION & STEEL SPEC GRID)', description: 'Design: METALLIC CHROME STEEL DIRECTORY • Animation: LIQUID SILVER REFLECTION & STEEL SPEC GRID', previewComponent: <ContactInformation11 data={contactInformation11Data} /> },
+      { id: 'contact-information-12', title: 'NEUMORPHISM LIGHT DIRECTORY (ANIMATION: TACTILE DUAL SHADOW EMBOSS & INSET TOGGLE)', description: 'Design: NEUMORPHISM LIGHT DIRECTORY • Animation: TACTILE DUAL SHADOW EMBOSS & INSET TOGGLE', previewComponent: <ContactInformation12 data={contactInformation12Data} /> },
+      { id: 'contact-information-13', title: 'SPLIT MAGAZINE EDITORIAL DIRECTORY (ANIMATION: DUAL-PANE PARALLAX ZOOM & FLOATING CARD)', description: 'Design: SPLIT MAGAZINE EDITORIAL DIRECTORY • Animation: DUAL-PANE PARALLAX ZOOM & FLOATING CARD', previewComponent: <ContactInformation13 data={contactInformation13Data} /> },
+      { id: 'contact-information-14', title: 'MINIMALIST LINE-ART ARCHITECTURE (ANIMATION: HAIRLINE VECTOR DRAWING & CROSSHAIRS)', description: 'Design: MINIMALIST LINE-ART ARCHITECTURE • Animation: HAIRLINE VECTOR DRAWING & CROSSHAIRS', previewComponent: <ContactInformation14 data={contactInformation14Data} /> },
+      { id: 'contact-information-15', title: 'RETRO SYNTHWAVE 80S DIRECTORY (ANIMATION: 80S NEON GRID MOVEMENT & PULSING SUNSET)', description: 'Design: RETRO SYNTHWAVE 80S DIRECTORY • Animation: 80S NEON GRID MOVEMENT & PULSING SUNSET', previewComponent: <ContactInformation15 data={contactInformation15Data} /> },
+      { id: 'contact-information-16', title: '3D STACKED GLASS LIGHT DIRECTORY (ANIMATION: DEPTH-OF-FIELD 3D PERSPECTIVE TILT)', description: 'Design: 3D STACKED GLASS LIGHT DIRECTORY • Animation: DEPTH-OF-FIELD 3D PERSPECTIVE TILT', previewComponent: <ContactInformation16 data={contactInformation16Data} /> },
+      { id: 'contact-information-17', title: 'MINIMALIST MONOCHROME DIRECTORY (ANIMATION: CLEAN TYPOGRAPHY FADE-UP & LINE HIGHLIGHT)', description: 'Design: MINIMALIST MONOCHROME DIRECTORY • Animation: CLEAN TYPOGRAPHY FADE-UP & LINE HIGHLIGHT', previewComponent: <ContactInformation17 data={contactInformation17Data} /> },
+      { id: 'contact-information-18', title: 'INTERACTIVE LOCATION HUB DIRECTORY (ANIMATION: LOCATION PIN PULSE & LIVE HUB SWITCHER)', description: 'Design: INTERACTIVE LOCATION HUB DIRECTORY • Animation: LOCATION PIN PULSE & LIVE HUB SWITCHER', previewComponent: <ContactInformation18 data={contactInformation18Data} /> },
+      { id: 'contact-information-19', title: 'PASTEL MINT BOOKING DIRECTORY (ANIMATION: DIRECT WHATSAPP & TELEGRAM LAUNCH PILLS)', description: 'Design: PASTEL MINT BOOKING DIRECTORY • Animation: DIRECT WHATSAPP & TELEGRAM LAUNCH PILLS', previewComponent: <ContactInformation19 data={contactInformation19Data} /> },
+      { id: 'contact-information-20', title: 'FLAGSHIP 360 OMNICHANNEL DIRECTORY (ANIMATION: LIVE 24/7 SUPPORT AGENT INDICATOR)', description: 'Design: FLAGSHIP 360 OMNICHANNEL DIRECTORY • Animation: LIVE 24/7 SUPPORT AGENT INDICATOR', previewComponent: <ContactInformation20 data={contactInformation20Data} /> },
+] : category === 'contact-hero' ? [
+      { id: 'contact-hero-1', title: 'GLASS EDITORIAL CONTACT HERO (ANIMATION: BACKDROP BLUR GLOW & CONVERSION FORM)', description: 'Design: GLASS EDITORIAL CONTACT HERO • Animation: BACKDROP BLUR GLOW & CONVERSION FORM', previewComponent: <ContactHero1 data={contactHero1Data} /> },
+      { id: 'contact-hero-2', title: 'FROSTED BENTO DASHBOARD CONTACT HERO (ANIMATION: MULTI-TILE BENTO & SUPPORT ACCORDION)', description: 'Design: FROSTED BENTO DASHBOARD • Animation: MULTI-TILE BENTO & SUPPORT ACCORDION', previewComponent: <ContactHero2 data={contactHero2Data} /> },
+      { id: 'contact-hero-3', title: 'DARK SPATIAL MESH CONTACT HERO (ANIMATION: FLUID MESH DRIFT & INSTANT EMAIL ACCESS)', description: 'Design: DARK SPATIAL MESH • Animation: FLUID MESH DRIFT & INSTANT EMAIL ACCESS', previewComponent: <ContactHero3 data={contactHero3Data} /> },
+      { id: 'contact-hero-4', title: 'CYBERPUNK HUD TERMINAL CONTACT HERO (ANIMATION: MATRIX SCANLINE & QUANTUM ENCRYPTED FORM)', description: 'Design: CYBERPUNK HUD TERMINAL • Animation: MATRIX SCANLINE & QUANTUM ENCRYPTED FORM', previewComponent: <ContactHero4 data={contactHero4Data} /> },
+      { id: 'contact-hero-5', title: 'CLAYMORPHIC 3D TACTILE CONTACT HERO (ANIMATION: SOFT 3D CLAY VOLUME & TACTILE FORM POP)', description: 'Design: CLAYMORPHIC 3D TACTILE HERO • Animation: SOFT 3D CLAY VOLUME & TACTILE FORM POP', previewComponent: <ContactHero5 data={contactHero5Data} /> },
+      { id: 'contact-hero-6', title: 'HOLOGRAPHIC NEON CYBER HERO (ANIMATION: IRIDESCENT NEON SHEEN & HUD GLOW STATE)', description: 'Design: HOLOGRAPHIC NEON CYBER • Animation: IRIDESCENT NEON SHEEN & HUD GLOW STATE', previewComponent: <ContactHero6 data={contactHero6Data} /> },
+      { id: 'contact-hero-7', title: 'PRISM GLASS FACET CONTACT HERO (ANIMATION: CRYSTAL LIGHT SPLIT & GEOMETRIC DECK)', description: 'Design: PRISM GLASS FACET HERO • Animation: CRYSTAL LIGHT SPLIT & GEOMETRIC DECK', previewComponent: <ContactHero7 data={contactHero7Data} /> },
+      { id: 'contact-hero-8', title: 'SKEUOMORPHIC VELVET LUXURY HERO (ANIMATION: EMBOSSED GOLD SHIMMER & PRESSED CONTROLS)', description: 'Design: SKEUOMORPHIC VELVET LUXURY • Animation: EMBOSSED GOLD SHIMMER & PRESSED CONTROLS', previewComponent: <ContactHero8 data={contactHero8Data} /> },
+      { id: 'contact-hero-9', title: 'SUB-ZERO ICE FROST CONTACT HERO (ANIMATION: CRYSTALLINE FROST GLAZE & THERMAL GAUGE)', description: 'Design: SUB-ZERO ICE FROST HERO • Animation: CRYSTALLINE FROST GLAZE & THERMAL GAUGE', previewComponent: <ContactHero9 data={contactHero9Data} /> },
+      { id: 'contact-hero-10', title: 'ORGANIC CURVED SUNSET SHELL HERO (ANIMATION: ASYMMETRIC FLUID WAVE & AUDIO PLAYER)', description: 'Design: ORGANIC CURVED SUNSET SHELL • Animation: ASYMMETRIC FLUID WAVE & AUDIO PLAYER', previewComponent: <ContactHero10 data={contactHero10Data} /> },
+      { id: 'contact-hero-11', title: 'METALLIC CHROME AEROSPACE HERO (ANIMATION: LIQUID SILVER REFLECTION & STEEL SPEC GRID)', description: 'Design: METALLIC CHROME AEROSPACE • Animation: LIQUID SILVER REFLECTION & STEEL SPEC GRID', previewComponent: <ContactHero11 data={contactHero11Data} /> },
+      { id: 'contact-hero-12', title: 'MODERN NEUMORPHIC DUAL-SHADOW HERO (ANIMATION: TACTILE DUAL SHADOW EMBOSS & INSET TOGGLE)', description: 'Design: MODERN NEUMORPHIC DUAL-SHADOW • Animation: TACTILE DUAL SHADOW EMBOSS & INSET TOGGLE', previewComponent: <ContactHero12 data={contactHero12Data} /> },
+      { id: 'contact-hero-13', title: 'SPLIT GRID MAGAZINE EDITORIAL HERO (ANIMATION: DUAL-PANE PARALLAX ZOOM & FLOATING FORM)', description: 'Design: SPLIT GRID MAGAZINE EDITORIAL • Animation: DUAL-PANE PARALLAX ZOOM & FLOATING FORM', previewComponent: <ContactHero13 data={contactHero13Data} /> },
+      { id: 'contact-hero-14', title: 'MINIMALIST LINE-ART ARCHITECTURE HERO (ANIMATION: HAIRLINE VECTOR DRAWING & NEON GAUGE)', description: 'Design: MINIMALIST LINE-ART ARCHITECTURE • Animation: HAIRLINE VECTOR DRAWING & NEON GAUGE', previewComponent: <ContactHero14 data={contactHero14Data} /> },
+      { id: 'contact-hero-15', title: '80S RETRO SYNTHWAVE CYBER HERO (ANIMATION: 80S NEON GRID MOVEMENT & CASSETTE PLAYER)', description: 'Design: 80S RETRO SYNTHWAVE CYBER • Animation: 80S NEON GRID MOVEMENT & CASSETTE PLAYER', previewComponent: <ContactHero15 data={contactHero15Data} /> },
+      { id: 'contact-hero-16', title: 'FLAGSHIP 3D STACKED GLASS HERO (ANIMATION: DEPTH-OF-FIELD 3D PERSPECTIVE TILT)', description: 'Design: FLAGSHIP 3D STACKED GLASS HERO • Animation: DEPTH-OF-FIELD 3D PERSPECTIVE TILT', previewComponent: <ContactHero16 data={contactHero16Data} /> },
+      { id: 'contact-hero-17', title: 'MINIMALIST MONOCHROME HIGH-CONTRAST (ANIMATION: CLEAN TYPOGRAPHY FADE-UP & LINE HIGHLIGHT)', description: 'Design: MINIMALIST MONOCHROME HIGH-CONTRAST • Animation: CLEAN TYPOGRAPHY FADE-UP & LINE HIGHLIGHT', previewComponent: <ContactHero17 data={contactHero17Data} /> },
+      { id: 'contact-hero-18', title: 'INTERACTIVE LOCATION MAP HERO (ANIMATION: LOCATION PIN PULSE & LIVE MAP SWITCHER)', description: 'Design: INTERACTIVE LOCATION MAP HERO • Animation: LOCATION PIN PULSE & LIVE MAP SWITCHER', previewComponent: <ContactHero18 data={contactHero18Data} /> },
+      { id: 'contact-hero-19', title: 'INSTANT CALENDAR BOOKING HERO (ANIMATION: DATE SLOT SELECTION & INSTANT SYNC TOAST)', description: 'Design: INSTANT CALENDAR BOOKING HERO • Animation: DATE SLOT SELECTION & INSTANT SYNC TOAST', previewComponent: <ContactHero19 data={contactHero19Data} /> },
+      { id: 'contact-hero-20', title: 'FLAGSHIP 360 OMNICHANNEL SUPPORT HUB (ANIMATION: LIVE ONLINE AGENT INDICATOR & PULSE ALERT)', description: 'Design: FLAGSHIP 360 OMNICHANNEL SUPPORT • Animation: LIVE ONLINE AGENT INDICATOR & PULSE ALERT', previewComponent: <ContactHero20 data={contactHero20Data} /> },
+] : category === 'about-hero' ? [
+      { id: 'about-hero-1', title: 'FROSTED 3D ISOMETRIC E-COMMERCE HERO (ANIMATION: 3D KINETIC MESH & ORBITAL GLOW)', description: 'Design: FROSTED 3D ISOMETRIC HERO • Animation: 3D KINETIC MESH & ORBITAL GLOW', previewComponent: <AboutHero1 data={aboutHero1Data} /> },
+      { id: 'about-hero-2', title: 'DARK OBSIDIAN GLASS 3D E-COMMERCE HERO (ANIMATION: 3D LASER SCANLINE & NEON PULSE)', description: 'Design: DARK OBSIDIAN GLASS • Animation: 3D LASER SCANLINE & NEON PULSE', previewComponent: <AboutHero2 /> },
+      { id: 'about-hero-3', title: 'SUPER COOL 3D CHROME HERO (ANIMATION: SCROLL-DRIVEN CENTRAL HERO DOWN-TO-UP GLIDE)', description: 'Design: SUPER COOL 3D CHROME HERO • Animation: SCROLL-DRIVEN CENTRAL HERO DOWN-TO-UP GLIDE', previewComponent: <AboutHero3 /> },
+      { id: 'about-hero-4', title: 'NEW SEASON 26 EDITORIAL FASHION HERO (ANIMATION: SCROLL-DRIVEN FASHION MODEL GLIDE)', description: 'Design: NEW SEASON 26 EDITORIAL HERO • Animation: SCROLL-DRIVEN FASHION MODEL GLIDE', previewComponent: <AboutHero4 /> },
+      { id: 'about-hero-5', title: 'CLAYMORPHIC 3D BRAND STORY HERO (ANIMATION: SOFT 3D CLAY VOLUME & TACTILE AMBIENT POP)', description: 'Design: CLAYMORPHIC 3D BRAND STORY • Animation: SOFT 3D CLAY VOLUME & TACTILE AMBIENT POP', previewComponent: <AboutHero5 data={aboutHero5Data} /> },
+      { id: 'about-hero-6', title: 'FROSTED BENTO GRID IMPACT HERO (ANIMATION: MULTI-TILE FROSTED GLASS & EDITORIAL HOVER)', description: 'Design: FROSTED BENTO GRID IMPACT • Animation: MULTI-TILE FROSTED GLASS & EDITORIAL HOVER', previewComponent: <AboutHero6 data={aboutHero6Data} /> },
+      { id: 'about-hero-7', title: 'LIQUID DARK MESH BRAND HERITAGE (ANIMATION: FLUID MESH DRIFT & HIGH-GLOSS TRANSPARENT DECK)', description: 'Design: LIQUID DARK MESH HERITAGE • Animation: FLUID MESH DRIFT & HIGH-GLOSS TRANSPARENT DECK', previewComponent: <AboutHero7 data={aboutHero7Data} /> },
+      { id: 'about-hero-8', title: 'HOLOGRAPHIC NEON CYBER HORIZON (ANIMATION: IRIDESCENT NEON SHEEN & HUD GLOW STATE)', description: 'Design: HOLOGRAPHIC NEON CYBER • Animation: IRIDESCENT NEON SHEEN & HUD GLOW STATE', previewComponent: <AboutHero8 data={aboutHero8Data} /> },
+      { id: 'about-hero-9', title: 'PRISM GLASS REFRACTIVE VISION (ANIMATION: CRYSTAL LIGHT SPLIT & GEOMETRIC FACET SHIFT)', description: 'Design: PRISM GLASS REFRACTIVE • Animation: CRYSTAL LIGHT SPLIT & GEOMETRIC FACET SHIFT', previewComponent: <AboutHero9 data={aboutHero9Data} /> },
+      { id: 'about-hero-10', title: 'SKEUOMORPHIC VELVET LUXURY BRAND (ANIMATION: EMBOSSED GOLD SHIMMER & PRESSED TACTILE CONTROLS)', description: 'Design: SKEUOMORPHIC VELVET LUXURY • Animation: EMBOSSED GOLD SHIMMER & PRESSED TACTILE CONTROLS', previewComponent: <AboutHero10 data={aboutHero10Data} /> },
+      { id: 'about-hero-11', title: 'SUB-ZERO ICE FROST BRAND HORIZON (ANIMATION: CRYSTALLINE FROST GLAZE & SNOWFALL SHIMMER)', description: 'Design: SUB-ZERO ICE FROST HORIZON • Animation: CRYSTALLINE FROST GLAZE & SNOWFALL SHIMMER', previewComponent: <AboutHero11 data={aboutHero11Data} /> },
+      { id: 'about-hero-12', title: 'ORGANIC CURVED FLUID SHELL HERO (ANIMATION: ASYMMETRIC FLUID WAVE & SUNSET AMBER GLOW)', description: 'Design: ORGANIC CURVED FLUID SHELL • Animation: ASYMMETRIC FLUID WAVE & SUNSET AMBER GLOW', previewComponent: <AboutHero12 data={aboutHero12Data} /> },
+      { id: 'about-hero-13', title: 'CYBERPUNK HUD OPERATIONAL TERMINAL (ANIMATION: MATRIX SCANLINE SWEEP & TELEMETRY COUNTER)', description: 'Design: CYBERPUNK HUD TERMINAL • Animation: MATRIX SCANLINE SWEEP & TELEMETRY COUNTER', previewComponent: <AboutHero13 data={aboutHero13Data} /> },
+      { id: 'about-hero-14', title: 'AURORA BOREALIS NORTHERN HORIZON (ANIMATION: FLOWING NORTHERN LIGHTS & TRANSLUCENT GLASS AURA)', description: 'Design: AURORA BOREALIS HORIZON • Animation: FLOWING NORTHERN LIGHTS & TRANSLUCENT GLASS AURA', previewComponent: <AboutHero14 data={aboutHero14Data} /> },
+      { id: 'about-hero-15', title: 'METALLIC CHROME AEROSPACE VISION (ANIMATION: LIQUID SILVER REFLECTION & HIGH-GLOSS STEEL GRID)', description: 'Design: METALLIC CHROME AEROSPACE • Animation: LIQUID SILVER REFLECTION & HIGH-GLOSS STEEL GRID', previewComponent: <AboutHero15 data={aboutHero15Data} /> },
+      { id: 'about-hero-16', title: 'MODERN NEUMORPHIC MINIMALIST HERO (ANIMATION: TACTILE DUAL SHADOW EMBOSS & INSET TOGGLE)', description: 'Design: MODERN NEUMORPHIC MINIMALIST • Animation: TACTILE DUAL SHADOW EMBOSS & INSET TOGGLE', previewComponent: <AboutHero16 data={aboutHero16Data} /> },
+      { id: 'about-hero-17', title: 'SPLIT GRID MAGAZINE EDITORIAL HERO (ANIMATION: DUAL-PANE PARALLAX ZOOM & FLOATING DECK)', description: 'Design: SPLIT GRID MAGAZINE EDITORIAL • Animation: DUAL-PANE PARALLAX ZOOM & FLOATING DECK', previewComponent: <AboutHero17 data={aboutHero17Data} /> },
+      { id: 'about-hero-18', title: 'MINIMALIST LINE-ART GLASS ARCHITECTURE (ANIMATION: HAIRLINE VECTOR DRAWING & NEON GAUGE)', description: 'Design: MINIMALIST LINE-ART GLASS • Animation: HAIRLINE VECTOR DRAWING & NEON GAUGE', previewComponent: <AboutHero18 data={aboutHero18Data} /> },
+      { id: 'about-hero-19', title: 'RETRO SYNTHWAVE SUNSET HORIZON (ANIMATION: 80S NEON GRID MOVEMENT & PULSING MAGENTA SUNSET)', description: 'Design: RETRO SYNTHWAVE SUNSET • Animation: 80S NEON GRID MOVEMENT & PULSING MAGENTA SUNSET', previewComponent: <AboutHero19 data={aboutHero19Data} /> },
+      { id: 'about-hero-20', title: '3D LAYERED STACKED GLASS CAROUSEL HERO (ANIMATION: DEPTH-OF-FIELD 3D PERSPECTIVE TILT)', description: 'Design: 3D LAYERED STACKED GLASS CAROUSEL • Animation: DEPTH-OF-FIELD 3D PERSPECTIVE TILT', previewComponent: <AboutHero20 data={aboutHero20Data} /> }
+    ] : ((category.startsWith('about-') && category !== 'about-team-showcase' && category !== 'about-company-timeline' && category !== 'about-brand-values') || category.startsWith('contact-') || category.startsWith('business-') || category.startsWith('store-') || category.startsWith('location-') || category.startsWith('support-') || category.startsWith('empty-') || category.startsWith('404-') || category.startsWith('no-') || category.startsWith('service-') || category.startsWith('generic-') || category.startsWith('global-')) ? Array.from({ length: 20 }, (_, i) => {
       const subName = category.replace('about-', '').replace(/-/g, ' ').toUpperCase();
       return {
         id: `${category}-${i + 1}`,
@@ -10196,9 +12328,15 @@ export function SectionLibraryGrid({ category }: GridProps) {
     activeCat = 'cart-frequently-bought-together';
   } else if (activeCat === 'recommended-products') {
     activeCat = 'cart-recommended-products';
+  } else if (activeCat === 'contact') {
+    activeCat = 'contact-hero';
+  } else if (activeCat === 'error' || activeCat === 'error-empty') {
+    activeCat = '404-page-content';
+  } else if (activeCat === 'global' || activeCat === 'global-major') {
+    activeCat = 'global-header';
   }
   
-  groups = [...homeCategories, ...productCategories, ...cartCategories, ...checkoutCategories, ...orderCategories, ...accountCategories, ...offersCategories, ...blogCategories, ...aboutCategories].filter(g => g.id === activeCat);
+  groups = [...homeCategories, ...productCategories, ...cartCategories, ...checkoutCategories, ...orderCategories, ...accountCategories, ...offersCategories, ...blogCategories, ...aboutCategories, ...contactCategories, ...errorCategories, ...globalCategories].filter(g => (g.mappedId || g.id) === activeCat || g.id === activeCat);
 
   const padNum = (num: number) => num.toString().padStart(2, '0');
 
@@ -10264,3 +12402,5 @@ export function SectionLibraryGrid({ category }: GridProps) {
 
 
 
+
+// Force Vite reload 1791526840236

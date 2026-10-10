@@ -14,6 +14,7 @@ export function SectionLibraryShell() {
       category = 'product-card';
       window.history.replaceState(null, '', '?category=product-card');
     }
+
     if (category) {
       setActiveCategory(category);
     }

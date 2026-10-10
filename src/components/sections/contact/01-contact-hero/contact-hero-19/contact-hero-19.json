@@ -1,0 +1,13 @@
+{
+  "id": "contact-hero-19",
+  "name": "ContactHero19",
+  "category": "contact-hero",
+  "title": "INSTANT CALENDAR BOOKING HERO",
+  "description": "Book a 1-on-1 strategy session with our lead architects. Pick your date and time slot with instant calendar sync.",
+  "settings": {
+    "title": "INSTANT CALENDAR BOOKING HERO",
+    "subtitle": "SPLIT HEADLINE & DATE SLOT PICKER",
+    "desc": "Book a 1-on-1 strategy session with our lead architects. Pick your date and time slot with instant calendar sync.",
+    "badge": "INSTANT BOOKING #19"
+  }
+}

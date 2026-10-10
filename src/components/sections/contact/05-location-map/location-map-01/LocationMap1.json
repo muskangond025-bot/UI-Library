@@ -1,0 +1,7 @@
+{
+  "id": "location-map-01",
+  "name": "Interactive Spatial Radar Map",
+  "category": "location-map",
+  "description": "Live satellite pinpoint radar with interactive location filtering, search, and real-time route pulse",
+  "theme": "dark"
+}

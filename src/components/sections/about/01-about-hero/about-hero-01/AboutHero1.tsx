@@ -89,6 +89,9 @@ export function AboutHero1({ data, section }: { data?: any; section?: any }) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
+            <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-indigo-700 text-xs font-mono font-bold tracking-widest uppercase mb-4">
+              FROSTED 3D ISOMETRIC HERO #01 • ANIMATION: 3D KINETIC MESH & ORBITAL GLOW
+            </span>
             <h1 className="text-5xl sm:text-6xl xl:text-7xl font-black text-[#0A1136] tracking-tight leading-[1.02]">
               {settings.titleLine1 || 'Register'}<br />
               {settings.titleLine2 || 'your store'}<br />

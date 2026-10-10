@@ -1,0 +1,7 @@
+{
+  "id": "support-information-09",
+  "name": "Guided Support Resolution Wizard",
+  "category": "support-information",
+  "description": "Step-by-step issue diagnostic flowchart with live agent handoff",
+  "theme": "light"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "location-map-17",
+  "name": "Live GPS Radius Radar Locator",
+  "category": "location-map",
+  "description": "Interactive distance slider & live store status radar feed",
+  "theme": "light"
+}

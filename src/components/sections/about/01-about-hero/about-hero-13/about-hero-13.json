@@ -1,0 +1,14 @@
+{
+  "id": "about-hero-13",
+  "name": "AboutHero13",
+  "category": "about-hero",
+  "title": "CYBERPUNK HUD OPERATIONAL TERMINAL",
+  "description": "Command center UI layout featuring glowing emerald scanlines, matrix status indicators, live telemetry metrics, and cybernetic fonts.",
+  "settings": {
+    "title": "CYBERPUNK HUD OPERATIONAL TERMINAL",
+    "subtitle": "CYBERNETIC SCANLINE STATUS MATRIX",
+    "description": "Command center UI layout featuring glowing emerald scanlines, matrix status indicators, live telemetry metrics, and cybernetic fonts.",
+    "tagline": "SYSTEM HUD ONLINE",
+    "heroImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
+  }
+}

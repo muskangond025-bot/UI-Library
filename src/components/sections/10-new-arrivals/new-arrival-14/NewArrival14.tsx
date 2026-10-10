@@ -78,7 +78,7 @@ export function NewArrival14({ section }: NewArrival14Props) {
           }}
         >
           {duplicatedRow1.map((product, i) => (
-            <ProductCard key={`r1-${product.id}-${i}`} product={product} />
+            <ProductCard key={`r1-${product.id}-14`} product={product} />
           ))}
         </motion.div>
 
@@ -96,7 +96,7 @@ export function NewArrival14({ section }: NewArrival14Props) {
           }}
         >
           {duplicatedRow2.map((product, i) => (
-            <ProductCard key={`r2-${product.id}-${i}`} product={product} />
+            <ProductCard key={`r2-${product.id}-14`} product={product} />
           ))}
         </motion.div>
 

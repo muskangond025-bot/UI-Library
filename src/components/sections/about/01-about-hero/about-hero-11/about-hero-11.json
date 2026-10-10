@@ -1,0 +1,14 @@
+{
+  "id": "about-hero-11",
+  "name": "AboutHero11",
+  "category": "about-hero",
+  "title": "SUB-ZERO ICE FROST BRAND HORIZON",
+  "description": "Sub-zero thermal design aesthetic engineered with clear icy glass facets, cold cyan glowing borders, and animated frost shimmers.",
+  "settings": {
+    "title": "SUB-ZERO ICE FROST BRAND HORIZON",
+    "subtitle": "CRYSTALLINE ICE FROST GLASS SHIMMER",
+    "description": "Sub-zero thermal design aesthetic engineered with clear icy glass facets, cold cyan glowing borders, and animated frost shimmers.",
+    "tagline": "SUB-ZERO CRYSTALLINE",
+    "heroImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
+  }
+}

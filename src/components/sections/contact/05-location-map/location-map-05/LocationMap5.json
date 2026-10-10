@@ -1,0 +1,7 @@
+{
+  "id": "location-map-05",
+  "name": "Eco Transit & Charging Map",
+  "category": "location-map",
+  "description": "Subway & EV charging pinpoint overlay map with live parking slot counters",
+  "theme": "light"
+}

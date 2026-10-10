@@ -1,0 +1,14 @@
+{
+  "id": "about-hero-20",
+  "name": "AboutHero20",
+  "category": "about-hero",
+  "title": "3D LAYERED STACKED GLASS CAROUSEL HERO",
+  "description": "The ultimate flagship brand hero experience with multi-layered stacked glass cards, depth-of-field blur, and 3D perspective shift on hover.",
+  "settings": {
+    "title": "3D LAYERED STACKED GLASS CAROUSEL HERO",
+    "subtitle": "DEPTH-OF-FIELD PERSPECTIVE SHOWCASE",
+    "description": "The ultimate flagship brand hero experience with multi-layered stacked glass cards, depth-of-field blur, and 3D perspective shift on hover.",
+    "tagline": "FLAGSHIP 3D CAROUSEL",
+    "heroImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
+  }
+}

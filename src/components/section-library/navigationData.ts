@@ -141,3 +141,45 @@ export const aboutCategories = [
   { id: 'about-cta-banner', label: 'CTA Banner', mappedId: 'about-cta-banner' },
 ];
 
+
+export const contactCategories = [
+  { id: 'contact-hero', label: 'Contact Hero', mappedId: 'contact-hero' },
+  { id: 'contact-information', label: 'Contact Information', mappedId: 'contact-information' },
+  { id: 'business-information', label: 'Business Information', mappedId: 'business-information' },
+  { id: 'store-locations', label: 'Store Locations', mappedId: 'store-locations' },
+  { id: 'location-map', label: 'Location Map', mappedId: 'location-map' },
+  { id: 'support-information', label: 'Support Information', mappedId: 'support-information' },
+  { id: 'contact-faq', label: 'Contact FAQ', mappedId: 'contact-faq' },
+];
+
+export const errorCategories = [
+  { id: '404-page-content', label: '404 Page Content', mappedId: '404-page-content' },
+  { id: 'no-search-results', label: 'No Search Results', mappedId: 'no-search-results' },
+  { id: 'empty-cart', label: 'Empty Cart', mappedId: 'empty-cart' },
+  { id: 'empty-wishlist', label: 'Empty Wishlist', mappedId: 'empty-wishlist' },
+  { id: 'empty-order-history', label: 'Empty Order History', mappedId: 'empty-order-history' },
+];
+
+export const globalCategories = [
+  { id: 'global-header', label: 'Header', mappedId: 'global-header' },
+  { id: 'global-mega-navigation', label: 'Mega Navigation', mappedId: 'global-mega-navigation' },
+  { id: 'global-announcement-bar', label: 'Announcement Bar', mappedId: 'global-announcement-bar' },
+  { id: 'global-hero-banner', label: 'Hero Banner', mappedId: 'global-hero-banner' },
+  { id: 'global-promotional-banner', label: 'Promotional Banner', mappedId: 'global-promotional-banner' },
+  { id: 'global-product-grid', label: 'Product Grid', mappedId: 'global-product-grid' },
+  { id: 'global-product-carousel', label: 'Product Carousel', mappedId: 'global-product-carousel' },
+  { id: 'global-category-grid', label: 'Category Grid', mappedId: 'global-category-grid' },
+  { id: 'global-collection-grid', label: 'Collection Grid', mappedId: 'featured-collections' },
+  { id: 'global-brand-showcase', label: 'Brand Showcase', mappedId: 'brand-showcase' },
+  { id: 'global-image-text', label: 'Image + Text', mappedId: 'global-image-text' },
+  { id: 'global-promotional-cards', label: 'Promotional Cards', mappedId: 'global-promotional-cards' },
+  { id: 'global-testimonials', label: 'Testimonials', mappedId: 'global-testimonials' },
+  { id: 'global-customer-reviews', label: 'Customer Reviews', mappedId: 'global-customer-reviews' },
+  { id: 'global-video-section', label: 'Video Section', mappedId: 'global-video-section' },
+  { id: 'global-blog-grid', label: 'Blog Grid', mappedId: 'global-blog-grid' },
+  { id: 'global-faq', label: 'FAQ', mappedId: 'global-faq' },
+  { id: 'global-newsletter', label: 'Newsletter', mappedId: 'global-newsletter' },
+  { id: 'global-trust-certification', label: 'Trust / Certification Section', mappedId: 'global-trust-certification' },
+  { id: 'global-cta-banner', label: 'CTA Banner', mappedId: 'global-cta-banner' },
+  { id: 'global-footer', label: 'Footer', mappedId: 'global-footer' },
+];

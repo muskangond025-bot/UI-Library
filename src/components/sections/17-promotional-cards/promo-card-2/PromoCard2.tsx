@@ -34,14 +34,14 @@ export default function PromoCard2({ data }: PromoCard2Props) {
           transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
           className="whitespace-nowrap flex gap-12 text-[10rem] font-black uppercase"
         >
-          {repeatedText.map((text, i) => <span key={`bg1-${i}`}>{text}</span>)}
+          {repeatedText.map((text, i) => <span key={`bg1-2`}>{text}</span>)}
         </motion.div>
         <motion.div 
           animate={{ x: [-1000, 0] }}
           transition={{ repeat: Infinity, duration: 25, ease: "linear" }}
           className="whitespace-nowrap flex gap-12 text-[10rem] font-black uppercase"
         >
-          {repeatedText.map((text, i) => <span key={`bg2-${i}`}>{text}</span>)}
+          {repeatedText.map((text, i) => <span key={`bg2-2`}>{text}</span>)}
         </motion.div>
       </div>
 
@@ -59,7 +59,7 @@ export default function PromoCard2({ data }: PromoCard2Props) {
           >
             {repeatedText.map((text, i) => (
               <h3 
-                key={`menu-${i}`} 
+                key={`menu-2`} 
                 className="text-4xl md:text-5xl font-black uppercase text-center opacity-50 hover:opacity-100 transition-opacity cursor-pointer text-white mix-blend-difference"
               >
                 {text}

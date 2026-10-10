@@ -1,0 +1,7 @@
+{
+  "id": "location-map-09",
+  "name": "Continental Cluster Explorer",
+  "category": "location-map",
+  "description": "Interactive continent-based cluster map with live store counts and popups",
+  "theme": "light"
+}

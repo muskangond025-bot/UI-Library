@@ -1,0 +1,11 @@
+{
+  "id": "contact-information-4",
+  "name": "ContactInformation4",
+  "category": "contact-information",
+  "title": "CYBERPUNK HUD SUPPORT DIRECTORY",
+  "settings": {
+    "title": "CYBERPUNK HUD SUPPORT DIRECTORY",
+    "style": "Cyberpunk HUD",
+    "theme": "Dark Mode"
+  }
+}

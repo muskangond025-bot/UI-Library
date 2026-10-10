@@ -1,0 +1,7 @@
+{
+  "id": "location-map-04",
+  "name": "Multi-City Bento Map Hub",
+  "category": "location-map",
+  "description": "Frosted bento spatial layout embedding multi-city interactive map modules with layer toggles",
+  "theme": "dark"
+}

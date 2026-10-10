@@ -66,7 +66,7 @@ export function NewArrival3({ section }: NewArrival3Props) {
         >
           {scrollingProducts.map((product, i) => (
             <div 
-              key={`${product.id}-${i}`}
+              key={`${product.id}-3`}
               className="w-[280px] md:w-[350px] shrink-0 flex flex-col group/card"
             >
               <div className="w-full aspect-[3/4] overflow-hidden bg-gray-100 rounded-sm mb-4">

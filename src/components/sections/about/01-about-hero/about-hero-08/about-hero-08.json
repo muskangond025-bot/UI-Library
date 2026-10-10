@@ -1,0 +1,14 @@
+{
+  "id": "about-hero-8",
+  "name": "AboutHero8",
+  "category": "about-hero",
+  "title": "HOLOGRAPHIC NEON CYBER HORIZON",
+  "description": "Building the next generation of web application component libraries with holographic neon accents and high-tech glow state feedback.",
+  "settings": {
+    "title": "HOLOGRAPHIC NEON CYBER HORIZON",
+    "subtitle": "IRIDESCENT NEON METALLIC SHEEN",
+    "description": "Building the next generation of web application component libraries with holographic neon accents and high-tech glow state feedback.",
+    "tagline": "CYBER HOLOGRAPHIC HUD",
+    "heroImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
+  }
+}

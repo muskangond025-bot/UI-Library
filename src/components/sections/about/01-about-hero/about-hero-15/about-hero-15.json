@@ -1,0 +1,14 @@
+{
+  "id": "about-hero-15",
+  "name": "AboutHero15",
+  "category": "about-hero",
+  "title": "METALLIC CHROME AEROSPACE VISION",
+  "description": "High-tech aerospace and fintech editorial banner engineered with reflective chrome borders, dark steel panels, and precision metrics.",
+  "settings": {
+    "title": "METALLIC CHROME AEROSPACE VISION",
+    "subtitle": "LIQUID SILVER HIGH-GLOSS STEEL GRID",
+    "description": "High-tech aerospace and fintech editorial banner engineered with reflective chrome borders, dark steel panels, and precision metrics.",
+    "tagline": "CHROME AEROSPACE GRADE",
+    "heroImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
+  }
+}
