@@ -5,8 +5,8 @@ import { Zap, Terminal, Shield, Cpu, Activity, ArrowRight, Play } from 'lucide-r
 export function AboutHero8({ data, section }: { data?: any; section?: any }) {
   const [activeTab, setActiveTab] = useState('stack');
   return (
-    <section className="w-full min-h-[700px] py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-purple-100 overflow-hidden relative font-sans">
-      <div className="max-w-7xl mx-auto space-y-8 relative z-10">
+    <section className="w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] py-8 sm:py-10 px-4 sm:px-6 lg:px-8 bg-slate-950 text-purple-100 overflow-hidden relative font-sans">
+      <div className="max-w-7xl mx-auto space-y-4 sm:space-y-5 relative z-10">
         
         {/* Holographic Top Telemetry Banner */}
         <div className="p-4 rounded-2xl bg-purple-950/40 border border-purple-500/30 backdrop-blur-2xl flex items-center justify-between flex-wrap gap-4 text-xs font-mono text-purple-300 shadow-xl">

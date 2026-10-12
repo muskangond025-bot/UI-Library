@@ -65,7 +65,7 @@ export function Banner20({ section }: SectionProps) {
   return (
     <section 
       ref={containerRef}
-      className="relative w-full h-screen min-h-[800px] overflow-hidden selection:bg-[#4ADE80] selection:text-black flex items-center justify-center"
+      className="relative w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] overflow-hidden selection:bg-[#4ADE80] selection:text-black flex items-center justify-center"
       style={{ backgroundColor: bg, color: textCol }}
     >
       

@@ -89,7 +89,7 @@ export function Banner13({ section }: SectionProps) {
   return (
     <section 
       ref={containerRef}
-      className="relative w-full h-screen min-h-[800px] overflow-hidden selection:bg-white selection:text-black"
+      className="relative w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] overflow-hidden selection:bg-white selection:text-black"
       style={{ backgroundColor: bg, color: textCol, perspective: '1000px' }}
     >
       
@@ -121,7 +121,7 @@ export function Banner13({ section }: SectionProps) {
       {/* 3. Kinetic Marquee Background Text (Behind Glass) */}
       <div className="absolute top-1/2 -translate-y-1/2 left-0 w-[200vw] flex z-10 opacity-30 mix-blend-overlay pointer-events-none">
         <motion.div 
-          className="flex whitespace-nowrap text-[15vw] font-black tracking-tighter uppercase"
+          className="flex whitespace-nowrap text-[9vw] font-black tracking-tighter uppercase"
           animate={{ x: ["0%", "-50%"] }}
           transition={{ repeat: Infinity, ease: "linear", duration: 20 }}
         >
@@ -135,7 +135,7 @@ export function Banner13({ section }: SectionProps) {
           variants={glassVariants}
           initial="hidden"
           animate="visible"
-          className="w-full max-w-[1200px] rounded-3xl p-8 md:p-16 flex flex-col md:flex-row justify-between items-end border overflow-hidden shadow-[0_30px_60px_rgba(0,0,0,0.4)]"
+          className="w-full max-w-[1200px] rounded-3xl p-6 md:p-10 flex flex-col md:flex-row justify-between items-end border overflow-hidden shadow-[0_30px_60px_rgba(0,0,0,0.4)]"
           style={{
             background: 'linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.01) 100%)',
             borderColor: glassBorder,
@@ -214,7 +214,7 @@ export function Banner13({ section }: SectionProps) {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1.2, delay: 2.4, ease: "easeOut" }}
-            className="w-full md:w-auto mt-12 md:mt-0 flex flex-row md:flex-col gap-8 md:gap-12 z-10 justify-between md:justify-end border-t md:border-t-0 md:border-l border-white/20 pt-8 md:pt-0 md:pl-12"
+            className="w-full md:w-auto mt-12 md:mt-0 flex flex-row md:flex-col gap-8 md:gap-6 z-10 justify-between md:justify-end border-t md:border-t-0 md:border-l border-white/20 pt-8 md:pt-0 md:pl-12"
           >
             {settings?.stats?.map((stat: any, i: number) => (
               <div key={i} className="flex flex-col">

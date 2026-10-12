@@ -6,12 +6,12 @@ export function AboutHero5({ data, section }: { data?: any; section?: any }) {
   const [activeTab, setActiveTab] = useState('analytics');
 
   return (
-    <section className="w-full min-h-[700px] py-20 px-4 sm:px-6 lg:px-8 bg-[#0B0914] text-white overflow-hidden relative font-sans">
+    <section className="w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] py-8 sm:py-10 px-4 sm:px-6 lg:px-8 bg-[#0B0914] text-white overflow-hidden relative font-sans">
       {/* Background Ambient Glows */}
       <div className="absolute -top-40 -left-40 w-[35rem] h-[35rem] bg-indigo-600/20 rounded-full blur-[140px] pointer-events-none" />
       <div className="absolute -bottom-40 -right-40 w-[35rem] h-[35rem] bg-purple-600/20 rounded-full blur-[140px] pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto space-y-16 relative z-10">
+      <div className="max-w-7xl mx-auto space-y-6 sm:space-y-4 sm:space-y-5 relative z-10">
         {/* Top Header Pill */}
         <div className="flex justify-center">
           <motion.div

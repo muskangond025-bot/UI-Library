@@ -18,7 +18,7 @@ export function Banner5({ section }: SectionProps) {
 
   return (
     <section 
-      className="relative w-full min-h-[900px] flex items-center justify-center p-4 sm:p-6 md:p-8 selection:bg-black selection:text-white"
+      className="relative w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] flex items-center justify-center p-3 sm:p-5 selection:bg-black selection:text-white"
       style={{ backgroundColor: styles.backgroundColor || '#E5E3DB', color: styles.textColor || '#1A1A1A' }}
     >
       
@@ -68,7 +68,7 @@ export function Banner5({ section }: SectionProps) {
           </div>
 
           {/* Center: Main Cover Image */}
-          <div className="w-full md:w-1/2 lg:w-3/5 relative min-h-[500px] md:min-h-0 overflow-hidden group">
+          <div className="w-full md:w-1/2 lg:w-3/5 relative h-full min-h-[300px] overflow-hidden group">
             <motion.div 
               initial={{ scale: 1.05, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}

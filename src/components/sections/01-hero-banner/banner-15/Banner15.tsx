@@ -62,7 +62,7 @@ export function Banner15({ section }: SectionProps) {
   return (
     <section 
       ref={containerRef}
-      className="relative w-full min-h-[900px] h-screen overflow-hidden flex items-center justify-center selection:bg-[#2A2825] selection:text-[#F4F1EA]"
+      className="relative w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] overflow-hidden flex items-center justify-center selection:bg-[#2A2825] selection:text-[#F4F1EA]"
       style={{ backgroundColor: bg, color: textCol }}
     >
       
@@ -131,7 +131,7 @@ export function Banner15({ section }: SectionProps) {
         </div>
 
         {/* Right Column: Hero Image */}
-        <div className="w-full md:w-7/12 h-[60vh] md:h-full flex items-center justify-end relative z-10 mt-12 md:mt-0">
+        <div className="w-full md:w-7/12 h-full max-h-[460px] flex items-center justify-end relative z-10 mt-12 md:mt-0">
           
           <motion.div 
             style={{ y: yImage1 }}

@@ -89,7 +89,7 @@ export function Banner16({ section }: SectionProps) {
   return (
     <section 
       ref={containerRef}
-      className="relative w-full h-screen overflow-hidden selection:bg-[#FF3366] selection:text-white"
+      className="relative w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] overflow-hidden selection:bg-[#FF3366] selection:text-white"
       style={{ backgroundColor: bg, color: textCol }}
     >
       
@@ -177,10 +177,10 @@ export function Banner16({ section }: SectionProps) {
             animate="visible"
             className="text-center"
           >
-            <h1 className="text-[12vw] leading-[0.8] font-black uppercase tracking-tighter mix-blend-difference text-white">
+            <h1 className="text-[8vw] leading-[0.8] font-black uppercase tracking-tighter mix-blend-difference text-white">
               {settings?.title}
             </h1>
-            <h1 className="text-[12vw] leading-[0.8] font-black uppercase tracking-tighter mix-blend-difference text-white ml-[10vw] italic" style={{ WebkitTextStroke: '2px white', color: 'transparent' }}>
+            <h1 className="text-[8vw] leading-[0.8] font-black uppercase tracking-tighter mix-blend-difference text-white ml-[10vw] italic" style={{ WebkitTextStroke: '2px white', color: 'transparent' }}>
               {settings?.subtitle}
             </h1>
           </motion.div>

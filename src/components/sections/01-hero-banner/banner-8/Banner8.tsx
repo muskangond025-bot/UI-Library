@@ -46,7 +46,7 @@ export function Banner8({ section }: SectionProps) {
 
   return (
     <section 
-      className="relative w-full min-h-[950px] sm:min-h-screen overflow-hidden flex items-center selection:bg-black selection:text-white"
+      className="relative w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] overflow-hidden flex items-center selection:bg-black selection:text-white"
       style={{ backgroundColor: bg, color: textCol }}
       onMouseMove={handleMouseMove}
       onMouseEnter={handleMouseEnter}
@@ -147,7 +147,7 @@ export function Banner8({ section }: SectionProps) {
         </div>
 
         {/* Right Side: Layered Photographic Gallery */}
-        <div className="w-full lg:w-[55%] relative flex justify-center items-center min-h-[450px] lg:min-h-[700px] order-1 lg:order-2">
+        <div className="w-full lg:w-[55%] relative flex justify-center items-center h-full min-h-[340px] max-h-[500px] order-1 lg:order-2">
           
           {/* Layer 1: Background/Secondary Image 1 (Offset Top Left) */}
           {settings?.secondaryImages?.[0]?.src && (

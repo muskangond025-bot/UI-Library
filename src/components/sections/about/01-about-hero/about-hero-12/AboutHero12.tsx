@@ -5,8 +5,8 @@ import { Compass, Play, Pause, ArrowRight } from 'lucide-react';
 export function AboutHero12({ data, section }: { data?: any; section?: any }) {
   const [playing, setPlaying] = useState(false);
   return (
-    <section className="w-full min-h-[700px] py-20 px-4 sm:px-6 lg:px-8 bg-[#1C120C] text-orange-100 overflow-hidden relative font-sans">
-      <div className="max-w-7xl mx-auto space-y-14 relative z-10">
+    <section className="w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] py-8 sm:py-10 px-4 sm:px-6 lg:px-8 bg-[#1C120C] text-orange-100 overflow-hidden relative font-sans">
+      <div className="max-w-7xl mx-auto space-y-6 sm:space-y-4 sm:space-y-5 relative z-10">
         <div className="text-center space-y-6 max-w-4xl mx-auto">
           <span className="px-5 py-2 rounded-full bg-orange-950 border border-orange-500/40 text-orange-300 text-xs font-mono font-bold uppercase tracking-widest inline-flex items-center gap-2 shadow-lg">
             <Compass className="w-4 h-4 text-orange-400" /> ORGANIC FLUID WAVE #12

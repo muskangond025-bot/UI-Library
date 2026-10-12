@@ -4,8 +4,8 @@ import { Terminal, ShieldCheck, Cpu, ArrowRight } from 'lucide-react';
 
 export function AboutHero13({ data, section }: { data?: any; section?: any }) {
   return (
-    <section className="w-full min-h-[700px] py-20 px-4 sm:px-6 lg:px-8 bg-[#04120B] text-emerald-100 overflow-hidden relative font-mono">
-      <div className="max-w-7xl mx-auto space-y-10 relative z-10">
+    <section className="w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] py-8 sm:py-10 px-4 sm:px-6 lg:px-8 bg-[#04120B] text-emerald-100 overflow-hidden relative font-mono">
+      <div className="max-w-7xl mx-auto space-y-4 sm:space-y-6 relative z-10">
         <div className="p-4 rounded-2xl bg-emerald-950/60 border border-emerald-500/40 flex items-center justify-between shadow-xl">
           <span className="text-xs font-bold text-emerald-400 flex items-center gap-2">
             <Terminal className="w-4 h-4 animate-pulse" /> CYBER COMMAND CENTER ONLINE #13

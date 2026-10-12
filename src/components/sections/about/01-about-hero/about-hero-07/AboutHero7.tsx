@@ -7,12 +7,12 @@ export function AboutHero7({ data, section }: { data?: any; section?: any }) {
   const [submitted, setSubmitted] = useState(false);
 
   return (
-    <section className="w-full min-h-[700px] py-20 px-4 sm:px-6 lg:px-8 bg-black text-slate-200 overflow-hidden relative font-sans">
+    <section className="w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] py-8 sm:py-10 px-4 sm:px-6 lg:px-8 bg-black text-slate-200 overflow-hidden relative font-sans">
       <div className="absolute top-1/2 -left-32 w-[35rem] h-[35rem] bg-cyan-500/15 rounded-full blur-[160px] pointer-events-none" />
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
         
         {/* Left Hero Content & Email CTA */}
-        <div className="lg:col-span-7 space-y-8">
+        <div className="lg:col-span-7 space-y-4 sm:space-y-5">
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-950/80 border border-cyan-500/40 text-cyan-300 text-xs font-mono font-bold tracking-widest uppercase">
             <Droplets className="w-4 h-4 animate-bounce text-cyan-400" /> SPATIAL COMMERCE HERO #07
           </span>

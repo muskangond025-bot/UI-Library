@@ -22,7 +22,7 @@ export function Banner6({ section }: SectionProps) {
 
   return (
     <section 
-      className="relative w-full h-[900px] sm:h-screen min-h-[750px] overflow-hidden flex flex-col justify-between selection:bg-white selection:text-black"
+      className="relative w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] overflow-hidden flex flex-col justify-between selection:bg-white selection:text-black"
       style={{ backgroundColor: styles.backgroundColor || '#0A0A0A', color: styles.textColor || '#FFFFFF' }}
     >
       
@@ -89,7 +89,7 @@ export function Banner6({ section }: SectionProps) {
         </div>
 
         {/* Bottom Region: Headline & Description */}
-        <div className="w-full flex flex-col md:flex-row justify-between items-end gap-12 mt-auto pb-4 sm:pb-8">
+        <div className="w-full flex flex-col md:flex-row justify-between items-end gap-6 mt-auto pb-4 sm:pb-8">
           
           <motion.div 
             initial={{ opacity: 0, x: -40 }}
@@ -97,7 +97,7 @@ export function Banner6({ section }: SectionProps) {
             transition={{ duration: 1, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
             className="w-full md:w-3/5"
           >
-            <h1 className="text-[12vw] md:text-8xl lg:text-9xl font-serif uppercase tracking-tighter leading-[0.85] break-words hyphens-auto">
+            <h1 className="text-[8vw] md:text-8xl lg:text-9xl font-serif uppercase tracking-tighter leading-[0.85] break-words hyphens-auto">
               {settings.headline}
             </h1>
           </motion.div>

@@ -6,8 +6,8 @@ export function AboutHero6({ data, section }: { data?: any; section?: any }) {
   const [playing, setPlaying] = useState(false);
 
   return (
-    <section className="w-full min-h-[700px] py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white overflow-hidden relative font-sans">
-      <div className="max-w-7xl mx-auto space-y-8 relative z-10">
+    <section className="w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] py-8 sm:py-10 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white overflow-hidden relative font-sans">
+      <div className="max-w-7xl mx-auto space-y-4 sm:space-y-5 relative z-10">
         
         {/* 4-Card Multi-Tile Bento Hero Banner */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">

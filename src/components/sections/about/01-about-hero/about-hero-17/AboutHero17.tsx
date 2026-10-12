@@ -4,7 +4,7 @@ import { Grid, ArrowRight } from 'lucide-react';
 
 export function AboutHero17({ data, section }: { data?: any; section?: any }) {
   return (
-    <section className="w-full min-h-[700px] py-20 px-4 sm:px-6 lg:px-8 bg-zinc-950 text-zinc-100 overflow-hidden relative font-sans">
+    <section className="w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] py-8 sm:py-10 px-4 sm:px-6 lg:px-8 bg-zinc-950 text-zinc-100 overflow-hidden relative font-sans">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         <div className="lg:col-span-7 space-y-6">
           <span className="px-5 py-2 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-300 text-xs font-mono font-bold uppercase tracking-widest inline-flex items-center gap-2 shadow-md">

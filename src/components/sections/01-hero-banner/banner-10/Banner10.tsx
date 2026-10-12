@@ -72,11 +72,11 @@ export function Banner10({ section }: SectionProps) {
 
   return (
     <section 
-      className="relative w-full min-h-[900px] sm:min-h-screen overflow-hidden flex items-center selection:bg-black selection:text-white"
+      className="relative w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] overflow-hidden flex items-center selection:bg-black selection:text-white"
       style={{ backgroundColor: bg, color: textCol }}
     >
       
-      <div className="relative z-10 w-full h-full max-w-[1600px] mx-auto px-6 sm:px-12 lg:px-16 py-20 flex flex-col lg:flex-row items-center justify-between gap-16 lg:gap-8">
+      <div className="relative z-10 w-full h-full max-w-[1600px] mx-auto px-6 sm:px-12 lg:px-16 py-8 flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-6">
         
         {/* Left Side: Typography */}
         <div className="w-full lg:w-[40%] flex flex-col justify-center order-2 lg:order-1 pt-12 lg:pt-0">
@@ -99,7 +99,7 @@ export function Banner10({ section }: SectionProps) {
                   initial={{ y: "100%", opacity: 0, rotateZ: 2 }}
                   animate={{ y: 0, opacity: 1, rotateZ: 0 }}
                   transition={{ duration: 1.2, delay: 0.3 + (index * 0.15), ease: awwwardsEase }}
-                  className="text-5xl sm:text-6xl md:text-7xl lg:text-[4.5rem] xl:text-[5.5rem] font-serif leading-[0.9] tracking-tighter uppercase break-words hyphens-auto"
+                  className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif leading-[0.9] tracking-tighter uppercase break-words hyphens-auto"
                 >
                   {line}
                 </motion.h1>
@@ -111,7 +111,7 @@ export function Banner10({ section }: SectionProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.6, ease: awwwardsEase }}
-            className="mb-12 max-w-md"
+            className="mb-6 max-w-md"
           >
             <p className="text-[15px] font-light leading-relaxed opacity-90">
               {settings?.description}
@@ -162,7 +162,7 @@ export function Banner10({ section }: SectionProps) {
 
         {/* Right Side: 3D Interactive Object */}
         <div 
-          className="w-full lg:w-[55%] relative flex justify-center items-center min-h-[550px] lg:min-h-[750px] order-1 lg:order-2"
+          className="w-full lg:w-[55%] relative flex justify-center items-center h-full min-h-[340px] max-h-[500px] order-1 lg:order-2"
           style={{ perspective: '1200px' }}
         >
           {/* Card Container capturing pointers */}

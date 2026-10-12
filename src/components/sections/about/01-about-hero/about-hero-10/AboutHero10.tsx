@@ -4,8 +4,8 @@ import { Crown, ArrowRight, Award, ShieldCheck } from 'lucide-react';
 
 export function AboutHero10({ data, section }: { data?: any; section?: any }) {
   return (
-    <section className="w-full min-h-[700px] py-20 px-4 sm:px-6 lg:px-8 bg-neutral-950 text-amber-50 overflow-hidden relative font-serif">
-      <div className="max-w-6xl mx-auto p-10 sm:p-20 rounded-[3rem] bg-neutral-900 border-2 border-amber-600/40 shadow-[inset_0_2px_6px_rgba(255,215,0,0.2),0_30px_70px_rgba(0,0,0,0.95)] text-center space-y-10 relative">
+    <section className="w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] py-8 sm:py-10 px-4 sm:px-6 lg:px-8 bg-neutral-950 text-amber-50 overflow-hidden relative font-serif">
+      <div className="max-w-6xl mx-auto p-6 sm:p-10 rounded-[3rem] bg-neutral-900 border-2 border-amber-600/40 shadow-[inset_0_2px_6px_rgba(255,215,0,0.2),0_30px_70px_rgba(0,0,0,0.95)] text-center space-y-4 sm:space-y-6 relative">
         <div className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-amber-950 border border-amber-500/40 text-amber-300 text-xs font-mono font-bold uppercase tracking-widest shadow-md">
           <Crown className="w-4 h-4 text-amber-400" /> SKEUOMORPHIC LUXURY #10 • SINCE 1906
         </div>

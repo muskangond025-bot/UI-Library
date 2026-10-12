@@ -1,6 +1,19 @@
-import React from 'react';
-import { homeCategories, productCategories, cartCategories, checkoutCategories, orderCategories, accountCategories, offersCategories, blogCategories, aboutCategories, contactCategories, errorCategories, globalCategories } from './navigationData';
-import { ChevronDown } from 'lucide-react';
+import React, { useState, useRef, useEffect } from 'react';
+import { 
+  homeCategories, 
+  productCategories, 
+  cartCategories, 
+  checkoutCategories, 
+  orderCategories, 
+  accountCategories, 
+  offersCategories, 
+  blogCategories, 
+  aboutCategories, 
+  contactCategories, 
+  errorCategories, 
+  globalCategories 
+} from './navigationData';
+import { ChevronDown, ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface NavbarProps {
   activeCategory: string;
@@ -8,392 +21,214 @@ interface NavbarProps {
 }
 
 export function SectionLibraryNavbar({ activeCategory, onSelectCategory }: NavbarProps) {
-  const isHomeActive = activeCategory === 'home' || homeCategories.some(c => c.id === activeCategory);
-  const isProductActive = activeCategory === 'product' || productCategories.some(c => c.id === activeCategory);
-  const isCartActive = activeCategory === 'cart' || cartCategories.some(c => c.id === activeCategory);
-  const isCheckoutActive = activeCategory === 'checkout' || checkoutCategories.some(c => c.id === activeCategory);
-  const isOrderActive = activeCategory === 'order' || orderCategories.some(c => c.id === activeCategory);
-  const isAccountActive = activeCategory === 'account' || accountCategories.some(c => c.id === activeCategory);
-  const isOffersActive = activeCategory === 'offers' || offersCategories.some(c => c.id === activeCategory);
-  const isBlogActive = activeCategory === 'blog' || blogCategories.some(c => c.id === activeCategory);
-  const isAboutActive = activeCategory === 'about' || aboutCategories.some(c => c.id === activeCategory);
-  const isContactActive = activeCategory === 'contact' || contactCategories.some(c => c.id === activeCategory);
-  const isErrorActive = activeCategory === 'error' || activeCategory === 'error-empty' || errorCategories.some(c => c.id === activeCategory);
-  const isGlobalActive = activeCategory === 'global' || activeCategory === 'global-major' || globalCategories.some(c => c.id === activeCategory);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const [dropdownPos, setDropdownPos] = useState<{ left: number; top: number; width: number } | null>(null);
+  const navRef = useRef<HTMLDivElement>(null);
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const activeBtnRefs = useRef<Record<string, HTMLButtonElement | null>>({});
+
+  // Close dropdown on outside click or scroll
+  useEffect(() => {
+    const handleOutsideClick = (e: MouseEvent) => {
+      if (navRef.current && !navRef.current.contains(e.target as Node)) {
+        setOpenDropdown(null);
+      }
+    };
+    document.addEventListener('click', handleOutsideClick);
+    return () => document.removeEventListener('click', handleOutsideClick);
+  }, []);
+
+  const navSections = [
+    { key: 'home', label: 'HOME', categories: homeCategories },
+    { key: 'product', label: 'PRODUCT', categories: productCategories },
+    { key: 'cart', label: 'CART', categories: cartCategories },
+    { key: 'checkout', label: 'CHECKOUT', categories: checkoutCategories },
+    { key: 'order', label: 'ORDER', categories: orderCategories },
+    { key: 'account', label: 'ACCOUNT', categories: accountCategories },
+    { key: 'offers', label: 'OFFERS / DEALS', categories: offersCategories },
+    { key: 'blog', label: 'BLOG', categories: blogCategories },
+    { key: 'about', label: 'ABOUT', categories: aboutCategories },
+    { key: 'contact', label: 'CONTACT', categories: contactCategories },
+    { key: 'error', label: 'ERROR / EMPTY', categories: errorCategories },
+    { key: 'global', label: 'GLOBAL MAJOR', categories: globalCategories },
+  ];
 
   const handleSubcategoryClick = (id: string) => {
     onSelectCategory(id);
+    setOpenDropdown(null);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const isSectionActive = (section: (typeof navSections)[0]) => {
+    if (activeCategory === section.key) return true;
+    if (section.key === 'offers' && activeCategory === 'offers') return true;
+    if (section.key === 'error' && (activeCategory === 'error' || activeCategory === 'error-empty')) return true;
+    if (section.key === 'global' && (activeCategory === 'global' || activeCategory === 'global-major')) return true;
+    return section.categories.some(c => c.id === activeCategory);
+  };
+
+  const handleOpenMenu = (key: string) => {
+    const btn = activeBtnRefs.current[key];
+    if (btn) {
+      const rect = btn.getBoundingClientRect();
+      const dropdownWidth = 288; // w-72 = 18rem = 288px
+      let left = rect.left;
+      
+      // If overflows window on right, align to right of the button
+      if (left + dropdownWidth > window.innerWidth - 16) {
+        left = Math.max(16, rect.right - dropdownWidth);
+      }
+
+      setDropdownPos({
+        left,
+        top: rect.bottom + 4,
+        width: dropdownWidth
+      });
+      setOpenDropdown(key);
+    }
+  };
+
+  const handleScrollNav = (direction: 'left' | 'right') => {
+    if (scrollContainerRef.current) {
+      const amount = direction === 'left' ? -200 : 200;
+      scrollContainerRef.current.scrollBy({ left: amount, behavior: 'smooth' });
+    }
+  };
+
+  const currentSection = navSections.find(s => s.key === openDropdown);
+
   return (
-    <div className="sticky top-0 z-[9999] w-full bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-sm">
-      <div className="flex items-center px-6 lg:px-10 py-2.5 w-full max-w-[1850px] mx-auto gap-6">
+    <div ref={navRef} className="sticky top-0 z-[99999] w-full bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-sm">
+      <div className="flex items-center px-4 lg:px-8 py-1.5 w-full max-w-[1920px] mx-auto gap-3">
         {/* FIXED LOGO ON LEFT */}
-        <div className="shrink-0 flex items-center gap-2.5 cursor-pointer bg-white py-1 pr-4 border-r border-gray-200 z-[10001]" onClick={() => handleSubcategoryClick(homeCategories[0].id)}>
-          <div className="w-8 h-8 rounded-xl bg-black text-white font-black flex items-center justify-center text-xs tracking-tighter shadow-md">
+        <div 
+          className="shrink-0 flex items-center gap-2 cursor-pointer bg-white py-1 pr-3 border-r border-gray-200" 
+          onClick={() => handleSubcategoryClick(homeCategories[0].id)}
+        >
+          <div className="w-7 h-7 rounded-lg bg-black text-white font-black flex items-center justify-center text-[11px] tracking-tighter shadow-sm">
             UI
           </div>
-          <h1 className="text-base font-extrabold tracking-tight text-gray-900 uppercase whitespace-nowrap">
+          <h1 className="text-sm font-extrabold tracking-tight text-gray-900 uppercase whitespace-nowrap">
             UI LIBRARY
           </h1>
         </div>
         
-        {/* SINGLE LINE FLEX NAV WITH VISIBLE HOVER DROPDOWNS */}
-        <nav className="flex items-center gap-4 lg:gap-6 flex-wrap py-1 flex-1 justify-start z-[10000]">
-            {/* HOME Dropdown */}
-            <div className="group relative h-full flex items-center">
-              <button 
-                onClick={() => {
-                  handleSubcategoryClick(homeCategories[0].id);
-                }}
-                className={`flex items-center gap-1 relative py-2 text-xs font-bold uppercase tracking-wider transition-all whitespace-nowrap ${
-                  isHomeActive
-                    ? 'text-black border-b-2 border-black font-extrabold'
-                    : 'text-gray-500 hover:text-black border-b-2 border-transparent'
-                }`}
-              >
-                HOME
-                <ChevronDown size={14} className="opacity-50" />
-              </button>
-              
-              <div className="absolute top-full left-0 w-64 bg-white border border-gray-200 shadow-2xl rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 flex flex-col py-2 max-h-[70vh] overflow-y-auto z-[20000] mt-1">
-                {homeCategories.map((cat) => (
-                  <button
-                    key={cat.id}
-                    onClick={() => handleSubcategoryClick(cat.id)}
-                    className="text-left px-4 py-2 text-xs font-medium text-gray-600 hover:text-black hover:bg-gray-50 uppercase tracking-wider transition-colors"
-                  >
-                    {cat.label}
-                  </button>
-                ))}
-              </div>
-            </div>
+        {/* HORIZONTALLY SCROLLABLE NAVIGATION ROW */}
+        <div className="relative flex items-center flex-1 min-w-0">
+          <div 
+            ref={scrollContainerRef}
+            className="flex items-center gap-1.5 sm:gap-2.5 lg:gap-3.5 flex-nowrap py-1 overflow-x-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden w-full scroll-smooth"
+            onScroll={() => {
+              if (openDropdown) {
+                // Update dropdown position on horizontal scroll
+                const btn = activeBtnRefs.current[openDropdown];
+                if (btn) {
+                  const rect = btn.getBoundingClientRect();
+                  let left = rect.left;
+                  if (left + 288 > window.innerWidth - 16) {
+                    left = Math.max(16, rect.right - 288);
+                  }
+                  setDropdownPos({ left, top: rect.bottom + 4, width: 288 });
+                }
+              }
+            }}
+          >
+            {navSections.map((sec) => {
+              const active = isSectionActive(sec);
+              const isOpen = openDropdown === sec.key;
 
-            {/* PRODUCT Dropdown */}
-            <div className="group relative h-full flex items-center">
-              <button 
-                onClick={() => {
-                  handleSubcategoryClick(productCategories[0].id);
-                }}
-                className={`flex items-center gap-1 relative py-2 text-xs font-bold uppercase tracking-wider transition-all whitespace-nowrap ${
-                  isProductActive
-                    ? 'text-black border-b-2 border-black font-extrabold'
-                    : 'text-gray-500 hover:text-black border-b-2 border-transparent'
-                }`}
-              >
-                PRODUCT
-                <ChevronDown size={14} className="opacity-50" />
-              </button>
-              
-              <div className="absolute top-full left-0 w-64 bg-white border border-gray-200 shadow-2xl rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 flex flex-col py-2 max-h-[70vh] overflow-y-auto z-[20000] mt-1">
-                {productCategories.map((cat) => (
-                  <button
-                    key={cat.id}
-                    onClick={() => handleSubcategoryClick(cat.id)}
-                    className="text-left px-4 py-2 text-xs font-medium text-gray-600 hover:text-black hover:bg-gray-50 uppercase tracking-wider transition-colors"
+              return (
+                <div 
+                  key={sec.key} 
+                  className="relative flex items-center shrink-0"
+                  onMouseEnter={() => handleOpenMenu(sec.key)}
+                  onMouseLeave={() => setOpenDropdown(null)}
+                >
+                  <button 
+                    ref={(el) => { activeBtnRefs.current[sec.key] = el; }}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      if (isOpen) {
+                        setOpenDropdown(null);
+                      } else {
+                        handleOpenMenu(sec.key);
+                      }
+                    }}
+                    className={`flex items-center gap-1 relative py-1.5 px-1 text-[11px] xl:text-xs font-bold uppercase tracking-wider transition-all whitespace-nowrap ${
+                      active
+                        ? 'text-black font-extrabold border-b-2 border-black'
+                        : 'text-gray-500 hover:text-black border-b-2 border-transparent'
+                    }`}
                   >
-                    {cat.label}
+                    {sec.label}
+                    <ChevronDown size={12} className={`transition-transform duration-200 opacity-60 ${isOpen ? 'rotate-180 text-black' : ''}`} />
                   </button>
-                ))}
-              </div>
-            </div>
+                </div>
+              );
+            })}
+          </div>
 
-            {/* CART Dropdown */}
-            <div className="group relative h-full flex items-center">
-              <button 
-                onClick={() => {
-                  handleSubcategoryClick(cartCategories[0].id);
-                }}
-                className={`flex items-center gap-1 relative py-2 text-xs font-bold uppercase tracking-wider transition-all whitespace-nowrap ${
-                  isCartActive
-                    ? 'text-black border-b-2 border-black font-extrabold'
-                    : 'text-gray-500 hover:text-black border-b-2 border-transparent'
-                }`}
-              >
-                CART
-                <ChevronDown size={14} className="opacity-50" />
-              </button>
-              
-              <div className="absolute top-full left-0 w-64 bg-white border border-gray-200 shadow-2xl rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 flex flex-col py-2 max-h-[70vh] overflow-y-auto z-[20000] mt-1">
-                {cartCategories.map((cat) => (
-                  <button
-                    key={cat.id}
-                    onClick={() => handleSubcategoryClick(cat.id)}
-                    className="text-left px-4 py-2 text-xs font-medium text-gray-600 hover:text-black hover:bg-gray-50 uppercase tracking-wider transition-colors"
-                  >
-                    {cat.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* CHECKOUT Dropdown */}
-            <div className="group relative h-full flex items-center">
-              <button 
-                onClick={() => {
-                  handleSubcategoryClick(checkoutCategories[0].id);
-                }}
-                className={`flex items-center gap-1 relative py-2 text-xs font-bold uppercase tracking-wider transition-all whitespace-nowrap ${
-                  isCheckoutActive
-                    ? 'text-black border-b-2 border-black font-extrabold'
-                    : 'text-gray-500 hover:text-black border-b-2 border-transparent'
-                }`}
-              >
-                CHECKOUT
-                <ChevronDown size={14} className="opacity-50" />
-              </button>
-              
-              <div className="absolute top-full left-0 w-64 bg-white border border-gray-200 shadow-2xl rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 flex flex-col py-2 max-h-[70vh] overflow-y-auto z-[20000] mt-1">
-                {checkoutCategories.map((cat) => (
-                  <button
-                    key={cat.id}
-                    onClick={() => handleSubcategoryClick(cat.id)}
-                    className="text-left px-4 py-2 text-xs font-medium text-gray-600 hover:text-black hover:bg-gray-50 uppercase tracking-wider transition-colors"
-                  >
-                    {cat.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* ORDER Dropdown */}
-            <div className="group relative h-full flex items-center">
-              <button 
-                onClick={() => {
-                  handleSubcategoryClick(orderCategories[0].id);
-                }}
-                className={`flex items-center gap-1 relative py-2 text-xs font-bold uppercase tracking-wider transition-all whitespace-nowrap ${
-                  isOrderActive
-                    ? 'text-black border-b-2 border-black font-extrabold'
-                    : 'text-gray-500 hover:text-black border-b-2 border-transparent'
-                }`}
-              >
-                ORDER
-                <ChevronDown size={14} className="opacity-50" />
-              </button>
-              
-              <div className="absolute top-full left-0 w-64 bg-white border border-gray-200 shadow-2xl rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 flex flex-col py-2 max-h-[70vh] overflow-y-auto z-[20000] mt-1">
-                {orderCategories.map((cat) => (
-                  <button
-                    key={cat.id}
-                    onClick={() => handleSubcategoryClick(cat.id)}
-                    className="text-left px-4 py-2 text-xs font-medium text-gray-600 hover:text-black hover:bg-gray-50 uppercase tracking-wider transition-colors"
-                  >
-                    {cat.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* ACCOUNT Dropdown */}
-            <div className="group relative h-full flex items-center">
-              <button 
-                onClick={() => {
-                  handleSubcategoryClick(accountCategories[0].id);
-                }}
-                className={`flex items-center gap-1 relative py-2 text-xs font-bold uppercase tracking-wider transition-all whitespace-nowrap ${
-                  isAccountActive
-                    ? 'text-black border-b-2 border-black font-extrabold'
-                    : 'text-gray-500 hover:text-black border-b-2 border-transparent'
-                }`}
-              >
-                ACCOUNT
-                <ChevronDown size={14} className="opacity-50" />
-              </button>
-              
-              <div className="absolute top-full left-0 w-64 bg-white border border-gray-200 shadow-2xl rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 flex flex-col py-2 max-h-[70vh] overflow-y-auto z-[20000] mt-1">
-                {accountCategories.map((cat) => (
-                  <button
-                    key={cat.id}
-                    onClick={() => handleSubcategoryClick(cat.id)}
-                    className="text-left px-4 py-2 text-xs font-medium text-gray-600 hover:text-black hover:bg-gray-50 uppercase tracking-wider transition-colors"
-                  >
-                    {cat.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* OFFERS / DEALS Dropdown */}
-            <div className="group relative h-full flex items-center">
-              <button 
-                onClick={() => {
-                  handleSubcategoryClick(offersCategories[0].id);
-                }}
-                className={`flex items-center gap-1 relative py-2 text-xs font-bold uppercase tracking-wider transition-all whitespace-nowrap ${
-                  isOffersActive
-                    ? 'text-black border-b-2 border-black font-extrabold'
-                    : 'text-gray-500 hover:text-black border-b-2 border-transparent'
-                }`}
-              >
-                OFFERS / DEALS
-                <ChevronDown size={14} className="opacity-50" />
-              </button>
-              
-              <div className="absolute top-full left-0 w-64 bg-white border border-gray-200 shadow-2xl rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 flex flex-col py-2 max-h-[70vh] overflow-y-auto z-[20000] mt-1">
-                {offersCategories.map((cat) => (
-                  <button
-                    key={cat.id}
-                    onClick={() => handleSubcategoryClick(cat.id)}
-                    className="text-left px-4 py-2 text-xs font-medium text-gray-600 hover:text-black hover:bg-gray-50 uppercase tracking-wider transition-colors"
-                  >
-                    {cat.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* BLOG Dropdown */}
-            <div className="group relative h-full flex items-center">
-              <button 
-                onClick={() => {
-                  handleSubcategoryClick(blogCategories[0].id);
-                }}
-                className={`flex items-center gap-1 relative py-2 text-xs font-bold uppercase tracking-wider transition-all whitespace-nowrap ${
-                  isBlogActive
-                    ? 'text-black border-b-2 border-black font-extrabold'
-                    : 'text-gray-500 hover:text-black border-b-2 border-transparent'
-                }`}
-              >
-                BLOG
-                <ChevronDown size={14} className="opacity-50" />
-              </button>
-              
-              <div className="absolute top-full left-0 w-64 bg-white border border-gray-200 shadow-2xl rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 flex flex-col py-2 max-h-[70vh] overflow-y-auto z-[20000] mt-1">
-                {blogCategories.map((cat) => (
-                  <button
-                    key={cat.id}
-                    onClick={() => handleSubcategoryClick(cat.id)}
-                    className="text-left px-4 py-2 text-xs font-medium text-gray-600 hover:text-black hover:bg-gray-50 uppercase tracking-wider transition-colors"
-                  >
-                    {cat.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* ABOUT Dropdown */}
-            <div className="group relative h-full flex items-center">
-              <button 
-                onClick={() => {
-                  handleSubcategoryClick(aboutCategories[0].id);
-                }}
-                className={`flex items-center gap-1 relative py-2 text-xs font-bold uppercase tracking-wider transition-all whitespace-nowrap ${
-                  isAboutActive
-                    ? 'text-black border-b-2 border-black font-extrabold'
-                    : 'text-gray-500 hover:text-black border-b-2 border-transparent'
-                }`}
-              >
-                ABOUT
-                <ChevronDown size={14} className="opacity-50" />
-              </button>
-              
-              <div className="absolute top-full left-0 w-64 bg-white border border-gray-200 shadow-2xl rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 flex flex-col py-2 max-h-[70vh] overflow-y-auto z-[20000] mt-1">
-                {aboutCategories.map((cat) => (
-                  <button
-                    key={cat.id}
-                    onClick={() => handleSubcategoryClick(cat.id)}
-                    className="text-left px-4 py-2 text-xs font-medium text-gray-600 hover:text-black hover:bg-gray-50 uppercase tracking-wider transition-colors"
-                  >
-                    {cat.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* CONTACT Dropdown */}
-            <div className="group relative h-full flex items-center">
-              <button 
-                onClick={() => {
-                  handleSubcategoryClick(contactCategories[0].id);
-                }}
-                className={`flex items-center gap-1 relative py-2 text-xs font-bold uppercase tracking-wider transition-all whitespace-nowrap ${
-                  isContactActive
-                    ? 'text-black border-b-2 border-black font-extrabold'
-                    : 'text-gray-500 hover:text-black border-b-2 border-transparent'
-                }`}
-              >
-                CONTACT
-                <ChevronDown size={14} className="opacity-50" />
-              </button>
-              
-              <div className="absolute top-full left-0 w-64 bg-white border border-gray-200 shadow-2xl rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 flex flex-col py-2 max-h-[70vh] overflow-y-auto z-[20000] mt-1">
-                {contactCategories.map((cat) => (
-                  <button
-                    key={cat.id}
-                    onClick={() => handleSubcategoryClick(cat.id)}
-                    className="text-left px-4 py-2 text-xs font-medium text-gray-600 hover:text-black hover:bg-gray-50 uppercase tracking-wider transition-colors"
-                  >
-                    {cat.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-          
-            {/* ERROR / EMPTY Dropdown */}
-            <div className="group relative h-full flex items-center">
-              <button 
-                onClick={() => {
-                  handleSubcategoryClick(errorCategories[0].id);
-                }}
-                className={`flex items-center gap-1 relative py-2 text-xs font-bold uppercase tracking-wider transition-all whitespace-nowrap ${
-                  isErrorActive
-                    ? 'text-black border-b-2 border-black font-extrabold'
-                    : 'text-gray-500 hover:text-black border-b-2 border-transparent'
-                }`}
-              >
-                ERROR / EMPTY
-                <ChevronDown size={14} className="opacity-50" />
-              </button>
-              
-              <div className="absolute top-full left-0 w-64 bg-white border border-gray-200 shadow-2xl rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 flex flex-col py-2 max-h-[70vh] overflow-y-auto z-[20000] mt-1">
-                {errorCategories.map((cat) => (
-                  <button
-                    key={cat.id}
-                    onClick={() => handleSubcategoryClick(cat.id)}
-                    className="text-left px-4 py-2 text-xs font-medium text-gray-600 hover:text-black hover:bg-gray-50 uppercase tracking-wider transition-colors"
-                  >
-                    {cat.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-          
-            {/* GLOBAL MAJOR Dropdown */}
-            <div className="group relative h-full flex items-center">
-              <button 
-                onClick={() => {
-                  handleSubcategoryClick(globalCategories[0].id);
-                }}
-                className={`flex items-center gap-1 relative py-2 text-xs font-bold uppercase tracking-wider transition-all whitespace-nowrap ${
-                  isGlobalActive
-                    ? 'text-black border-b-2 border-black font-extrabold'
-                    : 'text-gray-500 hover:text-black border-b-2 border-transparent'
-                }`}
-              >
-                GLOBAL MAJOR
-                <ChevronDown size={14} className="opacity-50" />
-              </button>
-              
-              <div className="absolute top-full left-0 w-64 bg-white border border-gray-200 shadow-2xl rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 flex flex-col py-2 max-h-[70vh] overflow-y-auto z-[20000] mt-1">
-                {globalCategories.map((cat) => (
-                  <button
-                    key={cat.id}
-                    onClick={() => handleSubcategoryClick(cat.id)}
-                    className="text-left px-4 py-2 text-xs font-medium text-gray-600 hover:text-black hover:bg-gray-50 uppercase tracking-wider transition-colors"
-                  >
-                    {cat.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-          </nav>
+          {/* Optional sleek scroll indicators for narrow laptop screens */}
+          <button 
+            onClick={() => handleScrollNav('left')}
+            className="hidden xl:flex p-1 text-gray-400 hover:text-black shrink-0 transition-opacity"
+            aria-label="Scroll left"
+          >
+            <ChevronLeft size={14} />
+          </button>
+          <button 
+            onClick={() => handleScrollNav('right')}
+            className="hidden xl:flex p-1 text-gray-400 hover:text-black shrink-0 transition-opacity"
+            aria-label="Scroll right"
+          >
+            <ChevronRight size={14} />
+          </button>
+        </div>
       </div>
+
+      {/* PORTAL-LIKE FIXED DROPDOWN MENU (NEVER CLIPPED BY SCROLL CONTAINER) */}
+      {openDropdown && currentSection && dropdownPos && (
+        <div 
+          className="fixed bg-white border border-gray-200 shadow-2xl rounded-xl py-2 max-h-[70vh] overflow-y-auto z-[999999]"
+          style={{ 
+            left: `${dropdownPos.left}px`, 
+            top: `${dropdownPos.top}px`, 
+            width: `${dropdownPos.width}px`,
+            filter: 'drop-shadow(0 20px 25px rgba(0, 0, 0, 0.15))' 
+          }}
+          onMouseEnter={() => setOpenDropdown(openDropdown)}
+          onMouseLeave={() => setOpenDropdown(null)}
+        >
+          <div className="px-3 pb-1.5 mb-1 border-b border-gray-100 flex items-center justify-between">
+            <span className="text-[10px] font-mono tracking-widest text-gray-400 uppercase font-bold">
+              {currentSection.label} SECTIONS
+            </span>
+            <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-gray-100 text-gray-500 font-semibold">
+              {currentSection.categories.length}
+            </span>
+          </div>
+
+          {currentSection.categories.map((cat, idx) => {
+            const isCurrent = cat.id === activeCategory;
+            return (
+              <button
+                key={cat.id}
+                onClick={() => handleSubcategoryClick(cat.id)}
+                className={`w-full text-left px-3.5 py-1.5 text-xs font-medium uppercase tracking-wider transition-colors flex items-center justify-between group/item ${
+                  isCurrent
+                    ? 'bg-black text-white font-bold'
+                    : 'text-gray-600 hover:text-black hover:bg-gray-100'
+                }`}
+              >
+                <span className="truncate">{cat.label}</span>
+                <span className={`text-[10px] font-mono opacity-50 ml-2 group-hover/item:opacity-100 ${isCurrent ? 'text-white' : 'text-gray-400'}`}>
+                  {(idx + 1).toString().padStart(2, '0')}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }
-

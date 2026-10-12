@@ -72,7 +72,7 @@ export function Banner14({ section }: SectionProps) {
   return (
     <section 
       ref={containerRef}
-      className="relative w-full min-h-screen overflow-hidden cursor-none selection:bg-black selection:text-white"
+      className="relative w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] overflow-hidden cursor-none selection:bg-black selection:text-white"
       style={{ backgroundColor: bg, color: textCol }}
     >
       
@@ -112,7 +112,7 @@ export function Banner14({ section }: SectionProps) {
         <div className="relative flex-1 w-full flex items-center justify-center pointer-events-none">
           
           {/* Parallax Images (Above Text) */}
-          <div className="absolute inset-0 w-full h-full flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-24 z-20">
+          <div className="absolute inset-0 w-full h-full flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-10 z-20">
             {settings?.images?.[0] && (
               <motion.div 
                 custom={0}
@@ -156,7 +156,7 @@ export function Banner14({ section }: SectionProps) {
                   variants={revealVariants}
                   initial="hidden"
                   animate="visible"
-                  className="text-[18vw] lg:text-[12vw] font-black uppercase tracking-tighter whitespace-nowrap"
+                  className="text-[11vw] lg:text-[8vw] font-black uppercase tracking-tighter whitespace-nowrap"
                 >
                   {line}
                 </motion.h1>

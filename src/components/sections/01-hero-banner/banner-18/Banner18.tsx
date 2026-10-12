@@ -71,7 +71,7 @@ export function Banner18({ section }: SectionProps) {
           initial={{ y: "100%", opacity: 0 }}
           animate={{ y: "0%", opacity: 1 }}
           transition={{ duration: 1, delay: 0.2 * idx, ease: [0.76, 0, 0.24, 1] as any }}
-          className={`text-[12vw] md:text-[9vw] font-black leading-[0.85] tracking-tighter uppercase ${
+          className={`text-[8vw] md:text-[9vw] font-black leading-[0.85] tracking-tighter uppercase ${
             isOutline 
               ? 'text-transparent' 
               : 'text-white'
@@ -89,7 +89,7 @@ export function Banner18({ section }: SectionProps) {
   return (
     <section 
       ref={containerRef}
-      className="relative w-full h-screen min-h-[800px] overflow-hidden cursor-crosshair selection:bg-black selection:text-white"
+      className="relative w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] overflow-hidden cursor-crosshair selection:bg-black selection:text-white"
       style={{ backgroundColor: bg }}
     >
       
@@ -99,7 +99,7 @@ export function Banner18({ section }: SectionProps) {
         {/* Top Nav/Metadata */}
         <div className="w-full flex justify-between px-8 py-8 text-xs font-mono tracking-widest uppercase" style={{ color: textCol }}>
           <span>{settings?.metadata?.[0]}</span>
-          <div className="flex gap-12">
+          <div className="flex gap-6">
             <span>{settings?.metadata?.[1]}</span>
             <span>{settings?.metadata?.[2]}</span>
           </div>
@@ -138,7 +138,7 @@ export function Banner18({ section }: SectionProps) {
         {/* Top Nav/Metadata (Inverted color) */}
         <div className="absolute top-0 left-0 w-full flex justify-between px-8 py-8 text-xs font-mono tracking-widest uppercase text-white">
           <span>{settings?.metadata?.[0]}</span>
-          <div className="flex gap-12">
+          <div className="flex gap-6">
             <span>{settings?.metadata?.[1]}</span>
             <span>{settings?.metadata?.[2]}</span>
           </div>

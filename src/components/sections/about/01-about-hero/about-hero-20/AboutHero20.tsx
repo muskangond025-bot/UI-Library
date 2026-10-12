@@ -4,8 +4,8 @@ import { Sparkles, ArrowRight } from 'lucide-react';
 
 export function AboutHero20({ data, section }: { data?: any; section?: any }) {
   return (
-    <section className="w-full min-h-[700px] py-20 px-4 sm:px-6 lg:px-8 bg-[#061C14] text-emerald-50 overflow-hidden relative font-sans">
-      <div className="max-w-7xl mx-auto p-12 sm:p-16 rounded-[3.5rem] bg-emerald-900/40 border-2 border-emerald-400/40 shadow-[0_30px_70px_rgba(0,0,0,0.8)] backdrop-blur-2xl text-center space-y-10">
+    <section className="w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] py-8 sm:py-10 px-4 sm:px-6 lg:px-8 bg-[#061C14] text-emerald-50 overflow-hidden relative font-sans">
+      <div className="max-w-7xl mx-auto p-6 sm:p-10 rounded-[3.5rem] bg-emerald-900/40 border-2 border-emerald-400/40 shadow-[0_30px_70px_rgba(0,0,0,0.8)] backdrop-blur-2xl text-center space-y-4 sm:space-y-6">
         <span className="px-6 py-2.5 rounded-full bg-emerald-950 border border-emerald-400/40 text-emerald-300 text-xs font-mono font-bold uppercase tracking-widest inline-flex items-center gap-2 shadow-md">
           <Sparkles className="w-4 h-4 text-emerald-300 animate-spin" style={{ animationDuration: '6s' }} /> 3D STACKED GLASS #20
         </span>

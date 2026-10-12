@@ -5,8 +5,8 @@ import { Snowflake, ArrowRight, Thermometer, ShieldCheck } from 'lucide-react';
 export function AboutHero11({ data, section }: { data?: any; section?: any }) {
   const [temp, setTemp] = useState(-18);
   return (
-    <section className="w-full min-h-[700px] py-20 px-4 sm:px-6 lg:px-8 bg-[#07131E] text-sky-100 overflow-hidden relative font-sans">
-      <div className="max-w-7xl mx-auto space-y-12 relative z-10">
+    <section className="w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] py-8 sm:py-10 px-4 sm:px-6 lg:px-8 bg-[#07131E] text-sky-100 overflow-hidden relative font-sans">
+      <div className="max-w-7xl mx-auto space-y-5 sm:space-y-6 relative z-10">
         <div className="flex justify-between items-center flex-wrap gap-4 border-b border-sky-800/40 pb-6">
           <span className="px-4 py-1.5 rounded-full bg-sky-900/60 border border-sky-400/40 text-sky-300 text-xs font-mono font-bold uppercase tracking-widest flex items-center gap-2">
             <Snowflake className="w-4 h-4 animate-spin text-sky-400" style={{ animationDuration: '8s' }} /> SUB-ZERO ICE FROST #11

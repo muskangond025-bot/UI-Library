@@ -79,7 +79,7 @@ export function Banner17({ section }: SectionProps) {
   return (
     <section 
       ref={containerRef}
-      className="relative w-full h-screen min-h-[900px] overflow-hidden selection:bg-black selection:text-white"
+      className="relative w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] overflow-hidden selection:bg-black selection:text-white"
       style={{ backgroundColor: bg, color: textCol }}
     >
       
@@ -87,14 +87,14 @@ export function Banner17({ section }: SectionProps) {
       {/* 1. Infinite Slanted Kinetic Marquee (Background) */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[200vw] rotate-[-15deg] opacity-[0.03] pointer-events-none flex flex-col gap-4 z-0">
         <motion.div 
-          className="whitespace-nowrap text-[15vw] font-black uppercase tracking-tighter"
+          className="whitespace-nowrap text-[9vw] font-black uppercase tracking-tighter"
           animate={{ x: ["0%", "-50%"] }}
           transition={{ repeat: Infinity, ease: "linear", duration: 30 }}
         >
           {settings?.marquee?.repeat(5) || "FASHION • COUTURE • DIGITAL • "}
         </motion.div>
         <motion.div 
-          className="whitespace-nowrap text-[15vw] font-black uppercase tracking-tighter"
+          className="whitespace-nowrap text-[9vw] font-black uppercase tracking-tighter"
           animate={{ x: ["-50%", "0%"] }}
           transition={{ repeat: Infinity, ease: "linear", duration: 40 }}
         >
@@ -152,7 +152,7 @@ export function Banner17({ section }: SectionProps) {
           <div className="overflow-hidden mix-blend-exclusion text-white">
             <motion.h1 
               custom={1} variants={textVariant} initial="hidden" animate="visible"
-              className="text-[15vw] md:text-[10vw] font-black leading-[0.8] tracking-tighter uppercase"
+              className="text-[9vw] md:text-[7vw] font-black leading-[0.8] tracking-tighter uppercase"
             >
               {settings?.titleLine1}
             </motion.h1>
@@ -161,7 +161,7 @@ export function Banner17({ section }: SectionProps) {
           <div className="overflow-hidden mix-blend-exclusion text-white">
             <motion.h1 
               custom={1.2} variants={textVariant} initial="hidden" animate="visible"
-              className="text-[15vw] md:text-[10vw] font-black leading-[0.8] tracking-tighter uppercase italic ml-12 md:ml-32"
+              className="text-[9vw] md:text-[7vw] font-black leading-[0.8] tracking-tighter uppercase italic ml-12 md:ml-32"
             >
               {settings?.titleLine2}
             </motion.h1>

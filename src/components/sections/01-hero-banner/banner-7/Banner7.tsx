@@ -26,7 +26,7 @@ export function Banner7({ section }: SectionProps) {
   
   return (
     <section 
-      className="relative w-full min-h-screen overflow-hidden flex items-center justify-center pt-24 pb-16 px-6 sm:px-12 lg:px-20 selection:bg-black selection:text-white"
+      className="relative w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] overflow-hidden flex items-center justify-center py-10 px-6 sm:px-12 lg:px-16 selection:bg-black selection:text-white"
       style={{ backgroundColor: bg, color: textCol }}
     >
       
@@ -84,7 +84,7 @@ export function Banner7({ section }: SectionProps) {
                     initial={{ y: "100%", opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 1, delay: 0.8 + (index * 0.15), ease: [0.16, 1, 0.3, 1] }}
-                    className="text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] xl:text-[6.5rem] font-serif leading-[0.9] tracking-tighter"
+                    className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif leading-[0.9] tracking-tighter"
                   >
                     {line}
                   </motion.h1>
@@ -97,7 +97,7 @@ export function Banner7({ section }: SectionProps) {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 1.2, ease: [0.16, 1, 0.3, 1] }}
-              className="mb-12 sm:mb-14 max-w-[280px] sm:max-w-sm"
+              className="mb-6 sm:mb-8 max-w-[280px] sm:max-w-sm"
             >
               <p className="text-xs sm:text-sm font-light leading-relaxed" style={{ color: mutedCol }}>
                 {settings?.description}
@@ -129,7 +129,7 @@ export function Banner7({ section }: SectionProps) {
         </div>
 
         {/* Right Side: Orbital Image Composition */}
-        <div className="w-full lg:w-1/2 flex items-center justify-center lg:justify-end relative min-h-[400px] sm:min-h-[500px]">
+        <div className="w-full lg:w-1/2 flex items-center justify-center lg:justify-end relative h-full min-h-[320px] max-h-[480px]">
           
           {/* Phase 2: Orbit Reveal */}
           <motion.div 

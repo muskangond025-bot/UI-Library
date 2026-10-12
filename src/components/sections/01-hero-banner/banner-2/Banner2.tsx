@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
-
 export interface SectionProps {
   section: {
     id: string;
@@ -18,24 +17,21 @@ export function Banner2({ section }: SectionProps) {
   const [hovered, setHovered] = useState<'left' | 'right' | null>(null);
 
   const getWidth = (side: 'left' | 'right') => {
-    // If we're on mobile, layout is usually stacked, but we will force side-by-side flex or stacked.
-    // For this premium banner, let's keep it side-by-side but with a smaller minimum width.
     if (!hovered) return '50%';
-    if (hovered === side) return '65%';
-    return '35%';
+    if (hovered === side) return '62%';
+    return '38%';
   };
 
   return (
-    <section className="relative w-full h-[800px] sm:h-screen min-h-[700px] flex overflow-hidden bg-black text-white selection:bg-white selection:text-black">
-      
+    <section className="relative w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] flex overflow-hidden bg-black text-white selection:bg-white selection:text-black">
       
       {/* Central Title (Absolute overlay spanning both) */}
-      <div className="absolute inset-0 z-20 pointer-events-none flex flex-col justify-center items-center mix-blend-difference">
+      <div className="absolute inset-0 z-20 pointer-events-none flex flex-col justify-center items-center mix-blend-difference px-4">
         <motion.h1 
-          initial={{ opacity: 0, scale: 0.9, y: 20 }}
+          initial={{ opacity: 0, scale: 0.92, y: 15 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 1.2, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-          className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-serif italic tracking-tighter uppercase text-center whitespace-nowrap text-white"
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif italic tracking-tighter uppercase text-center whitespace-nowrap text-white select-none"
         >
           {settings.title}
         </motion.h1>
@@ -43,8 +39,8 @@ export function Banner2({ section }: SectionProps) {
           <motion.p 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 0.8 }}
-            className="mt-6 text-[10px] sm:text-sm md:text-base font-mono uppercase tracking-[0.3em] font-medium text-white/90"
+            transition={{ duration: 1, delay: 0.7 }}
+            className="mt-3 sm:mt-4 text-[9px] sm:text-xs md:text-sm font-mono uppercase tracking-[0.25em] font-medium text-white/90 select-none text-center"
           >
             {settings.description}
           </motion.p>
@@ -59,33 +55,36 @@ export function Banner2({ section }: SectionProps) {
         initial={{ x: '-100%' }}
         animate={{ x: 0, width: getWidth('left') }}
         transition={{ 
-          x: { duration: 1.2, ease: [0.16, 1, 0.3, 1] },
-          width: { duration: 0.8, ease: [0.16, 1, 0.3, 1] }
+          x: { duration: 1, ease: [0.16, 1, 0.3, 1] },
+          width: { duration: 0.6, ease: [0.16, 1, 0.3, 1] }
         }}
         className="relative h-full overflow-hidden block group cursor-pointer"
       >
         <motion.div 
           animate={{ scale: hovered === 'left' ? 1.05 : 1 }}
-          transition={{ duration: 1.2, ease: "easeOut" }}
+          transition={{ duration: 1, ease: "easeOut" }}
           className="absolute inset-0 w-full h-full"
         >
           <img 
             src={settings.splitA?.image} 
             alt={settings.splitA?.label} 
-            className="w-full h-full object-cover filter grayscale-[20%] group-hover:grayscale-0 transition-all duration-700"
+            className="w-full h-full object-cover filter grayscale-[15%] group-hover:grayscale-0 transition-all duration-700"
           />
           {/* Subtle dark gradient overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-black/10 opacity-80 group-hover:opacity-40 transition-opacity duration-700" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-black/10 opacity-80 group-hover:opacity-45 transition-opacity duration-700" />
         </motion.div>
 
         {/* Labels */}
-        <div className="absolute bottom-12 left-6 sm:left-12 z-10 flex flex-col gap-2">
-          <span className="text-[10px] font-mono uppercase tracking-[0.2em] text-white/70">
+        <div className="absolute bottom-5 sm:bottom-7 left-5 sm:left-8 z-10 flex flex-col gap-1.5">
+          <span className="text-[9px] sm:text-[10px] font-mono uppercase tracking-[0.2em] text-white/70">
             {settings.splitA?.sublabel}
           </span>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif uppercase tracking-widest text-white transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif uppercase tracking-widest text-white transform translate-y-3 opacity-90 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-400 ease-out">
             {settings.splitA?.label}
           </h2>
+          <span className="text-[9px] font-mono tracking-widest uppercase text-white/50 group-hover:text-white transition-colors duration-300 flex items-center gap-1.5 mt-0.5">
+            Discover <span className="text-xs transition-transform group-hover:translate-x-1">→</span>
+          </span>
         </div>
       </motion.a>
 
@@ -97,32 +96,35 @@ export function Banner2({ section }: SectionProps) {
         initial={{ x: '100%' }}
         animate={{ x: 0, width: getWidth('right') }}
         transition={{ 
-          x: { duration: 1.2, ease: [0.16, 1, 0.3, 1] },
-          width: { duration: 0.8, ease: [0.16, 1, 0.3, 1] }
+          x: { duration: 1, ease: [0.16, 1, 0.3, 1] },
+          width: { duration: 0.6, ease: [0.16, 1, 0.3, 1] }
         }}
         className="relative h-full overflow-hidden block group cursor-pointer border-l border-white/10"
       >
         <motion.div 
           animate={{ scale: hovered === 'right' ? 1.05 : 1 }}
-          transition={{ duration: 1.2, ease: "easeOut" }}
+          transition={{ duration: 1, ease: "easeOut" }}
           className="absolute inset-0 w-full h-full"
         >
           <img 
             src={settings.splitB?.image} 
             alt={settings.splitB?.label} 
-            className="w-full h-full object-cover filter grayscale-[20%] group-hover:grayscale-0 transition-all duration-700"
+            className="w-full h-full object-cover filter grayscale-[15%] group-hover:grayscale-0 transition-all duration-700"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-black/10 opacity-80 group-hover:opacity-40 transition-opacity duration-700" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-black/10 opacity-80 group-hover:opacity-45 transition-opacity duration-700" />
         </motion.div>
 
         {/* Labels */}
-        <div className="absolute bottom-12 right-6 sm:right-12 z-10 flex flex-col items-end gap-2 text-right">
-          <span className="text-[10px] font-mono uppercase tracking-[0.2em] text-white/70">
+        <div className="absolute bottom-5 sm:bottom-7 right-5 sm:right-8 z-10 flex flex-col items-end gap-1.5 text-right">
+          <span className="text-[9px] sm:text-[10px] font-mono uppercase tracking-[0.2em] text-white/70">
             {settings.splitB?.sublabel}
           </span>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif uppercase tracking-widest text-white transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif uppercase tracking-widest text-white transform translate-y-3 opacity-90 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-400 ease-out">
             {settings.splitB?.label}
           </h2>
+          <span className="text-[9px] font-mono tracking-widest uppercase text-white/50 group-hover:text-white transition-colors duration-300 flex items-center gap-1.5 mt-0.5">
+            Discover <span className="text-xs transition-transform group-hover:translate-x-1">→</span>
+          </span>
         </div>
       </motion.a>
     </section>

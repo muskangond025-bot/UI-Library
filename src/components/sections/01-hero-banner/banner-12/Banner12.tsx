@@ -7,7 +7,7 @@ export function Banner12({ section }: any) {
   const { settings = {} } = section || {};
   
   return (
-    <section className="relative w-full h-[100vh] min-h-[600px] overflow-hidden bg-black flex items-center">
+    <section className="relative w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] overflow-hidden bg-black flex items-center">
       
       {/* Background Image with Parallax & Overlay */}
       <motion.div 

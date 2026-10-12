@@ -7,7 +7,7 @@ export function AboutHero1({ data, section }: { data?: any; section?: any }) {
   const [storeName, setStoreName] = useState('');
 
   return (
-    <div className="w-full min-h-[640px] sm:min-h-[720px] lg:min-h-[780px] relative overflow-hidden flex items-center justify-center font-sans bg-[#FAF8FF]">
+    <div className="w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] relative overflow-hidden flex items-center justify-center font-sans bg-[#FAF8FF]">
       
       {/* 1. Full-Bleed 3D Isometric Background Scene Image */}
       <div className="absolute inset-0 z-0">

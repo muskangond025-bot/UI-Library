@@ -98,7 +98,7 @@ export function Banner11({ section }: SectionProps) {
   return (
     <section 
       ref={sectionRef}
-      className="relative w-full min-h-[900px] sm:min-h-screen overflow-hidden flex items-center group selection:bg-black selection:text-white"
+      className="relative w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] overflow-hidden flex items-center group selection:bg-black selection:text-white"
       style={{ backgroundColor: bg, color: textCol, ['--mouse-x' as any]: '-1000px', ['--mouse-y' as any]: '-1000px' }}
       onPointerMove={handlePointerMove}
       onPointerLeave={handlePointerLeave}
@@ -124,7 +124,7 @@ export function Banner11({ section }: SectionProps) {
         {settings?.index}
       </div>
 
-      <div className="relative z-10 w-full h-full max-w-[1600px] mx-auto px-6 sm:px-12 lg:px-16 py-20 flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-8">
+      <div className="relative z-10 w-full h-full max-w-[1600px] mx-auto px-6 sm:px-12 lg:px-16 py-8 flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-8">
         
         {/* Left Side: Typography */}
         <div className="w-full lg:w-[35%] flex flex-col justify-center order-2 lg:order-1 relative z-20">
@@ -152,7 +152,7 @@ export function Banner11({ section }: SectionProps) {
             ))}
           </div>
 
-          <div className="mb-12 max-w-sm">
+          <div className="mb-6 max-w-sm">
             <p className="text-sm font-light leading-relaxed" style={{ color: mutedCol }}>
               {settings?.description}
             </p>
@@ -194,7 +194,7 @@ export function Banner11({ section }: SectionProps) {
         </div>
 
         {/* Right Side: Interactive Product Canvas */}
-        <div className="w-full lg:w-[60%] relative flex justify-center items-center min-h-[500px] lg:min-h-[750px] order-1 lg:order-2">
+        <div className="w-full lg:w-[60%] relative flex justify-center items-center h-full min-h-[320px] max-h-[480px] order-1 lg:order-2">
           
           {/* Subtle cursor-reactive decorative line */}
           <div 

@@ -12357,7 +12357,7 @@ export function SectionLibraryGrid({ category }: GridProps) {
                 
                                 return (
                   <div key={section.id} id={section.id} className="flex flex-col w-full">
-                    <div className="px-8 lg:px-12 max-w-[1600px] mx-auto w-full mb-6">
+                    <div className="px-8 lg:px-12 max-w-[1600px] mx-auto w-full mb-3">
                       <div className="flex items-end justify-between">
                         <div>
                           <div className="flex items-baseline gap-3 mb-2">

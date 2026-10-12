@@ -46,7 +46,7 @@ export function Banner9({ section }: SectionProps) {
 
   return (
     <section 
-      className="relative w-full min-h-[850px] sm:min-h-screen overflow-hidden selection:bg-white selection:text-black"
+      className="relative w-full h-[520px] sm:h-[580px] lg:h-[620px] min-h-[460px] max-h-[680px] overflow-hidden selection:bg-white selection:text-black"
       style={{ backgroundColor: bg, color: textCol }}
       onMouseMove={handleMouseMove}
       onMouseLeave={() => {
